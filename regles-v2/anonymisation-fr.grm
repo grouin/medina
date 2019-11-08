@@ -1,0 +1,165 @@
+//////////
+// Grammaire utilisée par MEDINA
+// (c) Cyril Grouin, octobre 2013
+//////////
+
+
+// Variables définies par l'utilisateur.
+// - La déclaration se fait avec le symbole "$", l'utilisation avec le symbole "_" (meilleure visibilité).
+// - Ne pas utiliser des noms de variables similaires à des mots du texte à traiter (qui existeraient en majuscules).
+// - Vérifier qu'il y a une tabulation (et pas des espaces) entre le nom de variable et son contenu.
+
+$PATIENT	(madame|mademoiselle|monsieur|Madame|Mademoiselle|Monsieur|Mme|Melle|M\.|Me|Mr|ME|MR|NOM :|PRENOM :|Nom :|Prénom :|Monsieur :|Madame :)
+$MEDECIN	(docteur|professeur|Docteur|Professeur|Dr\.|Pr\.|dr\.|dr|Dr|Pr|DR|PR|CH)
+$FONCTIONS	(Aides :|Aides:|Opérateur :|Opérateur:)
+$HOPITAL	(Centre Hospitalier|CHU|CHR|CH|Clinique|HÔPITAL|HOPITAL|Hôpital|Polyclinique|Salle|Service|Unité|centre hospitalier|clinique|hôpital|polyclinique|salle|service|unité|l'hôpital|l'unité)
+$RUE	(avenue|boulevard|chemin|place|rue|square|Avenue|Boulevard|Bd|Chemin|Place|Rue|Square|AVENUE|BOULEVARD|BD|CHEMIN|PLACE|RUE|SQUARE)
+$MOIS	(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|Janvier|Février|Mars|Avril|Mai|Juin|Juillet|Août|Septembre|Octobre|Novembre|Décembre)
+$MCONS	(janvier|février|mars|mai|juin|juillet|septembre|novembre|décembre|Janvier|Février|Mars|Mai|Juin|Juillet|Septembre|Novembre|Décembre)
+$MVOY	(avril|août|octobre|Avril|Août|Octobre)
+$PREPVILLE	(en|la|le|les|sous|sur)
+$PREPADR	(du |des |de l'|de la |de |)
+$BISTER	([A-Z]|bis|ter|)
+$CEDEX	(CEDEX|Cedex|cedex)
+$PARTICULE	(Al|Ben|Da|De|Di|Du|La|Le|Mac|Mc|O|van|Van|von|Von|AL|BEN|DA|DE|DI|DU|LA|LE|MAC|MC|VAN|VAN|VON|VON|)
+$CAPINI	[A-Z]\p{L}+
+$TOKEN	\p{L}+
+$INITIALE	[A-Z]\.
+$CHIFFRE	[\dO]
+$NUMMO	(1|2|3|4|5|6|7|8|9|01|02|03|04|05|06|07|08|09|10|11|12)
+$SEP	(\-|\.|\/)
+$SPACE	(\-|\.|\/| )
+$SERIE	(série :\s?|SN\s?)
+$MARQUE	(CPI|Ela Medical|Guidant|Medtronic|Sorin|St Jude Médical|CARTO|ELA MEDICAL|GUIDANT|MEDTRONIC|SORIN|ST JUDE MÉDICAL)
+$MODELE	(Acuity|BRIO|Endotak Regence SG|Mozaic|MERGE|Microny|Sigma|Vitality)
+
+
+// Hôpitaux
+
+hopital	(ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS|Assistance Publique - Hôpitaux de Paris|_HOPITAL SAINT-ANTOINE|_HOPITAL TROUSSEAU|TROUSSEAU|_HOPITAL NOTRE_SPACE?DAME DE BON SECOURS|_HOPITAL Saint_SPACEVincent_SPACEde_SPACEPaul|CENTRE HOSPITALIER UNIVERSITAIRE DE RENNES|PONTCHAILLOU)
+hopital	(_HOPITAL [A-Z]\.\s?[A-Z]\.? _CAPINI)
+hopital	(_HOPITAL _INITIALE\s?_CAPINI)
+hopital	(_HOPITAL _PREPADR_CAPINI _CAPINI)
+hopital	(_HOPITAL _PREPADR_CAPINI)
+hopital	(_HOPITAL _CAPINI_SEP?_CAPINI _CAPINI)
+hopital	(_HOPITAL _CAPINI_SEP?_CAPINI)
+hopital	(_HOPITAL _CAPINI)
+hopital	(CHU)
+
+
+// Adresses postales : rue Pond er Huern ; 184 rue du Faubourg Saint-Antoine ; rue Victor Hugo ; rue de la République
+
+adresse	(_CHIFFRE+\s?_BISTER\,? _RUE _PREPADR_CAPINI _TOKEN _CAPINI)
+adresse	(_CHIFFRE+\s?_BISTER\,? _RUE _PREPADR_CAPINI _CAPINI_SEP_CAPINI)
+adresse	(_CHIFFRE+\s?_BISTER\,? _RUE _PREPADR_TOKEN _CAPINI_SEP_CAPINI)
+adresse	(_CHIFFRE+\s?_BISTER\,? _RUE _PREPADR_CAPINI( |\-)_CAPINI)
+adresse	(_CHIFFRE+\s?_BISTER\,? _RUE _PREPADR_CAPINI)
+adresse	(_CHIFFRE+\s?_BISTER\,? _RUE _PREPADR_TOKEN)
+
+
+// Noms de personne : Monsieur Jean-Claude Martin ; Mr Jean Martin ; Dr M. Gonzales
+
+medecin	_MEDECIN (_CAPINI_SPACE_CAPINI_SPACE_CAPINI|_CAPINI_SPACE_CAPINI)
+medecin	_MEDECIN ((_INITIALE\s_INITIALE_SPACE?|_INITIALE_SPACE?|)_PARTICULE_SPACE?_CAPINI)
+
+patient	_PATIENT (_CAPINI_SPACE_CAPINI_SPACE_CAPINI)
+patient	_PATIENT (_CAPINI_SPACE_CAPINI)
+patient	_PATIENT (_PARTICULE_SPACE?_CAPINI)
+patient	</patient> (_PARTICULE_SPACE?_CAPINI)
+
+medecin	_FONCTIONS ((_INITIALE |)[A-Z]\p{L}{3,})
+medecin	(_INITIALE [A-Z]\p{L}{3,})
+medecin	</medecin>(\-_CAPINI)
+medecin	</medecin> (_CAPINI)
+medecin	par (_CAPINI _PARTICULE_SPACE?_CAPINI)
+
+
+// Numéro de sécurité sociale, à traiter avant les dates et avant les téléphones (du plus grand au plus petit)
+
+numero_ss	(_CHIFFRE_SEP_CHIFFRE{2}_SEP_CHIFFRE{2}_SEP_CHIFFRE{2}_SEP_CHIFFRE{3}_SEP_CHIFFRE{3}(_SEP_CHIFFRE{2}|))
+numero_ss	(_CHIFFRE_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{3}_SPACE_CHIFFRE{3}(_SPACE_CHIFFRE{2}|))
+
+
+// Téléphone, à traiter avant les dates : 01.30.00.00.00 ou 01 ; 01.30.00.00.00 ; 01 30 00 00 00 ; 42 00 00 00 ; 4 2 00 00 00 (problème : 07/05/2012 en téléphone) ; 33 1 42 00 00 00
+
+telephone	(0_CHIFFRE_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SEP_CHIFFRE{2})
+telephone	(0_CHIFFRE_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2} ou _CHIFFRE{2})
+telephone	(0_CHIFFRE_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2})
+telephone	(_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2}_SPACE_CHIFFRE{2})
+//telephone	(_CHIFFRE_SPACE?_CHIFFRE_SPACE?_CHIFFRE_SPACE?_CHIFFRE_SPACE?_CHIFFRE_SPACE?_CHIFFRE_SPACE?_CHIFFRE_SPACE?_CHIFFRE)
+telephone	(33_SPACE?_CHIFFRE_SPACE?_CHIFFRE{2}_SPACE?_CHIFFRE{2}_SPACE?_CHIFFRE{2}_SPACE?_CHIFFRE{2})
+
+
+// Numéro de série
+
+numero	_SERIE([\d[A-Z]]{10,})
+numero	_SERIE(_CHIFFRE{3}[A-Z]{2}_CHIFFRE{3})
+
+
+// Dates, dans l'ordre : 26/10/06 au 18/11/06 ; 21/07 au 02/10/98 ; 15/01/2013 ; 15/01/13 ; 13 au 15 janvier 2013 ; 25 au 26 octobre ; juin et juillet ; 15 janvier 2013 ; 15 janvier ; janvier 2013 à février 2013 ; janvier à février 2013 ; janvier 2013 ; janvier 13 ; de janvier ; d'avril ; 2013. Le "O" à la place du "0" est également pris en compte (faute de frappe, OCR)
+
+date	Date de naissance : ([\d\-\.\/]{10})
+date	(_CHIFFRE{1,2}_SEP_CHIFFRE{1,2}_SEP_CHIFFRE{2} (et|au|ou) _CHIFFRE{1,2}_SEP_CHIFFRE{2}_SEP_CHIFFRE{2})
+date	(_CHIFFRE{1,2}_SEP_CHIFFRE{2} (et|au|ou) _CHIFFRE{1,2}_SEP_CHIFFRE{2}_SEP_CHIFFRE{2})
+date	(_CHIFFRE{1,2}_SEP_NUMMO_SEP(19|20|2O)_CHIFFRE{2})
+date	(_CHIFFRE{1,2}_SEP_NUMMO_SEP_CHIFFRE{2})
+date	(_CHIFFRE{1,2} _MOIS (et|au|ou) _CHIFFRE{1,2}(er|e|) _MOIS (19|20|2O)_CHIFFRE{2})
+date	(_CHIFFRE{1,2} _MOIS (et|au|ou) _CHIFFRE{1,2}(er|e|) _MOIS)
+date	(_CHIFFRE{1,2} (et|au|ou) _CHIFFRE{1,2}(er|e|) _MOIS (19|20|2O)_CHIFFRE{2})
+date	(_CHIFFRE{1,2} (et|au|ou) _CHIFFRE{1,2}(er|e|) _MOIS)
+date	(_MOIS et _MOIS)
+date	(_CHIFFRE{1,2}(er|e|) _MOIS (19|20|2O)_CHIFFRE{2})
+date	(_CHIFFRE{1,2}(er|e|) _MOIS)
+date	(_MOIS (19|20|2O)_CHIFFRE{2} (à|et) _MOIS (19|20|2O)_CHIFFRE{2})
+date	(_MOIS (à|et) _MOIS (19|20|2O)_CHIFFRE{2})
+date	(_MOIS (19|20|2O)_CHIFFRE{2})
+date	(_MOIS _CHIFFRE{2})
+date	de (_MCONS) 
+date	d'(_MVOY)
+date	((19|20|2O)_CHIFFRE{2})
+date	(_MOIS)
+
+
+// Numéro de dossier avant les codes postaux
+
+numero	dossier (_CHIFFRE{5,})
+numero	(_SERIE\s?_CHIFFRE{5,})
+
+
+// Codes postaux et villes après les dates
+
+codepostal	(_CHIFFRE{4}0)
+codepostal	(_CHIFFRE{5})
+
+ville	(Saint(e|)_SPACE_CAPINI_SPACE_PREPVILLE_SPACE_CAPINI)
+ville	</codepostal> (_CAPINI_SEP_PREPVILLE_SEP_CAPINI)
+ville	</codepostal> (_CAPINI(\/|_SEP)?\p{L}+)
+ville	(_CEDEX _CHIFFRE{1,3})
+
+
+// Adresses électroniques
+
+email	([A-Za-z\.\-]+\@[A-Za-z\-\.]+\.[a-z]{2,3})
+
+
+// Ages
+
+age	!~_CHIFFRE+~! ans
+
+
+// Appareillage médical : Medtronic Sigma DR 203 ; Ela Medical BRIO DR 212 ; Guidant Acuity Steerable ; Guidant Vitality II EL ; Guidant Vitality 2 ELVR ; Guidant Endotak Regence SG ; MEDTRONIC 6931
+
+info	(_MARQUE_SEP? _MODELE [A-Z]+ _CHIFFRE{2,3})
+info	(_MARQUE_SEP? _MODELE (II|)_CAPINI)
+info	(_MARQUE_SEP? _MODELE _CHIFFRE _CAPINI)
+info	(_MARQUE_SEP? _MODELE)
+info	(_MARQUE _CHIFFRE{2,})
+info	Type : (_CHIFFRE{4,})
+info	Type : (_CAPINI [A-Z0-9]+ [A-Z])
+info	modèle (_CHIFFRE{2}\-_CHIFFRE{2} [A-Z])
+info	(_MARQUE)
+info	(_MODELE)
+
+
+
+//duree	!~(_CHIFFRE{1,2}_SEP_CHIFFRE{1,2}|_CHIFFRE{1,2})~! (SA|S\.A)
