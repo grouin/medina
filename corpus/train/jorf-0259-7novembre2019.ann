@@ -1,0 +1,279 @@
+T1	Date 15 30	7 novembre 2019
+T2	Date 108 123	31 octobre 2019
+T3	Date 798 815	20 septembre 2018
+T4	Date 929 944	11 février 2019
+T5	Organisation 971 1006	agence régionale de santé Grand Est
+T6	Organisation 823 896	groupement de coopération sanitaire Territorial Ardenne Nord Polyclinique
+T7	Organisation 759 794	agence régionale de santé Grand Est
+T8	Organisation 1101 1174	groupement de coopération sanitaire Territorial Ardenne Nord Polyclinique
+T9	Date 1360 1373	26 avril 2019
+T10	Date 1384 1394	2 mai 2019
+T11	Organisation 1403 1476	groupement de coopération sanitaire Territorial Ardenne Nord Polyclinique
+T12	Lieu 1482 1531	45, avenue Manchester, 08000 Charleville-Mézières
+A1	type T12 adresse
+T13	Date 1618 1635	25 septembre 2019
+T14	Organisation 1884 1919	agence régionale de santé Grand Est
+T15	Date 1842 1857	11 février 2019
+T16	Organisation 2027 2100	groupement de coopération sanitaire Territorial Ardenne Nord Polyclinique
+T17	Date 2204 2219	31 octobre 2019
+T18	Personne 2305 2316	K. Julienne
+T19	Date 2395 2410	29 octobre 2019
+T20	Date 2659 2674	27 juillet 2005
+T21	Date 2803 2818	17 février 2014
+T22	Date 2986 2999	27 avril 2018
+T23	Date 3198 3213	17 février 2014
+T24	Personne 3160 3168	MERRIAUX
+T25	Personne 3170 3179	Jean-Marc
+T26	Personne 3412 3425	Nathalie HERR
+T27	Personne 3926 3939	Alain THILLAY
+T28	Personne 4343 4358	Patrick ARCELUZ
+T29	Personne 4777 4793	Laurence MORANDI
+T30	Personne 5167 5180	Marie DEROIDE
+T31	Personne 5566 5581	Marcel DETURCHE
+T32	Personne 5956 5970	Catherine BRAX
+T33	Personne 6359 6373	François SOLER
+T34	Personne 6746 6758	Claude SAIVE
+T35	Personne 7128 7145	Dominique ALGLAVE
+T36	Date 7708 7723	29 octobre 2019
+T38	Date 7819 7834	4 novembre 2019
+T39	Date 8087 8100	24 avril 2003
+T40	Date 8309 8324	27 juillet 2005
+T41	Date 8445 8457	12 août 2013
+T42	Date 8584 8600	19 décembre 2018
+T43	Date 8695 8706	5 août 2009
+T44	Date 8822 8834	27 août 2010
+T45	Personne 9004 9020	Philippe CHADRYS
+T46	Personne 9608 9622	Frédéric MALON
+T47	Personne 9759 9779	Anne-Sophie COULBOIS
+T48	Personne 9831 9842	Fabien LANG
+T49	Personne 9933 9949	Patricia BOURDON
+T50	Personne 10057 10074	Christine DEMARLE
+T51	Personne 10490 10508	Thomas de RICOLFIS
+T52	Personne 10602 10617	Corinne BERTOUX
+T53	Personne 10731 10747	Guillaume HEZARD
+T54	Personne 10890 10902	Pascal FAGET
+T55	Personne 11256 11270	Frédéric DOIDY
+T56	Personne 11340 11357	Olivier RICHARDOT
+T57	Personne 11445 11461	Alexandre PICHON
+T58	Personne 11854 11871	Catherine CHAMBON
+T59	Personne 11952 11967	Nicolas GUIDOUX
+T60	Personne 12066 12078	Sabine MELIN
+T61	Personne 12177 12190	Hélène HALTER
+T62	Personne 12290 12308	Malika BOUZEBOUDJA
+T63	Personne 12745 12766	Jean-Michel COLOMBANI
+T64	Personne 12860 12875	Christine DUFAU
+T65	Personne 13224 13236	Carole MICHE
+T66	Personne 13244 13251	MORALDI
+T67	Personne 13368 13384	Elisabeth JOUGLA
+T68	Personne 13496 13511	Stéphane GOGUET
+T69	Personne 13619 13634	Pamella EDOUARD
+T70	Personne 13746 13762	Constance DEVRUE
+T71	Personne 13873 13890	Michaël LE MAITRE
+T72	Personne 14349 14364	Jocelyne COLLIN
+T73	Personne 14577 14599	Béatrice ROY-TIROUMALE
+T74	Personne 15059 15079	Jean-Jacques COLOMBI
+T75	Personne 15163 15180	Franck DANNEROLLE
+T76	Personne 15276 15291	Nathalie CHUPIN
+T77	Personne 15668 15683	Philippe MENARD
+T78	Personne 15755 15765	Eric BEROT
+T79	Personne 15904 15921	Sandrine DESLIARD
+T80	Personne 16066 16082	Martine CHAPELOT
+T81	Personne 16493 16506	Estelle DAVET
+T82	Personne 16646 16661	Bernard MANZONI
+T83	Personne 16853 16869	Sandrine PERENON
+T84	Personne 17333 17347	François BODIN
+T85	Lieu 17421 17429	Bordeaux
+A2	type T85 ville
+T86	Lieu 17569 17577	Bordeaux
+A3	type T86 ville
+T87	Personne 17466 17481	Patrick LEONARD
+T88	Personne 17584 17603	Marie-Josèphe VIDAL
+T89	Lieu 17746 17754	Bordeaux
+A4	type T89 ville
+T90	Personne 17760 17771	José MARIET
+T91	Personne 17868 17881	Jean-Luc SAUX
+T92	Personne 17983 17996	Tania LEHMANN
+T93	Lieu 17854 17862	Toulouse
+A5	type T93 ville
+T94	Personne 18411 18423	Magali BLANC
+T95	Personne 18432 18439	CAILLAT
+T96	Personne 18561 18574	Olivier DUPAS
+T97	Lieu 18657 18662	Dijon
+A6	type T97 ville
+T98	Personne 18939 18953	Romuald MULLER
+T99	Personne 19069 19087	Guillaume GALLOUIN
+T100	Lieu 19027 19032	Lille
+A7	type T100 ville
+T101	Personne 19187 19202	Béatrice LEFORT
+T102	Date 26021 26036	21 octobre 2019
+T103	Date 27578 27595	30 septembre 1986
+T104	Date 26230 26245	4 novembre 2019
+T105	Date 27111 27126	8 novembre 2019
+T108	Lieu 17123 17131	Bordeaux
+T109	Lieu 18203 18208	Dijon
+T110	Lieu 18519 18524	Dijon
+T111	Lieu 18732 18737	Lille
+T112	Lieu 19175 19180	Lille
+T113	Lieu 19334 19339	Lille
+T114	Lieu 27229 27234	Paris
+T115	Lieu 17968 17976	Toulouse
+T116	Lieu 18125 18133	Toulouse
+T117	Lieu 27513 27521	Toulouse
+T118	Lieu 27901 27909	Toulouse
+T119	Lieu 27981 27989	Toulouse
+A8	type T108 ville
+A9	type T115 ville
+A10	type T116 ville
+A11	type T109 ville
+A12	type T110 ville
+A13	type T111 ville
+A14	type T112 ville
+A15	type T113 ville
+T106	Lieu 19409 19413	Lyon
+A16	type T106 ville
+T107	Personne 19615 19632	Christophe ALLAIN
+T120	Personne 19747 19765	Nathalie TALLEVAST
+T121	Personne 19863 19873	Alain BARD
+T122	Personne 20024 20039	Fabrice FINANCE
+T123	Personne 20144 20159	Fabrice KOZDEBA
+T124	Lieu 20122 20138	Clermont-Ferrand
+A17	type T124 ville
+T125	Personne 20543 20554	Eric ARELLA
+T126	Lieu 20627 20636	Marseille
+A18	type T126 ville
+T127	Personne 20673 20688	Philippe FRIZON
+T128	Personne 20792 20805	Muriel ANQUET
+T129	Personne 20928 20951	Jean-Philippe FOUGEREAU
+T130	Lieu 21034 21045	Montpellier
+A19	type T130 ville
+T131	Personne 21051 21075	DE FREITAS MEIRA Anthony
+T132	Personne 21183 21195	Florent MION
+T133	Lieu 21266 21270	Nice
+A20	type T133 ville
+T134	Lieu 21339 21346	Orléans
+A21	type T134 ville
+T135	Personne 21548 21561	Eric CORDEROT
+T136	Personne 21684 21705	Jean-Philippe ALBAREL
+T137	Personne 21805 21822	Christophe DELOST
+T138	Personne 21968 21983	Maurice ALIBERT
+T139	Lieu 22066 22073	Limoges
+A22	type T139 ville
+T140	Personne 22080 22095	Alexia DUDOGNON
+T141	Lieu 22259 22273	Pointe-à-Pitre
+A23	type T141 ville
+T142	Personne 22475 22493	Christian NUSSBAUM
+T143	Personne 22632 22642	Benoît NAU
+T144	Personne 22796 22813	Alexandre LIHOLAT
+T145	Personne 22895 22910	Philippe JOMIER
+T146	Lieu 22992 22998	Guyane
+T147	Lieu 22879 22889	Martinique
+T148	Lieu 22776 22790	Fort-de-France
+A24	type T148 ville
+T149	Lieu 23069 23075	Rennes
+A25	type T149 ville
+T150	Personne 23277 23290	Gilles SOULIE
+T151	Personne 23406 23420	GONTIER Pascal
+T152	Personne 23520 23536	Guillaume BLAVEC
+T153	Personne 23689 23702	Jérôme MARTIN
+T154	Personne 23796 23810	Jérémie DUMONT
+T155	Lieu 23785 23790	Rouen
+A26	type T155 ville
+T156	Personne 23908 23921	Lucien ARLERI
+T157	Personne 24015 24029	Léonard FAUVET
+T158	Lieu 24003 24009	Angers
+A27	type T158 ville
+T159	Personne 24405 24418	Béatrice BRUN
+T160	Lieu 24491 24501	Strasbourg
+A28	type T160 ville
+T161	Personne 24507 24523	Thierry DE MARIA
+T162	Personne 24627 24645	Guillaume CRIVELLI
+T163	Personne 24747 24767	Jean-Michel BOLUSSET
+T164	Lieu 24736 24741	Nancy
+A29	type T164 ville
+T165	Lieu 24963 24968	Reims
+A30	type T165 ville
+T166	Personne 24861 24876	Antoine BAUDANT
+T167	Lieu 25033 25040	Ajaccio
+A31	type T167 ville
+T168	Personne 25241 25255	Christian SIVY
+T169	Personne 25343 25356	Sophie THOMAS
+T170	Personne 25723 25737	Richard SRECKI
+T171	Personne 25837 25855	Sophie BEAUVILLAIN
+T172	Lieu 25820 25830	Versailles
+A32	type T172 ville
+A176	type T175 ville
+A178	type T177 ville
+A180	type T179 ville
+A182	type T181 ville
+A184	type T183 ville
+A186	type T185 ville
+A188	type T187 ville
+A190	type T189 ville
+A192	type T191 ville
+A194	type T193 ville
+A196	type T195 ville
+A198	type T197 ville
+A200	type T199 ville
+A202	type T201 ville
+A204	type T203 ville
+A206	type T205 ville
+A208	type T207 ville
+A210	type T209 ville
+A212	type T211 ville
+T175	Lieu 20246 20262	Clermont-Ferrand
+T177	Lieu 22182 22189	Limoges
+T179	Lieu 19705 19709	Lyon
+T181	Lieu 19853 19857	Lyon
+T183	Lieu 20014 20018	Lyon
+T185	Lieu 20332 20341	Marseille
+T187	Lieu 20776 20785	Marseille
+T189	Lieu 20913 20922	Marseille
+T191	Lieu 21166 21177	Montpellier
+T193	Lieu 22581 22595	Pointe-à-Pitre
+T195	Lieu 24850 24855	Reims
+T197	Lieu 23363 23369	Rennes
+T199	Lieu 23508 23514	Rennes
+T201	Lieu 23677 23683	Rennes
+T203	Lieu 23897 23902	Rouen
+T205	Lieu 24192 24202	Strasbourg
+T207	Lieu 24611 24621	Strasbourg
+T209	Lieu 25511 25521	Versailles
+T211	Lieu 25982 25992	Versailles
+T176	Lieu 24115 24121	Angers
+A33	type T176 ville
+T178	Lieu 25329 25336	Ajaccio
+A34	type T178 ville
+T180	Lieu 25438 25445	Ajaccio
+A35	type T180 ville
+T182	Personne 26248 26256	J. Bonet
+T184	Date 26335 26350	28 octobre 2019
+T173	Date 26674 26689	11 janvier 1984
+T174	Date 26792 26803	3 mars 2017
+T186	Personne 26829 26845	Stanislas Martin
+T188	Personne 27081 27096	Audrey Sabourin
+T190	Date 27239 27254	28 octobre 2019
+A36	type T114 ville
+T192	Personne 27257 27266	S. Martin
+T194	Date 27452 27469	11 septembre 2019
+A37	type T117 ville
+T196	Organisation 27671 27682	Radio CIRCa
+T198	Date 27784 27786	18
+T200	Date 27790 27805	27 octobre 2019
+T202	Lieu 27814 27852	Centre Cuzin, rue Guynemer, 32000 AUCH
+A38	type T202 adresse
+A39	type T118 ville
+T204	Date 27914 27931	11 septembre 2019
+A40	type T119 ville
+T206	Personne 28009 28026	I. Carthe-Mazeres
+T208	Id 250 262	SSAH1931879S
+T210	Id 2491 2503	MENA1926291S
+T212	Id 7918 7930	INTC1931411S
+T213	Id 26473 26485	ACOR1931831S
+T214	Id 27390 27402	CSAR1931886X
+T215	Organisation 27752 27763	Radio CIRCA
+T216	Organisation 27474 27509	Comité territorial de l'audiovisuel
+T217	Organisation 27942 27977	comité territorial de l'audiovisuel
+T220	Id 7990 8002	INTC1931411S
+T221	Personne 7726 7740	J.-M. Merriaux
+T222	Id 2564 2576	MENA1926291S
+T223	Id 323 335	SSAH1931879S

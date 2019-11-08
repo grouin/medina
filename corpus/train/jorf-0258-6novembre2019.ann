@@ -1,0 +1,201 @@
+T1	Date 15 30	6 novembre 2019
+T2	Date 106 121	24 octobre 2019
+T3	Date 144 161	11 septembre 2019
+T4	Id 293 305	JUSF1930815A
+T5	Date 506 518	23 mars 2019
+T6	Date 720 735	6 novembre 2007
+T7	Date 889 906	11 septembre 2019
+T8	Lieu 1682 1687	Meaux
+A1	type T8 ville
+T9	Lieu 1748 1753	Meaux
+A2	type T9 ville
+T10	Lieu 1795 1802	Chelles
+A3	type T10 ville
+T11	Lieu 1935 1943	Malakoff
+A4	type T11 ville
+T12	Lieu 1886 1893	Bagneux
+A5	type T12 ville
+T13	Lieu 1817 1825	Nanterre
+A6	type T13 ville
+T14	Lieu 1958 1963	Paris
+A7	type T14 ville
+T15	Lieu 2058 2076	Rue de Romainville
+A8	type T15 adresse
+A19	type T18 ville
+T16	Date 4181 4196	24 octobre 2019
+T18	Lieu 2014 2019	Paris
+T17	Lieu 2091 2105	Fort de France
+A9	type T17 ville
+T19	Lieu 2236 2247	Le Lamentin
+A10	type T19 ville
+T20	Lieu 2177 2186	Le Robert
+A11	type T20 ville
+T21	Lieu 2261 2270	Mamoudzou
+A12	type T21 ville
+T22	Lieu 2380 2389	Mamoudzou
+A13	type T22 ville
+A25	type T24 ville
+A27	type T26 ville
+T24	Lieu 15598 15609	Le Lamentin
+T26	Lieu 2428 2437	Mamoudzou
+T25	Lieu 2452 2461	Coutances
+A14	type T25 ville
+T27	Lieu 2586 2592	Nantes
+A15	type T27 ville
+T28	Lieu 2643 2647	Rezé
+A16	type T28 ville
+T29	Lieu 2662 2670	Besançon
+A17	type T29 ville
+T30	Lieu 2923 2942	Saint Jean le Blanc
+A18	type T30 ville
+T31	Lieu 2800 2808	Chartres
+A20	type T31 ville
+T32	Lieu 2956 2966	Carpentras
+A21	type T32 ville
+T33	Lieu 3095 3104	Marseille
+A22	type T33 ville
+T34	Lieu 3189 3197	Toulouse
+A23	type T34 ville
+T35	Lieu 3332 3343	Montpellier
+A24	type T35 ville
+T36	Lieu 3358 3363	Nîmes
+A26	type T36 ville
+T37	Lieu 3568 3572	Agen
+A28	type T37 ville
+T38	Lieu 3628 3644	Clermont Ferrand
+A29	type T38 ville
+T39	Lieu 3696 3704	Grenoble
+A30	type T39 ville
+T40	Lieu 3798 3804	Troyes
+A31	type T40 ville
+T41	Lieu 3867 3872	Nancy
+A32	type T41 ville
+T42	Lieu 4083 4095	Valenciennes
+A33	type T42 ville
+T43	Personne 4277 4294	P. Ghaleh-Marzban
+T44	Personne 4355 4365	M. Mathieu
+A46	type T45 ville
+A48	type T47 ville
+A50	type T49 ville
+A52	type T51 ville
+A54	type T53 ville
+A56	type T55 ville
+A58	type T57 ville
+A60	type T59 ville
+A62	type T61 ville
+A64	type T63 ville
+A66	type T65 ville
+A68	type T67 ville
+A70	type T69 ville
+A72	type T71 ville
+A74	type T73 ville
+A76	type T75 ville
+T45	Lieu 3487 3491	Agen
+T47	Lieu 2728 2736	Besançon
+T49	Lieu 2778 2786	Besançon
+T51	Lieu 3022 3032	Carpentras
+T53	Lieu 3071 3081	Carpentras
+T55	Lieu 2866 2874	Chartres
+T57	Lieu 2562 2571	Coutances
+T59	Lieu 3775 3783	Grenoble
+T61	Lieu 3160 3169	Marseille
+T63	Lieu 3270 3281	Montpellier
+T65	Lieu 4017 4022	Nancy
+T67	Lieu 4064 4069	Nancy
+T69	Lieu 3421 3426	Nîmes
+T71	Lieu 3468 3473	Nîmes
+T73	Lieu 3248 3256	Toulouse
+T75	Lieu 3847 3853	Troyes
+T23	Lieu 3610 3614	Agen
+A34	type T23 ville
+T46	Organisation 3920 3939	Association REALISE
+T48	Organisation 3879 3918	Accueil de Jour Educatif et Scolaire 54
+T50	Organisation 4144 4162	Association ALEFPA
+T52	Date 4444 4459	29 octobre 2019
+T54	Id 4540 4552	ESRA1926290S
+T56	Date 4708 4723	27 juillet 2005
+T58	Date 4852 4867	17 février 2014
+T60	Date 5035 5048	27 avril 2018
+T62	Date 5247 5262	17 février 2014
+T64	Personne 5209 5217	MERRIAUX
+T66	Personne 5219 5228	Jean-Marc
+T68	Personne 5461 5474	Nathalie HERR
+T70	Personne 6016 6029	Alain THILLAY
+T72	Personne 6472 6487	Patrick ARCELUZ
+T74	Personne 6945 6961	Laurence MORANDI
+T76	Personne 7376 7389	Marie DEROIDE
+T77	Personne 7816 7831	Marcel DETURCHE
+T78	Personne 8245 8259	Catherine BRAX
+T79	Personne 8689 8703	François SOLER
+T80	Personne 9115 9127	Claude SAIVE
+T81	Personne 9536 9553	Dominique ALGLAVE
+T82	Date 10154 10169	29 octobre 2019
+T83	Personne 10172 10186	J.-M. Merriaux
+T84	Date 10279 10296	10 septembre 2019
+T85	Organisation 10349 10388	association Union Animation Grand-Santi
+T86	Lieu 10610 10618	Antilles
+T87	Lieu 10619 10625	Guyane
+T88	Date 10705 10722	30 septembre 1986
+T89	Date 10844 10856	6 avril 1987
+T90	Date 10927 10944	30 septembre 1986
+T91	Date 11183 11198	9 novembre 1994
+T92	Date 11269 11286	30 septembre 1986
+T93	Date 11573 11585	24 juin 2011
+T94	Date 11665 11682	30 septembre 1986
+T95	Date 11760 11771	6 mars 1987
+T96	Date 11874 11889	7 décembre 1990
+T97	Date 12103 12118	28 juillet 2015
+T98	Date 12323 12336	13 avril 2010
+T99	Date 12392 12409	11 septembre 2014
+T100	Date 12675 12692	30 septembre 1986
+T101	Date 12572 12587	12 juillet 2011
+T102	Lieu 12805 12813	Antilles
+T103	Lieu 12814 12820	Guyane
+T104	Date 12832 12844	2 avril 2019
+T105	Date 12876 12887	11 mai 2019
+T106	Lieu 12962 12970	Antilles
+T107	Lieu 12971 12977	Guyane
+T108	Organisation 12983 13022	association Union Animation Grand-Santi
+T109	Date 13125 13138	13 avril 2010
+T110	Date 13331 13344	13 avril 2020
+T111	Organisation 13359 13398	association Union Animation Grand-Santi
+T112	Organisation 13567 13601	Conseil supérieur de l'audiovisuel
+T113	Date 14521 14532	6 mars 1987
+T114	Organisation 14539 14595	Commission nationale de la communication et des libertés
+T115	Date 14635 14650	7 décembre 1990
+T116	Organisation 14654 14688	Conseil supérieur de l'audiovisuel
+T117	Organisation 14909 14943	Conseil supérieur de l'audiovisuel
+T118	Organisation 14995 15034	association Union Animation Grand-Santi
+T119	Lieu 15264 15295	Grand-Santi - Grand-Santi (973)
+A35	type T119 adresse
+T120	Date 15614 15631	10 septembre 2019
+T121	Lieu 15680 15688	Antilles
+T122	Lieu 15689 15695	Guyane
+T123	Personne 15714 15726	M. Wallerich
+T124	Id 10535 10547	CSAR1931601S
+T125	Organisation 11778 11834	Commission nationale de la communication et des libertés
+T126	Organisation 12122 12156	Conseil supérieur de l'audiovisuel
+T127	Organisation 15144 15161	Radio Fiiman Sten
+T128	Lieu 15203 15214	Grand-Santi
+A36	type T128 ville
+T129	Organisation 13246 13263	Radio Fiiman Sten
+T130	Organisation 10511 10528	Radio Fiiman Sten
+T131	Organisation 11893 11927	Conseil supérieur de l'audiovisuel
+T132	Organisation 12340 12347	Conseil
+T133	Organisation 10572 10607	comité territorial de l'audiovisuel
+T134	Organisation 12600 12607	Conseil
+T135	Organisation 12767 12802	comité territorial de l'audiovisuel
+T136	Organisation 12924 12959	comité territorial de l'audiovisuel
+T137	Organisation 12705 12742	comités territoriaux de l'audiovisuel
+T138	Organisation 12191 12228	comités territoriaux de l'audiovisuel
+T139	Organisation 14056 14063	Conseil
+T140	Organisation 14379 14386	Conseil
+T151	Id 4613 4625	ESRA1926290S
+T164	Id 364 376	JUSF1930815A
+T165	Lieu 2166 2176	Martinique
+T166	Lieu 2225 2235	Martinique
+T167	Lieu 2297 2304	Mayotte
+T168	Organisation 12519 12536	Radio Fiiman Sten
+T169	Organisation 15642 15677	comité territorial de l'audiovisuel
+T142	Lieu 3544 3567	Dordogne-Lot et Garonne
+T153	Lieu 3674 3682	Auvergne

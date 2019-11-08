@@ -1,0 +1,85 @@
+T1	Date 15 30	5 novembre 2019
+T2	Date 106 121	22 octobre 2019
+T3	Date 153 157	2020
+T4	Id 282 294	ARMH1928801A
+T5	Date 424 439	22 octobre 2019
+T6	Lieu 734 738	Lyon
+A1	type T6 ville
+T7	Organisation 695 724	centre ministériel de gestion
+T8	Organisation 726 729	CMG
+T9	Date 825 840	5 novembre 2019
+A23	type T22 ville
+A25	type T24 ville
+A29	type T28 ville
+A31	type T30 ville
+A33	type T32 ville
+A35	type T34 ville
+T10	Date 476 480	2020
+T12	Date 3433 3443	4 mai 2020
+T13	Date 4043 4056	10 avril 2020
+T16	Id 353 365	ARMH1928801A
+T17	Organisation 1427 1430	CMG
+T18	Organisation 2244 2247	CMG
+T19	Organisation 2752 2755	CMG
+T20	Organisation 3988 3991	CMG
+T21	Organisation 4461 4464	CMG
+T22	Lieu 1434 1438	Lyon
+T24	Lieu 2251 2255	Lyon
+T28	Lieu 2759 2763	Lyon
+T30	Lieu 3266 3270	Lyon
+T32	Lieu 3995 3999	Lyon
+T34	Lieu 4468 4472	Lyon
+T23	Date 2182 2197	5 décembre 2019
+T25	Lieu 2341 2391	quartier Général Frère, BP 41, 69998 Lyon Cedex 07
+A2	type T25 adresse
+T26	Id 1468 1513	cmg-lyon- examens.recrutement.fct@def.gouv.fr
+A3	categorie T26 email
+T27	Date 1616 1632	17 décembre 2019
+T29	Lieu 1653 1658	Paris
+A4	type T29 ville
+T31	Date 2808 2824	17 décembre 2019
+T33	Date 3285 3300	20 janvier 2020
+T11	Date 3776 3792	22 décembre 2017
+T35	Date 4549 4564	28 octobre 2019
+T36	Id 4619 4631	MICC1930682A
+A45	type T44 ville
+T38	Date 4815 4830	28 octobre 2019
+T39	Date 5569 5584	28 octobre 2019
+T40	Date 6497 6512	28 octobre 2019
+T43	Id 4690 4702	MICC1930682A
+T44	Lieu 5331 5336	Paris
+T42	Date 5341 5353	26 juin 2019
+T45	Date 5357 5371	3 février 2020
+T46	Date 5397 5408	6 mars 2020
+T47	Date 5481 5492	8 août 1994
+T48	Organisation 5043 5056	Freer│Sackler
+T49	Organisation 5058 5078	Freer Gallery of Art
+T50	Organisation 5109 5132	Smithsonian Institution
+T51	Lieu 5134 5160	Washington, DC, Etats-Unis
+A5	type T51 adresse
+T52	Personne 5186 5201	GEORGES MARTEAU
+T53	Personne 5254 5269	GEORGES MARTEAU
+T54	Personne 5081 5098	Arthur M. Sackler
+T55	Date 4891 4906	18 janvier 2019
+T56	Id 4914 4926	MCCC1901697A
+T57	Date 4959 4974	26 janvier 2019
+T58	Id 5667 5679	SSAC1930180A
+T59	Date 5774 5785	18 mai 2017
+T60	Date 5859 5871	14 juin 2017
+T61	Date 5978 5990	19 juin 2017
+T62	Date 6048 6060	21 juin 2017
+T63	Date 6120 6136	3 septembre 2019
+T64	Personne 6202 6219	Matthieu LECLERCQ
+T65	Date 6244 6259	4 novembre 2019
+T66	Personne 6515 6526	Agnès Buzyn
+T67	Date 6602 6617	23 octobre 2019
+T68	Id 6795 6807	ECOP1930487A
+T69	Date 7000 7011	18 mai 2017
+T70	Date 7085 7097	14 juin 2017
+T71	Date 7204 7216	19 juin 2017
+T72	Date 7274 7286	21 juin 2017
+T73	Date 7346 7358	31 mars 2019
+T74	Personne 7425 7440	Orianne LEDROIT
+T75	Date 7689 7704	4 novembre 2019
+T76	Date 7804 7819	23 octobre 2019
+T77	Personne 7822 7830	Cédric O
