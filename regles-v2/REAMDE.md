@@ -25,12 +25,14 @@ syntax in the grammar files:
 * variable: $NAME to define, _NAME to use in a rule
 
   $DAY	(Monday|Tuesday|Wednesday|...|Sunday)
+  
   $DIGIT	[\d]
 
 * rules: tag to be used, tabulation, rule with parenthesis to capture
   the pattern to be tagged
 
   date	(_DAY _DIGIT+)
+  
   email	([A-Za-z\.\-]+\@[A-Za-z\-\.]+\.[a-z]{2,3})
 
 Class of characters as well as quantifiers can be used in rules, as
