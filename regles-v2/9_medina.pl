@@ -363,24 +363,24 @@ sub application() {
     # de la ligne et non plus token par token, permet de gérer les
     # expressions composées de plusieurs mots. Temps de traitement
     # beaucoup plus long ; processus désactivé si option -x utilisée.
-    if (!$opt_x) {
-	foreach my $type (sort keys %lexique) {
-	    my $balise=$balises{$type};
+    # if (!$opt_x) {
+    # 	foreach my $type (sort keys %lexique) {
+    # 	    my $balise=$balises{$type};
 
-	    if ($opt_g) { $balise=$balise_defaut; }
-	    if ($type ne "dico") {
-		foreach my $token (keys $lexique{$type}) {
-		    while ($ligne_entree=~/(\W|^)$token(\W|$)/) {
-			$ligne_entree=~s/(?<GAUCHE>\W|^)$token(?<DROITE>\W|$)/$+{GAUCHE}<$balise>§§§§§<\/$balise>$+{DROITE}/;
-			$ligne_sortie=~s/(?<GAUCHE>\W|^)(?<MOTIF>$token)(?<DROITE>\W|$)/$+{GAUCHE}<$balise>$+{MOTIF}<\/$balise>$+{DROITE}/;
-			warn "-(lxq $type) $+{MOTIF}\t$balise\n" if ($opt_c);
-			$deja{$+{MOTIF}}++;
-			if ($opt_t && $ligne_sortie=~/$opt_t/) { warn ":lxq $type: $ligne_entree\n:lxq $type: $ligne_sortie\n"; }
-		    }
-		}
-	    }
-	}
-    }
+    # 	    if ($opt_g) { $balise=$balise_defaut; }
+    # 	    if ($type ne "dico") {
+    # 		foreach my $token (keys $lexique{$type}) {
+    # 		    while ($ligne_entree=~/(\W|^)$token(\W|$)/) {
+    # 			$ligne_entree=~s/(?<GAUCHE>\W|^)$token(?<DROITE>\W|$)/$+{GAUCHE}<$balise>§§§§§<\/$balise>$+{DROITE}/;
+    # 			$ligne_sortie=~s/(?<GAUCHE>\W|^)(?<MOTIF>$token)(?<DROITE>\W|$)/$+{GAUCHE}<$balise>$+{MOTIF}<\/$balise>$+{DROITE}/;
+    # 			warn "-(lxq $type) $+{MOTIF}\t$balise\n" if ($opt_c);
+    # 			$deja{$+{MOTIF}}++;
+    # 			if ($opt_t && $ligne_sortie=~/$opt_t/) { warn ":lxq $type: $ligne_entree\n:lxq $type: $ligne_sortie\n"; }
+    # 		    }
+    # 		}
+    # 	    }
+    # 	}
+    # }
     ###
 
 
