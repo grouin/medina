@@ -51,4 +51,4 @@ applied to produce *.med files
   Please send an email at firstname.lastname@gmail.com on Tuesday 12 November
 
 * corpus/file.med produced:
-  Please send an email at <email>firstname.lastname@gmail.com</email> on <date>Tuesday 12</date> November
+  Please send an email at &lt;email&gt;firstname.lastname@gmail.com&lt;/email&gt; on &lt;date&gt;Tuesday 12&lt;/date&gt; November
