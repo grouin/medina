@@ -12,26 +12,47 @@ use utf8;
 
 my @rep=<$ARGV[0]/*$ARGV[1]>;
 my $sortie=$ARGV[2];
+my %frequence=();
+my %frequenceC=();
+my %frequenceV=();
+my $total=0;
+my $totalCar=0;
 
+# Premier parcours du corpus : calcul de la fréquence d'utilisation de
+# chaque token du corpus traité
+foreach my $fichier (@rep) {
+  open(E,'<:utf8',$fichier);
+  while (my $ligne=<E>) {
+    my $norm=&normalisation($ligne);
+
+    # Tokénisation
+    my @tokens=split(/ /,$norm);
+    foreach my $token (@tokens) { $frequence{$token}++; $total++; }
+    # Tokénisation caractères
+    my @cars=split(//,$norm);
+    foreach my $car (@cars) {
+	$car=lc($car);
+	$frequenceC{$car}++ if ($car=~/[bcdfghjklmnpqrstvwxzç]/i);
+	$frequenceV{$car}++ if ($car=~/[aeiouyàâéèêëîïôöûùü]/i);
+	$totalCar++;
+    }
+  }
+}
+
+
+
+# Deuxième parcours du corpus : traitement du corpus et production du
+# tabulaire
 open(S,'>:utf8',"$sortie");
 foreach my $fichier (@rep) {
   open(E,'<:utf8',$fichier);
   while (my $ligne=<E>) {
-    # Ajout d'espaces autour des ponctuations, sauf celles utilisées dans les décimales ou dans les dates : - / .
-    $ligne=~s/([\.\-,\(\)\|\'\’\@\#])/ $1 /g;
-    $ligne=~s/(\d) \. (\d)/$1\.$2/g;
-    $ligne=~s/(\d) \, (\d)/$1\,$2/g;
-    $ligne=~s/aujourd \' hui/aujourd\'hui/g; $ligne=~s/aujourd \’ hui/aujourd\’hui/g;
-    $ligne=~s/(.) ([\'\’]) (.)/$1$2 $3/g;
-    $ligne=~s/http([^\s]+) \. ([^\s]+)/http$1\.$2/;
-    # Réduction des espaces multiples
-    $ligne=~s/\s+/ /g;
-    $ligne=~s/^\s+//g;
+    my $norm=&normalisation($ligne);
 
-    # Tokénisation
-    my @tokens=split(/ /,$ligne);
+    # Tokenization
+    my @tokens=split(/ /,$norm);
 
-    # Réinitialisations
+    # Rzinitializations
     my $tag="O";
     my $prec="O";
     my $taille=0;
@@ -41,8 +62,11 @@ foreach my $fichier (@rep) {
 
     foreach my $token (@tokens) {
       my $fin="";
+      my $freq="rare";
+      my $rareC="nul";
+      my $rareV="nul";
 
-      # Balise ouvrante
+      # Opening tag
       if ($token=~/<([^>\/]+)>/) {
 	$tag=$1; $token=~s/<$tag>//;
       }
@@ -64,25 +88,56 @@ foreach my $fichier (@rep) {
       #elsif ($token=~/^(qui|que|quel|quelle|quels|quelles|quoi|où|quand|comment)$/i) { $pos="proint"; }
       else { $pos="nul"; }
 
-      # Déclencheurs
+      # Trigger words
       if ($token=~/^(Madame|madame|Monsieur|monsieur|Mme|M\.|Mr|Melle|Pr|PR|Professeur|professeur|Dr|DR|Docteur|docteur)$/) { $decl="pers"; }
       elsif ($token=~/^(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche)$/i) { $decl="date"; }
       elsif ($token=~/^(CHU|clinique|hôpital|centre)$/i) { $decl="hosp"; }
       else { $decl="nul"; }
 
-      # Affichage
+      # Fréquence d'utilisation du token dans le corpus (binaire)
+      if ($frequence{$token}<=($total/2000) && $token=~/^\p{L}+$/i) { $freq="rare"; } else { $freq="commun"; }
+      # Fréquence d'utilisation des caractères du token dans le corpus (soit il y a des consonnes ou des voyelles rares dans le token, soit il n'y en a pas)
+      my @cars=split(//,$token);
+      foreach my $car (@cars) {
+	  $car=lc($car);
+	  if ($car=~/[bcdfghjklmnpqrstvwxzç]/) { if ($frequenceC{$car}<=($totalCar/250)) { $rareC="cons"; } }
+	  if ($car=~/[aeiouyàâéèêëîïôöûùü]/) { if ($frequenceV{$car}<=($totalCar/250)) { $rareV="voy"; } }
+      }
+
+      # Printing
       my $label="O";
       if ($tag eq "O") { $label="O"; }
       else { if ($tag eq $prec) { $label="I-$tag"; } else { $label="B-$tag"; } }
-      print S "$token\t$taille\t$interT\t$pos\t$decl\t$label\n" if ($token ne "");
+      print S "$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareC\t$rareV\t$label\n" if ($token ne "");
 
-      # Réinitialisations
+      # Reinitializations
       if ($fin ne "") { $tag="O"; }
       $prec=$tag;
     }
-    # Saut de ligne
+    # New line
     print S "\n";
   }
   close(E);
 }
 close(S);
+
+
+###
+# Routines
+
+sub normalisation() {
+  my $contenu=shift;
+  # Ajout d'espaces autour des ponctuations, sauf celles utilisées
+  # dans les décimales ou dans les dates : - / .
+  $contenu=~s/([\.\-,\(\)\|\'\’\@\#])/ $1 /g;
+  $contenu=~s/(\d) \. (\d)/$1\.$2/g;
+  $contenu=~s/(\d) \, (\d)/$1\,$2/g;
+  $contenu=~s/aujourd \' hui/aujourd\'hui/g; $contenu=~s/aujourd \’ hui/aujourd\’hui/g;
+  $contenu=~s/(.) ([\'\’]) (.)/$1$2 $3/g;
+  $contenu=~s/http([^\s]+) \. ([^\s]+)/http$1\.$2/;
+  # Réduction des espaces multiples
+  $contenu=~s/\s+/ /g;
+  $contenu=~s/^\s+//g;
+
+  return $contenu;
+}
