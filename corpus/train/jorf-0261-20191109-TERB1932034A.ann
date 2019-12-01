@@ -1,0 +1,18 @@
+T1	Date 10 24	9 octobre 2019
+T3	Date 397 411	9 octobre 2019
+T4	Date 562 566	2020
+T5	Date 622 634	9 avril 2020
+T6	Date 709 723	5 février 2020
+T7	Date 695 705	14 janvier
+T8	Date 871 886	13 février 2020
+T9	Lieu 206 214	Calvados
+T10	Id 222 234	TERB1932034A
+T2	Lieu 377 385	Calvados
+T11	Lieu 637 641	Caen
+A1	type T11 ville
+T12	Lieu 776 784	Calvados
+T13	Lieu 1176 1184	Calvados
+T14	Lieu 1186 1252	2, impasse Initialis, CS 20052, 14202 Hérouville-Saint-Clair Cedex
+A2	type T14 adresse
+T15	Id 1254 1271	concours@cdg14.fr
+A3	categorie T15 email

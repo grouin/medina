@@ -1,0 +1,73 @@
+T2	Date 23 38	7 novembre 2019
+T6	Date 1682 1693	20 mai 2019
+T7	Date 3706 3721	7 novembre 2019
+T8	Organisation 1733 1747	Conseil d'Etat
+T9	Personne 3724 3740	Edouard Philippe
+T1	Date 74 89	20 février 2014
+T10	Id 164 176	INTA1923620D
+T3	Date 868 872	2014
+T4	Date 711 726	20 février 2014
+T5	Lieu 447 454	Gironde
+T11	Lieu 588 595	Gironde
+T12	Lieu 786 793	Gironde
+T13	Date 1020 1035	20 février 2014
+T14	Lieu 1095 1102	Gironde
+T15	Date 1425 1440	20 février 2014
+T16	Lieu 1500 1507	Gironde
+T17	Lieu 1603 1610	Gironde
+T18	Lieu 1663 1670	Gironde
+T19	Date 1899 1914	20 février 2014
+T20	Lieu 2099 2106	Gironde
+T21	Lieu 1974 1981	Gironde
+T22	Lieu 2028 2048	Castets et Castillon
+A1	type T22 ville
+T23	Date 2180 2195	20 février 2014
+T24	Lieu 2255 2262	Gironde
+T25	Lieu 2401 2420	Le Pian-sur-Garonne
+A2	type T25 ville
+T26	Lieu 2451 2467	Porte-de-Benauge
+A3	type T26 ville
+T27	Lieu 2527 2536	Marcillac
+A4	type T27 ville
+T28	Lieu 2545 2567	Saint-Caprais-de-Blaye
+A5	type T28 ville
+T29	Lieu 2609 2617	Teuillac
+A6	type T29 ville
+T30	Lieu 2648 2662	Val-de-Livenne
+A7	type T30 ville
+T31	Lieu 2722 2739	Aubie-et-Espessas
+A8	type T31 ville
+T32	Lieu 2746 2759	Saint-Antoine
+A9	type T32 ville
+T33	Lieu 2768 2776	Salignac
+A10	type T33 ville
+T34	Lieu 2818 2824	Saugon
+A11	type T34 ville
+T35	Lieu 2855 2868	Val de Virvée
+A12	type T35 ville
+T36	Lieu 2928 2936	Blaignan
+A13	type T36 ville
+T37	Lieu 2945 2961	Prignac-en-Médoc
+A14	type T37 ville
+T38	Lieu 3003 3010	Bégadan
+A15	type T38 ville
+T39	Lieu 3041 3057	Blaignan-Prignac
+A16	type T39 ville
+T40	Lieu 3096 3116	Castillon-de-Castets
+A17	type T40 ville
+T41	Lieu 3170 3187	Castets-en-Dorthe
+A18	type T41 ville
+T42	Lieu 3223 3243	Castets et Castillon
+A19	type T42 ville
+T43	Lieu 3301 3309	Cantenac
+A20	type T43 ville
+T44	Lieu 3343 3350	Margaux
+A21	type T44 ville
+T45	Lieu 3384 3400	Margaux-Cantenac
+A22	type T45 ville
+T46	Personne 3798 3817	Christophe Castaner
+T47	Lieu 149 156	Gironde
+T48	Lieu 2336 2341	Arbis
+A23	type T48 ville
+T49	Lieu 2350 2357	Cantois
+A24	type T49 ville
