@@ -1,0 +1,240 @@
+A129	type T128 ville
+A131	type T130 ville
+A133	type T132 ville
+A135	type T134 ville
+A141	type T140 ville
+A143	type T142 ville
+A145	type T144 ville
+A147	type T146 ville
+A149	type T148 ville
+A151	type T150 ville
+A153	type T152 ville
+A155	type T154 ville
+A160	type T159 ville
+A163	type T162 ville
+A165	type T164 ville
+A175	type T174 ville
+A177	type T176 ville
+A179	type T178 ville
+A181	type T180 ville
+A183	type T182 ville
+A185	type T184 ville
+A187	type T186 ville
+A189	type T188 ville
+A193	type T192 ville
+A195	type T194 ville
+A197	type T196 ville
+A199	type T198 ville
+A201	type T200 ville
+A203	type T202 ville
+A205	type T204 ville
+A207	type T206 ville
+A209	type T208 ville
+A211	type T210 ville
+A213	type T212 ville
+A217	type T216 ville
+A219	type T218 ville
+A221	type T220 ville
+A225	type T224 ville
+A227	type T226 ville
+A229	type T228 ville
+A232	type T231 ville
+A234	type T233 ville
+A236	type T235 ville
+A238	type T237 ville
+A242	type T241 ville
+A244	type T243 ville
+A246	type T245 ville
+A248	type T247 ville
+A250	type T249 ville
+A252	type T251 ville
+A254	type T253 ville
+A256	type T255 ville
+A260	type T259 ville
+A262	type T261 ville
+A264	type T263 ville
+A266	type T265 ville
+A270	type T269 ville
+A272	type T271 ville
+A274	type T273 ville
+A276	type T275 ville
+A278	type T277 ville
+A280	type T279 ville
+A282	type T281 ville
+T1	Date 5877 5893	10 décembre 2017
+T10	Date 6809 6824	14 octobre 2019
+T100	Date 3111 3123	25 juin 2019
+T101	Date 4883 4899	25 novembre 2018
+T102	Date 3799 3814	26 juillet 2019
+T103	Date 5216 5231	26 juillet 2019
+T104	Date 5677 5689	27 août 2019
+T105	Date 5235 5250	27 juillet 2019
+T106	Date 529 541	27 mars 1984
+T107	Date 7244 7261	30 septembre 2017
+T108	Date 3893 3907	4 janvier 2018
+T109	Date 7460 7471	4 juin 2019
+T11	Date 3327 3342	15 juillet 2019
+T110	Date 7676 7687	4 juin 2019
+T113	Date 3911 3925	5 janvier 2018
+T114	Date 4021 4032	6 août 2019
+T115	Date 4261 4272	6 août 2019
+T116	Date 4359 4370	6 août 2019
+T117	Date 4276 4287	7 août 2019
+T119	Date 4374 4385	8 août 2019
+T12	Date 6249 6264	15 juillet 2019
+T122	Date 5499 5510	9 août 2019
+T123	Date 7349 7360	9 août 2019
+T124	Date 5104 5115	9 juin 2018
+T125	Personne 7879 7889	A. Thirion
+T126	Lieu 2829 2845	BOUCHES-DU-RHÔNE
+T127	Lieu 5732 5748	BOUCHES-DU-RHÔNE
+T128	Lieu 4062 4075	Bas-en-Basset
+T13	Date 4753 4765	15 mars 2018
+T130	Lieu 3136 3146	Beuzeville
+T132	Lieu 4398 4405	Boisset
+T134	Lieu 5415 5432	Briis-sous-Forges
+T136	Lieu 5820 5828	CALVADOS
+T137	Lieu 5954 5962	CHARENTE
+T139	Lieu 6041 6058	CHARENTE-MARITIME
+T14	Date 2880 2895	15 octobre 2019
+T140	Lieu 3577 3586	Campagnan
+T142	Lieu 3588 3592	Caux
+T144	Lieu 6837 6849	Cellier (Le)
+T146	Lieu 7564 7591	Chapelle-Saint-Laurent (La)
+T148	Lieu 4077 4098	Chapelle-d'Aurec (La)
+T15	Date 5770 5785	15 octobre 2019
+T150	Lieu 4475 4488	Chaudeyrolles
+T152	Lieu 6095 6106	Chevanceaux
+T154	Lieu 6414 6425	Combaillaux
+T156	Lieu 2933 2942	CÔTE-D'OR
+T157	Lieu 7515 7526	DEUX-SÈVRES
+T158	Lieu 6127 6135	DORDOGNE
+T159	Lieu 4494 4508	Estables (Les)
+T16	Date 5897 5913	16 décembre 2017
+T161	Personne 8125 8137	F. Desmadryl
+T162	Lieu 7056 7072	Faches-Thumesnil
+T164	Lieu 5030 5038	Famechon
+T166	Lieu 3281 3292	HAUTE-CORSE
+T167	Lieu 6216 6227	HAUTE-CORSE
+T168	Lieu 3975 3986	HAUTE-LOIRE
+T169	Lieu 5630 5642	HAUTES-ALPES
+T17	Date 3346 3361	16 juillet 2019
+T170	Personne 8008 8016	L. Corre
+T171	Lieu 6648 6660	LOIR-ET-CHER
+T172	Lieu 6771 6787	LOIRE-ATLANTIQUE
+T173	Lieu 6870 6876	LOZÈRE
+T174	Lieu 7274 7282	Lapugnoy
+T176	Lieu 3594 3600	Lattes
+T178	Lieu 6622 6630	Lavérune
+T18	Date 6268 6283	16 juillet 2019
+T180	Lieu 3602 3619	Lieuran-Cabrières
+T182	Lieu 3621 3635	Lignan-sur-Orb
+T184	Lieu 5926 5933	Lisieux
+T186	Lieu 3637 3644	Loupian
+T188	Lieu 7484 7496	Louveciennes
+T19	Date 10 26	18 novembre 2019
+T190	Lieu 4533 4539	MANCHE
+T191	Lieu 4671 4676	MARNE
+T192	Lieu 3646 3653	Magalas
+T194	Lieu 4100 4110	Malvalette
+T196	Lieu 6172 6195	Marcillac-Saint-Quentin
+T198	Lieu 3473 3486	Marsillargues
+T2	Date 4734 4749	10 février 2018
+T20	Date 7720 7736	18 novembre 2019
+T200	Lieu 3655 3665	Maureilhan
+T202	Lieu 4600 4620	Mesnil-Rouxelin (Le)
+T204	Lieu 7593 7613	Moncoutant-sur-Sèvre
+T206	Lieu 4112 4131	Monistrol-sur-Loire
+T208	Lieu 6427 6431	Mons
+T21	Date 5005 5017	19 juin 2019
+T210	Lieu 5702 5713	Montgenèvre
+T212	Lieu 3667 3671	Mèze
+T214	Lieu 4801 4805	NORD
+T215	Lieu 6964 6968	NORD
+T216	Lieu 3681 3686	Nizas
+T218	Lieu 3673 3679	Nébian
+T22	Date 7224 7240	1er juillet 2017
+T220	Lieu 3692 3697	Octon
+T222	Lieu 4957 4970	PAS-DE-CALAIS
+T223	Lieu 7153 7166	PAS-DE-CALAIS
+T224	Lieu 4133 4145	Pont-Salomon
+T226	Lieu 3028 3048	Pontailler-sur-Saône
+T228	Lieu 3703 3712	Pouzolles
+T23	Date 7026 7043	1er novembre 2018
+T230	Lieu 4778 4783	Reims
+T231	Lieu 3374 3382	Rogliano
+T233	Lieu 6296 6304	Rogliano
+T235	Lieu 5263 5285	Rogny-les-Sept-Écluses
+T237	Lieu 6000 6007	Rougnac
+T239	Lieu 5063 5069	SARTHE
+T24	Date 6718 6732	2 janvier 2019
+T240	Lieu 7300 7314	SAÔNE-ET-LOIRE
+T241	Lieu 6009 6020	Saint-Claud
+T243	Lieu 5128 5152	Saint-Denis-des-Coudrais
+T245	Lieu 4147 4168	Saint-Didier-en-Velay
+T247	Lieu 4170 4193	Saint-Ferréol-d'Auroure
+T249	Lieu 4626 4646	Saint-Georges-d'Elle
+T251	Lieu 3938 3950	Saint-Ismier
+T253	Lieu 4300 4318	Saint-Just-Malmont
+T255	Lieu 5523 5533	Saint-Prix
+T259	Lieu 6745 6750	Sougé
+T261	Lieu 3714 3718	Sète
+T263	Lieu 4195 4217	Séauve-sur-Semène (La)
+T265	Lieu 4912 4935	Séranvillers-Forenville
+T267	Lieu 5454 5464	VAL-D'OISE
+T268	Lieu 7631 7641	VAL-D'OISE
+T269	Lieu 6515 6557	Vacquerie-et-Saint-Martin-de-Castries (La)
+T271	Lieu 3720 3726	Valros
+T273	Lieu 3827 3842	Villard-de-Lans
+T275	Lieu 6937 6946	Villefort
+T277	Lieu 3728 3739	Villeveyrac
+T279	Lieu 7373 7398	Vineuse sur Fregande (La)
+T28	Date 5974 5986	20 mars 2019
+T281	Lieu 4219 4224	Vorey
+T283	Lieu 7417 7425	YVELINES
+T29	Date 6070 6082	20 mars 2019
+T3	Date 3210 3222	10 juin 2019
+T30	Date 6147 6159	20 mars 2019
+T31	Date 3444 3460	20 novembre 2018
+T32	Date 4446 4461	20 octobre 2019
+T4	Date 5374 5386	11 juin 2018
+T5	Date 3226 3238	11 juin 2019
+T6	Date 5390 5402	12 juin 2018
+T7	Date 4574 4586	12 juin 2019
+T8	Date 435 451	12 novembre 2019
+T89	Date 7108 7120	21 juin 2019
+T9	Date 4863 4879	13 novembre 2018
+T90	Date 7538 7550	21 juin 2019
+T91	Date 3523 3538	22 octobre 2019
+T92	Date 6366 6381	22 octobre 2019
+T93	Date 6468 6483	22 octobre 2019
+T94	Date 3000 3015	23 janvier 2018
+T95	Date 3542 3557	23 octobre 2019
+T96	Date 6385 6400	23 octobre 2019
+T97	Date 6594 6609	23 octobre 2019
+T98	Date 6487 6502	24 octobre 2019
+T99	Date 6911 6924	25 avril 2019
+T45	Lieu 2907 2912	Arles
+A1	type T45 ville
+T33	Lieu 3072 3076	EURE
+T46	Lieu 3250 3256	Evreux
+A2	type T46 ville
+T47	Lieu 3402 3409	HÉRAULT
+A3	type T47 ville
+T25	Lieu 3570 3575	Aumes
+A4	type T25 ville
+T34	Lieu 3759 3764	ISÈRE
+T35	Lieu 4045 4060	Aurec-sur-Loire
+A5	type T35 ville
+A6	type T230 ville
+T36	Lieu 5176 5181	YONNE
+T37	Lieu 5309 5316	ESSONNE
+T38	Lieu 5797 5802	Arles
+A7	type T38 ville
+T39	Lieu 6324 6331	HÉRAULT
+T26	Lieu 7092 7096	ORNE
+T27	Lieu 7132 7135	Igé
+A8	type T27 ville
+T40	Lieu 7699 7709	Argenteuil
+A9	type T40 ville
+T41	Id 92 104	INTE1932508A

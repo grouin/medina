@@ -1,0 +1,118 @@
+A100	type T99 ville
+A102	type T101 ville
+A104	type T103 ville
+A107	type T106 ville
+A109	type T108 ville
+A111	type T110 ville
+A113	type T112 adresse
+A115	type T114 ville
+A117	type T116 ville
+A119	type T118 ville
+A121	type T120 ville
+A123	type T122 ville
+A125	type T124 ville
+A20	type T19 ville
+A22	type T21 ville
+A27	type T26 ville
+A29	type T28 ville
+A31	type T30 ville
+A33	type T32 ville
+A35	type T34 ville
+A37	type T36 ville
+A39	type T38 ville
+A41	type T40 ville
+A43	type T42 ville
+A45	type T44 ville
+A47	type T46 ville
+A49	type T48 ville
+A51	type T50 ville
+A54	type T53 ville
+A56	type T55 ville
+A58	type T57 ville
+A62	type T61 ville
+A64	type T63 ville
+A67	type T66 ville
+A69	type T68 ville
+A71	type T70 ville
+A73	type T72 ville
+A75	type T74 ville
+A77	type T76 ville
+A82	type T81 ville
+A84	type T83 ville
+A86	type T85 ville
+A88	type T87 ville
+A90	type T89 ville
+A92	type T91 ville
+A94	type T93 ville
+A96	type T95 ville
+A98	type T97 ville
+T1	Date 48 65	11 septembre 2019
+T101	Lieu 3106 3111	Nîmes
+T103	Lieu 3153 3158	Nîmes
+T105	Personne 3864 3881	P. Ghaleh-Marzban
+T106	Lieu 1811 1816	Paris
+T108	Lieu 1862 1867	Paris
+T11	Date 446 450	2022
+T110	Lieu 2426 2430	Rezé
+T112	Lieu 1906 1924	Rue de Romainville
+T114	Lieu 2678 2697	Saint Jean le Blanc
+T116	Lieu 2907 2915	Toulouse
+T118	Lieu 2961 2969	Toulouse
+T12	Date 411 423	23 mars 2019
+T120	Lieu 3432 3438	Troyes
+T122	Lieu 3476 3482	Troyes
+T124	Lieu 3680 3692	Valenciennes
+T13	Date 10 25	24 octobre 2019
+T14	Date 3768 3783	24 octobre 2019
+T17	Date 625 640	6 novembre 2007
+T18	Organisation 3494 3533	Accueil de Jour Educatif et Scolaire 54
+T19	Lieu 3163 3167	Agen
+T2	Date 795 812	11 septembre 2019
+T21	Lieu 3239 3243	Agen
+T23	Organisation 3736 3754	Association ALEFPA
+T24	Organisation 3535 3554	Association REALISE
+T25	Lieu 3331 3339	Auvergne
+T26	Lieu 1748 1755	Bagneux
+T28	Lieu 2436 2444	Besançon
+T3	Date 441 445	2018
+T30	Lieu 2497 2505	Besançon
+T32	Lieu 2547 2555	Besançon
+T34	Lieu 2702 2712	Carpentras
+T36	Lieu 2763 2773	Carpentras
+T38	Lieu 2812 2822	Carpentras
+T40	Lieu 2560 2568	Chartres
+T42	Lieu 2621 2629	Chartres
+T44	Lieu 1671 1678	Chelles
+T46	Lieu 3290 3306	Clermont Ferrand
+T48	Lieu 2254 2263	Coutances
+T50	Lieu 2359 2368	Coutances
+T52	Lieu 3215 3238	Dordogne-Lot et Garonne
+T53	Lieu 1930 1944	Fort de France
+T55	Lieu 3344 3352	Grenoble
+T57	Lieu 3418 3426	Grenoble
+T59	Id 198 210	JUSF1930815A
+T61	Lieu 2070 2081	Le Lamentin
+T63	Lieu 2011 2020	Le Robert
+T65	Personne 3942 3952	M. Mathieu
+T66	Lieu 1797 1805	Malakoff
+T68	Lieu 2086 2095	Mamoudzou
+T70	Lieu 2191 2200	Mamoudzou
+T72	Lieu 2239 2248	Mamoudzou
+T74	Lieu 2827 2836	Marseille
+T76	Lieu 2887 2896	Marseille
+T78	Lieu 2000 2010	Martinique
+T79	Lieu 2059 2069	Martinique
+T80	Lieu 2117 2124	Mayotte
+T81	Lieu 1563 1568	Meaux
+T83	Lieu 1624 1629	Meaux
+T85	Lieu 2974 2985	Montpellier
+T87	Lieu 3031 3042	Montpellier
+T89	Lieu 3487 3492	Nancy
+T91	Lieu 3623 3628	Nancy
+T93	Lieu 3670 3675	Nancy
+T95	Lieu 1684 1692	Nanterre
+T97	Lieu 2374 2380	Nantes
+T99	Lieu 3048 3053	Nîmes
+T4	Lieu 3281 3285	Agen
+A1	type T4 ville
+T5	Organisation 2097 2116	Apprentis d'Auteuil
