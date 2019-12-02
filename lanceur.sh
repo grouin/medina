@@ -24,4 +24,4 @@ wapiti label -p -m modele-zero tab_test.zero >sortie-zero
 perl conlleval.pl -d '\t' <sortie-zero
 
 # False positive and false negative analysis
-perl post_differences.pl sortie-zero
+#perl post_differences.pl sortie-zero
