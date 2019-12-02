@@ -1,0 +1,46 @@
+T1	Date 16 32	6 septembre 2019
+T2	Lieu 201 210	Marseille
+A1	type T2 ville
+T3	Id 218 230	CSAR1932908X
+T4	Date 284 300	6 septembre 2019
+T5	Lieu 344 353	Marseille
+A2	type T5 ville
+T6	Date 411 428	30 septembre 1986
+T7	Date 652 668	29 novembre 2020
+T8	Date 1035 1050	29 juillet 1881
+T9	Date 1811 1828	30 septembre 1986
+T10	Organisation 1701 1735	Conseil supérieur de l'audiovisuel
+T11	Organisation 2189 2207	Association Nebbia
+T12	Organisation 2209 2228	Nebbia Campus Corte
+T13	Lieu 2230 2235	Corte
+A3	type T13 ville
+T14	Organisation 2250 2283	Association Radio Zig Zag Ajaccio
+T15	Organisation 2285 2294	Studio 20
+T16	Lieu 2296 2305	Bocognano
+A4	type T16 ville
+T17	Organisation 2320 2338	SARL Corsica Radio
+T18	Organisation 2340 2353	Corsica Radio
+T19	Lieu 2355 2359	Aiti
+A5	type T19 ville
+T20	Lieu 2360 2367	Vivario
+A6	type T20 ville
+T21	Organisation 2392 2413	SAS Canal Sud Corsica
+T22	Organisation 2415 2429	Alta Frequenza
+T23	Lieu 2431 2440	Bocognano
+A7	type T23 ville
+T24	Lieu 2442 2449	Vivario
+A8	type T24 ville
+T25	Organisation 2472 2485	SAS Serena 2A
+T26	Organisation 2487 2498	Alta Serena
+T27	Lieu 2500 2509	Bocognano
+A9	type T27 ville
+T28	Lieu 2510 2515	Corte
+A10	type T28 ville
+T29	Lieu 2630 2639	Marseille
+A11	type T29 ville
+T30	Date 2644 2660	6 septembre 2019
+T31	Lieu 2710 2719	Marseille
+A12	type T31 ville
+T32	Personne 2739 2749	D. Bonmati
+A37	type T36 ville
+T36	Lieu 2070 2079	Marseille
