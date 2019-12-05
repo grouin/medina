@@ -9,6 +9,7 @@
 
 use strict;
 use utf8;
+use Text::Soundex;
 
 my @rep=<$ARGV[0]/*$ARGV[1]>;
 my $sortie=$ARGV[2];
@@ -104,11 +105,16 @@ foreach my $fichier (@rep) {
 	  if ($car=~/[aeiouyàâéèêëîïôöûùü]/) { if ($frequenceV{$car}<=($totalCar/250)) { $rareV="voy"; } }
       }
 
+      # Code Soundex
+      my $soundex="NUL";
+      $soundex=soundex($token) if ($token=~/^\p{L}+$/);
+      if ($soundex eq "") { $soundex="NUL"; }
+
       # Printing
       my $label="O";
       if ($tag eq "O") { $label="O"; }
       else { if ($tag eq $prec) { $label="I-$tag"; } else { $label="B-$tag"; } }
-      print S "$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareC\t$rareV\t$label\n" if ($token ne "");
+      print S "$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareC\t$rareV\t$soundex\t$label\n" if ($token ne "");
 
       # Reinitializations
       if ($fin ne "") { $tag="O"; }
