@@ -5,13 +5,13 @@ sh creeDictionnaire.sh
 
 
 ###
-# MEDINA règle, première version
-perl 1k_balisage.pl -r corpus/ -e txt
-perl 2_antidatation.pl -r corpus/
-perl 4_pseudonymes.pl -r corpus/ -e dat
-perl 5_hyperonymes.pl -r corpus/ -e pse
+# MEDINA règle, première version (indisponible sous GitHub)
+#perl 1k_balisage.pl -r corpus/ -e txt
+#perl 2_antidatation.pl -r corpus/
+#perl 4_pseudonymes.pl -r corpus/ -e dat
+#perl 5_hyperonymes.pl -r corpus/ -e pse
 
-rm corpus/*{med,dat,log,pse}
+#rm corpus/*{med,dat,log,pse}
 
 
 ###
