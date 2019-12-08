@@ -70,7 +70,7 @@ use locale;
 use strict;
 use vars qw($opt_r $opt_e $opt_c $opt_d $opt_g $opt_t $opt_p $opt_x);
 use Getopt::Std;
-#use open ':utf8';
+use open ':utf8';
 use utf8;
 
 &getopts("r:e:cdgt:px");

@@ -31,5 +31,5 @@ patient	lexique:data/prenoms-fr.lxq
 ville	lexique:data/villes-fr.lxq
 
 NUL	grammaire:sample.grm
-//NUL	dictionnaire:data/dictionnaire-fr.lxq
+NUL	dictionnaire:data/dictionnaire-fr.lxq
 //NUL	dictionnaire:data/umlf-fr.lxq
