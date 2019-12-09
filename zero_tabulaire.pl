@@ -1,11 +1,20 @@
 #!/usr/bin/perl
 
-# Produit un tabulaire au format BIO à partir d'annotations
+# Produit un tabulaire au format voulu à partir d'annotations
 # embarquées. Ne gère pas les annotations imbriquées.
 
 # Usage : perl zero_tabulaire.pl repertoire/ extension nomFichierTabulaire format
 
-# Formats d'annotation : IO BIO BWEMO BWEMO+
+# Formats : IO BIO BIO2 (le plus courant) BIO2H BWEMO BWEMO+
+# - IO : in/out
+# - BIO : begin/in/out, un élément isolé reçoit le préfixe I
+# - BIO2 : begin/in/out, un élément isolé reçoit le préfixe B
+# - BIO2H : begin/in/out, la tête de syntagme reçoit le préfixe H
+# - BWEMO : begin/word/end/middle/out, un élément isolé reçoit le
+#   préfixe W, le dernier élément annoté reçoit le préfixe E
+# - BWEMO+ : idem, les fins de ligne reçoivent l'étiquette O-EOS, et
+#   les O qui précèdent une portion annotée reçoivent l'étiquette de
+#   la portion qui suit avec le préfixe O
 
 # Auteur : Cyril Grouin, octobre 2019.
 
@@ -58,8 +67,7 @@ foreach my $fichier (@rep) {
 
 
 
-# Deuxième parcours du corpus : traitement du corpus et production du
-# tabulaire
+# Deuxième parcours du corpus : traitement du corpus
 my @tabulaire=();
 my @labels=();
 foreach my $fichier (@rep) {
@@ -141,67 +149,29 @@ foreach my $fichier (@rep) {
   close(E);
 }
 
+
+# Production du tabulaire final
 open(S,'>:utf8',"$sortie");
 my $i=0;
 foreach my $ligne (@tabulaire) {
     my $tag="";
-    # Format BWEMO
-    if ($format eq "BWEMO") {
-	# - W-annotation isolée
-	if (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "")) { $tag="W-$labels[$i]"; }
-	# - B-début d'annotation
-	elsif (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i+1] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "") { $tag="B-$labels[$i]"; }
-	# - M-milieu d'annotation
-	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "O" && $labels[$i+1] ne "") { $tag="M-$labels[$i]"; }
-	# - E-fin d'annotation
-	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "") && $labels[$i+1] ne $labels[$i]) { $tag="E-$labels[$i]"; }
-	# - O le cas échéant
-	else { $tag="O"; }
-    }
-    # Format BWEMO+
-    elsif ($format eq "BWEMO+") {
-	# - W-annotation isolée
-	if (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "")) { $tag="W-$labels[$i]"; }
-	# - B-début d'annotation
-	elsif (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i+1] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "") { $tag="B-$labels[$i]"; }
-	# - M-milieu d'annotation
-	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "O" && $labels[$i+1] ne "") { $tag="M-$labels[$i]"; }
-	# - E-fin d'annotation
-	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "") && $labels[$i+1] ne $labels[$i]) { $tag="E-$labels[$i]"; }
-	# O-plus
-	elsif ($labels[$i] eq "O" && $labels[$i+1] ne "O") {
-	    if ($labels[$i+1] ne "") { $tag="O-$labels[$i+1]"; }
-	    else { $tag="O-EOS"; }
-	}
-	# - O le cas échéant
-	else { $tag="O"; }
-    }
-    # Format IO
-    elsif ($format eq "IO") {
-	# - I-début/milieu/fin d'annotation
-	if (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i+1] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "") { $tag="I-$labels[$i]"; }
-	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "O" && $labels[$i+1] ne "") { $tag="I-$labels[$i]"; }
-	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "")) { $tag="I-$labels[$i]"; }
-	# - O le cas échéant
-	else { $tag="O"; }
-    }
-    # Format BIO (par défaut)
-    else {
-	# - B-début d'annotation ou annotation isolée
-	if (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "")) { $tag="B-$labels[$i]"; }
-	elsif (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i+1] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "") { $tag="B-$labels[$i]"; }
-	# - I-milieu/fin d'annotation
-	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "O" && $labels[$i+1] ne "") { $tag="I-$labels[$i]"; }
-	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "")) { $tag="I-$labels[$i]"; }
-	# - O le cas échéant
-	else { $tag="O"; }
-    }
+    
+    # Appel des routines en fonction du format voulu
+    if ($format eq "BWEMO") { $tag=&bwemo($labels[$i-1],$labels[$i],$labels[$i+1]); }
+    elsif ($format eq "BWEMO+") { $tag=&bwemoPlus($labels[$i-1],$labels[$i],$labels[$i+1]); }    
+    elsif ($format eq "IO") { $tag=&io($labels[$i-1],$labels[$i],$labels[$i+1]); }
+    elsif ($format eq "BIO") { $tag=&bio($labels[$i-1],$labels[$i],$labels[$i+1]); }
+    elsif ($format eq "BIO2H") { $tag=&bio2h($labels[$i-1],$labels[$i],$labels[$i+1],$ligne); }
+    else { $tag=&bio2($labels[$i-1],$labels[$i],$labels[$i+1]); }
+
+    # Pas d'étiquette en l'absence de token
     if ($labels[$i] eq "") { $tag=""; }
 
     print S "$ligne$tag\n";
     $i++;
 }
 close(S);
+
 
 
 ###
@@ -222,4 +192,99 @@ sub normalisation() {
   $contenu=~s/^\s+//g;
 
   return $contenu;
+}
+
+sub bwemo() {
+    my ($avant,$courant,$apres)=@_;
+    my $t="O";
+    # - W-annotation isolée
+    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
+    # - B-début d'annotation
+    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    # - M-milieu d'annotation
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="M-$courant"; }
+    # - E-fin d'annotation
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="E-$courant"; }
+    # - O le cas échéant
+    else { $t="O"; }
+    return $t;
+}
+
+sub bwemoPlus() {
+    my ($avant,$courant,$apres)=@_;
+    my $t="O";
+    # - W-annotation isolée
+    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
+    # - B-début d'annotation
+    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    # - M-milieu d'annotation
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="M-$courant"; }
+    # - E-fin d'annotation
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="E-$courant"; }
+    # O-plus
+    elsif ($courant eq "O" && $apres ne "O") {
+	if ($apres ne "") { $t="O-$apres"; }
+	else { $t="O-EOS"; }
+    }
+    # - O le cas échéant
+    else { $t="O"; }
+    return $t;
+}
+
+sub io() {
+    my ($avant,$courant,$apres)=@_;
+    my $t="O";
+    # - I-début/milieu/fin d'annotation
+    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="I-$courant"; }
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+    # - O le cas échéant
+    else { $t="O"; }
+    return $t;
+}
+
+sub bio() {
+    my ($avant,$courant,$apres)=@_;
+    my $t="O";
+    # - I-annotation isolée
+    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+    # - B-début d'annotation
+    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    # - I-milieu/fin d'annotation
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="I-$courant"; }
+    # - O le cas échéant
+    else { $t="O"; }
+    return $t;
+}
+
+sub bio2h() {
+    my ($avant,$courant,$apres,$l)=@_;
+    my $t="O";
+    # - I-annotation isolée
+    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+    # - B-début d'annotation
+    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    # - I-milieu/fin d'annotation
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="I-$courant"; }
+    # - O le cas échéant
+    else { $t="O"; }
+    # Tête de syntagme : essai sur les verbes et les noms (dans les portions annotées), ne sont pas des têtes de syntagme
+    if ($l=~/\tVer\:/ || $l=~/\tNom\:/) { $t=~s/^[A-Z]-/H-/; }
+    return $t;
+}
+    
+sub bio2() {
+    my ($avant,$courant,$apres)=@_;
+    my $t="O";
+    # - B-début d'annotation ou annotation isolée
+    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="B-$courant"; }
+    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    # - I-milieu/fin d'annotation
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
+    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+    # - O le cas échéant
+    else { $t="O"; }
+    return $t;
 }

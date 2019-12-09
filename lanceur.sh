@@ -16,9 +16,10 @@ perl zero_alignement.pl corpus/jorf/test/
 # Production of tabular file using the BIO schema for linear chain CRF
 # - four arguments: path to embedded annotations files, file extension
 #   for those files (tag), name of output tabular file, and type of
-#   annotation schema to be used (IO BIO BWEMO BWEMO+)
-perl zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BIO
-perl zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BIO
+#   annotation schema to be used (IO BIO BIO2 BWEMO BWEMO+)
+# - annotation schema BIO2 is the schema commonly used (default value)
+perl zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BWEMO+
+perl zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
 
 # Statistical model building using the Wapiti tool
 wapiti train -t 2 -a rprop- -1 0.1 -p zero_config.tpl tab_train.zero modele-zero
