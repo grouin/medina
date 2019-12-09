@@ -21,6 +21,13 @@ perl zero_alignement.pl corpus/jorf/test/
 perl zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BWEMO+
 perl zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
 
+# Over-training reduction by deletion of unannotated lines when those
+# lines are not in a local context of annotated lines (e.g., more than
+# 17 lines). The output consists in a new tabular file with less
+# unannotated lines, to be used to train the model in the next
+# step. Only for the training stage
+#perl zero_supprimeO.pl tab_train.zero 17 >tab_reduc.zero
+
 # Statistical model building using the Wapiti tool
 wapiti train -t 2 -a rprop- -1 0.1 -p zero_config.tpl tab_train.zero modele-zero
 
