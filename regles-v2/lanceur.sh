@@ -1,7 +1,7 @@
 ###
 # Dictionnaire des formes fléchies du français (à ne faire que la première fois)
 
-sh creeDictionnaire.sh
+bash creeDictionnaire.sh
 
 
 ###
