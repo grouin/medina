@@ -1,5 +1,0 @@
-$DAY	(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)
-$DIGIT	[\d]
-
-date	(_DAY _DIGIT+)
-email	([A-Za-z\.\-]+\@[A-Za-z\-\.]+\.[a-z]{2,3})

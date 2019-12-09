@@ -83,7 +83,7 @@ foreach my $fichier (@rep) {
     my $prec="O";
     my $taille=0;
     my $interT=0;
-    my $pos="nul";
+    my $pos="";
     my $decl="nul";
 
     foreach my $token (@tokens) {
@@ -105,8 +105,13 @@ foreach my $fichier (@rep) {
       $taille=length($token);
       if ($taille<4) { $interT="p"; } elsif ($taille<8) { $interT="m"; } else { $interT="g"; }
 
-      # Etiquetage en parties du discours (d'après les listes du CNAM)
+      # Etiquetage en parties du discours (d'après les listes du CNAM avec amélioration sur les tokens inconnu commençant par une majuscule)
       if (exists $tabPOS{lc($token)}) { $pos=$tabPOS{lc($token)}; }
+      elsif (length($token)>=4 && $token=~/^[A-Z]\p{L}+$/) { $pos="Nom:Propre"; }
+      elsif ($token=~/^d\'$/i) { $pos="Pre"; }
+      elsif ($token=~/^(l\'|le)$/i) { $pos="Det:Mas+SG"; }
+      elsif ($token=~/^[[:digit:]]+$/) { $pos="Chiffre"; }
+      elsif ($token=~/^[[:punct:]]+$/) { $pos="Ponct"; }
       else { $pos="nul"; }
 
       # Trigger words
