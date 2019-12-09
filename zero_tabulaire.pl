@@ -41,6 +41,9 @@ while (my $ligne=<E>) {
     chomp $ligne;
     my @cols=split(/\t/,$ligne);
     $tabPOS{$cols[0]}=$cols[2];
+    # Ajout d'une version désaccentuée
+    my $desaccent=$cols[0]; $desaccent=~s/[éèê]/e/g;
+    if ($desaccent ne $cols[0]) { $tabPOS{$desaccent}=$cols[2]; }
 }
 close(E);
 
@@ -109,7 +112,7 @@ foreach my $fichier (@rep) {
       if (exists $tabPOS{lc($token)}) { $pos=$tabPOS{lc($token)}; }
       elsif (length($token)>=4 && $token=~/^[A-Z]\p{L}+$/) { $pos="Nom:Propre"; }
       elsif ($token=~/^d\'$/i) { $pos="Pre"; }
-      elsif ($token=~/^(l\'|le)$/i) { $pos="Det:Mas+SG"; }
+      elsif ($token=~/^l\'$/i) { $pos="Det:Mas+SG"; }
       elsif ($token=~/^[[:digit:]]+$/) { $pos="Chiffre"; }
       elsif ($token=~/^[[:punct:]]+$/) { $pos="Ponct"; }
       else { $pos="nul"; }
@@ -221,7 +224,7 @@ sub bwemoPlus() {
     # - W-annotation isolée
     if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
     # - B-début d'annotation
-    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
     # - M-milieu d'annotation
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="M-$courant"; }
     # - E-fin d'annotation
@@ -240,7 +243,7 @@ sub io() {
     my ($avant,$courant,$apres)=@_;
     my $t="O";
     # - I-début/milieu/fin d'annotation
-    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="I-$courant"; }
+    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="I-$courant"; }
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
     # - O le cas échéant
@@ -252,9 +255,9 @@ sub bio() {
     my ($avant,$courant,$apres)=@_;
     my $t="O";
     # - I-annotation isolée
-    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
     # - B-début d'annotation
-    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
     # - I-milieu/fin d'annotation
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="I-$courant"; }
@@ -267,9 +270,9 @@ sub bio2h() {
     my ($avant,$courant,$apres,$l)=@_;
     my $t="O";
     # - I-annotation isolée
-    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
     # - B-début d'annotation
-    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
     # - I-milieu/fin d'annotation
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="I-$courant"; }
@@ -284,8 +287,8 @@ sub bio2() {
     my ($avant,$courant,$apres)=@_;
     my $t="O";
     # - B-début d'annotation ou annotation isolée
-    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="B-$courant"; }
-    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="B-$courant"; }
+    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
     # - I-milieu/fin d'annotation
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
