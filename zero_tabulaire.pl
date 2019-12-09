@@ -74,6 +74,9 @@ foreach my $fichier (@rep) {
 my @tabulaire=();
 my @labels=();
 foreach my $fichier (@rep) {
+  push(@tabulaire,"$fichier\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\t");
+  push(@labels,"O");
+  
   open(E,'<:utf8',$fichier);
   while (my $ligne=<E>) {
     my $norm=&normalisation($ligne);
