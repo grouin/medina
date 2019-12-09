@@ -113,8 +113,8 @@ foreach my $fichier (@rep) {
       elsif (length($token)>=4 && $token=~/^[A-Z]\p{L}+$/) { $pos="Nom:Propre"; }
       elsif ($token=~/^d\'$/i) { $pos="Pre"; }
       elsif ($token=~/^l\'$/i) { $pos="Det:Mas+SG"; }
-      elsif ($token=~/^[[:digit:]]+$/) { $pos="Chiffre"; }
-      elsif ($token=~/^[[:punct:]]+$/) { $pos="Ponct"; }
+      elsif ($token=~/^[[:digit:]]+$/) { $pos="Num"; }
+      elsif ($token=~/^[[:punct:]]+$/) { $pos="Pct"; }
       else { $pos="nul"; }
 
       # Trigger words
