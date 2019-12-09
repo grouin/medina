@@ -1,7 +1,7 @@
 #!/usr/bin/sh
 
-# We assume the existence of BRAT annotations in corpus/train/ and
-# corpus/test directories
+# We assume the existence of BRAT annotations in corpus/jorf/train/
+# and corpus/jorf/test/ directories
 
 # Conversion from BRAT to embedded annotations (files *.tag)
 # - one argument: path to *{ann,txt} files
