@@ -1,9 +1,9 @@
 #!/usr/bin/sh
 
-# We assume the existence of BRAT annotations in corpus/jorf/train/
-# and corpus/jorf/test/ directories
+# We assume the existence of BRAT annotations in train and test
+# directories
 
-# Creation of a list in data/ repository of forms, lemma, and POS
+# Creation of a list in data/ directory of forms, lemma, and POS
 # tags, based on lists produced by ABU CNAM, and named
 # forme-lemme-pos.tab (to be done only once)
 #bash creeDictionnaire.bash
@@ -16,7 +16,7 @@ perl zero_alignement.pl corpus/jorf/test/
 # Production of tabular file using the BIO schema for linear chain CRF
 # - four arguments: path to embedded annotations files, file extension
 #   for those files (tag), name of output tabular file, and type of
-#   annotation schema to be used (IO BIO BWEMO)
+#   annotation schema to be used (IO BIO BWEMO BWEMO+)
 perl zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BIO
 perl zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BIO
 

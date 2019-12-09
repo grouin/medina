@@ -5,7 +5,7 @@
 
 # Usage : perl zero_tabulaire.pl repertoire/ extension nomFichierTabulaire format
 
-# Formats d'annotation : IO BIO BWEMO
+# Formats d'annotation : IO BIO BWEMO BWEMO+
 
 # Auteur : Cyril Grouin, octobre 2019.
 
@@ -125,8 +125,6 @@ foreach my $fichier (@rep) {
       # Printing
       my $label="O";
       if ($tag eq "O") { $label="O"; }
-      #else { if ($tag eq $prec) { $label="I-$tag"; } else { $label="B-$tag"; } }
-      #print S "$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareC\t$rareV\t$soundex\t$label\n" if ($token ne "");
       if ($token ne "") {
 	  push(@tabulaire,"$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareC\t$rareV\t$soundex\t");
 	  push(@labels,$tag);
@@ -137,7 +135,6 @@ foreach my $fichier (@rep) {
       $prec=$tag;
     }
     # New line
-    #print S "\n";
     push(@tabulaire,"");
     push(@labels,"");
   }
@@ -158,6 +155,24 @@ foreach my $ligne (@tabulaire) {
 	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "O" && $labels[$i+1] ne "") { $tag="M-$labels[$i]"; }
 	# - E-fin d'annotation
 	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "") && $labels[$i+1] ne $labels[$i]) { $tag="E-$labels[$i]"; }
+	# - O le cas échéant
+	else { $tag="O"; }
+    }
+    # Format BWEMO+
+    elsif ($format eq "BWEMO+") {
+	# - W-annotation isolée
+	if (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "")) { $tag="W-$labels[$i]"; }
+	# - B-début d'annotation
+	elsif (($labels[$i-1] eq "O" || $labels[$i-1] eq "") && $labels[$i] ne "O" && $labels[$i+1] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "") { $tag="B-$labels[$i]"; }
+	# - M-milieu d'annotation
+	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && $labels[$i+1] ne "O" && $labels[$i+1] ne "") { $tag="M-$labels[$i]"; }
+	# - E-fin d'annotation
+	elsif ($labels[$i-1] eq $labels[$i] && $labels[$i] ne "O" && $labels[$i] ne "" && ($labels[$i+1] eq "O" || $labels[$i+1] eq "") && $labels[$i+1] ne $labels[$i]) { $tag="E-$labels[$i]"; }
+	# O-plus
+	elsif ($labels[$i] eq "O" && $labels[$i+1] ne "O") {
+	    if ($labels[$i+1] ne "") { $tag="O-$labels[$i+1]"; }
+	    else { $tag="O-EOS"; }
+	}
 	# - O le cas échéant
 	else { $tag="O"; }
     }
