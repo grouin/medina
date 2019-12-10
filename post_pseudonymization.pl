@@ -88,57 +88,19 @@ foreach $entree (@rep) {
 
 # Attribution de correspondances valables sur l'ensemble du corpus
 foreach my $personne (sort keys %index) {
-    my ($prenom,$nom,$nom2,$nom3)=split(/ /,$personne);
-    if ($nom3 ne "") { $nom2.=" $nom3"; $nom3=""; }
-    if ($nom2 ne "") { $nom.=" $nom2"; $nom2=""; }
-    if ($nom eq "" && $prenom=~/^\p{Lu}+$/) { $nom=$prenom; $prenom=""; }
-    #print "prenom=$prenom nom=$nom\n";
-    # Tirage aléatoire de prénom et nom dans les listes existantes
-    my ($p,$n)=($corrP{int(rand(19)+1)},$corrN{int(rand(19)+1)});
-    
-    # - PRENOM NOM
-    $n=uc($n); $p=uc($p);
-    my $cle=uc($personne);
-    if ($prenom ne "") { $corr{$cle}="$p $n"; } else { $corr{$cle}="$n"; }
-    $corr{$prenom}=$p;
-    #print "-(1) $cle/$p $n\n";
-    
-    # - Prénom NOM
-    my $prenom2=""; my $p2="";
-    if ($prenom=~/ /) { my @c=split(/ /,$prenom); foreach my $t (@c) { $prenom2.=" ".substr($t,0,1).lc(substr($t,1)); } $prenom2=~s/^ //; }
-    elsif ($prenom=~/\-/) { my @c=split(/\-/,$prenom); foreach my $t (@c) { $prenom2.="\-".substr($t,0,1).lc(substr($t,1)); } $prenom2=~s/^\-//; }
-    else { $prenom2=substr($prenom,0,1).lc(substr($prenom,1)); }
-    if ($p=~/ /) { my @c=split(/ /,$p); foreach my $t (@c) { $p2.=" ".substr($t,0,1).lc(substr($t,1)); } $p2=~s/^ //; }
-    elsif ($p=~/\-/) { my @c=split(/\-/,$p); foreach my $t (@c) { $p2.="\-".substr($t,0,1).lc(substr($t,1)); } $p2=~s/^\-//; }
-    else { $p2=substr($p,0,1).lc(substr($p,1)); }
-    if ($prenom ne "") { $cle=$prenom2." ".uc($nom); } else { $cle=uc($nom); }
-    $corr{$cle}="$p2 $n";
-    #print "-(2) $cle/$p2 $n\n";
-    my $cle2=substr($prenom,0,1).lc(substr($prenom,1));
-    $corr{$cle2}="$p2";
+  my ($prenom,$nom)=&recuperePrenomNom($personne);
 
-    # - P. NOM
-    my $ip=substr($p,0,1)."\.";
-    if ($prenom ne "") { $cle=substr($prenom,0,1)." ".uc($nom); } else { $cle=uc($nom); }
-    $corr{$cle}="$ip $n";
-    $cle2=uc($nom); $corr{$cle2}="$n";
-    #print "-(3) $cle/$ip $n\n";
-    #print "-(4) $cle2/$n\n";
+  # Tirage aléatoire de prénom et nom dans les listes existantes
+  my ($p,$n)=($corrP{int(rand(19)+1)},$corrN{int(rand(19)+1)});
 
-    # - Prénom Nom
-    my $nom2="";
-    if ($nom=~/ /) { my @c=split(/ /,$nom); foreach my $t (@c) { $nom2.=" ".substr($t,0,1).lc(substr($t,1)); } $nom2=~s/^ //; }
-    elsif ($nom=~/\-/) { my @c=split(/\-/,$nom); foreach my $t (@c) { $nom2.="\-".substr($t,0,1).lc(substr($t,1)); } $nom2=~s/^\-//; }
-    else { $nom2=$nom; }
-    if ($prenom ne "") { $cle=$prenom2." ".$nom2; } else { $cle=$nom2; }
-    $corr{$cle}="$p $n";
-    #print "-(5) $cle/$p $n\n";
-
-    # - P. Nom
-    my $ip=substr($p,0,1)."\.";
-    if ($prenom ne "") { $cle=substr($prenom,0,1)." ".$nom2; } else { $cle=$nom2; }
-    $corr{$cle}="$ip $n";
-    #print "-(6) $cle/$ip $n\n";
+  # Génération des variantes (prénom et nom en majuscules, prénom en
+  # minuscules et nom en majuscules, prénom et nom en minuscules avec
+  # initiale en majuscule, versions avec initiale du prénom)
+  &prenomMajNomMaj($prenom,$nom,$p,$n);
+  &prenomMinNomMaj($prenom,$nom,$p,$n);
+  &iniPrenomNomMaj($prenom,$nom,$p,$n);
+  &prenomMinNomMin($prenom,$nom,$p,$n);
+  &iniPrenomNomMin($prenom,$nom,$p,$n);
 }
 
 
@@ -153,15 +115,107 @@ foreach $entree (@rep) {
     while ($ligne=~/<Personne>([^<]+)<\/Personne>/i) {
       my $personne=$1;
       if (exists $corr{$personne}) {
-	  #warn "identifie $personne\n";
-	  $ligne=~s/<Personne>$personne<\/Personne>/$corr{$personne}/gi;
+	#warn "identifie $personne\n";
+	$ligne=~s/<Personne>$personne<\/Personne>/$corr{$personne}/gi;
       } else {
-	  warn "manque : $personne\n";
-	  $ligne=~s/<Personne>$personne<\/Personne>/$personne/gi;
+	warn "manque : $personne\n";
+	$ligne=~s/<Personne>$personne<\/Personne>/$personne/gi;
       }
     }
     print S $ligne;
   }
   close(E);
   close(S);
+}
+
+
+###
+# Routines
+
+sub recuperePrenomNom() {
+  # Identifie les prénom et nom dans un segment annoté Personne, en
+  # segmentant autour de l'espace : l'élément avant la première espace
+  # est le prénom, tous les autres éléments font partie du nom
+
+  my $segment=shift;
+  
+  my ($e1,$e2,$e3,$e4)=split(/ /,$segment);
+  if ($e4 ne "") { $e3.=" $e4"; $e4=""; }
+  if ($e3 ne "") { $e2.=" $e3"; $e3=""; }
+  if ($e2 eq "" && $e1=~/^\p{Lu}+$/) { $e2=$e1; $e1=""; }
+
+  return ($e1,$e2);
+}
+
+
+sub prenomMajNomMaj() {
+  my ($prenomReel,$nomReel,$substitutPrenom,$substitutNom)=@_;
+  
+  $substitutNom=uc($substitutNom); $substitutPrenom=uc($substitutPrenom);
+  my $cle=uc("$prenomReel $nomReel");
+  if ($prenomReel ne "") { $corr{$cle}="$substitutPrenom $substitutNom"; } else { $corr{$cle}="$substitutNom"; }
+  $corr{$prenomReel}=$substitutPrenom;
+  #print "-(1) $cle/$substitutPrenom $substitutNom\n";
+}
+
+sub prenomMinNomMaj() {
+  my ($prenomReel,$nomReel,$substitutPrenom,$substitutNom)=@_;
+  my $prenomReelNormalise=&minusculesMajusculeInitiale($prenomReel);
+  my $substitutPrenomNorm=&minusculesMajusculeInitiale($substitutPrenom);
+
+  my $cle; if ($prenomReel ne "") { $cle=$prenomReelNormalise." ".uc($nomReel); } else { $cle=uc($nomReel); }
+  
+  $corr{$cle}="$substitutPrenomNorm $substitutNom";
+  #print "-(2) $cle/$substitutPrenomNorm $substitutNom\n";
+  my $cle2=substr($prenomReel,0,1).lc(substr($prenomReel,1));
+  $corr{$cle2}="$substitutPrenomNorm";
+}
+
+sub iniPrenomNomMaj() {
+  my ($prenomReel,$nomReel,$substitutPrenom,$substitutNom)=@_;
+
+  my $ip=substr($substitutPrenom,0,1)."\.";
+  my $cle; if ($prenomReel ne "") { $cle=substr($prenomReel,0,1)." ".uc($nomReel); } else { $cle=uc($nomReel); }
+  
+  $corr{$cle}="$ip $substitutNom";
+  #print "-(3) $cle/$ip $substitutNom\n";
+
+  $cle=uc($nomReel);
+  $corr{$cle}="$substitutNom";
+  #print "-(4) $cle/$substitutNom\n";
+}
+
+sub prenomMinNomMin() {
+  my ($prenomReel,$nomReel,$substitutPrenom,$substitutNom)=@_;
+  my $prenomReelNormalise=&minusculesMajusculeInitiale($prenomReel);
+  my $nomReelNormalise=&minusculesMajusculeInitiale($nomReel);
+
+  my $cle; if ($prenomReel ne "") { $cle=$prenomReelNormalise." ".$nomReelNormalise; } else { $cle=$nomReelNormalise; }
+  $corr{$cle}="$substitutPrenom $substitutNom";
+  #print "-(5) $cle/$substitutPrenom $substitutNom\n";
+}
+
+sub iniPrenomNomMin() {
+  my ($prenomReel,$nomReel,$substitutPrenom,$substitutNom)=@_;
+  my $nomReelNormalise=&minusculesMajusculeInitiale($nomReel);
+
+  my $ip=substr($substitutPrenom,0,1)."\.";
+  my $cle; if ($prenomReel ne "") { $cle=substr($prenomReel,0,1)." ".$nomReelNormalise; } else { $cle=$nomReelNormalise; }
+  $corr{$cle}="$ip $substitutNom";
+  #print "-(6) $cle/$ip $substitutNom\n";
+}
+
+
+sub minusculesMajusculeInitiale() {
+  # Pour un nom ou prénom simple ou composé, renvoie ledit nom ou
+  # prénom avec une majuscule initiale et le reste en minuscules
+  # (Jean, Jean Luc, Jean-Luc)
+  my $element=shift;
+
+  my $normalisation;
+  if ($element=~/ /) { my @c=split(/ /,$element); foreach my $t (@c) { $normalisation.=" ".substr($t,0,1).lc(substr($t,1)); } $normalisation=~s/^ //; }
+  elsif ($element=~/\-/) { my @c=split(/\-/,$element); foreach my $t (@c) { $normalisation.="\-".substr($t,0,1).lc(substr($t,1)); } $normalisation=~s/^\-//; }
+  else { $normalisation=substr($element,0,1).lc(substr($element,1)); }
+
+  return $normalisation;
 }
