@@ -41,4 +41,4 @@ perl conlleval.pl -d '\t' <sortie-zero
 #perl post_differences.pl sortie-zero
 
 # Single annotated files production from output (files *sgml in test/)
-perl output.pl sortie-zero
+perl crf-output-splitter.pl sortie-zero
