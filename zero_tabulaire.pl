@@ -25,9 +25,9 @@ use Text::Soundex;
 my @rep=<$ARGV[0]/*$ARGV[1]>;
 my $sortie=$ARGV[2];
 my $format=$ARGV[3];
-my %frequence=();
-my %frequenceC=();
-my %frequenceV=();
+my %frequenceToken=();
+my %frequenceConsonnes=();
+my %frequenceVoyelles=();
 my $total=0;
 my $totalCar=0;
 my $fichierPOS="data/forme-lemme-pos.tab";
@@ -53,16 +53,17 @@ foreach my $fichier (@rep) {
   open(E,'<:utf8',$fichier);
   while (my $ligne=<E>) {
     my $norm=&normalisation($ligne);
+    $norm=~s/<[^>]+>//g;
 
     # Tokénisation
     my @tokens=split(/ /,$norm);
-    foreach my $token (@tokens) { $frequence{$token}++; $total++; }
+    foreach my $token (@tokens) { $frequenceToken{$token}++; $total++; }
     # Tokénisation caractères
     my @cars=split(//,$norm);
     foreach my $car (@cars) {
 	$car=lc($car);
-	$frequenceC{$car}++ if ($car=~/[bcdfghjklmnpqrstvwxzç]/i);
-	$frequenceV{$car}++ if ($car=~/[aeiouyàâéèêëîïôöûùü]/i);
+	$frequenceConsonnes{$car}++ if ($car=~/[bcdfghjklmnpqrstvwxzç]/i);
+	$frequenceVoyelles{$car}++ if ($car=~/[aeiouyàâéèêëîïôöûùü]/i);
 	$totalCar++;
     }
   }
@@ -74,12 +75,15 @@ foreach my $fichier (@rep) {
 my @tabulaire=();
 my @labels=();
 foreach my $fichier (@rep) {
-  push(@tabulaire,"$fichier\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\t");
+  push(@tabulaire,"$fichier\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\t");
   push(@labels,"O");
+  my $numLigne=0;
   
   open(E,'<:utf8',$fichier);
   while (my $ligne=<E>) {
     my $norm=&normalisation($ligne);
+    $ligne=~s/<[^>]+>//g;
+    my $indexPrecedent=0;
 
     # Tokenization
     my @tokens=split(/ /,$norm);
@@ -95,8 +99,8 @@ foreach my $fichier (@rep) {
     foreach my $token (@tokens) {
       my $fin="";
       my $freq="rare";
-      my $rareC="nul";
-      my $rareV="nul";
+      my $rareConsonne="nul";
+      my $rareVoyelle="nul";
 
       # Opening tag
       if ($token=~/<([^>\/]+)>/) {
@@ -127,13 +131,13 @@ foreach my $fichier (@rep) {
       else { $decl="nul"; }
 
       # Fréquence d'utilisation du token dans le corpus (binaire)
-      if ($frequence{$token}<=($total/2000) && $token=~/^\p{L}+$/i) { $freq="rare"; } else { $freq="commun"; }
+      if ($frequenceToken{$token}<=($total/2000) && $token=~/^\p{L}+$/i) { $freq="rare"; } else { $freq="commun"; }
       # Fréquence d'utilisation des caractères du token dans le corpus (soit il y a des consonnes ou des voyelles rares dans le token, soit il n'y en a pas)
       my @cars=split(//,$token);
       foreach my $car (@cars) {
 	  $car=lc($car);
-	  if ($car=~/[bcdfghjklmnpqrstvwxzç]/) { if ($frequenceC{$car}<=($totalCar/250)) { $rareC="cons"; } }
-	  if ($car=~/[aeiouyàâéèêëîïôöûùü]/) { if ($frequenceV{$car}<=($totalCar/250)) { $rareV="voy"; } }
+	  if ($car=~/[bcdfghjklmnpqrstvwxzç]/) { if ($frequenceConsonnes{$car}<=($totalCar/250)) { $rareConsonne="cons"; } }
+	  if ($car=~/[aeiouyàâéèêëîïôöûùü]/) { if ($frequenceVoyelles{$car}<=($totalCar/250)) { $rareVoyelle="voy"; } }
       }
 
       # Code Soundex
@@ -142,17 +146,22 @@ foreach my $fichier (@rep) {
       if ($soundex eq "") { $soundex="NUL"; }
 
       # Printing
+      my $index=index($ligne,$token,$indexPrecedent);
       my $label="O";
       if ($tag eq "O") { $label="O"; }
       if ($token ne "") {
-	  push(@tabulaire,"$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareC\t$rareV\t$soundex\t");
+	  push(@tabulaire,"$numLigne\-$index\t$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareConsonne\t$rareVoyelle\t$soundex\t");
 	  push(@labels,$tag);
       }
 
       # Reinitializations
       if ($fin ne "") { $tag="O"; }
       $prec=$tag;
+      $indexPrecedent=$index;
+
     }
+    $numLigne++;
+
     # New line
     push(@tabulaire,"");
     push(@labels,"");
@@ -178,6 +187,7 @@ foreach my $ligne (@tabulaire) {
     # Pas d'étiquette en l'absence de token
     if ($labels[$i] eq "") { $tag=""; }
 
+    #if ($ligne eq "") { $ligne="_"; }
     print S "$ligne$tag\n";
     $i++;
 }
