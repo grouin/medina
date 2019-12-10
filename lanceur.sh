@@ -29,7 +29,7 @@ perl zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
 #perl zero_supprimeO.pl tab_train.zero 17 >tab_reduc.zero
 
 # Statistical model building using the Wapiti tool
-wapiti train -t 2 -a rprop- -1 0.1 -p zero_config.tpl tab_train.zero modele-zero
+wapiti train -t 2 -a rprop- -1 0.1 -p config_zero.tpl tab_train.zero modele-zero
 
 # Model application on test data
 wapiti label -p -m modele-zero tab_test.zero >sortie-zero

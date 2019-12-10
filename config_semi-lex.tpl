@@ -35,4 +35,8 @@ Ucons:%x[0,6]
 Uvoy:%x[0,7]
 Usoundex:%x[0,8]
 
+# Ajout affixes
+Uprefix:%m[0,1,"^..."]
+Usuffix:%m[0,1,"...$"]
+
 *
