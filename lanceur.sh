@@ -6,7 +6,7 @@
 # Creation of a list in data/ directory of forms, lemma, and POS
 # tags, based on lists produced by ABU CNAM, and named
 # forme-lemme-pos.tab (to be done only once)
-#bash creeDictionnaire.bash
+#bash pre_creeDictionnaire.bash
 
 # Conversion from BRAT to embedded annotations (files *.tag)
 # - one argument: path to *{ann,txt} files
@@ -42,3 +42,8 @@ perl conlleval.pl -d '\t' <sortie-zero
 
 # Single annotated files production from output (files *sgml in test/)
 perl crf-output-splitter.pl sortie-zero
+
+
+# Post-processing steps to pseudonymize texts, based on previously
+# identified entities
+perl post_antidatation.pl -r corpus/jorf/test/ -e sgml
