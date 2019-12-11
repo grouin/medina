@@ -36,13 +36,16 @@ if (!$opt_r) { die "Usage :\tperl post_pseudonymization.pl -r <directory> -e <ex
 
 my $listePrenoms="data/prenoms-fr.lxq";
 my $listeNoms="data/noms-fr.lxq";
-my $refCorrP=&recupereListe($listePrenoms);
-my $refCorrN=&recupereListe($listeNoms);
+my $listeVilles="data/villes-fr.lxq";
+my $refPrenoms=&recupereListe($listePrenoms);
+my $refNoms=&recupereListe($listeNoms);
+my $refVilles=&recupereListe($listeVilles);
+my $refNomsVilles=&recupereIndex($listeVilles);
 
 my $ext; (!$opt_e) ? ($ext="sgml") : ($ext=$opt_e);
 my @rep=<$opt_r/*.$ext>;
 
-my (%index,%corr);
+my (%indexNoms,%indexVilles,%corr,%corrV);
 my @categories=split(/\,/,$opt_c);
 
 
@@ -50,28 +53,41 @@ my @categories=split(/\,/,$opt_c);
 ###
 # Programme
 
-# Extraction des prédictions réalisées pour la catégorie Personne
+# Extraction des prédictions réalisées pour les catégories Personne et
+# Lieu (villes)
 foreach my $entree (@rep) {
   open(E,'<:utf8',$entree);
   while (my $ligne=<E>) {
+    # Noms de personne
     while ($ligne=~/<Personne>([^<]+)<\/Personne>/i) {
       my $personne=$1;
-      $index{$personne}++;
+      $indexNoms{$personne}++;
       $ligne=~s/<Personne>$personne<\/Personne>/$personne/gi;
+    }
+    # Noms de ville : encadrées de balises Lieu, on ne conserve que
+    # les annotations identifiées dans la liste des villes de l'INSEE.
+    # Les autres annotations Lieu sont considérées comme n'étant pas
+    # des villes et font l'objet d'un autre traitement.
+    $ligne=~s/<Lieu>/<Ville>/g; $ligne=~s/<\/Lieu>/<\/Ville>/g;
+    while ($ligne=~/<Ville>([^<]+)<\/Ville>/i) {
+      my $ville=$1; my $villeLC=substr($ville,0,1).substr(lc($ville),1);
+      if (exists ${$refNomsVilles}{$ville}) { $indexVilles{$ville}++; $ligne=~s/<Ville>$ville<\/Ville>/$ville/gi; }
+      elsif (exists ${$refNomsVilles}{$villeLC}) { $indexVilles{$ville}++; $ligne=~s/<Ville>$ville<\/Ville>/$ville/gi; }
+      else { $ligne=~s/<Ville>/<Lieu>/; $ligne=~s/<\/Ville>/<\/Lieu>/; }
     }
   }
   close(E);
 }
 
 # Attribution de correspondances valables sur l'ensemble du corpus
-foreach my $personne (sort keys %index) {
+foreach my $personne (sort keys %indexNoms) {
   my ($prenom,$nom)=&recuperePrenomNom($personne);
 
   # Tirage aléatoire de prénom et nom dans les listes existantes
-  my $alea=int(rand(keys %{$refCorrP}));
-  my $nouveauPrenom=${$refCorrP}{$alea};
-  $alea=int(rand(keys %{$refCorrN}));
-  my $nouveauNom=${$refCorrN}{$alea};
+  my $alea=int(rand(keys %{$refPrenoms}));
+  my $nouveauPrenom=${$refPrenoms}{$alea};
+  $alea=int(rand(keys %{$refNoms}));
+  my $nouveauNom=${$refNoms}{$alea};
   
   # Génération des variantes (prénom et nom en majuscules, prénom en
   # minuscules et nom en majuscules, prénom et nom en minuscules avec
@@ -83,6 +99,14 @@ foreach my $personne (sort keys %index) {
   &PrenomNom($prenom,$nom,$nouveauPrenom,$nouveauNom);
   &PNom($prenom,$nom,$nouveauPrenom,$nouveauNom);
 }
+
+foreach my $ville (sort keys %indexVilles) {
+  # Tirage aléatoire de prénom et nom dans les listes existantes
+  my $alea=int(rand(keys %{$refVilles}));
+  my $nouvelleVille=${$refVilles}{$alea};
+  $corrV{$ville}=$nouvelleVille;
+}
+
 
 # Remplacement des informations et production des fichiers de sortie
 foreach my $entree (@rep) {
@@ -129,6 +153,13 @@ foreach my $entree (@rep) {
       print "$telephone -> $nouveau\n";
       $ligne=~s/<Telephone>$telephone<\/Telephone>/$nouveau/;
     }
+    # - Lieu (villes uniquement)
+    $ligne=~s/<Lieu>/<Ville>/g; $ligne=~s/<\/Lieu>/<\/Ville>/g;
+    while ($ligne=~/<Ville>([^<]+)<\/Ville>/i) {
+      my $ville=$1;
+      if (exists $corrV{$ville}) { $ligne=~s/<Ville>$ville<\/Ville>/$corrV{$ville}/gi; }
+      $ligne=~s/<Ville>/<Lieu>/; $ligne=~s/<\/Ville>/<\/Lieu>/;
+    }
 
     # Les autres catégories (pas explicitement marquées comme devant
     # être masquées, et pour lesquelles un traitement de
@@ -158,6 +189,18 @@ sub recupereListe() {
     chomp $ligne;
     $cl{$i}=$ligne;
     $i++;
+  }
+  close(E);
+  return \%cl;
+}
+
+sub recupereIndex() {
+  my $liste=shift;
+  my %cl=();
+  open(E,'<:utf8',$liste);
+  while (my $ligne=<E>) {
+    chomp $ligne;
+    $cl{$ligne}++;
   }
   close(E);
   return \%cl;
