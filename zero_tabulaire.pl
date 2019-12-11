@@ -157,7 +157,7 @@ foreach my $fichier (@rep) {
       # Reinitializations
       if ($fin ne "") { $tag="O"; }
       $prec=$tag;
-      $indexPrecedent=$index+1;
+      $indexPrecedent=$index+length($token);
 
     }
     $numLigne++;
