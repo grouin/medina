@@ -45,5 +45,8 @@ perl crf-output-splitter.pl sortie-zero
 
 
 # Post-processing steps to pseudonymize texts, based on previously
-# identified entities
+# identified entities (date shiffting in the past, pseudonyms for
+# person names, fake phone number, and replacement of other
+# predictions by a generic tag)
 perl post_antidatation.pl -r corpus/jorf/test/ -e sgml
+perl post_pseudonymization.pl -r corpus/jorf/test/ -e dat
