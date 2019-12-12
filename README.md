@@ -5,11 +5,11 @@ Medical Information Anonymization
 
 MEDINA is a toolbox to de-identify texts, originally designed for
 clinical texts. This toolbox aims at de-identifying data using linear
-chain CRF (Wapiti tool) and producing statistical models without any
-form of surface (strictly no learning of tokens, but basic features
-based on tokens are used: upper/lower case, presence of digits,
-punctuation marks, etc.) in order to share models (since there is no
-nominative data in the models).
+chain CRF (Wapiti tool) and producing delexicalized statistical
+models, i.e., without any form of surface (strictly no learning of
+tokens, but basic features based on tokens are used: upper/lower case,
+presence of digits, punctuation marks, etc.) in order to share models
+(since there is no nominative data in the models).
 
 Files:
 
@@ -19,7 +19,7 @@ Files:
 
 * pre_creeDictionnaire.bash: produces forme-lemme-pos.tab file in the
   data directory (list of forms, lemmas, and POS for French, from CNAM
-  data)
+  data); to be done only once
 
 * zero_alignement.pl: converts BRAT annotations into embedded
   annotations (*.tag files are created); allows to manage both layered
@@ -28,6 +28,9 @@ Files:
 * zero_tabulaire.pl: produces tabular files based on previous files,
   using a schema useful for CRF tools among following available ones:
   IO, BIO, BIO2, BIO2H, BWEMO, or BWEMO+
+
+* zero_supprimeO.pl: allows to remove unannotated lines in order to
+  reduce the over-training of the O category
 
 * config_zero.tpl: configuration template for Wapiti tool (for
   experiments based on semi-lexicalized, or fully lexicalized models,
@@ -85,6 +88,8 @@ These are end-to-end commands:
 	perl crf-output-splitter.pl sortie-zero
 	perl post_antidatation.pl -r corpus/jorf/test/ -e sgml
 	perl post_pseudonymization.pl -r corpus/jorf/test/ -e dat
+
+De-identified final files are *pse files.
 
 
 ## License ##
