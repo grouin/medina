@@ -17,6 +17,10 @@ Files:
   existing annotated data in corpus/appr/ and corpus/test/ files
   containing both *{ann,txt} files)
 
+* pre_creeDictionnaire.bash: produces forme-lemme-pos.tab file in the
+  data directory (list of forms, lemmas, and POS for French, from CNAM
+  data)
+
 * zero_alignement.pl: converts BRAT annotations into embedded
   annotations (*.tag files are created); allows to manage both layered
   and discontinuous entities
@@ -24,10 +28,48 @@ Files:
 * zero_tabulaire.pl: produces tabular files based on previous files,
   using a BIO schema useful for CRF tools
 
-* zero_config.tpl: configuration template for Wapiti tool
+* config_zero.tpl: configuration template for Wapiti tool
 
 * post_differences.pl: highlights false positive and false negative
   from the prediction file produced by Wapiti
+
+* post_antidatation.pl: random date shiffting based on previously
+  identified dates
+
+* post_pseudonymization: pseudonymizes (1) person names based on lists
+  of common first names and last names used in France and Québec, (2)
+  city names, based on a list of cities from France, and (3) produces
+  fake phone numbers
+
+
+## Commands ##
+
+The following commands allow (i) to train a CRF model based on existing
+BRAT annotations found in corpus/jorf/train/ (ii) to apply this model
+on texts from corpus/jorf/test/ (iii) to evaluate output predictions
+(assuming gold standard annotations exist for the test dataset), and
+(iv) to produce de-identified single files composed of fake phone
+numbers and pseudonymized person names and city names; other types of
+identified information are masked by a generic tag indicating the type
+of information.
+
+	bash pre_creeDictionnaire.bash
+	
+	perl zero_alignement.pl corpus/jorf/train/
+	perl zero_alignement.pl corpus/jorf/test/
+	
+	perl zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BWEMO+
+	perl zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
+	
+	wapiti train -t 2 -a rprop- -1 0.1 -p config_zero.tpl tab_train.zero modele-zero
+	wapiti label -p -m modele-zero tab_test.zero >sortie-zero
+	
+	perl conlleval.pl -d '\t' <sortie-zero
+	
+	perl crf-output-splitter.pl sortie-zero
+	perl post_antidatation.pl -r corpus/jorf/test/ -e sgml
+	perl post_pseudonymization.pl -r corpus/jorf/test/ -e dat
+
 
 ## License ##
 
