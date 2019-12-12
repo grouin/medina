@@ -26,12 +26,20 @@ Files:
   and discontinuous entities
 
 * zero_tabulaire.pl: produces tabular files based on previous files,
-  using a BIO schema useful for CRF tools
+  using a schema useful for CRF tools among following available ones:
+  IO, BIO, BIO2, BIO2H, BWEMO, or BWEMO+
 
-* config_zero.tpl: configuration template for Wapiti tool
+* config_zero.tpl: configuration template for Wapiti tool (for
+  experiments based on semi-lexicalized, or fully lexicalized models,
+  two other configuration files are given: config_lex.tpl and
+  config_semi-lex.tpl)
 
 * post_differences.pl: highlights false positive and false negative
   from the prediction file produced by Wapiti
+
+* crf-output-splitter.pl: allows to split the prediction file into
+  single files, reproducing the original content (in terms of spaces
+  and line breaks); predictions are represented with embedded tags
 
 * post_antidatation.pl: random date shiffting based on previously
   identified dates
