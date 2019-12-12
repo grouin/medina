@@ -44,14 +44,20 @@ Files:
 
 ## Commands ##
 
-The following commands allow (i) to train a CRF model based on existing
-BRAT annotations found in corpus/jorf/train/ (ii) to apply this model
-on texts from corpus/jorf/test/ (iii) to evaluate output predictions
-(assuming gold standard annotations exist for the test dataset), and
-(iv) to produce de-identified single files composed of fake phone
-numbers and pseudonymized person names and city names; other types of
-identified information are masked by a generic tag indicating the type
-of information.
+The following commands allow:
+
+* to train a CRF model based on existing BRAT annotations found in
+  corpus/jorf/train/
+
+* to apply this model on texts from corpus/jorf/test/
+
+* to evaluate output predictions (assuming gold standard annotations
+  exist for the test dataset)
+
+* and to produce de-identified single files composed of fake phone
+  numbers and pseudonymized person names and city names; other types
+  of identified information are masked by a generic tag indicating the
+  type of information.
 
 	bash pre_creeDictionnaire.bash
 	
