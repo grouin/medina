@@ -59,6 +59,8 @@ The following commands allow:
   of identified information are masked by a generic tag indicating the
   type of information.
 
+These are end-to-end commands:
+
 	bash pre_creeDictionnaire.bash
 	
 	perl zero_alignement.pl corpus/jorf/train/
