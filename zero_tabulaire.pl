@@ -211,6 +211,9 @@ sub normalisation() {
   # Réduction des espaces multiples
   $contenu=~s/\s+/ /g;
   $contenu=~s/^\s+//g;
+  # Si des balises encadrent le texte, il faut les supprimer pour
+  # éviter qu'elles ne soient utilisées comme catégorie à prédire
+  $contenu=~s/<\/?texte>//g;
 
   return $contenu;
 }
@@ -219,9 +222,9 @@ sub bwemo() {
     my ($avant,$courant,$apres)=@_;
     my $t="O";
     # - W-annotation isolée
-    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
+    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
     # - B-début d'annotation
-    elsif (($avant eq "O" || $avant eq "") && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
     # - M-milieu d'annotation
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="M-$courant"; }
     # - E-fin d'annotation
@@ -235,7 +238,7 @@ sub bwemoPlus() {
     my ($avant,$courant,$apres)=@_;
     my $t="O";
     # - W-annotation isolée
-    if (($avant eq "O" || $avant eq "") && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
+    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
     # - B-début d'annotation
     elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
     # - M-milieu d'annotation
@@ -256,7 +259,7 @@ sub io() {
     my ($avant,$courant,$apres)=@_;
     my $t="O";
     # - I-début/milieu/fin d'annotation
-    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="I-$courant"; }
+    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "") { $t="I-$courant"; }
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
     elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
     # - O le cas échéant
@@ -268,7 +271,7 @@ sub bio() {
     my ($avant,$courant,$apres)=@_;
     my $t="O";
     # - I-annotation isolée
-    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "") { $t="I-$courant"; }
     # - B-début d'annotation
     elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
     # - I-milieu/fin d'annotation
