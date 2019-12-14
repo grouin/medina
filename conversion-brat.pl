@@ -40,7 +40,8 @@ foreach my $fichier (@rep) {
       print S "T$i\t$label $debut $fin\t$portion\n";
       $i++;
     }
-    $offset+=length($ligne);
+    
+    if ($ligne eq "") { $offset++; } else { $offset+=length($ligne); }
   }
   close(E);
   close(S);
