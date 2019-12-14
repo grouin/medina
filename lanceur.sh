@@ -42,6 +42,10 @@ perl conlleval.pl -d '\t' <sortie-zero
 
 # Single annotated files production from output (files *sgml in test/)
 perl crf-output-splitter.pl sortie-zero
+#mkdir brat/
+#cp corpus/jorf/test/*{txt,sgml} brat/
+#perl conversion-brat.pl brat/
+#cp brat/*{ann,txt} path/to/brat/data/
 
 
 # Post-processing steps to pseudonymize texts, based on previously
