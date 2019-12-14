@@ -1,9 +1,10 @@
 #!/usr/bin/perl
 
-# Segmente le fichier de prédictions en autant de fichiers individuels
-# qu'à l'origine
+# Segmente le fichier de prédictions CRF en autant de fichiers
+# individuels qu'à l'origine (extension *sgml) dans le répertoire des
+# fichiers traités
 
-# Usage : perl output.pl tabulairePrédictions
+# Usage : perl crf-output-splitter.pl tabulairePrédictions
 
 # Auteur : Cyril Grouin, décembre 2019.
 
