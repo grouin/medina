@@ -27,13 +27,13 @@ my $i=0;
 foreach my $ligne (@lignes) {
     my @cols=split(/\t/,$ligne);
     # Faux positifs
-    if ($cols[$#cols] ne "O" && $cols[$#cols-1] eq "O") {
+    if (($cols[$#cols]!~/^O/) && ($cols[$#cols-1]=~/^O/)) {
 	my $j=$i-1; $fp[$j]="$j\t$lignes[$j]\n" if ($fp[$j] ne "");
 	$fp[$i]="$i\t$ligne\n";
 	my $k=$i+1; $fp[$k]="$k\t$lignes[$k]\n" if ($fp[$k] ne "");
     }
     # Faux négatifs
-    if ($cols[$#cols] eq "O" && $cols[$#cols-1] ne "O") {
+    if (($cols[$#cols]=~/^O/) && ($cols[$#cols-1]!~/^O/)) {
 	my $j=$i-1; $fn[$j]="$j\t$lignes[$j]\n" if ($fn[$j] ne "");
 	$fn[$i]="$i\t$ligne\n";
 	my $k=$i+1; $fn[$k]="$k\t$lignes[$k]\n" if ($fn[$k] ne "");

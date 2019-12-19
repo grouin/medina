@@ -125,7 +125,7 @@ foreach my $fichier (@rep) {
       else { $pos="nul"; }
 
       # Trigger words
-      if ($token=~/^(Madame|madame|Monsieur|monsieur|Mme|M\.|Mr|Melle|Pr|PR|Professeur|professeur|Dr|DR|Docteur|docteur)$/) { $decl="pers"; }
+      if ($token=~/^(Madame|madame|Monsieur|monsieur|Mme|M\.|Mr|Melle|Pr|PR|Professeur|professeur|Dr|DR|Docteur|docteur|Cher|Chère|cher|chère)$/) { $decl="pers"; }
       elsif ($token=~/^(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|monday|tuesday|wednesday|thursday|friday|saturday|sunday|january|february|march|april|may|june|july|august|september|october|november|december)$/i) { $decl="date"; }
       elsif ($token=~/^(CHU|clinique|hôpital|centre)$/i) { $decl="hosp"; }
       else { $decl="nul"; }
