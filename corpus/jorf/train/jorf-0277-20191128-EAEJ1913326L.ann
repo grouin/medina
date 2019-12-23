@@ -23,3 +23,13 @@ T21	Organisation 1300 1319	Assemblée nationale
 T22	Date 1488 1504	21 novembre 2019
 T23	Date 1023 1027	2018
 T24	Date 1028 1032	2019
+A2	type T4 ville
+T25	Id 7 16	2019-1245
+T26	Lieu 569 600	République de Macédoine du Nord
+A3	type T26 pays
+T27	Id 980 989	2019-1245
+T28	Id 1018 1021	676
+T29	Id 1362 1366	2344
+T30	Id 1454 1458	2429
+T31	Lieu 130 161	République de Macédoine du Nord
+A4	type T31 pays

@@ -16,3 +16,9 @@ T14	Lieu 1186 1252	2, impasse Initialis, CS 20052, 14202 Hérouville-Saint-Clair
 A2	type T14 adresse
 T15	Id 1254 1271	concours@cdg14.fr
 A3	categorie T15 email
+A4	type T9 pays
+A5	type T2 pays
+A6	type T12 pays
+T16	Id 787 799	www.cdg14.fr
+A7	categorie T16 email
+A8	type T13 pays

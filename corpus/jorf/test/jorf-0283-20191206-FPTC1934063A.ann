@@ -30,3 +30,7 @@ T26	Lieu 2982 3032	80, rue de Reuilly, CS 41232, 75578 Paris Cedex 12
 A3	type T26 adresse
 T28	Organisation 3601 3653	Centre national de la fonction publique territoriale
 T3	Personne 3683 3692	F. Deluga
+T19	Id 1116 1128	www.cnfpt.fr
+A4	categorie T19 email
+T29	Id 1706 1718	www.cnfpt.fr
+A5	categorie T29 email

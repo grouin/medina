@@ -1,0 +1,30 @@
+T1	Date 10 26	19 novembre 2019
+T2	Id 92 104	TERL1931997A
+T3	Date 1164 1180	19 novembre 2019
+T4	Personne 1281 1288	F. Adam
+T5	Id 357 365	L. 365-1
+T6	Id 367 375	L. 365-2
+T7	Id 377 385	R. 365-1
+T8	Id 387 395	R. 365-2
+T9	Id 399 407	R. 365-5
+T10	Id 531 539	L. 365-2
+T11	Date 695 710	6 novembre 2019
+T12	Date 478 490	21 mars 2019
+T13	Lieu 663 683	Auvergne-Rhône-Alpes
+A1	type T13 pays
+T14	Organisation 764 770	Emmaüs
+T15	Organisation 61 67	Emmaüs
+T16	Lieu 68 84	Bourgoin-Jallieu
+A2	type T16 ville
+T17	Lieu 771 787	Bourgoin-Jallieu
+A3	type T17 ville
+T18	Lieu 953 969	Bourgoin-Jallieu
+A4	type T18 ville
+T19	Lieu 820 840	35, rue de la Plaine
+A5	type T19 adresse
+T20	Lieu 843 859	Bourgoin-Jallieu
+A6	type T20 ville
+T21	Lieu 861 866	38300
+A7	type T21 adresse
+T22	Lieu 971 973	38
+A8	type T22 adresse

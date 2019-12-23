@@ -17,7 +17,7 @@ T16	Lieu 1500 1507	Gironde
 T17	Lieu 1603 1610	Gironde
 T18	Lieu 1663 1670	Gironde
 T19	Date 1899 1914	20 février 2014
-T20	Lieu 2099 2106	Gironde
+T20	Lieu 2092 2106	Le Sud-Gironde
 T21	Lieu 1974 1981	Gironde
 T22	Lieu 2028 2048	Castets et Castillon
 A1	type T22 ville
@@ -71,3 +71,22 @@ T48	Lieu 2336 2341	Arbis
 A23	type T48 ville
 T49	Lieu 2350 2357	Cantois
 A24	type T49 ville
+A25	type T47 pays
+A26	type T5 pays
+A27	type T11 pays
+A28	type T12 pays
+A29	type T14 pays
+A30	type T16 pays
+A31	type T17 pays
+A32	type T18 pays
+A33	type T21 pays
+A34	type T20 pays
+A35	type T24 pays
+T50	Id 10 19	2019-1153
+T51	Id 62 70	2014-192
+T52	Id 699 707	2014-192
+T53	Id 1008 1016	2014-192
+T54	Id 1385 1394	L. 3113-2
+T55	Id 1413 1421	2014-192
+T56	Id 1887 1895	2014-192
+T57	Id 2168 2176	2014-192

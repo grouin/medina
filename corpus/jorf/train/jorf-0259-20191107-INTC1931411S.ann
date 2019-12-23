@@ -210,3 +210,8 @@ T28	Lieu 13994 14001	Orléans
 A8	type T28 ville
 T30	Lieu 13541 13548	Orléans
 A9	type T30 ville
+A10	type T127 pays
+A11	type T77 pays
+T44	Id 269 277	2003-390
+T46	Id 491 499	2005-850
+T51	Id 627 635	2013-728

@@ -17,3 +17,7 @@ T9	Date 673 690	26 septembre 2019
 T3	Lieu 739 747	Antilles
 T4	Lieu 223 231	Antilles
 T5	Organisation 376 411	association Média scolaire SXM AMSS
+A1	type T4 pays
+A2	type T13 pays
+A3	type T3 pays
+A4	type T14 pays

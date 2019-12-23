@@ -1,0 +1,19 @@
+T1	Date 10 26	19 décembre 2019
+T2	Id 137 149	INTD1919544D
+T3	Date 253 269	19 décembre 2019
+T4	Date 285 298	11 avril 1939
+T5	Date 457 473	21 décembre 1955
+T6	Organisation 358 387	Charité de Notre-Dame d'Evron
+T7	Lieu 395 412	6, rue de la Gare
+A1	type T7 adresse
+T8	Lieu 416 421	Laval
+A2	type T8 ville
+T9	Lieu 423 430	Mayenne
+A3	type T9 pays
+T10	Organisation 533 562	Charité de Notre-Dame d'Evron
+T11	Lieu 620 664	33 ter et 35, devenus 81 à 89, rue de Nantes
+A4	type T11 adresse
+T12	Lieu 668 673	Laval
+A5	type T12 ville
+T13	Lieu 675 682	Mayenne
+A6	type T13 pays

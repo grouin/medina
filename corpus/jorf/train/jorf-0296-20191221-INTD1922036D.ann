@@ -1,0 +1,10 @@
+T1	Date 10 26	19 décembre 2019
+T2	Date 199 215	19 décembre 2019
+T3	Id 83 95	INTD1922036D
+T4	Organisation 222 295	Congrégation des Sœurs Servantes de Marie ministres des malades en France
+T5	Lieu 323 346	16, villa de La Réunion
+A1	type T5 adresse
+T6	Lieu 349 354	Paris
+A2	type T6 ville
+T7	Lieu 356 361	75016
+A3	type T7 adresse

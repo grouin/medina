@@ -1,0 +1,190 @@
+T1	Date 10 25	3 décembre 2019
+A10	type T9 adresse
+A12	type T11 adresse
+A14	type T13 ville
+A16	type T15 adresse
+A18	type T17 adresse
+A20	type T19 adresse
+A33	type T32 adresse
+A40	type T39 adresse
+A42	type T41 adresse
+A44	type T43 adresse
+A46	type T45 adresse
+A48	type T47 adresse
+T11	Lieu 4779 4819	60, rue Marcelin Jourdan, 33200 Bordeaux
+T13	Lieu 5988 5996	Bordeaux
+T15	Lieu 6028 6091	5, rue Joseph de Carayon-Latour, CS 81499, 33060 Bordeaux Cedex
+T17	Lieu 6150 6187	2, place de la Bourse, 33050 Bordeaux
+T19	Lieu 4124 4155	32, route de Caen, 14400 Bayeux
+T21	Lieu 3185 3252	49, boulevard François Mitterrand, CS 60032, 63001 Clermont-Ferrand
+T22	Lieu 5546 5562	Clermont-Ferrand
+T23	Lieu 5594 5657	161, avenue du Brézet, CS 70501, 63028 Clermont-Ferrand Cedex 2
+T26	Lieu 2191 2250	ZI Dijon Sud 1, rue Lavoisier CS 60102, 21603 Longvic Cedex
+T27	Lieu 2321 2355	2, avenue de Marbotte, 21000 Dijon
+T28	Lieu 3929 3963	2, avenue de Marbotte, 21000 Dijon
+T29	Lieu 4671 4728	14, boulevard de la Trémouille, BP 310, 21008 Dijon Cedex
+T31	Lieu 3095 3117	38058 Grenoble Cedex 9
+T32	Lieu 4529 4592	1, esplanade François Mitterrand, CS 20033, 69269 Lyon Cedex 02
+T34	Lieu 5782 5836	RD 62, La Croix de Biolet, 63780 Saint-Georges-de-Mons
+T35	Lieu 4196 4200	Nice
+T36	Lieu 4233 4296	hôpital de Cimiez, 4, avenue Reine Victoria, 06003 Nice Cedex 1
+T39	Lieu 422 460	Place de l'Hôtel de ville, 75004 Paris
+T41	Lieu 1697 1725	1, rue Maublanc, 75015 Paris
+T43	Lieu 2688 2722	298, rue de Charenton, 75012 Paris
+T45	Lieu 4337 4366	112, rue Réaumur, 75002 Paris
+T47	Lieu 5459 5493	11-13, rue de Monceau, 75008 Paris
+T49	Lieu 4015 4081	6, rue Robert d'Arbrissel, quartier Beauregard, 35052 Rennes Cedex
+T5	Date 246 261	3 décembre 2019
+T50	Lieu 2080 2130	avenue de Strasbourg, 21800 Chevigny-Saint-Sauveur
+T51	Lieu 2871 2925	Z.I du Palays, 34, rue des Cosmonautes, 31400 Toulouse
+T8	Lieu 643 681	1, rue Claude Goudimel, 25000 Besançon
+T9	Lieu 1333 1380	15-35, rue Claude Boucher, 33077 Bordeaux Cedex
+T2	Lieu 550 579	Sevenans, 90010 Belfort Cedex
+A1	type T2 adresse
+T3	Organisation 465 510	Université de technologie Belfort-Montbéliard
+T4	Organisation 375 390	Mairie de Paris
+T10	Organisation 584 611	Université de Franche-Comté
+A2	type T8 adresse
+T12	Organisation 686 735	Ecole supérieure des technologies et des affaires
+T14	Organisation 737 741	ESTA
+T16	Lieu 774 801	3, rue Fréry, 90004 Belfort
+A3	type T16 adresse
+T18	Lieu 847 893	12, rue du général de Gaulle, 90120 Morvillars
+A4	type T18 adresse
+T20	Organisation 806 815	VMC Pêche
+T33	Organisation 898 909	Cordon DS2i
+T37	Lieu 941 979	193, Voie du futur, 27100 Val-de-Reuil
+A5	type T37 adresse
+T38	Lieu 1047 1090	Chemin de la Breteque, 76230 Bois-Guillaume
+A6	type T38 adresse
+T40	Organisation 984 1015	Crédit Agricole Normandie-Seine
+T42	Organisation 1095 1100	Gefec
+T44	Lieu 1132 1174	5, rue des Cannes, 70300 Luxeuil-les-Bains
+A7	type T44 adresse
+T46	Lieu 1227 1278	rue François Mitterrand, CS 70001, 76470 Le Tréport
+A8	type T46 adresse
+T48	Lieu 1188 1195	Tréport
+A9	type T48 ville
+T52	Organisation 1283 1301	GBNA Polycliniques
+T53	Lieu 1427 1463	14, allée Alan Turing, 63170 Aubière
+A11	type T53 adresse
+T54	Organisation 1385 1395	Interforge
+T55	Organisation 1468 1518	Communauté d'agglomération Riom Limagne et Volcans
+T56	Lieu 1544 1577	5, mail Jost-Pasquier, 63200 Riom
+A13	type T56 adresse
+T57	Lieu 1618 1655	48, rue Barbès, 92544 Montrouge Cedex
+A15	type T57 adresse
+T58	Organisation 1582 1586	Unéo
+T59	Organisation 1660 1665	OBLUX
+T60	Organisation 1730 1739	Limagrain
+T61	Organisation 1814 1834	Tarrerias Bonjean SE
+T62	Organisation 1898 1925	FPT Powertrain technologies
+T63	Lieu 1945 1958	Bourbon Lancy
+A17	type T63 ville
+T64	Lieu 1771 1809	rue Henri Mondor, 63360 Saint-Beauzire
+A19	type T64 adresse
+T65	Lieu 1866 1893	Chabenty, 63250 Chabreloche
+A21	type T65 adresse
+T66	Lieu 1990 2027	5, rue Pierre Timbaud, 58600 Garchizy
+A22	type T66 adresse
+A23	type T50 adresse
+T67	Organisation 2032 2048	JTEKT Automotive
+T68	Organisation 2135 2159	Suntec Industries France
+A24	type T26 adresse
+A25	type T27 adresse
+T69	Organisation 2255 2289	CCI Région Bourgogne Franche Comté
+T70	Lieu 2369 2374	Autun
+A26	type T70 ville
+T71	Lieu 2406 2447	Hôtel de ville, BP 133, 71403 Autun Cedex
+A27	type T71 adresse
+T72	Organisation 2452 2478	CIAS Grand Autunois Morvan
+T73	Lieu 2510 2545	7, route du Bois Sapin, 71400 Autun
+A28	type T73 adresse
+T74	Lieu 2591 2639	6, rue de la Troude, 33640 Ayguemorte-les-Graves
+A29	type T74 adresse
+T75	Organisation 2550 2559	Oenoptimo
+T76	Organisation 2642 2656	Privacy Impact
+T77	Organisation 2727 2743	EHPAD Larrazkena
+T78	Lieu 2775 2819	12, route des Missionnaires, 64240 Hasparren
+A30	type T78 adresse
+T79	Organisation 2824 2838	Groupe Cybelia
+A31	type T51 adresse
+T80	Lieu 2941 2953	Châtel-Guyon
+A32	type T80 ville
+T81	Lieu 2986 3033	10, rue de l'hôtel de Ville, 63140 Châtel-Guyon
+A34	type T81 adresse
+A35	type T31 adresse
+T30	Organisation 3038 3063	Université Grenoble-Alpes
+T6	Organisation 3122 3153	Université de Clermont-Auvergne
+A36	type T21 adresse
+T82	Organisation 3257 3301	Communauté de communes Grand Autunois Morvan
+T83	Lieu 3333 3368	7, route du Bois Sapin, 71400 Autun
+A37	type T83 adresse
+T24	Lieu 3442 3505	Hôtel du département, place de la République, 41020 Blois Cedex
+A38	type T24 adresse
+T25	Organisation 3373 3410	Conseil départemental du Loir-et-Cher
+T84	Organisation 3510 3538	Agglomération pays d'Issoire
+T85	Lieu 3570 3615	7 ter, boulevard André Malraux, 63500 Issoire
+A39	type T85 adresse
+T86	Lieu 3628 3635	Issoire
+A41	type T86 ville
+T87	Lieu 3667 3704	2, rue Eugène Gauttier, 63500 Issoire
+A43	type T87 adresse
+T88	Organisation 3709 3716	Atol CD
+T89	Organisation 3823 3830	Poclain
+T90	Lieu 3748 3818	ZAE Les Terres d'Or, route de Saint-Philibert, 21220 Gevrey-Chambertin
+A45	type T90 adresse
+T91	Lieu 3862 3896	route de Compiègne, 60410 Verberie
+A47	type T91 adresse
+T92	Organisation 3901 3928	CCI Bourgogne Franche-Comté
+A49	type T28 adresse
+T93	Organisation 3968 3983	URSSAF Bretagne
+A50	type T49 adresse
+T94	Organisation 4086 4092	Factem
+A51	type T35 ville
+A52	type T36 adresse
+T95	Organisation 4301 4305	Wimi
+T96	Organisation 4371 4380	SeaSatCom
+T97	Lieu 4412 4465	37, chemin de Puissanton, bâtiment A, 06220 Vallauris
+A53	type T97 adresse
+T7	Lieu 4477 4497	Auvergne-Rhône-Alpes
+A54	type T7 pays
+T98	Organisation 4597 4639	Banque Populaire Bourgogne - Franche-Comté
+A55	type T29 adresse
+T99	Lieu 4864 4907	50, rue Victor Hugo, 92400 Levallois-Perret
+A56	type T99 adresse
+T100	Lieu 4964 5008	place François Mitterrand, 14460 Colombelles
+A57	type T100 adresse
+T101	Organisation 4733 4747	ING Expertises
+T102	Organisation 4824 4832	Sentinel
+T103	Lieu 4921 4932	Colombelles
+A58	type T103 ville
+T104	Organisation 5013 5016	LGM
+T105	Lieu 5048 5116	13, avenue Morane-Saulnier, bâtiment Ader, 78140 Vélizy-Villacoublay
+A59	type T105 adresse
+T106	Lieu 5176 5224	18, rue Louis Blériot, 91550 Paray-Vieille-Poste
+A60	type T106 adresse
+T107	Organisation 5121 5144	Air Caraïbes Atlantique
+T108	Lieu 5238 5244	Dieppe
+A61	type T108 ville
+T109	Lieu 5276 5319	parc Jehan Ango, BP 226, 76203 Dieppe Cedex
+A62	type T109 ville
+T110	Organisation 5324 5344	Zimmer Biomet France
+T111	Lieu 5376 5410	70, rue du Chanoit, 25600 Brognard
+A63	type T111 adresse
+T112	Organisation 5415 5427	Groupe Avril
+T113	Organisation 5498 5536	L'Atelier industriel de l'aéronautique
+T114	Organisation 5538 5541	AIA
+T115	Organisation 5662 5673	EcoTitanium
+T116	Lieu 5705 5741	14, allée Alan Turing, 63170 Aubière
+A64	type T116 adresse
+T117	Organisation 5746 5750	UKAD
+A65	type T34 adresse
+A66	type T22 ville
+T118	Lieu 5850 5871	Bourbon-l'Archambault
+A67	type T118 ville
+T119	Lieu 5903 5957	place de l'Hôtel de ville, 03160 Bourbon-l'Archambault
+A68	type T119 adresse
+T120	Organisation 6096 6118	CCI Nouvelle-Aquitaine
+A69	type T23 adresse
+T121	Id 105 117	ARMM1935086A

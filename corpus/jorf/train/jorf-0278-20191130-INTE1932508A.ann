@@ -238,3 +238,39 @@ A8	type T27 ville
 T40	Lieu 7699 7709	Argenteuil
 A9	type T40 ville
 T41	Id 92 104	INTE1932508A
+A10	type T126 pays
+A11	type T156 pays
+A12	type T33 pays
+A13	type T166 pays
+A14	type T34 pays
+A15	type T168 pays
+A16	type T190 pays
+A17	type T191 pays
+A18	type T214 pays
+A19	type T222 pays
+A20	type T239 pays
+A21	type T36 pays
+A22	type T37 pays
+A23	type T267 pays
+A24	type T169 pays
+A25	type T127 pays
+A26	type T136 pays
+A27	type T137 pays
+A28	type T158 pays
+A29	type T167 pays
+A30	type T39 pays
+A31	type T171 pays
+A32	type T172 pays
+A33	type T173 pays
+A34	type T215 pays
+A35	type T26 pays
+A36	type T223 pays
+A37	type T240 pays
+A38	type T283 pays
+A39	type T157 pays
+A40	type T268 pays
+T42	Id 357 365	L. 122-7
+T43	Id 367 375	L. 125-1
+T44	Id 378 386	L. 125-6
+T48	Id 390 398	A. 125-1
+T49	Id 520 525	84-90

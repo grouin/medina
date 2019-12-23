@@ -12,3 +12,7 @@ A2	type T3 adresse
 T10	Lieu 419 434	44, rue Pasteur
 A3	type T10 adresse
 T11	Lieu 447 453	33 000
+A4	type T7 ville
+A5	type T1 adresse
+A6	type T11 adresse
+T12	Id 582 598	157 397/ 303 574

@@ -116,3 +116,11 @@ T99	Lieu 3048 3053	Nîmes
 T4	Lieu 3281 3285	Agen
 A1	type T4 ville
 T5	Organisation 2097 2116	Apprentis d'Auteuil
+A2	type T78 pays
+A3	type T79 pays
+A4	type T80 pays
+A5	type T52 pays
+A6	type T25 pays
+T6	Id 399 407	2019-222
+T7	Id 585 593	L. 312-1
+T8	Id 612 621	2007-1573

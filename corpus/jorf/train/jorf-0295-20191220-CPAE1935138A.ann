@@ -1,0 +1,16 @@
+T1	Date 10 26	19 décembre 2019
+T2	Id 155 167	CPAE1935138A
+T3	Date 318 334	19 décembre 2019
+T4	Id 595 609	1161717/216285
+T5	Lieu 396 421	94, avenue des Grésillons
+A1	type T5 adresse
+T6	Lieu 84 109	94, avenue des Grésillons
+A2	type T6 adresse
+T7	Lieu 112 130	Asnières-sur-Seine
+A3	type T7 ville
+T8	Lieu 424 442	Asnières-sur-Seine
+A4	type T8 ville
+T9	Lieu 444 458	Hauts-de-Seine
+A5	type T9 pays
+T10	Lieu 132 146	Hauts-de-Seine
+A6	type T10 pays
