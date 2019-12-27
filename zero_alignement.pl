@@ -70,9 +70,46 @@ foreach my $fichier (@rep) {
 
   # Affichage
   $fichier=~s/ann$/tag/;
+  my @balises=();
   open(S,'>:utf8',"$fichier");
-  for (my $j=0;$j<=$i+1;$j++) {
-    print S "$contenu[$j]";
+  my $ligne="";
+  for (my $j=0;$j<=$i+1;$j++) { $ligne.=$contenu[$j]; }
+
+  # Gestion des ouvertures/fermetures : stockage des balises ouvrantes
+  # présentes sur la ligne
+  my $ligneBalisee=$ligne; my $balise="";
+  while ($ligneBalisee=~/<[^>]+>/) {
+    if ($ligneBalisee=~/<([^\/>]+)>/) { $balise=$1; push(@balises,$balise); }
+    $ligneBalisee=~s/<$balise>//; $ligneBalisee=~s/<\/$balise>//;
   }
+  # Pour chaque balise ouvrante, vérification de la fermeture des
+  # balises dans l'ordre inverse d'ouverture. Opérationnel mais pas
+  # robuste
+  for (my $i=0;$i<=$#balises;$i++) {
+    # Si la balise ouverte est fermée sans autre balise ouvrante
+    # entre, on retire du tableau cette balise
+    if ($ligne=~/<$balises[$i]>[^<]*?<\/$balises[$i]>/) { shift(@balises); }
+    else {
+      # Cas ABAB -> ABBA
+      while ($ligne=~/<$balises[$i]>[^<]*?<$balises[$i+1]>[^<]*?<\/$balises[$i]>[^<]*?<\/$balises[$i+1]>/) {
+	$ligne=~s/<\/$balises[$i]>([^<]*?)<\/$balises[$i+1]>/<\/$balises[$i+1]>$1<\/$balises[$i]>/;
+      }
+      # Cas ABBCAC -> ABBCCA
+      while ($ligne=~/<$balises[$i]>[^<]*?<$balises[$i+1]>[^<]*?<\/$balises[$i+1]>[^<]*?<$balises[$i+2]>[^<]*?<\/$balises[$i]>[^<]*?<\/$balises[$i+2]>/) {
+	$ligne=~s/<\/$balises[$i]>([^<]*?)<\/$balises[$i+2]>/<\/$balises[$i+2]>$1<\/$balises[$i]>/;
+      }
+      # Cas ABCBAC
+      while ($ligne=~/<$balises[$i]>[^<]*?<$balises[$i+1]>[^<]*?<$balises[$i+2]>[^<]*?<\/$balises[$i+1]>[^<]*?<\/$balises[$i]>[^<]*?<\/$balises[$i+2]>/) {
+	$ligne=~s/<\/$balises[$i+1]>([^<]*?)<\/$balises[$i]>([^<]*?)<\/$balises[$i+2]>/<\/$balises[$i+2]>$1<\/$balises[$i+1]>$2<\/$balises[$i]>/;
+      }
+      # Cas ABCBCDAD -> ABCCBDDA
+      while ($ligne=~/<$balises[$i]>[^<]*?<$balises[$i+1]>[^<]*?<$balises[$i+2]>[^<]*?<\/$balises[$i+1]>[^<]*?<\/$balises[$i+2]>[^<]*?<$balises[$i+3]>[^<]*?<\/$balises[$i]>[^<]*?<\/$balises[$i+3]>/) {
+	$ligne=~s/<\/$balises[$i+1]>([^<]*?)<\/$balises[$i+2]>/<\/$balises[$i+2]>$1<\/$balises[$i+1]>/;
+	$ligne=~s/<\/$balises[$i]>([^<]*?)<\/$balises[$i+3]>/<\/$balises[$i+3]>$1<\/$balises[$i]>/;
+      }      
+      shift(@balises);
+    }
+  }
+  print S "$ligne";
   close(S);
 }
