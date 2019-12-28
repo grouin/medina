@@ -9,9 +9,8 @@ T8	Date 181 196	4 novembre 2019
 T9	Date 640 655	4 novembre 2019
 T1	Id 119 131	CSAR1934962X
 A1	categorie T1 numero
-A20	type T19 ville
 T17	Ville 630 635	Nancy
-T19	Lieu 705 710	Nancy
+T19	Ville 705 710	Nancy
 T2	Organisation 392 406	Anim'Event.com
 T11	Organisation 476 502	La Radio du Marché de Noël
 T12	Ville 565 574	GERARDMER

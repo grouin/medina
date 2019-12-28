@@ -7,14 +7,14 @@ T14	Id 337 349	CSAR1931898S
 T16	Organisation 1033 1040	Conseil
 T17	Organisation 812 846	Conseil supérieur de l'audiovisuel
 T18	Personne 2485 2497	G. Cornevaux
-T19	Pays 413 423	La Réunion
+T19	Lieu 413 423	La Réunion
 T2	Date 80 92	15 juin 2015
-T20	Pays 1274 1284	La Réunion
-T22	Pays 2442 2452	La Réunion
+T20	Lieu 1274 1284	La Réunion
+T22	Lieu 2442 2452	La Réunion
 T23	Ville 1918 1927	Le Tampon
-T27	Pays 430 437	Mayotte
-T28	Pays 1291 1298	Mayotte
-T29	Pays 2459 2466	Mayotte
+T27	Lieu 430 437	Mayotte
+T28	Lieu 1291 1298	Mayotte
+T29	Lieu 2459 2466	Mayotte
 T3	Date 1219 1231	15 juin 2015
 T30	Organisation 325 328	RJL
 T31	Organisation 1876 1879	RJL
@@ -35,7 +35,6 @@ T9	Date 463 480	30 septembre 1986
 T7	Organisation 1587 1621	association Radio Jeunesse Lumière
 T15	Organisation 1351 1385	association Radio Jeunesse Lumière
 T21	Organisation 145 179	association Radio Jeunesse Lumière
-T46	Id 12 22	2019-RM-13
 T6	Adresse 1970 2002	206, route Notre Dame de la Paix
 T24	Ville 2004 2013	Le Tampon
 T25	Cp 2015 2018	974

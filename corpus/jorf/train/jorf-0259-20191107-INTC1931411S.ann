@@ -132,8 +132,8 @@ T111	Ville 14384 14391	Limoges
 T24	Ville 14462 14476	Pointe-à-Pitre
 T26	Ville 14784 14798	Pointe-à-Pitre
 T28	Ville 14979 14993	Fort-de-France
-T30	Pays 15082 15092	Martinique
-T100	Pays 15195 15201	Guyane
+T30	Lieu 15082 15092	Martinique
+T100	Lieu 15195 15201	Guyane
 T65	Ville 15273 15279	Rennes
 T77	Ville 15567 15573	Rennes
 T102	Ville 15712 15718	Rennes

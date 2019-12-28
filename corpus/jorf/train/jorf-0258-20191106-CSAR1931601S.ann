@@ -18,10 +18,6 @@ T29	Id 283 295	CSAR1931601S
 T3	Date 2624 2635	11 mai 2019
 T30	Organisation 1526 1582	Commission nationale de la communication et des libertés
 T31	Organisation 4291 4347	Commission nationale de la communication et des libertés
-T34	Organisation 2088 2095	Conseil
-T35	Organisation 2348 2355	Conseil
-T37	Organisation 3807 3814	Conseil
-T38	Organisation 4130 4137	Conseil
 T4	Date 2140 2157	11 septembre 2014
 T41	Organisation 1641 1675	Conseil supérieur de l'audiovisuel
 T42	Organisation 1870 1904	Conseil supérieur de l'audiovisuel
@@ -47,17 +43,17 @@ T9	Date 2580 2592	2 avril 2019
 T11	Organisation 96 135	association Union Animation Grand-Santi
 T12	Organisation 2731 2770	association Union Animation Grand-Santi
 T15	Organisation 3109 3148	association Union Animation Grand-Santi
-T39	Pays 358 366	Antilles
-T47	Pays 367 373	Guyane
-T33	Pays 2553 2561	Antilles
-T36	Pays 2562 2568	Guyane
-T32	Pays 2710 2718	Antilles
-T40	Pays 2719 2725	Guyane
+T39	Lieu 358 366	Antilles
+T47	Lieu 367 373	Guyane
+T33	Lieu 2553 2561	Antilles
+T36	Lieu 2562 2568	Guyane
+T32	Lieu 2710 2718	Antilles
+T40	Lieu 2719 2725	Guyane
 T13	Organisation 4749 4788	association Union Animation Grand-Santi
 T46	Ville 4941 4952	Grand-Santi
 T48	Adresse 4994 5005	Grand-Santi
 T49	Ville 5008 5019	Grand-Santi
 T50	Cp 5021 5024	973
 T51	Ville 5308 5319	Le Lamentin
-T52	Pays 5390 5398	Antilles
-T53	Pays 5399 5405	Guyane
+T52	Lieu 5390 5398	Antilles
+T53	Lieu 5399 5405	Guyane

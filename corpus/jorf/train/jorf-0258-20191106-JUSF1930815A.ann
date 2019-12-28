@@ -24,12 +24,12 @@ T16	Ville 1811 1816	Paris
 T20	Ville 1862 1867	Paris
 T22	Adresse 1906 1924	Rue de Romainville
 T26	Ville 1930 1944	Fort de France
-T27	Pays 2000 2010	Martinique
+T27	Lieu 2000 2010	Martinique
 T29	Ville 2011 2020	Le Robert
-T31	Pays 2059 2069	Martinique
+T31	Lieu 2059 2069	Martinique
 T33	Ville 2070 2081	Le Lamentin
 T35	Ville 2086 2095	Mamoudzou
-T37	Pays 2117 2124	Mayotte
+T37	Lieu 2117 2124	Mayotte
 T39	Ville 2191 2200	Mamoudzou
 T41	Ville 2239 2248	Mamoudzou
 T43	Ville 2254 2263	Coutances
