@@ -1,6 +1,0 @@
-Arrêté du <Date>28 octobre 2019</Date> relatif à l'insaisissabilité de biens culturels 
-
-NOR: <Id>MICC1930682A</Id>
-ELI: https://www.legifrance.gouv.fr/eli/arrete/2019/10/28/MICC1930682A/jo/texte
-
-Par arrêté du ministre de l'Europe et des affaires étrangères et du ministre de la culture en date du <Date>28 octobre 2019</Date>, les dispositions prises par l'arrêté d'insaisissabilité du <Date>18 janvier 2019</Date> (NOR : <Id>MCCC1901697A</Id>), publié au Journal officiel du <Date>26 janvier 2019</Date>, relatives à l'insaisissabilité de biens culturels appartenant à la <Organisation>Freer│Sackler</Organisation> (<Organisation>Freer Gallery of Art</Organisation> - <Personne>Arthur M. Sackler</Personne> Gallery), <Organisation>Smithsonian Institution</Organisation>, <Ville>Washington</Ville>, <Pays>DC, Etats-Unis</Pays>, prêtés à l'exposition « <Personne>GEORGES MARTEAU</Personne> ET L'ART DU LIVRE PERSAN » (« LE GOÛT DE L'ORIENT : <Personne>GEORGES MARTEAU</Personne> COLLECTIONNEUR ») organisée et présentée au <Organisation>musée du Louvre</Organisation>, <Ville>Paris</Ville>, du <Date>26 juin 2019</Date> au <Date>3 février 2020</Date>, sont prorogées jusqu'au <Date>6 mars 2020</Date>, en application des dispositions de l'article 61 de la loi n° 94-679 du <Date>8 août 1994</Date>.
