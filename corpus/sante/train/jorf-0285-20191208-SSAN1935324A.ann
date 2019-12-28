@@ -1,0 +1,12 @@
+T1	Date 859 871	19 mars 2018
+T2	Lieu 279 294	Arabie Saoudite
+T3	Ville 260 277	Alqunfedch Makkah
+T4	Date 10 25	5 décembre 2019
+T5	Id 101 113	SSAN1935324A
+T6	Personne 223 236	Abdu ALKHAYRI
+A1	role T6 soignant
+T7	Date 203 218	5 décembre 2019
+T8	Personne 482 502	Caroline Le Guerinel
+A2	role T8 soignant
+T9	Organisation 510 557	Fondation ophtalmologique Adolphe de Rothschild
+T10	Date 244 257	14 avril 1988

@@ -1,0 +1,40 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921704S
+T3	Organisation 225 268	centre hospitalier et universitaire de Nice
+T4	Adresse 270 300	5, rue Pierre-Devoluy, BP 1319
+T5	Cp 302 307	06006
+T6	Ville 308 312	Nice
+T7	Personne 698 710	J.-Y. Gillet
+A1	role T7 soignant
+T8	Personne 712 720	P. Azuar
+A2	role T8 soignant
+T9	Personne 722 732	A. Bongain
+A3	role T9 soignant
+T10	Personne 734 742	E. Simon
+A4	role T10 soignant
+T11	Personne 744 757	J.-M. Gicquel
+A5	role T11 soignant
+T12	Personne 759 768	J. Muller
+A6	role T12 soignant
+T13	Personne 805 814	B. Benoit
+A7	role T13 soignant
+T14	Personne 816 826	D. Moglein
+A8	role T14 soignant
+T15	Personne 828 838	F. Pagliai
+A9	role T15 soignant
+T16	Personne 840 848	M. Chami
+A10	role T16 soignant
+T17	Personne 882 891	N. Ayraud
+A11	role T17 soignant
+T18	Personne 893 906	J.-C. Lambert
+A12	role T18 soignant
+T19	Personne 908 926	H. Stora de Novion
+A13	role T19 soignant
+T20	Personne 964 973	P. Boutte
+A14	role T20 soignant
+T21	Personne 975 987	C. Dageville
+A15	role T21 soignant
+T22	Personne 989 998	S. Serret
+A16	role T22 soignant
+T23	Personne 1000 1009	D. Dupont
+A17	role T23 soignant

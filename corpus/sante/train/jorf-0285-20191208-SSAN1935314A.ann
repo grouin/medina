@@ -1,0 +1,13 @@
+T1	Ville 260 266	Koweit
+T3	Lieu 268 274	Koweït
+T4	Organisation 477 500	Hospices civils de Lyon
+T5	Date 10 25	5 décembre 2019
+T6	Id 101 113	SSAN1935314A
+T7	Date 203 218	5 décembre 2019
+T8	Personne 223 233	Aqeel LARI
+A1	role T8 soignant
+T9	Date 241 257	23 décembre 1984
+T2	Organisation 503 526	hôpital La Croix Rousse
+T10	Personne 457 471	Fabienne Braye
+A2	role T10 soignant
+T11	Ville 496 500	Lyon

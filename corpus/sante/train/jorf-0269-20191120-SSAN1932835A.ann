@@ -1,0 +1,12 @@
+T1	Lieu 265 280	Arabie Saoudite
+T2	Ville 256 263	Djeddah
+T3	Date 10 26	14 novembre 2019
+T4	Date 194 210	14 novembre 2019
+T5	Organisation 469 519	Centre hospitalier universitaire de Grenoble Alpes
+T6	Id 102 114	SSAN1932835A
+T7	Personne 215 233	Abdulghani KHOGEER
+A1	role T7 soignant
+T8	Date 241 253	23 juin 1986
+T9	Personne 449 465	Jean-Luc DECOTES
+A2	role T9 soignant
+T10	Date 725 742	1er novembre 2019

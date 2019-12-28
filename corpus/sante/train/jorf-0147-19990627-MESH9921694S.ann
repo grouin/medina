@@ -1,0 +1,27 @@
+T1	Id 0 12	MESH9921693S
+T2	Organisation 225 272	centre hospitalier et universitaire de Toulouse
+T3	Organisation 274 290	hôpital La Grave
+T4	Adresse 292 303	place Lange
+T5	Cp 305 310	31052
+T6	Ville 311 319	Toulouse
+T7	Date 142 155	20 avril 1999
+T8	Personne 704 714	J.-M. Reme
+A1	role T8 soignant
+T9	Personne 716 726	A. Fournie
+A2	role T9 soignant
+T10	Personne 728 738	A. Berrebi
+A3	role T10 soignant
+T11	Personne 765 779	M.-F. Sarramon
+A4	role T11 soignant
+T12	Personne 781 791	V. Broutin
+A5	role T12 soignant
+T13	Personne 825 834	P. Calvas
+A6	role T13 soignant
+T14	Personne 836 851	G. Bourrouillou
+A7	role T14 soignant
+T15	Personne 889 899	M. Rolland
+A8	role T15 soignant
+T16	Personne 901 913	C. Assouline
+A9	role T16 soignant
+T17	Personne 915 923	F. Heitz
+A10	role T17 soignant

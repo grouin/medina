@@ -1,0 +1,25 @@
+T1	Ville 449 454	Tours
+T2	Ville 484 489	Tours
+A11	role T10 soignant
+A13	role T12 soignant
+A15	role T14 soignant
+A17	role T16 soignant
+A19	role T18 soignant
+A21	role T20 soignant
+A23	role T22 soignant
+A7	role T6 soignant
+A9	role T8 soignant
+T10	Personne 972 982	A. Toutain
+T12	Personne 1054 1066	B. Sauvagnac
+T14	Personne 960 970	C. Moraine
+T16	Personne 1032 1041	E. Saliba
+T18	Personne 877 888	F. Perrotin
+T20	Personne 914 926	F. Tranquart
+T22	Personne 868 875	G. Body
+T24	Id 166 178	MESH9921684S
+T25	Organisation 410 454	centre hospitalier et universitaire de Tours
+T3	Adresse 456 476	2, boulevard Tonnelé
+T4	Date 327 340	22 avril 1999
+T5	Cp 478 483	37000
+T6	Personne 984 994	A. Guichet
+T8	Personne 1043 1052	A. L. Suc

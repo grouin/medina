@@ -1,0 +1,12 @@
+T1	Date 946 958	19 mars 2018
+T2	Organisation 600 647	Centre hospitalier universitaire de Montpellier
+T4	Date 10 25	30 juillet 2019
+T5	Id 101 113	SSAN1922642A
+T6	Date 203 218	30 juillet 2019
+T7	Lieu 284 291	Tunisie
+T8	Personne 224 238	Sihem DAROUICH
+A1	role T8 soignant
+T9	Date 247 263	30 décembre 1975
+T10	Ville 266 282	Menzel Bourguiba
+T3	Personne 581 595	Valérie COSTES
+A2	role T3 soignant

@@ -1,0 +1,31 @@
+T1	Adresse 291 314	48, boulevard Serrurier
+T3	Ville 322 327	Paris
+T4	Date 142 155	22 avril 1999
+T5	Id 0 12	MESH9921696S
+T6	Organisation 227 247	hôpital Robert-Debré
+T7	Organisation 249 288	Assistance publique - hôpitaux de Paris
+T8	Cp 316 321	75019
+T2	Personne 706 713	P. Blot
+A1	role T2 soignant
+T9	Personne 715 725	J.-F. Oury
+A2	role T9 soignant
+T10	Personne 727 736	O. Sibony
+A3	role T10 soignant
+T11	Personne 738 746	D. Luton
+A4	role T11 soignant
+T12	Personne 783 802	E. Vuillard-Taboury
+A5	role T12 soignant
+T13	Personne 804 824	A. Ottenwalter-Weber
+A6	role T13 soignant
+T14	Personne 826 841	C. Garel-Lochak
+A7	role T14 soignant
+T15	Personne 874 884	C. Baumann
+A8	role T15 soignant
+T16	Personne 922 933	F. Beaufils
+A9	role T16 soignant
+T17	Personne 935 947	Y.-H. Aujard
+A10	role T17 soignant
+T18	Personne 949 961	C. Boissinot
+A11	role T18 soignant
+T19	Personne 963 970	A. Bedu
+A12	role T19 soignant

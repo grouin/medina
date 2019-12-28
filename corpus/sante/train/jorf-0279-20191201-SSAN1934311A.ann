@@ -1,0 +1,13 @@
+T1	Date 932 944	19 mars 2018
+T2	Lieu 269 284	Arabie saoudite
+T3	Ville 262 267	Jazan
+T5	Date 246 259	10 avril 1985
+T6	Organisation 607 630	Hospices civils de Lyon
+T7	Date 10 26	28 novembre 2019
+T8	Date 204 220	28 novembre 2019
+T9	Id 102 114	SSAN1934311A
+T4	Personne 506 531	Sophie Collardeau-Frachon
+A1	role T4 soignant
+T10	Personne 225 238	Mousa MOBARKI
+A2	role T10 soignant
+T11	Organisation 576 602	groupement hospitalier Est

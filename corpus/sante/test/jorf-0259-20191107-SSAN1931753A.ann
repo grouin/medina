@@ -1,0 +1,17 @@
+T1	Date 926 938	19 mars 2018
+T2	Ville 281 295	Ras el Khaïmah
+T3	Date 10 25	4 novembre 2019
+T4	Id 101 113	SSAN1931753A
+T5	Date 203 218	4 novembre 2019
+T6	Personne 224 240	Fatima Alsharhan
+A1	role T6 soignant
+T7	Personne 249 257	Alnuaimi
+A2	role T7 soignant
+T8	Organisation 506 520	hôpital Cochin
+T9	Organisation 526 565	Assistance publique - Hôpitaux de Paris
+T10	Personne 594 606	Paul Legmann
+A3	role T10 soignant
+T11	Personne 610 624	Philippe Soyer
+A4	role T11 soignant
+T12	Date 266 278	27 juin 1984
+T13	Lieu 297 316	Emirats arabes unis

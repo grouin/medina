@@ -1,0 +1,11 @@
+T2	Ville 262 268	Koweït
+T3	Lieu 270 276	Koweït
+T5	Date 245 259	8 juillet 1985
+T6	Date 10 25	5 décembre 2019
+T7	Date 203 218	5 décembre 2019
+T8	Id 101 113	SSAN1935325A
+T9	Personne 223 237	Mansour SADEQI
+A1	role T9 soignant
+T4	Organisation 476 515	groupe hospitalier Paris - Saint-Joseph
+T1	Personne 457 471	Jouffroy Pomme
+A2	role T1 soignant

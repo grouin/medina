@@ -1,0 +1,29 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921685S
+T3	Organisation 225 238	CHR d'Orléans
+T4	Organisation 240 263	hôpital Porte-Madeleine
+T5	Adresse 265 272	BP 2439
+T6	Cp 274 279	45032
+T7	Ville 280 287	Orléans
+T8	Personne 672 684	A. Desroches
+A1	role T8 soignant
+T9	Personne 686 696	M. Tescher
+A2	role T9 soignant
+T10	Personne 698 708	L. Mesnard
+A3	role T10 soignant
+T11	Personne 710 719	P. Megier
+A4	role T11 soignant
+T12	Personne 746 758	M. Abimelech
+A5	role T12 soignant
+T13	Personne 760 772	J. G. Martin
+A6	role T13 soignant
+T14	Personne 806 815	S. Nizard
+A7	role T14 soignant
+T15	Personne 817 827	D. Kervran
+A8	role T15 soignant
+T16	Personne 865 875	D. Bondeux
+A9	role T16 soignant
+T17	Personne 877 891	J. C. Thieffry
+A10	role T17 soignant
+T18	Personne 893 902	E. Werner
+A11	role T18 soignant

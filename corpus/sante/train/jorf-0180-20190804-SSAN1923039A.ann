@@ -1,0 +1,12 @@
+T1	Date 904 916	19 mars 2018
+T3	Date 10 21	2 août 2019
+T4	Date 199 210	2 août 2019
+T5	Id 97 109	SSAN1923039A
+T6	Personne 215 235	Ivan COELHO FERREIRA
+A1	role T6 soignant
+T7	Personne 540 556	Vincent COSTALAT
+A2	role T7 soignant
+T8	Date 243 255	3 avril 1984
+T9	Ville 258 272	Rio de Janeiro
+T10	Lieu 274 280	Brésil
+T11	Lieu 561 606	centre hospitalo-universitaire de Montpellier

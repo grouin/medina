@@ -1,0 +1,13 @@
+T1	Date 848 860	19 mars 2018
+T4	Date 10 25	7 novembre 2019
+T5	Id 101 113	SSAN1932133A
+T6	Date 203 218	7 novembre 2019
+T7	Personne 224 239	Cynthia Filteau
+A1	role T7 soignant
+T8	Date 248 260	23 mars 1988
+T9	Ville 263 269	Québec
+T10	Lieu 271 277	Canada
+T11	Organisation 490 513	Hospices civils de Lyon
+T12	Organisation 516 547	Groupement hospitalier Lyon Sud
+T2	Personne 471 484	Marc Bonnefoy
+A2	role T2 soignant

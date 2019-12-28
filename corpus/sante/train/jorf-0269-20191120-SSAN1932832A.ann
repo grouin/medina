@@ -1,0 +1,13 @@
+T1	Organisation 509 550	Assistance publique-hôpitaux de Marseille
+T3	Lieu 269 284	Arabie saoudite
+T4	Date 10 26	14 novembre 2019
+T5	Date 194 210	14 novembre 2019
+T6	Id 102 114	SSAN1932832A
+T7	Personne 215 233	Abdulrahman ARAFAH
+A1	role T7 soignant
+T8	Date 241 257	10 décembre 1986
+T9	Ville 260 267	Djeddah
+T10	Organisation 481 506	hôpital la Timone-Enfants
+T2	Personne 461 475	Thierry Merrot
+A2	role T2 soignant
+T11	Date 756 773	1er novembre 2019

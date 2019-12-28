@@ -1,0 +1,11 @@
+T1	Id 176 188	TASP9721085S
+T2	Date 281 297	31 décembre 1996
+T3	Organisation 317 359	centre hospitalier régional de Montpellier
+T4	Organisation 361 379	hôpital Lapeyronie
+T5	Adresse 381 406	avenue du Doyen-G.-Giraud
+T6	Ville 410 421	Montpellier
+T7	Lieu 423 430	Hérault
+T8	Personne 541 549	Lumbroso
+A1	role T8 soignant
+T9	Personne 553 559	Poujol
+A2	role T9 soignant

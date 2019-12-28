@@ -1,0 +1,13 @@
+T1	Date 884 896	19 mars 2018
+T2	Date 10 26	16 novembre 2018
+T3	Id 102 114	SSAN1831367A
+T4	Date 204 220	16 novembre 2018
+T5	Personne 225 238	Maroon TOHMEH
+A1	role T5 soignant
+T6	Date 246 260	3 janvier 1988
+T7	Ville 263 284	Haoch El Omara, Zahle
+T8	Lieu 286 291	Liban
+T9	Organisation 479 523	Groupe Hospitalier Carnelle Portes de l'Oise
+T10	Organisation 525 530	GHCPO
+T11	Organisation 538 567	Centre Hospitalier René Dubos
+T12	Organisation 569 573	CHRD

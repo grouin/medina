@@ -1,0 +1,28 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921694S
+T3	Organisation 225 270	centre hospitalier et universitaire de Nantes
+T4	Adresse 272 299	5, allée de l'Ile-Gloriette
+T5	Cp 301 306	44093
+T6	Ville 307 313	Nantes
+T7	Personne 698 705	G. Boog
+A1	role T7 soignant
+T8	Personne 707 715	N. Winer
+A2	role T8 soignant
+T9	Personne 717 725	P. Lopes
+A3	role T9 soignant
+T10	Personne 752 770	C. Talment-Guillet
+A4	role T10 soignant
+T11	Personne 772 781	M. Yvinec
+A5	role T11 soignant
+T12	Personne 783 791	M. Quere
+A6	role T12 soignant
+T13	Personne 793 807	C. Le Vaillant
+A7	role T13 soignant
+T14	Personne 841 849	A. David
+A8	role T14 soignant
+T15	Personne 851 862	J.-M. Rival
+A9	role T15 soignant
+T16	Personne 900 907	J. Roze
+A10	role T16 soignant
+T17	Personne 909 921	A.-M. Fleury
+A11	role T17 soignant

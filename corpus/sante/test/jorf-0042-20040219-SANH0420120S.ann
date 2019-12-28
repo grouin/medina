@@ -1,0 +1,9 @@
+T1	Id 143 155	SANH0420120S
+T2	Organisation 431 472	centre hospitalier universitaire de Dijon
+T3	Lieu 474 483	Côte-d'Or
+T4	Date 330 346	16 décembre 2003
+T5	Personne 724 739	Frédéric Michel
+A1	role T5 soignant
+T6	Organisation 609 626	hôpital du Bocage
+T7	Adresse 628 672	10, boulevard Maréchal-de-Lattre-de-Tassigny
+T8	Ville 675 680	Dijon

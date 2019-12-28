@@ -1,0 +1,26 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921695S
+T3	Organisation 225 269	centre hospitalier et universitaire d'Angers
+T4	Adresse 271 284	4, rue Larrey
+T5	Cp 286 291	49003
+T6	Ville 292 298	Angers
+T7	Personne 683 694	P. Descamps
+A1	role T7 soignant
+T8	Personne 696 708	R. Wartanian
+A2	role T8 soignant
+T9	Personne 734 745	C. Lepinard
+A3	role T9 soignant
+T10	Personne 779 794	Luc Larget-Piet
+A4	role T10 soignant
+T11	Personne 796 814	Annick Larget-Piet
+A5	role T11 soignant
+T12	Personne 816 827	H. Puissand
+A6	role T12 soignant
+T13	Personne 865 880	C. Bourderlique
+A7	role T13 soignant
+T14	Personne 882 893	C. Savagner
+A8	role T14 soignant
+T15	Personne 895 908	S. Le Bouedec
+A9	role T15 soignant
+T16	Personne 910 921	G. Champion
+A10	role T16 soignant

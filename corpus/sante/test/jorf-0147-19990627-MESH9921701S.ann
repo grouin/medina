@@ -1,0 +1,17 @@
+T1	Id 0 12	MESH9921700S
+T2	Date 142 155	20 avril 1999
+T3	Organisation 226 249	hospices civils de Lyon
+T4	Organisation 251 277	hôpital de la Croix-Rousse
+T5	Adresse 279 308	grande-rue de la Croix-Rousse
+T6	Cp 310 315	69317
+T7	Ville 316 320	Lyon
+T8	Personne 707 720	P. Gaucherand
+A1	role T8 soignant
+T9	Personne 722 751	P. Jousselin de Saint-Hilaire
+A2	role T9 soignant
+T10	Personne 787 800	R.-C. Rudigoz
+A3	role T10 soignant
+T11	Personne 833 850	E. Ollagnon-Roman
+A4	role T11 soignant
+T12	Personne 887 895	S. Rubio
+A5	role T12 soignant

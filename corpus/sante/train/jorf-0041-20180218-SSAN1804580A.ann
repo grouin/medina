@@ -1,0 +1,11 @@
+T1	Organisation 395 442	Centre hospitalier universitaire de Montpellier
+T2	Lieu 265 280	Arabie saoudite
+T3	Date 10 24	2 février 2018
+T4	Id 100 112	SSAN1804580A
+T5	Date 202 216	2 février 2018
+T6	Personne 221 236	Salman GHAZWANI
+A1	role T6 soignant
+T7	Date 244 255	9 mars 1985
+T8	Ville 258 263	Jizan
+T9	Date 909 923	2 janvier 2018
+T10	Organisation 610 638	Centre hospitalier d'Avignon

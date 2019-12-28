@@ -1,0 +1,13 @@
+T1	Lieu 272 287	Arabie saoudite
+T2	Organisation 504 541	Assistance publique-hôpitaux de Paris
+T4	Date 748 765	1er novembre 2019
+T5	Ville 263 270	Djeddah
+T6	Date 10 26	28 novembre 2019
+T7	Date 204 220	28 novembre 2019
+T8	Id 102 114	SSAN1934304A
+T9	Personne 225 240	Qusay MANDOORAH
+A1	role T9 soignant
+T10	Date 248 260	17 mars 1988
+T11	Personne 447 461	Olivier Bitker
+A2	role T11 soignant
+T12	Organisation 465 501	groupe hospitalier Pitié-Salpêtrière

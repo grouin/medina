@@ -1,0 +1,28 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921687S
+T3	Organisation 225 269	centre hospitalier et universitaire de Rouen
+T4	Adresse 271 287	1, rue de Germon
+T5	Cp 289 294	76031
+T6	Ville 295 300	Rouen
+T7	Personne 685 695	L. Marpeau
+A1	role T7 soignant
+T8	Personne 697 708	E. Verspyck
+A2	role T8 soignant
+T9	Personne 710 723	G. Descargues
+A3	role T9 soignant
+T10	Personne 725 735	G. Labadie
+A4	role T10 soignant
+T11	Personne 771 779	D. Eurin
+A5	role T11 soignant
+T12	Personne 812 821	V. Drouin
+A6	role T12 soignant
+T13	Personne 823 832	A. Henocq
+A7	role T13 soignant
+T14	Personne 834 843	H. Moirot
+A8	role T14 soignant
+T15	Personne 881 890	S. Marret
+A9	role T15 soignant
+T16	Personne 892 903	V. Brossard
+A10	role T16 soignant
+T17	Personne 905 913	T. Blanc
+A11	role T17 soignant

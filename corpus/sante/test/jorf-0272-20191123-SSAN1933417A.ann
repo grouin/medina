@@ -1,0 +1,13 @@
+T1	Date 925 937	19 mars 2018
+T2	Lieu 273 278	Liban
+T3	Ville 262 271	Bouchrieh
+T4	Date 10 26	20 novembre 2019
+T5	Id 102 114	SSAN1933417A
+T6	Date 204 220	20 novembre 2019
+T7	Personne 225 236	Samer HABER
+A1	role T7 soignant
+T8	Date 244 259	30 janvier 1987
+T9	Organisation 553 583	Hôpital Necker-Enfants Malades
+T10	Organisation 586 623	Assistance publique-Hôpitaux de Paris
+T11	Personne 532 546	Philippe Cornu
+A2	role T11 soignant
