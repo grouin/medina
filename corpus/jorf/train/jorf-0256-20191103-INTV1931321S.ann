@@ -1,9 +1,8 @@
-A6	type T5 adresse
 T12	Id 69 81	INTV1931321S
 T14	Organisation 513 520	Mitouch
-T5	Lieu 556 596	28, rue de la République, 25000 Besançon
 T7	Date 12 27	29 octobre 2019
 T8	Date 216 231	29 octobre 2019
 T9	Date 480 495	8 novembre 2019
-T1	Id 340 348	L. 111-8
-T2	Id 352 363	R. 111-12-1
+T3	Adresse 556 580	28, rue de la République
+T4	Cp 582 587	25000
+T6	Ville 588 596	Besançon

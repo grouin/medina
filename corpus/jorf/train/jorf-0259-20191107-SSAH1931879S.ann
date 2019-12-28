@@ -1,11 +1,9 @@
-A21	type T20 adresse
 T1	Date 834 849	11 février 2019
 T16	Date 1523 1540	25 septembre 2019
 T17	Date 1265 1278	26 avril 2019
 T18	Date 12 27	31 octobre 2019
 T19	Date 2111 2126	31 octobre 2019
 T2	Date 1747 1762	11 février 2019
-T20	Lieu 1387 1436	45, avenue Manchester, 08000 Charleville-Mézières
 T22	Personne 2212 2223	K. Julienne
 T23	Id 155 167	SSAH1931879S
 T25	Organisation 728 801	groupement de coopération sanitaire Territorial Ardenne Nord Polyclinique
@@ -17,9 +15,6 @@ T4	Date 703 720	20 septembre 2018
 T6	Organisation 664 699	agence régionale de santé Grand Est
 T5	Organisation 876 911	agence régionale de santé Grand Est
 T7	Organisation 1789 1824	agence régionale de santé Grand Est
-T8	Id 1735 1743	2019-116
-T9	Id 822 830	2019-116
-T10	Id 353 362	L. 6122-1
-T11	Id 365 375	L. 6122-20
-T12	Id 379 389	R. 6122-32
-T13	Id 392 402	R. 6122-33
+T9	Adresse 1387 1408	45, avenue Manchester
+T10	Cp 1410 1415	08000
+T11	Ville 1416 1436	Charleville-Mézières

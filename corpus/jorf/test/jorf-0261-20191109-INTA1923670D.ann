@@ -4,91 +4,47 @@ T7	Date 3569 3584	7 novembre 2019
 T8	Date 1694 1705	24 mai 2019
 T9	Organisation 1745 1759	Conseil d'Etat
 T1	Date 74 89	21 février 2014
-T11	Lieu 146 154	Morbihan
 T12	Id 162 174	INTA1923670D
-T3	Lieu 442 450	Morbihan
-T4	Lieu 581 589	Morbihan
 T5	Date 705 720	21 février 2014
-T13	Lieu 777 785	Morbihan
 T14	Date 860 864	2014
 T15	Date 1012 1027	21 février 2014
-T16	Lieu 1084 1092	Morbihan
 T17	Date 1415 1430	21 février 2014
-T18	Lieu 1487 1495	Morbihan
-T19	Lieu 1588 1596	Morbihan
-T6	Lieu 1674 1682	Morbihan
 T20	Date 1911 1926	21 février 2014
-T21	Lieu 1983 1991	Morbihan
-T22	Lieu 2038 2048	Val d'Oust
-A1	type T22 ville
-T23	Lieu 2092 2098	Moréac
-A2	type T23 ville
+T22	Ville 2038 2048	Val d'Oust
+T23	Ville 2092 2098	Moréac
 T24	Date 2172 2187	21 février 2014
-T25	Lieu 2244 2252	Morbihan
 T26	Personne 3661 3680	Christophe Castaner
-T27	Lieu 2330 2336	Crédin
-A3	type T27 ville
-T28	Lieu 2363 2370	Évellys
-A4	type T28 ville
-T29	Lieu 2393 2410	Moustoir-Remungol
-A5	type T29 ville
-T30	Lieu 2412 2418	Naizin
-A6	type T30 ville
-T31	Lieu 2427 2435	Remungol
-A7	type T31 ville
-T32	Lieu 2488 2508	La Chapelle-Gaceline
-A8	type T32 ville
-T33	Lieu 2515 2521	Glénac
-A9	type T33 ville
-T34	Lieu 2530 2538	Quelneuc
-A10	type T34 ville
-T35	Lieu 2617 2623	Sérent
-A11	type T35 ville
-T36	Lieu 2654 2664	Val d'Oust
-A12	type T36 ville
-T37	Lieu 2686 2702	La Chapelle-Caro
-A13	type T37 ville
-T38	Lieu 2711 2729	Le Roc Saint-André
-A14	type T38 ville
-T39	Lieu 2804 2814	Les Forges
-A15	type T39 ville
-T40	Lieu 2821 2828	Lanouée
-A16	type T40 ville
-T41	Lieu 2835 2845	Monterrein
-A17	type T41 ville
-T42	Lieu 2854 2859	Quily
-A18	type T42 ville
-T43	Lieu 2901 2909	Evriguet
-A19	type T43 ville
-T44	Lieu 2940 2957	Forges-de-Lanouée
-A20	type T44 ville
-T45	Lieu 3015 3021	Bieuzy
-A21	type T45 ville
-T46	Lieu 3055 3064	Pluméliau
-A22	type T46 ville
-T47	Lieu 3097 3113	Pluméliau-Bieuzy
-A23	type T47 ville
-T48	Lieu 3171 3177	Noyalo
-A24	type T48 ville
-T49	Lieu 3211 3216	Theix
-A25	type T49 ville
-T50	Lieu 3249 3261	Theix-Noyalo
-A26	type T50 ville
-A27	type T25 pays
-A28	type T21 pays
-A29	type T6 pays
-A30	type T19 pays
-A31	type T18 pays
-A32	type T16 pays
-A33	type T13 pays
-A34	type T4 pays
-A35	type T3 pays
-A36	type T11 pays
-T51	Id 10 19	2019-1154
-T52	Id 62 70	2014-215
-T53	Id 693 701	2014-215
-T54	Id 1000 1008	2014-215
-T55	Id 1375 1384	L. 3113-2
-T56	Id 1403 1411	2014-215
-T57	Id 1899 1907	2014-215
-T58	Id 2160 2168	2014-215
+T27	Ville 2330 2336	Crédin
+T28	Ville 2363 2370	Évellys
+T29	Ville 2393 2410	Moustoir-Remungol
+T30	Ville 2412 2418	Naizin
+T31	Ville 2427 2435	Remungol
+T32	Ville 2488 2508	La Chapelle-Gaceline
+T33	Ville 2515 2521	Glénac
+T34	Ville 2530 2538	Quelneuc
+T35	Ville 2617 2623	Sérent
+T36	Ville 2654 2664	Val d'Oust
+T37	Ville 2686 2702	La Chapelle-Caro
+T38	Ville 2711 2729	Le Roc Saint-André
+T39	Ville 2804 2814	Les Forges
+T40	Ville 2821 2828	Lanouée
+T41	Ville 2835 2845	Monterrein
+T42	Ville 2854 2859	Quily
+T43	Ville 2901 2909	Evriguet
+T44	Ville 2940 2957	Forges-de-Lanouée
+T45	Ville 3015 3021	Bieuzy
+T46	Ville 3055 3064	Pluméliau
+T47	Ville 3097 3113	Pluméliau-Bieuzy
+T48	Ville 3171 3177	Noyalo
+T49	Ville 3211 3216	Theix
+T50	Ville 3249 3261	Theix-Noyalo
+T3	Lieu 146 154	Morbihan
+T4	Lieu 1487 1495	Morbihan
+T6	Lieu 1588 1596	Morbihan
+T11	Lieu 1674 1682	Morbihan
+T13	Lieu 442 450	Morbihan
+T16	Lieu 581 589	Morbihan
+T18	Lieu 777 785	Morbihan
+T19	Lieu 1084 1092	Morbihan
+T21	Lieu 2244 2252	Morbihan
+T25	Lieu 1983 1991	Morbihan

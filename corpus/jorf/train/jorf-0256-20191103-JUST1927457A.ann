@@ -10,7 +10,6 @@ T2	Date 900 904	2018
 T20	Date 1271 1287	6 septembre 2019
 T21	Date 613 628	8 décembre 2005
 T22	Personne 8094 8105	E. Berthier
-T23	Lieu 7501 7519	Nouvelle-Calédonie
 T24	Organisation 173 177	PLEX
 T25	Organisation 1702 1706	PLEX
 T26	Organisation 2096 2100	PLEX
@@ -35,9 +34,7 @@ T44	Organisation 6506 6511	PLINE
 T45	Organisation 6700 6705	PLINE
 T46	Organisation 1708 1737	PLateforme d'échanges EXterne
 T47	Organisation 1489 1523	Plateforme d'échanges INterne Etat
-T48	Lieu 7526 7545	Polynésie française
 T49	Personne 7980 7989	V. Malbec
-T50	Lieu 7462 7478	Wallis et Futuna
 T51	Organisation 1141 1164	ministère de la justice
 T52	Organisation 1597 1620	ministère de la justice
 T53	Organisation 1677 1700	ministère de la justice
@@ -49,14 +46,6 @@ T58	Organisation 4595 4618	ministère de la justice
 T59	Organisation 7349 7372	ministère de la justice
 T60	Organisation 7710 7733	ministère de la justice
 T3	Id 187 199	JUST1927458A
-A1	type T50 pays
-A2	type T23 pays
-A3	type T48 pays
-T4	Id 411 424	748-1 à 748-6
-T5	Id 481 486	803-1
-T6	Id 505 513	2010-112
-T7	Id 772 780	2019-507
-T8	Id 600 609	2005-1516
-T9	Id 858 866	2019-222
-T10	Id 569 580	9, 10 et 12
-T18	Id 1336 1342	D. 589
+T4	Pays 7462 7478	Wallis et Futuna
+T5	Pays 7501 7519	Nouvelle-Calédonie
+T6	Pays 7526 7545	Polynésie française

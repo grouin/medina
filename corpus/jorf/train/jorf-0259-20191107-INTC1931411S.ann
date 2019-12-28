@@ -1,82 +1,20 @@
-A101	type T100 ville
-A103	type T102 ville
-A106	type T105 ville
-A108	type T107 ville
-A110	type T109 ville
-A112	type T111 ville
-A119	type T118 ville
-A121	type T120 ville
-A123	type T122 ville
-A125	type T124 ville
-A131	type T130 ville
-A133	type T132 ville
-A136	type T135 ville
-A140	type T139 ville
-A153	type T152 ville
-A155	type T154 ville
-A157	type T156 ville
-A159	type T158 ville
-A161	type T160 ville
-A163	type T162 ville
-A165	type T164 ville
-A167	type T166 ville
-A171	type T170 ville
-A173	type T172 ville
-A180	type T179 ville
-A182	type T181 ville
-A184	type T183 ville
-A190	type T189 ville
-A192	type T191 ville
-A194	type T193 ville
-A196	type T195 ville
-A198	type T197 ville
-A200	type T199 ville
-A24	type T23 ville
-A26	type T25 ville
-A28	type T27 ville
-A30	type T29 ville
-A44	type T43 ville
-A46	type T45 ville
-A51	type T50 ville
-A53	type T52 ville
-A55	type T54 ville
-A66	type T65 ville
-A93	type T92 ville
-A95	type T94 ville
-A97	type T96 ville
-A99	type T98 ville
 T1	Date 639 651	12 août 2013
 T10	Date 1016 1028	27 août 2010
-T100	Lieu 14268 14275	Limoges
-T102	Lieu 14384 14391	Limoges
 T104	Personne 16112 16125	Lucien ARLERI
-T105	Lieu 11609 11613	Lyon
-T107	Lieu 11905 11909	Lyon
-T109	Lieu 12053 12057	Lyon
 T11	Date 503 518	27 juillet 2005
-T111	Lieu 12214 12218	Lyon
 T113	Personne 16219 16233	Léonard FAUVET
 T114	Personne 5440 5447	MORALDI
 T115	Personne 10609 10621	Magali BLANC
 T116	Personne 4486 4504	Malika BOUZEBOUDJA
 T117	Personne 9781 9800	Marie-Josèphe VIDAL
-T118	Lieu 12533 12542	Marseille
 T12	Date 12 27	4 novembre 2019
-T120	Lieu 12828 12837	Marseille
-T122	Lieu 12977 12986	Marseille
-T124	Lieu 13114 13123	Marseille
 T126	Personne 8262 8278	Martine CHAPELOT
-T127	Lieu 15082 15092	Martinique
 T128	Personne 14170 14185	Maurice ALIBERT
 T129	Personne 6069 6086	Michaël LE MAITRE
 T13	Date 18439 18454	4 novembre 2019
-T130	Lieu 13235 13246	Montpellier
-T132	Lieu 13367 13378	Montpellier
 T134	Personne 12993 13006	Muriel ANQUET
-T135	Lieu 16941 16946	Nancy
 T137	Personne 7472 7487	Nathalie CHUPIN
 T138	Personne 11947 11965	Nathalie TALLEVAST
-T139	Lieu 13467 13471	Nice
 T14	Date 889 900	5 août 2009
 T141	Personne 4148 4163	Nicolas GUIDOUX
 T142	Personne 10759 10772	Olivier DUPAS
@@ -90,48 +28,25 @@ T149	Personne 12874 12889	Philippe FRIZON
 T15	Personne 12063 12073	Alain BARD
 T150	Personne 15098 15113	Philippe JOMIER
 T151	Personne 7864 7879	Philippe MENARD
-T152	Lieu 14462 14476	Pointe-à-Pitre
-T154	Lieu 14784 14798	Pointe-à-Pitre
-T156	Lieu 17055 17060	Reims
-T158	Lieu 17168 17173	Reims
 T16	Personne 14999 15016	Alexandre LIHOLAT
-T160	Lieu 15273 15279	Rennes
-T162	Lieu 15567 15573	Rennes
-T164	Lieu 15712 15718	Rennes
-T166	Lieu 15881 15887	Rennes
 T168	Personne 17930 17944	Richard SRECKI
 T169	Personne 11138 11152	Romuald MULLER
 T17	Personne 3641 3657	Alexandre PICHON
-T170	Lieu 15989 15994	Rouen
-T172	Lieu 16101 16106	Rouen
 T174	Personne 4262 4274	Sabine MELIN
 T175	Personne 8100 8117	Sandrine DESLIARD
 T176	Personne 9049 9065	Sandrine PERENON
 T177	Personne 18044 18062	Sophie BEAUVILLAIN
 T178	Personne 17549 17562	Sophie THOMAS
-T179	Lieu 16397 16407	Strasbourg
 T18	Personne 14282 14297	Alexia DUDOGNON
-T181	Lieu 16696 16706	Strasbourg
-T183	Lieu 16816 16826	Strasbourg
 T185	Personne 5692 5707	Stéphane GOGUET
 T186	Personne 10180 10193	Tania LEHMANN
 T187	Personne 16712 16728	Thierry DE MARIA
 T188	Personne 2686 2704	Thomas de RICOLFIS
-T189	Lieu 10051 10059	Toulouse
 T19	Personne 1955 1975	Anne-Sophie COULBOIS
-T191	Lieu 10165 10173	Toulouse
-T193	Lieu 10322 10330	Toulouse
-T195	Lieu 17718 17728	Versailles
-T197	Lieu 18027 18037	Versailles
-T199	Lieu 18189 18199	Versailles
 T2	Date 778 794	19 décembre 2018
 T20	Personne 17066 17081	Antoine BAUDANT
 T21	Personne 14835 14845	Benoît NAU
 T22	Personne 8842 8857	Bernard MANZONI
-T23	Lieu 9320 9328	Bordeaux
-T25	Lieu 9618 9626	Bordeaux
-T27	Lieu 9766 9774	Bordeaux
-T29	Lieu 9943 9951	Bordeaux
 T31	Personne 16610 16623	Béatrice BRUN
 T32	Personne 11386 11401	Béatrice LEFORT
 T33	Personne 6773 6795	Béatrice ROY-TIROUMALE
@@ -144,14 +59,9 @@ T39	Personne 2253 2270	Christine DEMARLE
 T40	Personne 5056 5071	Christine DUFAU
 T41	Personne 11815 11832	Christophe ALLAIN
 T42	Personne 14007 14024	Christophe DELOST
-T43	Lieu 12322 12338	Clermont-Ferrand
-T45	Lieu 12446 12462	Clermont-Ferrand
 T47	Personne 5942 5958	Constance DEVRUE
 T48	Personne 2798 2813	Corinne BERTOUX
 T49	Personne 13252 13276	DE FREITAS MEIRA Anthony
-T50	Lieu 10401 10406	Dijon
-T52	Lieu 10717 10722	Dijon
-T54	Lieu 10855 10860	Dijon
 T56	Personne 5564 5580	Elisabeth JOUGLA
 T57	Personne 12744 12755	Eric ARELLA
 T58	Personne 7951 7961	Eric BEROT
@@ -161,7 +71,6 @@ T61	Personne 2027 2038	Fabien LANG
 T62	Personne 12224 12239	Fabrice FINANCE
 T63	Personne 12344 12359	Fabrice KOZDEBA
 T64	Personne 13384 13396	Florent MION
-T65	Lieu 14979 14993	Fort-de-France
 T67	Personne 7359 7376	Franck DANNEROLLE
 T68	Personne 9530 9544	François BODIN
 T69	Personne 3452 3466	Frédéric DOIDY
@@ -172,7 +81,6 @@ T73	Personne 15724 15740	Guillaume BLAVEC
 T74	Personne 16832 16850	Guillaume CRIVELLI
 T75	Personne 11268 11286	Guillaume GALLOUIN
 T76	Personne 2927 2943	Guillaume HEZARD
-T77	Lieu 15195 15201	Guyane
 T78	Personne 4373 4386	Hélène HALTER
 T79	Id 112 124	INTC1931411S
 T8	Date 18229 18244	21 octobre 2019
@@ -188,30 +96,61 @@ T89	Personne 9957 9968	José MARIET
 T9	Date 281 294	24 avril 2003
 T90	Personne 16000 16014	Jérémie DUMONT
 T91	Personne 15893 15906	Jérôme MARTIN
-T92	Lieu 10931 10936	Lille
-T94	Lieu 11226 11231	Lille
-T96	Lieu 11374 11379	Lille
-T98	Lieu 11533 11538	Lille
-T3	Lieu 17644 17651	Ajaccio
-A1	type T3 ville
-T4	Lieu 17535 17542	Ajaccio
-A2	type T4 ville
-T5	Lieu 17239 17246	Ajaccio
-A3	type T5 ville
-T6	Lieu 16207 16213	Angers
-A4	type T6 ville
-T7	Lieu 16319 16325	Angers
-A5	type T7 ville
-T24	Lieu 14157 14164	Orléans
-A6	type T24 ville
-T26	Lieu 13842 13849	Orléans
-A7	type T26 ville
-T28	Lieu 13994 14001	Orléans
-A8	type T28 ville
-T30	Lieu 13541 13548	Orléans
-A9	type T30 ville
-A10	type T127 pays
-A11	type T77 pays
-T44	Id 269 277	2003-390
-T46	Id 491 499	2005-850
-T51	Id 627 635	2013-728
+T23	Ville 9320 9328	Bordeaux
+T25	Ville 9618 9626	Bordeaux
+T44	Ville 9766 9774	Bordeaux
+T27	Ville 9943 9951	Bordeaux
+T29	Ville 10051 10059	Toulouse
+T46	Ville 10165 10173	Toulouse
+T51	Ville 10322 10330	Toulouse
+T53	Ville 10401 10406	Dijon
+T50	Ville 10717 10722	Dijon
+T52	Ville 10855 10860	Dijon
+T54	Ville 10931 10936	Lille
+T55	Ville 11226 11231	Lille
+T66	Ville 11374 11379	Lille
+T80	Ville 11533 11538	Lille
+T92	Ville 11609 11613	Lyon
+T93	Ville 11905 11909	Lyon
+T94	Ville 12053 12057	Lyon
+T95	Ville 12214 12218	Lyon
+T96	Ville 12322 12338	Clermont-Ferrand
+T97	Ville 12446 12462	Clermont-Ferrand
+T43	Ville 12533 12542	Marseille
+T45	Ville 12828 12837	Marseille
+T98	Ville 12977 12986	Marseille
+T99	Ville 13114 13123	Marseille
+T101	Ville 13235 13246	Montpellier
+T103	Ville 13367 13378	Montpellier
+T105	Ville 13467 13471	Nice
+T106	Ville 13541 13548	Orléans
+T107	Ville 13842 13849	Orléans
+T108	Ville 13994 14001	Orléans
+T109	Ville 14157 14164	Orléans
+T110	Ville 14268 14275	Limoges
+T111	Ville 14384 14391	Limoges
+T24	Ville 14462 14476	Pointe-à-Pitre
+T26	Ville 14784 14798	Pointe-à-Pitre
+T28	Ville 14979 14993	Fort-de-France
+T30	Pays 15082 15092	Martinique
+T100	Pays 15195 15201	Guyane
+T65	Ville 15273 15279	Rennes
+T77	Ville 15567 15573	Rennes
+T102	Ville 15712 15718	Rennes
+T112	Ville 15881 15887	Rennes
+T118	Ville 15989 15994	Rouen
+T119	Ville 16101 16106	Rouen
+T120	Ville 16207 16213	Angers
+T121	Ville 16319 16325	Angers
+T6	Ville 16397 16407	Strasbourg
+T7	Ville 16696 16706	Strasbourg
+T122	Ville 16816 16826	Strasbourg
+T123	Ville 16941 16946	Nancy
+T124	Ville 17055 17060	Reims
+T125	Ville 17168 17173	Reims
+T127	Ville 17239 17246	Ajaccio
+T130	Ville 17535 17542	Ajaccio
+T131	Ville 17644 17651	Ajaccio
+T3	Ville 17718 17728	Versailles
+T4	Ville 18027 18037	Versailles
+T5	Ville 18189 18199	Versailles

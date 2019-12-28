@@ -1,4 +1,3 @@
-A10	type T9 adresse
 T1	Date 1847 1851	1858
 T11	Personne 1995 2012	Joseph Durighello
 T12	Personne 2156 2173	Joseph Durighello
@@ -12,7 +11,6 @@ T5	Date 2019 2023	1924
 T6	Date 2177 2181	1925
 T7	Date 1852 1856	1932
 T8	Date 2714 2729	24 octobre 2002
-T9	Lieu 2825 2867	6, rue des Pyramides, 75041 Paris Cedex 01
-T10	Id 396 407	238 bis-0 A
-T14	Id 2695 2703	4-C-6-02
-T15	Id 2707 2710	184
+T10	Adresse 2825 2845	6, rue des Pyramides
+T14	Cp 2847 2852	75041
+T15	Ville 2853 2858	Paris

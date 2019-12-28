@@ -5,7 +5,6 @@ T4	Organisation 95 108	PRATO CORBARA
 T5	Organisation 114 137	Conseil constitutionnel
 T6	Date 153 170	18 septembre 2019
 T7	Organisation 178 192	Conseil d'Etat
-A21	type T20 ville
 T10	Organisation 511 534	Conseil constitutionnel
 T11	Organisation 962 985	Conseil constitutionnel
 T12	Organisation 1246 1269	Conseil constitutionnel
@@ -16,7 +15,7 @@ T16	Organisation 7302 7325	Conseil constitutionnel
 T17	Organisation 7941 7964	Conseil constitutionnel
 T18	Organisation 1136 1150	Conseil d'Etat
 T19	Organisation 6484 6498	Conseil d'Etat
-T20	Lieu 451 460	Marseille
+T20	Ville 451 460	Marseille
 T8	Date 8220 8236	22 novembre 2019
 T9	Date 217 233	6 septembre 2019
 T21	Personne 415 428	Bernard Dumas
@@ -50,14 +49,3 @@ T48	Personne 8130 8147	Nicole MAESTRACCI
 T49	Personne 8153 8167	Jacques MÉZARD
 T50	Personne 8169 8184	François PILLET
 T51	Personne 8188 8202	Michel PINAULT
-A1	type T34 pays
-A2	type T36 pays
-A3	type T35 pays
-A4	type T39 pays
-T52	Id 206 212	432018
-T53	Id 546 554	2019-814
-T54	Id 906 913	58-1067
-T55	Id 1037 1045	2013-676
-T56	Id 1154 1160	418526
-T57	Id 7623 7631	2013-676
-T58	Id 12 20	2019-814

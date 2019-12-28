@@ -1,10 +1,7 @@
 T1	Date 10 26	19 décembre 2019
 T2	Date 199 215	19 décembre 2019
 T3	Id 83 95	INTD1921281D
-T4	Lieu 366 372	Rosans
-A1	type T4 ville
-T5	Lieu 374 379	05150
-A2	type T5 adresse
+T4	Ville 366 372	Rosans
+T5	Cp 374 379	05150
 T6	Organisation 235 300	Communauté des Bénédictines de l'Abbaye Notre-Dame de Miséricorde
-T7	Lieu 354 360	Baudon
-A3	type T7 adresse
+T7	Adresse 354 360	Baudon

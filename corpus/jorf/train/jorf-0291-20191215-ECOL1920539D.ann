@@ -1,45 +1,32 @@
 T1	Date 10 26	13 décembre 2019
-T2	Lieu 113 122	Drouville
-A1	type T2 ville
+T2	Ville 113 122	Drouville
 T3	Lieu 124 142	Meurthe-et-Moselle
-A2	type T3 pays
-A10	type T9 ville
-A12	type T11 ville
-A14	type T13 pays
-A16	type T15 pays
-A6	type T5 ville
-A8	type T7 ville
-T11	Lieu 1105 1114	Drouville
+T11	Ville 1105 1114	Drouville
 T13	Lieu 563 581	Meurthe-et-Moselle
 T15	Lieu 1029 1047	Meurthe-et-Moselle
 T4	Date 326 342	13 décembre 2019
-T5	Lieu 423 432	Drouville
-T7	Lieu 498 507	Drouville
-T9	Lieu 944 953	Drouville
+T5	Ville 423 432	Drouville
+T7	Ville 498 507	Drouville
+T9	Ville 944 953	Drouville
 T6	Id 210 222	ECOL1920539D
 T8	Organisation 150 202	Compagnie des salins du Midi et des salines de l'Est
-T10	Lieu 484 496	Courbesseaux
-A3	type T10 ville
-T12	Lieu 509 522	Gellenoncourt
-A4	type T12 ville
-T14	Lieu 526 536	Haraucourt
-A5	type T14 ville
-A18	type T17 ville
-A21	type T20 ville
-A23	type T22 ville
-T17	Lieu 1091 1103	Courbesseaux
-T20	Lieu 1116 1129	Gellenoncourt
-T22	Lieu 1133 1143	Haraucourt
+T10	Ville 484 496	Courbesseaux
+T12	Ville 509 522	Gellenoncourt
+T14	Ville 526 536	Haraucourt
+T17	Ville 1091 1103	Courbesseaux
+T20	Ville 1116 1129	Gellenoncourt
+T22	Ville 1133 1143	Haraucourt
 T16	Organisation 597 649	Compagnie des Salins du Midi et des Salines de l'Est
-T18	Lieu 656 698	92-98, boulevard Victor-Hugo, 92115 Clichy
-A7	type T18 adresse
 T21	Id 730 741	412 431 744
-T23	Lieu 785 793	Nanterre
-A9	type T23 ville
+T23	Ville 785 793	Nanterre
 T24	Date 818 834	31 décembre 2043
-T25	Lieu 1646 1687	1, place Carpeaux, 92055 La Défense Cedex
-A11	type T25 adresse
-T26	Lieu 1875 1910	2, rue Augustin-Fresnel, 57070 Metz
-A13	type T26 adresse
 T27	Lieu 1769 1778	Grand-Est
-A15	type T27 pays
+T19	Adresse 656 684	92-98, boulevard Victor-Hugo
+T28	Cp 686 691	92115
+T29	Ville 692 698	Clichy
+T18	Adresse 1646 1663	1, place Carpeaux
+T30	Cp 1665 1670	92055
+T31	Ville 1671 1681	La Défense
+T25	Adresse 1875 1898	2, rue Augustin-Fresnel
+T32	Cp 1900 1905	57070
+T33	Ville 1906 1910	Metz

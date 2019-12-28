@@ -7,18 +7,14 @@ T7	Date 695 705	14 janvier
 T8	Date 871 886	13 février 2020
 T9	Lieu 206 214	Calvados
 T10	Id 222 234	TERB1932034A
-T2	Lieu 377 385	Calvados
-T11	Lieu 637 641	Caen
-A1	type T11 ville
-T12	Lieu 776 784	Calvados
-T13	Lieu 1176 1184	Calvados
-T14	Lieu 1186 1252	2, impasse Initialis, CS 20052, 14202 Hérouville-Saint-Clair Cedex
-A2	type T14 adresse
 T15	Id 1254 1271	concours@cdg14.fr
 A3	categorie T15 email
-A4	type T9 pays
-A5	type T2 pays
-A6	type T12 pays
 T16	Id 787 799	www.cdg14.fr
 A7	categorie T16 email
-A8	type T13 pays
+T2	Lieu 1176 1184	Calvados
+T11	Lieu 377 385	Calvados
+T12	Ville 637 641	Caen
+T13	Lieu 776 784	Calvados
+T17	Adresse 1186 1216	2, impasse Initialis, CS 20052
+T18	Cp 1218 1223	14202
+T19	Ville 1224 1246	Hérouville-Saint-Clair

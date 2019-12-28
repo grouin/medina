@@ -1,18 +1,12 @@
 T4	Date 10 25	5 novembre 2019
 T5	Date 290 305	5 novembre 2019
-T6	Lieu 107 115	Bordeaux
-T7	Lieu 437 445	Bordeaux
-A1	type T6 ville
-T1	Lieu 117 119	33
 T8	Organisation 91 102	VILLA MARIA
 T9	Id 128 140	CPAE1928056A
 T2	Organisation 375 386	VILLA MARIA
-T3	Lieu 394 415	31, avenue de Mirande
-A2	type T3 adresse
-T10	Lieu 419 434	44, rue Pasteur
-A3	type T10 adresse
-T11	Lieu 447 453	33 000
-A4	type T7 ville
-A5	type T1 adresse
-A6	type T11 adresse
 T12	Id 582 598	157 397/ 303 574
+T13	Adresse 394 415	31, avenue de Mirande
+T14	Adresse 419 434	44, rue Pasteur
+T15	Ville 437 445	Bordeaux
+T16	Cp 447 453	33 000
+T3	Ville 107 115	Bordeaux
+T7	Cp 117 119	33

@@ -1,11 +1,5 @@
-A12	type T11 adresse
-A16	type T15 ville
 T1	Date 163 180	10 septembre 2019
 T10	Id 101 113	CSAR1931171X
-T11	Lieu 561 608	Collège Mont des Accords, Marigot, Saint-Martin
-T13	Lieu 232 238	Guyane
-T14	Lieu 748 754	Guyane
-T15	Lieu 657 668	Le Lamentin
 T17	Personne 773 785	M. Wallerich
 T18	Organisation 481 499	RADIO SCOLAIRE SXM
 T19	Organisation 185 220	comité territorial de l'audiovisuel
@@ -14,10 +8,12 @@ T20	Organisation 701 736	comité territorial de l'audiovisuel
 T7	Date 540 552	30 juin 2020
 T8	Date 295 312	30 septembre 1986
 T9	Date 673 690	26 septembre 2019
-T3	Lieu 739 747	Antilles
-T4	Lieu 223 231	Antilles
 T5	Organisation 376 411	association Média scolaire SXM AMSS
-A1	type T4 pays
-A2	type T13 pays
-A3	type T3 pays
-A4	type T14 pays
+T6	Ville 657 668	Le Lamentin
+T12	Organisation 561 585	Collège Mont des Accords
+T15	Ville 587 594	Marigot
+T16	Pays 596 608	Saint-Martin
+T11	Pays 739 747	Antilles
+T21	Pays 748 754	Guyane
+T3	Pays 223 231	Antilles
+T14	Pays 232 238	Guyane

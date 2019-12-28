@@ -1,4 +1,3 @@
-A27	type T26 ville
 T1	Date 3496 3500	2018
 T14	Organisation 870 877	Conseil
 T17	Organisation 3445 3452	Conseil
@@ -8,8 +7,7 @@ T21	Organisation 532 566	Conseil supérieur de l'audiovisuel
 T22	Organisation 1332 1366	Conseil supérieur de l'audiovisuel
 T23	Organisation 2116 2150	Conseil supérieur de l'audiovisuel
 T24	Organisation 4137 4171	Conseil supérieur de l'audiovisuel
-T25	Lieu 1213 1217	Lyon
-T26	Lieu 4100 4105	Paris
+T26	Ville 4100 4105	Paris
 T28	Organisation 1174 1209	comité territorial de l'audiovisuel
 T4	Date 1263 1278	12 juillet 2019
 T6	Date 24 40	27 novembre 2019
@@ -29,7 +27,6 @@ T31	Date 893 910	27 septembre 2011
 T32	Date 956 968	10 mars 2016
 T33	Organisation 984 1004	SARL Radio Impact FM
 T34	Organisation 1117 1126	Impact FM
-A2	type T25 ville
 T35	Organisation 1224 1244	SARL Radio Impact FM
 T15	Organisation 1303 1318	Radio Impact FM
 T16	Date 2586 2600	5 février 2016
@@ -48,13 +45,4 @@ T47	Organisation 3813 3828	Radio Impact FM
 T48	Date 3871 3885	5 février 2016
 T49	Organisation 4017 4032	Radio Impact FM
 T5	Personne 4190 4203	R.-O. Maistre
-T11	Id 12 20	2019-579
-T19	Id 380 388	L. 233-3
-T50	Id 404 411	86-1067
-T51	Id 570 578	2006-481
-T52	Id 631 638	2011-71
-T53	Id 663 673	2016-LY-02
-T54	Id 881 889	2011-869
-T55	Id 942 952	2016-LY-82
-T56	Id 2227 2235	L. 233-3
-T57	Id 3021 3029	L. 233-3
+T11	Ville 1213 1217	Lyon

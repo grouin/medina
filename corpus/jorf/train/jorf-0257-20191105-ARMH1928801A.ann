@@ -1,13 +1,4 @@
-A34	type T33 ville
-A36	type T35 ville
-A38	type T37 ville
-A42	type T41 ville
-A44	type T43 ville
-A46	type T45 ville
-A48	type T47 ville
-A50	type T49 ville
 A53	categorie T52 email
-A55	type T54 adresse
 T1	Date 3947 3960	10 avril 2020
 T14	Date 57 61	2020
 T15	Date 380 384	2020
@@ -26,15 +17,17 @@ T3	Date 2712 2728	17 décembre 2019
 T30	Organisation 2656 2659	CMG
 T31	Organisation 3892 3895	CMG
 T32	Organisation 4365 4368	CMG
-T33	Lieu 638 642	Lyon
-T35	Lieu 1338 1342	Lyon
-T37	Lieu 2155 2159	Lyon
-T41	Lieu 2663 2667	Lyon
-T43	Lieu 3170 3174	Lyon
-T45	Lieu 3899 3903	Lyon
-T47	Lieu 4372 4376	Lyon
-T49	Lieu 1557 1562	Paris
 T51	Organisation 599 628	centre ministériel de gestion
 T52	Id 1372 1417	cmg-lyon- examens.recrutement.fct@def.gouv.fr
-T54	Lieu 2245 2295	quartier Général Frère, BP 41, 69998 Lyon Cedex 07
 T6	Date 3189 3204	20 janvier 2020
+T4	Ville 638 642	Lyon
+T5	Ville 1338 1342	Lyon
+T7	Ville 1557 1562	Paris
+T8	Ville 2155 2159	Lyon
+T9	Adresse 2245 2274	quartier Général Frère, BP 41
+T10	Cp 2276 2281	69998
+T11	Ville 2282 2286	Lyon
+T12	Ville 3170 3174	Lyon
+T13	Ville 2663 2667	Lyon
+T16	Ville 3899 3903	Lyon
+T17	Ville 4372 4376	Lyon

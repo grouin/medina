@@ -1,5 +1,3 @@
-A26	type T25 ville
-A29	type T28 adresse
 T1	Date 353 368	18 janvier 2019
 T10	Date 421 436	26 janvier 2019
 T11	Date 803 815	26 juin 2019
@@ -15,7 +13,8 @@ T20	Personne 648 663	GEORGES MARTEAU
 T21	Personne 716 731	GEORGES MARTEAU
 T22	Id 376 388	MCCC1901697A
 T23	Id 81 93	MICC1930682A
-T25	Lieu 793 798	Paris
 T27	Organisation 571 594	Smithsonian Institution
-T28	Lieu 596 622	Washington, DC, Etats-Unis
-T3	Id 933 939	94-679
+T2	Ville 596 606	Washington
+T4	Pays 608 622	DC, Etats-Unis
+T5	Ville 793 798	Paris
+T6	Organisation 776 791	musée du Louvre
