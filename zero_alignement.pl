@@ -78,8 +78,8 @@ foreach my $fichier (@rep) {
   # Gestion des ouvertures/fermetures : stockage des balises ouvrantes
   # présentes sur la ligne
   my $ligneBalisee=$ligne; my $balise="";
-  while ($ligneBalisee=~/<[^>]+>/) {
-    if ($ligneBalisee=~/<([^\/>]+)>/) { $balise=$1; push(@balises,$balise); }
+  while ($ligneBalisee=~/<[^>\s]+>/) {
+    if ($ligneBalisee=~/<([^\/>\s]+)>/) { $balise=$1; push(@balises,$balise); }
     $ligneBalisee=~s/<$balise>//; $ligneBalisee=~s/<\/$balise>//;
   }
   # Pour chaque balise ouvrante, vérification de la fermeture des
@@ -106,7 +106,7 @@ foreach my $fichier (@rep) {
       while ($ligne=~/<$balises[$i]>[^<]*?<$balises[$i+1]>[^<]*?<$balises[$i+2]>[^<]*?<\/$balises[$i+1]>[^<]*?<\/$balises[$i+2]>[^<]*?<$balises[$i+3]>[^<]*?<\/$balises[$i]>[^<]*?<\/$balises[$i+3]>/) {
 	$ligne=~s/<\/$balises[$i+1]>([^<]*?)<\/$balises[$i+2]>/<\/$balises[$i+2]>$1<\/$balises[$i+1]>/;
 	$ligne=~s/<\/$balises[$i]>([^<]*?)<\/$balises[$i+3]>/<\/$balises[$i+3]>$1<\/$balises[$i]>/;
-      }      
+      }
       shift(@balises);
     }
   }
