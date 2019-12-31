@@ -35,6 +35,11 @@ Ucons:%x[0,6]
 Uvoy:%x[0,7]
 Usoundex:%x[0,8]
 
+BtaillePos:%x[0,2]/%x[0,4]
+BdeclUpper:%x[0,5]/%t[0,1,"^\u"]
+BupperUpper:%t[0,1,"^\u"]/%t[1,1,"^\u"]
+BupperAllUpper:%t[0,1,"^\u"]/%t[1,1,"^\u+$"]
+
 # Ajout token
 *contextL:%x[-1,1]/%x[0,1]
 *tokenAv:%x[-1,1]
