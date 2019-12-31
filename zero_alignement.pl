@@ -17,7 +17,7 @@ foreach my $fichier (@rep) {
   my @contenu=();
   my $i=0;
   
-  open(E,'<:utf8',$fichier);
+  open(E,'<:utf8',$fichier) or die "Impossible d'ouvrir $fichier\n";
   while (my $ligne=<E>) {
     # Segmentation en caractères et stockage de ces caractères
     my @cars=split(//,$ligne);
