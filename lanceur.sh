@@ -35,6 +35,7 @@ wapiti train -t 2 -a rprop- -1 0.1 -p config_zero.tpl tab_train.zero modele-zero
 wapiti label -p -m modele-zero tab_test.zero >sortie-zero
 
 # Prediction output evaluation (script from the conll challenge)
+perl post_conversion.pl sortie-zero
 perl conlleval.pl -d '\t' <sortie-zero
 
 # False positive and false negative analysis
