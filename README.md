@@ -17,40 +17,41 @@ Files:
   existing annotated data in corpus/appr/ and corpus/test/ files
   containing both *{ann,txt} files)
 
-* pre_creeDictionnaire.bash: produces forme-lemme-pos.tab file in the
-  data directory (list of forms, lemmas, and POS for French, from CNAM
-  data); to be done only once
+* scripts/pre_creeDictionnaire.bash: produces forme-lemme-pos.tab file
+  in the data directory (list of forms, lemmas, and POS for French,
+  from CNAM data); to be done only once
 
-* zero_alignement.pl: converts BRAT annotations into embedded
+* scripts/zero_alignement.pl: converts BRAT annotations into embedded
   annotations (*.tag files are created); allows to manage both layered
   and discontinuous entities
 
-* zero_tabulaire.pl: produces tabular files based on previous files,
-  using a schema useful for CRF tools among following available ones:
-  IO, BIO, BIO2, BIO2H, BWEMO, or BWEMO+
+* scripts/zero_tabulaire.pl: produces tabular files based on previous
+  files, using a schema useful for CRF tools among following available
+  ones: IO, BIO, BIO2, BIO2H, BWEMO, or BWEMO+
 
-* zero_supprimeO.pl: allows to remove unannotated lines in order to
-  reduce the over-training of the O category
+* scripts/zero_supprimeO.pl: allows to remove unannotated lines in
+  order to reduce the over-training of the O category
 
-* config_zero.tpl: configuration template for Wapiti tool (for
+* config/config_zero.tpl: configuration template for Wapiti tool (for
   experiments based on semi-lexicalized, or fully lexicalized models,
   two other configuration files are given: config_lex.tpl and
   config_semi-lex.tpl)
 
-* post_differences.pl: highlights false positive and false negative
-  from the prediction file produced by Wapiti
+* scripts/post_differences.pl: highlights false positive and false
+  negative from the prediction file produced by Wapiti
 
-* crf-output-splitter.pl: allows to split the prediction file into
-  single files, reproducing the original content (in terms of spaces
-  and line breaks); predictions are represented with embedded tags
+* scripts/crf-output-splitter.pl: allows to split the prediction file
+  into single files, reproducing the original content (in terms of
+  spaces and line breaks); predictions are represented with embedded
+  tags
 
-* post_antidatation.pl: random date shiffting based on previously
-  identified dates
+* scripts/post_antidatation.pl: random date shiffting based on
+  previously identified dates
 
-* post_pseudonymization: pseudonymizes (1) person names based on lists
-  of common first names and last names used in France and Québec, (2)
-  city names, based on a list of cities from France, and (3) produces
-  fake phone numbers
+* scripts/post_pseudonymization: pseudonymizes (1) person names based
+  on lists of common first names and last names used in France and
+  Québec, (2) city names, based on a list of cities from France, and
+  (3) produces fake phone numbers
 
 
 ## Commands ##
@@ -72,22 +73,23 @@ The following commands allow:
 
 These are end-to-end commands:
 
-	bash pre_creeDictionnaire.bash
+	bash scripts/pre_creeDictionnaire.bash
 	
-	perl zero_alignement.pl corpus/jorf/train/
-	perl zero_alignement.pl corpus/jorf/test/
+	perl scripts/zero_alignement.pl corpus/jorf/train/
+	perl scripts/zero_alignement.pl corpus/jorf/test/
 	
-	perl zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BWEMO+
-	perl zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
+	perl scripts/zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BWEMO+
+	perl scripts/zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
 	
 	wapiti train -t 2 -a rprop- -1 0.1 -p config_zero.tpl tab_train.zero modele-zero
 	wapiti label -p -m modele-zero tab_test.zero >sortie-zero
+
+	perl scripts/post_conversion.pl sortie-zero
+	perl scripts/conlleval.pl -d '\t' <sortie-zero
 	
-	perl conlleval.pl -d '\t' <sortie-zero
-	
-	perl crf-output-splitter.pl sortie-zero
-	perl post_antidatation.pl -r corpus/jorf/test/ -e sgml
-	perl post_pseudonymization.pl -r corpus/jorf/test/ -e dat
+	perl scripts/crf-output-splitter.pl sortie-zero
+	perl scripts/post_antidatation.pl -r corpus/jorf/test/ -e sgml
+	perl scripts/post_pseudonymization.pl -r corpus/jorf/test/ -e dat
 
 De-identified final files are *pse files.
 
