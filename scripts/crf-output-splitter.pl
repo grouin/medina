@@ -26,9 +26,9 @@ while (my $ligne=<E>) {
   my ($numeroLigne,$offset)=split(/\-/,$cols[0]);
 
   # Nom du fichier et réinitialisations
-  if ($ligne=~/^([^\s]+\.tag)\t/) {
+  if ($ligne=~/^([^\s]+\.(tag|txt))\t/) {
     $fichier=$1;
-    $fichier=~s/tag$/sgml/;
+    $fichier=~s/(tag|txt)$/sgml/;
     $numLigneFichier=0;
     $numTokenLigne=0;
   }
