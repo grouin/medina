@@ -1,5 +1,7 @@
 #!/usr/bin/sh
 
+tar -xvf modele-deid.tar.gz
+
 # To perform an automatic de-identification, simply add *.txt files to
 # be de-identified into the "fichiers" folder and process the
 # following stages:

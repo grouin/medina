@@ -91,19 +91,18 @@ These are end-to-end commands:
 	perl scripts/post_antidatation.pl -r corpus/jorf/test/ -e sgml
 	perl scripts/post_pseudonymization.pl -r corpus/jorf/test/ -e dat
 
-De-identified final files are *pse files.
-
 
 ## How to automatically de-identify files? ##
 
 Simply add *.txt files (clinical texts written in French) into a
-folder (e.g., a "fichiers" folder) and perform the following stages:
+folder (e.g., a "fichiers" folder) and perform the following stages
+(do not forget to extract the CRF model from model-deid.tar.gz file):
 
 	perl scripts/zero_tabulaire.pl fichiers/ tag tab_train.zero BWEMO+
 	wapiti label -p -m modele-deid tab_test.zero >sortie-zero
 	perl scripts/crf-output-splitter.pl sortie-zero
-	perl scripts/post_antidatation.pl -r corpus/jorf/test/ -e sgml
-	perl scripts/post_pseudonymization.pl -r corpus/jorf/test/ -e dat
+	perl scripts/post_antidatation.pl -r fichiers/ -e sgml
+	perl scripts/post_pseudonymization.pl -r fichiers/ -e dat
 
 Final de-identified files are *.pse files.
 
