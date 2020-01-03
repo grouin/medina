@@ -29,7 +29,3 @@ T18	Personne 901 911	J. Dutruge
 A11	role T18 soignant
 T19	Personne 913 922	X. Cottin
 A12	role T19 soignant
-T20	Profession 33 73	ministre de l'emploi et de la solidarité
-T21	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale
-T22	Profession 354 364	praticiens
-T23	Profession 535 545	praticiens

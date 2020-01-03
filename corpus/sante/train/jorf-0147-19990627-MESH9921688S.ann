@@ -26,7 +26,3 @@ T16	Personne 892 903	V. Brossard
 A10	role T16 soignant
 T17	Personne 905 913	T. Blanc
 A11	role T17 soignant
-T18	Profession 33 73	ministre de l'emploi et de la solidarité
-T19	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale
-T20	Profession 362 372	praticiens
-T21	Profession 543 553	praticiens
