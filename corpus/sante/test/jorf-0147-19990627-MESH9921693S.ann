@@ -28,3 +28,7 @@ T17	Personne 916 935	C. Hubert-Rimlinger
 A11	role T17 soignant
 T18	Personne 937 944	P. Vert
 A12	role T18 soignant
+T19	Profession 33 73	ministre de l'emploi et de la solidarité
+T20	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale
+T21	Profession 362 372	praticiens
+T22	Profession 543 553	praticiens

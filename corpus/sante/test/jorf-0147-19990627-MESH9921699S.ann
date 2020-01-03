@@ -22,3 +22,7 @@ T14	Personne 916 926	F. Montaya
 A8	role T14 soignant
 T15	Personne 928 939	G. Cambonie
 A9	role T15 soignant
+T16	Profession 33 73	ministre de l'emploi et de la solidarité
+T17	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale
+T18	Profession 392 402	praticiens
+T19	Profession 573 583	praticiens

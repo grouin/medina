@@ -9,8 +9,6 @@ T8	Personne 6029 6042	Olivier DAVID
 T9	Telephone 6114 6128	01-40-81-99-24
 T10	Telephone 6199 6213	01-40-81-86-79
 T11	Personne 6135 6151	Laurent PAILLARD
-T12	Id 6548 6586	delcd.sg@developpement-durable.gouv.fr
-A1	categorie T12 email
-T13	Id 6590 6635	olivier-y.david@developpement-durable.gouv.fr
-A2	categorie T13 email
+T12	Email 6548 6586	delcd.sg@developpement-durable.gouv.fr
+T13	Email 6590 6635	olivier-y.david@developpement-durable.gouv.fr
 T14	Organisation 6476 6480	MTES

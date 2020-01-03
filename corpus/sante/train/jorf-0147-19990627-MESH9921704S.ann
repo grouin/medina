@@ -14,3 +14,7 @@ T10	Personne 765 774	F. Thepot
 A4	role T10 soignant
 T11	Personne 811 815	Krim
 A5	role T11 soignant
+T12	Profession 33 73	ministre de l'emploi et de la solidarité
+T13	Profession 355 365	praticiens
+T14	Profession 536 546	praticiens
+T15	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale

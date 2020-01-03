@@ -11,3 +11,6 @@ T9	Organisation 553 583	Hôpital Necker-Enfants Malades
 T10	Organisation 586 623	Assistance publique-Hôpitaux de Paris
 T11	Personne 532 546	Philippe Cornu
 A2	role T11 soignant
+T12	Profession 153 192	ministre des solidarités et de la santé
+T13	Profession 739 747	médecins
+T14	Profession 419 440	praticien contractuel

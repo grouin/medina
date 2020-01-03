@@ -16,3 +16,7 @@ T11	Personne 824 832	D. Oriot
 A5	role T11 soignant
 T12	Personne 834 845	M. Berthier
 A6	role T12 soignant
+T13	Profession 33 73	ministre de l'emploi et de la solidarité
+T14	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale
+T15	Profession 358 368	praticiens
+T16	Profession 538 548	praticiens

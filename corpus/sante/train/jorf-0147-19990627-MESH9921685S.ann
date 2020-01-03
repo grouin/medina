@@ -1,4 +1,3 @@
-T1	Ville 449 454	Tours
 T2	Ville 484 489	Tours
 A11	role T10 soignant
 A13	role T12 soignant
@@ -23,3 +22,7 @@ T4	Date 327 340	22 avril 1999
 T5	Cp 478 483	37000
 T6	Personne 984 994	A. Guichet
 T8	Personne 1043 1052	A. L. Suc
+T26	Profession 218 258	ministre de l'emploi et de la solidarité
+T1	Profession 265 315	secrétaire d'Etat à la santé et à l'action sociale
+T7	Profession 545 555	praticiens
+T9	Profession 726 736	praticiens

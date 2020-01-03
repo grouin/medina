@@ -32,3 +32,7 @@ T19	Personne 931 944	C. Aron-Cahen
 A13	role T19 soignant
 T20	Personne 946 958	M.-E. Gardin
 A14	role T20 soignant
+T21	Profession 33 73	ministre de l'emploi et de la solidarité
+T22	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale
+T23	Profession 353 363	praticiens
+T24	Profession 534 544	praticiens

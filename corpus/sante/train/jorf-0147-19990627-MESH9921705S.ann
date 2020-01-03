@@ -38,3 +38,7 @@ T22	Personne 989 998	S. Serret
 A16	role T22 soignant
 T23	Personne 1000 1009	D. Dupont
 A17	role T23 soignant
+T24	Profession 33 73	ministre de l'emploi et de la solidarité
+T25	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale
+T26	Profession 376 386	praticiens
+T27	Profession 556 566	praticiens

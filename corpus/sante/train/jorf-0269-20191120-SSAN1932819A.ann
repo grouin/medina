@@ -11,3 +11,6 @@ T3	Organisation 440 453	hôpital Tenon
 T10	Personne 418 434	Olivier Cussenot
 A2	role T10 soignant
 T11	Date 699 716	1er novembre 2019
+T12	Profession 143 182	ministre des solidarités et de la santé
+T13	Profession 609 617	médecins
+T14	Profession 344 361	praticien attaché

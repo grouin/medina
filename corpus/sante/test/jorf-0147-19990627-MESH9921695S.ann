@@ -26,3 +26,7 @@ T16	Personne 900 907	J. Roze
 A10	role T16 soignant
 T17	Personne 909 921	A.-M. Fleury
 A11	role T17 soignant
+T18	Profession 33 73	ministre de l'emploi et de la solidarité
+T19	Profession 80 130	secrétaire d'Etat à la santé et à l'action sociale
+T20	Profession 375 385	praticiens
+T21	Profession 556 566	praticiens

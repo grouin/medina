@@ -7,3 +7,5 @@ T1	Date 282 294	29 juin 2001
 T7	Organisation 528 575	groupe hospitalier de La Pitié - La Salpêtrière
 T8	Personne 787 793	Poirot
 A1	role T8 soignant
+T9	Profession 196 236	ministre de l'emploi et de la solidarité
+T10	Profession 243 270	ministre délégué à la santé

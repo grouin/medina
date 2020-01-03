@@ -9,3 +9,6 @@ T7	Ville 250 254	Sfax
 T8	Lieu 256 263	Tunisie
 T9	Personne 453 467	Aihab ALNUMIER
 A2	role T9 soignant
+T10	Profession 148 187	ministre des solidarités et de la santé
+T11	Profession 637 645	médecins
+T13	Profession 375 396	praticien contractuel

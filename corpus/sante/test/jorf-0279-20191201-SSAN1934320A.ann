@@ -15,3 +15,6 @@ A2	role T2 soignant
 T3	Organisation 633 656	hôpital la Croix Rousse
 T14	Personne 461 476	Carole BURILLON
 A3	role T14 soignant
+T15	Profession 153 192	ministre des solidarités et de la santé
+T16	Profession 824 832	médecins
+T17	Profession 385 406	praticien contractuel

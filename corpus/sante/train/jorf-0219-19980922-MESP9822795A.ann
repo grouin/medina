@@ -7,3 +7,6 @@ T6	Ville 829 835	Epinal
 T7	Organisation 736 762	clinique de la Ligne Bleue
 T8	Organisation 763 788	Clinique de l'Arc-en-Ciel
 T9	Organisation 573 631	laboratoire d'analyses de biologie médicale Gonand-Lefaure
+T10	Profession 248 288	ministre de l'emploi et de la solidarité
+T11	Personne 706 713	Lefaure
+A1	role T11 soignant

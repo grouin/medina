@@ -1,4 +1,3 @@
-A53	categorie T52 email
 T1	Date 3947 3960	10 avril 2020
 T14	Date 57 61	2020
 T15	Date 380 384	2020
@@ -18,7 +17,7 @@ T30	Organisation 2656 2659	CMG
 T31	Organisation 3892 3895	CMG
 T32	Organisation 4365 4368	CMG
 T51	Organisation 599 628	centre ministériel de gestion
-T52	Id 1372 1417	cmg-lyon- examens.recrutement.fct@def.gouv.fr
+T52	Email 1372 1417	cmg-lyon- examens.recrutement.fct@def.gouv.fr
 T6	Date 3189 3204	20 janvier 2020
 T4	Ville 638 642	Lyon
 T5	Ville 1338 1342	Lyon
@@ -31,3 +30,4 @@ T12	Ville 3170 3174	Lyon
 T13	Ville 2663 2667	Lyon
 T16	Ville 3899 3903	Lyon
 T17	Ville 4372 4376	Lyon
+T18	URL 205 279	https://www.legifrance.gouv.fr/eli/arrete/2019/10/22/ARMH1928801A/jo/texte
