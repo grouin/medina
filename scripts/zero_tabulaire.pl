@@ -30,7 +30,7 @@ my %frequenceConsonnes=();
 my %frequenceVoyelles=();
 my $total=0;
 my $totalCar=0;
-my $fichierPOS="data/forme-lemme-pos.tab";
+my $fichierPOS="scripts/data/forme-lemme-pos.tab";
 my %tabPOS=();
 
 warn "Applying $format annotation schema\n";
@@ -116,7 +116,8 @@ foreach my $fichier (@rep) {
       if ($taille<4) { $interT="p"; } elsif ($taille<8) { $interT="m"; } else { $interT="g"; }
 
       # Etiquetage en parties du discours (d'après les listes du CNAM avec amélioration sur les tokens inconnu commençant par une majuscule)
-      if (exists $tabPOS{lc($token)}) { $pos=$tabPOS{lc($token)}; }
+      my $tokmin=lc($token);
+      if (exists $tabPOS{$tokmin}) { $pos=$tabPOS{$tokmin}; }
       elsif (length($token)>=4 && $token=~/^[A-Z]\p{L}+$/) { $pos="Nom:Propre"; }
       elsif ($token=~/^d\'$/i) { $pos="Pre"; }
       elsif ($token=~/^l\'$/i) { $pos="Det:Mas+SG"; }
@@ -200,11 +201,20 @@ close(S);
 
 sub normalisation() {
   my $contenu=shift;
+  # Protection des URLs et e-mails pour éviter d'ajouter des espaces
+  $contenu=~s/((ftp|http)[^\s\(\)\[\]]+)/\[URL\]$1\[\/URL\]/g;
+  $contenu=~s/([^\s\(\)\[\]]+)\@([^\s\(\)\[\]]+)/\[URL\]$1\@$2\[\/URL\]/g;
   # Ajout d'espaces autour des ponctuations, sauf celles utilisées
   # dans les décimales ou dans les dates : - / .
   $contenu=~s/([\.\-,\(\)\|\'\’\@\#])/ $1 /g;
   $contenu=~s/(\d) \. (\d)/$1\.$2/g;
   $contenu=~s/(\d) \, (\d)/$1\,$2/g;
+  # Rétablissement des URLs et e-mails par la suppression des espaces
+  # contenues dans ce qui a été balisé URL
+  my $url="";
+  while ($contenu=~/\[URL\](.*?)\[\/URL\]/) { $url=$1; $url=~s/\s+//g; $contenu=~s/\[URL\].*?\[\/URL\]/$url/; $contenu=~s/\.( |$)/ \.$1/; }
+  while ($contenu=~/\[URL\]([^\s\(\)\[\]]+?\@[^\s\(\)\[\]]+?)\[\/URL\]/) { $url=$1; $url=~s/\s+//g; $contenu=~s/\[URL\].*?\[\/URL\]/$url/; $contenu=~s/\.( |$)/ \.$1/; }
+  # Post-traitements divers
   $contenu=~s/aujourd \' hui/aujourd\'hui/g; $contenu=~s/aujourd \’ hui/aujourd\’hui/g;
   $contenu=~s/(.) ([\'\’]) (.)/$1$2 $3/g;
   $contenu=~s/http([^\s]+) \. ([^\s]+)/http$1\.$2/;
