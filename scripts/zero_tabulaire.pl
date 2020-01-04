@@ -75,7 +75,7 @@ foreach my $fichier (@rep) {
 my @tabulaire=();
 my @labels=();
 foreach my $fichier (@rep) {
-  push(@tabulaire,"$fichier\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\t");
+  push(@tabulaire,"$fichier\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\t");
   push(@labels,"O");
   my $numLigne=0;
   
@@ -88,7 +88,7 @@ foreach my $fichier (@rep) {
     # Tokenization
     my @tokens=split(/ /,$norm);
 
-    # Rzinitializations
+    # Réinitializations
     my $tag="O";
     my $prec="O";
     my $taille=0;
@@ -146,12 +146,16 @@ foreach my $fichier (@rep) {
       $soundex=soundex($token) if ($token=~/^\p{L}+$/);
       if ($soundex eq "") { $soundex="NUL"; }
 
+      # Syllabation
+      my ($nombreSyllabes,$schemaSyllabes)=(0,"nul");
+      if ($token=~/^\p{L}+$/) { ($nombreSyllabes,$schemaSyllabes)=&syllabes($token); }
+
       # Printing
       my $index=index($ligne,$token,$indexPrecedent);
       my $label="O";
       if ($tag eq "O") { $label="O"; }
       if ($token ne "") {
-	  push(@tabulaire,"$numLigne\-$index\t$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareConsonne\t$rareVoyelle\t$soundex\t");
+	  push(@tabulaire,"$numLigne\-$index\t$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareConsonne\t$rareVoyelle\t$soundex\t$nombreSyllabes\t$schemaSyllabes\t");
 	  push(@labels,$tag);
       }
 
@@ -227,6 +231,29 @@ sub normalisation() {
 
   return $contenu;
 }
+
+sub syllabes() {
+  # Nombre de syllabes et schémas de syllabation. Il s'agit d'une
+  # approximation dans la mesure où l'objet pris en entrée est du
+  # texte et non une transcription de la parole
+  my $entree=shift;
+  $entree=~s/h//gi;                     # réduction des chuintantes
+  $entree=~s/v/c/gi;                    # traitement de la lettre 'v' comme consonne
+  $entree=~s/(an|en|in|on|un)/v/gi;     # voyelles nasales
+  $entree=~s/[sx]$//gi;                 # marque du pluriel
+  $entree=~s/(.{2,})es?$/$1/gi;         # 'e' final
+  $entree=~s/(.)[lr]/$1/gi;             # suppression des chuintantes et liquides, sauf à l'initiale
+  $entree=~s/[bcçdfgjklmnpqrstwxz]/c/gi;  # consonnes
+  $entree=~s/[aâàeêéèëiîïoôuûùüy]/v/gi; # voyelles
+  $entree=~s/cc/c c/gi;
+  $entree=~s/cvv/cv/gi;
+  $entree=~s/([v]+)c/$1 c/gi;
+  $entree=~s/cv c( |$)/cvc /gi;
+  my $nombreSyllabes=split(/ /,$entree);
+  $entree=~s/^\s+//g; $entree=~s/\s+$//g; $entree=~s/ /_/g; if ($entree eq "") { $entree="nul"; }
+  return ($nombreSyllabes,$entree);
+}
+
 
 sub bwemo() {
     my ($avant,$courant,$apres)=@_;
