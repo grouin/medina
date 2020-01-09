@@ -33,7 +33,7 @@ Udecl-1:%x[-1,5]
 Ufreq:%x[0,6]
 Ucons:%x[0,7]
 Uvoy:%x[0,8]
-Usoundex:%x[0,9]
+#Usoundex:%x[0,9]
 UnbSyll:%x[0,10]
 #Uschema:%x[0,11]
 
