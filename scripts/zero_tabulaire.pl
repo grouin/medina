@@ -63,7 +63,7 @@ foreach my $fichier (@rep) {
     foreach my $car (@cars) {
 	$car=lc($car);
 	$frequenceConsonnes{$car}++ if ($car=~/[bcdfghjklmnpqrstvwxzç]/i);
-	$frequenceVoyelles{$car}++ if ($car=~/[aeiouyàâéèêëîïôöûùü]/i);
+	$frequenceVoyelles{$car}++ if ($car=~/[aeiouyàâäéèêëîìïôòöûùüỳÿ]/i);
 	$totalCar++;
     }
   }
@@ -138,7 +138,7 @@ foreach my $fichier (@rep) {
       foreach my $car (@cars) {
 	  $car=lc($car);
 	  if ($car=~/[bcdfghjklmnpqrstvwxzç]/) { if ($frequenceConsonnes{$car}<=($totalCar/250)) { $rareConsonne="cons"; } }
-	  if ($car=~/[aeiouyàâéèêëîïôöûùü]/) { if ($frequenceVoyelles{$car}<=($totalCar/250)) { $rareVoyelle="voy"; } }
+	  if ($car=~/[aeiouyàâäéèêëîìïôòöûùüỳÿ]/) { if ($frequenceVoyelles{$car}<=($totalCar/250)) { $rareVoyelle="voy"; } }
       }
 
       # Code Soundex
@@ -253,7 +253,6 @@ sub syllabes() {
   $entree=~s/^\s+//g; $entree=~s/\s+$//g; $entree=~s/ /_/g; if ($entree eq "") { $entree="nul"; }
   return ($nombreSyllabes,$entree);
 }
-
 
 sub bwemo() {
     my ($avant,$courant,$apres)=@_;
