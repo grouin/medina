@@ -95,16 +95,19 @@ These are end-to-end commands:
 ## How to automatically de-identify files? ##
 
 Simply add *.txt files (clinical texts written in French) into a
-folder (e.g., a "fichiers" folder) and perform the following stages
-(do not forget to extract the CRF model from model-deid.tar.gz file):
+folder (e.g., a "fichiers" folder) and perform the following stages:
 
-	perl scripts/zero_tabulaire.pl fichiers/ tag tab_train.zero BWEMO+
+	tar -xvzf modele-deid.tar.gz
+	perl scripts/zero_tabulaire.pl fichiers/ txt tab_test.zero BWEMO+
 	wapiti label -p -m modele-deid tab_test.zero >sortie-zero
 	perl scripts/crf-output-splitter.pl sortie-zero
 	perl scripts/post_antidatation.pl -r fichiers/ -e sgml
 	perl scripts/post_pseudonymization.pl -r fichiers/ -e dat
 
-Final de-identified files are *.pse files.
+Final de-identified files are *.pse files. Alternatively, you can
+check the *sgml files from the "fichiers" folder by adding or removing
+opening and closing tags for identifying information, and then to
+perform the two last stages.
 
 
 ## License ##
