@@ -21,6 +21,10 @@ Files:
   in the data directory (list of forms, lemmas, and POS for French,
   from CNAM data); to be done only once
 
+* scripts/pre_releveNgrammes.pl: from the previous dictionary,
+  computes absolute frequency of trigrams of characters for French and
+  produces a liste_ngrammes.txt file into the scripts/data/ folder
+
 * scripts/zero_alignement.pl: converts BRAT annotations into embedded
   annotations (*.tag files are created); allows to manage both layered
   and discontinuous entities
@@ -74,7 +78,8 @@ The following commands allow:
 These are end-to-end commands:
 
 	bash scripts/pre_creeDictionnaire.bash
-	
+	perl scripts/pre_releveNgrammes.pl
+
 	perl scripts/zero_alignement.pl corpus/jorf/train/
 	perl scripts/zero_alignement.pl corpus/jorf/test/
 	
@@ -97,6 +102,9 @@ These are end-to-end commands:
 Simply add *.txt files (clinical texts written in French) into a
 folder (e.g., a "fichiers" folder) and perform the following stages:
 
+	bash scripts/pre_creeDictionnaire.bash
+	perl scripts/pre_releveNgrammes.pl
+
 	tar -xvzf modele-deid.tar.gz
 	perl scripts/zero_tabulaire.pl fichiers/ txt tab_test.zero BWEMO+
 	wapiti label -p -m modele-deid tab_test.zero >sortie-zero
@@ -114,7 +122,7 @@ perform the two last stages.
 
 This toolbox is licenced under the term of the two-clause BSD Licence:
 
-    Copyright (c) 2019  CNRS
+    Copyright (c) 2020 CNRS
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
