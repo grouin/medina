@@ -7,6 +7,7 @@
 # tags, based on lists produced by ABU CNAM, and named
 # forme-lemme-pos.tab (to be done only once)
 #bash scripts/pre_creeDictionnaire.bash
+#perl scripts/pre_releveNgrammes.pl
 
 # Conversion from BRAT to embedded annotations (files *.tag)
 # - one argument: path to *{ann,txt} files
