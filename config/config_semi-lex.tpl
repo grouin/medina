@@ -36,6 +36,7 @@ Uvoy:%x[0,7]
 Usoundex:%x[0,8]
 UnbSyll:%x[0,10]
 Uschema:%x[0,11]
+Utrigrm:%x[0,12]
 
 BtaillePos:%x[0,2]/%x[0,4]
 BdeclUpper:%x[0,5]/%t[0,1,"^\u"]
