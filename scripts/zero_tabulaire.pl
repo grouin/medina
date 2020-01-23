@@ -237,21 +237,53 @@ sub syllabes() {
   # approximation dans la mesure où l'objet pris en entrée est du
   # texte et non une transcription de la parole
   my $entree=shift;
-  $entree=~s/h//gi;                     # réduction des chuintantes
-  $entree=~s/v/c/gi;                    # traitement de la lettre 'v' comme consonne
-  $entree=~s/(an|en|in|on|un)/v/gi;     # voyelles nasales
-  $entree=~s/[sx]$//gi;                 # marque du pluriel
-  $entree=~s/(.{2,})es?$/$1/gi;         # 'e' final
-  $entree=~s/(.)[lr]/$1/gi;             # suppression des chuintantes et liquides, sauf à l'initiale
-  $entree=~s/[bcçdfgjklmnpqrstwxz]/c/gi;  # consonnes
-  $entree=~s/[aâàeêéèëiîïoôuûùüy]/v/gi; # voyelles
-  $entree=~s/cc/c c/gi;
-  $entree=~s/cvv/cv/gi;
-  $entree=~s/([v]+)c/$1 c/gi;
-  $entree=~s/cv c( |$)/cvc /gi;
+  $entree=~s/([aeiouyâàêéèëîïôöûùü]+)/$1 /gi;           # ajout espace
+  $entree=~s/ ([bcdfghjklmnpqrstvwxz]+)$/$1/gi;         # consonnes finales : dans, brest
+  $entree=~s/ $//;                                      # suppression espace finale
+  $entree=~s/ ([bcdfghjklmnpqrstvwxz]+)(e|es)$/$1$2/gi; # consonnes finales : Charles
+  $entree=~s/(é|o|u)(o|a|ï|ë)/$1 $2/g;                  # maintien du hiatus
   my $nombreSyllabes=split(/ /,$entree);
-  $entree=~s/^\s+//g; $entree=~s/\s+$//g; $entree=~s/ /_/g; if ($entree eq "") { $entree="nul"; }
+  # Forme syllabique
+  $entree=~s/(.{2,})que$/$1k/;                          # -que
+  $entree=~s/(.{2,})es?$/$1/;                           # schwa
+  $entree=~s/(.{2,})e[rt]s?$/$1é/;                      # premier, décret
+  $entree=~s/(.{2,})[sx]$/$1/;                          # pluriel
+  $entree=~s/ti([aeo])n$/s§$1~/g;                       # si-tion : si-sjo~
+  $entree=~s/i([aeo])/§$1/g;                            # officiel : sjel
+  $entree=~s/ph/f/g;                                    # phlébite
+  $entree=~s/ [mn]([bcdfghjklpqrstvwxz])/~ $1/gi;       # co-mpo : co~-po
+  $entree=~s/nt$/~/g;                                   # président : préside~
+  $entree=~s/ c([bcdfgjkmnpqstvwxz])/c $1/gi;           # o-ctobr : oc-tobr (dé-cret)
+  $entree=~s/ r([bcdfghjklmnpqstvwxz])/r $1/gi;         # po-rtant : por-tant
+  $entree=~s/ s([bcdfghklmnpqrstvwxz])/s $1/gi;         # di-sponibl : dis-ponibl
+  # suppression des lettres dupliquées
+  my $old="#"; my $new=""; my @cars=split(//,$entree);
+  foreach my $c (@cars) { if ($old ne $c) { $new.=$c; } $old=$c; }
+  $entree=$new;
+  $entree=~s/([bcçdfghjklmnpqrstvwxz])/c/gi;            # consonnes
+  $entree=~s/([aeiouyâàêéèëîïôöûùü\~]+)/v/gi;           # voyelles (en dernier)
+  $entree=~s/^\s+//g; $entree=~s/\s+$//g; $entree=~s/ /_/g;
+  #$entree=&decoupe($entree);
+  if ($entree eq "") { $entree="nul"; }
   return ($nombreSyllabes,$entree);
+}
+
+sub decoupe() {
+    # Prend en entrée la représentation syllabique d'un token (sous la
+    # forme v_cv_cv) et renvoie en sortie les différentes formes
+    # syllabiques triées
+    my $forme=shift; my $forme2="";
+    my @syll=split(/\_/,$forme); my %tri=();
+    foreach my $s (@syll) { $tri{$s}++; }
+    foreach my $s (sort keys %tri) { $forme2.="$s\_"; }
+    chop $forme2;
+    # Renvoie uniquement l'existence de certaines formes syllabiques (cv cvc cvcc ccv ccvc)
+    # if (exists $tri{"cv"}) { $forme2="1"; } else { $forme2="0"; }
+    # if (exists $tri{"cvc"}) { $forme2.="1"; } else { $forme2.="0"; }
+    # if (exists $tri{"cvcc"}) { $forme2.="1"; } else { $forme2.="0"; }
+    # if (exists $tri{"ccv"}) { $forme2.="1"; } else { $forme2.="0"; }
+    # if (exists $tri{"ccvc"}) { $forme2.="1"; } else { $forme2.="0"; }
+    return $forme2;
 }
 
 sub bwemo() {
