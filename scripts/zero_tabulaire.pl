@@ -28,54 +28,29 @@ my $format=$ARGV[3];
 my %frequenceToken=();
 my %frequenceConsonnes=();
 my %frequenceVoyelles=();
+my %frequenceTrigrammes=();
 my $total=0;
 my $totalCar=0;
-my $fichierPOS="scripts/data/forme-lemme-pos.tab";
+my $fichierPOS="data/forme-lemme-pos.tab";
+my $fichierTri="data/liste_ngrammes.txt";
 my %tabPOS=();
 
 warn "Applying $format annotation schema\n";
 
-# Récupération des POS
-open(E,$fichierPOS);
-while (my $ligne=<E>) {
-    chomp $ligne;
-    my @cols=split(/\t/,$ligne);
-    $tabPOS{$cols[0]}=$cols[2];
-    # Ajout d'une version désaccentuée
-    my $desaccent=$cols[0]; $desaccent=~s/[éèê]/e/g;
-    if ($desaccent ne $cols[0]) { $tabPOS{$desaccent}=$cols[2]; }
-}
-close(E);
 
-# Premier parcours du corpus : calcul de la fréquence d'utilisation de
-# chaque token du corpus traité
-foreach my $fichier (@rep) {
-  open(E,'<:utf8',$fichier);
-  while (my $ligne=<E>) {
-    my $norm=&normalisation($ligne);
-    $norm=~s/<[^>]+>//g;
+###
+# Récupération de données statistiques
 
-    # Tokénisation
-    my @tokens=split(/ /,$norm);
-    foreach my $token (@tokens) { $frequenceToken{$token}++; $total++; }
-    # Tokénisation caractères
-    my @cars=split(//,$norm);
-    foreach my $car (@cars) {
-	$car=lc($car);
-	$frequenceConsonnes{$car}++ if ($car=~/[bcdfghjklmnpqrstvwxzç]/i);
-	$frequenceVoyelles{$car}++ if ($car=~/[aeiouyàâäéèêëîìïôòöûùüỳÿ]/i);
-	$totalCar++;
-    }
-  }
-}
+&recuperePOS();
+&recupereTri();
+&frequencesToken();
 
 
-
-# Deuxième parcours du corpus : traitement du corpus
+# Traitement du corpus
 my @tabulaire=();
 my @labels=();
 foreach my $fichier (@rep) {
-  push(@tabulaire,"$fichier\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\t");
+  push(@tabulaire,"$fichier\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\tnul\t");
   push(@labels,"O");
   my $numLigne=0;
   
@@ -136,9 +111,9 @@ foreach my $fichier (@rep) {
       # Fréquence d'utilisation des caractères du token dans le corpus (soit il y a des consonnes ou des voyelles rares dans le token, soit il n'y en a pas)
       my @cars=split(//,$token);
       foreach my $car (@cars) {
-	  $car=lc($car);
-	  if ($car=~/[bcdfghjklmnpqrstvwxzç]/) { if ($frequenceConsonnes{$car}<=($totalCar/250)) { $rareConsonne="cons"; } }
-	  if ($car=~/[aeiouyàâäéèêëîìïôòöûùüỳÿ]/) { if ($frequenceVoyelles{$car}<=($totalCar/250)) { $rareVoyelle="voy"; } }
+        $car=lc($car);
+	if ($car=~/[bcdfghjklmnpqrstvwxzç]/) { if ($frequenceConsonnes{$car}<=($totalCar/250)) { $rareConsonne="cons"; } }
+	if ($car=~/[aeiouyàâäéèêëîìïôòöûùüỳÿ]/) { if ($frequenceVoyelles{$car}<=($totalCar/250)) { $rareVoyelle="voy"; } }
       }
 
       # Code Soundex
@@ -150,13 +125,16 @@ foreach my $fichier (@rep) {
       my ($nombreSyllabes,$schemaSyllabes)=(0,"nul");
       if ($token=~/^\p{L}+$/) { ($nombreSyllabes,$schemaSyllabes)=&syllabes($token); }
 
+      # Trigrammes de caractères (fréquence du trigramme le plus rare dans le token)
+      my $tri=&trigrammes($token);
+
       # Printing
       my $index=index($ligne,$token,$indexPrecedent);
       my $label="O";
       if ($tag eq "O") { $label="O"; }
       if ($token ne "") {
-	  push(@tabulaire,"$numLigne\-$index\t$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareConsonne\t$rareVoyelle\t$soundex\t$nombreSyllabes\t$schemaSyllabes\t");
-	  push(@labels,$tag);
+        push(@tabulaire,"$numLigne\-$index\t$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareConsonne\t$rareVoyelle\t$soundex\t$nombreSyllabes\t$schemaSyllabes\t$tri\t");
+	push(@labels,$tag);
       }
 
       # Reinitializations
@@ -179,29 +157,80 @@ foreach my $fichier (@rep) {
 open(S,'>:utf8',"$sortie");
 my $i=0;
 foreach my $ligne (@tabulaire) {
-    my $tag="";
+  my $tag="";
     
-    # Appel des routines en fonction du format voulu
-    if ($format eq "BWEMO") { $tag=&bwemo($labels[$i-1],$labels[$i],$labels[$i+1]); }
-    elsif ($format eq "BWEMO+") { $tag=&bwemoPlus($labels[$i-1],$labels[$i],$labels[$i+1]); }    
-    elsif ($format eq "IO") { $tag=&io($labels[$i-1],$labels[$i],$labels[$i+1]); }
-    elsif ($format eq "BIO") { $tag=&bio($labels[$i-1],$labels[$i],$labels[$i+1]); }
-    elsif ($format eq "BIO2H") { $tag=&bio2h($labels[$i-1],$labels[$i],$labels[$i+1],$ligne); }
-    else { $tag=&bio2($labels[$i-1],$labels[$i],$labels[$i+1]); }
+  # Appel des routines en fonction du format voulu
+  if ($format eq "BWEMO") { $tag=&bwemo($labels[$i-1],$labels[$i],$labels[$i+1]); }
+  elsif ($format eq "BWEMO+") { $tag=&bwemoPlus($labels[$i-1],$labels[$i],$labels[$i+1]); }    
+  elsif ($format eq "IO") { $tag=&io($labels[$i-1],$labels[$i],$labels[$i+1]); }
+  elsif ($format eq "BIO") { $tag=&bio($labels[$i-1],$labels[$i],$labels[$i+1]); }
+  elsif ($format eq "BIO2H") { $tag=&bio2h($labels[$i-1],$labels[$i],$labels[$i+1],$ligne); }
+  else { $tag=&bio2($labels[$i-1],$labels[$i],$labels[$i+1]); }
 
-    # Pas d'étiquette en l'absence de token
-    if ($labels[$i] eq "") { $tag=""; }
+  # Pas d'étiquette en l'absence de token
+  if ($labels[$i] eq "") { $tag=""; }
 
-    #if ($ligne eq "") { $ligne="_"; }
-    print S "$ligne$tag\n";
-    $i++;
+  #if ($ligne eq "") { $ligne="_"; }
+  print S "$ligne$tag\n";
+  $i++;
 }
 close(S);
 
 
 
+
+
 ###
 # Routines
+
+sub recuperePOS() {
+  # Récupération des POS
+  open(E,$fichierPOS) or die "Impossible d'ouvrir $fichierPOS\n";
+  while (my $ligne=<E>) {
+    chomp $ligne;
+    my @cols=split(/\t/,$ligne);
+    $tabPOS{$cols[0]}=$cols[2];
+    # Ajout d'une version désaccentuée
+    my $desaccent=$cols[0]; $desaccent=~s/[éèê]/e/g;
+    if ($desaccent ne $cols[0]) { $tabPOS{$desaccent}=$cols[2]; }
+  }
+  close(E);
+}
+
+sub recupereTri() {
+  # Récupération des fréquences des trigrammes de caractères
+  open(E,$fichierTri) or die "Impossible d'ouvrir $fichierTri\n";
+  while (my $ligne=<E>) {
+    chomp $ligne;
+    my @cols=split(/\t/,$ligne);
+    $frequenceTrigrammes{$cols[0]}=$cols[1];
+  }
+  close(E);
+}
+
+sub frequencesToken() {
+  # Calcul de la fréquence d'utilisation de chaque token du corpus
+  # traité
+  foreach my $fichier (@rep) {
+    open(E,'<:utf8',$fichier);
+    while (my $ligne=<E>) {
+      my $norm=&normalisation($ligne);
+      $norm=~s/<[^>]+>//g;
+
+      # Tokénisation
+      my @tokens=split(/ /,$norm);
+      foreach my $token (@tokens) { $frequenceToken{$token}++; $total++; }
+      # Tokénisation caractères
+      my @cars=split(//,$norm);
+      foreach my $car (@cars) {
+	$car=lc($car);
+	$frequenceConsonnes{$car}++ if ($car=~/[bcdfghjklmnpqrstvwxzç]/i);
+	$frequenceVoyelles{$car}++ if ($car=~/[aeiouyàâäéèêëîìïôòöûùüỳÿœ]/i);
+	$totalCar++;
+      }
+    }
+  }
+}
 
 sub normalisation() {
   my $contenu=shift;
@@ -237,11 +266,17 @@ sub syllabes() {
   # approximation dans la mesure où l'objet pris en entrée est du
   # texte et non une transcription de la parole
   my $entree=shift;
-  $entree=~s/([aeiouyâàêéèëîïôöûùü]+)/$1 /gi;           # ajout espace
-  $entree=~s/ ([bcdfghjklmnpqrstvwxz]+)$/$1/gi;         # consonnes finales : dans, brest
-  $entree=~s/ $//;                                      # suppression espace finale
-  $entree=~s/ ([bcdfghjklmnpqrstvwxz]+)(e|es)$/$1$2/gi; # consonnes finales : Charles
-  $entree=~s/(é|o|u)(o|a|ï|ë)/$1 $2/g;                  # maintien du hiatus
+  # ajout d'une espace après chaque voyelle graphémique ; suppression
+  # des espaces avant les consonnes finales (rattachement des
+  # consonnes finales à la syllabe précédente), de toutes les espaces
+  # finales (pour éviter les erreurs de décomptes), et des espaces
+  # avant consonnes finales terminées par un schwa, éventuellement au
+  # pluriel (e.g., Charles) ; maintien du hiatus
+  $entree=~s/([aeiouyâàêéèëîïôöûùüœ]+)/$1 /gi;
+  $entree=~s/ ([bcdfghjklmnpqrstvwxz]+)$/$1/gi;
+  $entree=~s/ $//;
+  $entree=~s/ ([bcdfghjklmnpqrstvwxz]+)(e|es)$/$1$2/gi;
+  $entree=~s/(é|o|u)(o|a|ï|ë)/$1 $2/g;
   my $nombreSyllabes=split(/ /,$entree);
   # Forme syllabique
   $entree=~s/(.{2,})que$/$1k/;                          # -que
@@ -269,114 +304,129 @@ sub syllabes() {
 }
 
 sub decoupe() {
-    # Prend en entrée la représentation syllabique d'un token (sous la
-    # forme v_cv_cv) et renvoie en sortie les différentes formes
-    # syllabiques triées
-    my $forme=shift; my $forme2="";
-    my @syll=split(/\_/,$forme); my %tri=();
-    foreach my $s (@syll) { $tri{$s}++; }
-    foreach my $s (sort keys %tri) { $forme2.="$s\_"; }
-    chop $forme2;
-    # Renvoie uniquement l'existence de certaines formes syllabiques (cv cvc cvcc ccv ccvc)
-    # if (exists $tri{"cv"}) { $forme2="1"; } else { $forme2="0"; }
-    # if (exists $tri{"cvc"}) { $forme2.="1"; } else { $forme2.="0"; }
-    # if (exists $tri{"cvcc"}) { $forme2.="1"; } else { $forme2.="0"; }
-    # if (exists $tri{"ccv"}) { $forme2.="1"; } else { $forme2.="0"; }
-    # if (exists $tri{"ccvc"}) { $forme2.="1"; } else { $forme2.="0"; }
-    return $forme2;
+  # Prend en entrée la représentation syllabique d'un token (sous la
+  # forme v_cv_cv) et renvoie en sortie les différentes formes
+  # syllabiques triées
+  my $forme=shift; my $forme2="";
+  my @syll=split(/\_/,$forme); my %tri=();
+  foreach my $s (@syll) { $tri{$s}++; }
+  foreach my $s (sort keys %tri) { $forme2.="$s\_"; }
+  chop $forme2;
+  # Renvoie uniquement l'existence de certaines formes syllabiques (cv cvc cvcc ccv ccvc)
+  # if (exists $tri{"cv"}) { $forme2="1"; } else { $forme2="0"; }
+  # if (exists $tri{"cvc"}) { $forme2.="1"; } else { $forme2.="0"; }
+  # if (exists $tri{"cvcc"}) { $forme2.="1"; } else { $forme2.="0"; }
+  # if (exists $tri{"ccv"}) { $forme2.="1"; } else { $forme2.="0"; }
+  # if (exists $tri{"ccvc"}) { $forme2.="1"; } else { $forme2.="0"; }
+  return $forme2;
+}
+
+sub trigrammes() {
+  # Découpe le token pris en entrée en trigrammes de caractères et
+  # retourne la fréquence d'utilisation du trigramme le plus rare dans
+  # le token
+  my $entree=lc(shift); my $ft=10000;
+  for (my $i=0;$i<length($entree)-2;$i++) {
+    my $ngr=substr($entree,$i,3);
+    if ($ngr=~/^\p{L}{3}$/) {
+      if (exists $frequenceTrigrammes{$ngr} && $frequenceTrigrammes{$ngr}<$ft) { $ft=$frequenceTrigrammes{$ngr}; }
+    }
+  }
+  if ($ft==10000) { $ft="nul"; }
+  return $ft;
 }
 
 sub bwemo() {
-    my ($avant,$courant,$apres)=@_;
-    my $t="O";
-    # - W-annotation isolée
-    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
-    # - B-début d'annotation
-    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
-    # - M-milieu d'annotation
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="M-$courant"; }
-    # - E-fin d'annotation
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="E-$courant"; }
-    # - O le cas échéant
-    else { $t="O"; }
-    return $t;
+  my ($avant,$courant,$apres)=@_;
+  my $t="O";
+  # - W-annotation isolée
+  if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
+  # - B-début d'annotation
+  elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+  # - M-milieu d'annotation
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="M-$courant"; }
+  # - E-fin d'annotation
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="E-$courant"; }
+  # - O le cas échéant
+  else { $t="O"; }
+  return $t;
 }
 
 sub bwemoPlus() {
-    my ($avant,$courant,$apres)=@_;
-    my $t="O";
-    # - W-annotation isolée
-    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
-    # - B-début d'annotation
-    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
-    # - M-milieu d'annotation
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="M-$courant"; }
-    # - E-fin d'annotation
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="E-$courant"; }
-    # O-plus
-    elsif ($courant eq "O" && $apres ne "O") {
-	if ($apres ne "") { $t="O-$apres"; }
-	else { $t="O-EOS"; }
-    }
-    # - O le cas échéant
-    else { $t="O"; }
-    return $t;
+  my ($avant,$courant,$apres)=@_;
+  my $t="O";
+  # - W-annotation isolée
+  if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="W-$courant"; }
+  # - B-début d'annotation
+  elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+  # - M-milieu d'annotation
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="M-$courant"; }
+  # - E-fin d'annotation
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="E-$courant"; }
+  # O-plus
+  elsif ($courant eq "O" && $apres ne "O") {
+    if ($apres ne "") { $t="O-$apres"; }
+    else { $t="O-EOS"; }
+  }
+  # - O le cas échéant
+  else { $t="O"; }
+  return $t;
 }
 
 sub io() {
-    my ($avant,$courant,$apres)=@_;
-    my $t="O";
-    # - I-début/milieu/fin d'annotation
-    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "") { $t="I-$courant"; }
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
-    # - O le cas échéant
-    else { $t="O"; }
-    return $t;
+  my ($avant,$courant,$apres)=@_;
+  my $t="O";
+  # - I-début/milieu/fin d'annotation
+  if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "") { $t="I-$courant"; }
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+  # - O le cas échéant
+  else { $t="O"; }
+  return $t;
 }
 
 sub bio() {
-    my ($avant,$courant,$apres)=@_;
-    my $t="O";
-    # - I-annotation isolée
-    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "") { $t="I-$courant"; }
-    # - B-début d'annotation
-    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
-    # - I-milieu/fin d'annotation
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="I-$courant"; }
-    # - O le cas échéant
-    else { $t="O"; }
-    return $t;
+  my ($avant,$courant,$apres)=@_;
+  my $t="O";
+  # - I-annotation isolée
+  if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "") { $t="I-$courant"; }
+  # - B-début d'annotation
+  elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+  # - I-milieu/fin d'annotation
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="I-$courant"; }
+  # - O le cas échéant
+  else { $t="O"; }
+  return $t;
 }
 
 sub bio2h() {
-    my ($avant,$courant,$apres,$l)=@_;
-    my $t="O";
-    # - I-annotation isolée
-    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
-    # - B-début d'annotation
-    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
-    # - I-milieu/fin d'annotation
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="I-$courant"; }
-    # - O le cas échéant
-    else { $t="O"; }
-    # Tête de syntagme : essai sur les verbes et les noms (dans les portions annotées), ne sont pas des têtes de syntagme
-    if ($l=~/\tVer\:/ || $l=~/\tNom\:/) { $t=~s/^[A-Z]-/H-/; }
-    return $t;
+  my ($avant,$courant,$apres,$l)=@_;
+  my $t="O";
+  # - I-annotation isolée
+  if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+  # - B-début d'annotation
+  elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+  # - I-milieu/fin d'annotation
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "") && $apres ne $courant) { $t="I-$courant"; }
+  # - O le cas échéant
+  else { $t="O"; }
+  # Tête de syntagme : essai sur les verbes et les noms (dans les portions annotées), ne sont pas des têtes de syntagme
+  if ($l=~/\tVer\:/ || $l=~/\tNom\:/) { $t=~s/^[A-Z]-/H-/; }
+  return $t;
 }
     
 sub bio2() {
-    my ($avant,$courant,$apres)=@_;
-    my $t="O";
-    # - B-début d'annotation ou annotation isolée
-    if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="B-$courant"; }
-    elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
-    # - I-milieu/fin d'annotation
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
-    elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
-    # - O le cas échéant
-    else { $t="O"; }
-    return $t;
+  my ($avant,$courant,$apres)=@_;
+  my $t="O";
+  # - B-début d'annotation ou annotation isolée
+  if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="B-$courant"; }
+  elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
+  # - I-milieu/fin d'annotation
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && $apres ne "O" && $apres ne "") { $t="I-$courant"; }
+  elsif ($avant eq $courant && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
+  # - O le cas échéant
+  else { $t="O"; }
+  return $t;
 }
