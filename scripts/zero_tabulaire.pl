@@ -31,8 +31,8 @@ my %frequenceVoyelles=();
 my %frequenceTrigrammes=();
 my $total=0;
 my $totalCar=0;
-my $fichierPOS="data/forme-lemme-pos.tab";
-my $fichierTri="data/liste_ngrammes.txt";
+my $fichierPOS="scripts/data/forme-lemme-pos.tab";
+my $fichierTri="scripts/data/liste_ngrammes.txt";
 my %tabPOS=();
 
 warn "Applying $format annotation schema\n";

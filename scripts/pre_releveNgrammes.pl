@@ -4,7 +4,7 @@
 
 use utf8;
 
-my $fichier="data/forme-lemme-pos.tab";
+my $fichier="scripts/data/forme-lemme-pos.tab";
 my $nbTot=0;
 my %voc=();
 
@@ -20,6 +20,6 @@ while (my $l=<E>) {
 }
 close(E);
 
-open(S,'>:utf8',"data/liste_ngrammes.txt");
+open(S,'>:utf8',"scripts/data/liste_ngrammes.txt");
 foreach my $ngr (sort keys %voc) { print S "$ngr\t",sprintf("%.9f",$voc{$ngr}/$nbTot)*1000,"\n"; }
 close(S);
