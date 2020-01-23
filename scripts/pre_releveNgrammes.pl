@@ -10,22 +10,16 @@ my %voc=();
 
 open(E,$fichier) or die "Impossible d'ouvrir $fichier\n";
 while (my $l=<E>) {
-    chomp $l;
-    $l=lc($l);
-    my ($token,$lemme,$pos)=split(/\t/,$l);
-    for (my $i=0;$i<length($token)-2;$i++) {
-	my $ngr=substr($token,$i,3);
-	if ($ngr=~/^\p{L}{3}$/) {
-	    #print "$ngr\t";
-	    $nbTot++;
-	    $voc{$ngr}++;
-	}
-    }
+  chomp $l;
+  $l=lc($l);
+  my ($token,$lemme,$pos)=split(/\t/,$l);
+  for (my $i=0;$i<length($token)-2;$i++) {
+    my $ngr=substr($token,$i,3);
+    if ($ngr=~/^\p{L}{3}$/) { $nbTot++; $voc{$ngr}++; }
+  }
 }
 close(E);
 
 open(S,'>:utf8',"data/liste_ngrammes.txt");
-foreach my $ngr (sort keys %voc) {
-    print S "$ngr\t",sprintf("%.6f",$voc{$ngr}/$nbTot)*100,"\n";
-}
+foreach my $ngr (sort keys %voc) { print S "$ngr\t",sprintf("%.9f",$voc{$ngr}/$nbTot)*1000,"\n"; }
 close(S);
