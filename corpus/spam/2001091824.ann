@@ -1,0 +1,36 @@
+T1	Personne 8 24	Nathalie GUILHOU
+T2	Personne 481 493	Kate Johnson
+T3	Date 544 548	2020
+T4	Organisation 512 543	Traditional Medicine Conference
+T5	Adresse 564 589	250 Yonge St., Suite 2201
+T6	Ville 591 598	Toronto
+T7	Cp 603 610	M5B 2L7
+T8	Telephone 613 625	647-551-8989
+T9	Adresse 640 669	50 Fountain Plaza, Suite 1400
+T10	Ville 671 678	Buffalo
+T11	Lieu 684 687	USA
+T12	Cp 689 694	14202
+T13	Telephone 696 708	716-266-6262
+T14	Id 717 764	traditionalmedicine@researchlakeconferences.net
+A1	categorie T14 email
+T15	Date 829 833	2020
+T16	Date 1032 1050	26 et 27 mars 2020
+T17	Ville 1053 1059	Madrid
+T18	Lieu 1064 1071	Espagne
+T19	Adresse 1556 1581	250 Yonge St., Suite 2201
+T20	Ville 1583 1590	Toronto
+T21	Cp 1595 1602	M5B 2L7
+T22	Telephone 1605 1617	647-551-8989
+T23	Adresse 1633 1662	50 Fountain Plaza, Suite 1400
+T24	Ville 1664 1671	Buffalo
+T25	Lieu 1677 1680	USA
+T26	Cp 1682 1687	14202
+T27	Telephone 1689 1701	716-266-6262
+T28	Id 1711 1758	traditionalmedicine@researchlakeconferences.net
+A2	categorie T28 email
+T29	Personne 1470 1482	Kate Johnson
+T30	Date 1534 1538	2020
+T31	Lieu 550 556	Canada
+T32	Lieu 627 630	USA
+T33	Lieu 1540 1546	Canada
+T34	Lieu 1619 1622	USA
