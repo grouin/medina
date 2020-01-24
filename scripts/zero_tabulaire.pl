@@ -325,20 +325,19 @@ sub trigrammes() {
   # Découpe le token pris en entrée en trigrammes de caractères et
   # retourne la fréquence d'utilisation du trigramme le plus rare dans
   # le token
-  my $entree=lc(shift); my $ft=10000;
+  my $entree=lc(shift); my $ft=10000; my $nbTri=0;
   for (my $i=0;$i<length($entree)-2;$i++) {
     my $ngr=substr($entree,$i,3);
     if ($ngr=~/^\p{L}{3}$/) {
-      if (exists $frequenceTrigrammes{$ngr} && $frequenceTrigrammes{$ngr}<$ft) { $ft=$frequenceTrigrammes{$ngr}; }
+      # La fréquence du trigramme le plus rare dans le mot est conservée
+      #if (exists $frequenceTrigrammes{$ngr} && $frequenceTrigrammes{$ngr}<$ft) { $ft=$frequenceTrigrammes{$ngr}; }
+      # Moyenne des fréquences de tous les trigrammes
+      if (exists $frequenceTrigrammes{$ngr}) { $ft+=$frequenceTrigrammes{$ngr}; $nbTri++; }
     }
   }
-  # Intervalles
   if ($ft==10000) { $ft="nul"; }
-  elsif ($ft>0.5) { $ft="tri0"; }
-  elsif ($ft>0.3) { $ft="tri1"; }
-  elsif ($ft>0.1) { $ft="tri2"; }
-  elsif ($ft>0.05) { $ft="tri3"; }
-  else { $ft="tri4"; }
+  # Moyenne
+  else { $ft-=10000; $ft=sprintf("%.3f",$ft/$nbTri) if ($nbTri>0); }
   return $ft;
 }
 
