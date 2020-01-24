@@ -332,7 +332,13 @@ sub trigrammes() {
       if (exists $frequenceTrigrammes{$ngr} && $frequenceTrigrammes{$ngr}<$ft) { $ft=$frequenceTrigrammes{$ngr}; }
     }
   }
+  # Intervalles
   if ($ft==10000) { $ft="nul"; }
+  elsif ($ft>0.5) { $ft="tri0"; }
+  elsif ($ft>0.3) { $ft="tri1"; }
+  elsif ($ft>0.1) { $ft="tri2"; }
+  elsif ($ft>0.05) { $ft="tri3"; }
+  else { $ft="tri4"; }
   return $ft;
 }
 
