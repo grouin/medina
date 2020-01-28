@@ -25,6 +25,7 @@ UintervAp:%x[0,3]/%x[1,3]
 UintervAv:%x[-1,3]/%x[0,3]
 
 Upos-1:%x[-1,4]
+Upos:%x[0,4]
 Upos1:%x[1,4]
 
 Udecl:%x[0,5]
