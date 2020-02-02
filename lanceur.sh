@@ -45,9 +45,9 @@ perl scripts/conlleval.pl -d '\t' <sortie-zero
 
 # Single annotated files production from output (files *sgml in test/)
 perl scripts/crf-output-splitter.pl sortie-zero
-#mkdir brat/
-#cp corpus/jorf/test/*{txt,sgml} brat/
-#perl scripts/conversion-brat.pl brat/
+mkdir brat/
+cp corpus/new/*{txt,sgml} brat/
+perl scripts/conversion-brat.pl brat/
 #cp brat/*{ann,txt} path/to/brat/data/
 
 
