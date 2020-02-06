@@ -1,6 +1,5 @@
 T1	Id 0 12	MESH9921697S
 T2	Date 142 155	20 avril 1999
-T3	Organisation 225 269	centre hospitalier et universitaire de Nîmes
 T4	Adresse 271 283	5, rue Hoche
 T5	Cp 285 290	30029
 T6	Ville 291 296	Nîmes
@@ -20,3 +19,4 @@ T13	Personne 854 863	D. Lebros
 A7	role T13 soignant
 T14	Personne 865 875	J. Dendale
 A8	role T14 soignant
+T15	Ville 264 269	Nîmes

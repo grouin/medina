@@ -1,5 +1,4 @@
 T1	Lieu 280 295	Arabie Saoudite
-T2	Organisation 536 580	centre hospitalier universitaire de Bordeaux
 T3	Date 256 271	23 janvier 1989
 T4	Date 785 802	1er novembre 2019
 T5	Date 10 25	28 octobre 2019
@@ -10,3 +9,4 @@ T9	Personne 223 248	Mohammad Ateyah ALSOFYANI
 A1	role T9 soignant
 T10	Personne 518 531	Olivier Gille
 A2	role T10 soignant
+T11	Ville 572 580	Bordeaux

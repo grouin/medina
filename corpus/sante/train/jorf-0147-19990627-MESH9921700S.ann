@@ -1,5 +1,4 @@
 T1	Id 0 12	MESH9921699S
-T2	Organisation 226 249	hospices civils de Lyon
 T3	Organisation 251 261	Hôtel-Dieu
 T4	Adresse 263 286	61, quai Jules-Courmont
 T5	Cp 288 293	69002
@@ -29,3 +28,4 @@ T18	Personne 901 911	J. Dutruge
 A11	role T18 soignant
 T19	Personne 913 922	X. Cottin
 A12	role T19 soignant
+T20	Ville 245 249	Lyon

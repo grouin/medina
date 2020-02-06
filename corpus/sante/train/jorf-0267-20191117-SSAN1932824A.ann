@@ -1,6 +1,6 @@
 T1	Lieu 265 280	Arabie Saoudite
 T3	Date 10 26	14 novembre 2019
-T5	Organisation 102 114	SSAN1932824A
+T5	Id 102 114	SSAN1932824A
 T4	Date 194 210	14 novembre 2019
 T6	Personne 215 230	Ramy SARMAGANDI
 A1	role T6 soignant
@@ -9,5 +9,5 @@ T8	Ville 256 263	Djeddah
 T9	Personne 457 472	Philippe ROSSET
 A2	role T9 soignant
 T10	Organisation 478 495	hôpital Trousseau
-T11	Organisation 498 539	Centre hospitalier universitaire de Tours
 T2	Date 745 762	1er novembre 2019
+T12	Ville 534 539	Tours

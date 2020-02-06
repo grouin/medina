@@ -7,5 +7,6 @@ T6	Personne 225 238	Walid YAKHLEF
 A1	role T6 soignant
 T7	Date 246 262	1er janvier 1984
 T8	Ville 265 270	Batna
-T9	Organisation 417 447	unité « Germaine Le Guillant »
-T10	Organisation 482 527	Centre Hospitalier d'Uzès « Le Mas Careiron »
+T9	Organisation 425 445	Germaine Le Guillant
+T10	Organisation 510 525	Le Mas Careiron
+T11	Ville 503 507	Uzès

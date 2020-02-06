@@ -1,6 +1,4 @@
 T1	Date 1010 1022	19 mars 2018
-T4	Organisation 506 529	Hospices civils de Lyon
-T5	Organisation 657 680	Hospices civils de Lyon
 T6	Date 10 26	28 novembre 2019
 T7	Date 204 220	28 novembre 2019
 T8	Id 102 114	SSAN1934320A
@@ -15,3 +13,5 @@ A2	role T2 soignant
 T3	Organisation 633 656	hôpital la Croix Rousse
 T14	Personne 461 476	Carole BURILLON
 A3	role T14 soignant
+T15	Ville 525 529	Lyon
+T16	Ville 676 680	Lyon

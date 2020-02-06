@@ -7,5 +7,6 @@ A1	role T5 soignant
 T6	Date 252 269	20 septembre 1983
 T7	Ville 272 278	Riyadh
 T8	Lieu 280 295	Arabie Saoudite
-T9	Organisation 513 547	centre hospitalier d'Alès-Cévennes
-T12	Organisation 397 438	centre hospitalier universitaire de Nîmes
+T10	Ville 433 438	Nîmes
+T11	Ville 534 538	Alès
+T12	Lieu 539 547	Cévennes

@@ -1,6 +1,5 @@
 T1	Date 142 155	22 avril 1999
 T2	Id 0 12	MESH9921694S
-T3	Organisation 225 270	centre hospitalier et universitaire de Nantes
 T4	Adresse 272 299	5, allée de l'Ile-Gloriette
 T5	Cp 301 306	44093
 T6	Ville 307 313	Nantes
@@ -26,3 +25,4 @@ T16	Personne 900 907	J. Roze
 A10	role T16 soignant
 T17	Personne 909 921	A.-M. Fleury
 A11	role T17 soignant
+T18	Ville 264 270	Nantes

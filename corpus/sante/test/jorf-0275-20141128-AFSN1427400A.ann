@@ -5,8 +5,8 @@ T4	Id 102 114	AFSN1427400A
 T5	Date 233 249	19 novembre 2014
 T6	Personne 254 265	Anas FATANI
 A1	role T6 soignant
-T7	Organisation 444 481	Assistance publique-Hôpitaux de Paris
-T8	Organisation 483 525	groupe hospitalier de La Pitié-Salpêtrière
+T8	Organisation 505 525	La Pitié-Salpêtrière
 T9	Date 273 289	14 novembre 1971
 T10	Date 708 723	2 novembre 2014
 T11	Date 733 748	31 octobre 2015
+T12	Ville 476 481	Paris

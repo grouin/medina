@@ -3,9 +3,9 @@ T2	Date 204 220	19 décembre 2018
 T3	Lieu 276 291	Arabie Saoudite
 T4	Ville 266 274	Alkhobar
 T5	Date 248 263	25 octobre 1985
-T6	Organisation 533 570	hôpitaux universitaires de Strasbourg
 T7	Id 102 114	SSAN1835343A
 T8	Personne 225 240	Hefzi ALRATROUT
 A1	role T8 soignant
 T9	Organisation 508 530	hôpital de Hautepierre
 T10	Date 776 790	2 janvier 2019
+T11	Ville 560 570	Strasbourg

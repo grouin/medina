@@ -1,5 +1,4 @@
 T1	Id 0 12	MESH9921703S
-T2	Organisation 212 256	centre hospitalier et universitaire d'Amiens
 T3	Adresse 258 285	124, rue Camille-Desmoulins
 T4	Cp 287 292	80000
 T5	Ville 293 299	Amiens
@@ -14,3 +13,4 @@ T10	Personne 765 774	F. Thepot
 A4	role T10 soignant
 T11	Personne 811 815	Krim
 A5	role T11 soignant
+T12	Ville 250 256	Amiens

@@ -5,6 +5,5 @@ T4	Organisation 655 679	hôpital G.-et-R.-Laënnec
 T5	Adresse 681 704	boulevard Jacques-Monod
 T6	Ville 706 720	Saint-Herblain
 T7	Lieu 722 738	Loire-Atlantique
-T8	Organisation 481 523	centre hospitalier universitaire de Nantes
-T9	Organisation 837 879	centre hospitalier universitaire de Nantes
-T10	URL 161 236	https://www.legifrance.gouv.fr/eli/decision/2002/1/22/MESH0124198S/jo/texte
+T10	Ville 517 523	Nantes
+T8	Ville 873 879	Nantes

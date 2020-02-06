@@ -1,7 +1,6 @@
 T2	Ville 339 344	Lille
 T3	Date 142 155	22 avril 1999
 T4	Id 0 12	MESH9921702S
-T5	Organisation 225 278	centre hospitalier régional et universitaire de Lille
 T6	Organisation 280 306	hôpital Jeanne-de-Flandres
 T7	Adresse 308 331	2, avenue Oscar-Lambert
 T8	Cp 333 338	59037
@@ -39,3 +38,4 @@ T23	Personne 1019 1028	L. Storme
 A16	role T23 soignant
 T24	Personne 1030 1039	D. Thomas
 A17	role T24 soignant
+T25	Ville 273 278	Lille

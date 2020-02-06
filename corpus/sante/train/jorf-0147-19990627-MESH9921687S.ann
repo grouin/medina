@@ -1,6 +1,5 @@
 T1	Date 142 155	22 avril 1999
 T2	Id 0 12	MESH9921686S
-T3	Organisation 225 288	centre hospitalier intercommunal Poissy - Saint-Germain-en-Laye
 T4	Adresse 290 321	10, rue Champ-Gaillard, BP 3082
 T5	Cp 323 328	78303
 T6	Ville 329 335	Poissy
@@ -18,3 +17,5 @@ T12	Personne 879 889	S. Couderc
 A6	role T12 soignant
 T13	Personne 891 899	A. Paupe
 A7	role T13 soignant
+T14	Ville 258 264	Poissy
+T15	Ville 267 288	Saint-Germain-en-Laye

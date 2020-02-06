@@ -1,7 +1,5 @@
 T1	Date 904 916	19 mars 2018
-T2	Organisation 547 594	centre hospitalier universitaire de Montpellier
 T3	Lieu 260 270	Etats-Unis
-T4	Ville 583 594	Montpellier
 T5	Date 10 21	22 mai 2019
 T6	Id 97 109	SSAN1915155A
 T7	Date 199 210	22 mai 2019
@@ -10,3 +8,4 @@ A1	role T8 soignant
 T9	Date 237 249	16 juin 1983
 T10	Personne 526 542	Jean-Luc Pasquié
 A2	role T10 soignant
+T4	Ville 583 594	Montpellier

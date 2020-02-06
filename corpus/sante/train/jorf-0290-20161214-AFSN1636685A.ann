@@ -3,9 +3,9 @@ T2	Ville 275 279	Ryad
 T3	Date 257 272	25 octobre 1985
 T4	Date 720 735	2 novembre 2016
 T5	Organisation 495 514	Hôpital Saint-Louis
-T6	Organisation 455 492	Assistance publique-hôpitaux de Paris
 T7	Personne 231 249	Abdulaziz AL HINDI
 A1	role T7 soignant
 T8	Date 10 26	12 décembre 2016
 T9	Id 102 114	AFSN1636685A
 T10	Date 210 226	12 décembre 2016
+T11	Ville 487 492	Paris

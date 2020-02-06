@@ -6,6 +6,6 @@ T5	Date 200 212	19 mars 2019
 T6	Personne 217 229	Khalid RAHJI
 A1	role T6 soignant
 T7	Date 237 249	17 août 1985
-T8	Organisation 405 445	Centre hospitalier universitaire de Nice
 T9	Organisation 448 462	Hôpital Cimiez
 T10	Date 668 681	1er mars 2019
+T11	Ville 441 445	Nice

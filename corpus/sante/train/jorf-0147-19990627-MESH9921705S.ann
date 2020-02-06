@@ -1,6 +1,5 @@
 T1	Date 142 155	22 avril 1999
 T2	Id 0 12	MESH9921704S
-T3	Organisation 225 268	centre hospitalier et universitaire de Nice
 T4	Adresse 270 300	5, rue Pierre-Devoluy, BP 1319
 T5	Cp 302 307	06006
 T6	Ville 308 312	Nice
@@ -38,3 +37,4 @@ T22	Personne 989 998	S. Serret
 A16	role T22 soignant
 T23	Personne 1000 1009	D. Dupont
 A17	role T23 soignant
+T24	Ville 264 268	Nice

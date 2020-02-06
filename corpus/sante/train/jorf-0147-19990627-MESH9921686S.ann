@@ -1,6 +1,5 @@
 T1	Date 142 155	22 avril 1999
 T2	Id 0 12	MESH9921685S
-T3	Organisation 225 238	CHR d'Orléans
 T4	Organisation 240 263	hôpital Porte-Madeleine
 T5	Adresse 265 272	BP 2439
 T6	Cp 274 279	45032
@@ -27,3 +26,4 @@ T17	Personne 877 891	J. C. Thieffry
 A10	role T17 soignant
 T18	Personne 893 902	E. Werner
 A11	role T18 soignant
+T19	Ville 231 238	Orléans

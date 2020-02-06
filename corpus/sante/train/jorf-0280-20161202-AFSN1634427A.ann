@@ -7,5 +7,5 @@ T7	Date 253 264	19 mai 1980
 T8	Id 102 114	AFSN1634427A
 T9	Personne 231 245	Khalid ALHAZMI
 A1	role T9 soignant
-T10	Organisation 421 460	Assistance publique - Hôpitaux de Paris
 T4	Organisation 463 482	Hôpital Saint-Louis
+T11	Ville 455 460	Paris

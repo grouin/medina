@@ -8,10 +8,10 @@ A1	role T6 soignant
 T7	Personne 249 257	Alnuaimi
 A2	role T7 soignant
 T8	Organisation 506 520	hôpital Cochin
-T9	Organisation 526 565	Assistance publique - Hôpitaux de Paris
 T10	Personne 594 606	Paul Legmann
 A3	role T10 soignant
 T11	Personne 610 624	Philippe Soyer
 A4	role T11 soignant
 T12	Date 266 278	27 juin 1984
 T13	Lieu 297 316	Emirats arabes unis
+T14	Ville 560 565	Paris

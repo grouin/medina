@@ -3,7 +3,6 @@ T3	Ville 322 327	Paris
 T4	Date 142 155	22 avril 1999
 T5	Id 0 12	MESH9921696S
 T6	Organisation 227 247	hôpital Robert-Debré
-T7	Organisation 249 288	Assistance publique - hôpitaux de Paris
 T8	Cp 316 321	75019
 T2	Personne 706 713	P. Blot
 A1	role T2 soignant
@@ -29,3 +28,4 @@ T18	Personne 949 961	C. Boissinot
 A11	role T18 soignant
 T19	Personne 963 970	A. Bedu
 A12	role T19 soignant
+T20	Ville 283 288	Paris

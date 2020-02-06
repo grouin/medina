@@ -16,9 +16,9 @@ T18	Personne 877 888	F. Perrotin
 T20	Personne 914 926	F. Tranquart
 T22	Personne 868 875	G. Body
 T24	Id 166 178	MESH9921684S
-T25	Organisation 410 454	centre hospitalier et universitaire de Tours
 T3	Adresse 456 476	2, boulevard Tonnelé
 T4	Date 327 340	22 avril 1999
 T5	Cp 478 483	37000
 T6	Personne 984 994	A. Guichet
 T8	Personne 1043 1052	A. L. Suc
+T1	Ville 449 454	Tours

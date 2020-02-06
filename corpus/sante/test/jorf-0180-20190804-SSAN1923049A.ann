@@ -7,6 +7,6 @@ T6	Personne 215 234	Saadeddine MECHAOUR
 A1	role T6 soignant
 T7	Date 242 254	24 août 1984
 T8	Ville 257 264	Settara
-T9	Organisation 479 526	centre hospitalier de l'Agglomération de Nevers
 T10	Personne 456 474	Mohamed MAHIEDDINE
 A2	role T10 soignant
+T11	Ville 520 526	Nevers

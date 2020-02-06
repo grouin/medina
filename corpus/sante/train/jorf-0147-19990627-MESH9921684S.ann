@@ -1,6 +1,5 @@
 T2	Ville 484 489	Tours
 T3	Id 166 178	MESH9921684S
-T4	Organisation 410 454	centre hospitalier et universitaire de Tours
 T5	Adresse 456 476	2, boulevard Tonnelé
 T6	Cp 478 483	37000
 T1	Date 327 340	22 avril 1999
@@ -22,3 +21,4 @@ T14	Personne 1043 1052	A. L. Suc
 A8	role T14 soignant
 T15	Personne 1054 1066	B. Sauvagnac
 A9	role T15 soignant
+T16	Ville 449 454	Tours

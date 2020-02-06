@@ -6,6 +6,6 @@ T5	Cp 823 828	88051
 T6	Ville 829 835	Epinal
 T7	Organisation 736 762	clinique de la Ligne Bleue
 T8	Organisation 763 788	Clinique de l'Arc-en-Ciel
-T9	Organisation 573 631	laboratoire d'analyses de biologie médicale Gonand-Lefaure
+T9	Organisation 617 631	Gonand-Lefaure
 T11	Personne 706 713	Lefaure
 A1	role T11 soignant
