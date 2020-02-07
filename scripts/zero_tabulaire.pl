@@ -3,7 +3,9 @@
 # Produit un tabulaire au format voulu à partir d'annotations
 # embarquées. Ne gère pas les annotations imbriquées.
 
-# Usage : perl zero_tabulaire.pl repertoire/ extension nomFichierTabulaire format
+# Usage : perl zero_tabulaire.pl repertoire/ extension nomFichierTabulaire format [liste,tags,à,conserver]
+# perl zero_tabulaire.pl corpus/ tag tab_train.zero BWEMO+
+# perl zero_tabulaire.pl corpus/ tag tab_train.zero BWEMO+ Personne,Organisation
 
 # Formats : IO BIO BIO2 (le plus courant) BIO2H BWEMO BWEMO+
 # - IO : in/out
@@ -25,6 +27,7 @@ use Text::Soundex;
 my @rep=<$ARGV[0]/*$ARGV[1]>;
 my $sortie=$ARGV[2];
 my $format=$ARGV[3];
+my $listeTags=$ARGV[4]; $listeTags="(".$listeTags.")"; $listeTags=~s/\,/\|/g;
 my %frequenceToken=();
 my %frequenceConsonnes=();
 my %frequenceVoyelles=();
@@ -132,6 +135,7 @@ foreach my $fichier (@rep) {
       my $index=index($ligne,$token,$indexPrecedent);
       my $label="O";
       if ($tag eq "O") { $label="O"; }
+      if ($tag!~/$listeTags/) { $tag="O"; }
       if ($token ne "") {
         push(@tabulaire,"$numLigne\-$index\t$token\t$taille\t$interT\t$pos\t$decl\t$freq\t$rareConsonne\t$rareVoyelle\t$soundex\t$nombreSyllabes\t$schemaSyllabes\t$tri\t");
 	push(@labels,$tag);

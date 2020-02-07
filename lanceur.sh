@@ -18,6 +18,10 @@ perl scripts/zero_alignement.pl corpus/jorf/test/
 # - four arguments: path to embedded annotations files, file extension
 #   for those files (tag), name of output tabular file, and type of
 #   annotation schema to be used (IO BIO BIO2 BIO2H BWEMO BWEMO+)
+# - in addition, a fifth argument may be used to indicate all labels
+#   to be kept in the tabular file; e.g., Personne,Ville to only keep
+#   annotations of Persons and Towns; if this argument is not used,
+#   all existing annotations will be kept
 # - annotation schema BIO2 is the schema commonly used (default value)
 perl scripts/zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BWEMO+
 perl scripts/zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
@@ -27,10 +31,10 @@ perl scripts/zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
 # 17 lines). The output consists in a new tabular file with less
 # unannotated lines, to be used to train the model in the next
 # step. Only for the training stage
-#perl scripts/zero_supprimeO.pl tab_train.zero 17 >tab_reduc.zero
+perl scripts/zero_supprimeO.pl tab_train.zero 17 >tab_reduc.zero
 
 # Statistical model building using the Wapiti tool
-wapiti train -t 2 -a rprop- -1 0.1 -c -p config/config_zero.tpl tab_train.zero modele-zero
+wapiti train -t 2 -a rprop- -1 0.1 -c -p config/config_zero.tpl tab_reduc.zero modele-zero
 
 # Model application on test data
 wapiti label -p -m modele-zero tab_test.zero >sortie-zero
@@ -57,3 +61,4 @@ perl scripts/conversion-brat.pl brat/
 # predictions by a generic tag)
 perl scripts/post_antidatation.pl -r corpus/jorf/test/ -e sgml
 perl scripts/post_pseudonymization.pl -r corpus/jorf/test/ -e dat
+  
