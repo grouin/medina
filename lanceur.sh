@@ -62,3 +62,19 @@ perl scripts/conversion-brat.pl brat/
 perl scripts/post_antidatation.pl -r corpus/jorf/test/ -e sgml
 perl scripts/post_pseudonymization.pl -r corpus/jorf/test/ -e dat
   
+
+
+
+# To train a model specifically for one category, and to force Wapiti
+# decoding using two models, use the following steps:
+perl scripts/zero_alignement.pl corpus/sante/train/
+perl scripts/zero_tabulaire.pl corpus/sante/train/ tag tab_train.zero BWEMO+ Personne
+perl scripts/zero_supprimeO.pl tab_train.zero 17 >tab_reduc.zero
+time wapiti train -t 2 -a sgd-l1 -2 0.1 --eta0 0.05 -c -p config/config_zero.tpl tab_reduc.zero modele-Pers
+wapiti label -p -m modele-Pers tab_test.zero | perl -ne "s/O$/NUL/; print $_" >temp
+wapiti label --force -p -m modele-deid temp >temp2
+cat temp2 | cut -f 1,2,3,4,5,6,7,8,9,10,11,12,13,14,16 >sortie-zero
+perl scripts/post_conversion.pl sortie-zero
+perl scripts/conlleval.pl -d '\t' <sortie-zero
+rm temp
+rm temp2

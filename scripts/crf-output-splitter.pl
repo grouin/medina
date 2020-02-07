@@ -62,7 +62,7 @@ close(E);
 
 # Production du fichier de sortie
 foreach my $fichier (sort keys %fichiers) {
-  open(S,'>:utf8',"$fichier");
+  open(S,'>:utf8',"$fichier") or die "Impossible d'écrire dans $fichier\n";
   my $contenu=$fichiers{$fichier};
   foreach my $tag (sort keys %labels) { $contenu=~s/<\/$tag>(\s*)<$tag>/$1/g; }
   print S "$contenu\n";
