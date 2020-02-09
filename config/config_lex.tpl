@@ -16,11 +16,11 @@ UdigitAv:%t[-1,1,"\d"]/%t[0,1,"\d"]
 UponctAvM:%m[-1,1,"\p"]/%m[0,1,"\p"]
 UdigitAvM:%m[-1,1,"\d"]/%m[0,1,"\d"]
 
-*taille:%x[0,2]
+Utaille:%x[0,2]
 UtailleAp:%x[0,2]/%x[1,2]
 UtailleAv:%x[-1,2]/%x[0,2]
 
-*interv:%x[0,3]
+Uinterv:%x[0,3]
 UintervAp:%x[0,3]/%x[1,3]
 UintervAv:%x[-1,3]/%x[0,3]
 
