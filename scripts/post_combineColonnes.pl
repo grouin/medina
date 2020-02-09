@@ -17,6 +17,9 @@ while (my $ligne=<E>) {
   $label=~s/([BE]\-.*)(NUL|O-EOS)/$1/g;
   $label=~s/(O-EOS|NUL)([OMW]\-)/$2/g;
   $label=~s/(O-EOS|NUL)([OMW])\-Date/$2\-Date/g;
+  $label=~s/([BWEM]-\w*)(O-\w*)/$1/g;
+  $label=~s/(O-\w*)([BWEM]-\w*)/$2/g;
+  $label=~s/([BWEM]-\w*)NUL/$1/g;
   # Adresse>Ville, Date>Téléphone, Lieu<Ville
   $label=~s/([BWEMO]\-Adresse)[BWEMO]\-Ville/$1/;
   $label=~s/[BWEMO]\-Ville([BWEMO]\-Adresse)/$1/;
