@@ -15,10 +15,11 @@ use strict;
 use utf8;
 
 my @rep=<$ARGV[0]/*sgml>;
+my $id=$ARGV[1];
 
 foreach my $fichier (@rep) {
   my $offset=0;
-  my $i=1;
+  my $i=$id."1";
   my $sortie=$fichier; $sortie=~s/sgml$/ann/;
   
   open(E,'<:utf8',$fichier);
