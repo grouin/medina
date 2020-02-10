@@ -5,17 +5,21 @@ Medical Information Anonymization
 
 MEDINA is a toolbox to de-identify texts, originally designed for
 clinical texts. This toolbox aims at de-identifying data using linear
-chain CRF (Wapiti tool) and producing delexicalized statistical
-models, i.e., without any form of surface (strictly no learning of
-tokens, but basic features based on tokens are used: upper/lower case,
-presence of digits, punctuation marks, etc.) in order to share models
-(since there is no nominative data in the models).
+chain CRF (Wapiti tool, see https://github.com/Jekub) and producing
+delexicalized statistical models, i.e., without any form of surface
+(strictly no learning of tokens, but basic features based on tokens
+are used: upper/lower case, presence of digits, punctuation marks,
+etc.) in order to share models (since there is no nominative data in
+the models).
 
 Files:
 
 * lanceur.sh: all useful commands to process the data (assuming
   existing annotated data in corpus/appr/ and corpus/test/ files
   containing both *{ann,txt} files)
+
+* desidentification.sh: all usef commands to de-identify *txt files
+  (no evaluation will be made, assuming there is no gold standard)
 
 * scripts/pre_creeDictionnaire.bash: produces forme-lemme-pos.tab file
   in the data directory (list of forms, lemmas, and POS for French,
@@ -34,7 +38,10 @@ Files:
   ones: IO, BIO, BIO2, BIO2H, BWEMO, or BWEMO+
 
 * scripts/zero_supprimeO.pl: allows to remove unannotated lines in
-  order to reduce the over-training of the O category
+  order to reduce the over-training of the O category; a context of 17
+  lines surrounding annotations seems to be useful; for mono-category
+  models, this context must be extended (e.g., 40 lines) in order to
+  ensure correct precision values
 
 * config/config_zero.tpl: configuration template for Wapiti tool (for
   experiments based on semi-lexicalized, or fully lexicalized models,
@@ -52,10 +59,13 @@ Files:
 * scripts/post_antidatation.pl: random date shiffting based on
   previously identified dates
 
-* scripts/post_pseudonymization: pseudonymizes (1) person names based
-  on lists of common first names and last names used in France and
-  Québec, (2) city names, based on a list of cities from France, and
-  (3) produces fake phone numbers
+* scripts/post_pseudonymization.pl: pseudonymizes (1) person names
+  based on lists of common first names and last names used in France
+  and Québec, (2) city names, based on a list of cities from France,
+  and (3) produces fake phone numbers
+
+* scripts/post_combineColonnes.pl: merges several columns of
+  predictions when mono-category models are used
 
 
 ## Commands ##
@@ -86,7 +96,7 @@ These are end-to-end commands:
 	perl scripts/zero_tabulaire.pl corpus/jorf/train/ tag tab_train.zero BWEMO+
 	perl scripts/zero_tabulaire.pl corpus/jorf/test/ tag tab_test.zero BWEMO+
 	
-	wapiti train -t 2 -a rprop- -1 0.1 -p config_zero.tpl tab_train.zero modele-zero
+	wapiti train -t 2 -a rprop- -1 1 -p config_zero.tpl tab_train.zero modele-zero
 	wapiti label -p -m modele-zero tab_test.zero >sortie-zero
 
 	perl scripts/post_conversion.pl sortie-zero
