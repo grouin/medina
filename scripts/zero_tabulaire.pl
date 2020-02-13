@@ -400,7 +400,7 @@ sub bio() {
   my ($avant,$courant,$apres)=@_;
   my $t="O";
   # - I-annotation isolée
-  if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "") { $t="I-$courant"; }
+  if (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $courant ne "" && ($apres eq "O" || $apres eq "")) { $t="I-$courant"; }
   # - B-début d'annotation
   elsif (($avant eq "O" || $avant eq "" || $avant ne $courant) && $courant ne "O" && $apres ne "O" && $courant ne "" && $apres ne "") { $t="B-$courant"; }
   # - I-milieu/fin d'annotation
@@ -424,7 +424,7 @@ sub bio2h() {
   # - O le cas échéant
   else { $t="O"; }
   # Tête de syntagme : essai sur les verbes et les noms (dans les portions annotées), ne sont pas des têtes de syntagme
-  if ($l=~/\tVer\:/ || $l=~/\tNom\:/) { $t=~s/^[A-Z]-/H-/; }
+  if ($l=~/\tVer\:/ || $l=~/\tNom\:[^P]/) { $t=~s/^[A-Z]-/H-/; }
   return $t;
 }
     
