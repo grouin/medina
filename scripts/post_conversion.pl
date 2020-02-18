@@ -4,6 +4,13 @@
 # fichier de prédictions pris en entrée est réécrit (même fichier
 # d'entrée et de sortie). Permet de réaliser une évaluation correcte
 # avec le script conlleval.pl
+# Si des prédictions supplémentaires ont été faites, et qu'il ne faut
+# pas les évaluer, lister ces catégories dans $suppressions ; ces
+# prédictions en excès peuvent correspondre à des formes de surface
+# ambigües pour un modèle délexicalisé (éponymes cliniques : mal. de
+# Gougerot Sjögren ; synd. de Budd-Chiari ; thyroïdite de Hashimoto),
+# mais dont les prédictions permettent néanmoins d'améliorer la
+# reconnaissance d'autres catégories (en particulier Personne).
 
 # Usage : perl post_conversion.pl sortie-zero
 
@@ -14,6 +21,7 @@ use utf8;
 
 my $predictions=$ARGV[0];
 my @contenu=();
+my $suppressions="(Organisme|Pathologie|Substance)";
 
 open(E,'<:utf8',$predictions);
 while (my $ligne=<E>) {
@@ -21,6 +29,8 @@ while (my $ligne=<E>) {
   $ligne=~s/W\-/B\-/g;
   $ligne=~s/[EMH]\-/I\-/g;
   $ligne=~s/O\-\S+/O/g;
+  # Suppressions des prédictions à ne pas évaluer
+  $ligne=~s/[BI]\-$suppressions/O/g;
   # Stockage
   push(@contenu,$ligne);
 }
