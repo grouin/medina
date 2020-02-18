@@ -7,6 +7,10 @@
 *allupper:%t[0,1,"^\u+$"]
 *alllower:%t[0,1,"^\l+$"]
 
+Uvirgule:%t[0,1,"\,"]
+Upoint:%t[0,1,"\."]
+Uegal:%t[0,1,"\="]
+
 UponctAp:%t[0,1,"\p"]/%t[1,1,"\p"]
 UdigitAp:%t[0,1,"\d"]/%t[1,1,"\d"]
 UponctApM:%m[0,1,"\p"]/%m[1,1,"\p"]
