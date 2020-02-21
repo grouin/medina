@@ -34,9 +34,9 @@ use Getopt::Std;
 &getopts("r:e:c:");
 if (!$opt_r) { die "Usage :\tperl post_pseudonymization.pl -r <directory> -e <extension sgml/dat> [-c categories,to,be,masked]\n"; }
 
-my $listePrenoms="data/prenoms-fr.lxq";
-my $listeNoms="data/noms-fr.lxq";
-my $listeVilles="data/villes-fr.lxq";
+my $listePrenoms="scripts/data/prenoms-fr.lxq";
+my $listeNoms="scripts/data/noms-fr.lxq";
+my $listeVilles="scripts/data/villes-fr.lxq";
 my $refPrenoms=&recupereListe($listePrenoms);
 my $refNoms=&recupereListe($listeNoms);
 my $refVilles=&recupereListe($listeVilles);
