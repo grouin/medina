@@ -244,7 +244,8 @@ sub normalisation() {
   # Ajout d'espaces autour des ponctuations, sauf celles utilisées
   # dans les décimales ou dans les dates : - / .
   $contenu=~s/([\.\-,\(\)\|\'\’\@\#])/ $1 /g;
-  $contenu=~s/([^<])\//$1 \/ /g;     # Slash, sauf dans balise fermante
+  $contenu=~s/([^<])\//$1 \/ /g;        # Slash, sauf dans balise fermante
+  $contenu=~s/\[ \/ URL\]/\[\/URL\]/g;  # y compris balises de protection
   $contenu=~s/(\d) \. (\d)/$1\.$2/g;
   $contenu=~s/(\d) \, (\d)/$1\,$2/g;
   $contenu=~s/(\d) \/ (\d)/$1\/$2/g; # Pas d'espace dans les dates
