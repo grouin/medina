@@ -21,7 +21,7 @@ use utf8;
 
 my $predictions=$ARGV[0];
 my @contenu=();
-my $suppressions="(Organisme|Pathologie|Substance)";
+my $suppressions="(Examen|Organisme|Pathologie|Substance)";
 
 open(E,'<:utf8',$predictions);
 while (my $ligne=<E>) {

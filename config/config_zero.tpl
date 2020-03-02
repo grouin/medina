@@ -48,4 +48,7 @@ BdeclUpper:%x[0,5]/%t[0,1,"^\u"]
 BupperUpper:%t[0,1,"^\u"]/%t[1,1,"^\u"]
 BupperAllUpper:%t[0,1,"^\u"]/%t[1,1,"^\u+$"]
 
+Bsignal:%t[-2,1,"signal"]/%t[-1,1,"de"]
+Bscore:%t[-2,1,"score"]/%t[-1,1,"de"]
+
 *
