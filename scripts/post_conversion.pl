@@ -31,6 +31,8 @@ while (my $ligne=<E>) {
   $ligne=~s/O\-\S+/O/g;
   # Suppressions des prédictions à ne pas évaluer
   $ligne=~s/[BI]\-$suppressions/O/g;
+  # Simplification des étiquettes Quaero
+  #$ligne=~s/([BI]\-(loc|org|pers|prod|time))[\w\.\-]+/$1/g;
   # Stockage
   push(@contenu,$ligne);
 }
