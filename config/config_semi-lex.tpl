@@ -48,6 +48,22 @@ BdeclUpper:%x[0,5]/%t[0,1,"^\u"]
 BupperUpper:%t[0,1,"^\u"]/%t[1,1,"^\u"]
 BupperAllUpper:%t[0,1,"^\u"]/%t[1,1,"^\u+$"]
 
+Bsignal:%t[-2,1,"signal"]/%t[-1,1,"de"]
+Bscore:%t[-2,1,"score"]/%t[-1,1,"de"]
+
+UdeclPers:%t[-1,1,"docteur"]
+UdeclPers:%t[-1,1,"Docteur"]
+UdeclPers:%t[-1,1,"Dr"]
+UdeclPers:%t[-1,1,"madame"]
+UdeclPers:%t[-1,1,"Madame"]
+UdeclPers:%t[-1,1,"Mme"]
+UdeclPers:%t[-1,1,"Mmes"]
+UdeclPers:%t[-1,1,"monsieur"]
+UdeclPers:%t[-1,1,"Monsieur"]
+UdeclPers:%t[-1,1,"Pr"]
+UdeclPers:%t[-1,1,"professeur"]
+UdeclPers:%t[-1,1,"Professeur"]
+
 # Ajout affixes
 Uprefix:%m[0,1,"^..."]
 Usuffix:%m[0,1,"...$"]
