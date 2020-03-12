@@ -67,8 +67,8 @@ perl scripts/post_pseudonymization.pl -r corpus/jorf/test/ -e dat
 
 # To train a model specifically for one category, and to force Wapiti
 # decoding using two models, use the following steps:
-perl scripts/zero_alignement.pl corpus/sante/train/
-perl scripts/zero_tabulaire.pl corpus/sante/train/ tag tab_train.zero BWEMO+ Personne
+perl scripts/zero_alignement.pl corpus/jorf/sante/train/
+perl scripts/zero_tabulaire.pl corpus/jorf/sante/train/ tag tab_train.zero BWEMO+ Personne
 perl scripts/zero_supprimeO.pl tab_train.zero 40 >tab_reduc.zero
 time wapiti train -t 2 -a sgd-l1 -2 0.1 --eta0 0.05 -c -p config/config_zero.tpl tab_reduc.zero modele-Pers
 wapiti label -p -m modele-Pers tab_test.zero | perl -ne "s/O$/NUL/; print $_" >temp
