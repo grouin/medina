@@ -1,0 +1,199 @@
+segment	Famille pharmaco-thérapeutique	DCI (spécialités)
+-ac	Anti-inflammatoires non stéroïdiens dérivés de l'ibufénac, dérivés arylcarboxyliques	Diclofénac (Difal – Voltarène – Xénid)
+-ac	Anti-inflammatoires non stéroïdiens dérivés de l'ibufénac, dérivés de l'acide arylacétique	Bufexamac (Parfenac)
+-actide	Polypeptides synthétiques agissant comme la corticotropine (stimulent la sécrétion des hormones cortico-surrénaliennes)	Tétracosactide (Synacthène Retard – Cortrosyn Retard)
+-adol;-adol-	Analgésiques divers	Tramadol (Tremadol)
+-alol	β-bloqueurs	Labétalol (Trandate), Sotalol (Sotalex)
+andr-;-andr-	Stéroïdes androgènes	Nandrolone (Déca-Durabolin – Dynabolan – Kératyl), Androstanolone (Andractim)
+-antel	Anthelminthiques sans structure chimique précise	Pyrantel (Combantrin – Helmintox)
+-apine	Composés tricycliques à activité psychotique	Clozapine (Leponex)
+-(ar)abine	Antinéoplasiques antiviraux, dérivés de l'arabinofuranose	Cytarabine (Aracytine)
+-arol	Anticoagulants coumariniques	Acénocoumarol (Sintrom)
+-astine	Antihistaminiques H1 non classés ailleurs	Azélastine (Allergodil), Lévocabastine (Lévophta), Mizolastine (Milastine - Mizollen)
+-azam	Composés anxiolytiques à noyau benzodiazépine	Clobazam (Urbanyl)
+-azénil	Substances agonistes/antagonistes des récepteurs aux benzodiazépines, à dominante antagoniste	Flumazénil (Anexate)
+-azépam	Benzodiazépines du groupe du diazépam	Diazépam (Valium), Nordazépam (Nordaz), Clonazépam (Clonopin - Rivotril), Flunitrazépam (Hypnosédon – Narcozep), Tetrazépam (Musaril - Myolastan), Clotiazépam (Vératran)
+-azocine	Analgésiques et plus généralement antagonistes-agonistes des récepteurs morphiniques	Pentazocine
+-azolam	Benzodiazépines anxiolytiques	Alprazolam (Alpraz – Xanax)
+-azolam	Benzodiazépines hypnotiques	Triazolam (Halcion)
+-azoline	Vasoconstricteurs locaux à noyau imidazoline	Naphazoline (Colyre Bleu – Deltarhinol), Xylométazoline (Otrivine)
+-azone	Analgésiques et antipyrétiques pyrazolés mais sans propriétés anti-inflammatoires majeures	Phénazone (HEC – Migralgine – Otipax), Propyphénazone (Claradol Plus – Spasmoplus)
+-azosine	Alpha-1 bloquants (quinazolines), utilisés comme antihypertensseurs vasodilatateurs	Doxazosine (Cardura), Prazosine (Alpress- Minipress)
+-bactam	Antibiotiques inhibiteurs des bêta-lactamases	Sulbactam (Unasyn)
+-bamate	Carbamates à propriétés essentiellement tranquillisantes	Méprobamate (Equanil – Mépronizine)
+barb-;-barb-;-barbital	Dérivés barbituriques ou thiobarbituriques, à propriétés hypnosédatives	Amobarbital, Phénobarbital (Gardénal - Natisédine)
+barb-;-barb-;-barbital	Dérivés barbituriques ou thiobarbituriques, à propriétés anesthésiques générales	Penthiobarbital
+barb-;-barb-;-barbital	Dérivés barbituriques ou thiobarbituriques, à propriétés tranquillisantes	Fébarbamate
+-bendazole	Anthelminthiques à noyau benzimidazole	Albendazole (Azole – Zentel), Mébendazole (Oxitover – Sufil – Vermox)
+-bétazol 	Corticostéroïdes qui ne possèdent pas tous les substituants présents dans la cortisone et la prednisolone	Clobétazol (Dermoval)
+-bol;-bol-	Stéroïdes anabolisants protéiniques	Trenbolone
+-butazone	Analgésiques anti-inflammatoires du groupe de la phénylbutazone (pyrazolés)	Phénylbutazone (Alpha-Kadol - Butazolidine)
+-caïn-	Antiarythmiques de la classe I	Flécaïnide (Flécaïne)
+-caïne	Anesthésiques locaux	Bupivacaïne (Marcaïne – Périanest), Lidocaïne (Elma – Procto-Glyvénol - Xylocaïne), Oxybuprocaïne (Novésine)
+calci-;-calci-	Séco-stéroïdes analogues de la vitamine D	Alfacalcidol (Un-Alfa), Calcifédiol (Dedrogyl – Hidroférol), Calcipotriol (Daivonex)
+-carbef	Antibiotiques dérivés des carbacéphems du groupe des bêta-lactamines	Loracarbef
+-céf	Céphalosporines	Céfaclor (Alfatil – Cloracef), Céfpodoxime (Orélox), Céftazidime (Fortum), Céfuroxime (Zinnat)
+-cidine	Antibiotiques d'origine naturelle (à l'exception des antinéoplasiques), lorsqu'ils n'appartiennent pas à une famille définie	Gramicidine
+-cillinam	Amidinopénicillines, antibiotiques du groupe des bêta-lactamines (mécillinams)	Pivmécillinam (Selexid)
+-cilline	Aminopénicillines, antibiotiques du groupe des bêta-lactamines (sauf les mécillinams)	Amoxicilline (Amoxil – Clamoxyl - Néomox), Ampicilline (Amblosin – Opticilline – Totapen), Flucloxacilline (Astaph – Floxapen – Staphypen)
+-citabine	Nucléosides antiviraux ou agents antinéoplasiques dérivés de la cytidine	Zalcitabine (Hivid)
+-clone	Hypnotiques et tranquilisants du groupe des cyclopyrrolones	Zopiclone (Imovane)
+-conazole	Antifongiques systémiques du groupe du miconazole	Kétoconazole (Kétoderm - Nizoral), Fluconazole (Diflucan – Triflucan)
+(cort)	Corticostéroïdes, autres que les dérivés de la prednisolone	Hydrocortisone (Bacicoline - Efficort –Néocort), Tixocortol (Oro-Pivalone – Thiovalone)
+-cromil	Antiallergiques analogues de l'acide cromoglicique	Nédocromil (Tilade)
+-curium et -curonium	Ammoniums quaternaires à activité semblable à celle des curares (curarisants)	Pancuronium (Pavulon), Rocuronium (Esmeron), Vécuronium (Norcuron)
+-cycline	Tétracyclines	Doxycycline (Doxymycine – Longamycine – Vibra), Métacycline (Physiomycine), Minocycine (Mynocine)
+-dapsone	Sulfones antimycobactériennes (tuberculose, lèpre), dérivés de la dapsone	Amidapsone
+dil-;-dil	Vasodilatateurs antihypertenseurs	Minoxidil, Urapidil
+dil-;-dil	Vasodilatateurs antiangoreux	Bépridil (Cordium), Diltiazem (Altiazem – Dilrène – Tildiem)
+-dipine	Inhibiteurs calciques du groupe de la nifédipine (dihydropyridines)	Amlodipine (Amlor), Nifédipine (Adalate – Coracten – Nifédicor), Nitrendipine (Baypress - Hiperdine)
+-dopa	Agonistes des récepteurs dopaminergiques, utilisés comme antiparkinsoniens ou inhibiteurs de la prolactine	Lévodopa (Modopar)
+-dopa	Dérivés favorisants les actions de la dopamine	Carbidopa
+-dralazine	Antihypertenseurs dérivés de l'hydralazine et de la phtalazine	Déhydralazine
+-drine	Sympathomimétiques dérivés de la phényléthylamine et particulièrement des éphédrines	Dioxéthédrine (Bexol), Noréphédrine (Dénoral Cp. – Rinurel – Rupton)
+-dronate;-dronique (acide)	Régulateurs du métabolisme du calcium (Diphosphonates)	Étidronate (Didronel), Résidronate (Actonel)
+-ectine	Parasiticides dérivés de l'avermectine	Ivermectine
+-erg-	Alcaloïdes de l'ergot de seigle et leurs dérivés	Dihydroergotamine (Ikaran – Seglor – Tamik), Méthylergométrine (Méthergin), Nicergoline (Sermion)
+estr-;-estr-	Oestrogènes stéroïdiens	Ethinylestradiol (Adépal – Diane – Minidril), Promestriène (Colposeptine – Colpotrophine)
+estr-;-estr-	Oestrogènes non stéroïdiens	Diéthylsilbestrol
+-étanide;-anide	Diurétiques de l'anse, diurétiques hypokaliémiants	Pirétanide
+-exine	Mucolytiques de type bromhexine	Dembrexine
+-fénamate;-fénamique (acide)	Anti-inflammatoires non Stéroïdiens, dérivés de l'acide anthranilique, groupe des fénamates	Acide Méfénamique (Ponstyl), Acide Tolfénamique (Clotan), Etofénamate (Rheumon)
+-fénine;-phénine	analgésiques périphériques dérivés de la glafénine	Floctafénine (Idarac)
+-fénine;-phénine	analgésiques périphériques dérivés de l'acide phénylcarbamoyl-méthylimino-diacétique, utilisés en exploration fonctionnelle	Lidofénine
+-fentanil	Analgésiques centraux de type fentanyl	Alfentanil (Rapifen), Sufentanil (Sufenta)
+-fibrate	Fibrates normolipémiantes	Ciprofibrate (Lipanor), Fénofibrate (Lipanthyl)
+-floxacine	Fluoroquinolones	Ciprofloxacine (Catex – Ciproxine – TMS), Lévofloxacine (Tavanic), Norfloxacine (Noracin – Urobacid – Uroctal), Ofloxacine (Oflocet – Quinolox – Uroflox), Trovafloxacine (Trovan)
+-flurane	Anésthésiques généraux, dérivés halogénés volatiles	Enflurane
+-formine	Biguanides, hypoglycémiants oraux	Metformine (Glycan – Glucophage – Stagid)
+-frine	Sympathomimétiques dérivés de la phényléthylamine, en particulier de type adrénaline (= épinéphrine) ou phényléphrine (= néosynéphrine)	Dipivéphrine (Propine), Etiléfrine (Effortil), Phénylephrine (Diméthane – Rinomicine)
+-fylline;-phylline	Méthylxanthines bronchodilatateurs	Bamifylline (Trentadil)
+(gab)	Composés gabamimétiques, utilisés comme anti-épileptiques	Vigabatrine
+gado-;-gado-	Produits pour exploration fonctionnelle, dérivés du gadolinium	Gadopentétate (Magnevist), Gadotérate (Dotarem)
+gest;-gest-	Stéroïdes progestatifs	Progestérone (Di-Pro Oleosum – Progestogel – Tocogestan), Lévonorgestrel (Adépal - Microval – Trigynon), Nomégestrol (Lutényl), Promégestone (Surgestone), Médrogestone (Colprone)
+-gestérone	Stéroïdes cétoniques progestatifs naturels ou de synthèse	Dydrogestérone (Duphastan), Progestérone (Progestogel – Tocogestan – Utrogestan)
+-giline	Inhibiteurs de la mono-amine-oxydase (IMAO) de type B	Sélégiline
+gli-;-gli-	Sulfamides hypoglycémiants	Glibenclamide (Benclamid – Daonil – Glidiabet), Gliclazide (Diamicron – Glyazid – Glycémat), Glimépiride (Amarel)
+-golide	Agonistes dopaminergiques, dérivés de l'ergoline, utilisés comme antiparkinsoniens ou inhibiteurs de la prolactine	Quinagolide (Norprolac)
+guan-	Antihypertenseurs dérivés de la guanidine	Guanfacine (Estulic)
+-icam	Anti-inflammatoires non stéroïdiens du groupe des oxicams	Piroxicam (Brexin – Feldène – Zildam), Méloxicam (Mobic), Ténoxicam (Doxican - Tilcotil)
+-ifène	Dérivés du triaryléthylène, inducteurs d'ovulation	Clomifène (Clomid – Prolifen)
+-ifène	Cytostatiques antioestrogènes	Tamoxifène (Nolvadex)
+-imus	Immunosupresseurs autres que les antinéoplasiques	Tacrolimus
+-io	Produits de contraste iodés	Acide Ioxitalamique (Télébrix), Iopamidol (Iopamiron), Iopromide (Ultravist), Iopydol (Hytrast)
+-io;iod-	Dérivés iodés autres que les produits de contraste	---
+-iptan	Agonistes des récepteurs de la sérotonine dits 5 HT1 (triptans antimigraineux)	Sumatriptan (Imigran), Zolmitriptan (Zomig)
+-ium	Ammoniums quaternaires utilisés comme curarisants (Cf. -curium)
+-ium	Ammoniums quaternaires utilisés comme agents anticholinergiques	Prifinium (Riabal), Tiémonium (Viscéralgine)
+-ium	Ammoniums quaternaires utilisés comme antiseptiques	Benzalkonium, Méthylthioninium (Collyre Bleu)
+-ium	Ammoniums quaternaires utilisés comme divers	Pinaverium (Ex-Dicétel)
+-izine	Antihistaminiques H1 du groupe des cyclizines	Buclizine (Aphilan), Cétirizine (Virlix – Zyrtec)
+-kacine	Antibiotiques obtenus à partir de souches de Streptomyces kanamyceticus	Amikacine (Amiklin – Piérami)
+-listat	Inhibiteurs de la lipase pancréatique	Orlistat (Xénical)
+mer-;-mer-	Composés mercuriels, en particulier anti-infectieux	Mercurobutol (Ex-Mercryl Laurylé)
+-mestane	Inhibiteurs de l'aromatase (estrogène synthétase), anti-oestrogènes	Exémestane
+-métacine	Anti-inflammatoires non stéroïdiens, dérivés de l'indole	Acémétacine (Rantudil), Indométacine (Indocid – Indocollyre - Liometacen)
+-métasone;-méthasone	Corticostéroïdes anti-inflammatoires, dérivés de la prednisone ou de la prednisolone	Béclométasone (Béconase - Bécotide – Clénil Fort), Bétaméthasone (Célestène – Dermosone - Diprolène – Diprosone – Diprostène), Dexaméthasone (Baycuten – Chibro-Cadron – Décadron – Oradexon – Percutalgine)
+-micine	Antibiotiques obtenus à partir de diverses souches de Micromonospora	Nétilmicine (Nétromicine)
+mito-	Antinéoplasiques nucléotoxiques	Mitoxantrone (Novantrone)
+-mustine	Antinéoplasiques alcoylants, dérivés de la b-chloroéthylamine	Estramustine (Estracyt)
+-mycine	Antibiotiques produits par diverses souches de Streptomyces : macrolides, aminosides, synergistines	Erythromycine (Abboticine – Ery – Eryacné – Eryfluid - Erythrocine – Logécine - Macrocid – Propiocine), Pristinamycine (Pyostacine), Spectinomycine (Trobicine)
+-nal	Stupéfiants, antagonistes et/ou agonistes des récepteurs morphiniques	Nalorphine, Naltrexone
+-nidazole	Anti-infectieux et anti-parasitaires à noyau imidazole	Métronidazole (Flagyl – Nidazol – Rodogyl – Rosex), Ornidazole (Tibéral), Secnidazole (Flagentyl), Tinidazole (Fasigyne – Trichogin)
+nifur-	Nitrofuranes anti-infectieux , antiseptiques intestinaux	Nifurazide (Ricridène), Nifuroxazide (Ambatrol – Antinal - Apazide – Entéral - Ercéfuryl – Panfurex – Roxid)
+-olol	Bêta-bloqueurs (antagonistes des récepteurs bêta-adrénergiques)	Acébutolol (Sectral), Aténolol (Ténormine), Bétaxolol (Bétoptic – Kerlone), Béfunolol (Bentos), Bisoprolol (Detentiel – Soprol), Cartéolol (Cartéol), Métoprolol (Lopresor), Propranolol (Avlocan – Avlocardyl), Timolol (Cusimolol – Timoptol)
+-olone	Corticostéroïdes dérivés de la prednisone ou de la prednisolone	Triamcinolone (Cidermex – Kénacort – Mycolog – Nasacort)
+-onide	Acétonides utilisés en corticothérapie topique	Acétonide De Triamcinolone (Cidermex – Mycolog), Budésonide (Pulmicort)
+-onidine	Antihypertenseurs, guanidines à noyau imidazolidine	Apraclonidine (Iopidine), Clonidine (Catapressan)
+-orex	Anorexigènes amphétaminiques, dérivés de la phenyléthylamine	Fenproporex (Perphoxène)
+-orph-	Stupéfiants, agonistes ou antagonistes des récepteurs morphiniques	Buprénorphine(Temgésic)
+-orphan-	Stupéfiants, dérivés du morphinane, agonistes ou antagonistes des récepteurs morphiniques	Dextrométhorphane (Akindex, Drill Toux-Sèche)
+-oxacine	Quinolones vraies, dérivés de l'acide nalidixique	Enoxacine (Enoxor)
+-oxef	Antibiotiques du groupe des oxacéphalosporines	Latamoxef
+-oxépine	Antidépresseurs tricycliques à noyau oxépine	Doxépine
+-oxétine	Antidepresseurs sérotoninergiques purs dérivés de la fluoxétine	Fluoxétine (Fluoxet - Prozac – Tunéluz), Paroxétine (Déroxat)
+-pamide	Diurétiques hypokaliémiants, dérivés de l'acide sulfamoylbenzoïque	Indapamide (Fludex – Diurimat), Xipamide (Diurex)
+-pamil	Antiarythmiques et vasodilatateurs coronariens, dérivés du vérapamil	---
+-parine	Dérivés de l'héparine, y compris les héparines à basse masse moléculaire	Daltéparine (Fragmin), Enoxaparine (Levonex), Nadroparine (Fraxiparine)
+-penem	Antibiotiques du groupe des carbapénèmes de la famille des bêta-lactamines	Imipénème (Tiénam)
+-péridol	Neuroleptiques de la famille des butyrophénones	Dropéridol, Halopéridol (Halopéridol – Haldol)
+-péridone	Antipsychotiques et antinauséeux répondant à la formule générale des neuroleptiques, mais n'appartenant pas au groupe des butyrophénones	Dompéridone (Motilium)
+-pérone	Neuroleptiques et tranquilisants de la famille des butyrophénones	Pipampérone
+-pidem	Hypnosédatifs à noyau imidazopyridine	Zolpidem (Stilnox)
+-pirox	Antimycosiques dérivés de la pyridone	Ciclopirox (Mycoster Verni)
+-planine	Antibactériens issus de souches d'Actiniplanes	Teicoplanine (Targocid)
+-platine	Antinéoplasiques dérivés du platine	Carboplatine (Paraplatine), Cisplatine (Cisplatyl)
+-poétine	Facteurs sanguins analogues à l'érytropoïétine	Epoétine Alpha
+-pramine	Antidepresseurs imipraminiques	Imipramine (Tofranil), Trimipramine (Surmontil)
+-prazole	Anti-ulcéreux dérivés du benzimidazole, inhibiteurs de la pompe à protons	Lansoprazole (Lanzor), Oméprazole (Aulcer – Mopral – Omegen - Prazol –Proton), Pantoprazole (Inipomp)
+(pred)	Corticostéroïdes dérivés de la prednisone ou de la prednisolone	Prednimustine
+-pressine	Peptides vasoconstricteurs, dérivés de la vasopressine	Desmopressine (Minirin)
+-pride;-piride;-pramide	Benzamides psychotropes, utilisés comme :	Neuroleptiques	Amisulpiride (Solian), Sulpiride (Dogmatil), Tiapride (Tiapridal)	Dans divers troubles digestifs	Alizapride (Plitican), Cisapride (Sepride – Prépulsid), Métoclopramide (Cloprame – Digestine - Métagliz – Primperan)	Traitement des bouffées vasomotrices de la ménopause	Véralipride (Agréal)
+-pril(ate)	Inhibiteurs de l'enzyme de conversion de l'angiotensine	Bénazépril (Cibacène), Captopril (Capozide – Convertal - Lopril), Cilazapril (Inhibace), Enalapril (Prilvas – Rénitec), Perindopril (Coversyl), Quinapril (Acuitel – Acuilix), Ramipril (Triatec), Trandolapril (Odrik)
+-prime	Anti-infectieux dérivés de la triméthoprime	Triméthoprime (Bactrim – Co-Trim – Eusaprim)
+-profen-;-profène	Anti-inflammatoirs non stéroïdiens dérivés de l'acide phénylpropionique	Acide Tiaprofénique (Surgam – Tiafen), Alminoprofène (Minalfène), Flurbiprofène (Cébutid – Ocufen), Ibuprofène (Algantil- Analgyl – Antarène - Brufen – Dolgit – Nofène – Tabalon – Trifène), Kétoprofène (Flexen – Ketum – Profénid – Toprec)
+(prost)	Prostaglandines et leurs dérivés	Alprostadil (Caverject), Dinoprostone (Prépidil), Latanoprost (Xalatan)
+-prostil	Prostaglandines à visée anti-ulcéreuse	Déprostil
+-quin-;-quine	Dérivés de la quinoléine, à activité très variée, plus spécialement antipaludique, antibactérienne et anthelminthique	Chloroquine (Nivaquine), Clioquinol (Diprosept – Locacortène Vioforme), Fluméquine (Apurone), Tilbroquinol (Intétrix)
+-racétam;–acétam	Amides psychostimulantes	Piracétam (Nootropyl)
+-réline	peptides provoquant la libération d'hormones hypophysaires, en particulier de la GnRH	Buséréline, Goséréline (Zoladex), Triptoréline (Décapeptyl)
+-moréline	peptides stimulant la libération de l'hormone de croissance	Sermoréline
+-tiréline	analogues de l'hormone provoquant la libération de l'hormone thyréotrope	Protiréline
+-rénone	Stéroïdes antagonistes de l'aldostérone, dérivés de la spironolactone	Canrénone
+(rétin)	Dérivés de la vitamine A (rétinol)	Acitrétine, Etrétinate (Tigason), Isotrétinoïne (Isotrex – Roaccutane)
+rifa-	Antibiotiques du groupe des ansamycines, dérivés de la rifamycine	Rifabutine (Lycobutin), Rifampicine (Rifacine – Rifadine – Rifinah – Rimactazide – Riniazide), Rifamycine (Rifocine – Rifoderm)
+-rinone	Tonicardiaques inhibiteurs de la phosphodiestérase	Amrinone
+-rizine	Antihistaminiques H1, dérivés de la cyclizine, vasodilatateurs	Cinnarizine (Sureptil)
+-rozole	Dérivés de l'imidazole ou triazole, inhibiteurs de l'aromatase (estrogène synthétase)	Anastrozole (Arimidex)
+-rubicine	Antinéoplasiques antibiotiques (anthracyclines)	Daunorubicine (Cérubidine), Epirubicine (Farmorubicine), Idarubicine (Zavédos)
+(sal)	Dérivés de l'acide salicylique à activité antalgique, et/ou anti-inflammatoire	Carbasalate Calcique, Diflunisal, Salicylamide (Percutalgine – Rinomicine)
+salazo-;–salazo-;-salazine;–salazide	Dérivés de l'acide 5-Aminosalicylique à activité anti-inflammatoire	Mésalazine (Pentasa), Olsalazine (Dipentum)
+salazo-;–salazo-;-salazine;–salazide	Dérivés de l'acide 5-Aminosalicylique à activité anti-inflammatoire et anti-infectieuse	Sulfasalazine (Salazopyrine)
+-salan	Dérivés bromés du salicylamide, à propriétés désinfectantes	Tiosalan
+-sartan	Antihypertenseurs, antagonistes non peptidiques des récepteurs de l'angiotensine II (sartans)	Losartan (Cozaar – Hyzaar), Valsartan (Tareg) – Irbésartan (Aprovel)
+-sémide	Diurétiques hypokaliémiants, diurétiques de l'anse	Furosémide (Durésan – Furilan - Lasilix)
+-serpine	Alcaloïdes des Rauwolfias et dérivés	Réserpine
+-sétron	Antiémétiques, antagonistes des récepteurs de la sérotonine de type 5HT3	Ondansétron (Zofran)
+som-	Dérivés de l'hormone de croissance	Somatotropine (Génotropin - Umatrope)
+-spirone	Imides anxiolytiques	Buspirone (Buspar)
+-stan;-stan-	Stéroïdes androgènes et/ou anabolisants protéiniques	Stanozolol, Drostanolone
+-stéine	Mucolytiques apparentés à la cystéine	Acétylcystéine (Exomuc – Fluimicil – Mucolator – Mucomyst), Carbocistéine (Bronchathiol – Carboxyl - Fluvic – Médibronc – Mucocil – Pneumocist – Rhinathiol)
+-ster-	Stéroïdes androgènes et/ou anabolisants protéiques 	Testostérone (Andriol – Androtardyl – Sustanon)
+-stéride	Inhibiteurs de la 5-alpha-testostérone réductase, utilisés dans l'adénome prostatique	Finastéride (Chibro-Proscar)
+-stérone	Stéroïdes cétoniques androgènes et/ou anabolisants protéiniques	Fluoxymestérone, Prastérone
+-stérone	Stéroïdes cétoniques progestatifs	Dydrogestérone (Duphastan), Noréthistérone (Gynovlar – Kliogest – Milligynon – Noristérat – Norluten – Primolut-Nor – Triella – Trisequens), Progestérone (Di-Pro Oleosum – Progestogel – Tocogestan – Utrogestan)
+-stérone	Divers stéroïdes cétoniques hormonaux	Aldostérone
+-stigmine	Anticholinéstérasiques	Néostigmine (Prostigmine), Pyridostigmine (Mestinon)
+-grastime	Facteurs de croissance stimulant la lignée granulocytaire (Granulocytes-Colony Stimulating Factor)	Filgrastime (Neupogen), Lénograstime (Granocyte)
+-gramostime	Facteurs de croissance stimulant à la fois la lignée granulocytaire et la lignée macrophagique (Granulocytes Macrophages-Colony Stimulating Factor)	Molgramostime
+-mostime	Facteurs de croissance stimulant la lignée macrophagique (Macrophage-Colony Stimulating Factor)	Cilmostime
+sulfa-	Sulfamides anti-infectieux	Sulfacétamide (Sulfa-Bleu), Sulfaguanidine (Ganidon), Sulfaméthoxazole (Bactrim – Berlocid – Microcétim – Trimox – Trisium)
+-sulfan	Antinéoplasiques alkylants, type esters sulfoniques	Busulfan
+-técan	Antinéoplasiques cytotoxiques, groupe des inhibiteurs de la topo-isomérase I (méthanesulfonates)	Irinotécan (Campto)
+-tépa	Antinéoplasiques alkylants, famille de l'éthylène-imines	Thiotépa (Thiotépa Lederle)
+-teplase	Enzymes thrombolytiques activateurs du plasminogène tissulaire	Alteplase (Actilyse)
+-térol;-prénaline;-térénol	Bronchodilatateurs ou stimulants cardiaques bêta-sympathomimétiques, dérivées de la phényléthylamine (isoprénaline, synonyme d'isoprotérénol)	Fénotérol (Bérotec), Pirbutérol (Maxair Autohaler), Salmétérol (Sérévent)
+-térone	Anti-androgènes	Cyprotérone (Androcur – Climène - Diane)
+-thiazide;-tizide	Diurétiques thiazidiques hypokaliémiants	Altizide (Aldactazine),Hydrochlorothiazide (Acuilix – Capozide – Co-Rénitec – Moduretic – Prestole)
+-tidine	Antiulcéreux antagonistes des récepteurs H2 de l'histamine	Cimétidine (Antagon-H2 – Tagamet – Ulcemat – Ulcestop), Famotidine (Digervin – Famotid – Servipep – Ulcidine), Nizatidine (Axid), Ranitidine (Azantac – Ranimat – Ranitil – Zantac)
+-tocine	Peptides ocytociques du type de l'ocytocine	Oxytocine (Syntocinon)
+-toïne	Antiépileptiques dérivés de l'hydantoïne	Phénytoïne (Di-Hydan)
+-trexate	Antinéoplasiques antimétabolites, analogues de l'acide folique	Méthotrexate (Ledertrexate – Méthotrexate)
+-tricine	Antibiotiques polyéniques	Tyrothricine (Codétricine – Veybirol)
+-triptyline;-tiline;-tyline	Dérivés du dibenzocycloheptane, généralement antidépresseurs	Amitriptyline (Limbitrol – Laroxyl), Maprotiline (Ludiomil)
+-trop;-trop-	Dérivés de l'atropine, généralement anti-cholinergiques	Tropicamide (Mydriaticum)
+-udine	Dérivés de l'uridine à propriétés antivirales et antinéoplasiques	Lamivudine, Zidovudine (Rétrovir)
+-uracile	Dérivés de l'uracile utilisés comme antagonistes thyroïdiens	Propyl-Thiouracile
+-uracile	Antinéoplasiques	Fluorouracile (Fluoro-Uracil)
+-uridine	Antivirales et antinéoplasiques, dérivés de l'uridine	Idoxuridine, Trifluridine (Virophta)
+-vastatine
+-vastatine : inhibiteurs de l'HMG-CoA réductase (Statines hypocholestérolémiantes)	Atorvastatine (Tahor), Pravastatine (Elisor), Simvastatine (Zocor)
+-vérine	Spasmolytiques non atropiniques agissant comme la papavérine	Alvérine (Météospasmyl – Spasmavérine), Drotavérine (No-Spa), Fénovérine (Ex-Spasmopriv), Mébévérine (Béviran – Duspatalin – Mébévérine Forte)
+vin-;-vin-	Alcaloïdes de la pervenche Vinca	Vincamine (Pervincamine)
+vin-;-vin-	Alcaloïdes de la pervenche tropicale	Vinblastine (Velbé), Vincristine (Oncovin), Vindésine (Eldésine)
+-vir Antiviraux divers	Aciclovir (Aciclosine – Cicloviral – Cusiviral – Zovirax), Ganciclovir (Cymevène)
+-amivir	Inhibiteurs de la neuraminidase	Oseltamivir (Tamiflu), Zanamivir (Relenza)
+-cavir	Nucléosides carbocycliques	Abacavir
+-navir	Inhibiteurs de la protéase du VIH	Indinavir (Crixivan), Saquinavir (Invirase)
+-vudine	Antivirales antinéoplasiques type zidovudine	---
+-yzine;–izine	Certains composés du groupe des cyclizines	Hydroxyzine (Atarax)
