@@ -1,13 +1,20 @@
-# Effectue un mapping des segments-clés de la DCI sur des fichiers. On
-# affiche la classe thérapeutique, sauf pour les anticorps monoclonaux
-# pour lesquels on affiche la classe pharmacologique. Si la classe
-# thérapeutique est vide, on prend la classe pharmaco. On travaille
-# sur les segments-clés en anglais et en français ; pour la version en
-# anglais, on mémorise également la version sans "e" final (bien que
-# l'OMS indique le "e" final : e.g., -floxacine).
+#!/usr/bin/perl
 
-# Envisager ce script uniquement sur les lignes étiquetées "drugs" par
-# un CRF.
+# Effectue un mapping des segments-clés de la DCI (dénomination
+# commune internationale) sur des fichiers tabulaires (indiquer 0
+# comme numéro de colonne si fichier non-tabulaire). Si le traitement
+# ne doit s'appliquer que sur les lignes correspondant à une
+# prédiction CRF, indiquer le label correspondant en dernier argument.
+#
+# On affiche la classe thérapeutique, sauf pour les anticorps
+# monoclonaux pour lesquels on affiche la classe pharmacologique. Si
+# la classe thérapeutique est vide, on prend la classe pharmaco.
+#
+# On travaille sur les segments-clés en anglais et en français ; pour
+# la version en anglais, on mémorise également la version sans "e"
+# final (bien que l'OMS indique le "e" final : e.g., -floxacine).
+
+# perl mapping-dci.pl fichier num-colonne sortie [label]
 
 # perl mapping-dci.pl ../../../../projet-Cress/scripts/europeen.csv 1 europeen.dci
 #
@@ -15,13 +22,17 @@
 # cut -f2 sortie.dci >out
 # paste treatment-cress.csv out >eval.csv
 
-  
+# Auteur : Cyril Grouin, juillet 2020.
+
+
 use strict;
 
 my $fichier=$ARGV[0]; # Fichier à traiter
 my $col=$ARGV[1];     # Colonne à traiter dans le fichier
 my $sortie=$ARGV[2];  # Fichier de sortie
+my $label=$ARGV[3];   # Label sur lequel effectuer la recherche
 my $defaut="Unknown"; # Valeur affichée par défaut si aucune classe trouvée
+my $mti="(alfa|alpha|blood|cell|MSC|plasma)"; # Eléments identifiant les médicaments de thérapie innovante
 
 
 # Fichier tabulaire contenant les DCI, format : segment-clé (EN),
@@ -79,9 +90,27 @@ open(S,'>:utf8',$sortie);
 while (my $ligne=<E>) {
     chomp $ligne;
     my @cols=split(/\t/,$ligne);
-    my $contenu=$cols[$col];
+    
+    # On vérifie si le traitement ne doit être appliqué que sur les
+    # lignes contenant un label particulier (la dernière colonne d'un
+    # fichier de prédictions CRF)
+    if ($label ne "") { if ($cols[$#cols]=~/$label/) { &traitement($cols[$col]); }}
+    
+    # Ou si le traitement est appliqué sur toutes les lignes sans
+    # distinction
+    else { &traitement($cols[$col]); }
+}
+close(E);
+close(S);
 
-    # Plusieurs noms de médicament
+
+###
+# Routines
+
+sub traitement() {
+    my $contenu=$_[0];
+    
+    # Plusieurs noms de médicament : "POTASSIUM CLAVULANATE+AMOXICILLIN"
     if ($contenu=~/[\+\,]/) {
 	my @cols2=split(/[\+\,]/,$contenu);
 	my $affichage="";
@@ -106,7 +135,7 @@ while (my $ligne=<E>) {
     }
     # Un seul nom de médicament
     else { 
-	# Plusieurs mots pour un seul médicament
+	# Plusieurs mots pour un seul médicament : "Hydroxychloroquine Sulfate", "Azithromycin dihydrate"
 	if ($contenu=~/ /) {
 	    my @cols2=split(/ /,$contenu);
 	    my $affichage="";
@@ -136,12 +165,6 @@ while (my $ligne=<E>) {
 	}
     }
 }
-close(E);
-close(S);
-
-
-###
-# Routines
 
 sub identifieClasses() {
     # Identifie les classes des médicaments en cherchant la présence
@@ -149,6 +172,15 @@ sub identifieClasses() {
     my $cont=lc($_[0]);
     my $cl="";
     my $k=0;
+
+    # Médicaments de thérapie innovante (MTI) : il s'agit de
+    # traitements non-pharmaceutiques mais biologiques (cellules
+    # souches du cordon ombilical, plasma de patient convalescent et
+    # dérivés sanguins, etc.). On commence par chercher dans le
+    # contenu passé en argument la présence d'un élément pertinent en
+    # MTI. Evite de classer en "dérivés de la cellulose" les
+    # "mesenchymal stem cells".
+    if ($cont=~/(^|\W)$mti(s|)(\W|$)/) { $cl="MTI"; $k++; }
 
     # Parcourt des segments-clés pour identification dans le mot, en
     # restreignant aux seuls affixes (les préfixes et suffixes étant
