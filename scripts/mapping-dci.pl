@@ -108,16 +108,26 @@ while (my $ligne=<E>) {
 	    for (my $i=0;$i<=$#cols2;$i++) {
 		#warn "-- Traite $cols2[$i] parmi $contenu\n";
 		my $contenu2=$cols2[$i]; $contenu2=~s/^\s+//; $contenu2=~s/\s+$//;
-		my $classes=&identifieClasses($contenu2); $affichage.="$classes\, ";
-		# Francisation de l'italien
-		if ($contenu2=~/a$/) { $contenu2=~s/a$/e/; $classes=&identifieClasses($contenu2); $affichage.="$classes\, "; }
+		# Un nom se terminant par "-a" est peut-être de l'espagnol ou de l'italien : francisation
+		if ($contenu2=~/a$/) {
+		    my $classes=&identifieClasses($contenu);
+		    if ($classes ne $defaut) { $affichage.="$classes\, "; }
+		    else { $contenu2=~s/a$/e/; my $classes=&identifieClasses($contenu2); $affichage.="$classes\, "; }
+		}
+		else { my $classes=&identifieClasses($contenu2); $affichage.="$classes\, "; }		
 	    }
 	    $affichage=~s/\, $//; $affichage=~s/\, $defaut//g; $affichage=~s/$defaut\, //g; if ($affichage eq "") { $affichage=$defaut; }
 	    print S "$contenu\t$affichage\n";
 	}
 	else {
-	    my $classes=&identifieClasses($contenu); print S "$contenu\t$classes\n";
-	    if ($contenu=~/a$/) { $contenu=~s/a$/e/; $classes=&identifieClasses($contenu); print S "$contenu\t$classes\n"; }
+	    # Si un mot se termine par "-a", on vérifie qu'il ne
+	    # s'agit pas d'abord d'un mot réel en DCI, si la classe
+	    # reste nulle, on essaie une francisation
+	    if ($contenu=~/a$/) {
+		my $classes=&identifieClasses($contenu);
+		if ($classes ne $defaut) { print S "$contenu\t$classes\n"; }
+		else { $contenu=~s/a$/e/; my $classes=&identifieClasses($contenu); print S "$contenu\t$classes\n"; }
+	    } else { my $classes=&identifieClasses($contenu); print S "$contenu\t$classes\n"; }
 	}
     }
 }

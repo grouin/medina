@@ -117,7 +117,6 @@ dil-/-dil/-dyl	dil-/-dil/-dyl		vasodilatateurs, antiangoreux	Bépridil (Cordium)
 -dralazine	-dralazine	dérivés de l’hydrazinephtalazine	antihypertenseurs	Déhydralazine	H300	Antihypertenseurs dérivés de l'hydralazine et de la phtalazine
 -drine	-drine	dérivés des éphédrines	sympathomimétiques	Dioxéthédrine (Bexol), Noréphédrine (Dénoral Cp. – Rinurel – Rupton)	E400	Sympathomimétiques dérivés de la phényléthylamine et particulièrement des éphédrines
 -dronate/-dronique	-dronate/-dronique	biphosphonates	antiostéoporotiques, antipagétiques	Étidronate (Didronel), Résidronate (Actonel)	N800, U400 	Régulateurs du métabolisme du calcium (Diphosphonates)
--dustat	-dustat			Vadadustat		Inhibiteurs de la prolyl-hydroxylase du facteur inductible par l'hypoxie (HIF)
 -dutant	-dutant	antagonistes des récepteurs de la neurokinine NK2				
 -ectin	-ectine	dérivés de l’ivermectine	antiparasitaires	Ivermectine	S300	
 -elestat	-elestat	inhibiteurs de l’élastase				
@@ -171,13 +170,12 @@ gli-/-gli-	gli-/-gli-	sulfamides hypoglycémiants	antidiabétiques	Glibenclamide
 -glitazar	-glitazar	agonistes des récepteurs gamma activant les proliférateurs de peroxisome			M520	
 -glitazone	-glitazone	agonistes des récepteurs gamma activant les proliférateurs de peroxisome, dérivés de la thiazolidinédione			M520	
 -glumide	-glumide	antagonistes de la cholecystokinine (CCK)	antiulcéreux, anxiolitiques		J000	
--glustat	-glustat			Venglustat		Inhibiteurs de la glycosyltransférase
 -glutide	-glutide	analogues des Glucagon-Like Peptide (GLP)				
 -golide	-golide	dérivés de l’ergolide, agonistes des récepteurs de la dopamine	antiparkinsoniens	Quinagolide (Norprolac)	E110	Agonistes dopaminergiques, dérivés de l'ergoline, utilisés comme antiparkinsoniens ou inhibiteurs de la prolactine
 -gramostim	-gramostime	facteurs de stimulation des colonies granulocyte macrophage				
 -grastim	-grastime	facteurs de stimulation des colonies granulocyte				
 -grel-	-grel-	inhibiteurs de l’agrégation plaquettaire	antiagrégants plaquettaires	Anagrélides, Camonagrel, Clopidogrel, Dazmégrel, Furégrélate, Isbogrel, Itazigrel, Midazogrel, Nafagrel, Nicogrélate, Oxagrélate, Ozagrel, Pamicogrel, Pirmagrel, Ridogrel, Rolafagrel, Sarpogrélate, Satigrel, Sunagrel, Trifénagrel	I210	
--gro-/-gr-	-gro-/-gr-					Anticorps monoclonaux ayant pour cible les facteurs de croissance et les récepteurs dépendant de la masse musculaire
+-gro-/-gr-	-gro-/-gr-	anticorps monoclonaux ciblant les facteurs de croissance				Anticorps monoclonaux ayant pour cible les facteurs de croissance et les récepteurs dépendant de la masse musculaire
 guan-	guan-	dérivés de la guanidine	antihypertenseurs	Guanfacine (Estulic)	H300	Antihypertenseurs dérivés de la guanidine
 -ibine	-ibine	dérivés du ribofuranyl de type pyrazofurine				
 -icam	-icam	dérivés de l’isoxicam	antalgiques, antipyreptiques, anti-inflammatoires	Piroxicam (Brexin – Feldène – Zildam), Méloxicam (Mobic), Ténoxicam (Doxican - Tilcotil)	A420	Anti-inflammatoires non stéroïdiens du groupe des oxicams
@@ -194,7 +192,7 @@ imex	imex		immunostimulants		S700
 -inostat	-inostat	inhibiteurs de l’histone deacétylase				
 -io	-io	produits de contraste iodés	opacificateurs des organes creux	Acide Ioxitalamique (Télébrix), Iopamidol (Iopamiron), Iopromide (Ultravist), Iopydol (Hytrast)	U110	Produits de contraste iodés
 -io-/iod-	-io-/iod-	dérivés iodés autres que les produits de contrastes		---	U110	Dérivés iodés autres que les produits de contraste
--iptan	-iptan			Sumatriptan (Imigran), Zolmitriptan (Zomig)		Agonistes des récepteurs de la sérotonine dits 5 HT1 (triptans antimigraineux)
+-iptan	-iptan	agonistes des récepteurs de la sérotonine	antimigraineux	Sumatriptan (Imigran), Zolmitriptan (Zomig)		Agonistes des récepteurs de la sérotonine dits 5 HT1 (triptans antimigraineux)
 -irudin	-irudine	dérivés de l’hirudine, inhibiteurs de la thrombine			I210	
 -isomide	-isomide	dérivés de la disopyramide	antiarythmiques de classe I		H200	
 -ium	-ium	ammoniums quaternaires	antiseptiques spermicides		E300	Ammoniums quaternaires utilisés comme curarisants (Cf. -curium)
@@ -293,7 +291,7 @@ nal-	nal-	antagonistes ou agonistes des récepteurs opioïdes	antalgiques, sevra
 -naritide	-naritide	peptides et glycopeptides				
 -nertant	-nertant	antagonistes de la neurotensine				
 -netant	-netant	antagonistes des récepteurs de la neurokinine NK3				
--netide	-nétide			---		Peptides et glycopeptides dont les utilisations neurologiques sont revendiquées
+-netide	-nétide	peptides et glycopeptides		---		Peptides et glycopeptides dont les utilisations neurologiques sont revendiquées
 -nicate	-nicate	esters d’acide nicotinique	antihypercholestérolémiques, vasodilatateurs		F220	
 -nicline	-nicline	agonistes (partiels) des récepteurs nicotiniques de l’acétylcholine			E112	
 nico-/nic-/ni-	nico-/nic-/ni-	dérivés de l’alcool nicotinoyl ou de l’acide nicotinique			P700	
@@ -345,7 +343,7 @@ perfl(u)-	perfl(u)-	composés perfluorés	substituts sanguins, produits de diagn
 -pin(e)	-pin(e)	composés tricycliques			C320	
 -zepine	-zépine	composés tricycliques			C320	
 -piprazole	-piprazole	dérivés de la phénylpiperazine	psychotropes		C000	
--pirdine	-pirdine					Antagonistes des récepteurs 5-HT6 de la sérotonine  ---
+-pirdine	-pirdine	antagonistes des récepteurs 5-HT6 de la sérotonine				Antagonistes des récepteurs 5-HT6 de la sérotonine  ---
 -pirone	-pirone	dérivés de la buspirone	anxiolitiques			
 -pirox	-pirox	dérivés de la pyridone	antimycosiques	Ciclopirox (Mycoster Verni)		Antimycosiques dérivés de la pyridone
 -pitant	-pitant	antagonistes des récepteurs des neurokinines NK1 (substance P)	antiémétiques			
@@ -360,7 +358,7 @@ perfl(u)-	perfl(u)-	composés perfluorés	substituts sanguins, produits de diagn
 -poetin	-poétine	facteurs sanguins de type érythropoïétine	antianémiques	Epoétine Alpha	I300	Facteurs sanguins analogues à l'érytropoïétine
 -porfin	-porfine	dérivés de la benzoporphyrine				
 -poride	-poride	inhibiteurs de l’antiport NA+/H+				
--potide	-potide			---		Peptides et glycopeptides dont les utilisations dans la cancer de la prostate sont revendiquées
+-potide	-potide	peptides et glycopeptides	anticancéreux	---		Peptides et glycopeptides dont les utilisations dans la cancer de la prostate sont revendiquées
 -pramine	-pramine	substance du groupe des imipraminiques		Imipramine (Tofranil), Trimipramine (Surmontil)	C320	Antidepresseurs imipraminiques
 -prazole	-prazole	inhibiteurs de la pompes à protons, dérivés de la benzimidazole	antiulcéreux	Lansoprazole (Lanzor), Oméprazole (Aulcer – Mopral – Omegen - Prazol –Proton), Pantoprazole (Inipomp)	J000	Anti-ulcéreux dérivés du benzimidazole, inhibiteurs de la pompe à protons
 -pred-	-pred-	dérivés de la prednisone et de la prednisolone		Prednimustine	Q330	Corticostéroïdes dérivés de la prednisone ou de la prednisolone
@@ -410,7 +408,7 @@ salazo-/-salazo-/-salazine/-salazide	salazo-/-salazo-/-salazine/-salazide	dériv
 -sertib	-sertib	inhibiteurs de la kinase sérine/thréonine				
 -setron	-sétron	antagonistes des récepteurs de la sérotonine 5HT-3	antiémétiques	Ondansétron (Zofran)	C700	Antiémétiques, antagonistes des récepteurs de la sérotonine de type 5HT3
 -sib	-sib	anti-PI3 kinase	anticancéreux			
--siban	-siban			Nolasiban		Antagonistes de l'oxytocine
+-siban	-siban	antagonistes de l'oxytocine		Nolasiban		Antagonistes de l'oxytocine
 -siran	-siran			Cemdisiran, Givosiran, Inclisiran		---
 som-	som-	dérivés des hormones de croissance		Somatotropine (Génotropin - Umatrope)	Q000	Dérivés de l'hormone de croissance
 -sopine	-sopine	composés tricycliques				
@@ -418,7 +416,9 @@ som-	som-	dérivés des hormones de croissance		Somatotropine (Génotropin - Uma
 -stan/-stan-	-stan/-stan-			Stanozolol, Drostanolone	M000, Q230 	Stéroïdes androgènes et/ou anabolisants protéiniques
 -stat	-stat	inhibiteurs d’enzimes	antigoutteux, antiobésité, hypolipémants		W000	---
 -castat	-castat	inhibiteurs de la dopamine-hydroxylase			W000	
--dostat	-dostat			Epacadostat	W000	Inhibiteurs de l'indoléamine 2 3-dioxygénase 1
+-dostat	-dostat	Inhibiteurs de l'indoléamine 2 3-dioxygénase 1		Epacadostat	W000	Inhibiteurs de l'indoléamine 2 3-dioxygénase 1
+-dustat	-dustat	Inhibiteurs de la prolyl-hydroxylase		Vadadustat		Inhibiteurs de la prolyl-hydroxylase du facteur inductible par l'hypoxie (HIF)
+-glustat	-glustat	Inhibiteurs de la glycosyltransférase		Venglustat		Inhibiteurs de la glycosyltransférase
 -steine	-stéine	destructeurs des ponts disulfures	fluidifiants bronchiques	Acétylcystéine (Exomuc – Fluimicil – Mucolator – Mucomyst), Carbocistéine (Bronchathiol – Carboxyl - Fluvic – Médibronc – Mucocil – Pneumocist – Rhinathiol)	K000	Mucolytiques apparentés à la cystéine
 -cisteine	-cistéine	mucolitiques autres que les dérivés de la bromhexine			K000	
 -ster-	-ster-	stéroïdes androgènes et anabolisants		Testostérone (Andriol – Androtardyl – Sustanon)	Q230	Stéroïdes androgènes et/ou anabolisants protéiques 
@@ -479,7 +479,7 @@ sulfa-	sulfa-	sulfonamides	anti-infectieux	Sulfacétamide (Sulfa-Bleu), Sulfagua
 -vastatin	-vastatine	inhibiteurs de l’HMG-CoA réductase	hypolipidémiants, antihyperlipidémiques	Atorvastatine (Tahor), Pravastatine (Elisor), Simvastatine (Zocor)	H400, M300	Inhibiteurs de l'HMG-CoA réductase (Statines hypocholestérolémiantes)
 -vec	-vec	produits de thérapie génique				
 -verine	-vérine	agissants comme la papavérine	antalgiques, antispasmodiques	Alvérine (Météospasmyl – Spasmavérine), Drotavérine (No-Spa), Fénovérine (Ex-Spasmopriv), Mébévérine (Béviran – Duspatalin – Mébévérine Forte)	F100	Spasmolytiques non atropiniques agissant comme la papavérine
--vet-	-vet-			---	Y000	Anticorps monoclonaux à usage vétérinaire
+-vet-	-vet-	anticorps monoclonaux à usage vétérinaire		---	Y000	Anticorps monoclonaux à usage vétérinaire
 vin-/-vin-	vin-/-vin-	alcaloïdes de la pervenche Vinca	cytostatiques, vasodilatateurs cérébraux	Vincamine (Pervincamine)	B100, L500 	Alcaloïdes de la pervenche Vinca
 vin-/-vin-	vin-/-vin-	alcaloïdes de la pervenche Vinca	cytostatiques, vasodilatateurs cérébraux	Vinblastine (Velbé), Vincristine (Oncovin), Vindésine (Eldésine)	B100, L500 	Alcaloïdes de la pervenche tropicale
 -vir	-vir	antiviraux	anti-infectieux	Aciclovir (Aciclosine – Cicloviral – Cusiviral – Zovirax), Ganciclovir (Cymevène)	S530	Antiviraux divers
