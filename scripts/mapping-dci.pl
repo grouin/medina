@@ -10,7 +10,12 @@
 # un CRF.
 
 # perl mapping-dci.pl ../../../../projet-Cress/scripts/europeen.csv 1 europeen.dci
+#
+# perl mapping-dci.pl treatment-cress.csv 2 sortie.dci
+# cut -f2 sortie.dci >out
+# paste treatment-cress.csv out >eval.csv
 
+  
 use strict;
 
 my $fichier=$ARGV[0]; # Fichier à traiter
@@ -145,22 +150,33 @@ sub identifieClasses() {
     my $cl="";
     my $k=0;
 
+    # Parcourt des segments-clés pour identification dans le mot, en
+    # restreignant aux seuls affixes (les préfixes et suffixes étant
+    # trouvés par la suite) comprenant plus de 4 caractères
+    foreach my $segment (sort keys %segments) {
+	if ($segment=~/^\-.*\-$/) { my $s=$segment; $s=~s/\-//; if ($cont=~/\w$s\w/) { $cl="$segments{$segment}"; $k++; } }
+    }
+    
     # On parcourt le mot :
 
-    # Du dernier au premier caractère
-    for (my $j=length($cont);$j>1;$j--) {
+    # 1° En supprimant les derniers caractères jusqu'au premier :
+    # isotretinoin, isotretinoi, isotretino, isotretin, ..., iso
+    for (my $j=length($cont);$j>2;$j--) {
 	my $mot=substr($cont,0,$j); my $prefixe="$mot\-"; my $suffixe="\-$mot"; my $affixe="\-$mot\-";
-	if (exists $segments{$suffixe} && $cl eq "") { $cl="$segments{$suffixe}"; $k++; }
-	elsif (exists $segments{$prefixe} && $cl eq "") { $cl="$segments{$prefixe}"; $k++; }
+	if (exists $segments{$prefixe} && $cl eq "") { $cl="$segments{$prefixe}"; $k++; }
 	elsif (exists $segments{$affixe} && $cl eq "") { $cl="$segments{$affixe}"; $k++; }
+	elsif (exists $segments{$suffixe} && $cl eq "") { $cl="$segments{$suffixe}"; $k++; }
     }
-    # Du premier au dernier caractère (permet de considérer les
-    # suffixes les plus longs d'abord)
-    for (my $j=0;$j<length($cont);$j++) {
+    # 2° En supprimant les premiers caractères jusqu'au dernier :
+    # isotretinoin, sotretinoin, otretinoin, tretinoin, ..., noin (on
+    # conserve les quatre derniers caractères pour éviter de faire
+    # correspondre tous les mots inconnus se terminant par -ine avec
+    # des alcaloïdes et bases organiques)
+    for (my $j=0;$j<length($cont)-3;$j++) {
     	my $mot=substr($cont,$j); my $prefixe="$mot\-"; my $suffixe="\-$mot"; my $affixe="\-$mot\-";
-    	if (exists $segments{$suffixe} && $cl eq "") { $cl="$segments{$suffixe}"; $k++; }
+    	if (exists $segments{$affixe} && $cl eq "") { $cl="$segments{$affixe}"; $k++; }
     	elsif (exists $segments{$prefixe} && $cl eq "") { $cl="$segments{$prefixe}"; $k++; }
-    	elsif (exists $segments{$affixe} && $cl eq "") { $cl="$segments{$affixe}"; $k++; }
+    	elsif (exists $segments{$suffixe} && $cl eq "") { $cl="$segments{$suffixe}"; $k++; }
     }
 
     if ($cl eq "") { $cl=$defaut; }
