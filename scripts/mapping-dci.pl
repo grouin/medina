@@ -13,6 +13,11 @@
 # On travaille sur les segments-clés en anglais et en français ; pour
 # la version en anglais, on mémorise également la version sans "e"
 # final (bien que l'OMS indique le "e" final : e.g., -floxacine).
+#
+# Cette correspondance de segments-clés ne peut s'appliquer que sur
+# des prescriptions en DCI. Les vitamines et compléments alimentaires
+# ne sont donc pas identifiables. Les spécialités (noms commerciaux)
+# ne répondent pas à cette logique de nommage.
 
 # perl mapping-dci.pl fichier num-colonne sortie [label]
 
@@ -186,7 +191,7 @@ sub identifieClasses() {
     # restreignant aux seuls affixes (les préfixes et suffixes étant
     # trouvés par la suite) comprenant plus de 4 caractères
     foreach my $segment (sort keys %segments) {
-	if ($segment=~/^\-.*\-$/) { my $s=$segment; $s=~s/\-//; if ($cont=~/\w$s\w/) { $cl="$segments{$segment}"; $k++; } }
+	if ($segment=~/^\-.*\-$/) { my $s=$segment; $s=~s/\-//g; if ($cont=~/\w$s\w/) { $cl="$segments{$segment}"; $k++; } }
     }
     
     # On parcourt le mot :
