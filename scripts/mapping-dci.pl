@@ -189,11 +189,16 @@ sub identifieClasses() {
 
     # Parcourt des segments-clés pour identification dans le mot, en
     # restreignant aux seuls affixes (les préfixes et suffixes étant
-    # trouvés par la suite) comprenant plus de 4 caractères
+    # trouvés par la suite) comprenant plus de 4 caractères (évite que
+    # le segment-clé "-ni-" soit identifié dans Ciclesonide et
+    # Prednisone au détriment des segments-clés "-onide" et "-pred-")
     foreach my $segment (sort keys %segments) {
-	if ($segment=~/^\-.*\-$/) { my $s=$segment; $s=~s/\-//g; if ($cont=~/\w$s\w/) { $cl="$segments{$segment}"; $k++; } }
+	if ($segment=~/^\-.*\-$/ && length($segment)>4) {
+	    my $s=$segment; $s=~s/\-//g;
+	    if ($cont=~/\w$s\w/) { $cl="$segments{$segment}"; $k++; } 
+	}
     }
-    
+
     # On parcourt le mot :
 
     # 1° En supprimant les derniers caractères jusqu'au premier :
@@ -215,6 +220,18 @@ sub identifieClasses() {
     	elsif (exists $segments{$prefixe} && $cl eq "") { $cl="$segments{$prefixe}"; $k++; }
     	elsif (exists $segments{$suffixe} && $cl eq "") { $cl="$segments{$suffixe}"; $k++; }
     }
+
+    # Nouveau parcourt des segments-clés, sans contrainte de taille du
+    # segment, pour compléter les prédictions des étapes précédentes
+    foreach my $segment (sort keys %segments) {
+	# Affixes
+	if ($segment=~/^\-.*\-$/) { my $s=$segment; $s=~s/\-//g; if ($cont=~/\w$s\w/ && $cl eq "") { $cl="$segments{$segment}"; $k++; }}
+	# Préfixes
+	elsif ($segment=~/\-$/) { my $s=$segment; $s=~s/\-$//; if ($cont=~/^$s\w/ && $cl eq "") { $cl="$segments{$segment}"; $k++; }}
+	# Suffixes
+	elsif ($segment=~/^\-/) { my $s=$segment; $s=~s/^\-//; if ($cont=~/\w$s$/ && $cl eq "") { $cl="$segments{$segment}"; $k++; }}
+    }
+
 
     if ($cl eq "") { $cl=$defaut; }
     return $cl;
