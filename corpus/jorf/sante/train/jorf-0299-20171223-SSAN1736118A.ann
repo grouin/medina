@@ -1,11 +1,11 @@
-T1	Lieu 271 286	Arabie Saoudite
-T2	Date 765 779	2 janvier 2018
-T4	Date 248 259	14 mai 1985
-T5	Ville 262 269	Djeddah
 T6	Date 10 26	15 décembre 2017
 T7	Id 102 114	SSAN1736118A
 T8	Date 204 220	15 décembre 2017
-T9	Personne 226 239	Sahar BANNANI
-A1	role T9 soignant
-T11	Organisation 550 560	Hôtel Dieu
-T3	Ville 443 449	Nantes
+T1	Organisation 549 559	Hôtel Dieu
+T2	Ville 442 448	Nantes
+T3	Ville 264 276	Kristiansund
+T4	Lieu 278 285	Norvège
+T5	Date 250 261	2 juin 1987
+T9	Date 764 778	2 janvier 2018
+T10	Personne 226 241	Erna BJORNDALEN
+A1	role T10 soignant

@@ -2,10 +2,10 @@ T1	Date 773 785	19 mars 2018
 T4	Date 10 24	9 juillet 2019
 T5	Id 100 112	SSAN1920161A
 T6	Date 202 216	9 juillet 2019
-T7	Personne 221 233	Yaqoub JAFAR
+T7	Personne 221 233	Maqsim BELAR
 A1	role T7 soignant
-T8	Date 241 256	13 octobre 1986
-T9	Ville 259 265	Koweït
-T10	Lieu 267 273	Koweït
+T8	Date 241 256	27 juillet 1946
+T9	Ville 259 265	Zurich
+T10	Lieu 267 273	Suisse
 T2	Organisation 445 464	hôpital Mère-Enfant
 T11	Ville 439 443	Lyon

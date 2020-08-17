@@ -1,12 +1,12 @@
 T1	Date 837 849	19 mars 2018
-T2	Lieu 272 279	Algérie
+T2	Lieu 272 279	Espagne
 T3	Date 10 26	11 décembre 2018
 T4	Id 102 114	SSAN1833888A
 T5	Date 204 220	11 décembre 2018
-T6	Personne 225 238	Walid YAKHLEF
+T6	Personne 225 238	Alberto NUNEZ
 A1	role T6 soignant
-T7	Date 246 262	1er janvier 1984
-T8	Ville 265 270	Batna
+T7	Date 246 262	15 novembre 1985
+T8	Ville 265 270	Lalin
 T9	Organisation 425 445	Germaine Le Guillant
 T10	Organisation 510 525	Le Mas Careiron
 T11	Ville 503 507	Uzès

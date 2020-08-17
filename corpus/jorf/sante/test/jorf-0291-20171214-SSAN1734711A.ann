@@ -1,10 +1,10 @@
-T1	Lieu 269 288	Emirats arabes unis
-T2	Ville 258 267	Abu Dhabi
 T3	Date 10 26	20 novembre 2017
 T4	Id 102 114	SSAN1734711A
 T5	Date 204 220	20 novembre 2017
-T6	Personne 225 236	Mohamed ADI
-A1	role T6 soignant
-T7	Date 244 255	4 août 1984
-T8	Date 741 756	2 novembre 2017
-T10	Ville 530 536	Colmar
+T1	Ville 518 524	Colmar
+T2	Ville 260 267	Szolnok
+T6	Lieu 269 276	Hongrie
+T7	Personne 225 237	Zoltan VAJDA
+T8	Date 245 257	4 avril 1994
+T9	Date 729 744	2 novembre 2017
+A1	role T7 soignant

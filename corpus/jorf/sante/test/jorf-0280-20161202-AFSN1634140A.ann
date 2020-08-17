@@ -1,12 +1,12 @@
-T1	Lieu 276 291	Arabie Saoudite
-T2	Ville 269 274	Jazan
-T5	Date 741 756	2 novembre 2016
 T6	Date 10 26	23 novembre 2016
 T7	Date 210 226	23 novembre 2016
 T8	Id 102 114	AFSN1634140A
-T9	Personne 231 243	Waseem BORIK
-A1	role T9 soignant
-T10	Date 251 266	9 novembre 1984
-T11	Organisation 473 508	Hôpitaux Universitaires Paris Ouest
-T12	Organisation 511 535	Hôpital Georges Pompidou
+T1	Organisation 511 535	Hôpital Georges Pompidou
+T2	Organisation 473 508	Hôpitaux Universitaires Paris Ouest
 T3	Ville 465 470	Paris
+T4	Ville 274 282	Alicante
+T5	Lieu 284 291	Espagne
+T9	Date 741 756	2 novembre 2016
+T10	Date 256 271	9 novembre 1984
+T11	Personne 231 248	José Luis CASTEDO
+A1	role T11 soignant

@@ -1,11 +1,11 @@
 T1	Date 10 26	24 novembre 2016
 T2	Date 210 226	24 novembre 2016
 T3	Id 102 114	AFSN1634430A
-T4	Lieu 279 294	Arabie saoudite
-T5	Ville 271 277	Jeddah
-T7	Date 765 780	2 novembre 2016
-T8	Personne 231 245	Salah ALGHAMDI
-A1	role T8 soignant
-T9	Date 253 268	14 octobre 1982
-T6	Organisation 514 559	centre hospitalier universitaire Henri Mondor
-T11	Ville 507 512	Paris
+T4	Organisation 511 556	centre hospitalier universitaire Henri Mondor
+T5	Ville 504 509	Paris
+T6	Date 762 777	2 novembre 2016
+T7	Personne 231 245	Theodor ZAMFIR
+A1	role T7 soignant
+T8	Date 253 267	7 juillet 1987
+T9	Ville 270 281	Cluj-Napoca
+T10	Lieu 283 291	Roumanie

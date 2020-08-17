@@ -2,12 +2,12 @@ T1	Date 885 897	19 mars 2018
 T4	Date 10 26	10 décembre 2019
 T5	Id 102 114	SSAN1935778A
 T6	Date 205 221	10 décembre 2019
-T7	Personne 226 252	Abdoulkader ADAMOU ALZOUMA
+T7	Personne 226 252	Ibrahim Abel AMADOU BAKARY
 A1	role T7 soignant
-T8	Date 260 276	6 septembre 1973
+T8	Date 260 276	11 novembre 1971
 T9	Ville 279 285	Niamey
 T10	Lieu 287 292	Niger
-T11	Personne 499 515	Frédéric Mercier
+T11	Personne 499 515	Childéric Dulaur
 A2	role T11 soignant
 T12	Organisation 522 545	Hôpital Antoine Béclère
 T2	Ville 579 584	Paris

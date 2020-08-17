@@ -3,10 +3,10 @@ T2	Lieu 266 273	Algérie
 T3	Date 10 21	2 août 2019
 T4	Date 199 210	2 août 2019
 T5	Id 97 109	SSAN1923049A
-T6	Personne 215 234	Saadeddine MECHAOUR
+T6	Personne 215 234	Abdelmadjid SATTOUF
 A1	role T6 soignant
-T7	Date 242 254	24 août 1984
-T8	Ville 257 264	Settara
-T10	Personne 456 474	Mohamed MAHIEDDINE
+T7	Date 242 254	13 juin 1973
+T8	Ville 257 264	Tlemcen
+T10	Personne 456 474	Messali MDAOUROUCH
 A2	role T10 soignant
 T11	Ville 520 526	Nevers

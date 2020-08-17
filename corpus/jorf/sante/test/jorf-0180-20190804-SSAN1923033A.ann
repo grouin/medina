@@ -2,13 +2,13 @@ T1	Date 873 885	19 mars 2018
 T3	Date 10 21	2 août 2019
 T4	Id 97 109	SSAN1923033A
 T5	Date 199 210	2 août 2019
-T6	Personne 216 235	Nesrine IBN HASSINE
+T6	Personne 216 235	Nadyiha IBN HOSSEUR
 A1	role T6 soignant
-T7	Personne 243 249	JEBALI
+T7	Personne 243 249	JIHANI
 A2	role T7 autre
-T8	Date 258 275	19 septembre 1984
-T9	Ville 278 284	Chebba
+T8	Date 258 275	12 septembre 1986
+T9	Ville 278 284	Djebba
 T10	Lieu 286 293	Tunisie
-T11	Personne 516 535	Alexandre LAVERDURE
+T11	Personne 516 535	Augustin LEPERCHAND
 A3	role T11 soignant
 T12	Ville 562 571	Perpignan

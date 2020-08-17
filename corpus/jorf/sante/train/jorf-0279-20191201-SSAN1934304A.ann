@@ -1,13 +1,13 @@
-T1	Lieu 272 287	Arabie saoudite
-T4	Date 748 765	1er novembre 2019
-T5	Ville 263 270	Djeddah
 T6	Date 10 26	28 novembre 2019
 T7	Date 204 220	28 novembre 2019
 T8	Id 102 114	SSAN1934304A
-T9	Personne 225 240	Qusay MANDOORAH
+T9	Personne 225 240	Axel MERRINASEL
 A1	role T9 soignant
-T10	Date 248 260	17 mars 1988
-T11	Personne 447 461	Olivier Bitker
-A2	role T11 soignant
-T12	Organisation 484 501	Pitié-Salpêtrière
-T3	Ville 536 541	Paris
+T10	Date 248 260	26 juin 1994
+T1	Ville 263 271	Enschede
+T2	Lieu 273 281	Pays-Bas
+T3	Personne 441 455	Oscaldo Bineri
+A2	role T3 soignant
+T4	Date 742 759	1er novembre 2019
+T5	Ville 530 535	Paris
+T11	Organisation 478 495	Pitié-Salpêtrière

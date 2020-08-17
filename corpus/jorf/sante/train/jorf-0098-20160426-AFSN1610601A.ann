@@ -1,10 +1,10 @@
-T1	Lieu 268 283	Arabie saoudite
 T3	Date 10 22	29 mars 2016
 T4	Id 98 110	AFSN1610601A
 T5	Date 206 218	29 mars 2016
-T6	Personne 223 238	Yahya ALQAHTANI
+T6	Personne 223 238	Lionel BROCHANT
 A1	role T6 soignant
 T7	Date 682 696	1er avril 2016
-T9	Date 246 259	20 avril 1981
-T10	Ville 262 266	Abha
+T9	Date 246 259	1er mars 1971
 T2	Ville 466 476	Strasbourg
+T1	Ville 262 273	Wittewierum
+T8	Lieu 275 283	Pays-Bas

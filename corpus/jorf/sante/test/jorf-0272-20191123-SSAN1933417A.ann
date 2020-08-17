@@ -4,10 +4,10 @@ T3	Ville 262 271	Bouchrieh
 T4	Date 10 26	20 novembre 2019
 T5	Id 102 114	SSAN1933417A
 T6	Date 204 220	20 novembre 2019
-T7	Personne 225 236	Samer HABER
+T7	Personne 225 236	Sami CHERKI
 A1	role T7 soignant
-T8	Date 244 259	30 janvier 1987
+T8	Date 244 259	12 février 1972
 T9	Organisation 553 583	Hôpital Necker-Enfants Malades
-T11	Personne 532 546	Philippe Cornu
+T11	Personne 532 546	Philippe Calmo
 A2	role T11 soignant
 T12	Ville 618 623	Paris

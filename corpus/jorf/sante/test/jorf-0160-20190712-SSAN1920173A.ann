@@ -1,11 +1,11 @@
-T1	Date 795 807	19 mars 2018
 T3	Date 10 24	9 juillet 2019
 T4	Date 202 216	9 juillet 2019
 T5	Id 100 112	SSAN1920173A
-T6	Personne 221 238	Khalid AL BALUSHI
-A1	role T6 soignant
-T7	Date 246 262	29 décembre 1982
-T8	Ville 265 270	Dubaï
-T9	Lieu 272 291	Emirats Arabes Unis
-T10	Organisation 424 442	Hôpital Conception
-T2	Ville 477 486	Marseille
+T1	Organisation 414 432	Hôpital Conception
+T2	Ville 467 476	Marseille
+T6	Ville 264 271	Coimbra
+T7	Lieu 273 281	Portugal
+T8	Date 245 261	18 novembre 1974
+T9	Date 785 797	19 mars 2018
+T10	Personne 221 237	Bruno DE ALMEIDA
+A1	role T10 soignant

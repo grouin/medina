@@ -1,13 +1,13 @@
-T3	Lieu 269 284	Arabie saoudite
 T4	Date 10 26	14 novembre 2019
 T5	Date 194 210	14 novembre 2019
 T6	Id 102 114	SSAN1932832A
-T7	Personne 215 233	Abdulrahman ARAFAH
+T7	Personne 215 238	William John REMINGSTON
 A1	role T7 soignant
-T8	Date 241 257	10 décembre 1986
-T9	Ville 260 267	Djeddah
-T10	Organisation 481 498	hôpital la Timone
-T2	Personne 461 475	Thierry Merrot
+T10	Organisation 485 502	hôpital la Timone
+T2	Personne 465 479	Thierry Merrot
 A2	role T2 soignant
-T11	Date 756 773	1er novembre 2019
-T12	Ville 541 550	Marseille
+T11	Date 760 777	1er novembre 2019
+T12	Ville 545 554	Marseille
+T1	Date 246 262	17 novembre 1975
+T3	Ville 265 275	Manchester
+T8	Lieu 277 288	Royaume-Uni

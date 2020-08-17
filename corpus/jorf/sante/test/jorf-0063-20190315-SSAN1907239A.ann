@@ -1,19 +1,19 @@
-A10	role T9 soignant
 A8	role T7 soignant
-T1	Date 1373 1383	2 mai 2018
-T11	Lieu 403 418	Arabie saoudite
-T12	Lieu 818 833	Arabie saoudite
-T13	Ville 395 401	Jeddah
-T14	Ville 810 816	Jeddah
-T2	Date 377 392	22 janvier 1987
-T3	Date 792 807	22 janvier 1987
+T11	Lieu 404 415	Royaume-Uni
+T13	Ville 395 402	Norwich
+T2	Date 377 392	13 juillet 1977
 T4	Date 58 72	5 février 2019
 T5	Date 286 300	5 février 2019
-T6	Date 1225 1239	5 février 2019
-T7	Personne 358 369	Alaa AZHARI
-T9	Personne 773 784	Alaa AZHARI
+T7	Personne 358 369	Carl WINTER
 T8	Id 142 154	SSAN1907239A
 T10	Date 10 21	5 mars 2019
 T15	Date 244 255	5 mars 2019
-T16	Date 1477 1490	1er mars 2019
-T18	Ville 1050 1066	Clermont-Ferrand
+T17	Personne 770 781	Carl WINTER
+T1	Date 789 804	13 juillet 1977
+T3	Ville 807 814	Norwich
+T6	Lieu 816 827	Royaume-Uni
+A1	role T17 soignant
+T9	Ville 1044 1060	Clermont-Ferrand
+T12	Date 1219 1233	5 février 2019
+T14	Date 1367 1377	2 mai 2018
+T16	Date 1471 1484	1er mars 2019

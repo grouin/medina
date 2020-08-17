@@ -1,11 +1,11 @@
 T1	Date 10 26	19 décembre 2018
 T2	Date 204 220	19 décembre 2018
-T3	Lieu 276 291	Arabie Saoudite
-T4	Ville 266 274	Alkhobar
-T5	Date 248 263	25 octobre 1985
 T7	Id 102 114	SSAN1835343A
-T8	Personne 225 240	Hefzi ALRATROUT
-A1	role T8 soignant
-T9	Organisation 508 530	hôpital de Hautepierre
-T10	Date 776 790	2 janvier 2019
-T11	Ville 560 570	Strasbourg
+T3	Organisation 506 528	hôpital de Hautepierre
+T4	Ville 558 568	Strasbourg
+T5	Ville 271 279	Bucarest
+T6	Lieu 281 289	Roumanie
+T8	Date 774 788	2 janvier 2019
+T9	Date 252 268	16 décembre 1989
+T10	Personne 225 244	Nicolae STANCULESCU
+A1	role T10 soignant

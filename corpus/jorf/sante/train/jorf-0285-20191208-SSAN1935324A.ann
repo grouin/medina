@@ -1,12 +1,12 @@
-T1	Date 859 871	19 mars 2018
-T2	Lieu 279 294	Arabie Saoudite
-T3	Ville 260 277	Alqunfedch Makkah
 T4	Date 10 25	5 décembre 2019
 T5	Id 101 113	SSAN1935324A
-T6	Personne 223 236	Abdu ALKHAYRI
-A1	role T6 soignant
 T7	Date 203 218	5 décembre 2019
-T8	Personne 482 502	Caroline Le Guerinel
-A2	role T8 soignant
-T9	Organisation 510 557	Fondation ophtalmologique Adolphe de Rothschild
-T10	Date 244 257	14 avril 1988
+T1	Organisation 503 550	Fondation ophtalmologique Adolphe de Rothschild
+T2	Personne 223 236	Aldo DI SANTI
+T3	Date 244 255	3 juin 1997
+T6	Ville 258 276	Santeramo in Colle
+T8	Lieu 278 284	Italie
+T9	Personne 472 495	Bérengère Du Vascquinel
+A1	role T2 soignant
+A2	role T9 soignant
+T10	Date 852 864	19 mars 2018

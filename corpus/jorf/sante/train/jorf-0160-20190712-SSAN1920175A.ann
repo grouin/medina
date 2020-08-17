@@ -1,14 +1,13 @@
-T1	Date 876 888	19 mars 2018
-T2	Lieu 276 283	Algérie
 T3	Date 10 24	9 juillet 2019
 T4	Date 202 216	9 juillet 2019
 T5	Id 100 112	SSAN1920175A
-T6	Personne 221 232	Lyes CHERFI
+T6	Personne 221 232	Amil FIERGO
 A1	role T6 soignant
-T7	Personne 517 530	Thierry LANGS
-A2	role T7 soignant
-T8	Organisation 535 566	Centre Hospitalier Henri Mondor
-T9	Ville 569 577	Aurillac
-T10	Ville 255 266	Hussein-Dey
-T11	Date 240 252	11 août 1965
-T12	Ville 269 274	Alger
+T1	Date 240 252	23 mars 1985
+T2	Ville 255 272	Palma de Majorque
+T7	Lieu 274 281	Espagne
+T8	Personne 515 528	Henry MANDARD
+A2	role T8 soignant
+T9	Ville 567 575	Aurillac
+T10	Organisation 533 564	Centre Hospitalier Henri Mondor
+T11	Date 874 886	19 mars 2018

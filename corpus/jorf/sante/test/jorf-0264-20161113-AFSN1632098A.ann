@@ -1,12 +1,13 @@
-T1	Lieu 277 292	Arabie saoudite
-T2	Ville 268 275	Al Hada
 T3	Date 10 25	2 novembre 2016
 T4	Id 101 113	AFSN1632098A
 T5	Date 209 224	2 novembre 2016
-T6	Personne 229 243	Tarik BAGHDADI
-A1	role T6 soignant
-T7	Date 251 265	2 juillet 1982
-T9	Organisation 427 453	Groupement hospitalier Est
-T10	Organisation 456 493	hôpital « Femme mère enfant » de Bron
-T11	Date 725 740	2 novembre 2016
-T12	Ville 514 518	Lyon
+T1	Organisation 429 455	Groupement hospitalier Est
+T2	Organisation 458 487	hôpital « Femme mère enfant »
+T6	Ville 491 495	Bron
+T7	Ville 516 520	Lyon
+T8	Date 727 742	2 novembre 2016
+T9	Date 254 268	2 juillet 1982
+T10	Personne 229 246	Prayut SHINAWATRA
+A1	role T10 soignant
+T11	Ville 271 283	Nakhon Sawan
+T12	Lieu 285 294	Thaïlande
