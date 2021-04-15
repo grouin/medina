@@ -2,7 +2,8 @@
 
 # Intègre dans le texte sous forme de balises ouvrantes et fermantes
 # les annotations existantes au format BRAT. Gestion correcte des
-# annotations imbriquées et discontinues.
+# annotations imbriquées et discontinues. Ne gère pas les annotations
+# sur plusieurs lignes (le script boucle et ne produit rien)
 
 # Auteur : Cyril Grouin, novembre 2019.
 
@@ -13,7 +14,7 @@ my @rep=<$ARGV[0]/*txt>;
 
 foreach my $fichier (@rep) {
   # Réinitialisations tableau du contenu du fichier et compteur de
-  # caractè!res
+  # caractères
   my @contenu=();
   my $i=0;
   
