@@ -40,7 +40,7 @@ wapiti train -t 2 -a rprop- -1 1 -c -p config/config_zero.tpl tab_reduc.zero mod
 wapiti label -p -m modele-zero tab_test.zero >sortie-zero
 
 # Prediction output evaluation (script from the conll challenge)
-#perl -CSDA post_propagation.pl sortie-zero >sortie-zero.prop
+#perl -CSDA scripts/post_propagation.pl sortie-zero >sortie-zero.prop
 perl scripts/post_conversion.pl sortie-zero
 perl scripts/conlleval.pl -d '\t' <sortie-zero
 

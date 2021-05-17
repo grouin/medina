@@ -3,14 +3,30 @@
 # Intègre dans le texte sous forme de balises ouvrantes et fermantes
 # les annotations existantes au format BRAT. Gestion correcte des
 # annotations imbriquées et discontinues. Ne gère pas les annotations
-# sur plusieurs lignes (le script boucle et ne produit rien)
+# sur plusieurs lignes (le script boucle et ne produit rien).
+# Si le schéma d'annotation ne correspond pas à l'apprentissage
+# souhaité, il est possible de mettre en deuxième argument une liste
+# de substitution de labels à effectuer (avant-après) en séparant
+# chaque couple de labels à modifier par une virgule (exemple pour
+# remplacer tous les labels Pays et Ville par le label Lieu :
+# Pays-Lieu,Ville-Lieu)
 
 # Auteur : Cyril Grouin, novembre 2019.
+
+# perl zero_alignement.pl repertoire/
+# perl zero_alignement.pl repertoire/ Pays-Lieu,Ville-Lieu
 
 use strict;
 use utf8;
 
 my @rep=<$ARGV[0]/*txt>;
+my $remplacement=$ARGV[1];
+my %modifs=();
+
+if ($remplacement ne "") {
+    my @couples=split(/\,/,$remplacement);
+    foreach my $couple (@couples) { my ($avant,$apres)=split(/\-/,$couple); $modifs{$avant}=$apres; }
+}
 
 foreach my $fichier (@rep) {
   # Réinitialisations tableau du contenu du fichier et compteur de
@@ -41,6 +57,8 @@ foreach my $fichier (@rep) {
     # Annotation d'entités
     if ($ligne=~/^T/) {
       my @cols=split(/\t/,$ligne);
+      my ($label,$debut,$fin)=split(/ /,$cols[1]);
+      if (exists $modifs{$label}) { $ligne=~s/\t$label/\t$modifs{$label}/;}
       my $taille=length($cols[2]);
       while (exists $tri{$taille}) { $taille+=$k; }
       $tri{$taille}=$ligne;
