@@ -100,7 +100,7 @@ foreach my $fichier (@rep) {
       else { $pos="nul"; }
 
       # Trigger words
-      if ($token=~/^(Madame|madame|Monsieur|monsieur|Mme|M\.|Mr|Melle|Me|MR|Pr|PR|Professeur|professeur|Dr|DR|Docteur|docteur|Cher|Chère|cher|chère|Nom|NOM|Prénom|PRENOM)$/) { $decl="pers"; }
+      if ($token=~/^(Madame|madame|Mademoiselle|mademoiselle|Monsieur|monsieur|Mme|M\.|Mr|Melle|Me|MR|Pr|PR|Professeur|professeur|Dr|DR|Docteur|docteur|Cher|Chère|cher|chère|Nom|NOM|Prénom|PRENOM)$/) { $decl="pers"; }
       elsif ($token=~/^(janvier|février|mars|avril|mai|juin|juillet|août|septembre|octobre|novembre|décembre|lundi|mardi|mercredi|jeudi|vendredi|samedi|dimanche|monday|tuesday|wednesday|thursday|friday|saturday|sunday|january|february|march|april|may|june|july|august|september|october|november|december)$/i) { $decl="date"; }
       elsif ($token=~/^(CH|CHR|CHU|clinique|hôpital|hôpitaux|hospitalier|hospices|hôtel|institut|laboratoire|maternité|centre|fondation|groupe|groupement|universitaire|adultes|enfants)$/i) { $decl="hosp"; }
       else { $decl="nul"; }
@@ -246,8 +246,8 @@ sub normalisation() {
   $contenu=~s/(\d) \, (\d)/$1\,$2/g;
   $contenu=~s/(\d) \/ (\d)/$1\/$2/g; # Pas d'espace dans les dates
   # Balises dont le nom est composé d'un point (Quaero) ou d'un tiret (INaLCO)
-  $contenu=~s/<(.*?) ([\-\.]) (.*?) ([\-\.]) (.*?)>/<$1$2$3$4$5>/g; # <loc.adm.town>
-  $contenu=~s/<(.*?) ([\-\.]) (.*?)>/<$1$2$3>/g;                    # <pers.ind>
+  $contenu=~s/<([^>]*?) ([\-\.]) ([^>]*?) ([\-\.]) ([^>]*?)>/<$1$2$3$4$5>/g; # <loc.adm.town>
+  $contenu=~s/<([^>]*?) ([\-\.]) ([^>]*?)>/<$1$2$3>/g;                    # <pers.ind>
   # Rétablissement des URLs et e-mails par la suppression des espaces
   # contenues dans ce qui a été balisé URL
   my $url="";
