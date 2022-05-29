@@ -1,0 +1,17 @@
+T2	Date 70 85	05 juillet 2021
+T3	Telephone 181 195	02 38 51 44 44
+T4	Adresse 273 295	14 avenue de l'Hôpital
+T5	Cp 296 301	45100
+T6	Ville 302 309	Orléans
+T7	Lieu 310 319	La Source
+T8	Adresse 338 360	14 avenue de l'Hôpital
+T9	Cp 361 370	CS 86 709
+T10	Cp 371 376	45067
+T11	Ville 377 384	Orléans
+T12	Personne 437 450	Olivier BOYER
+A1	role T12 soignant
+T13	Personne 487 509	Jean-Robert CHEVALLIER
+A2	role T13 soignant
+T14	URL 208 234	http://www.chr-orleans.fr/
+T1	Organisation 0 43	Centre hospitalier régional (CHR) - Orléans
+T15	Cedex 385 392	Cedex 2

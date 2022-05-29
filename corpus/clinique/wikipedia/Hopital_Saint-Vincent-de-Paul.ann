@@ -1,0 +1,23 @@
+T1	Organisation 10 31	Saint-Vincent-de-Paul
+T2	Adresse 78 110	74 de l'avenue Denfert-Rochereau
+T3	Ville 141 146	Paris
+T4	Date 372 376	1942
+T5	Personne 393 408	Vincent de Paul
+T6	Organisation 309 337	Hospice des Enfants-Assistés
+T7	Date 1124 1128	2015
+T8	Date 1132 1136	2020
+T9	Adresse 1503 1527	avenue Denfert-Rochereau
+T10	Ville 1367 1372	Paris
+T11	Organisation 631 652	Saint-Vincent-de-Paul
+T13	Organisation 59 64	AP-HP
+T14	Cp 119 122	14e
+T15	Date 194 198	2011
+T16	Organisation 585 591	Cochin
+T17	Organisation 622 628	Cochin
+T18	Personne 1106 1115	Léon XIII
+T19	Personne 964 985	saint Vincent de Paul
+T20	Personne 1026 1037	Clément XII
+A1	role T5 autre
+A2	role T19 autre
+A3	role T20 autre
+A4	role T18 autre

@@ -1,0 +1,28 @@
+T1	Ville 574 579	Paris
+T2	Personne 34 49	Patrick Modiano
+A1	role T2 autre
+T3	Date 58 72	2 octobre 2003
+T4	Organisation 86 95	Gallimard
+T5	Date 193 197	1988
+T6	Ville 290 303	Jouy-en-Josas
+T7	Date 540 544	1965
+T8	Age 505 514	vingt ans
+T9	Organisation 710 720	Hôtel-Dieu
+T10	Adresse 608 627	place des Pyramides
+A13	role T12 autre
+T11	Ville 1031 1044	Jouy-en-Josas
+T12	Personne 211 226	Patrick Modiano
+T13	Organisation 865 873	Mirabeau
+T14	Lieu 877 896	XVIe arrondissement
+T15	Adresse 1005 1028	rue du Docteur-Kurzenne
+T16	Adresse 1370 1388	square de l'Alboni
+T17	Adresse 1593 1604	rue Vineuse
+T18	Personne 1329 1351	Jacqueline Beausergent
+A2	role T18 inconnu
+T19	Adresse 1475 1495	rue de la Voie-Verte
+T20	Lieu 1433 1442	Trocadéro
+T22	Autre 0 17	Accident nocturne
+A3	classe T22 titre
+T24	Autre 168 183	Remise de peine
+A4	classe T24 titre
+T21	Organisation 1613 1624	Vol de nuit

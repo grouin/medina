@@ -1,0 +1,7 @@
+T1	Date 676 680	1886
+T2	Pathologie 14 26	Hirschsprung
+T3	Personne 653 672	Harald Hirschsprung
+A1	role T3 soignant
+T4	Personne 729 742	Orvar Swenson
+A2	role T4 soignant
+T5	Date 794 798	1948

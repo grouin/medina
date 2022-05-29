@@ -1,0 +1,21 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921686S
+T4	Adresse 290 321	10, rue Champ-Gaillard, BP 3082
+T5	Cp 323 328	78303
+T6	Ville 329 335	Poissy
+T7	Personne 720 734	A. B. Bleudoin
+A1	role T7 soignant
+T8	Personne 736 744	C. Bunod
+A2	role T8 soignant
+T9	Personne 781 789	D. Braun
+A3	role T9 soignant
+T10	Personne 791 801	E. Bixiert
+A4	role T10 soignant
+T11	Personne 834 841	F. Blin
+A5	role T11 soignant
+T12	Personne 879 889	G. Barcadi
+A6	role T12 soignant
+T13	Personne 891 899	H. Byena
+A7	role T13 soignant
+T3	Cedex 336 341	Cedex
+T16	Organisation 225 288	centre hospitalier intercommunal Poissy - Saint-Germain-en-Laye

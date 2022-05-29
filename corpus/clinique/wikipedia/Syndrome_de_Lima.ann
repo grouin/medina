@@ -1,0 +1,10 @@
+T1	Date 399 403	1996
+T2	Pathologie 15 19	Lima
+T3	Pathologie 361 370	Stockholm
+T4	Lieu 533 538	Japon
+A1	type T4 pays
+T5	Lieu 542 547	Pérou
+A2	type T5 pays
+T6	Ville 391 395	Lima
+T7	Organisation 420 457	Mouvement révolutionnaire Tupac Amaru
+T8	Organisation 459 463	MRTA

@@ -1,0 +1,45 @@
+A2	role T1 autre
+A4	role T3 autre
+A6	role T5 inconnu
+T1	Personne 61 70	Léo Malet
+T10	Ville 1182 1187	Paris
+T11	Organisation 98 112	Robert Laffont
+T3	Personne 186 198	Nestor Burma
+T5	Personne 339 351	Nestor Burma
+T7	Ville 156 161	Paris
+T8	Ville 1043 1048	Paris
+T9	Ville 1118 1123	Paris
+A17	role T16 autre
+A19	role T18 autre
+T16	Personne 471 476	Burma
+T18	Personne 553 558	Burma
+T2	Lieu 21 26	Javel
+T4	Date 80 84	1957
+T6	Personne 252 268	Hortense Demessy
+A1	role T6 inconnu
+T13	Personne 526 537	Zorga Tinea
+A3	role T13 inconnu
+T15	Profession 518 525	voyante
+T17	Adresse 612 629	place de Breteuil
+T19	Personne 646 652	Jeanne
+A5	role T19 inconnu
+T20	Organisation 909 912	FLN
+T21	Organisation 726 733	Citroën
+T22	Organisation 738 747	Bal Nègre
+T23	Adresse 754 764	rue Blomet
+T24	Adresse 780 789	rue Payen
+T26	Lieu 1021 1039	15e arrondissement
+T27	Personne 383 395	Paul Demessy
+A7	role T27 inconnu
+T29	Autre 564 583	Pythie respectueuse
+A8	classe T29 surnom
+T30	Autre 0 26	Les Eaux troubles de Javel
+A9	classe T30 titre
+T31	Date 208 216	Décembre
+T32	Autre 1161 1187	Nouveaux Mystères de Paris
+A10	classe T32 titre
+T33	Personne 600 605	Wanda
+A11	role T33 inconnu
+A35	classe T34 titre
+T34	Autre 135 161	Nouveaux Mystères de Paris
+T12	Lieu 820 828	Mirabeau

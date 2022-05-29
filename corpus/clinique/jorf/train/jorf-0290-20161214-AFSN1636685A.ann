@@ -1,0 +1,14 @@
+T8	Date 10 26	12 décembre 2016
+T9	Id 102 114	AFSN1636685A
+T10	Date 210 226	12 décembre 2016
+T1	Organisation 448 507	Assistance publique-hôpitaux de Paris - Hôpital Saint-Louis
+T2	Personne 231 244	Maxime BETTEL
+T3	Date 252 263	5 juin 1985
+T4	Ville 266 277	Wilwerdange
+T5	Lieu 279 289	Luxembourg
+T7	Date 713 728	2 novembre 2016
+A1	role T2 soignant
+T6	Lieu 88 94	France
+A2	type T6 pays
+A3	date T3 naissance
+A4	type T5 pays

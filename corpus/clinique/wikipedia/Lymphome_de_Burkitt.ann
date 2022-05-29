@@ -1,0 +1,25 @@
+T1	Pathologie 15 22	Burkitt
+T2	Pathologie 38 45	Burkitt
+T3	Personne 629 650	Denis Parsons Burkitt
+A1	role T3 soignant
+T4	Date 652 656	1911
+T5	Date 657 661	1993
+T6	Date 707 711	1958
+T7	Lieu 715 722	Ouganda
+A2	type T7 pays
+T8	Lieu 885 890	Zaïre
+A3	type T8 pays
+T9	Lieu 904 907	RDC
+A4	type T9 pays
+T10	Date 1080 1084	1960
+T11	Date 1121 1125	1964
+T12	Personne 1130 1137	Epstein
+A5	role T12 soignant
+T13	Personne 1139 1143	Barr
+A6	role T13 soignant
+T14	Personne 1147 1153	Achong
+A7	role T14 soignant
+T15	Age 1467 1468	6
+T16	Age 1472 1477	7 ans
+T17	Lieu 1516 1535	Afrique équatoriale
+T18	Pathologie 1996 2003	Burkitt

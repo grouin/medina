@@ -1,0 +1,242 @@
+T1	Adresse 6937 6956	avenue Henri-Martin
+T2	Adresse 3142 3155	rue de Rivoli
+T3	Adresse 4430 4443	rue de Rivoli
+T4	Adresse 9858 9871	rue de Rivoli
+T5	Adresse 9892 9905	rue de Rivoli
+T10	Ville 4695 4700	Paris
+T11	Ville 5001 5006	Paris
+T12	Ville 5807 5812	Paris
+T13	Ville 6329 6334	Paris
+T14	Ville 6698 6703	Paris
+T15	Ville 8380 8385	Paris
+T16	Ville 10933 10938	Paris
+T6	Ville 1839 1844	Paris
+T7	Ville 2147 2152	Paris
+T8	Ville 3356 3361	Paris
+T9	Ville 3502 3507	Paris
+T17	Lieu 1930 1944	Champs-Elysées
+T19	Lieu 3016 3030	Champs-Elysées
+T20	Lieu 3593 3607	Champs-Elysées
+T21	Lieu 3803 3817	Champs-Elysées
+T22	Lieu 3901 3915	Champs-Elysées
+T23	Lieu 4043 4057	Champs-Elysées
+T24	Lieu 4304 4318	Champs-Elysées
+T25	Lieu 4462 4476	Champs-Elysées
+T26	Lieu 4532 4546	Champs-Elysées
+T27	Lieu 4753 4767	Champs-Elysées
+T28	Lieu 4883 4897	Champs-Elysées
+T29	Lieu 5174 5188	Champs-Elysées
+T30	Lieu 5217 5231	Champs-Elysées
+T31	Lieu 5301 5315	Champs-Elysées
+T32	Lieu 6115 6129	Champs-Elysées
+T33	Lieu 7412 7426	Champs-Elysées
+T34	Lieu 9629 9643	Champs-Elysées
+T35	Lieu 9732 9746	Champs-Elysées
+T36	Adresse 6020 6032	place Clichy
+T37	Adresse 6819 6839	place de la Concorde
+T40	Organisation 8545 8559	Royal-Villiers
+T41	Organisation 8868 8882	Royal-Villiers
+T42	Lieu 5888 5893	Seine
+T45	Adresse 7934 7945	avenue Niel
+T48	Adresse 8224 8235	avenue Niel
+T49	Adresse 8884 8897	place Pereire
+T50	Adresse 8465 8478	Place Pereire
+T51	Lieu 5895 5906	Rive gauche
+T54	Lieu 3917 3925	Concorde
+T56	Lieu 6131 6139	Concorde
+T61	Lieu 9645 9653	Concorde
+T62	Date 1856 1863	juillet
+T63	Date 3519 3526	juillet
+A71	role T70 autre
+T70	Personne 6998 7007	Esmeralda
+T87	Lieu 5105 5121	Bois de Boulogne
+T89	Lieu 725 743	XVe arrondissement
+T65	Adresse 706 723	5, rue Boisrobert
+T67	Personne 816 823	Normand
+A1	role T67 inconnu
+T69	Adresse 895 909	rue Boisrobert
+T71	Adresse 541 558	place des Acacias
+T73	Personne 1 17	Frank Le Harivel
+A2	role T73 inconnu
+T75	Adresse 27 41	8, rue Lincoln
+T77	Adresse 136 153	allée des Acacias
+T79	Adresse 203 220	Place des Acacias
+T91	Age 304 316	dix-huit ans
+T100	Adresse 1106 1120	rue Boisrobert
+T101	Adresse 1193 1207	rue Boisrobert
+T102	Adresse 1283 1297	rue Boisrobert
+T103	Adresse 1401 1415	rue Boisrobert
+T104	Adresse 1441 1455	rue Boisrobert
+T105	Adresse 12849 12863	rue Boisrobert
+T106	Adresse 13700 13714	rue Boisrobert
+T92	Adresse 825 842	5, rue Boisrobert
+T93	Adresse 431 448	place des Acacias
+T94	Adresse 656 673	place des Acacias
+T97	Adresse 930 944	rue Boisrobert
+T98	Adresse 964 978	rue Boisrobert
+T99	Adresse 1049 1063	rue Boisrobert
+T107	Lieu 1142 1151	Vaugirard
+T108	Organisation 1246 1252	R.C.O.
+T109	Adresse 1420 1435	square Cimarosa
+T110	Organisation 1479 1485	R.C.O.
+T111	Lieu 2247 2258	Pré-Catelan
+T112	Lieu 2334 2343	Trocadéro
+T113	Adresse 2353 2370	place de l'Etoile
+T114	Adresse 2601 2626	avenue des Champs-Elysées
+T115	Organisation 2680 2688	Claridge
+T116	Personne 2728 2736	Staviski
+A3	role T116 inconnu
+T117	Adresse 2292 2311	avenue Henri-Martin
+T118	Organisation 2751 2755	Lido
+T119	Organisation 2786 2795	Fouquet's
+T120	Organisation 2802 2809	Colisée
+T121	Adresse 2839 2859	Place de la Concorde
+T122	Lieu 2974 2989	Madeleine-Opéra
+T123	Profession 3073 3080	médecin
+T124	Adresse 3158 3177	Avenue Henri-Martin
+T125	Lieu 3431 3440	Tuileries
+T126	Lieu 3445 3455	Luxembourg
+T127	Organisation 3775 3786	Heure mauve
+T128	Adresse 3927 3940	Rue de Rivoli
+A145	role T144 inconnu
+T129	Adresse 7108 7127	Avenue Henri-Martin
+T130	Adresse 7205 7224	Avenue Henri-Martin
+T131	Organisation 4111 4119	Claridge
+T132	Organisation 4233 4240	Colisée
+T133	Organisation 4217 4226	Fouquet's
+T134	Organisation 4182 4186	Lido
+T135	Lieu 5090 5100	Luxembourg
+T136	Lieu 4262 4277	Madeleine-Opéra
+T137	Lieu 9690 9705	Madeleine-Opéra
+T138	Adresse 5838 5858	Place de la Concorde
+T139	Adresse 6185 6205	Place de la Concorde
+T140	Adresse 6360 6380	Place de la Concorde
+T141	Adresse 6383 6403	Place de la Concorde
+T142	Adresse 6141 6154	Rue de Rivoli
+T143	Adresse 9655 9668	Rue de Rivoli
+T144	Personne 4159 4167	Staviski
+T146	Lieu 7096 7105	Trocadéro
+T148	Lieu 13506 13515	Trocadéro
+T150	Lieu 13614 13623	Trocadéro
+T151	Lieu 5076 5085	Tuileries
+T153	Lieu 13736 13745	Vaugirard
+T154	Lieu 13828 13837	Vaugirard
+T155	Lieu 13881 13890	Vaugirard
+T156	Lieu 14081 14090	Vaugirard
+T157	Lieu 14161 14170	Vaugirard
+T158	Profession 4361 4368	médecin
+T159	Profession 9789 9796	médecin
+T162	Adresse 11712 11727	square Cimarosa
+T164	Adresse 11945 11960	square Cimarosa
+T165	Adresse 12012 12027	square Cimarosa
+T166	Adresse 12073 12093	3bis square Cimarosa
+T167	Adresse 12210 12225	square Cimarosa
+T168	Adresse 12297 12312	square Cimarosa
+T169	Adresse 12332 12347	square Cimarosa
+T170	Adresse 12519 12534	square Cimarosa
+T171	Adresse 12652 12667	square Cimarosa
+T172	Adresse 12789 12804	square Cimarosa
+T173	Adresse 12868 12883	square Cimarosa
+T174	Adresse 12918 12933	square Cimarosa
+T175	Adresse 13029 13044	square Cimarosa
+T176	Adresse 13164 13179	square Cimarosa
+T177	Adresse 13202 13217	square Cimarosa
+T145	Adresse 5396 5413	place du Chatelet
+T178	Personne 5504 5513	Philibert
+A4	role T178 autre
+T179	Adresse 5616 5633	Place du Chatelet
+T180	Adresse 5636 5653	Place du Chatelet
+T181	Organisation 5707 5714	Zelly's
+T182	Personne 5735 5748	Saint-Georges
+A5	role T182 autre
+T183	Adresse 5680 5697	Place du Chatelet
+T184	Lieu 5814 5822	Chatelet
+T185	Lieu 5824 5836	Palais-Royal
+T186	Organisation 6011 6019	Européen
+T187	Lieu 6336 6344	Chatelet
+T188	Lieu 6346 6358	Palais-Royal
+T189	Adresse 6899 6915	Boulevard Lannes
+T190	Adresse 6917 6935	boulevard Flandrin
+T191	Adresse 6977 6996	avenue Henri-Martin
+T192	Adresse 7054 7073	avenue Henri-Martin
+T193	Adresse 7226 7242	Boulevard Lannes
+T194	Adresse 7284 7297	avenue Kléber
+T195	Adresse 7300 7313	Avenue Kléber
+T196	Organisation 7384 7395	Heure mauve
+T197	Personne 7478 7489	Coco Latour
+A6	role T197 autre
+T198	Adresse 7772 7788	177, avenue Niel
+A213	role T212 autre
+A219	role T218 autre
+T199	Adresse 7803 7819	177, avenue Niel
+T200	Adresse 8003 8019	177, avenue Niel
+T201	Adresse 8126 8142	177, avenue Niel
+T202	Adresse 7429 7442	Avenue Kléber
+T203	Adresse 7511 7524	Avenue Kléber
+T204	Adresse 7620 7633	Avenue Kléber
+T205	Adresse 7656 7669	Avenue Kléber
+T212	Personne 13326 13337	Coco Latour
+T214	Personne 7444 7453	Esmeralda
+T215	Personne 13341 13350	Esmeralda
+T218	Personne 11274 11283	Philibert
+T220	Adresse 5448 5465	place du Chatelet
+T221	Adresse 5531 5548	place du Chatelet
+T213	Adresse 8387 8408	Porte de Clignancourt
+T217	Ville 8177 8185	Lausanne
+T219	Adresse 8410 8427	Boulevard Pereire
+T222	Adresse 8429 8443	Porte Dauphine
+T223	Lieu 8455 8460	Javel
+T224	Adresse 8979 8996	Boulevard Pereire
+T225	Organisation 9119 9127	Floresco
+T226	Adresse 9148 9159	rue Pigalle
+T227	Adresse 9191 9210	Place des Pyramides
+T228	Adresse 9369 9388	place des Pyramides
+T229	Personne 9410 9422	Jeanne d'Arc
+A7	role T229 autre
+T230	Adresse 9425 9444	Place des Pyramides
+T231	Adresse 10126 10149	boulevard de Sébastopol
+T232	Lieu 9950 9962	Saint-Lazare
+T233	Adresse 11312 11334	3 bis, square Cimarosa
+T234	Adresse 11387 11402	Square Cimarosa
+T235	Personne 11521 11541	Toussaint-Louverture
+A8	role T235 inconnu
+T236	Personne 12429 12435	Codébo
+A9	role T236 autre
+T237	Personne 12439 12453	Robert le Pâle
+A10	role T237 autre
+T238	Adresse 12396 12411	Square Cimarosa
+A11	role T215 autre
+T239	Organisation 13274 13281	Gestapo
+T240	Adresse 13464 13483	avenue Henri-Martin
+T241	Adresse 13579 13597	avenue de Malakoff
+T242	Adresse 13635 13656	172, rue de Vaugirard
+T243	Personne 13625 13632	Pernety
+A12	role T243 autre
+T244	Personne 13993 13999	Gouari
+A13	role T244 autre
+T245	Personne 14222 14234	Jeanne d'Arc
+A14	role T245 autre
+T246	Adresse 11645 11667	3 bis, square Cimarosa
+T247	Adresse 11866 11888	3 bis, square Cimarosa
+T248	Adresse 10754 10777	boulevard de Sébastopol
+T249	Adresse 11129 11152	boulevard de Sébastopol
+T18	Ville 6521 6526	Marly
+T43	Adresse 13294 13312	Place du Trocadéro
+T287	Lieu 11444 11463	XVIe arrondissement
+T288	Lieu 12095 12114	XVIe arrondissement
+A304	role T303 inconnu
+T303	Personne 12670 12680	Le Khédive
+T305	Profession 11777 11785	policier
+T38	Ville 3211 3219	Boulogne
+T39	Ville 2179 2187	Boulogne
+T47	Ville 1959 1967	Boulogne
+T52	Ville 1545 1553	Boulogne
+T53	Ville 1634 1642	Boulogne
+T55	Ville 3468 3476	Boulogne
+T57	Ville 3622 3630	Boulogne
+T58	Ville 7161 7169	Boulogne
+T59	Personne 11981 11988	Khédive
+A15	role T59 inconnu
+T44	Adresse 13545 13563	place du Trocadéro
+T46	Personne 11374 11384	le Khédive
+A16	role T46 inconnu

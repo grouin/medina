@@ -1,0 +1,15 @@
+T1	Date 10 25	20 février 2019
+T2	Id 101 113	SSAN1908725A
+T3	Date 203 218	20 février 2019
+T4	Personne 223 239	Kevin TRUMPUSHER
+A1	role T4 soignant
+T5	Date 247 264	1er décembre 1980
+T6	Lieu 273 281	Colorado
+T7	Lieu 283 293	Etats-Unis
+T8	Date 658 671	1er mars 2019
+T9	Organisation 411 452	Centre hospitalier universitaire de Nancy
+T10	Lieu 87 93	France
+A2	type T10 pays
+A3	date T5 naissance
+A4	type T7 pays
+A5	type T6 region

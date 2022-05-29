@@ -1,0 +1,8 @@
+T1	Personne 160 173	Jakob Erdheim
+T2	Personne 177 192	William Chester
+T3	Date 196 200	1930
+T4	Age 904 910	53 ans
+T5	Date 1687 1691	1996
+T7	Pathologie 28 43	Erdheim-Chester
+A1	role T1 soignant
+A2	role T2 soignant

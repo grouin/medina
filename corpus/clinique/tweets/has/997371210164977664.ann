@@ -1,0 +1,6 @@
+T3	Profession 127 163	chirurgiens orthopédiques infantiles
+T4	Profession 170 204	chirurgiens viscéraux pédiatriques
+T1	Lieu 230 236	France
+T2	Personne 70 81	C. Lerouzic
+A2	type T1 pays
+A1	role T2 soignant

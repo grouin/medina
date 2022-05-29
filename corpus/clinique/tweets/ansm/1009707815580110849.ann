@@ -1,0 +1,6 @@
+T3	Lieu 115 121	France
+T1	Personne 132 148	Antoine Pariente
+T2	Personne 155 174	Sandy Maumus-Robert
+A1	role T1 soignant
+A2	role T2 soignant
+A3	type T3 pays

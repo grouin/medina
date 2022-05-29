@@ -1,0 +1,23 @@
+T1	Id 0 12	MESH9921697S
+T2	Date 142 155	20 avril 1999
+T4	Adresse 271 283	5, rue Hoche
+T5	Cp 285 290	30029
+T6	Ville 291 296	Nîmes
+T7	Personne 681 689	G. Galli
+A1	role T7 soignant
+T8	Personne 691 700	H. Harnay
+A2	role T8 soignant
+T9	Personne 736 749	I.-I. Insomen
+A3	role T9 soignant
+T10	Personne 783 791	J. Jamar
+A4	role T10 soignant
+T11	Personne 793 805	K.-K. Kalona
+A5	role T11 soignant
+T12	Personne 807 816	L. Lhassa
+A6	role T12 soignant
+T13	Personne 854 863	M. Mounin
+A7	role T13 soignant
+T14	Personne 865 875	N. Ninerry
+A8	role T14 soignant
+T3	Organisation 225 269	centre hospitalier et universitaire de Nîmes
+T15	Cedex 297 302	Cedex

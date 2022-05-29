@@ -1,0 +1,6 @@
+T3	Substance 17 28	paracétamol
+T2	Personne 215 225	N. Richard
+T1	Lieu 66 72	France
+T4	Substance 92 102	ibuprofène
+A2	type T1 pays
+A1	role T2 inconnu

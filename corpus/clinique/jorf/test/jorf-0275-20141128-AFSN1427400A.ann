@@ -1,0 +1,16 @@
+T3	Date 10 26	19 novembre 2014
+T4	Id 102 114	AFSN1427400A
+T5	Date 233 249	19 novembre 2014
+T1	Organisation 481 523	groupe hospitalier de La Pitié-Salpêtrière
+T2	Personne 254 270	Ephraim DALMATTI
+T6	Date 278 294	12 décembre 1992
+T7	Ville 297 303	Anvers
+T9	Lieu 305 313	Belgique
+T10	Date 706 721	2 novembre 2014
+T11	Date 731 746	31 octobre 2015
+A1	role T2 soignant
+T8	Organisation 442 479	Assistance publique-Hôpitaux de Paris
+T12	Lieu 88 94	France
+A2	type T12 pays
+A3	date T6 naissance
+A4	type T9 pays

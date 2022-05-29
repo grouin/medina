@@ -1,0 +1,15 @@
+T1	Cp 355 360	38043
+T2	Cp 346 354	CS 10217
+T4	Ville 361 369	Grenoble
+T6	Date 82 97	27 juillet 2021
+T7	Telephone 193 207	04 76 76 75 75
+T8	Mail 221 259	directioncommunication@chu-grenoble.fr
+T9	Personne 424 442	Monique SORRENTINO
+A1	role T9 soignant
+T10	Personne 479 493	Sébastien VIAL
+A2	role T10 soignant
+T11	Personne 523 536	Jocelyn DUTIL
+A3	role T11 soignant
+T12	URL 272 299	http://www.chu-grenoble.fr/
+T3	Organisation 0 55	Centre hospitalier universitaire (CHU) - Grenoble-Alpes
+T5	Cedex 370 377	Cedex 9

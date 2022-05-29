@@ -1,0 +1,16 @@
+T1	Date 823 835	19 mars 2018
+T2	Date 10 21	2 août 2019
+T3	Date 199 210	2 août 2019
+T4	Id 97 109	SSAN1923050A
+T5	Personne 215 228	Rinaldo RAJOY
+A1	role T5 soignant
+T6	Date 236 247	26 mai 1987
+T7	Ville 250 254	Jaén
+T8	Lieu 256 263	Espagne
+T9	Personne 453 467	Pedro SIENCHEZ
+A2	role T9 soignant
+T10	Organisation 472 521	centre hospitalier de l'agglomération montargoise
+T11	Lieu 83 89	France
+A3	type T11 pays
+A4	date T6 naissance
+A5	type T8 pays

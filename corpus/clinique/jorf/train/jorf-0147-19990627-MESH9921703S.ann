@@ -1,0 +1,41 @@
+T2	Ville 339 344	Lille
+T3	Date 142 155	22 avril 1999
+T4	Id 0 12	MESH9921702S
+T6	Organisation 225 306	centre hospitalier régional et universitaire de Lille, hôpital Jeanne-de-Flandres
+T7	Adresse 308 331	2, avenue Oscar-Lambert
+T8	Cp 333 338	59037
+T1	Personne 729 737	D. Eupen
+A1	role T1 soignant
+T9	Personne 739 748	F. Gralli
+A2	role T9 soignant
+T10	Personne 750 762	H. Im Jardaf
+A3	role T10 soignant
+T11	Personne 799 810	K. Lasstier
+A4	role T11 soignant
+T12	Personne 812 823	M.-N. Ousse
+A5	role T12 soignant
+T13	Personne 825 834	P. Querre
+A6	role T13 soignant
+T14	Personne 836 844	R. Siman
+A7	role T14 soignant
+T15	Personne 846 855	T. Uvallo
+A8	role T15 soignant
+T16	Personne 857 866	V. Wallan
+A9	role T16 soignant
+T17	Personne 900 913	X. Yabbellino
+A10	role T17 soignant
+T18	Personne 915 923	Z. Aleni
+A11	role T18 soignant
+T19	Personne 925 937	B.-C. Donato
+A12	role T19 soignant
+T20	Personne 939 956	E. de Fellinorras
+A13	role T20 soignant
+T21	Personne 994 1004	G. Hanrren
+A14	role T21 soignant
+T22	Personne 1006 1017	I.-J. Kalun
+A15	role T22 soignant
+T23	Personne 1019 1028	L. Manier
+A16	role T23 soignant
+T24	Personne 1030 1039	N. Outtes
+A17	role T24 soignant
+T5	Cedex 345 350	Cedex

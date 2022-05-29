@@ -1,0 +1,14 @@
+T3	Date 10 25	26 février 2019
+T4	Id 101 113	SSAN1908718A
+T5	Date 203 218	26 février 2019
+T1	Personne 223 240	Casimir TENATARRI
+A1	role T1 soignant
+T2	Date 248 263	11 février 1976
+T6	Ville 266 277	Addis-Abeba
+T7	Lieu 279 287	Ethiopie
+T9	Date 794 806	19 mars 2018
+T8	Organisation 444 485	centre hospitalier universitaire de Reims
+T10	Lieu 87 93	France
+A2	type T10 pays
+A3	date T2 naissance
+A4	type T7 pays

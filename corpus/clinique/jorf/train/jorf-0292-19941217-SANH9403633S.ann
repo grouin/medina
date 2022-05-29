@@ -1,0 +1,10 @@
+T1	Lieu 405 419	Hauts-de-Seine
+T2	Date 272 284	21 juin 1993
+T3	Id 145 157	SANH9403633S
+T4	Adresse 357 384	3-5, avenue de Villacoublay
+T5	Ville 388 403	Meudon-la-Forêt
+T6	Date 233 250	19 septembre 1994
+T7	Lieu 310 323	Ile-de-France
+T9	Ville 340 355	Meudon-la-Forêt
+A1	type T7 region
+A2	type T1 region

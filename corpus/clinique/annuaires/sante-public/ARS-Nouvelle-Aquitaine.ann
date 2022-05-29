@@ -1,0 +1,18 @@
+T1	Date 79 94	15 octobre 2021
+T2	Telephone 190 204	05 57 01 44 00
+T3	Mail 218 249	ars-dd33-direction@ars.sante.fr
+T4	URL 262 305	https://www.nouvelle-aquitaine.ars.sante.fr
+T5	Adresse 324 338	Espace Rodesse
+T6	Adresse 339 361	103 bis rue Belleville
+T7	Cp 362 370	CS 91704
+T8	Cp 371 376	33063
+T9	Ville 377 385	Bordeaux
+T10	Personne 436 451	Benoît ELLEBOOD
+A1	role T10 inconnu
+T11	Personne 491 504	Hélène JUNQUA
+A2	role T11 inconnu
+T12	Personne 547 562	Véronique SEGUY
+A3	role T12 inconnu
+T13	Lieu 34 52	Nouvelle-Aquitaine
+T14	Organisation 0 31	Agence régionale de santé (ARS)
+T15	Cedex 386 391	Cedex

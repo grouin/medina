@@ -1,0 +1,34 @@
+Le syndrome de Cushing est une maladie endocrinienne, précisément définie comme « hypercortisolisme chronique » (exposition excessive aux glucocorticoïdes produit en quantité anormalement élevée par le patient). Constitué par un ensemble de symptômes dus à un excès de sécrétion d'une hormone cortico-surrénalienne, le cortisol, par les glandes surrénales, il a été décrit pour la première fois en 1932 par le neurochirurgien américain Harvey Cushing. Le plus souvent cette affection a pour cause des adénomes cortico-surrénaliens.
+
+La maladie de Cushing, pathologie dont la terminologie est strictement associée à une origine dite « haute », le plus souvent hypophysaire (adénomes corticotropes sécrétant de l'ACTH), est l'une des formes du syndrome de Cushing, dont les causes peuvent être multiples (adénomes surrénaliens, sources ectopiques d'ACTH, origine médicamenteuse en raison de prises excessives de corticoïdes).
+
+La manifestation la plus visible chez l'homme est l’apparition d’une obésité chronique de la partie supérieure du corps, un aspect bouffi du visage, des manifestations cutanées et un hirsutisme, ainsi que des troubles psychologiques variés. C'est une pathologie également fréquente chez le chien, et les équidés (chez lesquels le syndrome de Cushing équin toucherait de 15 à 21 % des individus âgés de plus de quinze ans, et jusqu’à 25 % de ceux de plus de vingt ans).
+
+Diagnostic
+Diagnostic clinique
+Le diagnostic du syndrome de Cushing est relativement difficile à poser, ce qui fait qu'il peut être retardé de plusieurs années. En effet les symptômes évocateurs de ce trouble ne sont pas spécifiques.
+
+Il peut se manifester par une silhouette dite « cushingoïde » :
+- le visage est dit « lunaire », gonflé et rouge ;
+- des formations lipidiques disgracieuses désignées sous le terme de bosse de bison (en anglais : buffalo neck) s'enkystent au niveau du cou, de la nuque. On parlera d'obésité ou lipodystrophie facio-tronculaire. Contrastant avec cette obésité localisée, on observe une fonte musculaire au niveau des jambes et des bras.
+
+D'autres symptômes moins manifestes peuvent également aiguiller le médecin :
+- hypertension artérielle avec valeur diastolique élevée ;
+- ecchymoses fréquentes et injustifiées ;
+- affinement et chute des cheveux ;
+- peau fine et fragile présentant des vergetures larges et pourpres (différentes de celles de la grossesse) ;
+- acné ;
+- appétit stimulé ;
+- troubles du sommeil ;
+- fatigue nerveuse, stress chronique, certains troubles psychologiques (ex. : épisode dépressif typiquement, épisode maniaque, agressivité, etc.) ;
+- fonte des muscles (signe dit « du tabouret » : le patient accroupi se relève difficilement sans appui) ;
+- troubles du cycle menstruel chez la femme ;
+- hirsutisme ou croissance pileuse activée.
+
+Biologie
+Sur la base de ces symptômes, des tests biologiques s'avèrent nécessaires et peuvent montrer des taux de cortisol libre urinaire sur 24 heures anormalement élevés, avec une perturbation du rythme nycthéméral, et, en général, un taux d'ACTH très bas (il s'agit alors d'« hypercorticisme primaire »). Le diagnostic de syndrome de Cushing sera également posé après un test de freinage à la dexaméthasone inefficace.
+
+Il existe un hypercortisolisme prouvé si les taux sériques de cortisol sont élevés avec une rupture du cycle circadien :
+- les taux de cortisol sont normalement entre 50 et 150 μg·l-1 le matin à 8 heures et baissent progressivement vers 20 μg·l-1 à minuit. Il faut y associer une augmentation du cortisol libre urinaire (CLU) sur 24 heures (c'est le meilleur reflet de la sécrétion sur une journée).
+
+Un paramètre important de diagnostic est l'absence de freinage, c'est-à-dire de baisse du cortisol sérique et libre urinaire, après une prise test de 1 mg de dexaméthasone (« dex »), un puissant corticostéroïde de synthèse, à minuit avec mesure de la cortisolémie à 8 heures le lendemain. Normalement le cortisol chute après une telle prise, ce qui n'est pas le cas lorsqu'une hypersécrétion existe. Une fois ce bilan de première ligne réalisé, il faut confirmer l'hypersécrétion par un test de freinage standard (2 mg de dex par jour pendant deux jours), avec mesure du taux de cortisol libre urinaire et du cortisol à 8 heures le lendemain de la dernière prise.

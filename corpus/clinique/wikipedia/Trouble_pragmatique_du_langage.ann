@@ -1,0 +1,27 @@
+T1	Date 647 651	2013
+T2	Date 1996 2000	2013
+T3	Date 439 443	1999
+T4	Date 91 95	1983
+T5	Personne 445 460	Laurent Mottron
+A1	role T5 autre
+T6	Personne 998 1012	Isabelle Rapin
+A2	role T6 autre
+T7	Personne 1016 1030	Doris A. Allen
+A3	role T7 autre
+T8	Date 1406 1410	1990
+T9	Lieu 1414 1420	Québec
+T10	Date 1425 1429	1999
+T11	Personne 1643 1660	Laurence Beaud et
+A4	role T11 autre
+T12	Personne 1676 1694	Clément de Guibert
+A5	role T12 soignant
+T13	Profession 1633 1642	linguiste
+T14	Profession 1664 1675	psychologue
+T15	Date 1598 1602	2009
+A18	role T17 autre
+T16	Date 989 993	1983
+T17	Personne 1155 1170	Laurent Mottron
+T18	Profession 1213 1227	orthophonistes
+T19	Profession 1235 1246	neurologues
+T20	Profession 1131 1141	psychiatre
+T21	Pathologie 560 568	Asperger

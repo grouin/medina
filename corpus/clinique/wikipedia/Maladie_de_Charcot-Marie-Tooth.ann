@@ -1,0 +1,13 @@
+T1	Date 357 361	1886
+T2	Pathologie 16 35	Charcot-Marie-Tooth
+T3	Lieu 206 212	France
+A1	type T3 pays
+T4	Pathologie 273 280	Charcot
+T5	Personne 389 408	Jean-Martin Charcot
+A2	role T5 soignant
+T6	Personne 425 437	Pierre Marie
+A3	role T6 autre
+T7	Personne 471 489	Howard Henry Tooth
+A4	role T7 soignant
+T8	Profession 369 379	neurologue
+T11	Profession 452 462	neurologue

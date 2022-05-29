@@ -1,0 +1,13 @@
+T1	Date 74 89	27 février 2020
+T3	Telephone 185 199	05 61 25 51 12
+T4	Telephone 207 221	05 61 25 51 16
+T5	Mail 235 268	pharmacovigilance@chu-toulouse.fr
+T6	Organisation 402 427	CHU - Faculté de Médecine
+T7	Adresse 428 449	37 allée Jules Guesde
+T8	Cp 450 455	31000
+T9	Ville 456 464	Toulouse
+T10	Personne 501 522	Jean-Louis MONTASTRUC
+A1	role T10 soignant
+T11	URL 281 300	http://www.bip31.fr
+T12	URL 313 391	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T2	Organisation 0 47	Centre régional de pharmacovigilance - Toulouse

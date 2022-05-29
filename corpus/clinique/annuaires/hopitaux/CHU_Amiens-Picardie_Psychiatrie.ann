@@ -1,0 +1,11 @@
+T1	Organisation 53 72	CHU Amiens-Picardie
+T2	Organisation 161 180	CHU Amiens-Picardie
+T3	Cp 254 259	80054
+T6	Ville 260 266	Amiens
+T7	Adresse 210 253	1 Rond-Point du Professeur Christian Cabrol
+T8	Organisation 278 306	CENTRE SAINT-VINCENT DE PAUL
+T9	Personne 149 160	Louis JEHEL
+A1	role T9 soignant
+T10	Telephone 321 335	03 22 66 82 90
+T11	Telephone 350 364	03 22 66 84 74
+T4	Cedex 267 274	cedex 1

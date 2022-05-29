@@ -1,0 +1,69 @@
+T4	Ville 485 492	Nairobi
+T6	Lieu 780 787	Afrique
+T7	Date 815 819	2001
+T9	Lieu 888 892	Iran
+T10	Lieu 912 926	Afrique du Sud
+T11	Lieu 1000 1006	Crimée
+T12	Date 1010 1014	1944
+T14	Date 1089 1093	1969
+T15	Date 1172 1176	1956
+T16	Lieu 1180 1185	Congo
+T17	Pathologie 1255 1267	Crimée-Congo
+T19	Lieu 1519 1525	Crimée
+T20	Lieu 1621 1627	Russie
+T21	Lieu 1641 1659	Bosnie-Herzégovine
+T23	Lieu 1755 1760	Chine
+T24	Lieu 1787 1804	Afrique du Sud et
+T25	Lieu 1808 1815	Turquie
+T26	Lieu 1938 1945	Espagne
+T27	Date 2047 2051	2016
+T29	Organisme 2294 2310	Hyalomma nitidum
+T30	Organisme 2315 2335	Amblyomma variegatum
+T31	Pathologie 26 38	Crimée-Congo
+T32	Pathologie 66 78	Congo-Crimée
+T1	Organisme 191 203	Nairoviridae
+T2	Organisme 139 154	Orthonairovirus
+T3	Organisme 229 244	Orthonairovirus
+T5	Organisme 325 334	argasidae
+T8	Organisme 338 346	ixodidae
+T33	Organisme 442 447	Dugbe
+T34	Pathologie 534 546	Crimée-Congo
+T35	Lieu 791 797	Europe
+T36	Lieu 803 807	Asie
+T37	Lieu 865 871	Kosovo
+A1	type T37 pays
+T38	Lieu 876 883	Albanie
+A2	type T38 pays
+A3	type T9 pays
+T39	Lieu 897 905	Pakistan
+A4	type T39 pays
+A5	type T10 pays
+T13	Pathologie 1078 1084	Crimée
+A6	type T16 pays
+T18	Ville 1543 1549	Kertch
+T40	Lieu 1554 1564	Kazakhstan
+A7	type T40 pays
+T41	Lieu 1570 1581	Ouzbékistan
+A8	type T41 pays
+T42	Ville 1598 1604	Rostov
+T43	Ville 1608 1617	Astrakhan
+A9	type T20 pays
+A10	type T21 pays
+T22	Lieu 1664 1671	Albanie
+A11	type T22 pays
+T44	Lieu 1676 1684	Bulgarie
+A12	type T44 pays
+T45	Lieu 1689 1693	Irak
+A13	type T45 pays
+T46	Lieu 1713 1721	Arabique
+T47	Lieu 1726 1734	Pakistan
+A14	type T47 pays
+A15	type T23 pays
+T48	Lieu 1765 1782	Afrique tropicale
+A16	type T24 pays
+A17	type T25 pays
+T49	Lieu 1837 1845	Anatolie
+T50	Lieu 1918 1925	Tunisie
+A18	type T50 pays
+A19	type T26 pays
+T28	Organisme 2340 2365	Rhipicephalus decoloratus

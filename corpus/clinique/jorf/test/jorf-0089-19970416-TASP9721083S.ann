@@ -1,0 +1,14 @@
+T1	Id 176 188	TASP9721083S
+T2	Adresse 419 442	48, boulevard Serrurier
+T3	Ville 446 451	Paris
+T4	Cp 453 456	19e
+T5	Date 281 297	31 décembre 1996
+T6	Date 328 338	6 mai 1996
+T7	Organisation 389 409	hôpital Robert-Debré
+T8	Organisation 411 416	AP-HP
+T9	Personne 572 581	Kilidjian
+A1	role T9 inconnu
+T10	Personne 585 591	Volona
+A2	role T10 inconnu
+T11	Personne 622 629	Gabreux
+A3	role T11 inconnu

@@ -1,0 +1,16 @@
+T1	Date 848 860	19 mars 2018
+T4	Date 10 25	7 novembre 2019
+T5	Id 101 113	SSAN1932133A
+T6	Date 203 218	7 novembre 2019
+T7	Personne 224 239	Simona Prelbaud
+A1	role T7 soignant
+T8	Date 248 260	15 juin 1981
+T9	Ville 263 269	Québec
+T10	Lieu 271 277	Canada
+T12	Organisation 490 547	Hospices civils de Lyon - Groupement hospitalier Lyon Sud
+T2	Personne 471 484	Jean Davençon
+A2	role T2 soignant
+T3	Lieu 87 93	France
+A3	type T3 pays
+A4	date T8 naissance
+A5	type T10 pays

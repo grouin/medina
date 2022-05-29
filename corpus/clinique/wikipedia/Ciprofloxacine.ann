@@ -1,0 +1,40 @@
+T1	Substance 3 17	ciprofloxacine
+T2	Organisation 126 131	Bayer
+T3	Substance 147 153	Ciflox
+T4	Lieu 157 163	France
+T5	Substance 165 174	Ciproxine
+T6	Lieu 178 186	Belgique
+T7	Substance 188 196	Ciprinol
+T8	Lieu 200 208	Roumanie
+T9	Lieu 212 220	Moldavie
+T10	Substance 224 229	Cipro
+T11	Lieu 233 239	Canada
+T12	Lieu 247 257	États-Unis
+A1	type T4 pays
+A2	type T6 pays
+A3	type T8 pays
+A4	type T9 pays
+A5	type T11 pays
+A6	type T12 pays
+T13	Organisme 942 960	Enterobacteriaceae
+T14	Organisme 972 994	Haemophilus influenzae
+T15	Organisme 997 1016	Haemophilus ducreyi
+T16	Organisme 1019 1040	Neisseria gonorrhoeae
+T17	Organisme 1043 1065	Neisseria meningitidis
+T18	Organisme 1068 1089	Moraxella catarrhalis
+T19	Organisme 1092 1100	Brucella
+T20	Organisme 1103 1116	Campylobacter
+T21	Organisme 1119 1129	Arcobacter
+T22	Organisme 1132 1160	Mycobacterium intracellulare
+T23	Organisme 1163 1177	Legionella sp.
+T24	Organisme 1180 1202	Pseudomonas aeruginosa
+T25	Organisme 1205 1223	Bacillus anthracis
+T26	Organisme 1251 1275	Streptococcus pneumoniae
+T27	Organisme 1278 1299	Chlamydia trachomatis
+T28	Organisme 1302 1322	Chlamydia pneumoniae
+T29	Organisme 1372 1392	Burkholderia cepacia
+T30	Organisme 1395 1415	Enterococcus faecium
+T31	Organisme 1418 1440	Ureaplasma urealyticum
+T32	Organisme 1443 1465	Streptococcus pyogenes
+T33	Substance 351 365	ciprofloxacine
+T34	Substance 567 581	ciprofloxacine

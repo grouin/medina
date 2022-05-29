@@ -1,0 +1,14 @@
+T3	Date 10 25	28 octobre 2019
+T4	Id 101 113	SSAN1935315A
+T7	Date 203 218	28 octobre 2019
+T1	Personne 223 242	Dimitrios VENIZELOS
+T2	Date 250 263	1er août 1986
+T5	Ville 266 275	Heraklion
+T6	Lieu 277 282	Grèce
+A1	role T1 soignant
+T9	Date 684 701	1er novembre 2019
+T8	Organisation 438 479	centre hospitalier universitaire d'Angers
+T10	Lieu 87 93	France
+A2	type T10 pays
+A3	date T2 naissance
+A4	type T6 pays

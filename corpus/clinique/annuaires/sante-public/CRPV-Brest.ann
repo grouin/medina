@@ -1,0 +1,14 @@
+T2	Date 71 86	27 février 2020
+T3	Telephone 182 196	02 98 34 79 75
+T4	Telephone 204 218	02 98 34 79 77
+T5	Mail 232 255	crpv.brest@chu-brest.fr
+T6	Organisation 402 436	CHU - Hôpital de la Cavale Blanche
+T7	Adresse 437 461	Boulevard Tanguy Prigent
+T8	Cp 462 467	29609
+T9	Ville 468 473	Brest
+T10	Personne 517 544	Dominique CARLHANT-KOWALSKI
+A1	role T10 soignant
+T11	URL 268 346	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T12	URL 359 383	https://www.chu-brest.fr
+T13	Cedex 474 479	Cedex
+T1	Organisation 0 44	Centre régional de pharmacovigilance - Brest

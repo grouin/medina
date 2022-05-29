@@ -1,0 +1,15 @@
+T1	Date 10 26	19 décembre 2018
+T2	Date 204 220	19 décembre 2018
+T3	Date 804 816	19 mars 2018
+T4	Personne 225 242	Mohamad EL MOSHNI
+A1	role T4 soignant
+T5	Id 102 114	SSAN1835354A
+T6	Date 250 262	26 juin 1997
+T7	Ville 265 272	Ispahan
+T8	Lieu 274 278	Iran
+A2	date T6 naissance
+T9	Organisation 448 495	Centre hospitalier universitaire de Montpellier
+T10	Organisation 412 445	Institut du cancer de Montpellier
+T11	Lieu 88 94	France
+A3	type T8 pays
+A4	type T11 pays

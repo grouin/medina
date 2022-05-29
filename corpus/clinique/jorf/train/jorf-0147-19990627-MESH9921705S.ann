@@ -1,0 +1,41 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921704S
+T4	Adresse 270 300	5, rue Pierre-Devoluy, BP 1319
+T5	Cp 302 307	06006
+T6	Ville 308 312	Nice
+T7	Personne 698 710	J.-Y. Saneli
+A1	role T7 soignant
+T8	Personne 712 720	Z. Anque
+A2	role T8 soignant
+T9	Personne 722 732	A. Banerri
+A3	role T9 soignant
+T10	Personne 734 742	C. Dasse
+A4	role T10 soignant
+T11	Personne 744 757	J.-M. Flagerd
+A5	role T11 soignant
+T12	Personne 759 768	E. Ganner
+A6	role T12 soignant
+T13	Personne 805 814	F. Narrel
+A7	role T13 soignant
+T14	Personne 816 826	G. Dallein
+A8	role T14 soignant
+T15	Personne 828 838	H. Xalleri
+A9	role T15 soignant
+T16	Personne 840 848	I. James
+A10	role T16 soignant
+T17	Personne 882 891	J. Carste
+A11	role T17 soignant
+T18	Personne 893 906	K.-L. Frateli
+A12	role T18 soignant
+T19	Personne 908 926	M. Chrat de Visolu
+A13	role T19 soignant
+T20	Personne 964 973	N. Affeti
+A14	role T20 soignant
+T21	Personne 975 987	O. Alerisoun
+A15	role T21 soignant
+T22	Personne 989 998	P. Lannes
+A16	role T22 soignant
+T23	Personne 1000 1009	Q. Palmer
+A17	role T23 soignant
+T3	Organisation 225 268	centre hospitalier et universitaire de Nice
+T24	Cedex 313 320	Cedex 1

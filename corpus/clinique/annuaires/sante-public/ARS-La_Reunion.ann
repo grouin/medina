@@ -1,0 +1,18 @@
+T1	Ville 365 376	Saint-Denis
+T2	Lieu 34 44	La Réunion
+T3	Date 71 83	02 juin 2021
+T4	Telephone 179 197	+262 2 62 97 90 00
+T5	Mail 211 254	ars-reunion-direction-generale@ars.sante.fr
+T6	URL 267 302	https://www.lareunion.ars.sante.fr/
+T7	Adresse 321 349	2bis avenue Georges Brassens
+T8	Cp 350 358	CS 61002
+T9	Cp 359 364	97743
+T10	Personne 431 449	Martine LADOUCETTE
+A1	role T10 inconnu
+T11	Personne 486 500	Etienne BILLOT
+A2	role T11 inconnu
+T12	Personne 543 561	Huguette YONG-FONG
+A3	role T12 inconnu
+A4	type T2 pays
+T13	Organisation 0 31	Agence régionale de santé (ARS)
+T14	Cedex 377 384	Cedex 9

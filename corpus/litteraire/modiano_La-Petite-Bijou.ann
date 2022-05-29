@@ -1,0 +1,44 @@
+T1	Ville 1108 1113	Paris
+A4	role T3 autre
+T3	Personne 32 47	Patrick Modiano
+A8	role T7 autre
+T7	Personne 1712 1719	Modiano
+T4	Date 56 69	25 avril 2001
+T6	Date 171 175	2002
+T8	Personne 130 141	Jean-Monnet
+A1	role T8 autre
+T9	Personne 185 192	Thérèse
+A2	role T9 inconnu
+T10	Lieu 395 400	Maroc
+A3	type T10 pays
+T11	Lieu 296 304	Châtelet
+T12	Adresse 519 547	rue du Quartier-de-Cavalerie
+T13	Ville 550 559	Vincennes
+T14	Personne 1292 1306	Moreau-Badmaev
+A5	role T14 autre
+T15	Profession 1281 1291	traducteur
+T16	Adresse 1226 1237	rue Coustou
+T17	Ville 1145 1149	Lyon
+A20	role T19 inconnu
+T19	Personne 1402 1409	Thérèse
+T20	Personne 197 209	Petite Bijou
+A7	role T20 inconnu
+A22	role T21 inconnu
+A24	role T23 inconnu
+T21	Personne 3 15	Petite Bijou
+T23	Personne 765 777	Petite Bijou
+T22	Age 752 760	huit ans
+T24	Date 2027 2031	1999
+T25	Profession 1312 1324	pharmacienne
+T26	Age 234 246	dix-neuf ans
+T27	Adresse 1203 1216	place Blanche
+T29	Profession 1608 1616	écrivain
+T30	Organisation 83 92	Gallimard
+T31	Autre 1962 1972	Occupation
+A9	classe T31 epoque
+T32	Profession 1865 1871	auteur
+T2	Ville 1164 1172	Boulogne
+T5	Personne 1506 1519	Jérôme Garcin
+A6	role T5 autre
+T18	Autre 1539 1560	Le Nouvel Observateur
+A10	classe T18 titre

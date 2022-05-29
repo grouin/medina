@@ -1,0 +1,34 @@
+T1	Ville 1063 1068	Paris
+A4	role T3 soignant
+T3	Personne 1006 1025	Jean-Martin Charcot
+T5	Profession 116 126	neurologue
+T6	Profession 754 761	médecin
+T4	Pathologie 15 21	Cotard
+T7	Personne 746 752	Cotard
+A1	role T7 soignant
+T8	Pathologie 696 702	Cotard
+A12	role T11 soignant
+A14	role T13 soignant
+A16	role T15 soignant
+T11	Personne 1153 1159	Cotard
+T13	Personne 1476 1488	Jules Cotard
+T15	Personne 1607 1613	Cotard
+T17	Pathologie 1865 1871	Cotard
+T10	Personne 1190 1197	Cottard
+A2	role T10 autre
+T12	Personne 1246 1259	Marcel Proust
+A3	role T12 autre
+T14	Personne 1445 1458	Marcel Proust
+A5	role T14 autre
+T16	Personne 1029 1043	Alfred Vulpian
+A6	role T16 soignant
+T18	Organisation 1046 1060	la Salpêtrière
+T21	Personne 136 148	Jules Cotard
+T19	Date 1673 1677	1843
+T20	Personne 1688 1704	Jules Baillarger
+A7	role T20 soignant
+T22	Date 1579 1591	28 juin 1880
+T23	Date 104 108	1880
+T9	Date 150 154	1840
+T24	Date 155 159	1889
+T30	Profession 956 966	psychiatre

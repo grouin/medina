@@ -1,0 +1,52 @@
+T1	Date 403 407	1973
+T3	Date 2636 2640	1973
+T10	Pathologie 3781 3790	Stockholm
+T4	Ville 4115 4119	Lima
+T5	Ville 4322 4326	Lima
+T6	Pathologie 15 24	Stockholm
+T7	Pathologie 317 326	Stockholm
+T8	Ville 390 399	Stockholm
+T9	Ville 596 605	Stockholm
+T11	Personne 426 438	Nils Bejerot
+A1	role T11 soignant
+T12	Profession 415 425	psychiatre
+T13	Personne 487 502	Jan Erik Olsson
+A2	role T13 autre
+T14	Date 453 465	23 août 1973
+T15	Organisation 552 564	Kreditbanken
+T16	Lieu 580 593	Norrmalmstorg
+T17	Date 1372 1379	25 août
+T18	Personne 1111 1125	Clark Olofsson
+A3	role T18 autre
+T19	Date 1744 1751	28 août
+T20	Personne 1885 1892	Kristin
+A4	role T20 autre
+T21	Personne 2494 2508	Kristin Enmark
+A5	role T21 autre
+A23	role T22 autre
+A29	role T28 autre
+A31	role T30 soignant
+T22	Personne 2476 2490	Clark Olofsson
+T28	Personne 3070 3084	Kristin Enmark
+T30	Personne 2723 2735	Nils Bejerot
+T32	Profession 2691 2701	psychiatre
+T23	Personne 3443 3449	Enmark
+A6	role T23 autre
+T25	Personne 3478 3485	Bejerot
+A7	role T25 autre
+T27	Personne 3843 3858	Sándor Ferenczi
+A8	role T27 soignant
+T29	Date 3980 3984	1936
+T31	Personne 3873 3883	Anna Freud
+A9	role T31 soignant
+T33	Personne 3987 3998	Erich Fromm
+A10	role T33 autre
+A39	role T38 autre
+A45	role T44 autre
+T38	Personne 3134 3141	Bejerot
+T44	Personne 3508 3514	Enmark
+T35	Personne 4632 4646	Ernesto Sábato
+A11	role T35 autre
+T37	Profession 3829 3842	psychanalyste
+T39	Profession 2456 2474	assistante sociale
+T41	Profession 2436 2446	infirmière

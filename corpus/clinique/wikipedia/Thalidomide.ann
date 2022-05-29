@@ -1,0 +1,46 @@
+A2	type T1 pays
+T1	Lieu 932 938	France
+T7	Date 67 71	1960
+A9	type T8 pays
+T8	Lieu 912 922	États-Unis
+T11	Substance 3 14	thalidomide
+T12	Substance 487 498	thalidomide
+T13	Substance 686 697	thalidomide
+T2	Lieu 813 822	Allemagne
+A1	type T2 pays
+T4	Lieu 613 633	Allemagne de l'Ouest
+A3	type T4 pays
+T6	Organisation 669 673	Ciba
+T9	Lieu 829 844	Grande-Bretagne
+A5	type T9 pays
+T31	Organisation 741 756	Grünenthal GmbH
+T33	Date 760 764	1954
+T34	Date 789 793	1957
+T35	Date 465 469	1961
+T36	Organisation 316 331	Grünenthal GmbH
+T37	Ville 1387 1394	Uppsala
+A41	type T40 pays
+A43	type T42 pays
+T38	Date 59 63	1950
+T39	Date 677 681	1953
+T40	Lieu 2567 2573	France
+T42	Lieu 3194 3200	France
+T44	Pathologie 3039 3050	Rendu-Osler
+T45	Substance 1442 1453	thalidomide
+T46	Substance 1873 1884	thalidomide
+T47	Substance 2044 2055	thalidomide
+T48	Substance 2081 2092	thalidomide
+T49	Substance 2834 2845	thalidomide
+T50	Substance 3322 3333	thalidomide
+T3	Lieu 1398 1403	Suède
+A4	type T3 pays
+T5	Pathologie 1696 1701	Crohn
+T10	Date 1913 1917	1965
+T14	Date 1975 1985	avril 1974
+T15	Personne 1839 1852	Jacob Sheskin
+A6	role T15 inconnu
+T16	Date 1833 1837	1964
+T51	Pathologie 2308 2313	Crohn
+T17	Substance 2688 2698	Bortézomib
+T18	Substance 2700 2707	Velcade
+T19	Substance 2712 2722	Prednisone

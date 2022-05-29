@@ -1,0 +1,19 @@
+T1	Date 10 25	2 décembre 2019
+T3	Date 1470 1485	2 décembre 2019
+T4	Organisation 134 153	MICROVENTION Europe
+T5	Organisation 115 119	FRED
+T6	Id 295 307	SSAS1934779A
+A1	categorie T6 numero
+T2	Organisation 1028 1032	FRED
+T7	Organisation 938 972	MICROVENTION EUROPE (MICROVENTION)
+T8	Id 1004 1011	3185359
+A2	categorie T8 numero
+T9	Id 1060 1068	FRED5516
+A3	categorie T9 numero
+T10	Id 1100 1108	FRED5526
+A4	categorie T10 numero
+T11	Personne 1686 1694	B. Marin
+T12	Personne 1751 1761	N. Labrune
+T13	Personne 1905 1915	N. Labrune
+T14	Organisation 638 725	Commission nationale d'évaluation des dispositifs médicaux et des technologies de santé
+T15	URL 313 386	https://www.legifrance.gouv.fr/eli/arrete/2019/12/2/SSAS1934779A/jo/texte

@@ -1,0 +1,20 @@
+T1	Lieu 34 41	Mayotte
+T2	Date 68 84	23 novembre 2021
+T3	Telephone 180 194	02 69 61 12 25
+T4	Mail 208 236	ars-mayotte-com@ars.sante.fr
+T5	URL 249 282	https://www.mayotte.ars.sante.fr/
+T6	Adresse 301 313	Centre Kinga
+T7	Adresse 314 343	90 route Nationale 1 - Kaweni
+T8	Cp 344 350	BP 410
+T9	Cp 351 356	97600
+T10	Ville 357 366	Mamoudzou
+T11	Personne 411 425	Olivier BRAHIC
+A1	role T11 inconnu
+T12	Personne 508 523	Salim MOUHOUTAR
+A2	role T12 inconnu
+T13	Personne 555 568	Gilles RENAUD
+A3	role T13 inconnu
+T14	Personne 611 627	Rachika SAID ALI
+A4	role T14 inconnu
+A5	type T1 pays
+T15	Organisation 0 31	Agence régionale de santé (ARS)

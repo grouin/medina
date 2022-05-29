@@ -1,0 +1,14 @@
+T2	Date 73 88	21 juillet 2021
+T3	Telephone 184 198	04 66 68 68 68
+T4	Adresse 282 307	Place du Pr. Robert Debré
+T5	Cp 308 313	30029
+T6	Ville 314 319	Nîmes
+T7	Personne 372 384	Nicolas BEST
+A1	role T7 soignant
+T8	Personne 442 455	Eric DUPEYRON
+A2	role T8 soignant
+T9	Personne 529 542	Jérémy ROSIER
+A3	role T9 soignant
+T10	URL 211 235	http://www.chu-nimes.fr/
+T1	Organisation 0 46	Centre hospitalier universitaire (CHU) - Nîmes
+T11	Cedex 320 327	Cedex 9

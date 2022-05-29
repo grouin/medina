@@ -1,0 +1,26 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921691S
+T3	Organisation 225 269	centre hospitalier départemental Félix-Guyon
+T4	Adresse 271 291	route de Bellepierre
+T5	Cp 293 298	97405
+T6	Ville 299 310	Saint-Denis
+T7	Lieu 312 319	Réunion
+T8	Personne 699 711	R.-S. Ressez
+A1	role T8 soignant
+T9	Personne 713 724	T. Trammeur
+A2	role T9 soignant
+T10	Personne 760 771	U. Utcherra
+A3	role T10 soignant
+T11	Personne 805 816	V. Vivienit
+A4	role T11 soignant
+T12	Personne 818 834	W.-X. Winxhalter
+A5	role T12 soignant
+T13	Personne 872 883	Y. Yvonnick
+A6	role T13 soignant
+T14	Personne 885 896	Z. Zeichter
+A7	role T14 soignant
+T15	Personne 898 907	A. Abacci
+A8	role T15 soignant
+T16	Personne 909 918	B. Bayeur
+A9	role T16 soignant
+A10	type T7 pays

@@ -1,0 +1,15 @@
+T1	Ville 288 294	Médine
+T2	Date 10 25	30 janvier 2017
+T3	Id 101 113	AFSN1703066A
+T4	Personne 227 262	Amina Sarah Melina BALZIDDEZ ELISAN
+A1	role T4 soignant
+T5	Date 270 285	28 février 1972
+T6	Lieu 296 311	Arabie saoudite
+T7	Date 749 765	1er février 2017
+T8	Date 206 221	30 janvier 2017
+T9	Organisation 401 420	hôpital Saint-Louis
+T10	Organisation 423 460	Assistance publique/Hôpitaux de Paris
+T11	Lieu 87 93	France
+A2	type T11 pays
+A3	date T5 naissance
+A4	type T6 pays

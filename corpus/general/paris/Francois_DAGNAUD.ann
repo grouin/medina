@@ -1,0 +1,38 @@
+T1	Date 942 957	11 juillet 2020
+T10	Ville 325 330	Paris
+T11	Ville 430 435	Paris
+T12	Ville 514 519	Paris
+T13	Ville 644 649	Paris
+T2	Date 1071 1086	11 juillet 2020
+T3	Date 119 131	28 juin 2020
+T4	Date 211 223	28 juin 2020
+T5	Date 392 404	30 mars 2014
+T6	Ville 84 89	Paris
+T7	Ville 110 115	Paris
+T8	Ville 140 145	Paris
+T9	Ville 170 175	Paris
+T14	Date 1051 1064	13 avril 2014
+T15	Date 289 305	15 décembre 2015
+T17	Date 613 617	2014
+T19	Personne 3 19	François DAGNAUD
+A1	role T19 autre
+T20	Date 334 346	18 juin 1995
+T21	Date 357 369	18 mars 2001
+T22	Date 374 385	9 mars 2008
+T23	Date 440 452	21 mars 2008
+T24	Date 580 595	13 février 2013
+T25	Date 608 612	2008
+T26	Date 654 667	23 avril 2001
+T27	Date 848 852	2001
+T28	Date 853 857	2008
+T29	Date 1026 1040	4 février 2013
+T30	Date 1243 1257	4 janvier 1962
+T31	Ville 1261 1267	Jonzac
+T32	Lieu 1269 1286	Charente-Maritime
+T33	Mail 1429 1454	francois.dagnaud@paris.fr
+T38	Profession 1301 1306	Cadre
+T16	Lieu 30 48	19e arrondissement
+T18	Lieu 920 938	19e arrondissement
+T34	Lieu 1004 1022	19e arrondissement
+T35	Lieu 1363 1381	19e arrondissement
+T36	Lieu 1405 1408	19e

@@ -1,0 +1,16 @@
+T1	Lieu 285 300	Irlande du Nord
+T3	Date 256 271	23 janvier 1989
+T4	Date 790 807	1er novembre 2019
+T5	Date 10 25	28 octobre 2019
+T6	Id 101 113	SSAN1935311A
+T7	Date 203 218	28 octobre 2019
+T8	Ville 274 283	Fermanagh
+T9	Personne 223 248	Donn Oc Carach MAG UIDHIR
+A1	role T9 soignant
+T10	Personne 523 536	Olivier Gille
+A2	role T10 soignant
+T2	Organisation 541 585	centre hospitalier universitaire de Bordeaux
+T11	Lieu 87 93	France
+A3	type T11 pays
+A4	date T3 naissance
+A5	type T1 region

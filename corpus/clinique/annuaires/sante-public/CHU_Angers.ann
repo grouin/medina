@@ -1,0 +1,15 @@
+T1	Adresse 277 289	4 rue Larrey
+T2	Adresse 321 333	4 rue Larrey
+T3	Cp 334 339	49933
+T5	Ville 296 302	Angers
+T6	Ville 340 346	Angers
+T7	Date 74 89	07 juillet 2021
+T8	Telephone 185 199	02 41 35 36 37
+T9	Cp 290 295	49000
+T10	Personne 401 425	Cécile JAGLIN-GRIMONPREZ
+A1	role T10 soignant
+T11	Personne 496 516	Sébastien TREGUENARD
+A2	role T11 soignant
+T12	URL 212 238	https://www.chu-angers.fr/
+T4	Organisation 0 47	Centre hospitalier universitaire (CHU) - Angers
+T13	Cedex 347 354	Cedex 9

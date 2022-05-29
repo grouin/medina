@@ -1,0 +1,16 @@
+T1	Date 845 857	19 mars 2018
+T3	Date 10 25	29 octobre 2019
+T4	Id 101 113	SSAN1931243A
+T6	Date 203 218	29 octobre 2019
+T7	Personne 223 248	Carlos Martinez Hernandez
+A1	role T7 soignant
+T8	Personne 498 512	Gustaav Wyalsh
+A2	role T8 soignant
+T5	Date 256 270	7 octobre 1987
+T9	Ville 273 280	Cordoba
+T10	Lieu 282 291	Argentine
+T2	Organisation 517 548	centre hospitalier de Perpignan
+A3	type T10 pays
+T11	Lieu 87 93	France
+A4	type T11 pays
+A5	date T5 naissance

@@ -1,0 +1,9 @@
+T2	Anatomie 12 20	Eustache
+T3	Personne 279 298	Bartolomeo Eustachi
+A1	role T3 soignant
+T4	Date 251 255	1543
+T5	Personne 311 327	Antonio Valsalva
+A2	role T5 soignant
+T6	Personne 362 370	Eustachi
+A3	role T6 soignant
+T8	Profession 263 270	médecin

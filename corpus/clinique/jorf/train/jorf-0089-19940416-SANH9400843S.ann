@@ -1,0 +1,10 @@
+T1	Id 151 163	SANH9400843S
+T2	Date 239 253	7 février 1994
+T3	Personne 338 344	Naviri
+A1	role T3 soignant
+T4	Adresse 531 551	avenue Charles-Péguy
+T5	Ville 555 564	Sarcelles
+T6	Lieu 566 576	Val-d'Oise
+T7	Organisation 502 524	clinique Alexis-Carrel
+T9	Organisation 288 306	STS IRM Paris-Nord
+A2	type T6 region

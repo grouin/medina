@@ -1,0 +1,15 @@
+T1	Date 824 836	19 mars 2018
+T2	Date 10 23	10 avril 2019
+T3	Id 99 111	SSAN1910795A
+T4	Date 201 214	10 avril 2019
+T5	Personne 219 231	Pedro FRANCO
+A1	role T5 soignant
+T6	Date 239 252	1er août 1977
+T7	Ville 255 263	Valencia
+T8	Lieu 265 272	Espagne
+T9	Organisation 457 486	Centre hospitalier Eure Seine
+T10	Organisation 490 513	Hôpital d'Evreux-Vernon
+T11	Lieu 85 91	France
+A2	type T11 pays
+A3	date T6 naissance
+A4	type T8 pays

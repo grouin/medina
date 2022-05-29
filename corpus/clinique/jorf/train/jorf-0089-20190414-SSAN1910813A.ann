@@ -1,0 +1,14 @@
+T1	Lieu 264 279	Arabie Saoudite
+T3	Date 10 23	10 avril 2019
+T4	Id 99 111	SSAN1910813A
+T5	Date 201 214	10 avril 2019
+T6	Personne 219 234	Robert ELORIENT
+A1	role T6 soignant
+T7	Date 242 253	5 mars 1979
+T8	Ville 256 262	Najran
+T9	Date 676 690	1er avril 2019
+T2	Organisation 410 470	Centre hospitalier universitaire de Nice - Hôpital de Cimiez
+T10	Lieu 85 91	France
+A2	type T10 pays
+A3	date T7 naissance
+A4	type T1 pays

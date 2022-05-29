@@ -1,0 +1,37 @@
+T1	Lieu 527 542	Asie du Sud-Est
+T2	Lieu 544 553	Indonésie
+T3	Date 751 758	octobre
+T4	Date 762 769	janvier
+T5	Personne 1403 1416	Antoine Risso
+T6	Personne 1420 1437	Alexandre Poiteau
+T7	Date 1478 1482	1818
+T8	Lieu 1502 1508	Europe
+T9	Date 1512 1516	1900
+T10	Date 1564 1571	janvier
+T14	Lieu 2293 2298	Japon
+T15	Lieu 2320 2329	Indochine
+T16	Lieu 2331 2336	Chine
+T17	Lieu 2540 2549	Thaïlande
+T18	Lieu 2555 2561	Taïwan
+T19	Lieu 2717 2727	États-Unis
+T20	Date 3114 3118	1984
+A1	type T2 pays
+T21	Lieu 555 563	Malaisie
+A2	type T21 pays
+A3	role T5 inconnu
+A4	role T6 inconnu
+T11	Date 1575 1580	avril
+T22	Organisation 1700 1704	OCDE
+T23	Organisation 501 505	OCDE
+T12	Lieu 2285 2289	Inde
+A5	type T12 pays
+A6	type T14 pays
+A8	type T16 pays
+T13	Lieu 2351 2359	Malaisie
+A9	type T13 pays
+T24	Lieu 2364 2369	Chine
+A7	type T24 pays
+A10	type T17 pays
+A11	type T18 pays
+A12	type T19 pays
+T25	Organisme 197 205	Rutaceae

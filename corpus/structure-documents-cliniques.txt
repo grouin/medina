@@ -1,0 +1,85 @@
+ENTETE NOM HOPITAL
+COORDONNEES
+
+Type de document (compte rendu d'hospitalisation/compte rendu opératoire), service (Bloc d'urgence, Médecine interne, Médecine infectieuse, Unité cardiologique, etc.) et identité du patient (prénom, nom, numéro de l'intervention, âge et/ou date de naissance), éventuellement le nom du médecin traitant.
+- Compte rendu d'hospitalisation de Madame/Monsieur prénom nom
+- Né le date (âge)
+Eventuelle phrase introductive ou paragraphe introducteur précisant les dates de séjour (entrée et sortie) et motif de la consultation ("Malade âge de X ans, hospitalisé dans le service du X au X, pour MOTIF").
+Noms des chirurgiens, anesthésiste, instrumentiste, 
+
+
+Antécédents
+-----------
+Liste de toutes les maladies, allergies, et opérations chirurgicales concernant le patient, ou sa famille (e.g., cancer, diabète), avec années précises ou référence temporelle relative ("il y a X mois/années", "dans l'enfance").
+Le traitement utilisé pour les maladies est également mentionné.
+Pour les maladies chroniques, l'état peut-être précisé (stabilisé).
+Pour les femmes, informations de grossesses (G2P1 ou "un enfant, une fausse couche") et gynécologiques (suivi, examens, traitements).
+Eventuelles informations démographiques (nationalité, profession).
+
+
+Histoire de la maladie
+----------------------
+Toute information utile (maladie, signes ou symptômes, localisation anatomique, traitements suivis ou arrêtés, perte de poids, facteurs de risque liés à la maladie, etc.), depuis le premier épisode (apparition subite ou suite à une opération) jusqu'à l'admission, avec cause probable.
+En une ou plusieurs phrases, ou liste de phrases avec dates si plusieurs épisodes ou enchaînement causal.
+
+
+Bilan clinique
+--------------
+Sans particularité.
+-ou-
+Fièvre/apyrexie, poids/obésité (ou perte de poids sur une durée précisée), état général (correct/conservé/altération de l'état général ; douleurs ; discours cohérent/incohérent), asténie.
+Auscultation cardiaque (absence/présence de souffle vasculaire), tension artérielle (valeur).
+
+
+Bilan biologique
+----------------
+Résultats (valeurs) d'analyses biologiques :
+- numération : globules blancs, rouges, hémoglobine, hématrocrite, plaquettes, VGM, polynucléaires neutrophiles, lymphocytes, éosinophiles, basophiles, ionogramme, etc.
+- bilan hépatique : Gamma GT, triglycérides, biliburine, acide urique, etc.
+- bilan rénal : PCR, fibrine
+- bilan immunologique : ACAN, DNA, SSA, SSB, RNP, Sm, dosage pondéral IG (IgM, IgG, IgA)
+- bilan thyroïdien
+- autres examens biologiques : caryotype, typage lymphocitaire, ECBU, sérologies hépatiques B et C, fièvre Q, tularémie, bartonella, rickettsia, Erlichiose
+
+
+Bilan paraclinique
+------------------
+Autres examens :
+- radiographie de l'abdomen sans préparation
+- radiographie pulmonaire
+- scanner cérébral
+- scanner thoraco-abdomino-pelvien : sans anomalies/...
+- échographie hépatique et splénique
+- IRM moelle osseuse
+- IRM dorsolombaire
+- coloscopie totale/partielle
+- biopsies duodénale, antrale, fundique : normale/...
+- écho cardiaque/électro-encéphalogramme : absence/présence de rythmes rapides, anomalie paroxystique de type épileptique
+- FOGD : hernie hiatale
+
+
+Evolution
+---------
+Evolution de la maladie pendant le séjour hospitalier : pic fébrile, normalisation de bilan biologique, amélioration de l'état général, implantation d'un dispositif (stimulateur double chambre, déplacement/remplacement de sonde atriale).
+
+
+Traitement de sortie/à domicile
+-------------------------------
+Liste des médicaments, un par ligne, sous la forme :
+- traitement concentration : dose fréquence ou moment (1 le soir ; 1 matin et midi ; un demi le soir au coucher ; 2 matin, midi et soir ; 1/2 par jour)
+- traitement : nombre forme (cp/gélule/gouttes) par jour
+- traitement Spray
+Cette section est parfois directement intégrée dans la conclusion
+
+
+Discussion et conclusion
+------------------------
+Tableau ..., d'étiologie (indéterminée/...), d'évolution (favorable/...) avec/en l'absence de tout traitement.
+
+Traitement de sortie (cf. section précédente, mêmes principes).
+Nouveau bilan, examen, nouvelle hospitalisation (A recontrôler dans X an/mois).
+
+
+
+Initiale Nom
+Fonction (C.C.A./Interne/PU-PH/Praticien hospitalier)

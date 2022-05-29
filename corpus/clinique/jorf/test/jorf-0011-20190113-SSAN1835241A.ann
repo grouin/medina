@@ -1,0 +1,14 @@
+T1	Date 10 26	19 décembre 2018
+T2	Id 102 114	SSAN1835241A
+T3	Date 204 220	19 décembre 2018
+T4	Personne 225 239	Yanis Aminakis
+A1	role T4 soignant
+T5	Date 247 260	13 avril 1978
+T6	Ville 263 270	Larissa
+T7	Lieu 272 277	Grèce
+T8	Organisation 457 494	Groupe hospitalier Paris Saint-Joseph
+T9	Date 804 816	19 mars 2018
+A2	date T5 naissance
+T10	Lieu 88 94	France
+A3	type T10 pays
+A4	type T7 pays

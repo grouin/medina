@@ -1,0 +1,14 @@
+T1	Date 10 26	19 décembre 2018
+T2	Date 204 220	19 décembre 2018
+T3	Date 806 818	19 mars 2018
+T4	Lieu 274 279	Maroc
+T5	Id 102 114	SSAN1835298A
+T6	Personne 226 235	Amel Imar
+A1	role T6 soignant
+T7	Date 244 258	9 juillet 1981
+T8	Ville 261 272	Ben Alleilm
+T9	Organisation 467 504	groupe hospitalier Paris Saint-Joseph
+A2	date T7 naissance
+A3	type T4 pays
+T10	Lieu 88 94	France
+A4	type T10 pays

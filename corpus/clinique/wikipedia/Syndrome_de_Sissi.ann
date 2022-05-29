@@ -1,0 +1,21 @@
+T1	Pathologie 15 20	Sissi
+T2	Personne 94 104	Jörg Blech
+A1	role T2 soignant
+T3	Pathologie 206 211	Sissi
+T4	Personne 570 575	Sissi
+A2	role T4 autre
+T5	Lieu 591 599	Autriche
+A3	type T5 pays
+T6	Profession 577 588	impératrice
+T7	Date 890 894	1998
+T8	Organisation 938 956	SmithKline-Beecham
+T9	Organisation 977 993	Glaxo-SmithKline
+A12	role T11 soignant
+T10	Organisation 1652 1668	Glaxo-SmithKline
+T11	Personne 690 700	Jörg Blech
+T12	Ville 1621 1630	Oberursel
+T13	Pathologie 848 853	Sissi
+T14	Pathologie 1450 1455	Sissi
+T15	Date 1134 1142	mai 2003
+T16	Ville 1189 1196	Münster
+T17	Organisation 1564 1573	Wedopress

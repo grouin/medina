@@ -1,0 +1,128 @@
+A10	role T9 autre
+A12	role T11 autre
+A8	role T7 autre
+T11	Personne 4050 4065	Patrick Modiano
+T6	Organisation 3851 3860	Gallimard
+T7	Personne 37 52	Patrick Modiano
+T9	Personne 3815 3830	Patrick Modiano
+A16	role T15 inconnu
+T15	Personne 2800 2811	Dora Bruder
+A20	role T19 autre
+T19	Personne 2919 2926	Modiano
+T25	Ville 2595 2604	Auschwitz
+T28	Ville 1284 1290	Vienne
+T29	Ville 1951 1957	Vienne
+T30	Ville 3374 3380	Annecy
+T31	Organisation 3754 3771	Éditions du Seuil
+T32	Ville 894 902	Bordeaux
+T33	Organisation 603 610	Gestapo
+T35	Profession 2001 2008	médecin
+T36	Ville 631 637	Genève
+T37	Lieu 1238 1244	Savoie
+T38	Gentile 292 300	français
+T39	Gentile 681 689	français
+T2	Date 61 65	1968
+T4	Adresse 3 20	Place de l'Étoile
+T8	Personne 653 664	Des Essarts
+A1	role T8 inconnu
+T10	Ville 810 818	New York
+T12	Personne 931 940	Debigorre
+A3	role T12 inconnu
+T14	Lieu 1253 1262	Normandie
+T16	Personne 1377 1385	Heydrich
+A5	role T16 inconnu
+T18	Personne 1392 1398	Hitler
+A6	role T18 autre
+T20	Personne 1065 1077	Lévy-Vendôme
+A7	role T20 inconnu
+T22	Personne 694 707	Maurice Sachs
+A9	role T22 inconnu
+T1	Personne 263 285	Raphaël Schlemilovitch
+A2	role T1 inconnu
+T24	Personne 1437 1446	Eva Braun
+A11	role T24 autre
+T27	Lieu 1477 1483	Israël
+A13	type T27 pays
+T41	Gentile 1636 1646	Israéliens
+T42	Gentile 1604 1613	européens
+T43	Personne 1856 1870	Schlemilovitch
+A15	role T43 inconnu
+T44	Personne 2051 2056	Freud
+A17	role T44 soignant
+T45	Gentile 2546 2556	Auvergnats
+T46	Gentile 2561 2573	Périgourdins
+T47	Gentile 2584 2591	Bretons
+T48	Ville 2610 2616	Dachau
+T49	Personne 2388 2396	Jean Cau
+A19	role T49 autre
+T50	Date 2823 2827	1997
+T51	Date 2246 2250	1975
+T52	Date 2766 2770	1985
+T53	Adresse 2962 2979	Place de l'Étoile
+T54	Profession 3150 3160	aventurier
+T55	Personne 3163 3188	Jean-François des Essarts
+A21	role T55 inconnu
+T56	Personne 3321 3341	Charles-Levy-Vendôme
+A23	role T56 inconnu
+T57	Personne 3121 3142	Viktor Schlemilovitch
+A25	role T57 inconnu
+T3	Personne 3074 3096	Raphaël Schlemilovitch
+A4	role T3 inconnu
+T58	Profession 3284 3299	prof de lettres
+T59	Profession 3481 3492	prostituées
+T60	Personne 3383 3389	Loïtia
+A26	role T60 inconnu
+T61	Personne 3362 3370	Perrache
+A28	role T61 inconnu
+T63	Personne 3411 3443	Véronique de Fougeire-Jusquiames
+A29	role T63 inconnu
+T62	Gentile 3456 3464	normande
+T64	Personne 3467 3472	Tania
+A30	role T64 inconnu
+T65	Personne 3474 3479	Hilda
+A31	role T65 inconnu
+T66	Personne 3495 3506	Elias Bloch
+A32	role T66 inconnu
+T67	Personne 3536 3543	Rebecca
+A33	role T67 inconnu
+T68	Profession 3545 3564	officier de l'armée
+T69	Date 3667 3671	1967
+T70	Personne 3695 3708	Claude Durand
+A34	role T70 autre
+T71	Adresse 4014 4031	Place de l'Étoile
+A74	role T73 inconnu
+A77	role T76 autre
+A79	role T78 inconnu
+A87	role T86 inconnu
+T72	Date 4097 4105	mai 1968
+T73	Personne 3273 3282	Debigorre
+T75	Organisation 79 88	Gallimard
+T76	Personne 3597 3605	Jean Cau
+T78	Personne 3221 3234	Maurice Sachs
+T86	Personne 2139 2153	Schlemilovitch
+T92	Profession 3242 3252	aventurier
+T74	Autre 115 127	Roger-Nimier
+A35	classe T74 prix
+T77	Autre 139 145	Fénéon
+A36	classe T77 prix
+A100	classe T99 titre
+A102	classe T101 prix
+A94	classe T93 prix
+A96	classe T95 titre
+A98	classe T97 titre
+T101	Autre 4081 4093	Roger-Nimier
+T93	Autre 4124 4130	Fénéon
+T95	Autre 0 20	La Place de l'Étoile
+T97	Autre 2959 2979	La Place de l'Étoile
+T99	Autre 4011 4031	La Place de l'Étoile
+T79	Autre 3950 3970	guerre des Six Jours
+A37	classe T79 epoque
+T81	Profession 3343 3352	souteneur
+T83	Gentile 3565 3576	israélienne
+T85	Autre 1353 1368	Troisième Reich
+A38	classe T85 epoque
+T5	Profession 942 963	professeur de lettres
+T13	Personne 3046 3059	Robert Desnos
+A14	role T13 autre
+T17	Personne 3807 3813	Durand
+A18	role T17 inconnu

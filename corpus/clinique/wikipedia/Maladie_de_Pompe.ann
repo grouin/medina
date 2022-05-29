@@ -1,0 +1,9 @@
+T1	Pathologie 14 19	Pompe
+T2	Personne 492 515	Joannes Cassianus Pompe
+A1	role T2 soignant
+T3	Date 535 539	1932
+T4	Age 749 755	50 ans
+T5	Age 563 569	7 mois
+T6	Pathologie 614 619	Pompe
+T7	Substance 1230 1237	Myozyme
+T8	Date 1245 1249	2006

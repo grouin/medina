@@ -1,0 +1,42 @@
+L’angioœdème ou angio-œdème, connu aussi sous le nom d’œdème de Quincke et l’ancien terme œdème angioneurotique (en réalité angio-œdème héréditaire), est le gonflement (œdème) rapide de la peau, des muqueuses et des tissus sous-muqueux. En dehors de la forme courante, due à une allergie, il a été observé parmi les effets indésirables de certains médicaments, et notamment les IECA (Inhibiteur de l'enzyme de conversion de l'angiotensine).
+
+Par ailleurs, il existe une forme héréditaire, due au déficit en C1-Inhibiteur de la protéine sanguine. Cette forme est appelée « angio-œdème héréditaire » (« AOH »), qui est due au déficit en inhibiteur de la C1-estérase.
+
+Les cas où l’angiœdème progresse rapidement doivent être traités comme des urgences médicales étant donné qu’une obstruction des voies aériennes et une suffocation peuvent se produire. Un traitement rapide par l’adrénaline auto-injectable peut sauver la vie.
+
+Historique
+Le Dr Heinrich Quincke a décrit pour la première fois le tableau clinique de l’angio-œdème en 1882. Sir William Osler a remarqué en 1888 que certains cas pouvaient avoir une base héréditaire ; il a donc inventé le terme « œdème angio-neurotique héréditaire ».
+
+Signes et symptômes
+La peau du visage, normalement autour de la bouche et la muqueuse buccale et / ou la gorge, ainsi que la langue enflent pendant quelques minutes ou plusieurs heures. Le gonflement peut aussi se produire ailleurs, généralement sur les mains. Parfois, le patient a été exposé récemment à un allergène (ex. : cacahuètes), et une urticaire se développe simultanément ; mais bien souvent, l’origine est idiopathique (inconnue). Le gonflement peut provoquer un prurit (démangeaisons de la peau). Il peut aussi y avoir une paresthésie (diminution de la sensibilité dans les zones touchées), en raison de la compression des nerfs.
+
+Dans les cas graves, un bronchospasme peut se produire, avec des halètements à l’inspiration et une baisse de la saturation en oxygène. Une intubation trachéale et un traitement rapide par adrénaline et antihistaminiques est nécessaire dans ces cas-là.
+
+Diagnostic
+Le diagnostic est établi sur la base du tableau clinique. Lorsque le patient a été stabilisé, les taux du complément, et notamment C1-Inhibiteur et déplétion des facteurs du complément 2 et 4, peuvent indiquer la présence d’un angio-œdème héréditaire.
+
+Physiopathologie
+La voie courante finale pour le développement de l'angiœdème semble être l'activation de la voie de la bradykinine. Ce peptide est un puissant vasodilatateur, entraînant une accumulation rapide de fluide dans l’interstitium. Ceci est le plus évident sur le visage, où la peau a relativement peu de tissu conjonctif de soutien et l'œdème se développe facilement. La bradykinine est libérée par différents types de cellules, en réponse à de nombreux stimuli différents ; c'est aussi un médiateur de la douleur.
+
+Divers mécanismes interférant avec la production ou la dégradation de la bradykinine peuvent induire un angio-œdème. Les IEC bloquent la fonction de la kininase II, l'enzyme qui dégrade la bradykinine.
+
+L'angio-œdème peut être dû à la formation d'anticorps contre C1INH ; c'est ce que l'on appelle une affection auto-immune. Cet « angiœdème acquis » est associé au développement d'un lymphome.
+
+La consommation d'aliments qui sont eux-mêmes des vasodilatateurs tels que les boissons alcoolisées ou la cannelle peut accroître la probabilité d'un épisode d'angiœdème chez les patients prédisposés. Si la crise se produit après la consommation de ces aliments, son apparition peut être retardée du jour au lendemain ou de quelques heures, rendant la corrélation avec leur consommation plus difficile.
+
+L'utilisation d'ibuprofène ou d'aspirine peut accroître la probabilité de crise chez certains patients. L'utilisation de paracétamol entraîne une augmentation certes plus réduite mais réelle de la probabilité de crise.
+
+Traitement
+Traitement de la crise
+L'œdème de Quincke peut être grave car il peut évoluer rapidement vers une obstruction des voies respiratoires due à l'œdème laryngé et vers un état de choc anaphylactique.
+
+Le traitement de la crise est urgent et nécessite l'association d'adrénaline (en intramusculaire ou perlinguale) et de corticoïde en intramusculaire ou intraveineux. L'administration d'une dose d'adrénaline en sous cutané est recommandée : en concentration 1/1000, 0,01 ml/kg/dose (dose maximale de 0,3 ml/dose) ; ré-administration si nécessaire après 20 minutes. Un transport médicalisé pour une surveillance hospitalière est nécessaire même en cas de franche amélioration car une réaggravation est possible. En l'absence de signe de gravité, le traitement consiste en l'administration d'antihistaminiques et de corticoïdes.
+
+La diphénhydramine (Bénadryl) fait également partie du traitement d'urgence.
+
+Traitement préventif
+Dans le cas de l’angioœdème allergique, l’absence d’exposition à l’allergène et l’utilisation d’antihistaminiques sont susceptibles de prévenir les crises futures. La cétirizine, commercialisée sous le nom de Zyrtec ou Reactine, est un antihistaminique couramment prescrit en cas d’angiœdème. Les cas d’angiœdème sévères peuvent nécessiter une désensibilisation à l’allergène putatif, compte tenu du risque de mortalité. Les cas chroniques nécessitent une thérapie par stéroïdes, entraînant généralement une bonne réponse.
+
+En cas d’utilisation d’un inhibiteur de l’ECA, le médicament doit être arrêté et tous les médicaments similaires doivent être évités. Un débat controversé traite du fait de savoir si les antagonistes des récepteurs de l’angiotensine II peuvent être utilisés en toute sécurité chez les patients ayant eu des crises antérieures d’angio-œdème.
+
+Dans les types I et II d’angio-œdème acquis, et d’angio-œdème non histaminergique, les antifibrinolytiques tels que l’acide tranexamique ou l’acide ε-aminocaproïque peuvent être efficaces.

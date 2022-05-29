@@ -1,0 +1,23 @@
+T1	Date 492 507	11 juillet 2020
+T2	Date 124 136	28 juin 2020
+T3	Date 225 237	28 juin 2020
+T4	Date 395 407	30 mars 2014
+T5	Ville 87 92	Paris
+T6	Ville 115 120	Paris
+T7	Ville 343 348	Paris
+T8	Date 546 559	13 avril 2014
+T11	Date 376 388	16 mars 2008
+T12	Lieu 828 836	Yvelines
+T13	Personne 4 21	Florence BERTHOUT
+A1	role T13 autre
+T14	Date 305 322	25 septembre 2018
+T15	Date 352 364	18 mars 2001
+T16	Ville 820 826	Houdan
+T17	Date 805 817	25 juin 1962
+T18	Mail 858 884	florence.berthout@paris.fr
+T21	Profession 758 779	Conseillère régionale
+T22	Lieu 782 795	île-de-France
+T9	Lieu 32 51	5ème arrondissement
+T10	Lieu 471 488	5e arrondissement
+T19	Lieu 525 542	5e arrondissement
+T20	Lieu 185 187	5e

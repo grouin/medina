@@ -1,0 +1,67 @@
+T1	Personne 70 82	ZAHIR AMOURA
+A1	role T1 soignant
+T2	Personne 94 115	SOPHIE PECHON GOULARD
+A2	role T2 autre
+T3	Telephone 116 130	01 42 17 78 32
+T4	Telephone 132 146	01 42 17 80 01
+T5	Personne 231 243	ZAHIR AMOURA
+A3	role T5 soignant
+T6	Personne 290 302	ZAHIR AMOURA
+A4	role T6 soignant
+T7	Personne 555 573	THOURAYA BEN SALEM
+A5	role T7 soignant
+T8	Pathologie 456 472	Gougerot Sjögren
+T9	Personne 588 607	THI HUONG DU BOUTIN
+A6	role T9 soignant
+T10	Pathologie 715 721	Behçet
+T11	Personne 734 748	PATRICK CHERIN
+A7	role T11 soignant
+T12	Personne 792 803	FLEUR COHEN
+A8	role T12 soignant
+T13	Pathologie 862 868	Behçet
+T14	Pathologie 892 908	Gougerot Sjögren
+T15	Pathologie 1044 1057	Rosai Dorfman
+T16	Pathologie 543 551	Clarkson
+T17	Pathologie 1021 1028	Wegener
+T18	Pathologie 995 1001	Horton
+T19	Pathologie 965 970	Sharp
+T20	Pathologie 972 977	Still
+T21	Pathologie 529 534	Sharp
+T22	Pathologie 536 541	Still
+T23	Pathologie 1163 1178	Erdheim-Chester
+T24	Pathologie 1180 1193	Rosai Dorfman
+T25	Pathologie 1519 1526	Wegener
+T26	Pathologie 1528 1544	Churg et Strauss
+T27	Pathologie 1546 1552	Behçet
+T28	Pathologie 1554 1560	Horton
+T29	Pathologie 1796 1801	Sharp
+T30	Pathologie 1803 1808	Still
+T31	Pathologie 1678 1684	Behçet
+T32	Pathologie 1716 1732	Gougerot Sjögren
+T33	Pathologie 1749 1755	Horton
+T34	Personne 2074 2087	ABDELLAH SBAI
+A9	role T34 soignant
+T35	Personne 2043 2059	DOMINIQUE BIDOLI
+A10	role T35 soignant
+T36	Personne 2004 2013	DOV TAIEB
+A11	role T36 soignant
+T37	Personne 1916 1929	MICHELINE PHA
+A12	role T37 soignant
+T38	Personne 1889 1902	MATTHIAS PAPO
+A13	role T38 soignant
+T39	Personne 1862 1875	QUENTIN MOYON
+A14	role T39 soignant
+T40	Personne 1839 1852	MAKOTO MIYARA
+A15	role T40 soignant
+T41	Personne 1591 1605	ALEXIS MATHIAN
+A16	role T41 soignant
+T42	Personne 1564 1577	RAPHAEL LHOTE
+A17	role T42 soignant
+T43	Personne 1358 1368	MIGUEL HIE
+A18	role T43 soignant
+T44	Personne 1331 1347	PIERRE HAUSFATER
+A19	role T44 soignant
+T45	Personne 1096 1110	JULIEN HAROCHE
+A20	role T45 soignant
+T46	Personne 1058 1082	RODOLPHE COUGNAUD-MURAIL
+A21	role T46 soignant

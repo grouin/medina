@@ -1,0 +1,13 @@
+T1	Cp 350 355	44093
+T3	Ville 356 362	Nantes
+T4	Date 74 89	02 février 2022
+T5	Telephone 185 199	02 40 08 33 33
+T6	Adresse 323 349	5 allée de l'île-Gloriette
+T7	Adresse 303 322	Immeuble Deurbroucq
+T8	Personne 415 431	Philippe EL SAÏR
+A1	role T8 soignant
+T9	Personne 471 490	Laurence Jay-Passot
+A2	role T9 soignant
+T10	URL 212 237	http://www.chu-nantes.fr/
+T11	Cedex 363 370	Cedex 1
+T2	Organisation 0 47	Centre hospitalier universitaire (CHU) - Nantes

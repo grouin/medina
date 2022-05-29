@@ -1,0 +1,41 @@
+T1	Personne 0 28	Louis Édouard Octave Crouzon
+T3	Date 82 99	29 septembre 1874
+T4	Ville 69 74	Paris
+T5	Date 160 164	1938
+T6	Ville 223 228	Paris
+T7	Personne 263 275	Pierre Janet
+T8	Date 277 281	1859
+T9	Date 282 286	1947
+T10	Ville 350 355	Paris
+T11	Personne 384 406	Paul Georges Dieulafoy
+T12	Date 408 412	1839
+T13	Date 413 417	1911
+T14	Personne 424 439	Joseph Babinski
+T15	Personne 455 467	Pierre Marie
+T16	Date 488 492	1900
+T17	Personne 529 545	Philippe Gaucher
+T18	Organisation 608 618	Hôtel Dieu
+T19	Date 622 626	1906
+T20	Date 659 663	1912
+T21	Personne 976 983	Crouzon
+T22	Personne 1186 1193	Crouzon
+T23	Date 1224 1228	1919
+T24	Ville 1304 1309	Paris
+T25	Organisation 1206 1220	la Salpêtrière
+T26	Date 1581 1585	1937
+T28	Date 1698 1713	26 février 1935
+T29	Profession 36 54	médecin neurologue
+T2	Lieu 75 78	11e
+T30	Ville 151 156	Paris
+A1	role T1 soignant
+A2	role T7 inconnu
+A3	role T11 soignant
+A4	role T14 soignant
+A5	role T15 soignant
+T31	Profession 477 484	médecin
+A6	role T17 soignant
+A7	role T21 soignant
+A8	role T22 soignant
+T32	Organisation 1470 1481	Salpêtrière
+T27	Personne 1588 1595	Crouzon
+A9	role T27 soignant

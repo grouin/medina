@@ -1,0 +1,68 @@
+T1	Organisation 13 32	CHU Amiens-Picardie
+T2	Organisation 1690 1709	CHU Amiens-Picardie
+T3	Organisation 1908 1927	CHU Amiens-Picardie
+T4	Organisation 2400 2419	CHU Amiens-Picardie
+T5	Organisation 2746 2765	CHU Amiens-Picardie
+T10	Cp 1549 1554	80054
+T11	Cp 1792 1797	80054
+T12	Cp 1988 1993	80054
+T13	Cp 2159 2164	80054
+T14	Cp 2532 2537	80054
+T15	Cp 2882 2887	80054
+T16	Cp 3121 3126	80054
+T17	Cp 3274 3279	80054
+T18	Cp 3494 3499	80054
+T19	Cp 3712 3717	80054
+T21	Ville 1114 1120	Amiens
+T22	Ville 1424 1430	Amiens
+T23	Ville 1555 1561	Amiens
+T25	Ville 1798 1804	Amiens
+T27	Ville 1994 2000	Amiens
+T28	Ville 2165 2171	Amiens
+T30	Ville 2538 2544	Amiens
+T32	Ville 2888 2894	Amiens
+T33	Ville 3127 3133	Amiens
+T34	Ville 3280 3286	Amiens
+T35	Ville 3500 3506	Amiens
+T36	Ville 3718 3724	Amiens
+T6	Adresse 2488 2531	1 rond-point du Professeur Christian Cabrol
+T7	Adresse 2838 2881	1 rond-point du Professeur Christian Cabrol
+T8	Cp 1108 1113	80054
+T9	Cp 1418 1423	80054
+T37	Adresse 1771 1791	Place Victor Pauchet
+T38	Adresse 1967 1987	Place Victor Pauchet
+T39	Personne 55 69	Frédéric BLOCH
+A1	role T39 soignant
+T40	Organisation 151 163	Saint-Victor
+T41	Telephone 1029 1043	03 22 82 43 11
+T42	Organisation 1058 1077	Centre Saint-Victor
+T43	Adresse 1084 1107	354 boulevard Beauvillé
+T44	Telephone 1339 1353	03 22 82 43 10
+T45	Organisation 1368 1387	Centre Saint-Victor
+T46	Adresse 1394 1417	354 boulevard Beauvillé
+T47	Telephone 1470 1484	03 22 82 42 55
+T48	Organisation 1453 1462	Beauvillé
+T49	Organisation 1499 1518	Centre Saint-Victor
+T50	Adresse 1525 1548	354 boulevard Beauvillé
+T51	Telephone 1661 1675	03 22 45 57 20
+T52	Telephone 1879 1893	03 22 45 57 10
+T53	Telephone 2046 2060	03 22 82 43 85
+T54	Organisation 2075 2094	Centre Saint-Victor
+T55	Adresse 2135 2158	354 boulevard Beauvillé
+T56	Telephone 2312 2326	03 22 08 80 00
+T57	Organisation 2460 2481	Saint-Vincent de Paul
+T58	Telephone 2717 2731	03 22 45 57 20
+T59	Telephone 3029 3043	03 22 82 43 95
+T60	Organisation 3058 3077	Centre Saint-Victor
+T61	Adresse 3097 3120	354 boulevard Beauvillé
+T62	Telephone 3182 3196	03 22 82 43 95
+T63	Telephone 3393 3407	03 22 82 42 55
+T64	Telephone 3628 3642	03 22 82 42 55
+T65	Adresse 3250 3273	354 boulevard Beauvillé
+T66	Adresse 3470 3493	354 boulevard Beauvillé
+T67	Adresse 3688 3711	354 boulevard Beauvillé
+T76	Organisation 3211 3230	Centre Saint-Victor
+T77	Organisation 3422 3441	Centre Saint-Victor
+T78	Organisation 3657 3676	Centre Saint-Victor
+T20	Pathologie 3611 3620	Alzheimer
+T24	Organisation 3555 3569	des hortillons

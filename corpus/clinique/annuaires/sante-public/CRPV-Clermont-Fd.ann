@@ -1,0 +1,15 @@
+T1	Date 82 97	27 février 2020
+T3	Telephone 193 207	04 73 75 48 31
+T4	Telephone 215 229	04 73 75 48 32
+T5	Mail 243 283	pharmacovigilance@chu-clermontferrand.fr
+T6	Organisation 462 486	CHU - Centre de Biologie
+T7	Adresse 487 506	58 rue Montalembert
+T8	Cp 507 512	BP 69
+T9	Cp 513 518	63003
+T10	Ville 519 535	Clermont-Ferrand
+T11	Personne 581 592	Marie ZENUT
+A1	role T11 soignant
+T12	URL 296 352	https://www.chu-clermontferrand.fr/internet/default.aspx
+T13	URL 365 443	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T14	Cedex 536 543	Cedex 1
+T2	Organisation 0 55	Centre régional de pharmacovigilance - Clermont-Ferrand

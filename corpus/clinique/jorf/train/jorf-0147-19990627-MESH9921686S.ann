@@ -1,0 +1,30 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921685S
+T4	Organisation 240 263	hôpital Porte-Madeleine
+T5	Adresse 265 272	BP 2439
+T6	Cp 274 279	45032
+T7	Ville 280 287	Orléans
+T8	Personne 672 684	A. Deloirres
+A1	role T8 soignant
+T9	Personne 686 696	B. Desmaur
+A2	role T9 soignant
+T10	Personne 698 708	C. Desvion
+A3	role T10 soignant
+T11	Personne 710 719	D. Didier
+A4	role T11 soignant
+T12	Personne 746 758	E. Parnassie
+A5	role T12 soignant
+T13	Personne 760 772	J. C. Partez
+A6	role T13 soignant
+T14	Personne 806 815	F. Dezval
+A7	role T14 soignant
+T15	Personne 817 827	G. Derralo
+A8	role T15 soignant
+T16	Personne 865 875	H. Desdian
+A9	role T16 soignant
+T17	Personne 877 891	J. M. Dermoury
+A10	role T17 soignant
+T18	Personne 893 902	K. Dellin
+A11	role T18 soignant
+T3	Organisation 225 238	CHR d'Orléans
+T19	Cedex 288 293	Cedex

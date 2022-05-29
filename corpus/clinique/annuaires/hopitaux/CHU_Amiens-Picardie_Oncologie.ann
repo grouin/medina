@@ -1,0 +1,67 @@
+T1	Organisation 73 92	CHU Amiens-Picardie
+T2	Organisation 2879 2898	CHU Amiens-Picardie
+T3	Cp 153 158	80054
+T5	Ville 159 165	Amiens
+T7	Personne 59 72	Mathieu BOONE
+A1	role T7 soignant
+T8	Adresse 122 152	30 Avenue de la Croix Jourdain
+T9	Personne 197 209	Céline BIHAN
+A2	role T9 soignant
+T10	Personne 330 343	Mathieu BOONE
+A3	role T10 soignant
+T11	Personne 466 481	Roxana FOURNIER
+A4	role T11 soignant
+T12	Personne 609 625	Aline HOUESSINON
+A5	role T12 soignant
+T13	Personne 767 780	Emma LACHAIER
+A6	role T13 soignant
+T14	Personne 877 895	Michele LAMURAGLIA
+A7	role T14 soignant
+T15	Personne 1034 1049	Aurélie MOREIRA
+A8	role T15 soignant
+T16	Personne 1227 1242	Bruno CHAUFFERT
+A9	role T16 soignant
+T17	Personne 1268 1284	Christine PIPROT
+A10	role T17 soignant
+T18	Personne 1310 1321	Sanaa HANNA
+A11	role T18 soignant
+T19	Personne 1347 1359	Claire JOSSE
+A12	role T19 soignant
+T20	Personne 1394 1408	Karine NUYTENS
+A13	role T20 soignant
+T21	Personne 1443 1457	Alice SEJOURNE
+A14	role T21 soignant
+T22	Personne 1519 1535	Guillaume Bonnet
+A15	role T22 soignant
+T23	Adresse 1699 1716	bâtiment Fontenoy
+T24	Telephone 1732 1746	03 22 45 54 99
+T25	Telephone 1761 1775	03 22 45 60 91
+T26	Mail 1776 1818	oncologiemedicalesecretariat@chu-amiens.fr
+T27	Telephone 1941 1955	03 22 45 56 42
+T28	Telephone 1960 1974	03 22 45 60 33
+T29	Telephone 1987 2001	03 22 45 56 76
+T30	Mail 2002 2044	oncologiemedicalesecretariat@chu-amiens.fr
+T31	Personne 2078 2089	Laura JOSSE
+A16	role T31 soignant
+T32	Telephone 2090 2104	03 22 45 56 46
+T33	Adresse 2136 2153	bâtiment Fontenoy
+T34	Telephone 2188 2202	03 22 45 02 65
+T35	Telephone 2206 2220	03 22 45 54 64
+T36	Telephone 2234 2248	03 22 45 56 49
+T37	Telephone 2261 2275	03 22 45 57 43
+T38	Mail 2276 2301	oncopoleHDJ@chu-amiens.fr
+T39	Personne 2367 2384	Angélique SAVREUX
+A17	role T39 soignant
+T40	Telephone 2385 2399	03 22 45 54 46
+T41	Telephone 2403 2417	03 22 45 62 44
+T42	Adresse 2451 2468	bâtiment Fontenoy
+T43	Personne 2482 2495	Christine HEE
+A18	role T43 soignant
+T44	Telephone 2498 2512	06 47 75 76 41
+T45	Telephone 2525 2539	03 22 45 60 91
+T46	Mail 2540 2567	hee.christine@chu-amiens.fr
+T47	Telephone 2765 2779	03 22 45 54 99
+T48	Telephone 2846 2860	03 22 45 56 42
+T49	Telephone 2902 2916	03 22 66 80 00
+T50	Telephone 2998 3000	15
+T4	Cedex 166 173	cedex 1

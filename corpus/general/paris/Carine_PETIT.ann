@@ -1,0 +1,22 @@
+T1	Date 438 453	11 juillet 2020
+T2	Date 118 130	28 juin 2020
+T3	Date 213 225	28 juin 2020
+T4	Date 341 353	30 mars 2014
+T5	Ville 81 86	Paris
+T6	Ville 109 114	Paris
+T7	Ville 139 144	Paris
+T8	Ville 169 174	Paris
+T9	Ville 332 337	Paris
+T10	Personne 4 16	Carine PETIT
+A1	role T10 autre
+T11	Date 520 533	13 avril 2014
+T12	Date 294 310	15 décembre 2015
+T13	Date 679 691	26 juin 1974
+T14	Ville 695 702	Bourges
+T15	Lieu 704 708	Cher
+T16	Mail 855 876	carine.petit@paris.fr
+T17	Telephone 889 903	01 53 90 67 03
+T18	Lieu 792 810	14e arrondissement
+T19	Lieu 498 516	14e arrondissement
+T20	Lieu 416 434	14e arrondissement
+T21	Lieu 27 45	14e arrondissement

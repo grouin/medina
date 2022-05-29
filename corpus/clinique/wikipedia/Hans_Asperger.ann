@@ -1,0 +1,22 @@
+T1	Personne 0 30	Johann Friedrich Karl Asperger
+T2	Personne 36 49	Hans Asperger
+T3	Date 57 72	18 février 1906
+T4	Ville 75 84	Hausbrunn
+T5	Ville 95 101	Vienne
+T6	Date 105 120	21 octobre 1980
+T7	Pathologie 231 239	Asperger
+T8	Personne 281 291	Lorna Wing
+T9	Date 272 276	1981
+A1	role T1 soignant
+A2	role T2 soignant
+T10	Lieu 310 318	Autriche
+A3	type T10 pays
+T11	Personne 433 446	Hans Asperger
+A4	role T11 soignant
+T12	Organisation 672 687	Am Spiegelgrund
+A5	role T8 inconnu
+T13	Personne 493 508	Franz Hamburger
+A6	role T13 inconnu
+T17	Date 116 120	1980
+T18	Profession 130 140	psychiatre
+T14	Profession 603 611	médecins

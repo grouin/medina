@@ -1,0 +1,16 @@
+T1	Lieu 262 277	Ossétie du Nord
+T4	Date 10 26	14 novembre 2019
+T5	Id 102 114	SSAN1932819A
+T6	Date 194 210	14 novembre 2019
+T7	Personne 215 227	Alain MARKOV
+A1	role T7 soignant
+T8	Date 235 250	28 octobre 1976
+T9	Ville 253 260	Chikola
+T3	Organisation 440 493	hôpital Tenon - Assistance publique-hôpitaux de Paris
+T10	Personne 418 434	Albert Chaudenon
+A2	role T10 soignant
+T11	Date 699 716	1er novembre 2019
+T2	Lieu 88 94	France
+A3	type T2 pays
+A4	date T8 naissance
+A5	type T1 region

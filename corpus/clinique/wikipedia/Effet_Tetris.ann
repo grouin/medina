@@ -1,0 +1,26 @@
+T1	Pathologie 28 34	Tetris
+T2	Personne 1286 1297	Neil Gaiman
+A1	role T2 autre
+T3	Personne 903 920	Jeffrey Goldsmith
+A2	role T3 autre
+T4	Date 943 951	mai 1994
+T5	Date 998 1002	1996
+T6	Personne 989 996	Earling
+A3	role T6 inconnu
+T7	Date 1051 1063	février 1996
+T8	Personne 1065 1069	Kidd
+A4	role T8 inconnu
+T9	Ville 1158 1166	Adélaïde
+T10	Lieu 1171 1180	Australie
+A5	type T10 pays
+T11	Date 1319 1323	1987
+A14	role T13 inconnu
+T13	Personne 1042 1046	Kidd
+T15	Pathologie 8 14	Tetris
+T16	Pathologie 248 254	Tetris
+T17	Pathologie 280 286	Tetris
+T18	Pathologie 519 525	Tetris
+T19	Pathologie 786 792	Tetris
+T20	Pathologie 1333 1339	Tetris
+T21	Pathologie 1348 1354	Tetris
+T22	Pathologie 1581 1587	Tetris

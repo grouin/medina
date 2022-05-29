@@ -1,0 +1,16 @@
+T1	Lieu 34 47	Île-de-France
+T2	Date 74 86	17 mars 2022
+T3	Telephone 182 196	01 44 02 00 00
+T4	URL 209 246	https://www.iledefrance.ars.sante.fr/
+T5	URL 259 308	https://www.pharmacie-de-garde.net/ile-de-france/
+T6	Adresse 355 372	Immeuble Le Curve
+T7	Adresse 373 385	13 rue Landy
+T8	Cp 386 391	93000
+T9	Ville 392 403	Saint-Denis
+T10	Personne 450 464	Amélie VERDIER
+A1	role T10 inconnu
+T11	Personne 539 554	Sophie MARTINON
+A2	role T11 inconnu
+T12	Personne 624 640	Catherine DUMONT
+A3	role T12 inconnu
+T13	Organisation 0 31	Agence régionale de santé (ARS)

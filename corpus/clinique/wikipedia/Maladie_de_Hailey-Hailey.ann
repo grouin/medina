@@ -1,0 +1,21 @@
+T2	Personne 746 757	Hugh Edward
+T3	Personne 761 776	William Howard)
+T4	Date 780 784	1939
+T5	Personne 876 890	Henri Gougerot
+T6	Date 894 898	1933
+T7	Personne 738 744	Hailey
+T1	Pathologie 682 695	Hailey–Hailey
+T8	Pathologie 14 27	Hailey-Hailey
+T9	Pathologie 617 630	Hailey-Hailey
+T10	Pathologie 818 840	Gougerot-Hailey-Hailey
+A1	role T5 soignant
+A2	role T2 soignant
+A3	role T3 soignant
+T11	Substance 1266 1275	Alefacept
+T12	Substance 1231 1243	cyclosporine
+T13	Substance 1216 1226	étrétinate
+T14	Substance 1201 1212	thalidomide
+T15	Substance 1184 1196	méthotrexate
+T16	Substance 1172 1179	dapsone
+T17	Pathologie 2097 2110	Hailey-Hailey
+T18	Substance 1950 1960	naltrexone

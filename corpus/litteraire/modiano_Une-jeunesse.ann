@@ -1,0 +1,161 @@
+T1	Ville 153 158	Paris
+T2	Ville 461 466	Paris
+T3	Ville 1654 1659	Paris
+A11	role T10 inconnu
+A13	role T12 inconnu
+A15	role T14 inconnu
+A17	role T16 inconnu
+A19	role T18 inconnu
+A21	role T20 inconnu
+A23	role T22 inconnu
+A25	role T24 inconnu
+A27	role T26 inconnu
+A29	role T28 inconnu
+A31	role T30 inconnu
+A33	role T32 inconnu
+A35	role T34 inconnu
+A37	role T36 inconnu
+A39	role T38 inconnu
+A5	role T4 inconnu
+A7	role T6 inconnu
+A9	role T8 inconnu
+T10	Personne 795 800	Louis
+T12	Personne 904 909	Louis
+T14	Personne 963 968	Louis
+T16	Personne 1328 1333	Louis
+T18	Personne 1432 1437	Louis
+T20	Personne 1522 1527	Louis
+T22	Personne 1702 1707	Louis
+T24	Personne 1789 1794	Louis
+T26	Personne 1988 1993	Louis
+T28	Personne 2043 2048	Louis
+T30	Personne 2199 2204	Louis
+T32	Personne 2329 2334	Louis
+T34	Personne 2479 2492	Louis Memling
+T36	Personne 2599 2604	Louis
+T38	Personne 2741 2746	Louis
+T4	Personne 182 187	Louis
+T6	Personne 339 344	Louis
+T8	Personne 722 727	Louis
+A41	role T40 autre
+T40	Personne 29 44	Patrick Modiano
+A45	role T44 inconnu
+T44	Personne 2803 2820	Jacqueline Boivin
+T46	Gentile 2991 2998	anglais
+T47	Profession 2791 2800	garagiste
+T48	Gentile 1903 1908	russe
+T5	Personne 2691 2696	Odile
+A1	role T5 inconnu
+T7	Personne 2919 2926	Béjardy
+A2	role T7 inconnu
+T9	Profession 2624 2635	compositeur
+T11	Personne 2607 2622	Georges Bellune
+A3	role T11 inconnu
+T13	Profession 2943 2950	peintre
+T15	Personne 2929 2934	Bauer
+A4	role T15 inconnu
+T17	Gentile 2828 2839	Éthiopienne
+T19	Personne 2749 2775	Roland Chantain de Béjardy
+A6	role T19 inconnu
+T21	Personne 2699 2719	Jean Claude Brossier
+A8	role T21 inconnu
+T23	Personne 2973 2978	Axter
+A10	role T23 inconnu
+T25	Personne 2953 2957	Mari
+A12	role T25 inconnu
+T27	Personne 2965 2970	Odile
+A14	role T27 inconnu
+T29	Personne 2865 2873	Brossier
+A16	role T29 inconnu
+T31	Profession 2841 2850	étudiante
+T33	Personne 2876 2894	Nicole "Coco" Haas
+A18	role T33 inconnu
+T35	Ville 2009 2015	Genève
+T37	Lieu 1844 1854	Angleterre
+A20	type T37 pays
+T39	Ville 2086 2090	Nice
+T41	Age 2321 2327	35 ans
+T43	Personne 1212 1218	Vietti
+A22	role T43 inconnu
+A101	role T100 inconnu
+A103	role T102 inconnu
+A105	role T104 inconnu
+A107	role T106 inconnu
+A109	role T108 inconnu
+A111	role T110 inconnu
+A113	role T112 inconnu
+A115	role T114 inconnu
+A50	type T49 pays
+A52	role T51 inconnu
+A54	role T53 inconnu
+A56	role T55 inconnu
+A58	role T57 inconnu
+A60	role T59 inconnu
+A66	role T65 inconnu
+A68	role T67 inconnu
+A70	role T69 inconnu
+A72	role T71 inconnu
+A74	role T73 inconnu
+A76	role T75 inconnu
+A80	role T79 inconnu
+A87	role T86 inconnu
+A89	role T88 inconnu
+A91	role T90 inconnu
+A93	role T92 inconnu
+A95	role T94 inconnu
+A97	role T96 inconnu
+A99	role T98 inconnu
+T100	Personne 1252 1257	Odile
+T102	Personne 1531 1536	Odile
+T104	Personne 1856 1861	Odile
+T106	Personne 2096 2101	Odile
+T108	Personne 2208 2213	Odile
+T110	Personne 2338 2343	Odile
+T112	Personne 2564 2569	Odile
+T114	Personne 1112 1118	Vietti
+T49	Lieu 1568 1578	Angleterre
+T51	Personne 1584 1589	Axter
+T53	Personne 405 413	Brossier
+T55	Personne 819 827	Brossier
+T57	Personne 1068 1076	Brossier
+T59	Personne 1367 1375	Brossier
+T65	Personne 1482 1489	Béjardy
+T67	Personne 1625 1632	Béjardy
+T69	Personne 1693 1700	Béjardy
+T71	Personne 1751 1758	Béjardy
+T73	Personne 1970 1977	Béjardy
+T75	Personne 2141 2148	Béjardy
+T79	Personne 3009 3016	Béjardy
+T81	Ville 2115 2121	Genève
+T86	Personne 1910 1914	Mari
+T88	Personne 173 178	Odile
+T90	Personne 488 493	Odile
+T92	Personne 713 718	Odile
+T94	Personne 777 782	Odile
+T96	Personne 840 845	Odile
+T98	Personne 1096 1101	Odile
+T45	Date 53 57	1981
+T50	Date 94 98	1983
+T52	Personne 580 594	George Bellune
+A24	role T52 inconnu
+T54	Autre 0 12	Une jeunesse
+A26	classe T54 titre
+T56	Personne 128 141	Moshé Mizrahi
+A28	role T56 autre
+T58	Personne 757 764	Bellune
+A30	role T58 inconnu
+T60	Autre 627 639	Hawaii Roses
+A32	classe T60 titre
+T62	Age 331 337	19 ans
+T64	Personne 1039 1056	Roland de Béjardy
+A34	role T64 inconnu
+T66	Autre 2669 2680	Hawaï Roses
+A36	classe T66 titre
+A121	classe T120 titre
+T120	Autre 112 124	Une jeunesse
+T122	Profession 2896 2905	cavalière
+T68	Gentile 2636 2646	autrichien
+T70	Profession 2648 2654	auteur
+T123	Profession 596 602	auteur
+T42	Profession 999 1006	gardien
+T63	Profession 1185 1193	chanteur

@@ -1,0 +1,9 @@
+Base de données européennes des dispositifs médicaux (EUDAMED) pour
+
+- vérifier la présence sur le marché d’un produit
+
+- accéder à des informations sur les produits (RCP pour DM classe III, PSUR)
+
+- répertorier les incidents 
+
+#whatsupDM

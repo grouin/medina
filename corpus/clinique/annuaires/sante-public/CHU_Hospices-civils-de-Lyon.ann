@@ -1,0 +1,16 @@
+T1	Organisation 41 64	Hospices civils de Lyon
+T3	Ville 329 333	Lyon
+T4	Ville 366 370	Lyon
+T2	Date 91 106	28 juillet 2021
+T5	Telephone 202 214	0825 0825 69
+T6	Mail 228 254	a.votre-ecoute@chu-lyon.fr
+T7	Adresse 302 322	3 quai des Célestins
+T8	Cp 323 328	69002
+T9	Cp 352 359	BP 2251
+T10	Cp 360 365	69229
+T11	Personne 424 440	Raymond LE MOIGN
+A1	role T11 soignant
+T12	Personne 531 546	Marion LEFEBVRE
+A2	role T12 soignant
+T13	URL 267 291	https://www.chu-lyon.fr/
+T14	Cedex 371 379	Cedex 02

@@ -1,0 +1,14 @@
+T3	Date 10 22	17 mars 2017
+T4	Id 98 110	AFSN1708928A
+T6	Date 206 218	17 mars 2017
+T2	Organisation 428 495	Hôpitaux de Lyon - centre hospitalier universitaire Edouard Herriot
+T5	Ville 259 268	Barcelone
+T7	Lieu 270 277	Espagne
+T8	Date 245 256	2 août 1976
+T9	Personne 223 237	Mohand VENOURI
+A1	role T9 soignant
+T10	Date 701 714	1er mars 2017
+T1	Lieu 84 90	France
+A2	type T1 pays
+A3	type T7 pays
+A4	date T8 naissance

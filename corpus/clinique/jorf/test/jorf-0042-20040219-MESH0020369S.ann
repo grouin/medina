@@ -1,0 +1,16 @@
+T1	Id 145 157	MESH0020369S
+T2	Date 446 458	21 mars 2000
+T3	Organisation 588 606	hôpital Bretonneau
+T4	Adresse 611 632	2, boulevard Tonnelle
+T5	Ville 636 641	Tours
+T6	Lieu 643 657	Indre-et-Loire
+T8	Date 309 325	30 décembre 1999
+T9	Date 752 764	31 mars 1992
+T10	Organisation 838 855	hôpital Trousseau
+T11	Adresse 860 875	route de Loches
+T12	Ville 879 897	Chambray-lès-Tours
+T13	Date 991 1007	12 novembre 1992
+T7	Organisation 463 516	centre hospitalier régional et universitaire de Tours
+T14	Autre 689 699	Sophy DS 7
+T15	Autre 928 938	Apex Helix
+A1	type T6 region

@@ -1,0 +1,21 @@
+T1	Substance 44 52	Mediator
+T2	Organisation 74 81	Servier
+T3	Date 85 89	1976
+T4	Substance 3 13	benfluorex
+T5	Date 92 96	2009
+T6	Lieu 457 463	France
+A1	type T6 pays
+T7	Date 817 834	20 septembre 2017
+T10	Date 485 489	2009
+T11	Substance 331 339	Mediator
+T12	Substance 596 604	Mediator
+T13	Substance 746 754	Mediator
+T14	Substance 972 980	Mediator
+T15	Organisation 902 909	Servier
+T16	Substance 378 388	benfluorex
+T8	Date 244 248	1976
+T9	Date 251 255	2009
+T17	Ville 552 557	Brest
+T18	Personne 515 528	Irène Frachon
+A2	role T18 soignant
+T19	Date 690 694	1997

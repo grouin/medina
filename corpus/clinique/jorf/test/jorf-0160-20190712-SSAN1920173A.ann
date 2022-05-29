@@ -1,0 +1,14 @@
+T3	Date 10 24	9 juillet 2019
+T4	Date 202 216	9 juillet 2019
+T5	Id 100 112	SSAN1920173A
+T1	Organisation 414 476	Hôpital Conception - Assistance Publique-Hôpitaux de Marseille
+T6	Ville 264 271	Coimbra
+T7	Lieu 273 281	Portugal
+T8	Date 245 261	18 novembre 1974
+T9	Date 785 797	19 mars 2018
+T10	Personne 221 237	Bruno DE ALMEIDA
+A1	role T10 soignant
+T2	Lieu 86 92	France
+A2	type T2 pays
+A3	type T7 pays
+A4	date T8 naissance

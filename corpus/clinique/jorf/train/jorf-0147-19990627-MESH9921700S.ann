@@ -1,0 +1,30 @@
+T1	Id 0 12	MESH9921699S
+T3	Organisation 226 261	hospices civils de Lyon, Hôtel-Dieu
+T4	Adresse 263 286	61, quai Jules-Courmont
+T5	Cp 288 293	69002
+T6	Ville 294 298	Lyon
+T7	Date 142 155	20 avril 1999
+T8	Personne 677 688	O. Oharreau
+A1	role T8 soignant
+T9	Personne 690 701	P. Phillist
+A2	role T9 soignant
+T10	Personne 703 713	Q. Quallon
+A3	role T10 soignant
+T11	Personne 750 759	R. Rissal
+A4	role T11 soignant
+T12	Personne 761 770	S. Sallon
+A5	role T12 soignant
+T13	Personne 804 814	T. Thuille
+A6	role T13 soignant
+T14	Personne 816 830	U. Umnio-Uttio
+A7	role T14 soignant
+T15	Personne 832 841	V. Vascco
+A8	role T15 soignant
+T16	Personne 879 887	W. Waltt
+A9	role T16 soignant
+T17	Personne 889 899	X. Xanperi
+A10	role T17 soignant
+T18	Personne 901 911	Y. Yulduze
+A11	role T18 soignant
+T19	Personne 913 922	Z. Zanpon
+A12	role T19 soignant

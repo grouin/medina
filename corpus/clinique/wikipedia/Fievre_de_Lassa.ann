@@ -1,0 +1,61 @@
+T1	Date 175 179	1969
+T2	Lieu 219 224	Borno
+T3	Lieu 226 233	Nigeria
+T4	Lieu 276 294	Afrique de l'Ouest
+T7	Date 653 666	novembre 2014
+T9	Lieu 1329 1347	Afrique de l’Ouest
+T10	Lieu 1418 1430	Sierra Leone
+T12	Organisation 3450 3466	Institut Pasteur
+T13	Organisation 3475 3481	INSERM
+T14	Organisation 3511 3546	Centre de recherche Mérieux-Pasteur
+T15	Ville 3549 3553	Lyon
+T16	Lieu 3558 3564	France
+T17	Date 4260 4264	1950
+T18	Date 4285 4289	1969
+T19	Lieu 4365 4372	Nigeria
+T21	Date 4591 4595	1996
+T22	Date 4599 4603	1997
+T23	Pathologie 13 18	Lassa
+T24	Organisme 99 104	Lassa
+T25	Pathologie 135 140	Ebola
+T26	Ville 197 202	Lassa
+A1	type T3 pays
+T5	Lieu 497 504	Nigeria
+A2	type T5 pays
+T27	Lieu 509 516	Liberia
+A3	type T27 pays
+T28	Lieu 521 533	Sierra Leone
+A4	type T28 pays
+T29	Lieu 538 544	Guinée
+A5	type T29 pays
+T30	Lieu 549 574	République centrafricaine
+A6	type T30 pays
+T31	Lieu 579 611	République démocratique du Congo
+A7	type T31 pays
+T6	Lieu 616 620	Mali
+A8	type T6 pays
+T32	Lieu 644 649	Bénin
+A9	type T32 pays
+T33	Pathologie 690 695	Lassa
+T8	Organisme 874 893	Mastomys natalensis
+T34	Lieu 920 941	Afrique subsaharienne
+T35	Organisme 1186 1191	Lassa
+T36	Organisme 1225 1237	Arenaviridae
+T37	Pathologie 1298 1303	Lassa
+T38	Lieu 1371 1378	Nigeria
+A10	type T38 pays
+T39	Lieu 1383 1389	Guinée
+A11	type T39 pays
+T40	Ville 1391 1398	Conakry
+T41	Lieu 1404 1411	Liberia
+A12	type T41 pays
+A13	type T10 pays
+T42	Organisation 1442 1445	OMS
+T43	Lieu 1489 1507	Afrique de l’ouest
+T11	Substance 2544 2554	ribavirine
+T44	Pathologie 3376 3381	Lassa
+A14	type T16 pays
+T45	Ville 4356 4361	Lassa
+A15	type T19 pays
+T20	Lieu 4522 4534	Sierra Leone
+A16	type T20 pays

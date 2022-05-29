@@ -1,0 +1,13 @@
+T1	Cp 345 350	80054
+T3	Ville 351 357	Amiens
+T4	Organisation 0 56	Centre hospitalier universitaire (CHU) - Amiens-Picardie
+T2	Date 83 99	13 décembre 2021
+T5	Telephone 195 209	03 22 08 80 00
+T6	Mail 223 240	chu@chu-amiens.fr
+T7	Adresse 324 344	Place Victor Pauchet
+T8	Personne 412 427	Danielle PORTAL
+A1	role T8 soignant
+T9	Personne 464 476	Gérard STARK
+A2	role T9 soignant
+T10	URL 253 277	http://www.chu-amiens.fr
+T11	Cedex 358 365	Cedex 1

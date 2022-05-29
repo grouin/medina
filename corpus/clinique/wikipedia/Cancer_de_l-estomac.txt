@@ -1,0 +1,30 @@
+Le cancer de l'estomac est une forme de cancer se développant aux dépens de la paroi gastrique.
+
+Par définition, l'adénocarcinome gastrique est un cancer de l'épithélium dont le centre est à plus de 2 cm en dessous de la jonction œso-gastrique ; les lésions situées au-dessus de cette limite sont classées dans les tumeurs du cardia. Leur traitement est spécifique.
+
+La plupart des cancers de l'estomac semblent dus à la pullulation et à l'installation dans l'estomac d'une bactérie (Helicobacter pylori) qui produit une protéine oncogène (« Cag » ou CagA) et qui est favorisée par un régime riche en sel.
+
+
+Épidémiologie
+Les cancers de l'estomac sont la deuxième cause de décès par cancer dans le monde.
+
+Ils sont plus fréquents au Japon, en Chine, au Chili et en Irlande. L'incidence annuelle du cancer de l'estomac est en diminution constante depuis vingt ans. En France, elle est actuellement de 7 à 8 000 nouveaux cas par an. En revanche, la fréquence des cancers du cardia est en augmentation.
+
+La survie à 5 ans est de 10 à 15 %. 80 % sont diagnostiqués après l'âge de 65 ans. Les deux tiers le sont à un stade avancé.
+
+Facteurs de risque
+Le cancer de l'estomac est statistiquement lié à un faible niveau socio-économique et à des modes alimentaires spécifiques (fumages, salages). Les facteurs de risque environnementaux sont donc :
+- faible consommation de vitamines A et C (produits frais) ;
+- alimentation riche en nitrates et/ou sel. Chez l'animal de laboratoire, un excès de sel dans le bol alimentaire favorise le cancer de l’estomac en augmentant la virulence d'Helicobacter pylori ce qui conduit à l'augmentation de la production de la protéine oncogène CagA. Des gerbilles de Mongolie ont été nourries avec un régime salé, les unes ayant été infectées par une souche sauvage normale de H. pylori dite cagA+et les autres par une souche isogène mutante cagA- ne produisant pas cette protéine. 4 mois après l'infection, un adénocarcinome gastrique était détecté chez 100 % des animaux infectés par la souche produisant la protéine cagA et exposée à un régime salé, chez 58 % des animaux exposés à la même souche, mais consommant un régime sans sel, mais chez aucun des animaux infectés par la souche mutante cagA-, et les animaux ayant consommé les aliments les plus salés avaient les cancers les inflammations gastriques les plus développées et le pH le plus élevé ;
+- le tabagisme.
+- l'alcoolisme.
+Certaines affections favorisent le cancer de l'estomac. Ce sont :
+- les antécédents de chirurgie gastrique ;
+- les inflammations de l'estomac (gastrites) dont celles dues à un reflux ou à l'infection par Helicobacter pylori, une bactérie Gram-négative, qui a coévolué avec l'Homme, présente chez environ la moitié des êtres humains dans le monde, et qui colonise facilement l'estomac et y persiste en résistant à son acidité et à la réponse immunitaire, même forte. La diversité génétique et structurale est chez cette bactérie importante, ce qui lui permet de s'adapter à ses hôtes. Seuls certains types d'Helicobacter semblent toutefois plus néfastes.
+Il existe enfin des prédispositions génétiques aux cancers gastriques (moins de 3 % des cas) :
+- syndrome HNPCC ;
+- polypose adénomateuse rectocolique familiale ;
+- syndrome de Peutz-Jeghers ;
+- polypose juvénile ;
+- cancers gastriques diffus héréditaires (mutation du gène codant la protéine Cadhérine E constituant un tiers des formes génétiques).
+La disparité de la fréquence du cancer selon la géographie est probablement plus due à un facteur environnemental qu'à un facteur génétique, comme peut l'attester l'évolution de la fréquence de la maladie chez les enfants de migrants.

@@ -1,0 +1,9 @@
+T1	Id 193 205	MESP0121463A
+T2	Date 295 311	19 décembre 2000
+T3	Adresse 416 440	6, avenue Anatole-France
+T4	Cp 442 447	56100
+T5	Ville 448 455	Lorient
+T6	Personne 675 681	Baurne
+A1	role T6 inconnu
+T7	Personne 685 691	Chenko
+A2	role T7 inconnu

@@ -1,0 +1,30 @@
+Pseudomonas aeruginosa, autrement connu sous le nom de bacille pyocyanique, bacille du pus bleu ou pyo, est une bactérie gram-négative du genre Pseudomonas. Les bacilles sont fins, droits et très mobiles grâce à un flagelle polaire : ciliature monotriche, dépourvus de spores et de capsules. Ils apparaissent la plupart du temps isolés ou en diplobacilles.
+
+Elle peut, dans certaines conditions, être pathogène. Très résistante, elle est — avec d'autres bactéries à gram-négatif — de plus en plus souvent responsable d'infections nosocomiales. C'est l'une des bactéries les plus difficiles à traiter cliniquement. Le taux de mortalité atteint 50 % chez les patients vulnérables (immunodéprimés).
+
+Germe ubiquitaire, vivant dans les sols et en milieu humide (nuages, robinets, bouchons), très résistant à de nombreux antiseptiques, fréquent en milieu hospitalier, entraînant l'apparition (du fait de sa résistance aux antibiotiques) de véritables souches d'hôpital. Elle peut survivre dans de l'eau distillée ou salée, voire se développer dans certaines solutions antiseptiques ou antibiotiques.
+
+Elle fait partie des germes couramment recherchés lorsque l'on procède à une analyse microbiologique d'un échantillon d'eau.
+
+On pense qu’elle se renouvelle dans les hôpitaux via les fruits, plantes et légumes qui y entrent, c'est une des raisons qui expliquent pourquoi fleurs et plantes vertes sont interdites dans les chambres d'hôpitaux.
+
+Les formes de pathologie qu'elle engendre sont diverses : infection de l'œil, des plaies (surtout brûlures et plaies opératoires), des urines (surtout après sondages), gastro-intestinales et des poumons (par exemple après bronchoscopie), des méningites d'inoculation, des septicémies comme stade terminal d'infections graves ou complication chez des malades soumis à un traitement immunodépresseur, des leucémiques, etc. Elle induit facilement des infections systémiques chez les immunodéprimés (par une chimiothérapie ou par le sida) et chez les victimes de brûlures et de fibrose kystique (mucoviscidose).
+
+Traitements
+Antibiotiques et antibiorésistance
+P. aeruginosa est une bactérie robuste, naturellement très résistante aux antibiotiques et s'adaptant rapidement aux attaques médicamenteuses. 
+Sans sélection ni renforcement par des antibiothérapies antérieures, elle ne sera souvent sensible qu'à quelques antibiotiques : ticarcilline avec acide clavulanique, gentamicine, ciprofloxacine, ceftazidime, et pipéracilline seule ou avec ajout de tazobactam et acide borique. En 2008, les fluoroquinolones, la gentamicine ou l'imipénem sont encore efficaces, mais uniquement sur quelques souches bactériennes. 
+Si le patient a récemment reçu plusieurs antibiotiques, la bactérie sera vraisemblablement encore plus résistante et d'autant plus dangereuse. Cette antibiorésistance a été partiellement attribuée à des « pompes d'efflux » dans son biofilm, expulsant activement les composants antimicrobiens. P aeruginosa est également connue pour s'attaquer aux protéines duox, composé de base du système de défense du poumon.
+
+Dans les cas de résistance aux antibiotiques précédemment cités, les associations ceftazidime/avibactam (nom commercial : Zavicefta) et ceftolozane/tazobactam (nom commercial : Zerbaxa) peuvent être efficaces. La colistine est le médicament de dernier recours face à des germes à Gram négatif multi-résistants aux antibiotiques tels que Pseudomonas aeruginosa.
+
+Traitements bactériophagiques
+Peu utilisée en France et dans les autres pays d'Europe, la phagothérapie est couramment utilisée contre Pseudomonas aeruginosa dans les anciennes républiques soviétiques, et à une moindre échelle en Pologne. En France, faute de médicament agréé (qui ont existé jusqu'à la disparition des Laboratoires du Bactériophage pour des raisons économiques), les praticiens doivent recourir à des autorisations spécifiques pour chaque patient traité par un médicament étranger, mais la phagothérapie per se n'est pas interdite, ce qu'a confirmé l'ANSM en 2019. Une autre voie légale en France mais non utilisée depuis les années 1980 est la fabrication extemporanée de préparations magistrales bactériophagiques, ce qui se faisait à l'Institut Pasteur de Paris, Strasbourg ou Lyon jusque dans les années 1980 pour les bactéries les plus résistantes et notamment pour P. aeruginosa.
+
+Les bactériophagiques contre P. aeruginosa se présentent sous forme de cocktail liquide de phages propres à attaquer la bactérie. Pseudomonas aeruginosa est généralement une des cibles des cocktails de phages à large spectre bactérien disponibles dans ces pays (Pyobactériophage, Intestibactériophage). Il existe aussi d'autres cocktails spécifiques à cette bactérie.
+
+Les bons résultats obtenus ont attiré l'attention des Occidentaux et de nombreux projets de recherche sur l'utilisation des bactériophages contre Pseudomonas aeruginos sont en cours tant en Amérique qu'en Europe, dont le projet Phagoburn (en) sur les grands brûlés et le projet PneumoPhage pour les infections respiratoires.
+
+Confrontés à des situations d'impasses thérapeutiques, des patients victimes d'infection par P. aeruginosa multi-résistante se regroupent pour faciliter l'accès aux traitements bactériophagiques étrangers.
+
+Le premier bactériophagique contre P. aeruginosa à apparaître dans les sites de référencement des médicaments français est le P. aeruginosa PHAGE PP113, disponible uniquement sur ATUn.

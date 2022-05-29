@@ -1,0 +1,22 @@
+Escherichia coli, également appelée colibacille et abrégée en E. coli, est une bactérie intestinale (Gram négatif) des mammifères, en forme de bâtonnet, très commune chez l'être humain. E. coli est une bactérie anaérobie facultative que l'on trouve dans l'intestin des vertébrés. En effet, elle compose environ 80 % de notre flore intestinale aérobie. Découverte en 1885 par Theodor Escherich, dans des selles de chèvres, c'est un coliforme fécal généralement commensal. Cependant, certaines souches d’E. coli peuvent être pathogènes, entraînant alors des gastro-entérites, infections urinaires, méningites ou sepsis.
+
+Description
+
+Grossissement x 10 000.
+
+En coloration de Gram.
+Escherichia coli est un bacille gram négatif radiorésistant de la famille des Enterobacteriaceae. Sa taille varie en fonction des conditions de croissance (entre 0,5 à 3 µm), pesant de 0,5 à 5 picogrammes les bactéries en croissance rapide étant plus allongées et donc plus grandes que les bactéries quiescentes. Le diamètre d'E. Coli est de 0,5 µm en moyenne.
+
+C’est un hôte commun du microbiote intestinal (anciennement appelé microflore commensale intestinale) de l’humain et des animaux homéothermes. Son établissement dans le tractus digestif s’effectue durant les premières heures ou journées qui suivent l’accouchement. Escherichia coli constitue alors tout au long de la vie de l’hôte l’espèce bactérienne dominante de la flore aérobie facultative intestinale. E. coli est sans doute l’organisme vivant le plus étudié à ce jour : en effet, l'ancienneté de sa découverte et sa culture aisée (division cellulaire toutes les vingt minutes à 37 °C dans un milieu riche) en font un outil d'étude de choix. La profusion de publications scientifiques qui la mentionnent en témoigne, et elle joue le rôle de « cheval de labour » dans tous les laboratoires de biologie moléculaire.
+
+Historique
+Theodor Escherich, en observant la fréquence des diarrhées néonatales, avait déjà posé la question de l’implication du colibacille dans les entérites. Après la Seconde Guerre mondiale, les connaissances ont convergé pour établir le concept de virulence de certaines souches de E. coli. Dans les années 1950, de nombreuses souches d’E. coli ont été incriminées en tant qu’agent étiologique de diarrhées infantiles.
+
+On sait maintenant que certaines souches « spécialisées » d’E. coli sont associées à des pathologies très diverses (y compris extra-intestinales), tant chez l’humain que chez l’animal ; diarrhées, gastro-entérites, infections urinaires, méningites, septicémies, syndrome hémolytique et urémique (SHU ou maladie des hamburgers), etc.
+En prévention, une surveillance des SHU a lieu au Centre National de Référence des E. coli, situé dans l’unité de Biodiversité des Bactéries Pathogènes Émergentes à l’Institut Pasteur (France), qui est chargé d’étudier les souches pathogènes.
+
+Depuis les années 1950, les bactériologistes ont essayé, grâce aux différences antigéniques de E. coli, de subdiviser l’espèce en sérotypes en immunisant des lapins avec des antigènes somatiques et flagellaires. Le sérogroupage reste la méthode la plus utilisée actuellement.
+
+Le sérotype est la combinaison des deux antigènes, somatique O et flagellaire H, (exemples : O157:H7 et O111:H8), alors que le sérogroupe n'est déterminé que par l’antigène O (exemple : O157, O111). Cependant le sérotype n’est pas suffisant pour caractériser les E. coli pathogènes. Chaque sérotype n’est pas nécessairement corrélé à la pathogénicité.
+
+Depuis 2010, un laboratoire de Californie (LS9) a expliqué qu'il utilise cette bactérie pour produire des hydrocarbures, technique qui sera peut-être à l'origine de la synthèse du pétrole. Cette bactérie est encore depuis 2010 l'objet d'études en xénobiologie.

@@ -1,0 +1,31 @@
+L'échelle de Glasgow, ou score de Glasgow (Glasgow coma scale, GCS), est un indicateur de l'état de conscience. Dans un contexte d'urgence, elle permet au médecin de choisir une stratégie dans l'optique du maintien des fonctions vitales. Cette échelle fut développée par G. Teasdale et B. Jennet à l'institut de neurologie de Glasgow (Écosse) en 1974 pour les traumatismes crâniens.
+
+Ce score est inversement corrélé à la gravité (stratification du risque de complications et évolution spontanée) des comas.
+
+Le diagnostic de coma peut être posé quand ce score est inférieur à 8, mais il doit s'accompagner en plus de troubles de la vigilance et de l'éveil.
+
+Il est possible d'avoir un score de 6 associé à un patient aux yeux ouverts, et donc conscient. Dans ce cas on ne le considère pas comme comateux (l'aphasie globale et la catatonie en sont de bons exemples).
+
+Échelle
+C'est une échelle allant de 3 (coma profond) à 15 (personne parfaitement consciente), et qui s'évalue sur trois critères :
+
+ouverture des yeux ;
+réponse verbale ;
+réponse motrice.
+Chaque critère reçoit une note ; le total global est la somme de ces notes, mais les notes individuelles doivent être également considérées. Par exemple, une personne muette aura toujours une réponse verbale de 1 même s'il est parfaitement conscient, son total maximal sera alors de 11 et non pas de 15. De tels éléments complémentaires sont indispensables pour une évaluation neurologique correcte.
+
+Interprétation
+La notion d'inconscience en premiers secours correspond globalement à un total inférieur à 10.
+15 : conscience normale
+14 à 10 : somnolence ou coma léger
+9 à 7 : coma lourd
+6 à 3 : coma profond ou mort clinique
+
+Une équipe belge a proposé d'associer les informations résultant de la recherche des réflexes du tronc cérébral systématiquement recherchés sur les patients en coma profond ce qui a donné lieu à l'échelle dite de Glasgow Liège.
+
+Réaction à la douleur
+Article détaillé : Douleur.
+Si la victime n'exécute pas d'action spontanée, ni au bruit ni au toucher, on teste alors sa réaction à la douleur. Il convient bien évidemment d'exercer une stimulation qui ne cause ni blessure ni aggravation de l'état et n'entraînant pas non plus de lésion de la zone stimulée. On utilise en pratique l'appui sur un ongle d'un objet dur tel un stylo. D'autres méthodes existent, comme appuyer avec une phalange sur le milieu du sternum, exercer une pression sous l'angle de la mâchoire inférieure ou derrière les oreilles… Les méthodes de pincement ont été pratiquées mais sont maintenant bannies.
+
+Pronostics après la sortie du coma
+Si l'échelle de Glasgow est un des critères de gravité et de devenir, notamment pour les traumatismes cranio-cérébraux, elle ne peut constituer le seul élément de pronostic : un GCS (Glasgow Coma Scale) de 12 à l'entrée aux urgences peut se dégrader très rapidement en fonction de l'accident, et l'urgence imposera aux équipes de prise en charge de surveiller les constantes vitales et d'éviter l'apparition d'atteintes cérébrales secondaires d'origine systémique (ACSOS). Il est probable dans ce type de situation que le Glasgow ne soit plus évalué au vu de l'urgence de la situation.

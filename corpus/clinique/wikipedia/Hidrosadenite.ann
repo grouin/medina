@@ -1,0 +1,9 @@
+T1	Pathologie 139 147	Verneuil
+T2	Personne 404 421	Aristide Verneuil
+T3	Date 445 449	1854
+T4	Pathologie 575 583	Verneuil
+T5	Lieu 604 610	France
+T6	Age 748 754	50 ans
+A1	role T2 soignant
+T7	Profession 393 403	chirurgien
+A2	type T5 pays

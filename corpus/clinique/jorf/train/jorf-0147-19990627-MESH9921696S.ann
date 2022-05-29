@@ -1,0 +1,27 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921695S
+T4	Adresse 271 284	4, rue Larrey
+T5	Cp 286 291	49003
+T6	Ville 292 298	Angers
+T7	Personne 683 694	A. Zancarro
+A1	role T7 soignant
+T8	Personne 696 708	B. Yanniquan
+A2	role T8 soignant
+T9	Personne 734 745	C. Xavolant
+A3	role T9 soignant
+T10	Personne 779 794	Dan Winsty-Vong
+A4	role T10 soignant
+T11	Personne 796 814	Emilie Winsty-Vong
+A5	role T11 soignant
+T12	Personne 816 827	F. Urbinien
+A6	role T12 soignant
+T13	Personne 865 880	G. Thautelingue
+A7	role T13 soignant
+T14	Personne 882 893	H. Seilline
+A8	role T14 soignant
+T15	Personne 895 908	I. Risminnier
+A9	role T15 soignant
+T16	Personne 910 921	J. Quorenti
+A10	role T16 soignant
+T3	Organisation 225 269	centre hospitalier et universitaire d'Angers
+T17	Cedex 299 304	Cedex

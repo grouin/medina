@@ -1,0 +1,11 @@
+T1	Cp 282 287	37044
+T3	Ville 288 293	Tours
+T4	Date 73 88	28 juillet 2021
+T5	Telephone 184 198	02 47 47 47 47
+T6	Personne 348 376	Marie-Noëlle GERAIN-BREUZARD
+A1	role T6 soignant
+T7	Personne 413 429	Richard DALMASSO
+A2	role T7 soignant
+T8	URL 211 235	http://www.chu-tours.fr/
+T9	Cedex 294 301	Cedex 9
+T2	Organisation 0 46	Centre hospitalier universitaire (CHU) - Tours

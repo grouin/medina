@@ -1,0 +1,24 @@
+T2	Ville 484 489	Tours
+T3	Id 166 178	MESH9921684S
+T5	Adresse 456 476	2, boulevard Tonnelé
+T6	Cp 478 483	37000
+T1	Date 327 340	22 avril 1999
+T7	Personne 868 875	H. Bald
+A1	role T7 soignant
+T8	Personne 877 888	L. Marrosan
+A2	role T8 soignant
+T9	Personne 914 926	M. Millierre
+A3	role T9 soignant
+T10	Personne 960 970	L. Ulssova
+A4	role T10 soignant
+T11	Personne 972 982	W. Tombain
+A5	role T11 soignant
+T12	Personne 984 994	B. Blastez
+A6	role T12 soignant
+T13	Personne 1032 1041	O. Musela
+A7	role T13 soignant
+T14	Personne 1043 1052	J. M. Vic
+A8	role T14 soignant
+T15	Personne 1054 1066	M. Blavoirre
+A9	role T15 soignant
+T4	Organisation 410 454	centre hospitalier et universitaire de Tours

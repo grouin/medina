@@ -1,0 +1,19 @@
+T1	Personne 0 26	August Paul von Wassermann
+A1	role T1 soignant
+T2	Date 34 49	21 février 1866
+T3	Ville 55 62	Bamberg
+T4	Date 72 84	16 mars 1925
+T5	Ville 87 93	Berlin
+T6	Examen 245 262	Bordet-Wassermann
+T7	Examen 286 296	Wassermann
+T8	Examen 300 310	Wassermann
+T9	Date 453 457	1908
+T10	Personne 459 466	Erdmann
+T11	Organisation 508 519	Robert-Koch
+A2	role T10 autre
+T12	Personne 539 552	Rhoda Erdmann
+A3	role T12 autre
+T13	Organisation 566 577	Robert-Koch
+T14	Profession 104 117	immunologiste
+T15	Profession 121 134	bactériologue
+T16	Profession 471 494	assistante de recherche

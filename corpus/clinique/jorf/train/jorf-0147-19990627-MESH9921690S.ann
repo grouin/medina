@@ -1,0 +1,35 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921689S
+T3	Organisation 227 250	hôpital Antoine-Béclère
+T4	Adresse 252 288	157, rue de la Porte-Trivaux, BP 405
+T5	Cp 290 295	92141
+T6	Ville 296 303	Clamart
+T7	Personne 688 698	A. Alannon
+A1	role T7 soignant
+T8	Personne 700 712	B. Basquaner
+A2	role T8 soignant
+T9	Personne 714 727	C. Cannalloni
+A3	role T9 soignant
+T10	Personne 729 740	D. Dabbadie
+A4	role T10 soignant
+T11	Personne 767 777	E. Emmarro
+A5	role T11 soignant
+T12	Personne 779 792	F. Faandalain
+A6	role T12 soignant
+T13	Personne 794 801	G. Gros
+A7	role T13 soignant
+T14	Personne 835 845	H. Halbume
+A8	role T14 soignant
+T15	Personne 847 856	I. Irenal
+A9	role T15 soignant
+T16	Personne 894 902	J. Jacle
+A10	role T16 soignant
+T17	Personne 904 913	K. Kornin
+A11	role T17 soignant
+T18	Personne 915 922	L. Loue
+A12	role T18 soignant
+T19	Personne 924 932	M. Macod
+A13	role T19 soignant
+T20	Personne 934 943	N. Nicole
+A14	role T20 soignant
+T21	Cedex 304 309	Cedex

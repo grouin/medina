@@ -1,0 +1,14 @@
+T1	Date 72 87	27 février 2020
+T3	Telephone 183 197	02 99 28 43 63
+T4	Telephone 205 219	02 99 28 24 26
+T5	Mail 233 264	pharmacovigilance@chu-rennes.fr
+T6	Organisation 413 438	CHRU Hôpital Pontchaillou
+T7	Adresse 439 462	2 rue Henri-Le-Guilloux
+T8	Cp 463 468	35033
+T9	Ville 469 475	Rennes
+T10	Personne 520 535	Eric BELLISSANT
+A1	role T10 soignant
+T11	URL 277 355	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T12	URL 368 394	https://www.chu-rennes.fr/
+T13	Cedex 476 483	Cedex 9
+T2	Organisation 0 45	Centre régional de pharmacovigilance - Rennes

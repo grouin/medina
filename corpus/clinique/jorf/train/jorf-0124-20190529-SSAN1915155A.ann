@@ -1,0 +1,17 @@
+T1	Date 904 916	19 mars 2018
+T3	Lieu 260 270	Etats-Unis
+T5	Date 10 21	22 mai 2019
+T6	Id 97 109	SSAN1915155A
+T7	Date 199 210	22 mai 2019
+T8	Personne 215 229	Herpen Gladoor
+A1	role T8 soignant
+T9	Date 237 249	8 avril 1973
+T10	Personne 526 542	Paul-Jean Morris
+A2	role T10 soignant
+T2	Lieu 253 258	Texas
+T11	Organisation 547 594	centre hospitalier universitaire de Montpellier
+T4	Lieu 83 89	France
+A3	type T4 pays
+A4	date T9 naissance
+A5	type T3 pays
+A6	type T2 region

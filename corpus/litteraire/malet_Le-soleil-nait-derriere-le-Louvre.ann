@@ -1,0 +1,59 @@
+T1	Personne 68 77	Léo Malet
+A1	role T1 autre
+T2	Date 87 91	1954
+T3	Organisation 105 119	Robert Laffont
+T4	Personne 165 177	Nestor Burma
+A2	role T4 inconnu
+T5	Ville 221 226	Paris
+A7	role T6 inconnu
+T6	Personne 293 305	Nestor Burma
+T7	Personne 329 344	Émilie Lheureux
+A3	role T7 inconnu
+T8	Ville 349 356	Limoges
+T9	Personne 388 393	Louis
+A4	role T9 inconnu
+T10	Adresse 747 764	rue Pierre-Lescot
+T11	Profession 769 780	commissaire
+T12	Personne 781 787	Faroux
+A5	role T12 inconnu
+T13	Personne 544 549	Burma
+A6	role T13 inconnu
+T14	Organisation 1114 1122	Fiat Lux
+T15	Personne 1333 1352	Geneviève Levasseur
+A8	role T15 inconnu
+T16	Personne 1253 1260	Raphaël
+A9	role T16 autre
+A22	role T21 inconnu
+A24	role T23 inconnu
+A26	role T25 inconnu
+A28	role T27 inconnu
+A30	role T29 inconnu
+A32	role T31 inconnu
+A34	role T33 inconnu
+A36	role T35 inconnu
+T21	Personne 676 681	Burma
+T23	Personne 929 934	Burma
+T25	Personne 1139 1144	Burma
+T27	Personne 1313 1318	Burma
+T29	Personne 1445 1450	Burma
+T31	Personne 1124 1130	Faroux
+T33	Personne 651 656	Louis
+T35	Personne 968 982	Louis Lheureux
+T18	Personne 1190 1205	Étienne Larpent
+A10	role T18 inconnu
+T20	Adresse 1477 1498	quai de la Mégisserie
+T22	Lieu 1737 1743	Louvre
+T24	Lieu 1280 1286	Louvre
+T26	Personne 1370 1377	Larpent
+A11	role T26 inconnu
+T28	Personne 557 565	Lheureux
+A12	role T28 inconnu
+T30	Profession 1409 1418	détective
+T44	Profession 1677 1686	détective
+T45	Profession 1541 1559	marchand d'oiseaux
+T32	Autre 0 33	Le soleil naît derrière le Louvre
+A13	classe T32 titre
+A48	classe T47 titre
+T47	Autre 200 226	Nouveaux Mystères de Paris
+T51	Gentile 438 448	parisienne
+T17	Lieu 27 33	Louvre

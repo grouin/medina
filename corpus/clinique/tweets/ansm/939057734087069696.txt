@@ -1,0 +1,3 @@
+Sources de données pour les études de pharmaco-épidémiologie : SNIIRAM (Système National d’Information Inter-Régimes de l’Assurance Maladie)
+
+#petitdejANSM

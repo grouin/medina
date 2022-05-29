@@ -1,0 +1,9 @@
+T1	Id 145 157	SANH9402867S
+T2	Date 233 248	13 juillet 1994
+T3	Personne 328 335	Pragier
+A1	role T3 soignant
+T4	Organisation 452 475	clinique Saint-François
+T5	Adresse 482 507	7, avenue Pierre-Trouibat
+T6	Ville 511 520	Montluçon
+T7	Lieu 522 528	Allier
+A2	type T7 region

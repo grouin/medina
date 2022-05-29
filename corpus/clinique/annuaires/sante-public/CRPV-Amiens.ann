@@ -1,0 +1,14 @@
+T1	Date 72 87	27 février 2020
+T3	Telephone 183 197	03 22 08 70 96
+T4	Telephone 205 219	03 22 08 70 95
+T5	Mail 233 264	pharmacovigilance@chu-amiens.fr
+T6	Organisation 491 529	CHU site Sud - Centre biologie humaine
+T7	Adresse 530 560	30 avenue de la Croix Jourdain
+T8	Cp 561 566	80054
+T9	Ville 567 573	Amiens
+T10	Personne 618 632	Kamel MASMOUDI
+A1	role T10 soignant
+T11	URL 277 385	http://www.chu-amiens.fr/professionnels/professionnels-de-sante/centre-regional-de-pharmacovigilance-amiens/
+T12	URL 398 480	https://signalement.social-sante.gouv.fr/psig_ihm_utilisateurs/index.html#/accueil
+T2	Organisation 0 45	Centre régional de pharmacovigilance - Amiens
+T13	Cedex 574 581	Cedex 1

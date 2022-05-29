@@ -1,0 +1,16 @@
+T1	Date 866 878	19 mars 2018
+T2	Lieu 270 277	Algérie
+T4	Personne 224 237	Albane ELMANH
+A1	role T4 soignant
+T5	Personne 507 523	Béatrice Hamenni
+A2	role T5 soignant
+T6	Date 246 260	9 février 1989
+T7	Ville 263 268	Alger
+T8	Date 203 218	9 décembre 2019
+T9	Id 101 113	SSAN1935773A
+T10	Date 10 25	9 décembre 2019
+T3	Organisation 528 556	centre hospitalier de Nevers
+T11	Lieu 87 93	France
+A3	type T11 pays
+A4	date T6 naissance
+A5	type T2 pays

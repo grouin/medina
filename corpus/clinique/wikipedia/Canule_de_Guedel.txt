@@ -1,0 +1,10 @@
+La canule de Guedel est un dispositif médical inventé par Arthur Guedel, et qui permet de préserver le passage de l'air jusqu'aux poumons chez un humain inconscient.
+
+Description et utilisation
+Une canule de Guedel appelée aussi canule oropharyngée est un tube semi-rigide en plastique, en forme de point d'interrogation utilisé pour maintenir les voies aériennes d'un patient ouvertes (empêche l'affaissement de la langue contre le pharynx).
+
+Mise en place, elle n'élimine pas la nécessité de mettre le patient en position latérale de sécurité (PLS) : si elle empêche l'affaissement de la langue, elle n'empêche pas la fermeture de l'épiglotte ni le syndrome de Mendelson.
+
+Chez un adulte, la canule est insérée pointe vers le haut, et retournée vers le bas lorsqu'elle est complètement enfoncée. Chez un enfant ou un nourrisson, la canule est insérée directement pointe vers le bas.
+
+Les canules de Guedel ne doivent être utilisées que sur des patients inconscients (score de Glasgow inférieur à 5), en arrêt cardio-respiratoire ou sédaté (sinon risque de provoquer un vomissement). Un patient reprenant conscience va spontanément chercher à recracher la canule lorsqu'il retrouvera le réflexe de la toux.

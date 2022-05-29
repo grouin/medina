@@ -1,0 +1,32 @@
+T1	Pathologie 15 27	Kleine-Levin
+T2	Date 2252 2256	1786
+T3	Personne 2191 2223	Edmé Pierre Chauvot de Beauchêne
+A1	role T3 inconnu
+T4	Date 2321 2325	1815
+T5	Personne 2483 2502	Brierre de Boismont
+A2	role T5 soignant
+T6	Date 2449 2453	1862
+T7	Date 2653 2657	1935
+T8	Date 2552 2556	1925
+T9	Date 2972 2976	1962
+T10	Personne 2599 2611	Willi Kleine
+A3	role T10 soignant
+T11	Ville 2630 2639	Francfort
+T12	Personne 2825 2844	MacDonald Critchley
+A4	role T12 soignant
+T13	Personne 2673 2682	Max Levin
+A5	role T13 soignant
+T14	Date 3480 3484	1962
+T15	Date 3488 3492	2004
+T16	Pathologie 847 859	Kleine-Levin
+T17	Pathologie 3373 3385	Kleine-Levin
+T18	Pathologie 4120 4132	Kleine-Levin
+T19	Lieu 3629 3635	Israël
+A6	type T19 pays
+T20	Age 2075 2077	15
+T21	Age 2080 2086	25 ans
+T22	Profession 2662 2672	psychiatre
+T23	Profession 2616 2626	neurologue
+T24	Profession 2846 2856	neurologue
+T25	Profession 2458 2473	neuropsychiatre
+T26	Date 4239 4247	décembre

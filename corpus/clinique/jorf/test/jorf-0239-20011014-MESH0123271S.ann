@@ -1,0 +1,9 @@
+T2	Ville 610 615	Paris
+T3	Cp 617 620	13e
+T4	Adresse 577 606	47-83, boulevard de l'Hôpital
+T5	Id 144 156	MESH0123271S
+T1	Date 282 294	29 juin 2001
+T7	Organisation 528 575	groupe hospitalier de La Pitié - La Salpêtrière
+T8	Personne 787 793	Tassot
+A1	role T8 soignant
+T6	Organisation 364 403	Assistance publique - hôpitaux de Paris

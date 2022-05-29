@@ -1,0 +1,14 @@
+T1	Date 75 90	27 février 2020
+T3	Telephone 186 200	04 91 74 75 60
+T4	Telephone 208 222	04 91 74 07 80
+T5	Mail 236 262	pharmacovigilance@ap-hm.fr
+T6	Organisation 397 428	Hôpital Sainte-Marguerite AP-HM
+T7	Adresse 429 463	270 boulevard de Sainte-Marguerite
+T8	Cp 464 469	13274
+T9	Ville 470 479	Marseille
+T10	Personne 525 545	Joëlle MICALLEF-ROLL
+A1	role T10 soignant
+T11	URL 275 295	http://crpv.ap-hm.fr
+T12	URL 308 386	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T2	Organisation 0 48	Centre régional de pharmacovigilance - Marseille
+T13	Cedex 480 487	Cedex 9

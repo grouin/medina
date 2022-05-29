@@ -1,0 +1,9 @@
+T1	Traitement 26 35	Swan-Ganz
+T2	Personne 67 78	Jeremy Swan
+T3	Personne 82 94	William Ganz
+A1	role T2 soignant
+A2	role T3 soignant
+T4	Organisation 132 144	Cedars-Sinai
+T5	Date 187 191	1970
+T6	Date 523 527	2000
+T7	Traitement 1841 1850	Swan-Ganz

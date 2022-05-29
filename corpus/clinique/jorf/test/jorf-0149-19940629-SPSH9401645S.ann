@@ -1,0 +1,10 @@
+T1	Id 143 155	SPSH9401645S
+T2	Date 280 292	31 mars 1994
+T3	Date 315 327	23 juin 1993
+T4	Lieu 351 377	Provence-Alpes-Côte d'Azur
+T6	Adresse 434 465	36, avenue du Commandant-Dumont
+T7	Ville 469 472	Gap
+T8	Lieu 474 486	Hautes-Alpes
+T5	Organisation 382 427	clinique médico-chirurgicale des Hautes-Alpes
+A1	type T8 region
+A2	type T4 region

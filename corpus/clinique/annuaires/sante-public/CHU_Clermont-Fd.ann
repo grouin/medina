@@ -1,0 +1,20 @@
+T1	Adresse 296 315	58 rue Montalembert
+T2	Cp 316 321	63003
+T4	Ville 322 338	Clermont-Ferrand
+T6	Date 84 99	28 juillet 2021
+T7	Telephone 195 208	04 73 750 750
+T8	Organisation 411 431	CHU Gabriel-Montpied
+T9	Organisation 434 445	CHU Estaing
+T10	Organisation 448 464	CHU Hôpital Nord
+T11	Personne 510 525	Didier HOELTGEN
+A1	role T11 soignant
+T12	Personne 565 582	Christine ROUGIER
+A2	role T12 soignant
+T13	Personne 628 645	Olivier BEAUGRAND
+A3	role T13 soignant
+T14	Personne 692 703	Aude VALÉRY
+A4	role T14 soignant
+T15	URL 221 277	https://www.chu-clermontferrand.fr/internet/default.aspx
+T16	Cedex 339 346	Cedex 1
+T3	Organisation 0 57	Centre hospitalier universitaire (CHU) - Clermont-Ferrand
+T5	Organisation 361 384	CHU de Clermont-Ferrand

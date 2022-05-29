@@ -1,0 +1,10 @@
+T1	Lieu 298 305	Turquie
+T2	Lieu 321 336	Arabie saoudite
+T3	Pathologie 14 19	Naxos
+T4	Ville 223 228	Naxos
+T5	Lieu 289 293	Égée
+A1	type T1 pays
+T6	Lieu 309 315	Israël
+A2	type T6 pays
+A3	type T2 pays
+T7	Pathologie 353 361	Carjaval

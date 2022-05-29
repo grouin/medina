@@ -1,0 +1,16 @@
+A2	type T1 pays
+T1	Lieu 996 1001	Japon
+T11	Pathologie 294 308	Guillain-Barré
+T12	Pathologie 1206 1220	Guillain-Barré
+T2	Pathologie 218 231	Miller-Fisher
+T4	Pathologie 247 253	Fisher
+T6	Lieu 1007 1013	Taiwan
+A1	type T6 pays
+T17	Pathologie 15 28	Miller-Fisher
+T8	Personne 605 626	Charles Miller Fisher
+A3	role T8 soignant
+T10	Date 573 577	1955
+A19	role T18 soignant
+T18	Personne 169 190	Charles Miller Fisher
+T3	Profession 585 595	neurologue
+T5	Profession 149 159	neurologue

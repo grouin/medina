@@ -1,0 +1,26 @@
+T2	Ville 344 352	Toulouse
+T4	Date 76 91	11 janvier 2022
+T5	Telephone 187 201	05 61 77 22 23
+T6	Organisation 288 312	Hôtel-Dieu Saint-Jacques
+T7	Adresse 313 327	2 rue Viguerie
+T8	Cp 328 337	TSA 80035
+T9	Cp 338 343	31059
+T10	Organisation 426 450	Hôtel-Dieu Saint-Jacques
+T11	Organisation 509 525	hôpital La Grave
+T12	Organisation 527 541	hôpital Purpan
+T13	Organisation 543 569	hôpital Pierre-Paul Riquet
+T14	Organisation 585 600	hôpital Garonne
+T15	Organisation 647 671	hôpital Paule de Viguier
+T16	Organisation 673 689	hôpital Rangueil
+T17	Organisation 691 705	hôpital Larrey
+T18	Organisation 709 726	La Fontaine Salée
+T19	Personne 772 794	Jean-François LEFEBVRE
+A1	role T19 soignant
+T20	Personne 855 866	Anne FERRER
+A2	role T20 soignant
+T21	Personne 908 932	Marie CHARRIERE-LEMAHIEU
+A3	role T21 soignant
+T22	URL 214 241	http://www.chu-toulouse.fr/
+T1	Organisation 0 49	Centre hospitalier universitaire (CHU) - Toulouse
+T23	Cedex 353 360	Cedex 9
+T3	Organisation 375 390	CHU de Toulouse

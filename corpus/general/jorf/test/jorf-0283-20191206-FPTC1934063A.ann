@@ -1,0 +1,36 @@
+T10	Date 1458 1472	7 février 2020
+T11	Date 1845 1859	6 janvier 2020
+T12	Date 1875 1890	31 janvier 2020
+T13	Date 2384 2397	7 févier 2020
+T14	Date 10 26	26 novembre 2019
+T15	Date 282 298	26 novembre 2019
+T16	Date 3664 3680	26 novembre 2019
+T20	Ville 823 828	Paris
+T22	Ville 1006 1011	Paris
+T4	Date 145 149	2020
+T5	Date 465 469	2020
+T6	Date 842 856	1er avril 2020
+T7	Date 1025 1036	2 juin 2020
+T8	Date 1140 1154	6 janvier 2020
+T9	Date 1167 1182	31 janvier 2020
+T1	Id 157 169	FPTC1934063A
+A1	categorie T1 numero
+T2	Organisation 218 270	Centre national de la fonction publique territoriale
+T17	Organisation 409 461	Centre national de la fonction publique territoriale
+T18	Organisation 1109 1114	CNFPT
+T21	Organisation 1699 1704	CNFPT
+T23	Organisation 1933 1985	Centre national de la fonction publique territoriale
+T24	Organisation 2842 2847	CNFPT
+T27	Organisation 2906 2958	Centre national de la fonction publique territoriale
+T28	Organisation 3601 3653	Centre national de la fonction publique territoriale
+T3	Personne 3683 3692	F. Deluga
+T19	Id 1116 1128	www.cnfpt.fr
+A4	categorie T19 email
+T29	Id 1706 1718	www.cnfpt.fr
+A5	categorie T29 email
+T30	Adresse 2009 2037	80, rue de Reuilly, CS 41232
+T31	Cp 2039 2044	75578
+T32	Ville 2045 2050	Paris
+T25	Adresse 2982 3010	80, rue de Reuilly, CS 41232
+T33	Cp 3012 3017	75578
+T34	Ville 3018 3023	Paris

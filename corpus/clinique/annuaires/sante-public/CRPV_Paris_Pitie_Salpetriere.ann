@@ -1,0 +1,13 @@
+T1	Date 89 104	27 février 2020
+T3	Organisation 0 62	Centre régional de pharmacovigilance - Paris Pitié Salpétrière
+T4	Telephone 200 214	01 42 16 16 79
+T5	Telephone 222 236	01 42 16 16 88
+T6	Mail 250 280	pharmaco.vigilance.psl@aphp.fr
+T7	Organisation 438 459	CHU Pitié Salpêtrière
+T8	Adresse 460 488	47-83 boulevard de l'Hôpital
+T9	Cp 489 494	75013
+T10	Ville 495 500	Paris
+T11	Personne 538 561	Bénédicte LEBRUN-VIGNES
+A1	role T11 soignant
+T12	URL 293 336	http://www.pharmacovigilance-iledefrance.fr
+T13	URL 349 427	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/

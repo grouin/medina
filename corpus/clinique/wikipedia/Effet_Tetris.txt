@@ -1,0 +1,11 @@
+L'effet Tetris, ou syndrome Tetris, survient lorsqu'un individu consacre tellement de temps et d'attention à une activité que cette dernière commence à modeler sa pensée, ses images mentales, et ses rêves. Le nom du syndrome s'inspire du jeu vidéo Tetris.
+
+Les individus jouant à Tetris pendant trop longtemps peuvent se mettre à penser à la manière dont les différentes formes du monde réel peuvent s'emboîter ensemble, comme des boîtes sur une étagère de supermarché ou des immeubles dans la rue. En ce sens, l'effet Tetris est une forme d'habitus. Les individus concernés peuvent également rêver de tétrominos qui tombent au moment de s'endormir, ou à voir des images de tétrominos tombant aux extrémités de leur champ de vision ou lorsqu'ils ferment les yeux. Dans ce sens, l'effet Tetris est une forme d'état hypnagogique.
+
+
+Histoire
+
+La première source connue du terme apparaît dans un article de Jeffrey Goldsmith, publié dans Wired en mai 1994. Le terme est de nouveau utilisé par Earling (1996) citant l'utilisation du mot par Garth Kidd, en février 1996. Kidd attribue l'origine de ce mot à des joueurs de jeux vidéo sur ordinateur en provenance d'Adélaïde, en Australie. La première description du phénomène général apparaît dans le poème de science-fiction Virus, écrit par Neil Gaiman dans Digital Dreams (1987).
+
+Effet Tetris
+L'effet Tetris (terme anglais issu du français) est appelé comme l'effet expliqué précédemment mais concerne un phénomène plutôt différent constaté dans les systèmes d'intelligence artificielle lié au concept de rationalité limitée. L'effet Tetris, dans ce cas, est l'effet selon lequel une suite d'actions précipitées et imprécises est meilleure que calculer un mouvement optimal, où un tel calcul ne serait pas fini à temps ; pour résumer, les systèmes évolutionnistes trouvent plus souvent un optimum local que global.

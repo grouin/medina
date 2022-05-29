@@ -1,0 +1,31 @@
+T1	Date 572 587	11 juillet 2020
+T2	Date 119 131	28 juin 2020
+T3	Date 193 205	28 juin 2020
+T4	Date 381 393	5 avril 2014
+T5	Ville 84 89	Paris
+T6	Ville 110 115	Paris
+T7	Ville 257 262	Paris
+T8	Ville 437 442	Paris
+T9	Ville 1004 1009	Paris
+T10	Date 730 743	13 avril 2014
+T14	Date 325 337	16 mars 2008
+T15	Date 308 320	18 mars 2001
+T20	Date 344 356	23 mars 2014
+T21	Personne 3 20	Jean-Pierre LECOQ
+A1	role T21 autre
+T22	Date 266 280	3 janvier 1993
+T23	Date 291 303	11 juin 1995
+T24	Date 655 670	10 octobre 1994
+T25	Date 681 695	3 juillet 1995
+T26	Date 700 712	2 avril 2001
+T27	Date 714 726	29 mars 2008
+T28	Date 985 1000	18 juillet 1954
+T29	Mail 1109 1135	jean-pierre.lecoq@paris.fr
+T30	Profession 941 960	Conseiller régional
+T31	Lieu 963 976	Île-de-France
+T32	Profession 1029 1037	Retraité
+T11	Lieu 551 568	6e arrondissement
+T12	Lieu 634 651	6e arrondissement
+T13	Lieu 31 48	6e arrondissement
+T16	Lieu 155 157	6e
+T17	Lieu 1011 1014	14e

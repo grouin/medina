@@ -1,0 +1,19 @@
+T1	Date 71 86	15 octobre 2021
+T2	Lieu 34 44	Martinique
+T3	Telephone 182 200	+596 5 96 39 42 43
+T4	Mail 214 248	secretariat-direction@ars.sante.fr
+T5	URL 261 297	https://www.martinique.ars.sante.fr/
+T6	Adresse 324 348	ZAC de l'Étang-Z'abricot
+T7	Adresse 349 366	Pointe des Grives
+T8	Cp 367 375	CS 80656
+T9	Cp 376 381	97261
+T10	Ville 382 396	Fort de France
+T11	Personne 447 461	Jérôme VIGUIER
+A1	role T11 inconnu
+T12	Personne 498 512	Olivier COUDIN
+A2	role T12 inconnu
+T13	Personne 555 570	Laurence DELUGE
+A3	role T13 inconnu
+A4	type T2 pays
+T14	Organisation 0 31	Agence régionale de santé (ARS)
+T15	Cedex 397 402	Cedex

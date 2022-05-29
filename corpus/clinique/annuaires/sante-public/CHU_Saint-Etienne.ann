@@ -1,0 +1,17 @@
+T1	Cp 346 351	42055
+T3	Ville 314 327	Saint-Étienne
+T4	Ville 352 365	Saint-Étienne
+T5	Date 81 96	30 juillet 2021
+T6	Telephone 192 206	04 77 82 80 00
+T7	Adresse 287 307	25 boulevard Pasteur
+T8	Cp 308 313	42100
+T9	Personne 418 433	Olivier BOSSARD
+A1	role T9 soignant
+T10	Personne 473 487	Pascale MOCAËR
+A2	role T10 soignant
+T11	Personne 529 547	Angèle DALI-YOUCEF
+A3	role T11 soignant
+T12	Telephone 565 579	04 77 12 70 13
+T13	URL 219 248	http://www.chu-st-etienne.fr/
+T2	Organisation 0 54	Centre hospitalier universitaire (CHU) - Saint-Etienne
+T14	Cedex 366 373	Cedex 2

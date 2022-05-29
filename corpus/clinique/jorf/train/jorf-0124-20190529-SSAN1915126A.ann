@@ -1,0 +1,14 @@
+T1	Date 754 766	19 mars 2018
+T2	Date 10 21	22 mai 2019
+T3	Id 97 109	SSAN1915126A
+T4	Date 199 210	22 mai 2019
+T5	Personne 215 228	Alexis LECRIN
+A1	role T5 soignant
+T6	Date 236 251	19 octobre 1969
+T7	Ville 254 265	Schaffhouse
+T8	Lieu 267 273	Suisse
+T9	Organisation 414 445	Centre hospitalier de Perpignan
+T10	Lieu 83 89	France
+A2	type T10 pays
+A3	date T6 naissance
+A4	type T8 pays

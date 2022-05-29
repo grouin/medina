@@ -1,0 +1,22 @@
+T4	Date 76 91	27 juillet 2021
+T5	Telephone 187 201	05 56 79 56 79
+T6	Adresse 281 296	12 rue Dubernat
+T7	Cp 297 302	33400
+T8	Ville 303 310	Talence
+T9	Adresse 329 344	12 rue Dubernat
+T10	Cp 345 350	33404
+T11	Ville 351 358	Talence
+T12	Ville 435 442	Talence
+T13	Organisation 479 506	Pellegrin, Sud, Saint-André
+T14	Lieu 583 592	Aquitaine
+T15	Organisation 824 830	INSERM
+T16	Organisation 834 838	CNRS
+T17	Personne 884 895	Yann BUBIEN
+A1	role T17 soignant
+T18	Personne 968 990	Stéphanie Fazi-Leblanc
+A2	role T18 soignant
+T19	URL 214 242	https://www.chu-bordeaux.fr/
+T1	Organisation 0 49	Centre hospitalier universitaire (CHU) - Bordeaux
+T20	Cedex 359 364	Cedex
+T2	Organisation 379 394	CHU de Bordeaux
+T3	Organisation 615 637	Université de Bordeaux

@@ -1,0 +1,49 @@
+A5	type T4 pays
+T1	Cp 148 151	12e
+T12	Organisation 1086 1096	Rothschild
+T13	Organisation 1191 1201	Rothschild
+T14	Organisation 1484 1494	Rothschild
+T15	Organisation 2444 2454	Rothschild
+T16	Organisation 2554 2564	Rothschild
+T17	Organisation 2988 2998	Rothschild
+T18	Organisation 3061 3071	Rothschild
+T2	Date 1041 1045	1880
+T3	Date 256 260	2010
+T4	Lieu 3419 3425	France
+T6	Ville 75 80	Paris
+T7	Ville 170 175	Paris
+T8	Organisation 10 20	Rothschild
+T9	Organisation 534 544	Rothschild
+T5	Date 2817 2828	2009 à 2011
+T19	Organisation 217 239	Juif de l'Est parisien
+T20	Adresse 179 194	5, rue Santerre
+T21	Date 1055 1066	1912 à 1914
+T22	Personne 1024 1039	Lucien Bechmann
+T23	Personne 845 865	Edmond de Rothschild
+T24	Adresse 958 968	rue Picpus
+T25	Adresse 1104 1116	rue Santerre
+T26	Date 1155 1159	1914
+T29	Adresse 1501 1513	rue Santerre
+T30	Adresse 2939 2951	rue Santerre
+T31	Adresse 636 653	76, rue de Picpus
+T32	Date 723 734	25 mai 1852
+T33	Date 1424 1436	15 juin 1918
+T34	Personne 2220 2240	Colette Brull-Ulmann
+A1	role T34 soignant
+T35	Personne 2263 2276	Claire Heyman
+A2	role T35 soignant
+T36	Personne 2293 2306	María Edwards
+A3	role T36 soignant
+T37	Date 2484 2500	1er janvier 1954
+T38	Organisation 2473 2478	AP-HP
+T39	Organisation 82 87	AP-HP
+T40	Date 3240 3244	2013
+T41	Personne 3345 3357	Thomas Lilti
+T42	Date 546 550	1852
+T43	Date 553 557	1954
+T44	Date 1046 1050	1968
+T28	Personne 586 605	James de Rothschild
+A4	role T28 autre
+A6	role T23 autre
+A7	role T22 autre
+A8	role T41 autre

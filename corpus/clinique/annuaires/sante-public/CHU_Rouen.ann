@@ -1,0 +1,19 @@
+T1	Cp 354 359	76031
+T3	Ville 313 318	Rouen
+T4	Ville 360 365	Rouen
+T5	Date 73 88	04 octobre 2021
+T6	Telephone 184 198	02 32 88 89 90
+T7	Adresse 285 306	37 boulevard Gambetta
+T8	Cp 307 312	76000
+T9	Adresse 337 353	1 rue de Germont
+T10	Personne 420 440	Véronique DESJARDINS
+A1	role T10 soignant
+T11	Personne 511 528	Guillaume LAURENT
+A2	role T11 soignant
+T12	Personne 569 578	Rémy HEYM
+A3	role T12 soignant
+T13	Mail 595 617	remi.heym@chu-rouen.fr
+T14	Telephone 635 649	02 32 88 06 17
+T15	URL 211 274	https://www.chu-rouen.fr/hopital/hopital-charles-nicolle-rouen/
+T16	Cedex 366 373	Cedex 1
+T2	Organisation 0 46	Centre hospitalier universitaire (CHU) - Rouen

@@ -1,0 +1,4 @@
+T3	Pathologie 121 130	Alzheimer
+T4	Personne 221 234	Michel Clanet
+T2	Organisation 29 38	HAS_sante
+A1	role T4 soignant

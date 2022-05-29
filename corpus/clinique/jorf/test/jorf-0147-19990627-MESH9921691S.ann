@@ -1,0 +1,34 @@
+T1	Ville 292 297	Paris
+T2	Date 142 155	22 avril 1999
+T3	Adresse 250 284	184, rue du Faubourg-Saint-Antoine
+T4	Cp 286 291	75012
+T5	Organisation 227 248	hôpital Saint-Antoine
+T6	Id 0 12	MESH9921690S
+T7	Personne 676 686	A. Sanchez
+A1	role T7 soignant
+T8	Personne 688 699	B. Sarvolla
+A2	role T8 soignant
+T9	Personne 736 746	C. Sancord
+A3	role T9 soignant
+T10	Personne 748 756	D. Sager
+A4	role T10 soignant
+T11	Personne 758 769	E. Sachetti
+A5	role T11 soignant
+T12	Personne 771 782	F. Sarthuis
+A6	role T12 soignant
+T13	Personne 816 832	J.-H. Sallaumont
+A7	role T13 soignant
+T14	Personne 834 842	G. Saulx
+A8	role T14 soignant
+T15	Personne 844 857	K.-I. Sapreux
+A9	role T15 soignant
+T16	Personne 859 867	L. Saule
+A10	role T16 soignant
+T17	Personne 869 880	M. Sanveris
+A11	role T17 soignant
+T18	Personne 918 929	N. Sandiase
+A12	role T18 soignant
+T19	Personne 931 944	O. Sant-Saynt
+A13	role T19 soignant
+T20	Personne 946 958	P.-Q. Salaün
+A14	role T20 soignant

@@ -1,0 +1,22 @@
+Enterococcus faecalis est une bactérie commensale à Gram positif, habitant le tube digestif des humains et d'autres mammifères.
+
+Comme d'autres espèces du genre Enterococcus, E. faecalis peut causer des infections mortelles chez l'homme et le singe, particulièrement dans un environnement hospitalier : le haut niveau de résistance naturelle aux antibiotiques de la bactérie contribue à sa pathogénicité et au risque nosocomial.
+
+Elle peut aussi déclencher des inflammations chroniques de l'intestin
+
+Description
+E. faecalis se présente comme un microorganisme non-mobile, anaérobie facultatif, il fermente le glucose sans production de gaz. C'est une des rares bactéries lactiques à posséder une catalase, active seulement lorsque la bactérie peut acquérir de l'hème. De même, il réduit la teinture de tournesol, mais ne liquéfie pas la gélatine. 
+Sa croissance en bouillon nutritif est compatible avec son caractère anaérobie facultatif.
+
+Pathogénicité
+E. faecalis peut causer des endocardites, ainsi que des infections de la vessie, de la prostate ou de l'épididyme. Les infections du système nerveux sont plus rares.
+
+E. faecalis est résistant à de nombreux agents antibiotiques communément utilisés (aminoglycosides, aztréonam, céphalosporines, clindamycine, les pénicillines semi-synthétiques nafcilline et oxacilline, ainsi que le cotrimoxazole). L'exposition aux céphalosporines est un facteur de risque particulièrement important pour la colonisation et l'infection aux entérocoques.
+
+Histoire taxonomique
+Avant 1984, alors que les entérocoques étaient membres du genre Streptococcus, E. faecalis était classé sous le taxon Streptococcus faecalis.
+
+
+
+Épidémiologie
+Des échanges de bactéries entre humains et porcs existent. la bactérie peut rapidement muter, avec un risque nosocomial important. Les enterocoques peuvent survivre jusqu'à quatre mois sur des surfaces sèches et inertes, ce qui constitue un facteur important de dissémination.

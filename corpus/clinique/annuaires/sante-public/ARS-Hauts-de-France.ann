@@ -1,0 +1,17 @@
+T1	Lieu 34 49	Hauts-de-France
+T2	Date 76 88	03 juin 2021
+T3	Telephone 184 198	08 09 40 20 32
+T4	URL 211 252	https://www.hauts-de-france.ars.sante.fr/
+T5	Adresse 291 306	Bâtiment Onix A
+T6	Adresse 307 330	556 avenue Willy-Brandt
+T7	Cp 331 336	59777
+T8	Ville 337 346	Euralille
+T9	Personne 391 404	Benoît VALLET
+A1	role T9 inconnu
+T10	Personne 482 504	Jean-Christophe CANLER
+A2	role T10 inconnu
+T11	Personne 534 547	Thierry VÉJUX
+A3	role T11 inconnu
+T12	Personne 588 601	Pascal POËTTE
+A4	role T12 inconnu
+T13	Organisation 0 31	Agence régionale de santé (ARS)

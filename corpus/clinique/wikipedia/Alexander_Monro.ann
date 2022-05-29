@@ -1,0 +1,17 @@
+T1	Personne 0 15	Alexander Monro
+T2	Date 64 79	5 novembre 1773
+T3	Ville 82 91	Édimbourg
+T4	Date 103 115	10 mars 1859
+T5	Ville 180 189	Édimbourg
+T6	Date 193 197	1797
+T7	Ville 232 239	Londres
+T8	Ville 245 250	Paris
+T9	Date 265 269	1798
+A1	role T1 soignant
+T10	Personne 292 307	Alexander Monro
+A2	role T10 soignant
+T11	Date 309 313	1733
+T12	Date 314 318	1817
+T13	Ville 392 401	Édimbourg
+T14	Date 433 437	1808
+T15	Profession 37 47	anatomiste

@@ -1,0 +1,16 @@
+T5	Date 10 26	12 décembre 2016
+T7	Id 102 114	AFSN1636689A
+T1	Organisation 493 507	Hôpital Bichat
+T2	Organisation 443 490	Hôpitaux universitaires Paris Nord Val de Seine
+T4	Ville 272 280	Kalamata
+T6	Lieu 282 287	Grèce
+T8	Date 210 226	12 décembre 2016
+T9	Date 258 269	6 juin 1966
+T10	Date 713 730	1er décembre 2016
+T11	Personne 231 250	Michail PAVLOPOULOS
+A1	role T11 soignant
+T3	Organisation 403 440	Assistance publique-hôpitaux de Paris
+T12	Lieu 88 94	France
+A2	type T12 pays
+A3	date T9 naissance
+A4	type T6 pays

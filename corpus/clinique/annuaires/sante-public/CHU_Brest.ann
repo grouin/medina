@@ -1,0 +1,22 @@
+T1	Cp 345 350	29609
+T3	Ville 307 312	Brest
+T4	Ville 351 356	Brest
+T6	Ville 587 592	Brest
+T7	Date 83 98	27 juillet 2021
+T9	Telephone 194 208	02 98 22 33 33
+T10	Adresse 287 300	2 avenue Foch
+T11	Cp 301 306	29200
+T12	Adresse 331 344	2 avenue Foch
+T8	Organisation 545 560	hôpitaux Morvan
+T13	Organisation 567 584	la Cavale Blanche
+T14	Ville 605 612	Carhaix
+T15	Personne 796 821	Florence FAVREL-FEUILLADE
+A1	role T15 soignant
+T16	Personne 895 914	Noémie SAINT-HILARY
+A2	role T16 soignant
+T17	Personne 956 977	Aurélia DERISCHEBOURG
+A3	role T17 soignant
+T18	URL 221 248	https://www.chu-brest.fr/fr
+T2	Organisation 0 56	Centre hospitalier régional universitaire (CHRU) - Brest
+T19	Cedex 357 362	Cedex
+T20	Organisation 388 401	CHRU de Brest

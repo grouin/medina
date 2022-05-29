@@ -1,0 +1,15 @@
+T4	Date 10 26	22 novembre 2017
+T5	Id 102 114	SSAN1734720A
+T6	Date 204 220	22 novembre 2017
+T1	Organisation 500 547	Groupe des Hôpitaux Universitaires Paris Centre
+T2	Organisation 566 580	hôpital Cochin
+T3	Personne 226 240	Elena KHRISTOV
+T7	Date 249 266	18 septembre 1971
+T8	Ville 269 274	Varna
+T9	Lieu 276 284	Bulgarie
+A1	role T3 soignant
+T10	Date 785 800	2 novembre 2017
+T11	Lieu 88 94	France
+A2	type T11 pays
+A3	date T7 naissance
+A4	type T9 pays

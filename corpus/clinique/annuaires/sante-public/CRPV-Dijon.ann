@@ -1,0 +1,15 @@
+T1	Date 71 86	27 février 2020
+T3	Telephone 182 196	03 80 29 37 42
+T4	Telephone 204 218	03 80 29 37 23
+T5	Mail 232 262	pharmacovigilance@chu-dijon.fr
+T6	Organisation 411 434	CHU Pôle des vigilances
+T7	Adresse 435 455	14 rue Paul Gaffarel
+T8	Cp 456 464	BP 77908
+T9	Cp 465 470	21079
+T10	Ville 471 476	Dijon
+T11	Personne 520 534	Anne DAUTRICHE
+A1	role T11 soignant
+T12	URL 275 301	http://www.chu-dijon.fr/fr
+T13	URL 314 392	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T2	Organisation 0 44	Centre régional de pharmacovigilance - Dijon
+T14	Cedex 477 482	Cedex

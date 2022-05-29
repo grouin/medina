@@ -1,0 +1,46 @@
+Décision du 22 octobre 2019 de l'Union nationale des caisses d'assurance maladie relative à la modification du dispositif de la rémunération sur objectifs de santé publique (ROSP) des médecins libéraux conventionnés 
+
+NOR: SSAU1931466S
+ELI: https://www.legifrance.gouv.fr/eli/decision/2019/10/22/SSAU1931466S/jo/texte
+
+L'Union nationale des caisses d'assurance maladie, représentée par son directeur général,
+Vu l'article L. 162-5-22° du code de la sécurité sociale, et les articles 27.2.4, 27.5.2 et l'annexe 15 de la convention nationale organisant les rapports entre les médecins libéraux et l'assurance maladie signée le 25 août 2016, et ses avenants ;
+Vu le mandat confié au directeur général de l'UNCAM par le collège des directeurs en date du 22 octobre 2019 ;
+Vu le vote de la Commission nationale paritaire des médecins libéraux réunie le 2 octobre 2019,
+Décide :
+
+Article 1
+
+Les indicateurs de pratique clinique de la ROSP du médecin traitant des patients âgés de plus de 16 ans sont modifiés, dès 2020, de la manière suivante :
+
+- Indicateur de suivi de l'équilibre glycémique du patient diabétique :
+
+L'indicateur intitulé : « Part des patients MT traités par antidiabétiques ayant bénéficié d'au moins 2 dosages d'HbA1c dans l'année » est modifié pour exclure les patients avec au moins 2 dosages de fructosamine.
+Le dénominateur devient : « Nombre de patients MT traités par antidiabétiques, exclusion faite des patients avec au moins 2 dosages de fructosamine ».
+Le seuil minimal de l'indicateur est de 5 patients et les objectifs intermédiaire et cible de cet indicateur deviennent respectivement :
+
+- objectif intermédiaire : 74 % ;
+- objectif cible : 92 %.
+
+Le code pris en compte pour le dosage de la fructosamine est le code NABM 1576.
+
+- Indicateur de dépistage du cancer colorectal :
+
+L'indicateur intitulé « Part des patients MT de 50 à 74 ans pour lesquels un dépistage du cancer colorectal (CCR) a été réalisé au cours des deux dernières années » est modifié.
+Le dénominateur devient : « nombre de patients âgés de 50-74 ans n'ayant pas eu de coloscopie dans les 5 dernières années ».
+La définition des actes retenus pour le calcul de l'indicateur est complétée des actes de coloscopie suivants : HHFE001, HHFE002, HHFE004, HHFE005, HHFE006, HHQE002, HHQE004, HHQE005, HJQE001, HHQK484, HHQH365.
+Le calcul du dénominateur de l'indicateur prend en compte les actes de coloscopies facturés en ville ou en consultation externe (facturation individuelle - FIDES - dans les établissements de santé publics et privés non lucratifs ayant une activité de MCO), ou entre N-4 et N-1 dans un établissement de santé public.
+Compte tenu de ces modifications, le seuil minimal est de 5 patients et les objectifs intermédiaire et cible de cet indicateur deviennent donc respectivement :
+
+- objectif intermédiaire : 26 % ;
+- objectif cible : 55 %.
+
+Article 2
+
+La présente décision sera publiée au Journal officiel de la République française.
+
+Fait à Paris, le 22 octobre 2019.
+
+Le directeur général de l'Union nationale des caisses d'assurance maladie,
+
+N. Revel

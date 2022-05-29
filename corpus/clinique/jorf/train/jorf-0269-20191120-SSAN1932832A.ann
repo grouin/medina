@@ -1,0 +1,16 @@
+T4	Date 10 26	14 novembre 2019
+T5	Date 194 210	14 novembre 2019
+T6	Id 102 114	SSAN1932832A
+T7	Personne 215 238	William John REMINGSTON
+A1	role T7 soignant
+T10	Organisation 485 554	hôpital la Timone-Enfants - Assistance publique-hôpitaux de Marseille
+T2	Personne 465 479	Thierry Merrot
+A2	role T2 soignant
+T11	Date 760 777	1er novembre 2019
+T1	Date 246 262	17 novembre 1975
+T3	Ville 265 275	Manchester
+T8	Lieu 277 288	Royaume-Uni
+T9	Lieu 88 94	France
+A3	type T9 pays
+A4	date T1 naissance
+A5	type T8 pays

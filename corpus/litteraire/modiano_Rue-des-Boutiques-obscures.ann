@@ -1,0 +1,195 @@
+T1	Ville 1583 1588	Paris
+T2	Ville 2002 2007	Paris
+T3	Ville 3029 3034	Paris
+T4	Profession 1197 1206	détective
+T5	Profession 2848 2863	détective privé
+A11	role T10 autre
+A9	role T8 autre
+T10	Personne 629 644	Patrick Modiano
+T6	Date 1271 1275	1965
+T7	Organisation 105 114	Gallimard
+T8	Personne 51 66	Patrick Modiano
+T12	Age 1397 1403	15 ans
+A19	role T18 autre
+T13	Date 1959 1963	1940
+T18	Personne 1002 1009	Modiano
+T20	Profession 3548 3559	photographe
+T21	Personne 1244 1249	Hutte
+T23	Personne 2828 2833	Hutte
+T24	Ville 2662 2666	Rome
+T25	Date 2684 2688	1930
+A30	role T29 inconnu
+A38	role T37 inconnu
+A42	role T41 inconnu
+A46	role T45 inconnu
+A48	role T47 inconnu
+A50	role T49 inconnu
+A52	role T51 inconnu
+A54	role T53 inconnu
+A68	role T67 inconnu
+A70	role T69 inconnu
+A72	role T71 inconnu
+A74	role T73 inconnu
+A76	role T75 inconnu
+A78	role T77 inconnu
+A80	role T79 inconnu
+T26	Date 3022 3026	1939
+T27	Date 2950 2954	1943
+T28	Date 3065 3069	1943
+T29	Personne 1887 1900	André Wildmer
+T37	Personne 2071 2077	Denise
+T41	Personne 3517 3523	Denise
+T43	Personne 1726 1742	Denise Coudreuse
+T44	Personne 2957 2973	Denise Coudreuse
+T45	Personne 1836 1845	Gay Orlow
+T47	Personne 3223 3232	Gay Orlow
+T49	Personne 3798 3807	Gay Orlow
+T51	Personne 3771 3787	Irène Giorgiadzé
+T53	Personne 3483 3497	Hélène Pilgram
+T67	Personne 1612 1624	Pedro McEvoy
+T69	Personne 1691 1703	Pedro McEvoy
+T71	Personne 2885 2897	Pedro McEvoy
+T73	Personne 3733 3741	Rubirosa
+T75	Personne 3562 3579	Alexandre Scouffi
+T77	Personne 3288 3299	Waldo Blunt
+T79	Personne 3436 3447	Waldo Blunt
+T83	Gentile 1918 1925	anglais
+T84	Profession 1911 1917	jockey
+T85	Profession 3638 3644	jockey
+T86	Profession 1746 1755	mannequin
+T87	Date 753 769	20 novembre 1978
+T88	Gentile 1880 1885	russe
+T89	Gentile 2180 2185	russe
+T90	Gentile 3725 3730	russe
+T91	Date 75 91	5 septembre 1978
+T92	Date 432 449	15 septembre 1978
+T9	Lieu 3055 3061	Suisse
+A1	type T9 pays
+T11	Personne 2552 2567	Guy-Pedro Stern
+A2	role T11 inconnu
+T15	Personne 2333 2343	Guy Roland
+A3	role T15 inconnu
+T17	Personne 2189 2202	Robert Besson
+A4	role T17 inconnu
+T19	Profession 2207 2222	moniteur de ski
+T30	Lieu 2115 2123	Portugal
+A5	type T30 pays
+T32	Lieu 2394 2403	Polynésie
+A6	type T32 pays
+T34	Personne 2364 2371	Freddie
+A7	role T34 inconnu
+T36	Lieu 2131 2137	Suisse
+A8	type T36 pays
+T38	Personne 2162 2175	Oleg de Wrédé
+A10	role T38 inconnu
+T40	Adresse 2693 2722	2, rue des Boutiques obscures
+A100	role T99 inconnu
+A102	role T101 inconnu
+A104	role T103 inconnu
+A106	role T105 inconnu
+A108	role T107 inconnu
+A110	type T109 pays
+A94	role T93 inconnu
+A96	role T95 inconnu
+A98	role T97 inconnu
+T101	Personne 2776 2786	Guy Roland
+T103	Personne 2909 2919	Guy Roland
+T105	Personne 3169 3179	Guy Roland
+T107	Personne 3700 3713	Oleg de Wrédé
+T109	Lieu 2940 2946	Suisse
+T111	Profession 3682 3697	moniteur de ski
+T93	Personne 1785 1806	Freddie Howard de Luz
+T95	Personne 3317 3338	Freddie Howard de Luz
+T97	Personne 3341 3362	Freddie Howard de Luz
+T99	Personne 1179 1189	Guy Roland
+T42	Lieu 3395 3406	Île-Maurice
+A12	type T42 pays
+T46	Date 3466 3470	1910
+T48	Ville 3473 3480	Chicago
+T50	Ville 3241 3247	Moscou
+T52	Personne 3126 3141	Paul Sonachitzé
+A13	role T52 inconnu
+T54	Personne 3182 3202	Stioppa de Djagoriew
+A14	role T54 inconnu
+T56	Personne 3205 3217	Galina Orlow
+A16	role T56 inconnu
+T58	Profession 3450 3458	pianiste
+T60	Personne 3421 3433	John Gilbert
+A18	role T60 inconnu
+T62	Personne 3526 3546	Jean-Michel Mansoure
+A20	role T62 inconnu
+T64	Personne 2866 2883	Jimmy Pedro Stern
+A21	role T64 inconnu
+T66	Gentile 3599 3607	égyptien
+T68	Personne 3610 3629	André "Dédé" Wilmer
+A22	role T68 inconnu
+T70	Personne 3669 3679	Bob Besson
+A23	role T70 inconnu
+T63	Personne 3756 3767	Kyril Orlow
+A24	role T63 inconnu
+T65	Profession 3744 3753	diplomate
+T59	Profession 3085 3091	barman
+T61	Gentile 3092 3097	Russe
+T72	Personne 3072 3082	Sonachitzé
+A25	role T72 inconnu
+A26	role T44 inconnu
+T33	Personne 2804 2823	Constatin von Hutte
+A27	role T33 inconnu
+T39	Lieu 2446 2455	Bora Bora
+T74	Autre 0 26	Rue des Boutiques obscures
+T76	Personne 302 321	François Mitterrand
+A28	role T76 autre
+T78	Personne 325 338	Bernard Pivot
+A29	role T78 autre
+T80	Personne 473 496	Emmanuel Le Roy Ladurie
+A31	role T80 autre
+T82	Personne 498 513	Michel Tournier
+A33	role T82 autre
+T94	Personne 515 527	Paul Guimard
+A34	role T94 autre
+T96	Personne 865 885	Jean-Didier Wolfromm
+A35	role T96 autre
+T98	Personne 848 861	Diane Lanster
+A37	role T98 inconnu
+T100	Personne 1529 1546	Jimmy Pedro Stern
+A39	role T100 inconnu
+T102	Gentile 1551 1555	grec
+T104	Lieu 1564 1573	Salonique
+T106	Lieu 1664 1686	République dominicaine
+A40	type T106 pays
+T108	Gentile 1756 1764	français
+T57	Gentile 1810 1817	Anglais
+T110	Lieu 1823 1834	île Maurice
+A41	type T110 pays
+A32	role T43 inconnu
+T31	Personne 922 935	Georges Perec
+A36	role T31 autre
+T35	Personne 2081 2086	Pedro
+A43	role T35 inconnu
+T81	Ville 1979 1985	Megève
+T112	Date 262 266	1978
+T156	Autre 193 219	Rue des Boutiques obscures
+A170	classe T169 prix
+A172	classe T171 prix
+A174	classe T173 prix
+T169	Autre 162 170	Goncourt
+T171	Autre 778 786	Goncourt
+T173	Autre 1161 1169	Goncourt
+A44	classe T74 titre
+A45	classe T156 titre
+T117	Autre 898 918	La Vie mode d'emploi
+A47	classe T117 titre
+T119	Autre 1478 1501	Seconde Guerre mondiale
+A49	classe T119 epoque
+T121	Autre 2049 2069	Occupation allemande
+A51	classe T121 epoque
+T123	Autre 417 428	Apostrophes
+A53	classe T123 titre
+T125	Profession 1850 1858	danseuse
+T127	Gentile 1859 1869	américaine
+T129	Profession 3111 3123	restaurateur
+T131	Personne 3100 3108	Heurteur
+A55	role T131 inconnu
+T176	Profession 280 286	auteur
+A15	role T21 inconnu
+A17	role T23 inconnu

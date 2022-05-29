@@ -1,0 +1,20 @@
+Le score d'Apgar est une évaluation de la vitalité d'un nouveau-né reposant sur une observation empirique au moment de la naissance hors considérations de sexe et de génétique et dont le but est de pronostiquer le potentiel de mortalité néonatale. Il fut développé en 1952 par une femme-médecin américaine, Virginia Apgar et reste utilisé dans le monde entier.
+
+Définition
+Le score d'Apgar consiste en une note globale attribuée à un nouveau-né à la suite de l'observation puis l’évaluation de cinq éléments spécifiques qui sont le rythme cardiaque, la respiration, le tonus, la couleur de la peau et la réactivité. Chacun des éléments est noté à 0, 1 ou 2 points, selon les conditions observées. Le résultat total permet l’appréciation globale de l’état de santé du nouveau-né. Le résultat maximal est de 10 points, équivalant à la meilleure condition de santé possible, alors qu’un score en dessous de 7 signale une ou des défaillances. Le tableau suivant montre le nombre de points alloués à chacun des éléments observés ; le moyen mnémotechnique français pour se souvenir des cinq éléments à observer est :
+
+A = Apparence (coloration)
+
+P = Pouls (fréquence cardiaque)
+
+G = Grimace (réactivité aux stimuli)
+
+A = Activité (tonus musculaire)
+
+R = Respiration (efforts respiratoires)
+
+Un moyen mnémotechnique similaire existe en plusieurs langues.
+
+L’évaluation est réalisée entre 60 secondes et 5 minutes après la naissance. En cas de scores faibles à la première évaluation, celle-ci peut être répétée toutes les 5 minutes, soit à 10, 15 et 20 minutes. Le premier score, relevé dans les 5 minutes après la naissance, est le plus révélateur que celui de 60 secondes, surtout dans les cas où il est sous la normale comme en cas de mort ou d’anomalies neurologiques.
+
+Même si le score a été développé dans les années 1950, il conserve sa valeur en tant qu'indice de pronostic : un score bas reste en corrélation avec un fort potentiel de mortalité néonatale ainsi qu'avec un risque accru d'infirmité motrice cérébrale.

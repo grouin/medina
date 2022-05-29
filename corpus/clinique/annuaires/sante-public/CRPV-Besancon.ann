@@ -1,0 +1,12 @@
+T2	Date 74 89	27 février 2020
+T3	Telephone 185 199	03 81 66 84 74
+T4	Telephone 207 221	03 81 66 85 58
+T5	Mail 235 268	pharmacovigilance@chu-besancon.fr
+T6	Adresse 339 368	3 boulevard Alexandre Fleming
+T7	Cp 369 374	25030
+T8	Ville 375 383	Besançon
+T9	Personne 426 439	Siamak DAVANI
+A1	role T9 soignant
+T10	URL 281 320	http://www.pharmacovigilance-fcomte.fr/
+T11	Cedex 384 389	Cedex
+T1	Organisation 0 47	Centre régional de pharmacovigilance - Besançon

@@ -1,0 +1,95 @@
+A3	role T2 autre
+T1	Organisation 114 123	Gallimard
+T2	Personne 62 77	Patrick Modiano
+T6	Date 86 100	2 octobre 2014
+T12	Profession 2044 2051	médecin
+T13	Profession 181 189	écrivain
+T7	Date 855 859	1951
+T3	Date 927 931	1952
+T5	Age 838 843	7 ans
+T9	Personne 817 830	Jean Daragane
+A1	role T9 inconnu
+T11	Ville 2055 2073	Saint-Leu-la-Forêt
+T14	Personne 2030 2039	Voustraat
+A2	role T14 soignant
+T15	Age 1274 1280	21 ans
+T16	Date 1236 1240	1967
+T17	Date 1334 1338	2013
+T18	Date 1383 1387	2011
+T19	Date 1089 1093	1956
+A21	role T20 inconnu
+A23	role T22 inconnu
+A25	role T24 inconnu
+A27	role T26 inconnu
+A29	role T28 inconnu
+A31	role T30 inconnu
+A33	role T32 inconnu
+A35	role T34 inconnu
+T20	Personne 163 176	Jean Daragane
+T22	Personne 757 770	Jean Daragane
+T24	Personne 1152 1165	Jean Daragane
+T26	Personne 1192 1205	Jean Daragane
+T28	Personne 1258 1271	Jean Daragane
+T30	Personne 1318 1331	Jean Daragane
+T32	Personne 1405 1418	Jean Daragane
+T34	Personne 2088 2101	Jean Daragane
+T21	Personne 1014 1025	Bob Bugnand
+A4	role T21 inconnu
+T23	Personne 614 627	Annie Astrand
+A6	role T23 inconnu
+T25	Personne 1029 1051	Jacques Perrin de Lara
+A7	role T25 inconnu
+T27	Personne 236 251	Gilles Ottolini
+A8	role T27 inconnu
+T29	Personne 1282 1295	Annie Astrand
+A10	role T29 inconnu
+T31	Personne 907 922	Colette Laurent
+A12	role T31 inconnu
+T33	Personne 956 969	Fabrizio Lupo
+A13	role T33 inconnu
+T35	Personne 509 524	Chantal Grippay
+A14	role T35 inconnu
+T37	Autre 1117 1130	Arbre mon ami
+A15	classe T37 titre
+T38	Autre 0 45	Pour que tu ne te perdes pas dans le quartier
+A16	classe T38 titre
+A40	role T39 inconnu
+A42	role T41 inconnu
+A44	role T43 inconnu
+A46	role T45 inconnu
+A48	role T47 inconnu
+A50	role T49 inconnu
+T39	Personne 1756 1769	Annie Astrand
+T41	Personne 1709 1720	Bob Bugnand
+T43	Personne 1564 1579	Chantal Grippay
+T45	Personne 1991 2006	Colette Laurent
+T47	Personne 1446 1461	Gilles Ottolini
+T49	Personne 1672 1694	Jacques Perrin de Lara
+T40	Personne 1550 1561	Guy Torstel
+A17	role T40 inconnu
+T42	Personne 1907 1912	Annie
+A18	role T42 inconnu
+T44	Personne 2019 2024	Annie
+A19	role T44 inconnu
+T46	Personne 1745 1753	Daragane
+A20	role T46 inconnu
+T48	Personne 1879 1892	Roger Vincent
+A22	role T48 inconnu
+T50	Profession 1491 1499	écrivain
+T51	Personne 1696 1707	Guy Torstel
+A24	role T51 inconnu
+T52	Personne 1843 1847	Jean
+A26	role T52 inconnu
+T53	Profession 1775 1788	fille de nuit
+T54	Personne 1134 1146	Minou Drouet
+A28	role T54 inconnu
+T55	Personne 487 493	Gilles
+A30	role T55 inconnu
+A81	role T80 inconnu
+T80	Personne 304 310	Gilles
+T4	Personne 386 390	Jean
+A5	role T4 inconnu
+T8	Personne 330 337	Torstel
+A9	role T8 inconnu
+T10	Personne 590 594	Jean
+A11	role T10 inconnu

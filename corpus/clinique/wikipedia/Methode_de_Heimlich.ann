@@ -1,0 +1,16 @@
+T1	Traitement 26 34	Heimlich
+T2	Date 222 226	1974
+T3	Personne 201 218	Henry J. Heimlich
+A1	role T3 soignant
+T4	Traitement 333 341	Heimlich
+T5	Personne 958 975	Henry J. Heimlich
+A2	role T5 soignant
+T6	Personne 1187 1196	Patty Ris
+A3	role T6 autre
+T7	Ville 1138 1148	Cincinnati
+T8	Date 1348 1352	2003
+T9	Age 1083 1089	96 ans
+T10	Date 1094 1105	23 mai 2016
+T11	Personne 1327 1335	Heimlich
+A4	role T11 soignant
+T12	Age 149 154	un an

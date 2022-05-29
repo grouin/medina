@@ -1,0 +1,21 @@
+T1	Organisation 83 102	CHU Amiens-Picardie
+T2	Cp 176 181	80054
+T4	Ville 182 188	Amiens
+A6	role T5 soignant
+T5	Personne 909 924	Sandra LE GLOAN
+T7	Adresse 132 175	1 Rond-Point du Professeur Christian Cabrol
+T6	Personne 50 82	Marie-Antoinette SEVESTRE-PIETRI
+A1	role T6 soignant
+T8	Telephone 259 273	03 22 08 72 90
+T9	Telephone 288 302	03 22 08 99 82
+T10	Personne 886 900	Stéphane DUPAS
+A2	role T10 soignant
+T11	Personne 933 951	Catherine GAILLARD
+A3	role T11 soignant
+T12	Personne 960 980	Santhi SAMY-MODELIAR
+A4	role T12 soignant
+T13	Personne 989 1010	M-Antoinette SEVESTRE
+A5	role T13 soignant
+T14	Telephone 1026 1040	03 22 08 72 80
+T15	Telephone 1055 1069	03 22 45 53 51
+T3	Cedex 189 196	cedex 1

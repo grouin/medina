@@ -1,0 +1,14 @@
+T1	Date 72 87	27 février 2020
+T3	Telephone 183 197	02 40 08 40 96
+T4	Telephone 205 219	02 40 08 40 97
+T5	Mail 233 264	pharmacovigilance@chu-nantes.fr
+T6	Organisation 455 469	CHR Hôtel-Dieu
+T7	Adresse 470 485	9 quai Moncousu
+T8	Cp 486 491	44093
+T9	Ville 492 498	Nantes
+T10	Personne 545 560	Pascale JOLLIET
+A1	role T10 soignant
+T11	URL 277 355	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T12	URL 368 436	https://www.chu-nantes.fr/centre-hospitalier-universitaire-de-nantes
+T2	Organisation 0 45	Centre régional de pharmacovigilance - Nantes
+T13	Cedex 499 507	Cedex 01

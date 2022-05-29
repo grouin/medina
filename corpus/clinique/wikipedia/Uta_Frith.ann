@@ -1,0 +1,22 @@
+A2	role T1 autre
+T1	Personne 908 925	Simon Baron-Cohen
+T3	Profession 69 80	psychologue
+T2	Personne 0 9	Uta Frith
+A1	role T2 soignant
+T4	Date 33 44	25 mai 1941
+T5	Personne 15 29	Uta Aurnhammer
+A3	role T5 soignant
+T6	Ville 47 59	Rockenhausen
+T7	Organisation 192 210	University College
+T8	Ville 214 221	Londres
+T9	Lieu 494 499	Sarre
+T10	Ville 502 512	Sarrebruck
+T11	Organisation 691 705	King's College
+T12	Ville 709 716	Londres
+T13	Date 758 762	1968
+T14	Organisation 791 809	University College
+T15	Personne 929 941	Tony Attwood
+A4	role T15 autre
+A18	role T17 soignant
+T16	Ville 813 820	Londres
+T17	Personne 436 445	Uta Frith

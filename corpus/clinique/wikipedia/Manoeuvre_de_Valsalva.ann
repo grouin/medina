@@ -1,0 +1,12 @@
+T1	Traitement 15 23	Valsalva
+T2	Personne 49 71	Antonio Maria Valsalva
+A1	role T2 soignant
+T3	Date 346 350	1704
+T4	Anatomie 726 734	Eustache
+T5	Anatomie 1947 1955	Eustache
+A7	role T6 soignant
+T11	Traitement 1037 1045	Valsalva
+T6	Personne 312 334	Antonio Maria Valsalva
+T9	Traitement 246 254	Valsalva
+T7	Anatomie 1607 1615	Eustache
+T12	Traitement 1139 1146	Toynbee

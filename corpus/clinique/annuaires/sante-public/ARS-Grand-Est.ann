@@ -1,0 +1,19 @@
+T1	Lieu 34 43	Grand Est
+T2	Date 70 87	28 septembre 2021
+T3	Telephone 183 197	03 83 39 30 30
+T4	Mail 211 244	ars-grandest-contact@ars.sante.fr
+T5	URL 257 291	https://www.grand-est.ars.sante.fr
+T6	Adresse 310 328	3 boulevard Joffre
+T7	Cp 329 337	CS 80071
+T8	Cp 338 343	54036
+T9	Ville 344 349	Nancy
+T10	Personne 402 416	Virginie CAYRÉ
+A1	role T10 inconnu
+T11	Personne 453 467	Frédéric REMAY
+A2	role T11 inconnu
+T12	Personne 498 512	Gaëlle BARDOUL
+A3	role T12 inconnu
+T13	Personne 554 571	Séverine QUIGNARD
+A4	role T13 inconnu
+T14	Cedex 350 355	Cedex
+T15	Organisation 0 31	Agence régionale de santé (ARS)

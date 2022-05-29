@@ -1,0 +1,18 @@
+T1	Date 873 885	19 mars 2018
+T3	Date 10 21	2 août 2019
+T4	Id 97 109	SSAN1923033A
+T5	Date 199 210	2 août 2019
+T6	Personne 216 235	Nadyiha IBN HOSSEUR
+A1	role T6 soignant
+T7	Personne 243 249	JIHANI
+A2	role T7 autre
+T8	Date 258 275	12 septembre 1986
+T9	Ville 278 284	Djebba
+T10	Lieu 286 293	Tunisie
+T11	Personne 516 535	Augustin LEPERCHAND
+A3	role T11 soignant
+T2	Organisation 540 571	centre hospitalier de Perpignan
+T12	Lieu 83 89	France
+A4	type T12 pays
+A5	date T8 naissance
+A6	type T10 pays

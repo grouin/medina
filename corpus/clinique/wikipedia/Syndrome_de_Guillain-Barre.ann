@@ -1,0 +1,63 @@
+A14	type T13 pays
+A16	type T15 pays
+A28	type T27 pays
+T1	Date 1197 1201	1859
+T11	Personne 2277 2282	Barré
+T13	Lieu 3652 3657	Chine
+T15	Lieu 4523 4528	Chine
+T2	Date 1691 1695	1916
+T22	Personne 2265 2273	Guillain
+T24	Pathologie 15 29	Guillain-Barré
+T25	Pathologie 42 63	Guillain-Barré-Strohl
+T26	Pathologie 2861 2875	Guillain-Barré
+T27	Lieu 2687 2697	États-Unis
+T3	Date 2073 2077	1960
+T4	Date 2588 2592	1976
+T5	Date 4515 4519	2020
+T7	Personne 1203 1216	Octave Landry
+A1	role T7 inconnu
+T14	Personne 1220 1234	Adolf Kussmaul
+A2	role T14 inconnu
+T16	Personne 1110 1117	Wardrop
+A3	role T16 inconnu
+T18	Personne 1041 1047	Chomel
+A4	role T18 inconnu
+T28	Date 1035 1039	1828
+T29	Date 1121 1125	1834
+T30	Personne 1129 1137	Ollivier
+A5	role T30 inconnu
+T31	Date 1141 1145	1837
+T32	Date 1498 1502	1891
+T33	Personne 1504 1511	Quincke
+A6	role T33 inconnu
+T34	Personne 1697 1713	Georges Guillain
+A8	role T34 inconnu
+T35	Personne 1715 1735	Jean Alexandre Barré
+A9	role T35 soignant
+T36	Personne 1739 1751	André Strohl
+A10	role T36 soignant
+T37	Date 1989 1993	1930
+T38	Date 1994 1998	1950
+T39	Date 2147 2151	1980
+T40	Date 2259 2263	1930
+T41	Organisme 3051 3064	Campylobacter
+T42	Organisme 3068 3083	Cytomégalovirus
+T43	Organisme 3171 3191	Campylobacter jejuni
+T44	Organisme 3234 3249	Cytomégalovirus
+T45	Organisme 3374 3387	Campylobacter
+T46	Organisme 3860 3864	Zika
+T47	Organisme 3721 3741	Campylobacter jejuni
+T50	Organisme 3917 3930	Campylobacter
+T52	Organisme 4963 4983	Campylobacter jejuni
+T54	Organisme 3752 3756	Zika
+T55	Organisme 3793 3797	Zika
+T56	Organisme 4167 4171	Zika
+T57	Pathologie 932 938	Landry
+T59	Pathologie 1390 1396	Landry
+T60	Pathologie 1421 1427	Landry
+T61	Organisme 4373 4393	Mycoplasma pneumonia
+T62	Organisme 4395 4416	Haemophilus influenza
+T6	Organisme 4359 4371	Epstein-Barr
+A7	role T22 inconnu
+A11	role T11 inconnu
+T8	Lieu 5519 5523	Asie

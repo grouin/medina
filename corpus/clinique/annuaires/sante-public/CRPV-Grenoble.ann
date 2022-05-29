@@ -1,0 +1,16 @@
+T1	Date 74 89	27 février 2020
+T3	Telephone 185 199	04 76 76 51 45
+T4	Telephone 207 221	04 76 76 56 55
+T5	Mail 235 268	pharmacovigilance@chu-grenoble.fr
+T6	Organisation 418 430	CHU Grenoble
+T7	Cp 444 452	CS 10217
+T8	Cp 453 458	38043
+T9	Ville 459 467	Grenoble
+T10	Personne 512 527	Michel MALLARET
+A1	role T10 soignant
+T11	URL 281 308	http://www.chu-grenoble.fr/
+T12	URL 321 399	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T2	Organisation 0 47	Centre régional de pharmacovigilance - Grenoble
+T13	Cedex 468 475	Cedex 9
+T14	Autre 433 443	Pavillon E
+A2	classe T14 lieu

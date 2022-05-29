@@ -1,0 +1,4 @@
+T1	Lieu 80 86	France
+T2	Personne 90 100	N. Richard
+A2	type T1 pays
+A1	role T2 inconnu

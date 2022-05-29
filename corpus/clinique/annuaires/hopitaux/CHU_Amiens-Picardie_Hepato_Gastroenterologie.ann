@@ -1,0 +1,13 @@
+T1	Organisation 72 91	CHU Amiens-Picardie
+T2	Cp 165 170	80054
+T4	Ville 171 177	Amiens
+T5	Personne 55 71	Eric NGUYEN-KHAC
+A1	role T5 soignant
+T6	Adresse 121 164	1 Rond-Point du Professeur Christian Cabrol
+T7	Telephone 232 246	03 22 08 88 40
+T8	Telephone 261 275	03 22 08 97 35
+T9	Telephone 331 345	03 22 08 88 49
+T10	Personne 599 615	Eric NGUYEN-KHAC
+A2	role T10 soignant
+T11	Telephone 630 644	03 22 08 88 60
+T3	Cedex 178 185	cedex 1

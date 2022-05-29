@@ -1,0 +1,23 @@
+T1	Date 70 85	15 octobre 2021
+T2	Lieu 34 43	Occitanie
+T3	Telephone 181 195	04 67 07 20 07
+T4	Telephone 203 217	04 67 07 20 08
+T5	Mail 231 265	ARS-OC-DD34-DIRECTION@ars.sante.fr
+T6	URL 278 313	https://www.occitanie.ars.sante.fr/
+T7	Adresse 324 347	Parc-Club du Millénaire
+T8	Adresse 348 372	1025 rue Henri-Becquerel
+T9	Cp 373 378	34000
+T10	Ville 379 390	Montpellier
+T11	Adresse 409 432	Parc-Club du Millénaire
+T12	Adresse 433 457	1025 rue Henri-Becquerel
+T13	Cp 458 466	CS 30001
+T14	Cp 467 472	34067
+T15	Ville 473 484	Montpellier
+T16	Personne 537 553	Pierre RICORDEAU
+A1	role T16 inconnu
+T17	Personne 632 654	Jean-Jacques MORFOISSE
+A2	role T17 inconnu
+T18	Personne 697 712	Vincent DROCHON
+A3	role T18 inconnu
+T19	Organisation 0 31	Agence régionale de santé (ARS)
+T20	Cedex 485 492	Cedex 2

@@ -1,0 +1,15 @@
+T1	Date 70 85	27 février 2020
+T3	Telephone 181 195	02 31 06 46 72
+T4	Telephone 203 217	02 31 06 46 73
+T5	Mail 231 260	pharmacovigilance@chu-caen.fr
+T6	Organisation 425 436	CHU de Caen
+T7	Adresse 448 474	Avenue de la Côte de Nacre
+T8	Cp 475 483	CS 30001
+T9	Cp 484 489	14033
+T10	Ville 490 494	Caen
+T11	Personne 541 567	Véronique LELONG-BOULOUARD
+A1	role T11 soignant
+T12	URL 273 315	https://www.chu-caen.fr/pharmacologie.html
+T13	URL 328 406	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T2	Organisation 0 43	Centre régional de pharmacovigilance - Caen
+T14	Cedex 495 502	Cedex 9

@@ -1,0 +1,19 @@
+T1	Personne 29 44	Pascal LEPRINCE
+A1	role T1 soignant
+T2	Personne 184 200	Christian Cabrol
+A2	role T2 soignant
+T3	Date 204 208	1960
+T4	Organisation 113 154	l’Hôpital Universitaire Pitié Salpêtrière
+T5	Telephone 657 671	01 42 16 56 43
+T6	Telephone 756 770	01 42 16 56 43
+T7	Telephone 796 810	01 42 16 56 38
+T8	Telephone 835 849	01 84 82 76 70
+T9	Telephone 870 884	01 42 16 56 45
+T10	Telephone 904 918	01 42 16 55 77
+T11	Adresse 950 978	52, boulevard Vincent-Auriol
+T12	Autre 1068 1078	Chevaleret
+T13	Autre 1040 1050	Chevaleret
+#1	AnnotatorNotes T13	station de métro
+A3	classe T12 lieu
+#2	AnnotatorNotes T12	station de bus
+A4	classe T13 lieu

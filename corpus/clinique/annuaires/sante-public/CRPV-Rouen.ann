@@ -1,0 +1,14 @@
+T1	Date 71 86	27 février 2020
+T3	Telephone 182 196	02 32 88 90 79
+T4	Telephone 204 218	02 32 88 90 49
+T5	Mail 232 262	pharmacovigilance@chu-rouen.fr
+T6	Organisation 436 459	Hôpital Charles Nicolle
+T7	Organisation 460 472	CHU de Rouen
+T8	Cp 473 478	76031
+T9	Ville 479 484	Rouen
+T10	Personne 528 553	Nathalie GUILLEMANT-MASSY
+A1	role T10 soignant
+T11	URL 275 353	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T12	URL 366 417	https://www.chu-rouen.fr/service/pharmacovigilance/
+T2	Organisation 0 44	Centre régional de pharmacovigilance - Rouen
+T13	Cedex 485 490	Cedex

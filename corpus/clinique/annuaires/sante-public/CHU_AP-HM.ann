@@ -1,0 +1,24 @@
+T3	Ville 301 310	Marseille
+T5	Date 111 126	29 juillet 2021
+T6	Organisation 41 84	Assistance publique - Hôpitaux de Marseille
+T2	Telephone 222 236	04 91 38 00 00
+T7	Adresse 279 294	80 rue Brochier
+T8	Cp 295 300	13005
+T9	Organisation 355 406	Assistance Publique - Hôpitaux de Marseille (AP-HM)
+T1	Lieu 455 461	France
+A1	type T1 pays
+T4	Personne 713 730	François CREMIEUX
+A2	role T4 soignant
+T10	Personne 889 906	Christophe BACOUP
+A3	role T10 soignant
+T11	Mail 923 948	christophe.bacoup@ofii.fr
+T12	Personne 1077 1090	Sylvia BRETON
+A4	role T12 soignant
+T13	Mail 1107 1134	sylvia.breton@sante.gouv.fr
+T14	Personne 1206 1221	Pierre PINZELLI
+A5	role T14 soignant
+T15	Personne 1288 1304	Caroline PÉRAGUT
+A6	role T15 soignant
+T16	Mail 1321 1346	caroline.peragut@ap.hm.fr
+T17	Telephone 1364 1378	04 91 38 18 61
+T18	URL 249 268	http://fr.ap-hm.fr/

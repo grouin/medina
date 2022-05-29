@@ -1,0 +1,14 @@
+T1	Date 74 89	27 février 2020
+T3	Telephone 185 199	05 49 44 38 36
+T4	Telephone 207 221	05 49 44 38 45
+T5	Mail 235 264	pharmaco.clin@chu-poitiers.fr
+T6	Organisation 414 446	Centre Hospitalier Universitaire
+T7	Cp 447 455	CS 90577
+T8	Cp 456 461	86021
+T9	Ville 462 470	Poitiers
+T10	Personne 514 544	Marie-Christine PERAULT-POCHAT
+A1	role T10 soignant
+T11	URL 277 304	http://www.chu-poitiers.fr/
+T12	URL 317 395	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T13	Cedex 471 476	Cedex
+T2	Organisation 0 47	Centre régional de pharmacovigilance - Poitiers

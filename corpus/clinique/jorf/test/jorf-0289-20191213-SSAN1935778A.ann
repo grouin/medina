@@ -1,0 +1,17 @@
+T1	Date 885 897	19 mars 2018
+T4	Date 10 26	10 décembre 2019
+T5	Id 102 114	SSAN1935778A
+T6	Date 205 221	10 décembre 2019
+T7	Personne 226 252	Ibrahim Abel AMADOU BAKARY
+A1	role T7 soignant
+T8	Date 260 276	11 novembre 1971
+T9	Ville 279 285	Niamey
+T10	Lieu 287 292	Niger
+T11	Personne 499 515	Childéric Dulaur
+A2	role T11 soignant
+T12	Organisation 522 545	Hôpital Antoine Béclère
+T2	Organisation 547 584	Assistance publique-Hôpitaux de Paris
+T3	Lieu 88 94	France
+A3	type T3 pays
+A4	date T8 naissance
+A5	type T10 pays

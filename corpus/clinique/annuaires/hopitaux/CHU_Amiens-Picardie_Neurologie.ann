@@ -1,0 +1,17 @@
+T1	Organisation 14 33	CHU Amiens-Picardie
+T2	Organisation 594 613	CHU Amiens-Picardie
+T3	Organisation 693 712	CHU Amiens-Picardie
+T10	Ville 664 670	Amiens
+T12	Ville 885 891	Amiens
+T4	Adresse 614 657	1 rond-point du Professeur Christian Cabrol
+T5	Adresse 835 878	1 rond-point du Professeur Christian Cabrol
+T6	Cp 658 663	80054
+T7	Cp 879 884	80054
+T13	Personne 82 98	Olivier GODEFROY
+A1	role T13 soignant
+T14	Telephone 427 441	03 22 66 82 40
+T15	Age 180 186	70 ans
+T16	Mail 450 486	neurologie.secretariat@chu-amiens.fr
+T17	Telephone 494 508	03 22 66 82 44
+T18	Organisation 753 774	Saint-Vincent-de-Paul
+T8	Cedex 671 678	Cedex 1

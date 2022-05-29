@@ -1,0 +1,33 @@
+T1	Pathologie 14 20	Behçet
+T2	Lieu 773 779	Europe
+T3	Lieu 713 725	Moyen-Orient
+T4	Lieu 732 745	Asie de l'Est
+T5	Lieu 786 802	Amérique du Nord
+T6	Personne 1171 1184	Hulusi Behçet
+A1	role T6 soignant
+T7	Lieu 1814 1821	Turquie
+A2	type T7 pays
+T8	Lieu 1649 1654	Moyen
+T9	Lieu 1661 1675	Extrême-Orient
+T10	Lieu 1680 1686	France
+A3	type T10 pays
+T11	Pathologie 2868 2874	Behçet
+T12	Date 1211 1215	1937
+T13	Pathologie 1058 1064	Behçet
+T14	Pathologie 6844 6849	Crohn
+T15	Age 2339 2345	50 ans
+T17	Pathologie 1574 1580	Behçet
+T18	Pathologie 2070 2076	Behçet
+T19	Pathologie 2962 2968	Behçet
+T20	Pathologie 5635 5641	Behçet
+T21	Pathologie 6226 6232	Behçet
+T22	Pathologie 6530 6536	Behçet
+T23	Pathologie 6938 6944	Behçet
+T25	Date 1724 1728	2012
+T26	Age 2274 2276	18
+T27	Age 2279 2285	40 ans
+T28	Substance 4584 4594	infliximab
+T16	Personne 1263 1273	Hippocrate
+A4	role T16 soignant
+T24	Lieu 1897 1902	Japon
+A5	type T24 pays

@@ -1,0 +1,67 @@
+T1	Organisation 57 76	CHU Amiens-Picardie
+T2	Organisation 1942 1961	CHU Amiens-Picardie
+T3	Cp 112 117	80054
+T5	Ville 118 124	Amiens
+T7	Personne 43 56	Catherine LOK
+A1	role T7 soignant
+T8	Adresse 89 109	Place Victor Pauchet
+T9	Telephone 205 219	03 22 45 56 69
+T10	Telephone 234 248	03 22 45 60 72
+T11	Telephone 318 332	03 22 45 58 43
+T12	Telephone 336 350	03 22 45 54 62
+T13	Telephone 365 379	03 22 45 54 61
+T14	Personne 448 461	Catherine LOK
+A2	role T14 soignant
+T15	Personne 514 517	Lok
+A3	role T15 soignant
+T16	Telephone 520 534	03 22 45 58 41
+T17	Telephone 547 561	03 22 45 57 94
+T18	Mail 562 588	dermatologie@chu-amiens.fr
+T19	Personne 619 640	Jean-Philippe ARNAULT
+A4	role T19 soignant
+T20	Personne 683 698	Guillaume CHABY
+A5	role T20 soignant
+T21	Personne 724 734	Ali DADBAN
+A6	role T21 soignant
+T22	Personne 760 775	Florian LOMBART
+A7	role T22 soignant
+T23	Personne 781 795	Lucile SEMERIA
+A8	role T23 soignant
+T24	Personne 828 855	Nesrine BOUYAHIAOUI-ZITOUNI
+A9	role T24 soignant
+T25	Personne 885 901	Constance DUBOIS
+A10	role T25 soignant
+T26	Personne 931 944	Aurélie HALLE
+A11	role T26 soignant
+T27	Personne 974 997	Camille JOACHIM-NAEPELS
+A12	role T27 soignant
+T28	Personne 1050 1065	Laetitia BEGUIN
+A13	role T28 soignant
+T29	Personne 1071 1087	Béatrice BENABES
+A14	role T29 soignant
+T30	Organisation 1368 1387	CHU AMiens-Picardie
+T31	Personne 1093 1105	Esther CARMI
+A15	role T31 soignant
+T32	Personne 1111 1129	Dominique COUVREUR
+A16	role T32 soignant
+T33	Personne 1135 1151	Juliette DENAMPS
+A17	role T33 soignant
+T34	Personne 1157 1172	Fanny DESSIRIER
+A18	role T34 soignant
+T35	Personne 1178 1195	Massimo GIANFERMI
+A19	role T35 soignant
+T36	Personne 1201 1215	Eva LAFABREGUE
+A20	role T36 soignant
+T37	Personne 1221 1236	Audrey LORRIAUX
+A21	role T37 soignant
+T38	Personne 1242 1257	Sandra LE GLOAN
+A22	role T38 soignant
+T39	Personne 2589 2600	Devauchelle
+A23	role T39 soignant
+T40	Pathologie 2817 2822	Bowen
+T41	Pathologie 2984 3001	Darier et Ferrand
+T42	Pathologie 3053 3059	Merkel
+T43	Pathologie 3073 3079	Kaposi
+T44	Pathologie 4945 4953	Verneuil
+T45	Pathologie 5027 5041	Recklinghausen
+T4	Cedex 125 132	cedex 1

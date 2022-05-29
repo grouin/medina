@@ -1,0 +1,28 @@
+T2	Organisation 549 554	AP-HP
+T3	Organisation 1264 1269	AP-HP
+T4	Organisation 1565 1570	AP-HP
+T6	Ville 371 376	Paris
+T8	Ville 586 591	Paris
+T9	Organisation 41 88	Assistance publique - Hôpitaux de Paris (AP-HP)
+T1	Date 115 131	23 décembre 2021
+T5	Telephone 227 241	01 40 27 30 00
+T10	Mail 255 299	06communication.institutionnelle@sap.aphp.fr
+T11	Adresse 350 364	3 rue Victoria
+T12	Cp 366 367	5
+T13	Organisation 399 436	Assistance Publique-Hôpitaux de Paris
+T7	Lieu 532 545	Ile-de-France
+T14	Organisation 630 635	AP-HP
+T15	Organisation 1361 1366	AP-HP
+T16	Organisation 1542 1547	AP-HP
+T17	Personne 1842 1855	Martin HIRSCH
+A1	role T17 soignant
+T18	Personne 1928 1947	Stéphanie DECOOPMAN
+A2	role T18 soignant
+T19	Personne 2036 2051	Patrick CHANSON
+A3	role T19 soignant
+T20	Mail 2068 2112	06communication.institutionnelle@sap.aphp.fr
+T21	Date 1596 1609	décembre 2016
+T22	Organisation 1407 1427	Fondation de l'AP-HP
+T23	Telephone 2130 2144	01 40 27 30 00
+T24	URL 312 331	http://www.aphp.fr/
+T25	Cedex 377 385	Cedex 04

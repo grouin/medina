@@ -1,0 +1,12 @@
+T1	Examen 42 50	Babinski
+T2	Examen 375 383	Babinski
+T3	Examen 397 401	Koch
+T4	Examen 518 526	Babinski
+T5	Examen 976 984	Babinski
+T6	Examen 999 1007	Babinski
+T8	Examen 1352 1360	Babinski
+T9	Examen 1578 1586	Babinski
+T10	Examen 1287 1292	Dupré
+T11	Personne 1322 1337	Joseph Babinski
+A1	role T11 soignant
+T7	Age 196 204	six mois

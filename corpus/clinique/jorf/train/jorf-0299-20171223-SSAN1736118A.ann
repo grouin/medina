@@ -1,0 +1,15 @@
+T6	Date 10 26	15 décembre 2017
+T7	Id 102 114	SSAN1736118A
+T8	Date 204 220	15 décembre 2017
+T1	Organisation 549 559	Hôtel Dieu
+T3	Ville 264 276	Kristiansund
+T4	Lieu 278 285	Norvège
+T5	Date 250 261	2 juin 1987
+T9	Date 764 778	2 janvier 2018
+T10	Personne 226 241	Erna BJORNDALEN
+A1	role T10 soignant
+T2	Organisation 406 448	Centre hospitalier universitaire de Nantes
+T11	Lieu 88 94	France
+A2	type T11 pays
+A3	date T5 naissance
+A4	type T4 pays

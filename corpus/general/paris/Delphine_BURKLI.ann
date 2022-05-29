@@ -1,0 +1,22 @@
+T1	Date 394 409	11 juillet 2020
+T2	Date 122 134	28 juin 2020
+T3	Date 202 214	28 juin 2020
+T4	Date 298 310	30 mars 2014
+T5	Ville 85 90	Paris
+T6	Ville 113 118	Paris
+T7	Ville 158 163	Paris
+T8	Ville 265 270	Paris
+T9	Ville 699 704	Paris
+T10	Date 474 487	13 avril 2014
+T13	Personne 4 19	Delphine BÜRKLI
+A1	role T13 autre
+T14	Date 274 286	16 mars 2008
+T15	Date 685 696	5 juin 1974
+T16	Mail 770 794	delphine.burkli@paris.fr
+T18	Profession 638 659	Conseillère régionale
+T19	Lieu 662 675	île-de-France
+T20	Profession 724 749	Conseillère parlementaire
+T11	Lieu 30 49	9ème arrondissement
+T12	Lieu 373 390	9e arrondissement
+T17	Lieu 453 470	9e arrondissement
+T21	Lieu 706 709	17e

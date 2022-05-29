@@ -1,0 +1,10 @@
+T1	Cp 154 159	80054
+T3	Ville 160 166	Amiens
+T4	Adresse 131 151	Place Victor Pauchet
+T5	Personne 81 98	Jean-Daniel LALAU
+A1	role T5 soignant
+T6	Organisation 99 117	CHU Amiens-Picarde
+T7	Telephone 251 265	03 22 45 59 00
+T8	Telephone 280 294	03 22 45 53 34
+T9	Telephone 368 382	03 22 45 58 95
+T2	Cedex 167 174	cedex 1

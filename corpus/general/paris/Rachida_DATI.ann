@@ -1,0 +1,29 @@
+T1	Date 397 412	11 juillet 2020
+T2	Date 203 215	28 juin 2020
+T3	Date 301 313	30 mars 2014
+T4	Ville 80 85	Paris
+T5	Ville 108 113	Paris
+T6	Ville 159 164	Paris
+T7	Ville 268 273	Paris
+T8	Date 505 518	13 avril 2014
+T11	Date 277 289	16 mars 2008
+T14	Date 481 493	29 mars 2008
+T15	Personne 4 16	Rachida DATI
+A1	role T15 autre
+T16	Personne 868 875	M’Barek
+A2	role T16 famille
+T17	Personne 879 890	Fatim-Zohra
+A3	role T17 famille
+T18	Date 916 920	2010
+T19	Profession 892 914	ministre de la Justice
+T20	Personne 962 980	Claude Askolovitch
+A4	role T20 autre
+T21	Date 982 986	2007
+T22	Mail 1009 1030	rachida.dati@paris.fr
+T23	Date 758 774	27 novembre 1965
+T24	Ville 778 788	Saint-Rémy
+T25	Lieu 790 804	Saône-et-Loire
+T26	Profession 819 826	Avocate
+T9	Lieu 27 44	7e arrondissement
+T10	Lieu 376 393	7e arrondissement
+T12	Lieu 460 477	7e arrondissement

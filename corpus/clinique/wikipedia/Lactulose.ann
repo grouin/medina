@@ -1,0 +1,23 @@
+T1	Substance 31 46	Galactofructose
+T2	Date 393 397	1929
+T3	Substance 404 415	lactoketose
+T4	Date 420 424	1957
+T5	Personne 437 444	Petuely
+A1	role T5 soignant
+T6	Date 593 597	1959
+T7	Personne 599 609	Mayerhofer
+A2	role T7 soignant
+T8	Date 748 752	1960
+T9	Substance 853 861	Duphalac
+T10	Substance 863 870	Melaxib
+T11	Substance 872 880	Melaxose
+T12	Substance 882 892	Transulose
+A14	role T13 soignant
+T13	Personne 613 620	Petuely
+T14	Substance 3 12	lactulose
+T15	Substance 158 167	lactulose
+T16	Substance 265 274	lactulose
+T17	Substance 345 354	lactulose
+T18	Substance 480 489	lactulose
+T19	Substance 714 723	lactulose
+T20	Substance 770 779	lactulose

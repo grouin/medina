@@ -1,0 +1,14 @@
+T1	Date 10 26	19 décembre 2018
+T2	Date 204 220	19 décembre 2018
+T3	Date 838 850	19 mars 2018
+T4	Id 102 114	SSAN1835392A
+T5	Personne 225 243	Abdel Jalel ROMENI
+A1	role T5 soignant
+T6	Date 251 263	24 juin 1977
+T7	Ville 266 272	Salema
+T8	Lieu 274 278	Oman
+T10	Organisation 457 529	centre hospitalier universitaire de Clermont-Ferrand - Hôpital d'Estaing
+A2	date T6 naissance
+A3	type T8 pays
+T9	Lieu 88 94	France
+A4	type T9 pays

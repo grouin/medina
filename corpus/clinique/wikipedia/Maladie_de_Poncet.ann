@@ -1,0 +1,7 @@
+T1	Personne 111 125	Antonin Poncet
+T2	Date 127 131	1849
+T3	Date 132 136	1913
+T4	Pathologie 14 20	Poncet
+A1	role T1 soignant
+T5	Profession 103 110	médecin
+T6	Organisme 230 234	Koch

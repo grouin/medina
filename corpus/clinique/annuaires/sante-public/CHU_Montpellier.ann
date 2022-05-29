@@ -1,0 +1,17 @@
+T1	Cp 380 385	34295
+T3	Ville 386 397	Montpellier
+T4	Date 79 94	27 juillet 2021
+T5	Telephone 190 204	04 67 33 67 33
+T6	Adresse 346 379	191 avenue du Doyen Gaston Giraud
+T7	Personne 450 465	Thomas LE LUDEC
+A1	role T7 soignant
+T8	Personne 502 517	François BERARD
+A2	role T8 soignant
+T9	Personne 559 571	Julie DURAND
+A3	role T9 soignant
+T10	Mail 588 620	communication@chu-montpellier.fr
+T11	Telephone 638 652	04 67 33 93 43
+T12	URL 218 259	http://www.chu-montpellier.fr/fr/contact/
+T13	URL 272 327	http://www.chu-montpellier.fr/fr/patients-et-visiteurs/
+T2	Organisation 0 52	Centre hospitalier universitaire (CHU) - Montpellier
+T14	Cedex 398 405	Cedex 5

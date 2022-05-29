@@ -1,0 +1,16 @@
+T7	Date 10 26	28 novembre 2019
+T8	Date 204 220	28 novembre 2019
+T9	Id 102 114	SSAN1934311A
+T1	Personne 225 240	Manuel OLIVEIRA
+A1	role T1 soignant
+T2	Date 248 261	1er mars 2001
+T3	Ville 264 272	Lisbonne
+T4	Lieu 274 282	Portugal
+T5	Personne 504 528	Sylvie Baillard-Lecourbe
+A2	role T5 soignant
+T10	Organisation 573 627	groupement hospitalier Est des Hospices civils de Lyon
+T11	Date 929 941	19 mars 2018
+T6	Lieu 88 94	France
+A3	type T6 pays
+A4	date T2 naissance
+A5	type T4 pays

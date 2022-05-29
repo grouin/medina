@@ -1,0 +1,12 @@
+T1	Organisation 104 123	CHU Amiens-Picardie
+T2	Cp 197 202	80054
+T4	Ville 203 209	Amiens
+T5	Adresse 153 196	1 Rond-Point du Professeur Christian Cabrol
+T6	Personne 86 103	Gabriel CHOUKROUN
+A1	role T6 soignant
+T7	Telephone 326 340	03 22 45 58 60
+T8	Telephone 367 381	03 22 45 58 55
+T9	Telephone 396 410	03 22 45 56 51
+T10	Telephone 485 499	03 22 45 54 50
+T11	Telephone 534 548	03 22 45 58 50
+T3	Cedex 210 217	cedex 1

@@ -1,0 +1,15 @@
+T1	Date 70 82	03 juin 2021
+T2	Telephone 178 192	02 31 70 96 96
+T3	URL 205 240	https://www.normandie.ars.sante.fr/
+T4	Adresse 259 278	Espace Claude-Monet
+T5	Adresse 279 300	2 place Jean-Nouzille
+T6	Cp 301 306	14050
+T7	Ville 307 311	Caen
+T8	Personne 356 370	Thomas DEROCHE
+A1	role T8 inconnu
+T9	Personne 443 456	Élise NOGUERA
+A2	role T9 inconnu
+T10	Personne 486 504	Alexandre DEBRAINE
+A3	role T10 inconnu
+T11	Lieu 34 43	Normandie
+T12	Organisation 0 31	Agence régionale de santé (ARS)

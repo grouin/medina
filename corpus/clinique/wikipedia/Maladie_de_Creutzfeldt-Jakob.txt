@@ -1,0 +1,24 @@
+La maladie de Creutzfeldt-Jakob (MCJ) est une dégénérescence du système nerveux central caractérisée par l'accumulation d'un prion (forme anormale d'une protéine qui peut transmettre la maladie). La période d'incubation se compte en années, voire en décennies avant qu'apparaissent des troubles de l'équilibre et de la sensibilité, puis une démence. L'issue est systématiquement fatale à échéance d'approximativement un an.
+
+Histoire
+En 1913, Hans Gerhard Creutzfeldt se voit proposer par Aloïs Alzheimer d'étudier le cas d'une patiente de la clinique psychiatrique de Breslau : il s'agit notamment de mettre en rapport le comportement de ce sujet et les altérations biologiques de son cerveau. Creutzfeldt publie une description de cette maladie en 1920, peu avant le neurologue hambourgeois Alfons Maria Jakob. La maladie est nommée « maladie de Creutzfeldt-Jakob » en 1922.
+
+La maladie de Kuru a été décrite chez le peuple des Fores de Nouvelle-Guinée par Daniel Carleton Gajdusek (prix Nobel de physiologie ou médecine 1976). Quoique distinct de la maladie de Creutzfeldt-Jakob, le kuru est également une encéphalopathie subaiguë spongiforme transmissible (ESST). Son mode de transmission a pu être relié à un rite funéraire anthropophage. L'insomnie fatale familiale est également une ESST. 
+
+Dans les années 1970, il est soupçonné l'existence d'un agent infectieux particulier. Les premières maladies à prion ont été expliquées par Stanley B. Prusiner comme étant dues à une protéine infectieuse et non à un microbe, ce qui lui a valu le prix Nobel de médecine en 1997 après beaucoup de controverses car l'idée qu'une simple protéine puisse être infectieuse contredisait le paradigme médical en vigueur à l'époque selon lequel il n'y a que trois types d'agents infectieux (virus, bactérie, parasite).
+
+Également, les animaux domestiques et sauvages peuvent être victimes de prions, avec notamment la CWD qui décime des cervidés en Amérique du Nord.
+
+
+Symptômes
+Les symptômes sont d'installation relativement rapide (généralement quelques semaines), les signes suivants à des degrés variables de présence incluent :
+- Syndrome pyramidal
+- Déficit cognitif et/ou des troubles psychiatriques (dans de rares cas extrêmes, démence)
+- Troubles visuels
+- Syndrome cérébelleux
+- Mouvements anormaux involontaires
+- Dans un cas, l'hyperacousie a été la première manifestation de la maladie.
+
+
+Recherche
+En laboratoire, le tacrolimus et l'astémizole ont été identifiés in vitro comme de potentiels agents antiprions utilisables chez l'Homme.

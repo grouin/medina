@@ -1,0 +1,11 @@
+T1	Id 144 156	SPSH9400448S
+T2	Date 232 247	14 janvier 1994
+T3	Date 270 284	8 juillet 1993
+T4	Lieu 308 321	Midi-Pyrénées
+T5	Personne 359 366	Grouger
+A1	role T5 soignant
+T6	Adresse 368 394	55, avenue Sambre-et-Meuse
+T7	Ville 398 402	Auch
+T8	Lieu 404 408	Gers
+A2	type T4 region
+A3	type T8 region

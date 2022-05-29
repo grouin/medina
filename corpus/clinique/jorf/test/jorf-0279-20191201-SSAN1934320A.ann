@@ -1,0 +1,19 @@
+T1	Date 1010 1022	19 mars 2018
+T6	Date 10 26	28 novembre 2019
+T7	Date 204 220	28 novembre 2019
+T8	Id 102 114	SSAN1934320A
+T9	Personne 225 241	Amib ERMANNASSIH
+A1	role T9 soignant
+T10	Date 249 259	5 mai 1995
+T11	Ville 262 272	Alexandrie
+T12	Lieu 274 280	Egypte
+T13	Organisation 482 529	hôpital Edouard Herriot-Hospices civils de Lyon
+T2	Personne 613 627	Pierre BALIENI
+A2	role T2 soignant
+T3	Organisation 633 680	hôpital la Croix Rousse-Hospices civils de Lyon
+T14	Personne 461 476	Caroline FALLET
+A3	role T14 soignant
+T4	Lieu 88 94	France
+A4	type T4 pays
+A5	date T10 naissance
+A6	type T12 pays

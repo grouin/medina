@@ -1,0 +1,14 @@
+T1	Date 71 86	27 février 2020
+T3	Telephone 182 196	03 26 78 77 80
+T4	Telephone 204 218	03 26 83 23 79
+T5	Mail 232 262	pharmacovigilance@chu-reims.fr
+T6	Organisation 434 454	Hôpital Robert Debré
+T7	Adresse 455 479	Avenue du Général Koenig
+T8	Cp 480 485	51092
+T9	Ville 486 491	Reims
+T10	Personne 534 549	Thierry TRENQUE
+A1	role T10 soignant
+T11	URL 275 353	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T12	URL 366 415	https://www.pharmacovigilance-champagneardenne.fr
+T2	Organisation 0 44	Centre régional de pharmacovigilance - Reims
+T13	Cedex 492 497	Cedex

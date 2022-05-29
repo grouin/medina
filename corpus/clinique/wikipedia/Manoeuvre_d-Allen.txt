@@ -1,0 +1,16 @@
+La manœuvre d'Allen est un geste médical ou infirmier pratiqué notamment avant les prélèvements sanguins de l'artère radiale ou utilisation de cette dernière lors d'un cathétérisme (par exemple lors d'une coronarographie). Elle permet de s'assurer que l'artère ulnaire du patient est fonctionnelle et qu'elle peut suppléer l'artère radiale au cas où celle-ci serait lésée lors du prélèvement.
+
+Technique
+La manœuvre d'Allen consiste à :
+- Comprimer les artères radiale et ulnaire au niveau du poignet ;
+- Demander au patient de faire des mouvements de pompe avec sa main jusqu'à ce que celle-ci se décolore ;
+- Relâcher la pression sur l'artère ulnaire en vérifiant que la main se recolore.
+
+Résultats
+Ce test est anormal chez 6 %1 à 25 % de la population.
+
+Le test peut être faussement anormal si le poignet est en hyperextension. Un défaut de recoloration de la main ne signifie pas toujours une anomalie de la vascularisation.
+
+Un test alternatif est la vérification du flux sanguin au niveau du pouce par oxymétrie colorimétrique après compression de l'artère radiale. Ce test semble plus spécifique avec moins de 2 % de tests anormaux dans la population générale.
+
+Du fait de la faible spécificité du test et de la fréquence très minimes des complications, certains auteurs remettent en cause le test d'Allen comme élément pouvant contre-indiquer l'abord de l'artère radiale.

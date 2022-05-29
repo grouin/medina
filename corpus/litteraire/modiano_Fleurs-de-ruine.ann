@@ -1,0 +1,43 @@
+A2	role T1 autre
+T1	Personne 32 47	Patrick Modiano
+T3	Lieu 698 717	XVIe arrondissement
+A7	role T6 autre
+A9	role T8 autre
+T6	Personne 805 819	Albert Modiano
+T8	Personne 1064 1078	Albert Modiano
+T2	Date 56 68	4 avril 1991
+T5	Organisation 73 90	éditions du Seuil
+T7	Date 169 173	1930
+T9	Personne 226 236	Jacqueline
+A1	role T9 inconnu
+T10	Lieu 264 282	Cité universitaire
+T11	Personne 296 303	Pacheco
+A3	role T11 inconnu
+T12	Personne 305 312	Lombard
+A4	role T12 inconnu
+T13	Personne 579 585	Gisèle
+A6	role T13 inconnu
+T14	Personne 720 734	Claude Bernard
+A8	role T14 inconnu
+T15	Gentile 849 856	Danoise
+T16	Profession 737 747	brocanteur
+T17	Profession 749 757	libraire
+T18	Lieu 789 802	Île-aux-Loups
+T19	Lieu 484 497	Île-aux-Loups
+T20	Personne 589 597	Urbain T
+A10	role T20 inconnu
+T21	Personne 980 999	Philippe de Bellune
+A11	role T21 inconnu
+T22	Personne 1007 1022	Charles Lombard
+A12	role T22 inconnu
+T23	Personne 1025 1039	Simone Cordier
+A13	role T23 inconnu
+T24	Profession 1051 1061	secrétaire
+A26	role T25 inconnu
+A34	role T33 inconnu
+T25	Personne 628 638	Jacqueline
+T33	Personne 965 972	Pacheco
+T26	Autre 0 15	Fleurs de ruine
+A14	classe T26 titre
+T28	Autre 947 962	Mon Petit Vieux
+A15	classe T28 surnom

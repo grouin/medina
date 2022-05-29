@@ -1,0 +1,23 @@
+T2	Organisation 406 419	CHRU de Nancy
+T4	Ville 380 385	Nancy
+T6	Ville 463 468	Nancy
+T7	Ville 593 613	Vandoeuvre-lès-Nancy
+T1	Date 83 98	06 juillet 2021
+T8	Telephone 194 208	03 83 85 85 85
+T9	Mail 222 249	communication@chru-nancy.fr
+T10	Adresse 333 364	29 av Mal de Lattre de Tassigny
+T11	Cp 365 373	CO 60034
+T12	Cp 374 379	54035
+T5	Organisation 498 516	Centre Emile Gallé
+T13	Organisation 518 538	Hôpital Saint-Julien
+T14	Organisation 540 562	Centre Saint-Stanislas
+T15	Organisation 571 590	hôpitaux de Brabois
+T16	Organisation 634 656	Institut Louis Mathieu
+T17	Organisation 658 682	Bâtiment Philippe Canton
+T18	Personne 748 762	Bernard DUPONT
+A1	role T18 soignant
+T19	Personne 799 814	Francis BRUNEAU
+A2	role T19 soignant
+T20	URL 262 286	http://www.chu-nancy.fr/
+T3	Organisation 0 56	Centre hospitalier régional universitaire (CHRU) - Nancy
+T21	Cedex 386 391	Cedex

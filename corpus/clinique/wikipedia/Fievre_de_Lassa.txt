@@ -1,0 +1,35 @@
+La fièvre de Lassa est une fièvre hémorragique foudroyante provoquée par un arenavirus nommé virus Lassa, proche de la maladie à virus Ebola, décrite pour la première fois en 1969 dans la ville de Lassa, dans l'État de Borno, Nigeria.
+
+Cette maladie est un véritable fléau en Afrique de l'Ouest, endroit dans lequel elle est responsable d'épidémies mortelles lorsqu'elle touche des individus fragiles (réfugiés, enfants, personnes âgées). La maladie a été observée dans plusieurs pays incluant le Nigeria, le Liberia, la Sierra Leone, la Guinée, la République centrafricaine, la République démocratique du Congo, le Mali et elle est apparue au Bénin en novembre 2014. De plus, la fièvre de Lassa est la fièvre hémorragique la plus souvent exportée hors des frontières où elle sévit.
+
+L'infection est propagée par le contact avec des excréments d'un rongeur péri-domestique, Mastomys natalensis un animal originaire de l'Afrique subsaharienne. Un grand nombre de ces rongeurs vivent à proximité, voire à l'intérieur, des habitations dans les zones d'endémie. Le virus se transmet par contact avec des urines ou excréments de cet animal.
+
+
+Étiologie
+La maladie est provoquée par le virus Lassa, un arenavirus de la famille des Arenaviridae. Son génome est sous forme d'ARN simple brin.
+
+La fièvre de Lassa sévit essentiellement en Afrique de l’Ouest. Elle est endémique au Nigeria, en Guinée (Conakry), au Liberia et en Sierra Leone. D’après l’OMS, elle toucherait également d’autres pays d’Afrique de l’ouest.
+
+Symptômes
+L’infection est asymptomatique dans environ 80 % des cas. La maladie incube pendant 6 à 21 jours. Les premiers signes cliniques apparaissent généralement 6 jours après l’infection. Les premiers symptômes qui apparaissent sont peu spécifiques : fortes fièvres, courbatures, pharyngites, vomissements, céphalées.
+
+Dans les cas sévères, les signes cliniques s’aggravent : avec l’apparition d'œdèmes, d’hémorragies dans la cavité buccale, nasale, dans le vagin et dans l'appareil digestif, d'épanchements péricardiques et pleuraux, et parfois d'encéphalites. À un stade tardif, des états de choc, convulsions, tremblements sont diagnostiqués, entraînant généralement la mort deux semaines après l’apparition des premiers symptômes. Les patients qui survivent présentent de graves séquelles dans un tiers des cas - en particulier des myocardites et une surdité uni ou bilatérale. Cette surdité s’estompe dans les 3 mois dans 50 % des cas.
+
+
+Traitement
+Le seul traitement efficace actuellement est l’injection en intraveineuse de ribavirine, un antiviral utilisé en particulier pour le traitement de l'hépatite C. Pour être efficace, le traitement doit être administré au stade précoce de la maladie. Prescrit dès les 6 premiers jours, il permet de faire baisser le taux de létalité de 90 %. Ce traitement peut engendrer de nombreux effets indésirables en particulier des anémies sévères. Ces effets indésirables sont heureusement réversibles après l’arrêt du traitement.
+
+La faible spécificité des symptômes précoces rend le diagnostic difficile dans les premiers jours de la maladie. Cela constitue la principale limite de ce traitement puisque l’antiviral n’est efficace qu’au stade précoce de la maladie. La maladie reste donc actuellement difficile à soigner.
+
+Projet en cours
+Actuellement de nombreux laboratoires recherchent un vaccin contre la fièvre de Lassa. En particulier, des recherches sont menées par des chercheurs de l'Institut Pasteur et de l'INSERM au sein du laboratoire P4 au Centre de recherche Mérieux-Pasteur à Lyon, en France.
+
+Les chercheurs ont isolé des protéines de surface du virus qui permettent d’activer la production d'anticorps. Cependant on observe des variations importantes, à un taux de 20 %, au niveau de ces protéines. En conséquence les réactions immunitaires peuvent être fort différentes. Pour produire un vaccin efficace, il faudrait réussir à trouver le « dénominateur commun » à toutes ces glycoprotéines qui permettent de stimuler la production d'anticorps agissant dans tous les cas.
+
+L'espoir est faible, mais ces protéines restent les seules solutions connues actuellement ouvrant une voie vers l'élaboration d'un éventuel vaccin.
+
+
+Historique
+Les premiers cas ont été rapportés dans les années 1950 mais ce n’est qu’en 1969 que le virus a pu être isolé chez une infirmière dans la ville de Lassa au Nigeria.
+
+Les conflits qui affectent certains des pays de la zone d’endémie provoquent des déplacements de population qui favorisent les épidémies. Ainsi la Sierra Leone a connu une épidémie d’une ampleur exceptionnelle entre 1996 et 1997, due à une guerre civile.

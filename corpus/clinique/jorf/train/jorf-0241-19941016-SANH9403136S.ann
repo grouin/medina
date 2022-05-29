@@ -1,0 +1,10 @@
+T1	Ville 379 383	Nice
+T2	Lieu 302 328	Provence-Alpes-Côte d'Azur
+T3	Id 145 157	SANH9403136S
+T4	Date 233 244	8 août 1994
+T5	Date 266 278	21 juin 1993
+T6	Organisation 333 354	clinique Saint-George
+T7	Adresse 356 375	2, avenue de Rimiez
+T8	Lieu 385 400	Alpes-Maritimes
+A1	type T8 region
+A2	type T2 region

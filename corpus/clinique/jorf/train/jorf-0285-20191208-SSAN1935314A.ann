@@ -1,0 +1,15 @@
+T1	Ville 260 266	Genève
+T3	Lieu 268 274	Suisse
+T5	Date 10 25	5 décembre 2019
+T6	Id 101 113	SSAN1935314A
+T7	Date 203 218	5 décembre 2019
+T8	Personne 223 233	Alexi BOSC
+A1	role T8 soignant
+T9	Date 241 257	11 novembre 1974
+T2	Organisation 477 526	Hospices civils de Lyon - hôpital La Croix Rousse
+T10	Personne 457 471	Marciello Otto
+A2	role T10 soignant
+T4	Lieu 87 93	France
+A3	type T4 pays
+A4	date T9 naissance
+A5	type T3 pays

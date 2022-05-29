@@ -1,0 +1,16 @@
+T1	Organisme 0 21	Haemophilus aegyptius
+T2	Organisme 64 75	Haemophilus
+T3	Organisme 100 121	Haemophilus influenza
+T4	Organisme 248 253	Weeks
+T5	Organisme 261 271	Koch-Weeks
+T6	Date 298 302	1886
+T7	Personne 307 323	John Elmer Weeks
+A1	role T7 soignant
+T8	Date 325 329	1853
+T9	Date 330 334	1949
+T10	Lieu 382 390	Michigan
+T11	Ville 439 445	Berlin
+T12	Date 542 546	1980
+T17	Organisme 448 469	Haemophilus aegyptius
+T18	Organisme 175 196	Haemophilus influenza
+T21	Profession 337 344	médecin

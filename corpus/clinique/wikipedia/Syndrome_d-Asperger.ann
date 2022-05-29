@@ -1,0 +1,21 @@
+T1	Date 432 436	2010
+A7	role T6 soignant
+A9	role T8 inconnu
+T2	Date 71 75	1981
+T4	Pathologie 1665 1673	Asperger
+T5	Pathologie 1959 1967	Asperger
+T6	Personne 155 168	Hans Asperger
+T8	Personne 80 90	Lorna Wing
+T7	Personne 1923 1940	Simon Baron-Cohen
+A1	role T7 autre
+T9	Pathologie 14 22	Asperger
+T10	Pathologie 227 235	Asperger
+T11	Date 294 298	1993
+T12	Date 146 150	1944
+T13	Date 372 376	1994
+T14	Pathologie 548 556	Asperger
+T15	Pathologie 991 999	Asperger
+T16	Date 1811 1815	2013
+T17	Personne 1974 1987	Daniel Tammet
+A2	role T17 autre
+T18	Pathologie 2628 2636	Asperger

@@ -1,0 +1,17 @@
+T1	Organisme 484 503	Helicobacter pylori
+T2	Lieu 733 738	Japon
+T3	Lieu 743 748	Chine
+T4	Lieu 753 758	Chili
+T5	Lieu 765 772	Irlande
+T6	Lieu 867 873	France
+A1	type T2 pays
+A2	type T3 pays
+A3	type T4 pays
+A4	type T5 pays
+A5	type T6 pays
+T7	Age 1076 1082	65 ans
+T8	Lieu 1693 1701	Mongolie
+A6	type T8 pays
+T9	Organisme 2618 2637	Helicobacter pylori
+T10	Organisme 3021 3033	Helicobacter
+T11	Pathologie 3245 3258	Peutz-Jeghers

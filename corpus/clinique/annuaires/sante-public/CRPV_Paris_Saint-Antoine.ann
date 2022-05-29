@@ -1,0 +1,13 @@
+T1	Date 85 100	27 février 2020
+T3	Organisation 0 58	Centre régional de pharmacovigilance - Paris Saint-Antoine
+T4	Telephone 196 210	01 43 47 54 69
+T5	Telephone 218 232	01 43 07 07 11
+T6	Mail 246 280	pharmacovigilance.huep@sat.aphp.fr
+T7	Organisation 438 459	CHU Pitié Salpêtrière
+T8	Adresse 460 488	47-83 Boulevard de l'Hôpital
+T9	Cp 489 494	75013
+T10	Ville 495 500	Paris
+T11	Personne 538 561	Bénédicte LEBRUN-VIGNES
+A1	role T11 soignant
+T12	URL 293 336	http://www.pharmacovigilance-iledefrance.fr
+T13	URL 349 427	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/

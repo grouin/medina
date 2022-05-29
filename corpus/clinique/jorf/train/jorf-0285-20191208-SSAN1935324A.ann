@@ -1,0 +1,16 @@
+T4	Date 10 25	5 décembre 2019
+T5	Id 101 113	SSAN1935324A
+T7	Date 203 218	5 décembre 2019
+T1	Organisation 503 550	Fondation ophtalmologique Adolphe de Rothschild
+T2	Personne 223 236	Aldo DI SANTI
+T3	Date 244 255	3 juin 1997
+T6	Ville 258 276	Santeramo in Colle
+T8	Lieu 278 284	Italie
+T9	Personne 472 495	Bérengère Du Vascquinel
+A1	role T2 soignant
+A2	role T9 soignant
+T10	Date 852 864	19 mars 2018
+T11	Lieu 87 93	France
+A3	type T11 pays
+A4	date T3 naissance
+A5	type T8 pays

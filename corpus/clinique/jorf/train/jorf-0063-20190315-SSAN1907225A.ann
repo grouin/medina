@@ -1,0 +1,14 @@
+T1	Lieu 260 275	Arabie saoudite
+T4	Date 10 21	5 mars 2019
+T5	Id 97 109	SSAN1907225A
+T6	Date 199 210	5 mars 2019
+T7	Personne 215 230	Aurélien REISAN
+A1	role T7 soignant
+T8	Date 782 799	1er novembre 2018
+T9	Date 238 250	3 avril 1968
+T10	Ville 253 258	Riyad
+T2	Organisation 515 576	centre hospitalier universitaire de Tours - hôpital Trousseau
+A2	type T1 pays
+T3	Lieu 83 89	France
+A3	type T3 pays
+A4	date T9 naissance

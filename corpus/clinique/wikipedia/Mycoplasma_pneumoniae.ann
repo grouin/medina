@@ -1,0 +1,11 @@
+T1	Organisme 0 21	Mycoplasma pneumoniae
+T2	Personne 418 435	Robert M. Chanock
+T3	Date 409 413	1962
+T4	Date 133 137	1944
+T5	Personne 161 179	Monroe Davis Eaton
+T6	Organisme 302 307	Eaton
+T8	Organisme 1718 1739	Mycoplasma pneumoniae
+A1	role T5 soignant
+A2	role T2 soignant
+T7	Substance 385 398	tétracyclines
+T9	Substance 1813 1831	phényl tétrazolium

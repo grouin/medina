@@ -1,0 +1,6 @@
+T1	Pathologie 14 19	Hoffa
+T2	Personne 205 217	Albert Hoffa
+A1	role T2 soignant
+T3	Date 221 225	1904
+T4	Anatomie 78 83	Hoffa
+T5	Profession 172 195	chirurgien orthopédique

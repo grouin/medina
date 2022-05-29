@@ -1,0 +1,19 @@
+T1	Organisme 0 21	Enterococcus faecalis
+T2	Organisme 175 186	E. faecalis
+T3	Organisme 513 524	E. faecalis
+T4	Organisme 955 966	E. faecalis
+T5	Organisme 1122 1133	E. faecalis
+T6	Organisme 1594 1605	E. faecalis
+T7	Substance 1299 1309	nafcilline
+T8	Substance 1313 1323	oxacilline
+T9	Date 1521 1525	1984
+T10	Substance 1205 1220	aminoglycosides
+T11	Substance 1222 1231	aztréonam
+T12	Substance 1233 1248	céphalosporines
+T13	Substance 1250 1262	clindamycine
+T14	Substance 1268 1280	pénicillines
+T15	Organisme 1579 1592	Streptococcus
+T16	Organisme 1633 1655	Streptococcus faecalis
+T18	Substance 1371 1386	céphalosporines
+T19	Organisme 161 173	Enterococcus
+T17	Substance 1338 1351	cotrimoxazole

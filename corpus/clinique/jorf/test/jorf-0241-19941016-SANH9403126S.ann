@@ -1,0 +1,10 @@
+T1	Lieu 309 322	Midi-Pyrénées
+T2	Ville 447 455	Toulouse
+T3	Id 145 157	SANH9403126S
+T4	Date 233 248	26 juillet 1994
+T5	Date 270 285	13 juillet 1993
+T6	Organisation 405 421	clinique Pasteur
+T7	Adresse 423 443	45, avenue de Lombez
+T8	Lieu 457 470	Haute-Garonne
+A1	type T1 region
+A2	type T8 region

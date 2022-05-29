@@ -1,0 +1,24 @@
+T1	Lieu 34 76	Guadeloupe, Saint-Martin, Saint-Barthélemy
+T2	Date 103 118	08 février 2022
+T3	Telephone 214 232	+590 5 90 80 94 94
+T4	Telephone 240 258	+590 5 90 99 49 49
+T5	Lieu 305 317	Saint-Martin
+T6	Lieu 321 337	Saint-Barthélémy
+T7	Adresse 340 358	20 rue de Galisbay
+T8	Cp 360 365	97150
+T9	Lieu 366 378	Saint-Martin
+T10	Mail 393 431	ars971-direction-generale@ars.sante.fr
+T11	URL 444 480	https://www.guadeloupe.ars.sante.fr/
+T12	Adresse 499 506	Bisdary
+T13	Adresse 507 523	Rue des Archives
+T14	Cp 524 529	97113
+T15	Ville 530 539	Gourbeyre
+T16	Personne 584 601	Laurent LEGENDART
+A1	role T16 inconnu
+T17	Personne 641 661	Florelle BRADAMANTIS
+A2	role T17 inconnu
+A3	type T5 pays
+A4	type T6 pays
+A5	type T9 pays
+A6	type T1 pays
+T18	Organisation 0 31	Agence régionale de santé (ARS)

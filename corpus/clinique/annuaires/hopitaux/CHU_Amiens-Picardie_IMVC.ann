@@ -1,0 +1,60 @@
+A10	role T9 soignant
+A8	role T7 soignant
+T1	Organisation 56 75	CHU Amiens-Picardie
+T2	Organisation 1745 1764	CHU Amiens-Picardie
+T3	Organisation 1902 1921	CHU Amiens-Picardie
+T4	Organisation 1990 2009	CHU Amiens-Picardie
+T5	Organisation 2128 2147	CHU Amiens-Picardie
+T6	Organisation 2256 2275	CHU Amiens-Picardie
+T7	Personne 130 152	Christophe TRIBOUILLOY
+T9	Personne 242 264	Christophe TRIBOUILLOY
+A28	role T27 soignant
+A30	role T29 soignant
+A32	role T31 soignant
+A34	role T33 soignant
+A36	role T35 soignant
+A38	role T37 soignant
+A40	role T39 soignant
+A42	role T41 soignant
+A44	role T43 soignant
+T11	Telephone 1826 1840	03 22 08 72 30
+T12	Telephone 1847 1861	03 22 08 72 40
+T13	Telephone 2206 2220	03 22 08 73 01
+T14	Telephone 2227 2241	03 22 08 73 02
+T15	Telephone 1868 1882	03 22 08 73 14
+T16	Telephone 2071 2085	03 22 08 73 15
+T17	Telephone 1939 1953	03 22 08 98 46
+T18	Adresse 2287 2330	1 rond-point du Professeur Christian Cabrol
+T19	Cp 2331 2336	80054
+T26	Ville 2337 2343	Amiens
+T27	Personne 740 753	Anfani MIRODE
+T29	Personne 930 942	Dan RUSINARU
+T31	Personne 694 711	Dorothée MALAQUIN
+T33	Personne 991 1007	Emanuelle VERMES
+T35	Personne 200 215	Faouzi TROJETTE
+T37	Personne 418 433	Faouzi TROJETTE
+T39	Personne 782 796	Marcel PELTIER
+T41	Personne 182 195	Yohann BOHBOT
+T43	Personne 364 377	Yohann BOHBOT
+T8	Personne 462 475	Maciej KUBALA
+A1	role T8 soignant
+T10	Personne 564 580	Laurent LEBORGNE
+A2	role T10 soignant
+T28	Personne 886 901	Jean Paul QUERE
+A3	role T28 soignant
+T30	Personne 1067 1078	Doron CARMI
+A4	role T30 soignant
+T32	Personne 1107 1119	Thierry CAUS
+A5	role T32 soignant
+T34	Personne 1215 1227	Joseph NADER
+A6	role T34 soignant
+T36	Personne 1269 1285	Jean-Paul REMADI
+A7	role T36 soignant
+T38	Personne 1314 1327	Gilles TOUATI
+A9	role T38 soignant
+T40	Personne 1376 1389	Cédric RENARD
+A11	role T40 soignant
+T42	Personne 1418 1436	Marie-Anne AUQUIER
+A12	role T42 soignant
+T44	Personne 1465 1477	Jérémie VIAL
+A13	role T44 soignant

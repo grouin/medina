@@ -1,0 +1,12 @@
+T3	Ville 291 296	Lille
+T1	Date 83 95	06 août 2021
+T4	Telephone 191 205	03 20 44 59 62
+T5	Adresse 262 284	2 avenue Oscar Lambert
+T6	Cp 285 290	59037
+T7	Personne 347 362	Frédéric BOIRON
+A1	role T7 soignant
+T8	Personne 423 437	Marie DEUGNIER
+A2	role T8 soignant
+T9	URL 218 243	http://www.chru-lille.fr/
+T2	Organisation 0 56	Centre hospitalier régional universitaire (CHRU) - Lille
+T10	Cedex 297 302	Cedex

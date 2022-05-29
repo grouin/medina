@@ -1,0 +1,21 @@
+T1	Personne 417 428	James Paget
+T2	Date 432 436	1874
+T3	Personne 441 458	Radcliffe Crocker
+T4	Date 521 525	1889
+T5	Personne 657 665	J. Paget
+T6	Age 1857 1863	70 ans
+T7	Pathologie 14 19	Paget
+T8	Pathologie 66 71	Paget
+T9	Pathologie 161 166	Paget
+T10	Pathologie 351 356	Paget
+T11	Pathologie 382 387	Paget
+A1	role T1 soignant
+A2	role T3 soignant
+T12	Pathologie 498 503	Paget
+A3	role T5 soignant
+T13	Pathologie 694 699	Paget
+T14	Pathologie 1080 1085	Paget
+T15	Pathologie 1398 1403	Paget
+T16	Pathologie 1509 1514	Paget
+T17	Pathologie 1629 1634	Paget
+T18	Substance 2555 2564	docétaxel

@@ -1,0 +1,16 @@
+T1	Id 0 12	MESH9921703S
+T3	Adresse 258 285	124, rue Camille-Desmoulins
+T4	Cp 287 292	80000
+T5	Ville 293 299	Amiens
+T6	Date 142 155	20 avril 1999
+T7	Personne 677 686	A. Baneli
+A1	role T7 soignant
+T8	Personne 712 722	C. Darreli
+A2	role T8 soignant
+T9	Personne 756 763	Favelli
+A3	role T9 soignant
+T10	Personne 765 774	G. Hassel
+A4	role T10 soignant
+T11	Personne 811 815	Jade
+A5	role T11 soignant
+T2	Organisation 212 256	centre hospitalier et universitaire d'Amiens

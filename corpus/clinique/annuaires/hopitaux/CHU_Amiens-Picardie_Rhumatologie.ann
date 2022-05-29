@@ -1,0 +1,40 @@
+T1	Organisation 56 75	CHU Amiens-Picardie
+T2	Cp 111 116	80054
+T4	Ville 117 123	Amiens
+T5	Adresse 88 108	Place Victor Pauchet
+T6	Personne 43 55	Vincent GOEB
+A1	role T6 soignant
+A8	role T7 soignant
+T7	Personne 875 887	Vincent GOEB
+T8	Telephone 200 214	03 22 66 82 50
+T9	Telephone 229 243	03 22 66 82 59
+T10	Mail 254 292	rhumatologie.secretariat@chu-amiens.fr
+T11	Telephone 422 436	03 22 66 82 50
+T12	Telephone 451 465	03 22 66 82 59
+T13	Mail 476 514	rhumatologie.secretariat@chu-amiens.fr
+T14	Telephone 630 644	03 22 66 82 57
+T15	Mail 655 693	rhumatologie.secretariat@chu-amiens.fr
+T16	Telephone 753 767	03 22 45 68 60
+T17	Mail 778 816	rhumatologie.secretariat@chu-amiens.fr
+T18	Date 1132 1136	2009
+T19	Personne 1149 1167	Patrice FARDELLONE
+A2	role T19 soignant
+T20	Personne 1508 1521	Franck GRADOS
+A3	role T20 soignant
+T21	Personne 1532 1555	Isabelle HENRY-DESAILLY
+A4	role T21 soignant
+T22	Personne 1566 1578	Daciana URSU
+A5	role T22 soignant
+T23	Personne 1626 1640	Thibault RABIN
+A6	role T23 soignant
+T24	Personne 1674 1689	Max-André HERVE
+A7	role T24 soignant
+T25	Personne 1700 1713	Sarah SALOMON
+A9	role T25 soignant
+T26	Personne 1749 1764	Maxime ABOUDIAB
+A10	role T26 soignant
+T27	Personne 1775 1789	Karine GRONDIN
+A11	role T27 soignant
+T28	Personne 1800 1812	Sanja RISTIC
+A12	role T28 soignant
+T3	Cedex 124 131	cedex 1

@@ -1,0 +1,15 @@
+T3	Date 10 25	2 novembre 2016
+T4	Id 101 113	AFSN1632098A
+T5	Date 209 224	2 novembre 2016
+T1	Organisation 429 495	Groupement hospitalier Est - hôpital « Femme mère enfant » de Bron
+T7	Organisation 497 520	Hospices civils de Lyon
+T8	Date 727 742	2 novembre 2016
+T9	Date 254 268	2 juillet 1982
+T10	Personne 229 246	Prayut SHINAWATRA
+A1	role T10 soignant
+T11	Ville 271 283	Nakhon Sawan
+T12	Lieu 285 294	Thaïlande
+T2	Lieu 87 93	France
+A2	type T2 pays
+A3	date T9 naissance
+A4	type T12 pays

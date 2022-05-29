@@ -1,0 +1,12 @@
+T1	Cp 314 319	87042
+T3	Ville 320 327	Limoges
+T4	Date 75 90	22 juillet 2021
+T5	Telephone 186 200	05 55 05 55 55
+T6	Adresse 286 313	2 avenue Martin-Luther-King
+T7	Personne 429 453	Jean-Christophe ROUSSEAU
+A1	role T7 soignant
+T8	Personne 509 525	Laëtitia JEHANNO
+A2	role T8 soignant
+T9	URL 213 239	http://www.chu-limoges.fr/
+T10	Cedex 328 333	Cedex
+T2	Organisation 0 48	Centre hospitalier universitaire (CHU) - Limoges

@@ -1,0 +1,139 @@
+T1	Pathologie 19 24	Ebola
+T3	Lieu 744 762	Afrique de l'Ouest
+T5	Age 931 942	20 à 30 ans
+T6	Lieu 1194 1212	Afrique de l'Ouest
+T7	Date 1216 1220	2014
+T10	Lieu 1973 1991	Afrique de l'Ouest
+T11	Date 1995 1999	2014
+T12	Date 2003 2007	2015
+T14	Lieu 2140 2159	République du Congo
+T15	Lieu 2166 2171	Gabon
+T17	Date 2349 2361	27 mars 2016
+T18	Date 2684 2696	14 août 2014
+T20	Date 2962 2966	2019
+T21	Date 3001 3005	2021
+T23	Date 3299 3303	1976
+T26	Date 3581 3585	1976
+T27	Date 3611 3615	2014
+T28	Date 3690 3694	1976
+T29	Lieu 3759 3769	États-Unis
+T30	Date 3773 3777	1983
+T31	Organisme 3828 3847	Ebola-Côte d'Ivoire
+T33	Date 3910 3914	1994
+T34	Ville 3930 3940	Bundibugyo
+T35	Date 3981 3985	2008
+T36	Ville 4121 4127	Reston
+T39	Date 10284 10288	1976
+T40	Lieu 10292 10297	Zaïre
+T43	Lieu 13808 13827	Afrique équatoriale
+T44	Lieu 14015 14033	Afrique de l'Ouest
+T45	Lieu 14145 14163	Afrique de l'Ouest
+T46	Date 14167 14171	2015
+T47	Substance 14176 14187	Favipiravir
+T48	Substance 14189 14195	Avigan
+T50	Organisation 14577 14592	Toyama Chemical
+T51	Organisation 14605 14613	Fujifilm
+T52	Ville 14622 14627	Tokyo
+T53	Lieu 14704 14722	Afrique de l'Ouest
+T54	Organisation 14838 14846	Chimerix
+T55	Ville 14856 14862	Durham
+T56	Lieu 14866 14882	Caroline du Nord
+T58	Date 15262 15274	janvier 2015
+T59	Ville 15304 15312	Monrovia
+T60	Lieu 15317 15324	Liberia
+T61	Lieu 15476 15494	Afrique de l'Ouest
+T63	Date 15574 15578	2010
+T66	Organisation 16114 16137	Tekmira Pharmaceuticals
+T67	Ville 16146 16155	Vancouver
+T68	Date 16238 16242	2014
+T69	Lieu 16462 16480	Afrique de l'Ouest
+T70	Organisation 16635 16659	BioCryst Pharmaceuticals
+T71	Ville 16669 16675	Durham
+T72	Lieu 16679 16695	Caroline du Nord
+T73	Organisation 16718 16726	Chimerix
+T74	Lieu 17001 17019	Afrique de l'Ouest
+T75	Pathologie 64 69	Ebola
+T76	Pathologie 82 87	Ebola
+T2	Pathologie 102 107	Ebola
+T77	Organisme 169 174	Ebola
+T78	Pathologie 475 482	Marburg
+T79	Pathologie 503 508	Ebola
+T80	Lieu 722 738	Afrique centrale
+T4	Substance 1262 1273	favipiravir
+T8	Substance 1275 1281	Avigan
+T9	Substance 1297 1310	brincidofovir
+T81	Organisme 1845 1850	Ebola
+T13	Lieu 2103 2135	République démocratique du Congo
+A1	type T13 pays
+T16	Lieu 2292 2324	République démocratique du Congo
+A2	type T16 pays
+T82	Organisation 2399 2402	OMS
+T83	Organisation 2654 2657	OMS
+T19	Lieu 2926 2958	République démocratique du Congo
+A3	type T19 pays
+T22	Ville 3063 3072	Nzérékoré
+T84	Lieu 3091 3097	Guinée
+A4	type T84 pays
+T85	Organisme 3133 3140	Marburg
+T86	Organisme 3151 3156	Ebola
+T87	Organisme 3185 3196	Filoviridae
+T88	Organisme 3225 3240	Mononegavirales
+T24	Personne 3308 3320	David Finkes
+A5	role T24 inconnu
+T89	Organisme 3326 3337	Filoviridae
+T25	Organisme 3416 3421	Ebola
+T90	Organisme 3491 3501	Ebolavirus
+T91	Lieu 3551 3556	Zaïre
+A6	type T91 pays
+T92	Lieu 3572 3577	Zaïre
+A7	type T92 pays
+T93	Lieu 3658 3664	Soudan
+A8	type T93 pays
+T94	Lieu 3680 3686	Soudan
+A9	type T94 pays
+T95	Ville 3710 3716	Reston
+T96	Ville 3748 3754	Reston
+A10	type T29 pays
+T97	Lieu 3793 3805	Forêt de Taï
+T32	Ville 3886 3889	Taï
+T98	Lieu 3893 3906	Côte d'Ivoire
+A11	type T98 pays
+T99	Ville 3955 3965	Bundibugyo
+T100	Lieu 3970 3977	Ouganda
+A12	type T100 pays
+T101	Lieu 4008 4013	Zaïre
+A13	type T101 pays
+T102	Lieu 4017 4023	Soudan
+A14	type T102 pays
+T103	Organisme 4280 4285	Ebola
+T104	Organisme 4832 4837	Ebola
+T37	Pathologie 5456 5468	Niemann-Pick
+T38	Organisme 5846 5851	Ebola
+T105	Organisme 5864 5871	Marburg
+T106	Organisme 9897 9902	Ebola
+A15	type T40 pays
+T107	Organisation 10313 10337	Yambuku Mission Hospital
+T108	Organisation 10339 10342	YMH
+T109	Organisme 10923 10928	Ebola
+T110	Organisme 11112 11117	Ebola
+T111	Pathologie 11364 11369	Lassa
+T41	Pathologie 11423 11435	Congo-Crimée
+T42	Organisme 11443 11450	Marburg
+T112	Organisme 11496 11501	Ebola
+T113	Pathologie 11603 11608	Ebola
+T114	Organisme 12362 12367	Ebola
+T115	Organisme 13286 13291	Ebola
+T49	Substance 14788 14801	Brincidofovir
+T116	Date 14233 14237	2014
+T117	Organisme 14535 14540	Ebola
+A16	type T60 pays
+T57	Organisme 15686 15691	Ebola
+T62	Substance 16039 16048	TKM-Ebola
+T64	Substance 15536 15545	TKM-Ebola
+T65	Date 16358 16364	7 août
+T118	Substance 16584 16591	BCX4430
+T119	Substance 16593 16606	immucilline A
+T120	Substance 16746 16759	brincidofovir
+T121	Organisme 16793 16798	Ebola
+T122	Organisme 16811 16818	Marburg
+T123	Organisme 16992 16997	Ebola

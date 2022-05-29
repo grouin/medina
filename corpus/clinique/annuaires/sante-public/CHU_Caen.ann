@@ -1,0 +1,20 @@
+T1	Cp 328 333	14033
+T2	Adresse 301 327	Avenue de la Côte de Nacre
+T4	Ville 334 338	Caen
+T5	Ville 420 424	Caen
+T6	Date 72 87	22 juillet 2021
+T7	Telephone 183 197	02 31 06 31 06
+T8	Organisation 429 450	hôpital Côte de Nacre
+T9	Organisation 496 514	hôpital Clemenceau
+T10	Organisation 519 546	Centre Esquirol-Psychiatrie
+T11	Personne 635 651	Frédéric VARNIER
+A1	role T11 soignant
+T12	Mail 701 730	directiongenerale@chu-caen.fr
+T13	Telephone 748 762	02 31 06 50 61
+T14	Personne 799 814	Philippe PUCHEU
+A2	role T14 soignant
+T15	URL 211 246	https://www.chu-caen.fr/contact.php
+T16	URL 259 282	http://www.chu-caen.fr/
+T17	Organisation 454 492	hôpital Femme-Enfant-Hématologie (FEH)
+T3	Organisation 0 45	Centre hospitalier universitaire (CHU) - Caen
+T18	Cedex 339 346	Cedex 9

@@ -1,0 +1,13 @@
+T2	Date 74 89	27 février 2020
+T3	Telephone 185 199	05 56 98 16 07
+T4	Telephone 207 221	05 57 57 46 60
+T5	Mail 321 352	pharmacovigilance@u-bordeaux.fr
+T6	Organisation 545 568	CHU - Hôpital Pellegrin
+T7	Cp 569 574	33076
+T8	Ville 575 583	Bordeaux
+T9	Personne 626 642	Antoine PARIENTE
+A1	role T9 soignant
+T10	URL 365 435	http://www.pharmacologie.u-bordeaux2.fr/fr/pharmacovigilance/index.htm
+T11	URL 448 526	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T1	Organisation 0 47	Centre régional de pharmacovigilance - Bordeaux
+T12	Cedex 584 589	Cedex

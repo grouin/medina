@@ -1,0 +1,14 @@
+T1	Profession 1418 1425	médecin
+T2	Pathologie 14 25	La Peyronie
+T3	Pathologie 172 183	La Peyronie
+T4	Personne 202 225	François de La Peyronie
+A1	role T4 soignant
+T5	Date 229 233	1743
+T6	Personne 256 264	Louis XV
+A2	role T6 autre
+T7	Pathologie 297 308	La Peyronie
+T8	Pathologie 335 346	La Peyronie
+T10	Age 828 840	40 et 60 ans
+T11	Pathologie 1725 1734	Dupuytren
+T12	Pathologie 1801 1811	Ledderhose
+T13	Profession 238 248	chirurgien

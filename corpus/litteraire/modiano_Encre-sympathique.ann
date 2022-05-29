@@ -1,0 +1,46 @@
+T1	Lieu 348 366	15e arrondissement
+A4	role T3 autre
+T3	Personne 34 49	Patrick Modiano
+T4	Date 59 73	3 octobre 2019
+T6	Organisation 163 168	Hutte
+T7	Personne 106 116	Jean Eyben
+A1	role T7 inconnu
+T8	Adresse 323 339	13, rue Vaugelas
+T9	Personne 235 250	Noëlle Lefebvre
+A2	role T9 inconnu
+T10	Organisation 425 445	Dancing de la Marine
+T11	Organisation 458 464	Lancel
+T12	Adresse 467 483	Place de l'Opéra
+T13	Lieu 573 580	Sologne
+T14	Ville 582 588	Annecy
+T15	Ville 638 642	Rome
+T16	Personne 647 653	Noëlle
+A3	role T16 inconnu
+T17	Personne 511 515	Jean
+A5	role T17 inconnu
+T18	Personne 810 825	Georges Brainos
+A7	role T18 inconnu
+T19	Personne 1047 1061	Gérard Mourade
+A8	role T19 inconnu
+T20	Personne 1094 1108	Rober Behavour
+A9	role T20 inconnu
+T21	Date 1039 1043	1948
+A23	role T22 inconnu
+A26	role T25 inconnu
+A28	role T27 inconnu
+A36	role T35 inconnu
+A38	role T37 inconnu
+A40	role T39 inconnu
+T22	Personne 1004 1019	Georges Brainos
+T24	Organisation 861 866	Hutte
+T25	Personne 694 704	Jean Eyben
+T27	Personne 766 776	Jean Eyben
+T35	Personne 1085 1091	Noëlle
+T37	Personne 722 737	Noëlle Lefebvre
+T39	Personne 906 921	Noëlle Lefebvre
+T23	Personne 1118 1124	Nöelle
+A10	role T23 inconnu
+T26	Profession 1064 1072	comédien
+T41	Organisation 87 96	Gallimard
+T28	Autre 0 17	Encre sympathique
+A11	classe T28 titre

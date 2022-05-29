@@ -1,0 +1,15 @@
+T1	Cp 314 319	51092
+T3	Ville 320 325	Reims
+T4	Date 73 88	21 janvier 2022
+T5	Telephone 184 198	03 26 78 78 78
+T6	Adresse 295 313	45 rue Cognacq-Jay
+T7	Mail 212 238	communication@chu-reims.fr
+T8	Personne 378 403	Laetitia MICAELLI-FLENDER
+A1	role T8 soignant
+T9	Personne 474 490	Frédéric ESPENEL
+A2	role T9 soignant
+T10	Personne 532 544	Julie COLLIN
+A3	role T10 soignant
+T11	URL 251 276	https://www.chu-reims.fr/
+T2	Organisation 0 46	Centre hospitalier universitaire (CHU) - Reims
+T12	Cedex 326 331	Cedex

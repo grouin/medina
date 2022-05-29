@@ -1,0 +1,16 @@
+T2	Date 78 93	19 juillet 2021
+T3	Telephone 189 203	02 62 35 95 40
+T4	Telephone 211 225	02 62 35 95 41
+T5	Mail 239 267	communication@chu-reunion.fr
+T6	Adresse 317 336	11 rue de l'Hôpital
+T7	Cp 337 342	97460
+T8	Ville 343 353	Saint-Paul
+T9	Organisation 368 385	CHU de La Réunion
+T10	Organisation 403 422	hôpital Félix Guyon
+T11	Organisation 448 459	Sud Réunion
+T12	Personne 505 519	Lionel CALENGE
+A2	role T12 soignant
+T13	Personne 559 571	Lise LECOMTE
+A3	role T13 soignant
+T14	URL 280 306	http://www.chu-reunion.fr/
+T1	Organisation 0 51	Centre hospitalier universitaire (CHU) - La Réunion

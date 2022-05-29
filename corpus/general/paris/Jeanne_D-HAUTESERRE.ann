@@ -1,0 +1,25 @@
+T1	Date 378 393	11 juillet 2020
+T2	Date 124 136	28 juin 2020
+T3	Date 210 222	28 juin 2020
+T4	Date 282 294	30 mars 2014
+T5	Ville 87 92	Paris
+T6	Ville 115 120	Paris
+T7	Ville 166 171	Paris
+T8	Ville 273 278	Paris
+T9	Ville 814 819	Paris
+T10	Date 459 472	13 avril 2014
+T13	Profession 636 657	Conseillère régionale
+T14	Lieu 660 673	île-de-France
+T15	Date 683 698	28 juillet 1953
+T16	Ville 702 711	Hai Phong
+T17	Lieu 713 720	Vietnam
+A1	type T17 pays
+T18	Adresse 789 807	3, rue de Lisbonne
+T19	Cp 808 813	75008
+T20	Mail 864 891	jeanne.dhauteserre@paris.fr
+T21	Personne 4 23	Jeanne D'HAUTESERRE
+A2	role T21 autre
+T11	Lieu 34 51	8e arrondissement
+T12	Lieu 357 374	8e arrondissement
+T22	Lieu 438 455	8e arrondissement
+T23	Lieu 770 787	8e arrondissement

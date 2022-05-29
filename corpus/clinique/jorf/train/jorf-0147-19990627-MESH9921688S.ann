@@ -1,0 +1,29 @@
+T1	Date 142 155	22 avril 1999
+T2	Id 0 12	MESH9921687S
+T4	Adresse 271 287	1, rue de Germon
+T5	Cp 289 294	76031
+T6	Ville 295 300	Rouen
+T7	Personne 685 695	M. Aristin
+A1	role T7 soignant
+T8	Personne 697 708	V. Dranilin
+A2	role T8 soignant
+T9	Personne 710 723	D. Questiplin
+A3	role T9 soignant
+T10	Personne 725 735	L. Golodin
+A4	role T10 soignant
+T11	Personne 771 779	E. Marin
+A5	role T11 soignant
+T12	Personne 812 821	D. Farsin
+A6	role T12 soignant
+T13	Personne 823 832	H. Madoin
+A7	role T13 soignant
+T14	Personne 834 843	M. Rippin
+A8	role T14 soignant
+T15	Personne 881 890	M. Sanvin
+A9	role T15 soignant
+T16	Personne 892 903	B. Jarrouin
+A10	role T16 soignant
+T17	Personne 905 913	B. Kenin
+A11	role T17 soignant
+T3	Organisation 225 269	centre hospitalier et universitaire de Rouen
+T18	Cedex 301 306	Cedex

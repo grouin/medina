@@ -1,0 +1,14 @@
+T7	Date 10 26	23 novembre 2016
+T8	Id 102 114	AFSN1634137A
+T9	Date 210 226	23 novembre 2016
+T1	Organisation 454 527	Hôpital européen Georges Pompidou (Assistance publique-Hôpitaux de Paris)
+T3	Date 733 748	2 novembre 2016
+T4	Personne 232 251	Hannah CIMOSZEWIECZ
+A1	role T4 soignant
+T5	Date 260 277	18 septembre 1974
+T6	Ville 280 287	Wroclaw
+T10	Lieu 289 296	Pologne
+T2	Lieu 88 94	France
+A2	type T2 pays
+A3	date T5 naissance
+A4	type T10 pays

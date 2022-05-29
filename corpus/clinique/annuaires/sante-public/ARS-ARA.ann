@@ -1,0 +1,14 @@
+T1	Lieu 34 54	Auvergne-Rhône-Alpes
+T2	Date 81 93	09 juin 2021
+T3	Telephone 189 203	04 72 34 74 00
+T4	URL 216 260	http://www.ars.auvergne-rhone-alpes.sante.fr
+T5	Adresse 299 316	241 rue Garibaldi
+T6	Cp 317 322	69003
+T7	Ville 323 327	Lyon
+T8	Personne 372 387	Jean-Yves GRALL
+A1	role T8 inconnu
+T9	Personne 424 436	Serge MORAIS
+A2	role T9 inconnu
+T10	Personne 492 504	Cécilia HAAS
+A3	role T10 inconnu
+T11	Organisation 0 31	Agence régionale de santé (ARS)

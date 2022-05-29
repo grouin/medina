@@ -1,0 +1,43 @@
+A4	type T3 pays
+A6	type T5 pays
+A8	type T7 pays
+T1	Lieu 4890 4898	Amérique
+T2	Lieu 4905 4911	Europe
+T3	Lieu 3473 3479	France
+T5	Lieu 3669 3675	France
+T7	Lieu 4034 4040	France
+T9	Ville 4203 4208	Paris
+T4	Organisme 0 22	Pseudomonas aeruginosa
+T6	Organisme 144 155	Pseudomonas
+T8	Date 2520 2524	2008
+T10	Organisme 2095 2108	P. aeruginosa
+T11	Substance 2368 2380	ticarcilline
+T12	Substance 2406 2417	gentamicine
+T13	Substance 2419 2433	ciprofloxacine
+T14	Substance 2435 2446	ceftazidime
+T15	Substance 2451 2464	pipéracilline
+T16	Substance 2488 2498	tazobactam
+T17	Organisme 4315 4328	P. aeruginosa
+T18	Organisme 4360 4373	P. aeruginosa
+T19	Organisme 5119 5132	P. aeruginosa
+T20	Organisme 5268 5281	P. aeruginosa
+T21	Organisme 5359 5372	P. aeruginosa
+T26	Organisme 4846 4867	Pseudomonas aeruginos
+T27	Organisme 3402 3424	Pseudomonas aeruginosa
+T28	Organisme 3562 3584	Pseudomonas aeruginosa
+T29	Organisme 4461 4483	Pseudomonas aeruginosa
+T30	Substance 3147 3158	ceftazidime
+T31	Substance 2551 2562	gentamicine
+T32	Substance 3213 3223	tazobactam
+T33	Substance 3159 3168	avibactam
+T34	Substance 3187 3196	Zavicefta
+T35	Substance 3242 3249	Zerbaxa
+T36	Lieu 3506 3512	Europe
+T37	Lieu 3657 3664	Pologne
+A1	type T37 pays
+T38	Date 4003 4007	2019
+T39	Ville 4210 4220	Strasbourg
+T40	Ville 4224 4228	Lyon
+T41	Date 4252 4256	1980
+T42	Organisation 4183 4199	Institut Pasteur
+T43	Date 4077 4081	1980

@@ -1,0 +1,65 @@
+A3	role T2 autre
+T1	Organisation 77 86	Gallimard
+T2	Personne 33 48	Patrick Modiano
+A7	role T6 autre
+A9	role T8 autre
+T6	Personne 115 122	Modiano
+T8	Personne 569 576	Modiano
+A11	role T10 autre
+A18	role T17 autre
+A20	role T19 autre
+A22	role T21 autre
+T10	Personne 1107 1116	Esmeralda
+T12	Organisation 388 395	Gestapo
+T13	Organisation 502 509	Gestapo
+T14	Organisation 698 705	Gestapo
+T15	Organisation 894 901	Gestapo
+T16	Organisation 1350 1357	Gestapo
+T17	Personne 1376 1383	Pernety
+T19	Personne 607 616	Philibert
+T21	Personne 1224 1233	Philibert
+T3	Date 59 63	1969
+T5	Date 212 216	1969
+T7	Personne 285 301	Félicien Marceau
+A1	role T7 autre
+T9	Autre 275 281	Creezy
+A2	classe T9 titre
+T11	Autre 0 16	La Ronde de nuit
+A4	classe T11 titre
+T18	Autre 203 211	Goncourt
+A6	classe T18 prix
+T20	Personne 537 549	Henri Lafont
+A8	role T20 autre
+T22	Personne 557 564	Laffont
+A10	role T22 inconnu
+T26	Autre 582 602	La Place de l'Étoile
+A12	classe T26 titre
+T30	Organisation 1433 1436	RCO
+T31	Adresse 585 602	Place de l'Étoile
+T32	Personne 633 645	Pierre Bonny
+A13	role T32 inconnu
+T33	Personne 1049 1065	Swing Troubadour
+A14	role T33 inconnu
+T34	Personne 1020 1041	Princesse de Lamballe
+A15	role T34 inconnu
+T35	Personne 1069 1080	Coco Lacour
+A16	role T35 inconnu
+T36	Adresse 727 748	3 bis square Cimarosa
+T37	Adresse 778 795	93, rue Lauriston
+T38	Personne 1146 1156	Le Khédive
+A17	role T38 inconnu
+T39	Personne 1301 1316	Violette Morris
+A19	role T39 inconnu
+T40	Personne 1320 1332	Frau Sultana
+A21	role T40 inconnu
+T41	Personne 1284 1297	Baronne Lydia
+A23	role T41 inconnu
+T42	Personne 1397 1410	Saint Georges
+A24	role T42 inconnu
+T43	Personne 800 806	Lafont
+A25	role T43 inconnu
+T44	Personne 810 815	Bonny
+A26	role T44 inconnu
+T45	Profession 1242 1250	policier
+A51	role T50 inconnu
+T50	Personne 511 521	Le Khédive

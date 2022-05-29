@@ -1,0 +1,24 @@
+T2	Ville 484 489	Tours
+A11	role T10 soignant
+A13	role T12 soignant
+A15	role T14 soignant
+A17	role T16 soignant
+A19	role T18 soignant
+A21	role T20 soignant
+A23	role T22 soignant
+A7	role T6 soignant
+A9	role T8 soignant
+T10	Personne 972 982	J. Masquan
+T12	Personne 1054 1066	B. Couperain
+T14	Personne 960 970	A. Bourrus
+T16	Personne 1032 1041	L. Cheste
+T18	Personne 877 888	C. Tiranose
+T20	Personne 914 926	X. Deuhessin
+T22	Personne 868 875	F. Mins
+T24	Id 166 178	MESH9921684S
+T3	Adresse 456 476	2, boulevard Tonnelé
+T4	Date 327 340	22 avril 1999
+T5	Cp 478 483	37000
+T6	Personne 984 994	E. Plasson
+T8	Personne 1043 1052	M. A. Lac
+T1	Organisation 410 454	centre hospitalier et universitaire de Tours

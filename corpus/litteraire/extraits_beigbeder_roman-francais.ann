@@ -1,0 +1,33 @@
+T1	Personne 28 45	Clarence Jacquard
+A1	role T1 inconnu
+T2	Adresse 68 81	rue Coëtlogon
+T3	Age 85 91	17 ans
+T4	Adresse 93 106	rue Coëtlogon
+T5	Adresse 297 310	rue Coëtlogon
+T6	Adresse 426 439	rue Coëtlogon
+T7	Personne 330 337	Giscard
+A2	role T7 autre
+T8	Lieu 320 323	VIe
+T9	Personne 366 376	Mitterrand
+A3	role T9 autre
+T10	Adresse 702 724	rue Monsieur-le-Prince
+T11	Adresse 894 920	22, rue Monsieur-le-Prince
+T13	Adresse 1479 1501	rue Monsieur-le-Prince
+T14	Adresse 1522 1544	rue Monsieur-le-Prince
+T15	Adresse 1667 1689	rue Monsieur-le-Prince
+T16	Adresse 949 973	1 Rue Monsieur-le-Prince
+T17	Adresse 1194 1216	Rue Monsieur-le-Prince
+T18	Adresse 1418 1437	avenue Henri-Martin
+T19	Age 1707 1714	dix ans
+T21	Adresse 1968 1985	Rue de la Planche
+T22	Date 1999 2003	1974
+T23	Adresse 2178 2195	rue de la Planche
+T24	Adresse 1813 1830	rue de la Planche
+T25	Adresse 2401 2418	rue de la Planche
+T26	Personne 1919 1925	Saïdou
+A4	role T26 autre
+T12	Substance 1273 1286	mercurochrome
+T27	Profession 1896 1905	majordome
+T28	Gentile 1906 1917	mauritanien
+T30	Autre 790 810	Mon Nom est Personne
+A6	classe T30 titre

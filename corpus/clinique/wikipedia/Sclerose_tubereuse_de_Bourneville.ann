@@ -1,0 +1,14 @@
+T1	Pathologie 25 36	Bourneville
+T3	Pathologie 627 638	Bourneville
+T4	Anatomie 3151 3156	Monro
+T5	Age 1919 1924	un an
+T6	Age 2040 2045	un an
+T7	Date 577 581	1835
+T8	Personne 478 505	Désiré-Magloire Bourneville
+A1	role T8 soignant
+T9	Date 509 513	1880
+T10	Personne 586 598	Pierre Rayer
+A2	role T10 soignant
+T11	Pathologie 1490 1496	Koënen
+T12	Pathologie 1801 1805	West
+T14	Pathologie 2347 2361	Lennox-Gastaut

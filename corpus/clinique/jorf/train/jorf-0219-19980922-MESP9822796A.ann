@@ -1,0 +1,10 @@
+T1	Id 198 210	MESP9822796A
+T2	Date 300 312	22 juin 1998
+T3	Personne 610 615	Balin
+A1	role T3 inconnu
+T4	Personne 844 853	Millidiau
+A2	role T4 inconnu
+T5	Ville 595 604	Montauban
+T6	Cp 589 594	82017
+T7	Adresse 564 587	330, avenue Marcel-Unal
+T8	Organisation 536 562	clinique du Pont-du-Chaume

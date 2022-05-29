@@ -1,0 +1,31 @@
+T1	Pathologie 13 20	Udbatta
+T2	Organisme 153 165	Oryza sativa
+T4	Lieu 430 441	Asie du Sud
+T5	Date 593 597	1914
+T6	Lieu 601 605	Inde
+T7	Lieu 754 760	Mysore
+T8	Lieu 783 788	Chine
+T9	Date 810 814	1939
+T10	Lieu 835 841	Yunnan
+T11	Date 895 899	1947
+T14	Organisme 112 119	Poaceae
+T15	Organisme 227 241	Ephelis oryzae
+T3	Organisme 248 271	Balansia oryzae-sativae
+T16	Organisme 316 331	Clavicipitaceae
+T17	Lieu 470 474	Inde
+A1	type T17 pays
+T18	Lieu 536 545	Pacifique
+A2	type T6 pays
+T19	Lieu 622 628	Madras
+T20	Lieu 762 768	Andhra
+T21	Ville 772 778	Bombay
+A3	type T8 pays
+T22	Lieu 883 890	Afrique
+T12	Lieu 915 927	Sierra Leone
+A4	type T12 pays
+T23	Lieu 961 965	Inde
+A5	type T23 pays
+T24	Lieu 1047 1051	Inde
+A6	type T24 pays
+T25	Pathologie 1006 1013	udbatta
+T13	Pathologie 1264 1278	Karikkadi roga

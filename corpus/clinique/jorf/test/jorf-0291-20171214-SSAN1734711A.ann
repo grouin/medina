@@ -1,0 +1,14 @@
+T3	Date 10 26	20 novembre 2017
+T4	Id 102 114	SSAN1734711A
+T5	Date 204 220	20 novembre 2017
+T2	Ville 260 267	Szolnok
+T6	Lieu 269 276	Hongrie
+T7	Personne 225 237	Zoltan VAJDA
+T8	Date 245 257	4 avril 1994
+T9	Date 729 744	2 novembre 2017
+A1	role T7 soignant
+T1	Organisation 499 524	Hôpitaux civils de Colmar
+T10	Lieu 88 94	France
+A2	type T10 pays
+A3	date T8 naissance
+A4	type T6 pays

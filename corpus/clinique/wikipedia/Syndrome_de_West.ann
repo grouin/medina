@@ -1,0 +1,24 @@
+T1	Date 270 274	1841
+A3	type T2 pays
+A5	type T4 pays
+T2	Lieu 1927 1937	États-Unis
+T4	Lieu 2714 2724	États-Unis
+T6	Pathologie 15 19	West
+T8	Pathologie 911 915	West
+T3	Personne 147 165	William James West
+A1	role T3 soignant
+T5	Date 167 171	1793
+T9	Date 172 176	1848
+T10	Lieu 2262 2268	Europe
+T11	Lieu 2273 2279	Canada
+A2	type T11 pays
+T12	Lieu 2286 2293	Mexique
+A4	type T12 pays
+T13	Substance 2181 2192	Vigabatrine
+T14	Substance 2194 2200	Sabril
+T15	Substance 3144 3151	Topamax
+T16	Substance 3167 3175	Lamictal
+T17	Substance 3193 3199	Keppra
+T18	Substance 3216 3224	Zonegran
+T19	Substance 2804 2815	Vigabatrine
+T20	Substance 2458 2469	Vigabatrine

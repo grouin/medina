@@ -1,0 +1,40 @@
+T1	Organisation 15 34	CHU Amiens-Picardie
+T2	Personne 75 97	Christophe TRIBOUILLOY
+A1	role T2 soignant
+T10	Organisation 3060 3079	CHU Amiens-Picardie
+T11	Organisation 3198 3217	CHU Amiens-Picardie
+T12	Organisation 3326 3345	CHU Amiens-Picardie
+T3	Organisation 687 706	CHU Amiens-Picardie
+T4	Organisation 1252 1271	CHU Amiens-Picardie
+T5	Organisation 1822 1841	CHU Amiens-Picardie
+T6	Organisation 1977 1996	CHU Amiens-Picardie
+T7	Organisation 2558 2577	CHU Amiens-Picardie
+T8	Organisation 2815 2834	CHU Amiens-Picardie
+T9	Organisation 2972 2991	CHU Amiens-Picardie
+T13	Personne 197 211	Marcel PELTIER
+A2	role T13 soignant
+T14	Personne 300 313	Yohann BOHBOT
+A3	role T14 soignant
+T15	Personne 354 371	Dorothée MALAQUIN
+A4	role T15 soignant
+T16	Personne 400 413	Anfani MIRODE
+A5	role T16 soignant
+T17	Personne 442 457	Jean-Paul QUERE
+A6	role T17 soignant
+T18	Personne 486 498	Dan RUSINARU
+A7	role T18 soignant
+T19	Personne 547 562	Faouzi TROJETTE
+A8	role T19 soignant
+T20	Personne 591 607	Emanuelle VERMES
+A9	role T20 soignant
+T21	Telephone 2896 2910	03 22 08 72 30
+T22	Telephone 2917 2931	03 22 08 72 40
+T23	Telephone 2938 2952	03 22 08 73 14
+T24	Telephone 3009 3023	03 22 08 98 46
+T25	Telephone 3141 3155	03 22 08 73 15
+T26	Telephone 3276 3290	03 22 08 73 01
+T27	Telephone 3297 3311	03 22 08 73 02
+T28	Adresse 3357 3400	1 rond-point du Professeur Christian Cabrol
+T29	Cp 3401 3406	80054
+T30	Ville 3407 3413	Amiens
+T31	Pathologie 2453 2459	Marfan

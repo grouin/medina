@@ -1,0 +1,9 @@
+T1	Date 343 358	31 octobre 2001
+T2	Organisation 519 543	hôpital de la Conception
+T3	Adresse 545 566	147, boulevard Baille
+T4	Ville 570 579	Marseille
+T5	Lieu 581 597	Bouches-du-Rhône
+T7	Id 143 155	MESH0220193S
+T8	URL 161 236	https://www.legifrance.gouv.fr/eli/decision/2002/2/12/MESH0220193S/jo/texte
+T9	Organisation 410 451	Assistance publique-hôpitaux de Marseille
+A1	type T5 region

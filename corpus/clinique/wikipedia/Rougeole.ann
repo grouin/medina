@@ -1,0 +1,82 @@
+T1	Date 5294 5298	1841
+T2	Date 5726 5730	1916
+T6	Personne 5715 5722	Conseil
+T7	Personne 3130 3142	Henry Koplik
+T8	Examen 6613 6623	Wassermann
+T13	Age 160 168	5-6 mois
+T14	Date 1131 1135	2017
+T15	Date 3146 3150	1896
+A5	role T7 inconnu
+T16	Personne 5202 5214	Francis Home
+A6	role T16 soignant
+T17	Date 5218 5222	1758
+T18	Date 5238 5242	1759
+T19	Date 5299 5303	1842
+T20	Personne 5305 5315	Von Katona
+A7	role T20 inconnu
+A8	role T6 inconnu
+T21	Personne 5704 5711	Nicolle
+A9	role T21 inconnu
+T22	Date 6730 6734	1932
+T23	Personne 6723 6728	Jorge
+A10	role T23 inconnu
+T24	Personne 6690 6706	Salazar de Sousa
+A11	role T24 soignant
+T25	Lieu 6289 6297	Portugal
+A12	type T25 pays
+T26	Personne 6305 6312	Salazar
+A13	role T26 soignant
+T3	Examen 2755 2762	Köplick
+T4	Personne 7073 7079	Enders
+A1	role T4 inconnu
+T5	Personne 7081 7092	Samuel Katz
+A2	role T5 inconnu
+T9	Date 6978 6982	1954
+T10	Personne 6968 6974	Enders
+A3	role T10 inconnu
+T11	Date 7327 7341	septembre 1958
+T12	Lieu 7519 7529	États-Unis
+A4	type T12 pays
+T27	Date 7533 7545	21 mars 1963
+T28	Substance 7565 7573	Rubeovax
+T29	Organisation 7578 7583	Merck
+A39	type T38 pays
+A41	type T40 pays
+A43	type T42 pays
+T32	Date 8521 8525	1968
+T33	Date 8655 8667	21 mars 1963
+T34	Organisation 8144 8149	Merck
+T35	Substance 7618 7626	Rubeovax
+T38	Lieu 8315 8325	États-Unis
+T40	Lieu 9282 9292	États-Unis
+T42	Lieu 9354 9364	États-Unis
+T37	Organisme 514 529	Paramyxoviridae
+T39	Date 8092 8106	2 février 1965
+T41	Substance 8119 8128	Attenuvax
+T43	Substance 7957 7964	Lirugen
+T44	Organisation 7981 7987	Pitman
+T45	Date 8242 8258	26 novembre 1968
+T46	Date 8528 8532	2005
+T47	Date 8430 8434	1963
+T48	Date 8437 8441	1975
+T49	Substance 8673 8683	Pfizer-vax
+T50	Substance 8687 8696	Measles-K
+T51	Organisation 8700 8706	Pfizer
+T52	Organisation 8724 8729	Lilly
+T53	Date 8915 8919	1967
+T54	Date 9037 9050	22 avril 1971
+T55	Substance 9054 9063	Attenuvax
+T56	Substance 9308 9317	Attenuvax
+T57	Date 9342 9346	1989
+T61	Organisme 8170 8177	Moraten
+T62	Organisme 8008 8016	Schwartz
+T63	Organisme 8049 8060	Edmonston A
+T64	Organisme 8201 8212	Edmonston B
+T65	Organisme 8505 8516	Edmonston B
+T66	Organisme 8484 8491	Moraten
+T67	Organisme 8387 8398	Edmonston B
+T68	Organisme 7136 7145	Edmonston
+T73	Organisme 9319 9330	Edmonston B
+T74	Date 9207 9211	1976
+T75	Personne 5622 5629	Behring
+A14	role T75 inconnu

@@ -1,0 +1,68 @@
+La rougeole (également appelée parfois première maladie) est une infection virale éruptive aiguë. Elle atteint essentiellement les enfants à partir de l’âge de 5-6 mois et les jeunes adultes. La vaccination contre la rougeole vise surtout à éviter les complications de l'infection, comme les encéphalites, qui peuvent avoir des séquelles importantes voire létales, et à protéger d'un affaiblissement immunitaire post-rougeoleux.
+
+Virus de la rougeole
+Le virus de la rougeole est un morbillivirus de la famille des Paramyxoviridae. Il appartient à la même famille que le virus des oreillons. C’est un virus strictement humain, dont l'unique réservoir naturel est l'homme (la personne atteinte de l'infection, même asymptomatique). Il peut aussi infecter le singe, mais dans des conditions de laboratoire.
+
+C'est un virus à ARN monocaténaire anti-messager non segmenté, enveloppé, avec une capside hélicoïdale. Sa taille varie entre 120 et 250 nm.
+
+Ce virus est rapidement inactivé par la chaleur (30 minutes à 56 °C) ou la lumière ultraviolette. Il est en outre sensible à de nombreux désinfectants (alcool à 70 % par exemple).
+
+En 2017, on lui connait 24 génotypes différents, identifiés par séquençage de l'ARN. Cela permet de distinguer l'origine géographique d'une souche virale, de suivre sa transmission, sa diffusion et son élimination, lors des études épidémiologiques.
+
+Sa structure antigénique est particulièrement stable, et ne comporte qu'un seul type, ce qui facilite l'efficacité vaccinale.
+
+Signes cliniques et évolution
+La rougeole se caractérise par quatre phases : incubation silencieuse, invasion avec catarrhe fébrile, éruption dite morbilliforme, suivie d'une desquamation avec état de fatigue persistant.
+
+La maladie est apparente dans 90 % des cas. Les formes asymptomatiques (sans symptômes) et les réinfections sont rares. La première phase correspond à une période d'incubation silencieuse d'une durée moyenne d'un peu plus de douze jours (dix à quatorze jours).
+
+Forme commune et habituelle
+Phase d'invasion
+C'est la seconde phase qui dure de deux à quatre jours. L'enfant est atteint d'une fièvre rapidement progressive, jusqu'à 39,5 - 40 °C, avec malaise général et maux de tête.
+
+Il présente un catarrhe (inflammation avec écoulements) oculorespiratoire : conjonctivite et yeux larmoyants, rhinite et écoulement nasal, toux… L'enfant est très irritable, présentant un faciès « grognon ». Ce catarrhe diffus des muqueuses doit être présent à ce stade pour évoquer un diagnostic de rougeole.
+
+L'atteinte des muqueuses digestives est fréquente avec diarrhées, douleurs abdominales et vomissements. Des signes neurologiques sont possibles (convulsions, syndrome méningé).
+
+Pendant l'invasion, le sujet est contagieux. Le signe de Köplick apparaît vers la 36e heure après le début du catarrhe et jusqu'à la phase éruptive, de façon inconstante (70 % des cas). Il est fugace, souvent présent moins de 24 heures. Il consiste en l'apparition sur la muqueuse buccale, à la hauteur des prémolaires inférieures, de petites taches rouges irrégulières avec un petit point central blanc.
+
+Cet énanthème, décrit par Henry Koplik en 1896, est pathognomonique de la maladie, lorsqu'il est présent.
+
+Phase éruptive
+L'éruption de la rougeole est caractéristique. Elle se fait en une seule poussée. Elle débute au niveau de la tête, derrière les oreilles, autour de la bouche, puis s'étend à toute la face. Son extension est descendante en trois à quatre jours : elle atteint le cou, les épaules, et la partie supérieure du thorax. Au 3e jour, le tronc et les membres supérieurs sont atteints. L'éruption s'étend à l'abdomen puis aux membres inférieurs à partir du 4e jour. Une atteinte de la paume des mains et de la plante des pieds est présente dans 20 à 50 % des cas.
+
+Il s'agit d'un exanthème consistant en l'apparition progressive de petites plaques (rouges sur les peaux blanches) plus ou moins en relief, de quelques millimètres de diamètre, dites maculopapules (faites de macules et de papules), sans ou avec peu de démangeaisons et s'effaçant à la pression.
+
+Ces petites plaques rouges confluent en larges plages arrondies, avec des contours irréguliers, mais en laissant toujours entre elles des intervalles de peau saine.
+
+Sur peau noire, l'éruption donne un aspect de peau granitée et œdémateuse.
+
+La fièvre, d'abord élevée, diminue progressivement jusqu'au troisième ou quatrième jour de l'éruption (retour à la normale).
+
+Phase de desquamation
+Durant la quatrième et dernière phase, l'éruption cutanée laisse, avant de s'effacer, une coloration brune tirant sur le cuivre. Elle peut faire place, de façon inconstante, à une desquamation fine visible quelques jours. La fièvre a disparu, mais la convalescence dure encore une dizaine de jours durant lesquels l'enfant, souvent fatigué, peut tousser.
+
+
+Histoire du vaccin contre la rougeole
+Inoculation
+L'idée de recourir à l’inoculation pour prévenir de la rougeole est apparue très tôt. Quand les procédés de variolisation eurent gagné en innocuité et en efficacité, le projet de cette transposition fut facilitée par le fait que la rougeole était alors considérée comme apparentée à la variole. La première tentative faite par Francis Home en 1758 fut publiée en 1759. L'expérience fut peu commentée et peu reprise. En 1841-1842, Von Katona reprend toutefois cette expérience sur une bien plus grande échelle avec des résultats annoncés comme bons. Cette tentative et d'autres plus réduites qui eurent lieu ensuite ne fut pas reprise faute de pouvoir limiter le développement de la maladie induite.
+
+Sérothérapie
+Dans la foulée des découvertes de Behring, l'attention se porta plus sur la sérothérapie. À la suite des travaux de Nicolle et Conseil en 1916, celle-ci s'effectue par injection de sérum de convalescents ou d'adultes complètement guéris d'une rougeole antérieure. La méthode semble conduire à une guérison rapide et à une forme très atténuée de la maladie pour 90 % des patients si le sérum est injecté très tôt (« dans les premiers jours du contact avec l'enfant infectant »). La principale difficulté était de disposer d'un stock suffisant de sérum (qui impliquait de faire des saignées à des patients en guérison, qui étaient souvent des enfants, les familles refusant qu'on prenne leur sang).
+
+Au Portugal, le Pr Salazar, s'appuyant sur l'idée déjà bien connue de l'immunité donnée au fœtus par le sang maternel via le placenta, a aussi suggéré que l'on utilise le sang placentaire, facile à recueillir dans les maternités, chez des accouchées en bonne santé uniquement (« sans traces de tuberculose évolutive et avec un Wassermann négatif » précisait-il). Les essais de la méthode dite « du Prof. Salazar de Sousa » ont été selon Jorge (1932) « couronnés de succès ».
+
+Premiers vaccins américains
+La vaccination proprement dite devient possible, lorsque le virus causal est isolé et cultivable, susceptible d'être produit en grande quantité sur culture cellulaire (travaux d'Enders en 1954 ayant permis le développement ultérieur d'un vaccin contre la polio).
+
+Un collaborateur d'Enders, Samuel Katz développe une souche de virus atténué dite Edmonston (du nom de l'enfant d'où le virus a été isolé). Ces virus sont cultivés et atténués par passages sur cellules d'embryons de poulets. Après un essai sur treize enfants handicapés en septembre 1958 puis sur 10 000 enfants — et quelques adultes — dans les trois années qui suivirent, ce vaccin, comportant la seule valence rougeoleuse, fut introduit pour la première fois aux États-Unis le 21 mars 1963 sous l’appellation Rubeovax par Merck.
+
+Parmi les enfants ayant reçu le Rubeovax, 30 à 40 % d'entre eux montraient des signes de fièvres élevés et d'éruptions cutanées après la vaccination. Ces effets secondaires pouvaient être atténués par l'administration concomitante de gammaglobulines.
+
+Deux vaccins à virus atténué ne nécessitant pas l'administration de gammaglobulines sont adoptés peu après : le vaccin Lirugen, du laboratoire Pitman, basé sur la souche Schwartz — élaboré à partir d'une souche Edmonston A, plus atténuée — est adopté le 2 février 1965 ; le vaccin Attenuvax du laboratoire Merck, basé sur la souche Moraten, à partir d'une souche Edmonston B très atténuée, est adopté le 26 novembre 1968. La vaccination se faisait en une seule injection.
+
+Aux États-Unis, près de 19 millions de doses de vaccins utilisant la souche Edmonston B atténuée ont été distribués de 1963 à 1975, et plus de 300 millions de doses (souche Moraten dérivée de l'Edmonston B) de 1968 à 2005.
+
+Concurremment à ces vaccins à virus vivants atténués, deux vaccins à virus inactivés (tués) furent mis sur le marché le 21 mars 1963 : le Pfizer-vax ou Measles-K de Pfizer et le Generic de Lilly. Ces vaccins ne conféraient qu'une immunité insuffisante de courte durée, et provoquant parfois des rougeoles atypiques nécessitant une hospitalisation. Ils furent retirés du marché en 1967, après avoir été injectés à 1,8 million d'enfants ou à deux ou trois fois moins ayant reçu 1,8 million de doses.
+
+Le 22 avril 1971, l'Attenuvax, combiné avec des virus atténués d'oreillons et de rubéole, donne le premier vaccin MMR, qui ne comportait toujours qu'une seule injection. En 1976, la seule souche autorisée pour la vaccination contre la rougeole aux États-Unis est celle de l'Attenuvax (Edmonston B). C'est en 1989 qu'aux États-Unis une deuxième injection fut reconnue nécessaire.

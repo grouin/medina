@@ -1,0 +1,20 @@
+La classification de Killip est utilisée chez les patients présentant un infarctus du myocarde (ou crise cardiaque). Elle prend en compte l'examen physique et la présence d'une insuffisance cardiaque afin de prédire et de stratifier leur risque de mortalité. Les individus ayant une classe de Killip faible sont moins susceptibles de mourir dans les trente jours suivant leur infarctus que les individus ayant une classe de Killip élevée.
+
+L'étude
+L'étude se basait sur une série de cas avec des résultats sans insu, non objectifs, non ajustés pour les facteurs de confusion, ni validés dans un ensemble indépendant de patients. Le cadre était l'unité de soins intensifs de cardiologie d'un hôpital universitaire aux États-Unis.
+
+Deux cent cinquante patients présentant un infarctus du myocarde ont été inclus dans l'étude (âgés de 28 à 94 ans, avec une moyenne d'âge de 64 ans, 72 % des patients étant des hommes). Les patients ayant subi un arrêt cardiaque avant l'admission ont été exclus.
+
+Les patients ont été triés par classe de Killip de la manière suivante :
+
+la classe de Killip I comprend les personnes ne présentant aucun signe clinique d'insuffisance cardiaque ;
+la classe de Killip II comprend les individus présentant des râles ou des crépitants dans les poumons, un B3 à l'auscultation cardiaque ou une pression veineuse jugulaire élevée ;
+la classe de Killip III décrit les personnes atteintes d'un œdème aigu du poumon franc ;
+la classe de Killip IV décrit des personnes en état de choc cardiogénique ou d'hypotension (mesurée par une pression artérielle systolique inférieure à 90 mmHg) et des signes de vasoconstriction périphérique (oligurie, cyanose ou transpiration).
+
+Conclusions
+Les chiffres de mortalité ci-dessous étaient exacts en 1967. De le cadre d'une prise en charge actuelle, ils pourraient avoir diminués de 30 à 50 % pour chaque classe.
+
+La classification de Killip a joué un rôle fondamental en cardiologie, ayant été utilisée comme critère de stratification pour de nombreuses autres études. L'aggravation de la classe de Killip chez un patient s'est révélée indépendamment associée à une mortalité plus importante et ce dans plusieurs études.
+
+Une classification de Killip de classe I ainsi que l'absence de signe d'hypotension ou de bradycardie, chez un patient présentant un syndrome coronarien aigu, doit faire envisager un traitement par un bêta-bloquant intraveineux immédiat.

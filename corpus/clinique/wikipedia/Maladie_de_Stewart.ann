@@ -1,0 +1,29 @@
+T1	Pathologie 14 21	Stewart
+T2	Pathologie 41 48	Stewart
+T3	Organisme 125 142	Pantoea stewartii
+T4	Lieu 455 465	États-Unis
+A1	type T4 pays
+T5	Lieu 501 505	Ohio
+T6	Lieu 512 524	Mid-Atlantic
+T7	Lieu 553 562	Corn Belt
+T8	Lieu 613 621	Arkansas
+T9	Lieu 623 631	Delaware
+T10	Lieu 633 641	Illinois
+T11	Lieu 643 650	Indiana
+T12	Lieu 652 660	Kentucky
+T13	Lieu 662 670	Maryland
+T14	Lieu 672 680	Missouri
+T15	Lieu 682 692	New Jersey
+T16	Lieu 694 702	New York
+T17	Lieu 704 708	Ohio
+T18	Lieu 710 722	Pennsylvanie
+T19	Lieu 724 733	Tennessee
+T20	Lieu 735 743	Virginie
+T21	Lieu 747 767	Virginie-Occidentale
+T22	Pathologie 803 810	Stewart
+T23	Lieu 876 882	Canada
+A2	type T23 pays
+T24	Organisme 932 953	Chaetocnema pulicaria
+T25	Organisme 1029 1046	Pantoea stewartii
+T26	Pathologie 2137 2144	Stewart
+T27	Pathologie 2206 2213	Stewart

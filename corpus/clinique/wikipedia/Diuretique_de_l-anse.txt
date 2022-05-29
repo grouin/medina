@@ -1,0 +1,46 @@
+Les diurétiques de l'anse sont des diurétiques qui agissent sur la partie ascendante de l'anse de Henle du rein. On les utilise surtout en médecine pour traiter l'hypertension et les œdèmes souvent dus à une insuffisance cardiaque congestive ou à une insuffisance rénale chronique.
+
+Mécanisme d'action
+Ils nécessitent une excrétion dans le tube contourné proximal du glomérule rénal pour atteindre leur cible. Cette excrétion dépend d'un transporteur.
+
+Ils inhibent la réabsorption du sodium au niveau de l'anse de Henle en bloquant la cotransporteur Na-K-Cl (cotransporteur Na+/K+/2Cl-) au niveau de la branche ascendante de l'anse de Henlé ce qui entraîne une augmentation de l'excrétion urinaire de sodium, potassium, chlore, magnésium et calcium, entraînant une perte d'eau.
+
+Au niveau de l'appareil juxtaglomérulaire, ils se lient à la même protéine, ce qui stimule la sécrétion de rénine1. Ils entraînent une vasodilatation des artérioles.
+
+L'effet natriurétique est important et de courte durée. Il est plus long pour le bumétanide et torsémide que pour le furosémide, ce dernier ayant par ailleurs une biodisponibilité plus aléatoire.
+
+Indications
+- Œdèmes, dont œdème aigu du poumon
+- Insuffisance cardiaque
+- Hypertension (on préfère les thiazidiques pour leur durée d'action plus longue)
+- Hypercalcémies (hors AMM)
+
+Bien que leur utilisation en cas d'insuffisance rénale aiguë puisse sembler logique, une méta-revue de 2006 ne trouve pas de preuve de leur efficacité5.
+
+Résistance aux diurétiques de l'anse
+Ses causes sont multiples. En cas d'insuffisance cardiaque, la résistance provient essentiellement du tube contourné6. La résistance observée lors de l'utilisation concomitante d'un anti-inflammatoire non stéroïdien est due à l'occupation par ces derniers de la même molécule faisant office de transporteur au niveau du tube contourné proximal.
+
+Cette résistance peut être parfois levée en associant un diurétique de l'anse à un diurétique thiazidique.
+Contre-indications
+- Insuffisance rénale aiguë
+- Encéphalopathie hépatique
+- Hypersensibilité (réaction croisée avec les autres sulfamidés)
+- Obstacle voies urinaires excrétrices
+- Hypovolémie
+- Déshydratation
+- Allaitement (l'utilisation est déconseillée lors de la grossesse, mais les diurétiques restent un traitement de choix des œdèmes non physiologiques de la femme enceinte)
+- Sportif, produit signalé comme interdit, le furosémide figure dans la liste des diurétiques et agents masquants interdits par l'Agence mondiale antidopage (AMA).
+
+Effets indésirables
+- Hypotension permanente ou orthostatique due à un effet diurétique trop important et une réduction des apports hydriques provoquant hypovolémie, déshydratation extracellulaire jusqu'à l'insuffisance rénale fonctionnelle.
+- Hyponatrémie de dilution
+- Hypokaliémie
+- Hypomagnésémie
+- Allergie
+- Néphrotoxicité et ototoxicité notamment lors de l'association aux aminosides. L'ototoxicité serait due à la fixation sur la protéine NKCC1 située au niveau de l'épithélium auditif régulant la composition de l'endolymphe.
+
+Exemples de diurétiques de l'anse
+- furosémide spécialité = LASILIX ou LASIX
+- bumétanide = BURINEX
+- pirétanide = EURELIX
+- torasémide = TOREM

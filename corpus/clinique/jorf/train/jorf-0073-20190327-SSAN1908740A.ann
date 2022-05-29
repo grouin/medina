@@ -1,0 +1,14 @@
+T1	Lieu 259 274	Arabie Saoudite
+T2	Ville 252 257	Riyad
+T3	Date 10 22	19 mars 2019
+T4	Id 98 110	SSAN1908740A
+T5	Date 200 212	19 mars 2019
+T6	Personne 217 229	Martin CALLI
+A1	role T6 soignant
+T7	Date 237 249	8 avril 1972
+T9	Organisation 405 462	Centre hospitalier universitaire de Nice - Hôpital Cimiez
+T10	Date 668 681	1er mars 2019
+T8	Lieu 84 90	France
+A2	type T8 pays
+A3	date T7 naissance
+A4	type T1 pays

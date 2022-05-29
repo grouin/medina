@@ -1,0 +1,17 @@
+T1	Date 862 874	19 mars 2018
+T2	Lieu 277 282	Liban
+T3	Date 248 264	31 décembre 1982
+T5	Date 10 27	30 septembre 2019
+T6	Id 103 115	SSAN1927962A
+T7	Date 205 222	30 septembre 2019
+T8	Personne 227 239	Aldo MELANEL
+A1	role T8 soignant
+T9	Ville 267 275	Beyrouth
+T10	Organisation 509 545	Hôpitaux universitaires de Paris Sud
+T11	Organisation 548 563	Hôpital Bicêtre
+T4	Personne 487 503	Vanille DELIERRE
+A2	role T4 soignant
+T12	Lieu 89 95	France
+A3	type T12 pays
+A4	date T3 naissance
+A5	type T2 pays

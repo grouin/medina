@@ -1,0 +1,10 @@
+T1	Id 144 156	MESH0122106S
+T2	Date 248 263	28 février 2001
+T3	Personne 293 302	Le Renard
+A1	role T3 inconnu
+T4	Organisation 317 350	centre hospitalier Sud francilien
+T5	Organisation 458 483	hôpital Gilles-de-Corbeil
+T6	Adresse 485 511	59, boulevard Henri-Dunant
+T7	Ville 515 531	Corbeil-Essonnes
+T8	Lieu 533 540	Essonne
+A2	type T8 region

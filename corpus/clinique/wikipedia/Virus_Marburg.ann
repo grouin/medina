@@ -1,0 +1,84 @@
+T1	Lieu 93 99	Europe
+T2	Date 733 737	2000
+T4	Date 781 785	2005
+T5	Lieu 790 796	Angola
+T6	Date 861 865	1967
+T7	Lieu 891 900	Allemagne
+T8	Pathologie 1183 1190	Marburg
+T10	Organisation 1560 1567	Behring
+T11	Ville 1571 1579	Marbourg
+T12	Date 1635 1639	1980
+T13	Pathologie 1695 1702	Marburg
+T15	Personne 1844 1857	Charles Monet
+T16	Ville 1878 1883	Kitum
+T18	Pathologie 2319 2330	Shem Musoke
+T19	Date 2144 2148	1987
+T20	Personne 2150 2164	Peter Cardinal
+T21	Personne 2017 2028	Shem Musoke
+T22	Personne 2394 2406	Gene Johnson
+T25	Pathologie 3196 3203	Marburg
+T26	Date 3329 3333	2007
+T27	Date 3439 3443	1998
+T28	Ville 3511 3516	Durba
+T31	Date 3649 3653	2000
+T33	Lieu 3747 3761	Afrique du Sud
+T35	Date 3784 3788	2005
+T36	Date 3993 4005	octobre 2004
+T37	Date 4195 4209	6 octobre 2014
+T38	Date 4286 4301	17 octobre 2017
+T39	Organisme 9 16	Marburg
+T40	Ville 44 52	Marbourg
+T41	Organisme 241 252	Filoviridae
+T42	Organisme 385 390	Ebola
+T43	Lieu 666 675	Allemagne
+A1	type T43 pays
+T3	Lieu 742 774	République démocratique du Congo
+A2	type T3 pays
+A3	type T5 pays
+A4	type T7 pays
+T44	Lieu 907 918	Yougoslavie
+A5	type T44 pays
+T45	Organisme 1070 1090	Chlorocebus aethiops
+T46	Lieu 1131 1138	Ouganda
+A6	type T46 pays
+T47	Ville 1394 1403	Francfort
+T48	Lieu 1410 1421	Yougoslavie
+A7	type T48 pays
+T49	Lieu 1511 1518	Ouganda
+A8	type T49 pays
+T9	Lieu 1750 1760	Mont Elgon
+T14	Lieu 1764 1769	Kenya
+A9	type T14 pays
+A10	role T15 soignant
+T17	Date 1887 1891	1980
+T50	Ville 1964 1971	Nairobi
+T51	Profession 2036 2043	médecin
+A11	role T21 soignant
+A12	role T20 soignant
+T52	Age 2186 2193	dix ans
+T53	Pathologie 2344 2348	Ravn
+T54	Profession 2408 2416	chasseur
+T23	Organisation 2471 2479	USAMRIID
+A13	role T22 autre
+T24	Ville 2599 2604	Kitum
+T29	Lieu 3558 3590	République démocratique du Congo
+A14	type T29 pays
+T30	Lieu 3719 3745	Afrique de l’Est ou du Sud
+A15	type T33 pays
+T32	Lieu 3763 3768	Kenya
+A16	type T32 pays
+T34	Lieu 3770 3778	Zimbabwe
+A17	type T34 pays
+T55	Lieu 3814 3820	Angola
+A18	type T55 pays
+T56	Pathologie 3960 3965	Ebola
+T57	Lieu 4043 4049	Angola
+A19	type T57 pays
+T58	Date 4158 4162	2005
+T59	Lieu 4232 4239	Ouganda
+A20	type T59 pays
+T60	Pathologie 4274 4281	Marburg
+T61	Lieu 4305 4312	Ouganda
+A21	type T61 pays
+T62	Pathologie 4406 4413	Marburg
+T63	Examen 153 162	Baltimore

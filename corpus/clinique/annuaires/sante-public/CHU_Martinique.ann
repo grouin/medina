@@ -1,0 +1,29 @@
+T2	Date 78 90	01 mars 2022
+T3	Telephone 186 200	05 96 55 20 00
+T4	Mail 214 259	secretariat.communication@chu-fortdefrance.fr
+T5	Cp 320 328	CS 90632
+T6	Cp 329 334	97261
+T7	Ville 335 349	Fort-de-France
+T8	Organisation 370 387	CHU de Martinique
+T9	Date 536 551	01 janvier 2013
+T10	Ville 574 588	Fort de France
+T11	Ville 590 598	Lamentin
+T12	Ville 602 609	Trinité
+T13	Organisation 614 631	CHU de Martinique
+T14	Organisation 656 684	hôpital Pierre Zobda Quitman
+T15	Organisation 739 758	Centre Emma Ventura
+T16	Organisation 762 783	hôpital Albert Clarac
+T17	Organisation 787 812	hôpital du Lamentin Bourg
+T18	Organisation 816 840	hôpital de Mangot Vulcin
+T19	Organisation 846 868	hôpital Louis Domergue
+T20	Personne 914 930	Jérôme LE BRIERE
+A2	role T20 soignant
+T21	Personne 1000 1016	Stéphane BERNIAC
+A3	role T21 soignant
+T22	Personne 1059 1081	Valérie VROUST-ÉCANVIL
+A4	role T22 soignant
+T23	Mail 1098 1117	v.vroust@chld972.fr
+T24	Telephone 1135 1149	05 96 55 22 30
+T25	URL 272 301	http://www.chu-martinique.fr/
+T1	Organisation 0 51	Centre hospitalier universitaire (CHU) - Martinique
+T26	Cedex 350 355	Cedex

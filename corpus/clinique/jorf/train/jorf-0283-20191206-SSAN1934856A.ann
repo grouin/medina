@@ -1,0 +1,16 @@
+T1	Date 895 907	19 mars 2018
+T2	Lieu 277 296	Emirats Arabes Unis
+T3	Date 10 25	3 décembre 2019
+T4	Date 203 218	3 décembre 2019
+T5	Id 101 113	SSAN1934856A
+T6	Personne 224 238	Lydia MELSENNI
+A1	role T6 soignant
+T7	Date 247 263	24 décembre 1991
+T8	Ville 266 275	Abu Dhabi
+T9	Personne 522 534	Emma Resvena
+A2	role T9 soignant
+T10	Organisation 541 593	hôpital tenon - Hôpitaux Universitaires Est-Parisien
+T11	Lieu 87 93	France
+A3	type T11 pays
+A4	date T7 naissance
+A5	type T2 pays

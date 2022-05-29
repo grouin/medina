@@ -1,0 +1,10 @@
+T1	Pathologie 14 21	Basedow
+T2	Pathologie 25 39	Graves-Basedow
+T3	Pathologie 528 535	Basedow
+T4	Personne 854 870	Carl von Basedow
+A1	role T4 inconnu
+T5	Age 978 980	40
+T6	Age 984 990	60 ans
+T7	Pathologie 1422 1429	Basedow
+T8	Pathologie 542 548	Graves
+T9	Pathologie 901 908	Basedow

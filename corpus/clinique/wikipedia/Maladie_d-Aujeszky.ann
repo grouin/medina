@@ -1,0 +1,14 @@
+T1	Date 742 746	1980
+T2	Pathologie 13 21	Aujeszky
+T3	Pathologie 876 884	Aujeszky
+T4	Lieu 1549 1559	États-Unis
+A1	type T4 pays
+T5	Date 1540 1544	1813
+T6	Date 1672 1676	1849
+T7	Lieu 1680 1686	Suisse
+A2	type T7 pays
+T8	Date 1792 1796	1902
+T9	Profession 1801 1812	vétérinaire
+T10	Personne 1822 1837	Aladár Aujeszky
+A3	role T10 soignant
+T12	Profession 1432 1443	vétérinaire

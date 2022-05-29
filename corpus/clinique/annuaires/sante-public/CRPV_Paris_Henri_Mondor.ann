@@ -1,0 +1,15 @@
+T1	Date 102 117	27 février 2020
+T3	Organisation 0 57	Centre régional de pharmacovigilance - Paris Henri Mondor
+T4	Ville 59 66	Créteil
+T5	Organisation 69 74	AP-HP
+T6	Telephone 213 227	01 49 81 47 00
+T7	Telephone 235 249	01 49 81 47 63
+T8	Mail 263 292	hmn-pharmacovigilance@aphp.fr
+T9	Organisation 458 478	Hôpital Henri Mondor
+T10	Adresse 479 514	51 av. du Mal de Lattre de Tassigny
+T11	Cp 515 520	94010
+T12	Ville 521 528	Créteil
+T13	Personne 565 579	Hervé LE LOUET
+A1	role T13 soignant
+T14	URL 305 348	http://www.pharmacovigilance-iledefrance.fr
+T15	URL 361 439	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/

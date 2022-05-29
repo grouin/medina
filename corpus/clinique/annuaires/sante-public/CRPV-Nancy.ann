@@ -1,0 +1,14 @@
+T1	Date 71 86	27 février 2020
+T3	Telephone 182 196	03 83 65 60 85
+T4	Telephone 204 218	03 83 65 61 33
+T5	Mail 232 250	crpv@chru-nancy.fr
+T6	Organisation 397 429	Centre Hospitalier Universitaire
+T7	Adresse 430 446	Avenue du Morvan
+T8	Cp 447 452	54511
+T9	Ville 453 472	Vandœuvre les Nancy
+T10	Personne 515 528	Pierre GILLET
+A1	role T10 soignant
+T11	URL 263 287	http://crpv.chu-nancy.fr
+T12	URL 300 378	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T13	Cedex 473 478	Cedex
+T2	Organisation 0 44	Centre régional de pharmacovigilance - Nancy

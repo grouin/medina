@@ -1,0 +1,102 @@
+T3	Lieu 440 451	Royaume-Uni
+T4	Date 508 512	1986
+T5	Date 527 531	2000
+T6	Date 1084 1088	2016
+T8	Lieu 1253 1264	Royaume-Uni
+T9	Date 1269 1281	21 mars 1996
+T10	Lieu 2018 2033	Grande-Bretagne
+T11	Date 2037 2041	1986
+T13	Age 2734 2739	2 ans
+T14	Age 2747 2757	3 et 7 ans
+T17	Date 4309 4313	1980
+T18	Date 4360 4364	1883
+T19	Personne 4648 4660	Roger Morris
+T20	Ville 4686 4702	Palmerston North
+T21	Lieu 4704 4720	Nouvelle-Zélande
+T22	Date 5012 5016	1963
+T23	Personne 5105 5116	Mark Purdey
+T24	Date 5139 5143	2000
+T25	Lieu 5440 5456	Amérique du Nord
+T28	Date 6874 6878	1981
+T29	Date 7292 7296	1973
+T30	Date 7300 7304	1979
+T32	Lieu 7991 7997	France
+T34	Date 8076 8089	1er juin 2006
+T35	Date 8184 8188	1997
+T37	Date 8231 8235	1993
+T38	Date 8239 8243	1995
+T39	Lieu 8515 8521	France
+T40	Date 8525 8529	1990
+T42	Personne 9841 9852	F.O Bastian
+T43	Date 9854 9858	2005
+T44	Date 9759 9763	2004
+T45	Personne 10126 10133	Telling
+T46	Date 10142 10146	1995
+T48	Pathologie 10892 10909	Creutzfeldt-Jakob
+T50	Lieu 11577 11583	France
+T51	Date 11811 11815	1993
+T52	Date 11819 11823	1995
+T53	Date 12026 12030	1996
+T54	Ville 12078 12085	Londres
+T55	Personne 12205 12222	Stephen Churchill
+T56	Personne 12226 12238	Nina Sinnott
+T57	Age 12267 12279	19 et 25 ans
+T60	Age 13131 13137	29 ans
+T61	Age 13146 13152	65 ans
+T63	Pathologie 14104 14109	Peyer
+T64	Date 14520 14524	2016
+T65	Lieu 14584 14595	Royaume-Uni
+T66	Lieu 14603 14609	France
+T68	Lieu 14645 14655	États-Unis
+T69	Lieu 14663 14671	Pays-Bas
+T70	Lieu 14678 14684	Italie
+T71	Lieu 14691 14699	Portugal
+T72	Lieu 14706 14712	Canada
+T73	Lieu 14722 14727	Japon
+T74	Ville 14731 14737	Taïwan
+T75	Lieu 14744 14759	Arabie saoudite
+A1	type T3 pays
+T1	Date 926 930	1996
+T2	Pathologie 1142 1159	Creutzfeldt-Jakob
+A2	type T8 pays
+A3	type T10 pays
+T7	Organisation 4677 4683	Massey
+A4	role T19 soignant
+A5	type T21 pays
+T12	Personne 4939 4952	John Williams
+A6	role T12 autre
+T15	Lieu 5025 5029	Kent
+A7	role T23 inconnu
+A8	type T32 pays
+T16	Date 8191 8195	2006
+A9	type T39 pays
+A10	role T42 inconnu
+A11	role T45 inconnu
+T26	Organisme 9863 9879	Brucella abortus
+T27	Personne 9885 9892	Watarai
+A12	role T27 inconnu
+T31	Date 9894 9898	2004
+T33	Personne 9774 9785	L Broxmeyer
+A13	role T33 inconnu
+A14	type T50 pays
+T36	Pathologie 11776 11793	Creutzfeldt-Jakob
+T41	Pathologie 12157 12174	Creutzfeldt-Jakob
+T47	Profession 11796 11804	éleveurs
+A15	role T55 inconnu
+A16	role T56 inconnu
+T49	Pathologie 12633 12650	Creutzfeldt-Jakob
+T58	Pathologie 12982 12999	Creutzfeldt-Jakob
+A17	type T65 pays
+A18	type T66 pays
+T59	Lieu 14616 14623	Espagne
+A19	type T59 pays
+T62	Lieu 14630 14637	Irlande
+A20	type T62 pays
+A21	type T68 pays
+A22	type T69 pays
+A23	type T70 pays
+A24	type T71 pays
+A25	type T72 pays
+A26	type T73 pays
+A27	type T75 pays
+T67	Pathologie 12508 12525	Creutzfeldt-Jakob

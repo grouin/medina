@@ -1,0 +1,6 @@
+T2	Personne 30 42	F. Guirimand
+T3	Personne 45 59	J. C. Darrieux
+T1	Personne 7 18	morelrennes
+A1	role T1 soignant
+A2	role T2 soignant
+A3	role T3 soignant

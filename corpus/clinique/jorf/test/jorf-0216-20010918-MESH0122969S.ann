@@ -1,0 +1,10 @@
+T1	Lieu 592 608	Bouches-du-Rhône
+T3	Ville 581 590	Marseille
+T4	Id 144 156	MESH0122969S
+T2	Adresse 561 577	rue Saint-Pierre
+T6	Date 282 294	29 mars 2001
+T7	Organisation 508 536	hôpital de La Timone adultes
+T8	Adresse 538 559	boulevard Jean-Moulin
+T9	Date 695 711	26 novembre 1987
+T5	Organisation 364 407	Assistance publique - hôpitaux de Marseille
+A1	type T1 region

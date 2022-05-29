@@ -1,0 +1,19 @@
+T2	Ville 288 296	Poitiers
+T3	Id 0 12	MESH9921705S
+T4	Date 142 155	20 avril 1999
+T1	Adresse 274 280	BP 527
+T6	Cp 282 287	86021
+T7	Personne 680 689	G. Follin
+A1	role T7 soignant
+T8	Personne 691 705	J.-B. de Bress
+A2	role T8 soignant
+T9	Personne 731 743	M. Dervignau
+A3	role T9 soignant
+T10	Personne 776 786	D. Rainssy
+A4	role T10 soignant
+T11	Personne 824 832	D. Loupo
+A5	role T11 soignant
+T12	Personne 834 845	M. Fhirszyn
+A6	role T12 soignant
+T5	Organisation 225 272	centre hospitalier et universitaire de Poitiers
+T13	Cedex 297 302	Cedex

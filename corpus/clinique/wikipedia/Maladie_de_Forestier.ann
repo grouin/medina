@@ -1,0 +1,26 @@
+T1	Ville 3239 3244	Paris
+A3	type T2 pays
+T2	Lieu 4672 4678	France
+T3	Pathologie 14 23	Forestier
+T4	Pathologie 38 63	Forestier et Rotés-Querol
+T5	Personne 322 339	Jacques Forestier
+A1	role T5 soignant
+T6	Personne 368 386	Jaume Rotés Querol
+A2	role T6 soignant
+T7	Profession 388 400	rhumatologue
+T8	Profession 305 312	médecin
+A19	role T18 soignant
+A21	role T20 soignant
+T11	Pathologie 433 442	Forestier
+T16	Pathologie 3894 3919	Forestier et Rotés-Querol
+T17	Pathologie 4747 4772	Forestier et Rotés-Querol
+T18	Personne 1150 1167	Jacques Forestier
+T20	Personne 1664 1681	Jacques Forestier
+T19	Personne 1213 1231	Jaume Rotés-Querol
+A4	role T19 soignant
+T21	Date 1141 1145	1950
+T22	Ville 1360 1373	Aix-les-Bains
+T23	Ville 1278 1287	Barcelone
+T24	Personne 1292 1311	François Jacqueline
+A5	role T24 soignant
+T25	Age 3817 3826	vingt ans

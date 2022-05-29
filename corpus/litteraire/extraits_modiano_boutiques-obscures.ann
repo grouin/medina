@@ -1,0 +1,419 @@
+T2	Adresse 20403 20428	boulevard des Batignolles
+T12	Adresse 20385 20396	rue de Rome
+T13	Adresse 20623 20634	rue de Rome
+T14	Adresse 20687 20698	rue de Rome
+T3	Adresse 19774 19789	97, rue de Rome
+T4	Adresse 19821 19836	97, rue de Rome
+T5	Adresse 19839 19854	97, rue de Rome
+T6	Adresse 19892 19903	rue de Rome
+T7	Adresse 20003 20014	rue de Rome
+T8	Adresse 20035 20050	99, rue de Rome
+T17	Adresse 29 45	rue des Abbesses
+T18	Adresse 119 137	place des Abbesses
+T19	Adresse 169 184	Place de l'Alma
+T20	Adresse 237 251	Cours-la-Reine
+T21	Personne 253 263	Giorgiadzé
+A1	role T21 inconnu
+T22	Adresse 345 368	rue Anatole-de-la-Forge
+T23	Adresse 399 422	rue Anatole-de-la-Forge
+T24	Lieu 15889 15899	Montmartre
+T25	Lieu 15982 15992	Montmartre
+T26	Lieu 16030 16040	Montmartre
+T27	Lieu 16072 16082	Montmartre
+T28	Lieu 16178 16188	Montmartre
+T29	Lieu 16759 16769	Montmartre
+T30	Adresse 516 539	rue Anatole-de-la-Forge
+T31	Adresse 788 811	rue Anatole-de-la-Forge
+T32	Adresse 893 916	rue Anatole-de-la-Forge
+T33	Adresse 4767 4790	rue Anatole-de-la-Forge
+T34	Adresse 9559 9582	rue Anatole-de-la-Forge
+T35	Adresse 565 590	avenue de la Grande-Armée
+T36	Ville 664 677	Ville-d'Avray
+T37	Date 921 957	21 décembre mille neuf cent dix-sept
+T38	Adresse 983 1003	quai d'Austerlitz 19
+T39	Personne 1005 1028	Denise Yvette Coudreuse
+A2	role T39 inconnu
+T40	Adresse 1047 1068	19, quai d'Austerlitz
+T41	Ville 1466 1472	ANVERS
+T43	Ville 1574 1580	Anvers
+T44	Adresse 1896 1913	quai d'Austerlitz
+T45	Lieu 1940 1948	Belgique
+A3	type T45 pays
+T46	Adresse 2063 2080	quai d'Austerlitz
+T47	Ville 2323 2328	Paris
+T48	Lieu 2330 2334	13-e
+T49	Adresse 2298 2319	19, quai d'Austerlitz
+T50	Lieu 2373 2380	Auteuil
+T51	Lieu 2977 2984	Auteuil
+T52	Ville 3237 3242	Paris
+T53	Ville 3266 3271	Paris
+T54	Ville 3924 3929	Paris
+T55	Ville 4196 4201	Paris
+T56	Ville 5737 5742	Paris
+T57	Ville 6629 6634	Paris
+T58	Ville 6684 6689	Paris
+T59	Ville 6795 6800	Paris
+T60	Ville 7645 7650	Paris
+T61	Ville 8510 8515	Paris
+T62	Ville 8578 8583	Paris
+T63	Ville 11857 11862	Paris
+T64	Ville 12865 12870	Paris
+T65	Ville 13573 13578	Paris
+T66	Ville 13589 13594	Paris
+T67	Ville 13761 13766	Paris
+T68	Ville 14034 14039	Paris
+T69	Ville 14896 14901	Paris
+T70	Ville 15774 15779	Paris
+T71	Ville 15811 15816	Paris
+T72	Ville 16235 16240	Paris
+T73	Ville 16486 16491	Paris
+T74	Ville 16792 16797	Paris
+T75	Ville 19576 19581	Paris
+T76	Ville 19791 19796	Paris
+T77	Ville 20054 20059	Paris
+T78	Ville 20087 20092	Paris
+T79	Ville 21170 21175	Paris
+T80	Ville 21197 21202	Paris
+T81	Ville 21752 21757	Paris
+T82	Ville 9707 9720	Ville-d'Avray
+T83	Adresse 9796 9821	avenue de la Grande-Armée
+T87	Personne 2527 2536	Gay Orlow
+A4	role T87 inconnu
+T88	Lieu 2478 2485	Auteuil
+T89	Lieu 2601 2608	Auteuil
+T90	Lieu 2803 2810	Auteuil
+T91	Profession 2989 2995	jockey
+T92	Personne 3004 3017	André Wildmer
+A5	role T92 inconnu
+T93	Adresse 3073 3087	rue de Bassano
+T94	Adresse 3221 3235	24, rue Bayard
+T95	Lieu 3243 3245	8e
+T96	Adresse 3246 3262	11, rue de Berne
+T97	Lieu 3273 3276	8-e
+T98	Adresse 3384 3397	place Blanche
+T99	Adresse 3566 3577	rue Boileau
+T100	Adresse 3651 3662	quai Branly
+T101	Adresse 3678 3701	10 bis , rue Cambacérès
+T102	Lieu 3703 3710	8-e arr
+T103	Adresse 3712 3734	10 bis, rue Cambacérès
+T104	Adresse 4169 4192	10 bis , rue Cambacérès
+T105	Lieu 4203 4206	8-e
+T106	Lieu 5744 5747	8-e
+T107	Lieu 6636 6639	8-e
+T108	Lieu 15781 15784	8-e
+T109	Lieu 16799 16802	8-e
+T111	Adresse 3859 3873	rue Cambacérès
+T112	Adresse 3981 3995	rue Cambacérès
+T113	Personne 4262 4268	Denise
+A6	role T113 inconnu
+T114	Adresse 4246 4260	rue Cambacérès
+A118	role T117 inconnu
+A120	role T119 inconnu
+A122	role T121 inconnu
+A124	role T123 inconnu
+A126	role T125 inconnu
+A128	role T127 inconnu
+T117	Personne 4451 4457	Denise
+T119	Personne 7543 7549	Denise
+T121	Personne 12468 12474	Denise
+T123	Personne 15362 15368	Denise
+T125	Personne 16362 16378	Denise Coudreuse
+T127	Personne 21024 21030	Denise
+T132	Adresse 4511 4525	rue Cambacérès
+T116	Personne 4460 4464	Léon
+A7	role T116 inconnu
+T118	Personne 4466 4472	Hélène
+A8	role T118 inconnu
+T120	Organisation 4594 4600	Langer
+T122	Lieu 4632 4646	Champs-Elysées
+T124	Organisation 4663 4671	Castille
+T126	Adresse 4673 4683	rue Cambon
+T128	Personne 4802 4806	Jean
+A9	role T128 inconnu
+T133	Organisation 4859 4867	Castille
+T134	Organisation 4907 4915	Castille
+T135	Adresse 4917 4927	rue Cambon
+T136	Adresse 4978 4988	rue Cambon
+T137	Adresse 5451 5461	rue Cambon
+T138	Adresse 5580 5590	rue Cambon
+T139	Adresse 5603 5613	rue Cambon
+T140	Adresse 5639 5649	rue Cambon
+T141	Adresse 5723 5733	rue Cambon
+T142	Adresse 7485 7495	rue Cambon
+T143	Adresse 6322 6345	Rue Charles-Marie-Widor
+T144	Organisation 5713 5721	Castille
+T145	Adresse 5837 5849	rue Chalgrin
+T146	Personne 5851 5858	Evelyne
+A10	role T146 inconnu
+T147	Personne 5896 5906	Alex Maguy
+A11	role T147 inconnu
+T148	Personne 5993 6004	Jean-Claude
+A12	role T148 inconnu
+T149	Adresse 6081 6100	rue Chardon-Lagache
+T150	Adresse 6207 6230	rue Charles-Marie-Widor
+T151	Adresse 6272 6290	rue Claude-Lorrain
+T152	Adresse 6469 6492	rue Charles-Marie-Widor
+T153	Profession 6420 6437	chauffeur de taxi
+T154	Organisation 6593 6606	Chateaubriand
+T155	Lieu 6691 6693	8e
+T156	Adresse 6608 6625	18, rue du Cirque
+T157	Adresse 6663 6680	18, rue du Cirque
+T158	Organisation 4968 4976	Castille
+T159	Organisation 6648 6661	Chateaubriand
+T160	Profession 6160 6177	chauffeur de taxi
+T161	Profession 6824 6841	chauffeur de taxi
+T162	Adresse 6871 6894	rue Charles-Marie-Widor
+T163	Adresse 6771 6793	19, rue Claude-Lorrain
+T164	Adresse 6936 6954	rue Claude-Lorrain
+T165	Adresse 7241 7253	place Clichy
+T166	Adresse 7373 7393	place de la Concorde
+T167	Personne 7499 7505	Lucien
+A13	role T167 inconnu
+T168	Personne 7513 7520	Jeannot
+A14	role T168 inconnu
+T169	Adresse 7521 7541	rue de la Convention
+T170	Adresse 7424 7434	Rue Royale
+T171	Adresse 7457 7473	rue Saint-Honoré
+T172	Adresse 7023 7042	boulevard de Clichy
+T173	Organisation 7081 7093	Moulin-Rouge
+T174	Organisation 7164 7169	Graff
+T175	Adresse 7617 7640	boulevard de Courcelles
+T176	Personne 7764 7771	Scouffi
+A15	role T176 inconnu
+T177	Adresse 7816 7827	rue Coustou
+A179	role T178 inconnu
+A181	role T180 inconnu
+T178	Personne 15015 15022	Scouffi
+T180	Personne 16718 16725	Scouffi
+T182	Adresse 8078 8089	rue Coustou
+T183	Adresse 8279 8290	rue Coustou
+T184	Adresse 9505 9516	rue Coustou
+T185	Adresse 21456 21472	rue Saint-Honoré
+T179	Telephone 3664 3675	ANJou 15-28
+T181	Adresse 4932 4942	Rue Cambon
+T186	Organisation 4952 4960	Castille
+T187	Personne 5093 5110	L. de Viel-Castel
+A16	role T187 inconnu
+T188	Profession 5316 5325	concierge
+T189	Profession 5751 5757	acteur
+T190	Lieu 6801 6805	XVIe
+T191	Adresse 8308 8325	rue Germain-Pilon
+T192	Adresse 8359 8381	boulevard Émile-Augier
+T193	Adresse 8444 8463	rue Ernest-Deloison
+T194	Adresse 8493 8508	5, rue Foucault
+T195	Lieu 8516 8521	XVI-e
+T196	Autre 8523 8536	AUTeuil 54-73
+T197	Lieu 8584 8588	16-e
+T198	Organisation 8539 8558	GARAGE DE LA COMÈTE
+T199	Autre 8824 8833	CLI 72-01
+T200	Personne 8661 8667	Arkady
+A17	role T200 inconnu
+T201	Adresse 8638 8654	rue François-1er
+T202	Adresse 8797 8813	1, rue Gabrielle
+T203	Lieu 8815 8822	XVIII-e
+T204	Adresse 8848 8861	rue Gabrielle
+T205	Adresse 8952 8973	quai du Général-Kœnig
+T206	Adresse 9009 9026	rue Germain-Pilon
+T207	Lieu 13580 13584	16-e
+T208	Lieu 13768 13772	16-e
+T209	Adresse 8561 8576	5, rue Foucault
+T210	Lieu 19399 19404	XVI-e
+T211	Profession 13865 13874	concierge
+T213	Adresse 9236 9253	rue Germain-Pilon
+T214	Adresse 9339 9356	rue Germain-Pilon
+T215	Adresse 9534 9551	rue Germain-Pilon
+T216	Adresse 9936 9953	place de l'Étoile
+T217	Adresse 9903 9915	avenue Hoche
+T218	Personne 10042 10056	Basil Zaharoff
+A18	role T218 inconnu
+T219	Adresse 10133 10145	avenue Hoche
+T220	Lieu 10331 10337	France
+A19	type T220 pays
+T221	Adresse 10387 10399	avenue Hoche
+T222	Lieu 10452 10467	Amérique du Sud
+T223	Personne 10532 10540	Zaharoff
+A20	role T223 inconnu
+T224	Adresse 10542 10554	avenue Hoche
+T225	Personne 10584 10591	Wildmer
+A21	role T225 inconnu
+T226	Personne 10650 10658	Rubirosa
+A22	role T226 inconnu
+T227	Personne 10686 10699	Oieg de Wrédé
+A23	role T227 inconnu
+A231	role T230 inconnu
+A235	role T234 inconnu
+T230	Personne 10752 10759	Wildmer
+T234	Personne 10960 10968	Zaharoff
+T236	Adresse 10908 10920	avenue Hoche
+T229	Date 13707 13711	1950
+T231	Personne 13686 13691	Orlow
+A24	role T231 inconnu
+T233	Adresse 12967 12976	rue Lepic
+T235	Adresse 12912 12933	chaussée de la Muette
+T237	Date 12808 12818	avril 1941
+T238	Adresse 13540 13570	25, avenue du Maréchal-Lyautey
+T239	Adresse 13728 13758	25, avenue du Maréchal-Lyautey
+T240	Adresse 13816 13846	25, avenue du Maréchal-Lyautey
+T241	Adresse 14000 14030	25, avenue du Maréchal-Lyautey
+T244	Adresse 13031 13040	rue Lepic
+T243	Adresse 14169 14190	Avenue de Messine, 21
+T245	Autre 14198 14210	CARnot 10-18
+T246	Adresse 14071 14095	boulevard Maurice-Barres
+T247	Adresse 13951 13980	25 avenue du Maréchal-Lyautey
+T248	Organisation 13200 13214	Royal-Villiers
+T249	Adresse 13216 13230	place de Lévis
+T250	Adresse 13470 13487	place Malesherbes
+T251	Adresse 12487 12500	rue La Boétie
+T252	Adresse 11581 11603	Boulevard Julien-Potin
+T253	Personne 11783 11795	Pedro McEvoy
+A25	role T253 inconnu
+T254	Adresse 11123 11133	Rue Jenner
+T255	Adresse 11201 11223	boulevard Julien-Potin
+T256	Adresse 11331 11353	boulevard Julien-Potin
+T257	Adresse 11556 11578	boulevard Julien-Potin
+T258	Date 11884 11897	décembre 1940
+T259	Adresse 11899 11924	9, boulevard Julien-Potin
+T260	Ville 11927 11934	Neuilly
+T261	Lieu 11936 11941	Seine
+T262	Adresse 11977 11999	boulevard Julien-Potin
+T263	Ville 12003 12010	Neuilly
+T264	Adresse 12165 12178	rue La Boétie
+T265	Profession 12154 12163	couturier
+T266	Personne 12305 12312	Jacques
+A26	role T266 inconnu
+T267	Personne 12405 12410	Hutte
+A27	role T267 inconnu
+T268	Adresse 12412 12425	Rue La Boétie
+T269	Personne 12558 12567	Coudreuse
+A28	role T269 inconnu
+T270	Profession 12663 12672	couturier
+T271	Adresse 12678 12695	32, rue La Boétie
+T272	Profession 12711 12720	mannequin
+T273	Personne 12768 12777	Van Allen
+A29	role T273 inconnu
+T274	Adresse 12842 12862	6, square de l'Opéra
+T275	Lieu 12872 12875	9-e
+T276	Lieu 14041 14044	16e
+T277	Adresse 14245 14257	rue Mirabeau
+T278	Adresse 14389 14401	rue Mirabeau
+T279	Adresse 14506 14526	avenue de Versailles
+T280	Adresse 14618 14630	rue Mirabeau
+T281	Adresse 14752 14763	rue Molitor
+T282	Adresse 14773 14785	rue Mirabeau
+T283	Lieu 15129 15136	Monceau
+T284	Adresse 15701 15719	rue du Mont-Thabor
+T285	Adresse 15750 15770	56, avenue Montaigne
+T286	Adresse 15787 15807	56, avenue Montaigne
+T287	Lieu 16205 16215	Sacré-Cœur
+T288	Adresse 16771 16788	26, rue de Naples
+T289	Date 16808 16821	novembre 1924
+T290	Adresse 16845 16862	26, rue de Naples
+T291	Adresse 17000 17018	avenue de New-York
+T292	Adresse 17124 17142	avenue de New-York
+T293	Adresse 17741 17759	avenue de New-York
+T294	Adresse 17848 17866	avenue de New-York
+T295	Personne 17805 17816	Waldo Blunt
+A30	role T295 inconnu
+T296	Lieu 17633 17638	Seine
+T297	Adresse 17886 17897	avenue Niel
+T298	Adresse 17909 17922	place Pereire
+T299	Adresse 18008 18019	avenue Niel
+T300	Adresse 18144 18155	avenue Niel
+A309	role T308 inconnu
+A311	role T310 inconnu
+A313	role T312 inconnu
+A318	role T317 inconnu
+T301	Lieu 19583 19586	16e
+T308	Personne 18203 18208	Hutte
+T310	Personne 18430 18435	Hutte
+T312	Personne 19282 19287	Hutte
+T314	Lieu 15592 15599	Monceau
+T315	Lieu 8901 8911	Sacré-Cœur
+T316	Lieu 19701 19706	Seine
+T317	Personne 18789 18800	Waldo Blunt
+T319	Adresse 18478 18489	avenue Niel
+T320	Adresse 22138 22158	avenue de Versailles
+T322	Adresse 19729 19751	boulevard Julien-Potin
+T323	Adresse 19124 19137	place Pereire
+T303	Adresse 18664 18677	quai de Passy
+T305	Adresse 18680 18693	Quai de Passy
+T307	Adresse 18725 18743	avenue de New-York
+T309	Lieu 18703 18713	Bir-Hakeim
+T311	Adresse 19038 19047	rue Vital
+T313	Adresse 19062 19080	avenue Paul-Doumer
+T318	Adresse 19101 19112	avenue Niel
+T325	Adresse 19214 19227	Place Pereire
+T326	Organisation 19270 19280	Hortensias
+T327	Adresse 19377 19397	rue de la Pompe, 115
+T328	Autre 19407 19418	PASsy 10-89
+T329	Autre 19447 19456	AUT 15-28
+T330	Adresse 19419 19443	21, et 23, rue Raynouard
+T331	Adresse 19523 19540	23, rue Raynouard
+T332	Autre 19544 19553	AUT 15-28
+T333	Adresse 19555 19572	23, rue Raynouard
+T334	Adresse 19607 19632	boulevard Richard-Wallace
+T335	Ville 19684 19691	Puteaux
+T336	Lieu 19798 19819	XVII-e arrondissement
+T337	Organisation 20017 20033	Hôtel de Chicago
+T338	Lieu 20061 20065	17-e
+T339	Lieu 20094 20098	17-e
+T340	Lieu 21204 21208	17-e
+T342	Adresse 20068 20083	97, rue de Rome
+T343	Adresse 20307 20322	97, rue de Rome
+T344	Adresse 21062 21077	97, rue de Rome
+T345	Adresse 21178 21193	97, rue de Rome
+T346	Adresse 20179 20194	99, rue de Rome
+T351	Adresse 21288 21296	rue Rude
+T352	Adresse 21306 21319	rue de Saïgon
+T353	Adresse 21379 21392	rue de Saigon
+T354	Adresse 21767 21788	faubourg Saint-Honoré
+T355	Adresse 21807 21828	faubourg Saint-Honoré
+T356	Adresse 21897 21916	place des Saussaies
+T357	Adresse 22287 22307	avenue de Versailles
+T358	Adresse 22416 22436	avenue de Versailles
+T359	Adresse 22561 22579	avenue Victor-Hugo
+T362	Date 20131 20145	septembre 1931
+T363	Age 20228 20237	vingt ans
+T368	Date 6731 6741	5 novembre
+T370	Date 20115 20128	novembre 1930
+T84	Organisation 1190 1201	A la Marine
+T85	Personne 12617 12621	Muth
+A31	role T85 inconnu
+T86	Personne 12673 12677	J.F.
+A32	role T86 inconnu
+T9	Organisation 20161 20177	hôtel de Chicago
+T10	Personne 20218 20227	Pierre D.
+A33	role T10 inconnu
+T115	Ville 20261 20271	Versailles
+T15	Gentile 6009 6014	Belge
+T16	Lieu 303 318	Alsace-Lorraine
+T11	Profession 1768 1777	mariniers
+T129	Lieu 2249 2263	Halle aux Vins
+T130	Gentile 2996 3003	anglais
+T131	Lieu 3736 3759	huitième arrondissement
+T228	Gentile 5758 5766	japonais
+T212	Gentile 8691 8696	russe
+T232	Adresse 9608 9633	avenue de la Grande-Armée
+T242	Profession 10416 10434	attaché commercial
+T302	Adresse 11076 11088	avenue Hoche
+T304	Gentile 11803 11813	dominicain
+T306	Gentile 12785 12795	hollandais
+T321	Adresse 17462 17480	avenue de New-York
+T324	Organisation 17350 17369	Musée d'Art moderne
+T341	Lieu 18637 18645	Baltique
+T347	Profession 20239 20245	soldat
+T348	Profession 21867 21882	agent de police
+T417	Profession 22117 22125	marchand
+T349	Lieu 15818 15820	8e
+T444	Lieu 1536 1553	gare d'Austerlitz
+T350	Lieu 2192 2210	jardin des Plantes
+T360	Autre 5062 5089	histoire de la Restauration
+A34	classe T360 titre
+T361	Autre 5531 5541	Occupation
+A35	classe T361 epoque
+A36	classe T196 telephone
+A37	classe T199 telephone
+A38	classe T245 telephone
+A39	classe T328 telephone
+A40	classe T329 telephone
+A41	classe T332 telephone

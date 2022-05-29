@@ -1,0 +1,11 @@
+T1	Id 143 155	SANH0420120S
+T3	Lieu 474 483	Côte-d'Or
+T4	Date 330 346	16 décembre 2003
+T5	Personne 724 739	Michel Declesio
+A1	role T5 soignant
+T6	Organisation 609 626	hôpital du Bocage
+T7	Adresse 628 672	10, boulevard Maréchal-de-Lattre-de-Tassigny
+T8	Ville 675 680	Dijon
+T2	URL 161 236	https://www.legifrance.gouv.fr/eli/decision/2004/2/19/SANH0420120S/jo/texte
+T9	Organisation 431 472	centre hospitalier universitaire de Dijon
+A2	type T3 region

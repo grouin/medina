@@ -1,0 +1,14 @@
+T1	Adresse 257 280	2 rue Henri-Le-Guilloux
+T2	Cp 281 286	35033
+T4	Ville 287 293	Rennes
+T5	Date 74 89	22 juillet 2021
+T6	Telephone 185 199	02 99 28 43 21
+T7	Personne 348 372	Véronique ANATOLE-TOUZET
+A1	role T7 soignant
+T8	Personne 409 426	Frédéric RIMATTEI
+A2	role T8 soignant
+T9	Personne 468 481	Cécile BOISSE
+A3	role T9 soignant
+T10	URL 212 238	https://www.chu-rennes.fr/
+T3	Organisation 0 47	Centre hospitalier universitaire (CHU) - Rennes
+T11	Cedex 294 301	Cedex 9

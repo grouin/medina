@@ -1,0 +1,11 @@
+T1	Date 707 718	24 mai 1920
+T2	Ville 728 737	Montargis
+T3	Pathologie 14 21	Elpénor
+T4	Personne 227 234	Elpénor
+A1	role T4 autre
+T5	Personne 251 257	Ulysse
+A2	role T5 autre
+T6	Personne 617 631	Paul Deschanel
+A3	role T6 autre
+T7	Personne 288 293	Circé
+A4	role T7 autre

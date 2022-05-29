@@ -1,0 +1,7 @@
+T3	Lieu 184 190	France
+T1	Lieu 3 9	France
+T2	Substance 31 40	valsartan
+T4	Organisation 86 101	Zhejiang Tianyu
+A2	type T1 pays
+A4	type T3 pays
+#1	AnnotatorNotes T4	entreprise pharmaceutique

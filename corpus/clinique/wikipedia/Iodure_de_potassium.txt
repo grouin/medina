@@ -1,0 +1,17 @@
+L'iodure de potassium est un composé inorganique de formule chimique KI. Il s'agit du sel de potassium et d'acide iodhydrique HI. Il se présente sous la forme d'un solide cristallisé blanc constitué d'ions potassium K+ et iodure I–. C'est l'iodure économiquement le plus important. Moins hygroscopique que l'iodure de sodium NaI, il se manipule plus facilement.
+
+L'iodure de potassium est utilisé en médecine sous la forme de comprimés contenant typiquement 130 mg de KI, ce qui représente environ 100 mg d'iode. Il peut également être administré sous forme de « solution saturée d'iodure de potassium » (SSKI).
+
+Applications pharmaceutiques
+- Les solutions saturées d'iodure de potassium (SSKI) peuvent être utilisées comme traitement d'urgence pour l'hyperthyroïdie, un fort taux d'iodure arrêtant temporairement la sécrétion de la thyroxine par la glande thyroïdienne. Le traitement typique commence par une dose de charge, puis 1/3 mL de SSKI trois fois par jour.
+- Des solutions d'iodures, à base de quelques gouttes de SSKI ajoutées à une boisson, peuvent être utilisées comme expectorants afin d'augmenter le taux d'eau dans les sécrétions respiratoires et de faciliter leur expectoration.
+- La SSKI a été proposée comme traitement topique contre la sporotrichose, mais aucun essai n'a été mené pour déterminer son efficacité ni ses éventuels effets secondaires.
+- L'iodure de potassium a été utilisé comme traitement symptomatique chez les patients souffrant d'érythème noueux dont la cause de lésions persistantes était inconnue. Il a notamment été utilisé dans les cas d'érythèmes noueux associé à la maladie de Crohn.
+
+Protection de la thyroïde durant certains traitements médicaux
+L'iodure de potassium est utilisé pour saturer la thyroïde d'iode non-radioactif lorsqu'on utilise des composés contenant de l'iode radioactif en médecine nucléaire, que ce soit pour diagnostic (imagerie médicale) ou pour traitement, et que la thyroïde n'est pas ciblée. C'est par exemple le cas de l'iobenguane (MIBG), utilisé aussi bien pour repérer de tissus tumoraux par scintigraphie que pour les traiter. C'est aussi le cas du fibrinogène iodé, utilisé en radioimagerie au fibrinogène pour observer la coagulation. Même si ces composés qui contiennent de l'iode radioactif ne le contiennent pas sous forme d'iodure, ils peuvent être finalement métabolisés ou décomposés en donnant des iodures radioactifs, que la thyroïde a naturellement tendance à absorber. Pour éviter cela, il est donc commun de saturer la thyroïde avec de l'iode non-radioactif.
+
+Protection de la thyroïde en cas d'incident, attaque ou accident nucléaire
+En cas de contamination radioactive de l'environnement par l'iode 131, par exemple après un accident nucléaire, l'attaque d'une centrale nucléaire ou en cas de retombées radioactives due à une bombe atomique ou d'une « bombe sale », de nombreux radionucléides volatils, produits de fission, peuvent être relâchés dans l'environnement. L'un des plus communs est l'iode 131, qui a la particularité d'être facilement assimilé par la thyroïde, et est de ce fait susceptible de provoquer des cancers de la thyroïde.
+
+En 1999, l'Organisation mondiale de la santé a estimé que les comprimés de KI en usage préventif dans le cas de retombées nucléaires ne sont pas recommandés pour les adultes de plus de 40 ans (sauf si les niveaux de radiations inhalés prévus menacent la fonction thyroïdienne) car les effets secondaires de l'iodure de potassium augmentent avec l'âge et peuvent dépasser ses effets protecteurs.

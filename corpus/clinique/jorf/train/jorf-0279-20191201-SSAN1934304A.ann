@@ -1,0 +1,16 @@
+T6	Date 10 26	28 novembre 2019
+T7	Date 204 220	28 novembre 2019
+T8	Id 102 114	SSAN1934304A
+T9	Personne 225 240	Axel MERRINASEL
+A1	role T9 soignant
+T10	Date 248 260	26 juin 1994
+T1	Ville 263 271	Enschede
+T2	Lieu 273 281	Pays-Bas
+T3	Personne 441 455	Oscaldo Bineri
+A2	role T3 soignant
+T4	Date 742 759	1er novembre 2019
+T11	Organisation 459 535	groupe hospitalier Pitié-Salpêtrière - Assistance publique-hôpitaux de Paris
+T5	Lieu 88 94	France
+A3	type T5 pays
+A4	date T10 naissance
+A5	type T2 pays

@@ -1,0 +1,9 @@
+T1	Pathologie 14 20	Berger
+T2	Date 223 227	1966
+T3	Personne 246 257	Jean Berger
+A1	role T3 soignant
+T4	Organisation 272 278	Necker
+T5	Ville 281 286	Paris
+T6	Personne 392 407	Nicole Hinglais
+A2	role T6 inconnu
+T7	Date 428 432	1968

@@ -1,0 +1,51 @@
+T1	Pathologie 14 20	Horton
+T2	Personne 372 383	Ali Ibn Isa
+T3	Ville 387 393	Bagdad
+T4	Personne 465 475	Hutchinson
+T5	Date 480 484	1890
+T6	Date 566 570	1932
+T7	Personne 572 592	Bayard Taylor Horton
+T8	Personne 596 612	Thomas B. Magath
+T9	Pathologie 731 737	Horton
+T10	Age 1181 1187	71 ans
+T11	Age 902 908	50 ans
+T12	Age 1079 1085	50 ans
+T13	Age 1260 1266	60 ans
+T16	Pathologie 2239 2245	Horton
+T17	Pathologie 2358 2364	Horton
+T18	Pathologie 2416 2422	Horton
+T19	Pathologie 2665 2671	Horton
+T20	Pathologie 3278 3284	Horton
+T21	Pathologie 3701 3707	Horton
+T22	Pathologie 4481 4487	Horton
+T23	Pathologie 4808 4814	Horton
+T24	Pathologie 5352 5358	Horton
+T25	Pathologie 5652 5658	Horton
+T26	Pathologie 6504 6510	Horton
+T27	Pathologie 7253 7259	Horton
+T28	Pathologie 8198 8204	Horton
+T29	Pathologie 8499 8505	Horton
+T30	Pathologie 8596 8602	Horton
+T31	Pathologie 8937 8943	Horton
+T32	Pathologie 9092 9098	Horton
+T33	Pathologie 9176 9182	Horton
+T34	Pathologie 9198 9204	Horton
+T38	Date 5581 5585	1960
+T39	Personne 3657 3663	Rahman
+T40	Date 8340 8344	1945
+T41	Date 8686 8690	1965
+T43	Pathologie 9769 9775	Horton
+T44	Pathologie 9948 9954	Horton
+T45	Pathologie 10427 10433	Horton
+T35	Personne 10370 10373	Lie
+A1	role T2 inconnu
+A2	role T7 soignant
+A3	role T8 soignant
+A4	role T4 soignant
+A5	role T39 inconnu
+T15	Date 5377 5381	1938
+T36	Date 5444 5448	1946
+T37	Personne 5450 5455	Cooke
+A6	role T37 inconnu
+A7	role T35 inconnu
+T14	Organisation 10882 10893	Mayo Clinic

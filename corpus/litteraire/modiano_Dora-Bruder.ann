@@ -1,0 +1,165 @@
+T1	Ville 325 330	Paris
+T11	Ville 4591 4596	Paris
+T2	Ville 424 429	Paris
+T4	Ville 1011 1016	Paris
+T5	Ville 2825 2830	Paris
+T7	Ville 3063 3068	Paris
+T8	Ville 4114 4119	Paris
+T9	Ville 4197 4202	Paris
+A13	role T12 inconnu
+T12	Personne 2286 2296	Jeanne Bem
+A17	role T16 autre
+A19	role T18 autre
+A21	role T20 autre
+A23	role T22 autre
+A25	role T24 autre
+A27	role T26 autre
+A29	role T28 autre
+A31	role T30 autre
+T14	Date 592 596	1988
+T16	Personne 71 86	Patrick Modiano
+T18	Personne 482 497	Patrick Modiano
+T20	Personne 572 587	Patrick Modiano
+T22	Personne 1078 1093	Patrick Modiano
+T24	Personne 2300 2315	Patrick Modiano
+T26	Personne 2560 2575	Patrick Modiano
+T28	Personne 2840 2855	Patrick Modiano
+T30	Personne 4393 4408	Patrick Modiano
+T13	Date 97 109	2 avril 1997
+T17	Personne 301 312	Dora Bruder
+A1	role T17 inconnu
+T19	Date 342 346	1941
+T21	Date 647 663	31 décembre 1941
+T23	Adresse 989 1009	41, boulevard Ornano
+T25	Age 798 804	15 ans
+T27	Personne 981 987	Bruder
+A2	role T27 inconnu
+A64	role T63 inconnu
+A66	role T65 inconnu
+A68	role T67 inconnu
+A76	role T75 inconnu
+A78	role T77 inconnu
+A80	role T79 inconnu
+A82	role T81 inconnu
+A86	role T85 inconnu
+A88	role T87 inconnu
+A90	role T89 inconnu
+A92	role T91 inconnu
+A94	role T93 inconnu
+T32	Age 3133 3139	15 ans
+T35	Date 3473 3477	1941
+T36	Date 2925 2941	31 décembre 1941
+T37	Adresse 3086 3106	41, boulevard Ornano
+T38	Adresse 4637 4657	41, boulevard Ornano
+T63	Personne 4661 4674	Ernest Bruder
+T65	Personne 4721 4734	Cécile Bruder
+T67	Personne 4809 4815	Bruder
+T73	Autre 0 11	Dora Bruder
+T75	Personne 785 796	Dora Bruder
+T77	Personne 1595 1606	Dora Bruder
+T79	Personne 1843 1854	Dora Bruder
+T81	Personne 2013 2024	Dora Bruder
+T83	Autre 2434 2445	Dora Bruder
+T85	Personne 2726 2737	Dora Bruder
+T87	Personne 2974 2985	Dora Bruder
+T89	Personne 3597 3608	Dora Bruder
+T91	Personne 4550 4561	Dora Bruder
+T93	Personne 4834 4845	Dora Bruder
+T29	Personne 1097 1112	Serge Klarsfeld
+A3	role T29 autre
+T31	Personne 1307 1314	Modiano
+A4	role T31 autre
+T40	Date 1335 1347	3 avril 1997
+T42	Date 1625 1629	1989
+T44	Personne 2635 2646	Hélène Berr
+A5	role T44 autre
+T46	Date 2834 2838	1940
+T48	Lieu 3041 3059	12e arrondissement
+T50	Date 2994 3009	25 février 1926
+T52	Organisation 3022 3032	Rothschild
+A104	role T103 autre
+A112	role T111 autre
+A116	role T115 autre
+T103	Personne 1369 1376	Modiano
+T111	Personne 3309 3316	Modiano
+T115	Personne 1259 1274	Serge Klarsfeld
+T54	Date 3826 3843	18 septembre 1942
+T56	Ville 3813 3822	Auschwitz
+T58	Date 4050 4054	2014
+T60	Date 4158 4162	2014
+T62	Lieu 4175 4193	18e arrondissement
+T64	Adresse 4205 4226	promenade Dora-Bruder
+T66	Lieu 4290 4305	Petite Ceinture
+T68	Adresse 4326 4338	rue Belliard
+T70	Adresse 4345 4356	rue Leibniz
+T72	Date 4412 4425	1er juin 2015
+T74	Personne 4120 4132	Anne Hidalgo
+A6	role T74 autre
+T76	Profession 4105 4110	maire
+T78	Date 4615 4619	1926
+T80	Ville 4699 4705	Vienne
+T82	Lieu 4709 4717	Autriche
+A7	type T82 pays
+T84	Personne 4688 4692	Dora
+A8	role T84 inconnu
+T86	Ville 4913 4919	Sevran
+T88	Lieu 4941 4951	Freinville
+T90	Adresse 4956 4974	2, avenue Liégeard
+T92	Date 5004 5008	1926
+T94	Personne 5044 5058	Erickel Burdej
+A9	role T94 inconnu
+T96	Personne 5062 5076	Dincze Kutinéa
+A10	role T96 inconnu
+T98	Personne 5036 5042	Cécile
+A11	role T98 inconnu
+T100	Personne 5235 5241	Joseph
+A12	role T100 inconnu
+T102	Profession 5243 5251	tailleur
+T104	Personne 5253 5257	Rosa
+A14	role T104 inconnu
+T106	Profession 5259 5270	photographe
+T108	Personne 5275 5285	Marguerite
+A15	role T108 inconnu
+A125	role T124 inconnu
+A145	role T144 inconnu
+A153	role T152 inconnu
+A157	role T156 inconnu
+A159	role T158 inconnu
+T124	Personne 4877 4890	Cécile Burder
+T144	Personne 3590 3594	Dora
+T152	Personne 4748 4752	Dora
+T156	Personne 5208 5212	Dora
+T158	Personne 5121 5135	Erickel Burdej
+T160	Personne 4860 4873	Ernest Bruder
+T161	Ville 4994 5000	Sevran
+T162	Profession 5142 5150	tailleur
+T165	Ville 3782 3788	Drancy
+T110	Date 3478 3482	1942
+T112	Gentile 2658 2667	Française
+T114	Gentile 3637 3649	autrichienne
+T116	Lieu 3713 3734	caserne des Tourelles
+T119	Adresse 3738 3755	boulevard Mortier
+T121	Gentile 5095 5104	Sevranais
+T123	Gentile 269 279	parisienne
+T174	Organisation 123 132	Gallimard
+T125	Autre 633 643	Paris-Soir
+A16	classe T125 titre
+T127	Ville 748 753	PARIS
+A18	classe T73 titre
+T129	Age 4564 4575	adolescente
+T131	Autre 4026 4031	Nobel
+A20	classe T131 prix
+A177	classe T176 titre
+T176	Autre 2911 2921	Paris-Soir
+T178	Profession 1180 1186	auteur
+T179	Profession 2675 2681	auteur
+T3	Autre 385 395	Occupation
+A22	classe T3 epoque
+T15	Autre 1759 1774	Voyage de noces
+A24	classe T15 titre
+A26	classe T83 titre
+T33	Autre 2705 2715	Occupation
+A28	classe T33 epoque
+T6	Autre 4480 4490	Paris Soir
+A30	classe T6 titre
+A32	role T160 inconnu

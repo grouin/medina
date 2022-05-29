@@ -1,0 +1,57 @@
+T1	Date 2460 2464	1960
+T2	Pathologie 14 23	Parkinson
+T3	Personne 37 52	James Parkinson
+A1	role T3 soignant
+T4	Date 56 60	1817
+T5	Pathologie 677 686	Alzheimer
+T6	Personne 1369 1385	Armand Trousseau
+A2	role T6 soignant
+T7	Personne 1387 1393	Gowers
+A3	role T7 soignant
+T8	Personne 1395 1409	Kinnier Wilson
+A4	role T8 soignant
+T9	Personne 1413 1424	Wilhelm Erb
+A5	role T9 soignant
+T10	Personne 1446 1465	Jean-Martin Charcot
+A6	role T10 soignant
+T11	Personne 2205 2219	Arvid Carlsson
+A7	role T11 inconnu
+T12	Date 2498 2502	1997
+T13	Date 1742 1746	1911
+T14	Date 2170 2174	1950
+T15	Personne 1748 1761	Frederic Lewy
+A8	role T15 inconnu
+T16	Date 878 882	1817
+T17	Age 581 583	45
+T18	Age 587 593	70 ans
+T19	Date 1500 1504	1868
+T20	Date 1508 1512	1881
+A23	role T22 soignant
+A25	role T24 soignant
+T21	Date 2866 2870	1911
+T22	Personne 904 919	James Parkinson
+T24	Personne 1721 1736	James Parkinson
+T27	Pathologie 702 711	Parkinson
+T30	Pathologie 2348 2357	Parkinson
+T31	Pathologie 2434 2443	Parkinson
+T32	Pathologie 3089 3098	Parkinson
+T23	Personne 2875 2887	Casimir Funk
+A9	role T23 inconnu
+T25	Anatomie 2580 2584	Lewy
+T33	Substance 2816 2824	Levodopa
+T34	Substance 2755 2763	levodopa
+T35	Date 3120 3124	1980
+T36	Date 2991 2995	1967
+T37	Personne 1884 1905	Konstantin Tretiakoff
+A10	role T37 inconnu
+T38	Anatomie 1867 1871	Lewy
+T39	Date 1878 1882	1919
+T40	Date 2079 2083	1938
+T41	Personne 2469 2477	Ehringer
+A11	role T41 inconnu
+T42	Personne 2481 2493	Hornykiewicz
+A12	role T42 inconnu
+T43	Personne 2063 2075	Rolf Hassler
+A13	role T43 inconnu
+T45	Profession 1326 1337	neurologues
+T46	Profession 887 894	médecin

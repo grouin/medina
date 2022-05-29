@@ -1,0 +1,14 @@
+T2	Date 77 89	03 mars 2020
+T3	Telephone 185 199	04 67 33 67 57
+T4	Telephone 207 221	04 67 33 67 51
+T5	Mail 235 271	pharmacovigilance@chu-montpellier.fr
+T6	Organisation 423 448	CHRU - Hôpital Lapeyronie
+T7	Adresse 449 478	371 avenue du Doyen G. Giraud
+T8	Cp 479 484	34295
+T9	Ville 485 496	Montpellier
+T10	Personne 542 565	Dominique HILLAIRE-BUYS
+A1	role T10 soignant
+T11	URL 284 362	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T12	URL 375 404	http://www.chu-montpellier.fr
+T1	Organisation 0 50	Centre régional de pharmacovigilance - Montpellier
+T13	Cedex 497 504	Cedex 5

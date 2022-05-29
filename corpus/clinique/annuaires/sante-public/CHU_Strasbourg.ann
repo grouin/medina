@@ -1,0 +1,16 @@
+T1	Adresse 336 356	1 place de l'Hôpital
+T2	Cp 364 369	67091
+T3	Cp 357 363	BP 426
+T5	Ville 370 380	Strasbourg
+T6	Date 78 93	23 juillet 2021
+T7	Telephone 189 203	03 88 11 67 68
+T8	Mail 217 246	courrierdg@chru-strasbourg.fr
+T9	Personne 431 443	Michäel GALY
+A1	role T9 soignant
+T10	Personne 480 495	Franck D’ATTOMA
+A2	role T10 soignant
+T11	Personne 538 554	Claudia SIEGWALD
+A3	role T11 soignant
+T12	URL 259 289	http://www.chru-strasbourg.fr/
+T13	Cedex 381 386	Cedex
+T4	Organisation 0 51	Centre hospitalier universitaire (CHU) - Strasbourg

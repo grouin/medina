@@ -1,0 +1,35 @@
+T1	Id 0 12	MESH9921701S
+T3	Adresse 257 263	BP 217
+T4	Cp 265 270	38043
+T5	Ville 271 279	Grenoble
+T6	Date 142 155	20 avril 1999
+T7	Personne 664 676	A.-C. Errani
+A1	role T7 soignant
+T8	Personne 678 685	G. Ilir
+A2	role T8 soignant
+T9	Personne 687 696	K. Monard
+A3	role T9 soignant
+T10	Personne 698 714	O. Quouvin-Selle
+A4	role T10 soignant
+T11	Personne 716 726	T.-V. Xiao
+A5	role T11 soignant
+T12	Personne 763 775	Z. Baltazard
+A6	role T12 soignant
+T13	Personne 777 789	D. Fincanter
+A7	role T13 soignant
+T14	Personne 823 833	H.-J. Lyan
+A8	role T14 soignant
+T15	Personne 835 845	N. Prennon
+A9	role T15 soignant
+T16	Personne 847 859	R. Tarranoin
+A10	role T16 soignant
+T17	Personne 861 868	V. Xang
+A11	role T17 soignant
+T18	Personne 906 916	Z. Bhouini
+A12	role T18 soignant
+T19	Personne 918 925	D. Fler
+A13	role T19 soignant
+T20	Personne 927 935	H. Jarod
+A14	role T20 soignant
+T2	Organisation 225 255	centre hospitalier de Grenoble
+T21	Cedex 280 285	Cedex

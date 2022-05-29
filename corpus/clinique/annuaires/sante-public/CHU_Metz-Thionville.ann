@@ -1,0 +1,17 @@
+T3	Date 78 93	05 juillet 2021
+T4	Telephone 189 203	03 87 55 31 31
+T5	Mail 217 254	dg-secretariat@chr-metz-thionville.fr
+T6	Adresse 320 338	1 allée du Château
+T7	Cp 339 347	CS 45001
+T8	Cp 348 353	57085
+T9	Ville 354 358	Metz
+T10	Personne 413 433	Marie-Odile SAILLARD
+A1	role T10 soignant
+T11	Personne 470 482	Thomas TALEC
+A2	role T11 soignant
+T12	Ville 509 519	Thionville
+T13	Personne 525 550	Henri-Dominique MENNECIER
+A3	role T13 soignant
+T14	URL 267 301	http://www.chr-metz-thionville.fr/
+T1	Organisation 0 51	Centre hospitalier régional (CHR) - Metz-Thionville
+T2	Cedex 359 366	Cedex 3

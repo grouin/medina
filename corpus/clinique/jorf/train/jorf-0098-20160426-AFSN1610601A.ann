@@ -1,0 +1,14 @@
+T3	Date 10 22	29 mars 2016
+T4	Id 98 110	AFSN1610601A
+T5	Date 206 218	29 mars 2016
+T6	Personne 223 238	Lionel BROCHANT
+A1	role T6 soignant
+T7	Date 682 696	1er avril 2016
+T9	Date 246 259	1er mars 1971
+T1	Ville 262 273	Wittewierum
+T8	Lieu 275 283	Pays-Bas
+T10	Organisation 425 476	hôpital civil-hôpitaux universitaires de Strasbourg
+T2	Lieu 84 90	France
+A2	type T2 pays
+A3	date T9 naissance
+A4	type T8 pays

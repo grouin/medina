@@ -1,0 +1,16 @@
+T1	Date 925 937	19 mars 2018
+T2	Lieu 273 278	Liban
+T3	Ville 262 271	Bouchrieh
+T4	Date 10 26	20 novembre 2019
+T5	Id 102 114	SSAN1933417A
+T6	Date 204 220	20 novembre 2019
+T7	Personne 225 236	Sami CHERKI
+A1	role T7 soignant
+T8	Date 244 259	12 février 1972
+T9	Organisation 553 623	Hôpital Necker-Enfants Malades - Assistance publique-Hôpitaux de Paris
+T11	Personne 532 546	Philippe Calmo
+A2	role T11 soignant
+T10	Lieu 88 94	France
+A3	type T10 pays
+A4	date T8 naissance
+A5	type T2 pays

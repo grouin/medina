@@ -1,0 +1,16 @@
+T1	Date 812 824	19 mars 2018
+A4	role T3 soignant
+T3	Personne 461 477	Valériane Davier
+T4	Date 10 26	28 novembre 2019
+T5	Id 102 114	SSAN1934284A
+T6	Personne 225 238	Sauveur DELBO
+A1	role T6 soignant
+T7	Date 204 220	28 novembre 2019
+T9	Date 246 260	8 juillet 1941
+T2	Ville 263 268	Liège
+T8	Lieu 270 278	Belgique
+T10	Organisation 482 510	centre hospitalier de Nevers
+T11	Lieu 88 94	France
+A2	type T11 pays
+A3	date T9 naissance
+A5	type T8 pays

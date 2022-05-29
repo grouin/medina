@@ -1,0 +1,14 @@
+T1	Date 773 785	19 mars 2018
+T4	Date 10 24	9 juillet 2019
+T5	Id 100 112	SSAN1920161A
+T6	Date 202 216	9 juillet 2019
+T7	Personne 221 233	Maqsim BELAR
+A1	role T7 soignant
+T8	Date 241 256	27 juillet 1946
+T9	Ville 259 265	Zurich
+T10	Lieu 267 273	Suisse
+T2	Organisation 420 464	hospices civils de Lyon, hôpital Mère-Enfant
+T3	Lieu 86 92	France
+A2	type T3 pays
+A3	date T8 naissance
+A4	type T10 pays

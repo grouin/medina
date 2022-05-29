@@ -1,0 +1,10 @@
+T1	Id 145 157	SANH9403627S
+T2	Date 233 249	9 septembre 1994
+T3	Date 271 283	28 juin 1993
+T4	Organisation 320 343	clinique du Bon-Secours
+T5	Lieu 307 315	Auvergne
+T6	Adresse 345 373	67 bis, avenue Maréchal-Foch
+T7	Ville 378 390	Puy-en-Velay
+T8	Lieu 392 403	Haute-Loire
+A1	type T5 region
+A2	type T8 region

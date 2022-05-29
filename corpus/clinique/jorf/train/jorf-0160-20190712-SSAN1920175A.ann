@@ -1,0 +1,17 @@
+T3	Date 10 24	9 juillet 2019
+T4	Date 202 216	9 juillet 2019
+T5	Id 100 112	SSAN1920175A
+T6	Personne 221 232	Amil FIERGO
+A1	role T6 soignant
+T1	Date 240 252	23 mars 1985
+T2	Ville 255 272	Palma de Majorque
+T7	Lieu 274 281	Espagne
+T8	Personne 515 528	Henry MANDARD
+A2	role T8 soignant
+T9	Ville 567 575	Aurillac
+T10	Organisation 533 564	Centre Hospitalier Henri Mondor
+T11	Date 874 886	19 mars 2018
+T12	Lieu 86 92	France
+A3	type T12 pays
+A4	date T1 naissance
+A5	type T7 pays

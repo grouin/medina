@@ -1,0 +1,27 @@
+T1	Personne 0 20	Johann Georg Wirsung
+A1	role T1 soignant
+T2	Date 22 36	3 juillet 1589
+T3	Date 37 49	22 août 1643
+T4	Ville 91 97	Padoue
+T5	Ville 105 114	Augsbourg
+T6	Date 139 143	1642
+T7	Anatomie 187 194	Wirsung
+T8	Personne 222 245	Zuane Viaro della Badia
+A2	role T8 inconnu
+T9	Age 266 272	30 ans
+T10	Lieu 533 539	Europe
+T11	Personne 621 628	Wirsung
+T12	Date 646 650	1643
+A3	role T11 soignant
+T13	Personne 655 670	Giacomo Cambier
+A4	role T13 inconnu
+T14	Personne 755 769	Moritz Hoffman
+A5	role T14 soignant
+T15	Date 771 775	1622
+T16	Date 776 780	1698
+T17	Personne 815 822	Wirsung
+A6	role T17 soignant
+A22	role T21 soignant
+T21	Personne 362 369	Wirsung
+T20	Profession 58 68	anatomiste
+T22	Adresse 317 331	place des Vins

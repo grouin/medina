@@ -1,0 +1,18 @@
+Le Stalinon est un ancien médicament contre les infections à staphylocoques, à base de diiododiéthylétain, retiré du marché lorsque l'on s'aperçut de sa toxicité.
+
+Histoire
+Conception et distribution
+
+Le Stalinon est conçu au début des années 1950 comme traitement contre la furonculose. La Stannomaltine, une spécialité pharmaceutique à base d'étain et d'oxyde d'étain, est alors tombée en désuétude, mais l'efficacité de l'étain dans le traitement des affections à staphylocoques est connue depuis longtemps. Un pharmacien français, Georges Feuillet, décide alors de façonner un médicament à base de diiododiéthylétain, dont l'efficacité expérimentale contre le staphylocoque a été démontrée quelques années plus tôt, et d'acide linoléique (« vitamine F », réputée bonne pour la peau). Il l'appelle « Stalinon » (de stannum, le nom latin de l'étain, et « -linon » pour l'acide linoléique extrait du lin), et en argumente la mise sur le marché en le présentant comme un dérivé de la Stannomaltine, bien qu'il en diffère sensiblement.
+
+L'autorisation est accordée en 1953, il est mis sur le marché en novembre de la même année, vendu sans ordonnance. Des anomalies apparaissent rapidement : le médicament est vendu sous forme de perles qui devaient être limpides, mais qui finalement sont teintées pour cacher l'apparition d'un précipité dont le distributeur ne s'inquiète pas, pas plus qu'il ne tient compte des alertes qu'il reçoit de la part de médecins et pharmaciens à partir de mai 1954. Face aux alertes des médecins, Feuillet se veut rassurant, leur répondant : « Nos laboratoires contrôlent rigoureusement la fabrication, et les essais du laboratoire national des médicaments ne relèvent aucune toxicité » et se borne à ordonner, discrètement, de réduire la quantité de diiododiéthylétain dans les futures préparations. Les victimes sont atteintes de troubles neurologiques : « céphalées intolérables, vomissements, vertiges, troubles urinaires, douleurs abdominales, température très basse, vision double et fatigue à la lumière », ainsi que de troubles psychiques graves — conséquences d'un œdème cérébral. Les cas d'intoxications s'accumulent alors, jusqu'à ce que la toxicité désormais indéniable du Stalinon soit rendue publique en juin 1954. La délivrance du produit est suspendue en juillet 1954. Le Stalinon a alors fait plusieurs centaines de victimes, dont 102 décèdent, de nombreuses autres gardant des séquelles lourdes. Sur le long terme, des survivants subissent une perte d'acuité visuelle, des céphalées chroniques, des troubles moteurs allant jusqu'à la paralysie des membres inférieurs.
+
+Procès
+Le procès qui s'ensuit met en lumière plusieurs graves défauts dans la procédure de mise sur le marché :
+- l'autorisation reposait sur une modification de formule de la Stannomaltine, alors que les deux médicaments n'ont presque rien en commun ;
+- les tests de toxicité ont été faits par erreur avec des gélules contenant 3 mg au lieu de 50 mg de principe actif (la version commercialisée étant supposément dosée à 15 mg par gélule) ;
+- la toxicité des composés organiques de l'étain peut se manifester lentement - les tests utilisés étaient donc insuffisants pour mettre cette toxicité en évidence ;
+- en raison de défauts de vérification de la part du fabricant et du distributeur, le médicament mis sur le marché était contaminé à l'iodure de triéthylétain, plus toxique ;
+- les composés de l'étain ont pu réagir avec des produits de dégradation de l'acide linoléique.
+
+Le procès qui s'achève en décembre 1957 condamne le pharmacien responsable à deux ans de prison et une lourde amende.

@@ -1,0 +1,35 @@
+T1	Ville 15 20	Paris
+T2	Ville 148 153	Paris
+T3	Ville 408 413	Paris
+T4	Ville 692 697	Paris
+A10	type T9 pays
+T9	Lieu 508 514	France
+T10	Personne 181 189	Stendhal
+A1	role T10 autre
+T12	Ville 196 205	Jérusalem
+T13	Lieu 371 383	Montparnasse
+T14	Personne 416 430	Amélie Poulain
+A2	role T14 autre
+A16	type T15 pays
+T15	Lieu 576 581	Japon
+T16	Personne 623 634	Hiroaki Ōta
+A3	role T16 soignant
+T18	Organisation 678 689	Sainte-Anne
+T20	Date 751 755	1986
+T21	Date 824 828	2004
+A27	role T26 autre
+A29	role T28 autre
+T22	Ville 893 898	Paris
+T23	Ville 1320 1325	Paris
+T24	Ville 1369 1374	Paris
+T25	Ville 1506 1511	Paris
+T26	Personne 1690 1698	Stendhal
+T28	Personne 1787 1795	Stendhal
+T30	Profession 1294 1301	médecin
+T5	Personne 1276 1292	Youcef Mahmoudia
+A4	role T5 soignant
+T6	Organisation 1306 1316	Hôtel-Dieu
+T7	Personne 1735 1754	Graziella Magherini
+A5	role T7 soignant
+T8	Profession 1713 1724	psychologue
+T31	Profession 645 655	psychiatre

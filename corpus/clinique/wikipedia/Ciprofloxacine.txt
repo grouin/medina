@@ -1,0 +1,34 @@
+La ciprofloxacine est la dénomination internationale d'un antibiotique de synthèse créé et commercialisé par les laboratoires Bayer sous le nom de Ciflox en France, Ciproxine en Belgique, Ciprinol en Roumanie et Moldavie et Cipro au Canada et aux États-Unis. Elle appartient à la famille des quinolones de deuxième génération ou fluoroquinolones.
+
+La ciprofloxacine est bactéricide. Elle neutralise les enzymes bactériennes de réplication empêchant toute multiplication cellulaire. Elle agit sur les topoisomérases de type II (ADN gyrase) et de type IV.
+
+Activité
+La ciprofloxacine est un antibiotique à large spectre, habituellement efficace sur les bactéries Gram-positives, Gram-négatives, les germes atypiques (intracellulaires) et certains genres anaérobies. Elle inhibe l'ADN gyrase bactérienne, une enzyme de la famille des topoisomérases, nécessaire à la réplication de l'ADN de la bactérie.
+
+Elle est efficace sur :
+- la famille des Enterobacteriaceae
+- Vibrio
+- Haemophilus influenzae
+- Haemophilus ducreyi
+- Neisseria gonorrhoeae
+- Neisseria meningitidis
+- Moraxella catarrhalis
+- Brucella
+- Campylobacter
+- Arcobacter
+- Mycobacterium intracellulare
+- Legionella sp.
+- Pseudomonas aeruginosa
+- Bacillus anthracis
+
+Activité diminuée sur :
+- Streptococcus pneumoniae
+- Chlamydia trachomatis
+- Chlamydia pneumoniae
+
+Habituellement résistance des :
+- Bacteroides
+- Burkholderia cepacia
+- Enterococcus faecium
+- Ureaplasma urealyticum
+- Streptococcus pyogenes

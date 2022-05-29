@@ -1,0 +1,16 @@
+T1	Date 828 840	19 mars 2018
+T2	Lieu 266 273	Algérie
+T3	Date 10 21	2 août 2019
+T4	Date 199 210	2 août 2019
+T5	Id 97 109	SSAN1923049A
+T6	Personne 215 234	Abdelmadjid SATTOUF
+A1	role T6 soignant
+T7	Date 242 254	13 juin 1973
+T8	Ville 257 264	Tlemcen
+T10	Personne 456 474	Messali MDAOUROUCH
+A2	role T10 soignant
+T9	Organisation 479 526	centre hospitalier de l'Agglomération de Nevers
+T11	Lieu 83 89	France
+A3	type T11 pays
+A4	date T7 naissance
+A5	type T2 pays

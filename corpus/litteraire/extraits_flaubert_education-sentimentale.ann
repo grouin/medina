@@ -1,0 +1,49 @@
+T1	Adresse 29 49	place de la Bastille
+T2	Adresse 205 228	boulevard des Capucines
+T3	Adresse 323 346	boulevard des Capucines
+T4	Adresse 436 449	rue Coq-Héron
+T5	Personne 408 416	Frédéric
+A1	role T5 inconnu
+T6	Personne 514 523	Rosanette
+A2	role T6 inconnu
+A10	role T9 inconnu
+A12	role T11 inconnu
+A8	role T7 inconnu
+T11	Personne 1962 1970	Frédéric
+T7	Personne 1251 1259	Frédéric
+T9	Personne 1612 1620	Frédéric
+T8	Adresse 612 622	rue Drouot
+T10	Adresse 673 688	rue de Grammont
+T12	Adresse 700 714	rue Montmartre
+T13	Adresse 890 918	rue Notre-Dame-des-Victoires
+T14	Adresse 1044 1065	passage des Panoramas
+T15	Adresse 1134 1162	rue Notre-Dame-des-Victoires
+T16	Personne 1202 1211	Regimbart
+A3	role T16 inconnu
+T17	Adresse 1313 1327	rue de Paradis
+T18	Adresse 1395 1406	rue Paradis
+T19	Personne 1513 1527	Jacques Arnoux
+A4	role T19 inconnu
+T20	Profession 1422 1437	commissionnaire
+T21	Adresse 1495 1506	rue Paradis
+T22	Adresse 1684 1695	rue Paradis
+T23	Adresse 1885 1896	rue Paradis
+T24	Personne 1640 1651	Deslauriers
+A5	role T24 inconnu
+T25	Adresse 2560 2573	quai Voltaire
+T26	Personne 2118 2124	Arnoux
+A6	role T26 inconnu
+T27	Adresse 2084 2096	rue Vivienne
+A31	role T30 inconnu
+A33	role T32 inconnu
+T30	Personne 1810 1816	Arnoux
+T32	Personne 2055 2066	Deslauriers
+T34	Adresse 2720 2733	quai Voltaire
+T35	Adresse 2763 2776	quai Voltaire
+T36	Adresse 2288 2300	rue Vivienne
+T37	Adresse 2484 2496	rue Vivienne
+T29	Lieu 844 854	Montmartre
+T31	Personne 2421 2430	Cavaignac
+A7	role T31 inconnu
+T28	Profession 1821 1829	marchand
+T33	Adresse 1945 1960	rue de Provence

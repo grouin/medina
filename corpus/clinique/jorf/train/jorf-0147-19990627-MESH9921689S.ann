@@ -1,0 +1,19 @@
+T1	Date 142 155	22 avril 1999
+T3	Adresse 254 289	55 bis, rue Gustave-Flaubert, BP 24
+T4	Cp 291 296	76083
+T5	Ville 297 305	Le Havre
+T6	Id 0 12	MESH9921688S
+T7	Personne 689 698	J.-M. Bam
+A1	role T7 soignant
+T8	Personne 724 732	C. Delez
+A2	role T8 soignant
+T9	Personne 766 777	C. Flissini
+A3	role T9 soignant
+T10	Personne 779 787	L. Gorod
+A4	role T10 soignant
+T11	Personne 825 835	P. Blussun
+A5	role T11 soignant
+T12	Personne 837 849	S. Chyllpryt
+A6	role T12 soignant
+T2	Cedex 306 311	Cedex
+T13	Organisation 225 252	centre hospitalier du Havre

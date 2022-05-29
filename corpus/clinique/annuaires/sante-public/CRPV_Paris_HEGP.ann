@@ -1,0 +1,13 @@
+T1	Date 105 120	27 février 2020
+T2	Organisation 0 78	Centre régional de pharmacovigilance - Paris Hôpital Européen Georges Pompidou
+T4	Telephone 216 230	01 56 09 39 88
+T5	Telephone 238 252	01 56 09 56 67
+T6	Mail 266 287	crpv.hegp.egp@aphp.fr
+T7	Organisation 445 478	Hôpital Européen Georges Pompidou
+T8	Adresse 479 496	20-40 rue Leblanc
+T9	Cp 497 502	75015
+T10	Ville 503 508	Paris
+T11	Personne 546 567	Agnès LILLOT LE LOUET
+A1	role T11 soignant
+T12	URL 300 343	http://www.pharmacovigilance-iledefrance.fr
+T13	URL 356 434	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/

@@ -1,0 +1,16 @@
+T1	Date 73 88	27 février 2020
+T3	Telephone 184 198	05 55 05 67 43
+T4	Telephone 206 220	05 55 05 62 98
+T5	Mail 234 266	pharmacovigilance@chu-limoges.fr
+T6	Organisation 429 449	CHRU - Bâtiment CBRS
+T7	Adresse 461 488	2 avenue Martin Luther King
+T8	Cp 489 494	87042
+T9	Ville 495 502	Limoges
+T10	Personne 546 565	Marie-Laure LAROCHE
+A1	role T10 soignant
+T11	URL 279 357	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T12	URL 370 410	http://www.pharmacovigilance-limoges.fr/
+T2	Organisation 0 46	Centre régional de pharmacovigilance - Limoges
+T13	Cedex 503 508	Cedex
+T14	Autre 452 460	2e étage
+A2	classe T14 lieu

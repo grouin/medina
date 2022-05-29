@@ -1,0 +1,20 @@
+T1	Cp 650 655	25030
+T2	Adresse 620 649	3 boulevard Alexandre Fleming
+T5	Ville 656 664	Besançon
+T6	Date 86 98	06 août 2021
+T7	Telephone 194 208	03 81 66 81 66
+T8	Organisation 335 354	hôpital Jean Minjoz
+T9	Organisation 388 409	hôpital Saint-Jacques
+T10	Date 447 451	1686
+T11	Ville 549 559	Tilleroyes
+T12	Personne 717 733	Chantal CARROGER
+A1	role T12 soignant
+T13	Personne 770 784	Emmanuel LUIGI
+A2	role T13 soignant
+T14	Personne 912 937	Emmanuelle PIDOUX-SIMONIN
+A3	role T14 soignant
+T15	Mail 801 829	emmanuel.luigi@sante.gouv.fr
+T16	URL 573 601	https://www.chu-besancon.fr/
+T17	Cedex 665 670	Cedex
+T3	Organisation 0 59	Centre hospitalier régional universitaire (CHRU) - Besançon
+T4	Organisation 244 300	centre hospitalier régional et universitaire de Besançon

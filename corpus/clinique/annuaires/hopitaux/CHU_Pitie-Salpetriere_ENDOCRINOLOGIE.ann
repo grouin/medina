@@ -1,0 +1,52 @@
+T1	Personne 82 99	Philippe TOURAINE
+A1	role T1 soignant
+T2	Personne 132 148	Jocelyne LEMAIRE
+A2	role T2 autre
+T3	Telephone 155 169	01 42 16 02 54
+T4	Personne 488 505	PHILIPPE TOURAINE
+A3	role T4 soignant
+T5	Personne 532 550	CATHERINE BEAURAIN
+A4	role T5 soignant
+T6	Telephone 551 565	01 42 16 02 54
+T7	Personne 641 654	ANNE BACHELOT
+A5	role T7 soignant
+T8	Personne 714 727	ANNE BACHELOT
+A6	role T8 soignant
+T9	Personne 816 833	CARINE COURTILLOT
+A7	role T9 soignant
+T10	Personne 906 927	TIPHAINE LE POULENNEC
+A8	role T10 soignant
+T11	Personne 938 961	ISABELLE LEMAIRE-MARTIN
+A9	role T11 soignant
+T12	Personne 972 985	SABINE RICARD
+A10	role T12 soignant
+T13	Personne 1049 1066	PHILIPPE TOURAINE
+A11	role T13 soignant
+T14	Personne 1158 1170	ALICE BIALOT
+A12	role T14 soignant
+T15	Personne 1184 1200	ZEINA CHAKHTOURA
+A13	role T15 soignant
+T16	Personne 1245 1263	NAOUELLE LACHENAUD
+A14	role T16 soignant
+T17	Personne 1292 1303	NATHALIE LY
+A15	role T17 soignant
+T18	Personne 1317 1330	LAURENCE MENG
+A16	role T18 soignant
+T19	Personne 1359 1374	CYNTHIA SARFATI
+A17	role T19 soignant
+T20	Personne 1388 1404	JENNIFER SOUSSAN
+A18	role T20 soignant
+T21	Personne 1447 1460	ANNE BACHELOT
+A19	role T21 soignant
+T22	Personne 1471 1486	SOPHIE DUBREUIL
+A20	role T22 soignant
+T23	Personne 1498 1516	NAOUELLE LACHENAUD
+A21	role T23 soignant
+T24	Personne 1531 1552	TIPHAINE LE POULENNEC
+A22	role T24 soignant
+T25	Personne 1566 1577	NATHALIE LY
+A23	role T25 soignant
+T26	Personne 1591 1604	LAURENCE MENG
+A24	role T26 soignant
+T27	Personne 1638 1652	THIERRY BULTEZ
+A25	role T27 soignant

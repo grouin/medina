@@ -1,0 +1,29 @@
+T2	Pathologie 14 23	Newcastle
+T3	Pathologie 110 118	Ranikhet
+T4	Date 967 971	1901
+T5	Personne 973 981	Centanni
+A1	role T5 inconnu
+T6	Personne 995 1004	Savonuzzi
+A2	role T6 autre
+T1	Personne 1512 1517	Doyle
+A3	role T1 inconnu
+T7	Ville 1538 1547	Newcastle
+T8	Date 1415 1419	1926
+T9	Personne 1421 1431	Kraneveldt
+A4	role T9 inconnu
+T10	Date 1647 1651	1955
+T11	Organisme 1682 1697	Paramyxoviridae
+T12	Organisme 1715 1725	Avulavirus
+T13	Ville 1453 1462	Newcastle
+T14	Pathologie 1812 1821	Newcastle
+T15	Pathologie 1903 1912	Newcastle
+T16	Pathologie 1953 1962	Newcastle
+T17	Organisme 2461 2466	Weeks
+T18	Date 1731 1735	1959
+T19	Lieu 3160 3170	Californie
+T20	Date 3246 3250	1971
+T21	Date 3253 3257	1973
+T22	Lieu 3489 3496	Arizona
+T23	Lieu 3501 3507	Nevada
+T24	Lieu 3514 3519	Texas
+T25	Date 3463 3467	2002

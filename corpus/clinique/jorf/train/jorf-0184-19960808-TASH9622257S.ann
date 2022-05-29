@@ -1,0 +1,12 @@
+T1	Date 316 326	6 mai 1996
+T2	Ville 448 453	Paris
+T4	Cp 455 458	13e
+T5	Adresse 418 444	83, boulevard de l'Hôpital
+T6	Id 211 223	TASH9622257S
+T7	Organisation 368 412	groupe hospitalier La Pitié - La Salpêtrière
+T3	Personne 631 647	Pasquier-Dolores
+A1	role T3 inconnu
+T9	Personne 654 662	Lemarche
+A2	role T9 inconnu
+T10	Organisation 985 1029	groupe hospitalier La Pitié - La Salpêtrière
+T8	Organisation 586 625	Assistance publique - hôpitaux de Paris

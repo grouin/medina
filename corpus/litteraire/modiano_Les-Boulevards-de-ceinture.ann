@@ -1,0 +1,73 @@
+T1	Ville 1172 1177	Paris
+T2	Ville 2071 2076	Paris
+A5	role T4 autre
+A7	role T6 autre
+T3	Organisation 95 104	Gallimard
+T4	Personne 43 58	Patrick Modiano
+T6	Personne 253 268	Patrick Modiano
+T8	Adresse 2220 2239	place des Pyramides
+A15	type T14 pays
+A18	type T17 pays
+A20	type T19 pays
+T13	Date 586 590	1970
+T14	Lieu 2116 2124	Belgique
+T16	Ville 2400 2406	Drancy
+T17	Lieu 361 367	France
+T19	Lieu 661 667	France
+T21	Age 987 994	dix ans
+T22	Profession 737 745	écrivain
+T5	Adresse 2380 2397	rue des Saussaies
+T23	Profession 2525 2531	barman
+T7	Ville 873 886	Fontainebleau
+T12	Organisation 2535 2546	Clos-Foucré
+T24	Organisation 819 830	Clos-Foucré
+T25	Organisation 2838 2849	Clos-Foucré
+T15	Personne 943 961	Chalva Deyckecaire
+A1	role T15 inconnu
+T18	Autre 200 226	Les Boulevards de ceinture
+A2	classe T18 titre
+T20	Organisation 147 165	Académie française
+T27	Date 67 81	6 octobre 1972
+T28	Autre 516 526	Occupation
+A3	classe T28 epoque
+A30	role T29 inconnu
+A32	classe T31 titre
+A34	classe T33 titre
+T29	Personne 2241 2259	Chalva Deyckecaire
+T31	Autre 0 26	Les Boulevards de ceinture
+T33	Autre 392 418	Les Boulevards de ceinture
+T30	Personne 704 719	Serge Alexandre
+A4	role T30 inconnu
+T32	Personne 1503 1517	Jean Murraille
+A6	role T32 inconnu
+T34	Personne 1568 1584	Guy de Marcheret
+A8	role T34 inconnu
+T36	Personne 1597 1604	Gerbère
+A9	role T36 inconnu
+T37	Personne 1614 1622	Lestandi
+A11	role T37 inconnu
+T38	Organisation 2201 2216	Tuilerie-Wagram
+A40	role T39 inconnu
+A42	role T41 inconnu
+A44	role T43 inconnu
+A46	role T45 inconnu
+A48	role T47 inconnu
+T39	Personne 2772 2788	Guy de Marcheret
+T41	Personne 2709 2723	Jean Murraille
+T43	Personne 1982 1990	Lestandi
+T45	Personne 1811 1826	Serge Alexandre
+T47	Personne 2642 2657	Serge Alexandre
+T40	Personne 2811 2822	Maud Gallas
+A13	role T40 inconnu
+T42	Profession 2824 2834	tenancière
+T44	Personne 2852 2867	Annie Murraille
+A14	role T44 inconnu
+T46	Personne 2680 2696	Chalva Deyckayre
+A16	role T46 inconnu
+T48	Personne 2881 2897	Sylviane Quimphe
+A17	role T48 inconnu
+T49	Profession 2899 2908	cavalière
+T50	Profession 2869 2878	starlette
+T51	Profession 2735 2746	journaliste
+T9	Lieu 1127 1135	George V
+T10	Lieu 2412 2424	villa Triste

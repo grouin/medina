@@ -1,0 +1,16 @@
+T6	Date 10 26	23 novembre 2016
+T7	Date 210 226	23 novembre 2016
+T8	Id 102 114	AFSN1634140A
+T1	Organisation 511 535	Hôpital Georges Pompidou
+T2	Organisation 473 508	Hôpitaux Universitaires Paris Ouest
+T4	Ville 274 282	Alicante
+T5	Lieu 284 291	Espagne
+T9	Date 741 756	2 novembre 2016
+T10	Date 256 271	9 novembre 1984
+T11	Personne 231 248	José Luis CASTEDO
+A1	role T11 soignant
+T3	Organisation 431 470	Assistance Publique - Hôpitaux de Paris
+T12	Lieu 88 94	France
+A2	type T12 pays
+A3	date T10 naissance
+A4	type T5 pays

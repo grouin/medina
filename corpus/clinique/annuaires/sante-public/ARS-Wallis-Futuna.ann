@@ -1,0 +1,15 @@
+T1	Lieu 18 34	Wallis-et-Futuna
+A1	type T1 pays
+T2	Date 61 73	31 août 2021
+T3	Telephone 169 182	+681 72 07 00
+T4	Telephone 190 203	+681 72 23 99
+T5	Mail 217 232	sante@adswf.org
+T6	URL 245 265	http://www.adswf.fr/
+T7	Cp 284 289	BP 4G
+T8	Ville 290 298	Mata'Utu
+T9	Cp 299 304	98600
+T10	Lieu 305 321	Wallis-et-Futuna
+A2	type T10 pays
+T11	Personne 359 379	Catherine BARBEZIEUX
+A3	role T11 inconnu
+T12	Organisation 0 15	Agence de santé

@@ -1,0 +1,13 @@
+T1	Pathologie 12 19	Fanconi
+T3	Personne 469 482	Guido Fanconi
+T4	Pathologie 1166 1173	Fanconi
+T5	Personne 1192 1205	Guido Fanconi
+T6	Date 1207 1211	1892
+T7	Date 1212 1216	1979
+A1	role T3 soignant
+T2	Profession 453 461	pédiatre
+T8	Pathologie 739 746	Fanconi
+T9	Pathologie 795 802	Fanconi
+T10	Pathologie 911 918	Fanconi
+A2	role T5 soignant
+T11	Profession 1225 1233	pédiatre

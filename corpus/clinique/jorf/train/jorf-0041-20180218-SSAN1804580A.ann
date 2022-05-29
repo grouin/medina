@@ -1,0 +1,15 @@
+T2	Lieu 265 280	Arabie saoudite
+T3	Date 10 24	2 février 2018
+T4	Id 100 112	SSAN1804580A
+T5	Date 202 216	2 février 2018
+T6	Personne 221 236	Samuel GRAMMIER
+A1	role T6 soignant
+T7	Date 244 255	24 mai 1982
+T8	Ville 258 263	Tabuk
+T9	Date 909 923	2 janvier 2018
+T1	Organisation 395 442	Centre hospitalier universitaire de Montpellier
+T10	Organisation 610 638	Centre hospitalier d'Avignon
+T11	Lieu 86 92	France
+A2	type T11 pays
+A3	date T7 naissance
+A4	type T2 pays

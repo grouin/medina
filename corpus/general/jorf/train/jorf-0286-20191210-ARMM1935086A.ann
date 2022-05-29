@@ -1,0 +1,235 @@
+T1	Date 10 25	3 décembre 2019
+T13	Ville 5988 5996	Bordeaux
+T35	Ville 4284 4288	Nice
+T5	Date 246 261	3 décembre 2019
+T3	Organisation 465 510	Université de technologie Belfort-Montbéliard
+T4	Organisation 375 390	Mairie de Paris
+T10	Organisation 584 611	Université de Franche-Comté
+T12	Organisation 686 735	Ecole supérieure des technologies et des affaires
+T14	Organisation 737 741	ESTA
+T20	Organisation 806 815	VMC Pêche
+T33	Organisation 898 909	Cordon DS2i
+T40	Organisation 984 1015	Crédit Agricole Normandie-Seine
+T42	Organisation 1095 1100	Gefec
+T48	Ville 1188 1195	Tréport
+T52	Organisation 1283 1301	GBNA Polycliniques
+T54	Organisation 1385 1395	Interforge
+T55	Organisation 1468 1518	Communauté d'agglomération Riom Limagne et Volcans
+T58	Organisation 1582 1586	Unéo
+T59	Organisation 1660 1665	OBLUX
+T60	Organisation 1730 1739	Limagrain
+T61	Organisation 1814 1834	Tarrerias Bonjean SE
+T62	Organisation 1898 1925	FPT Powertrain technologies
+T63	Ville 1945 1958	Bourbon Lancy
+T67	Organisation 2032 2048	JTEKT Automotive
+T68	Organisation 2135 2159	Suntec Industries France
+T69	Organisation 2255 2289	CCI Région Bourgogne Franche Comté
+T70	Ville 2369 2374	Autun
+T72	Organisation 2452 2478	CIAS Grand Autunois Morvan
+T75	Organisation 2550 2559	Oenoptimo
+T76	Organisation 2642 2656	Privacy Impact
+T77	Organisation 2727 2743	EHPAD Larrazkena
+T79	Organisation 2824 2838	Groupe Cybelia
+T80	Ville 2941 2953	Châtel-Guyon
+T30	Organisation 3038 3063	Université Grenoble-Alpes
+T6	Organisation 3122 3153	Université de Clermont-Auvergne
+T82	Organisation 3257 3301	Communauté de communes Grand Autunois Morvan
+T25	Organisation 3373 3410	Conseil départemental du Loir-et-Cher
+T84	Organisation 3510 3538	Agglomération pays d'Issoire
+T86	Ville 3628 3635	Issoire
+T88	Organisation 3709 3716	Atol CD
+T89	Organisation 3823 3830	Poclain
+T92	Organisation 3901 3928	CCI Bourgogne Franche-Comté
+T93	Organisation 3968 3983	URSSAF Bretagne
+T94	Organisation 4086 4092	Factem
+T95	Organisation 4301 4305	Wimi
+T96	Organisation 4371 4380	SeaSatCom
+T7	Lieu 4477 4497	Auvergne-Rhône-Alpes
+T98	Organisation 4597 4639	Banque Populaire Bourgogne - Franche-Comté
+T101	Organisation 4733 4747	ING Expertises
+T102	Organisation 4824 4832	Sentinel
+T103	Ville 4921 4932	Colombelles
+T104	Organisation 5013 5016	LGM
+T107	Organisation 5121 5144	Air Caraïbes Atlantique
+T108	Ville 5238 5244	Dieppe
+T110	Organisation 5324 5344	Zimmer Biomet France
+T112	Organisation 5415 5427	Groupe Avril
+T113	Organisation 5498 5536	L'Atelier industriel de l'aéronautique
+T114	Organisation 5538 5541	AIA
+T115	Organisation 5662 5673	EcoTitanium
+T117	Organisation 5746 5750	UKAD
+T118	Ville 5850 5871	Bourbon-l'Archambault
+T120	Organisation 6096 6118	CCI Nouvelle-Aquitaine
+T121	Id 105 117	ARMM1935086A
+T39	Adresse 422 447	Place de l'Hôtel de ville
+T122	Cp 449 454	75004
+T123	Ville 455 460	Paris
+T2	Adresse 550 558	Sevenans
+T124	Cp 560 565	90010
+T125	Ville 566 573	Belfort
+T8	Adresse 643 665	1, rue Claude Goudimel
+T126	Cp 667 672	25000
+T127	Ville 673 681	Besançon
+T16	Adresse 774 786	3, rue Fréry
+T128	Cp 788 793	90004
+T129	Ville 794 801	Belfort
+T18	Adresse 847 875	12, rue du général de Gaulle
+T130	Cp 877 882	90120
+T131	Ville 883 893	Morvillars
+T37	Adresse 941 959	193, Voie du futur
+T132	Cp 961 966	27100
+T133	Ville 967 979	Val-de-Reuil
+T38	Adresse 1047 1068	Chemin de la Breteque
+T134	Cp 1070 1075	76230
+T135	Ville 1076 1090	Bois-Guillaume
+T44	Adresse 1132 1149	5, rue des Cannes
+T136	Cp 1151 1156	70300
+T137	Ville 1157 1174	Luxeuil-les-Bains
+T46	Adresse 1227 1260	rue François Mitterrand, CS 70001
+T138	Cp 1262 1267	76470
+T139	Ville 1268 1278	Le Tréport
+T9	Adresse 1333 1358	15-35, rue Claude Boucher
+T140	Cp 1360 1365	33077
+T141	Ville 1366 1374	Bordeaux
+T53	Adresse 1427 1448	14, allée Alan Turing
+T142	Cp 1450 1455	63170
+T143	Ville 1456 1463	Aubière
+T56	Adresse 1544 1565	5, mail Jost-Pasquier
+T144	Cp 1567 1572	63200
+T145	Ville 1573 1577	Riom
+T19	Organisation 4233 4250	hôpital de Cimiez
+T21	Organisation 4160 4200	Centre hospitalier universitaire de Nice
+T11	Adresse 1618 1632	48, rue Barbès
+T15	Cp 1634 1639	92544
+T17	Ville 1640 1649	Montrouge
+T22	Adresse 1697 1712	1, rue Maublanc
+T23	Cp 1714 1719	75015
+T24	Ville 1720 1725	Paris
+T26	Adresse 1771 1787	rue Henri Mondor
+T27	Cp 1789 1794	63360
+T28	Ville 1795 1809	Saint-Beauzire
+T29	Adresse 1866 1874	Chabenty
+T31	Cp 1876 1881	63250
+T32	Ville 1882 1893	Chabreloche
+T34	Adresse 1990 2011	5, rue Pierre Timbaud
+T36	Cp 2013 2018	58600
+T41	Ville 2019 2027	Garchizy
+T43	Adresse 2080 2100	avenue de Strasbourg
+T45	Cp 2102 2107	21800
+T47	Ville 2108 2130	Chevigny-Saint-Sauveur
+T49	Adresse 2191 2229	ZI Dijon Sud 1, rue Lavoisier CS 60102
+T50	Cp 2231 2236	21603
+T51	Ville 2237 2244	Longvic
+T57	Adresse 2321 2342	2, avenue de Marbotte
+T64	Cp 2344 2349	21000
+T65	Ville 2350 2355	Dijon
+T66	Adresse 2406 2428	Hôtel de ville, BP 133
+T71	Cp 2430 2435	71403
+T73	Ville 2436 2441	Autun
+T74	Adresse 2510 2532	7, route du Bois Sapin
+T78	Cp 2534 2539	71400
+T81	Ville 2540 2545	Autun
+T83	Adresse 2591 2610	6, rue de la Troude
+T85	Cp 2612 2617	33640
+T87	Ville 2618 2639	Ayguemorte-les-Graves
+T90	Adresse 2688 2709	298, rue de Charenton
+T91	Cp 2711 2716	75012
+T97	Ville 2717 2722	Paris
+T99	Adresse 2775 2802	12, route des Missionnaires
+T100	Cp 2804 2809	64240
+T105	Ville 2810 2819	Hasparren
+T106	Adresse 2871 2909	Z.I du Palays, 34, rue des Cosmonautes
+T109	Cp 2911 2916	31400
+T111	Ville 2917 2925	Toulouse
+T116	Adresse 2986 3013	10, rue de l'hôtel de Ville
+T119	Cp 3015 3020	63140
+T146	Ville 3021 3033	Châtel-Guyon
+T147	Cp 3095 3100	38058
+T148	Ville 3101 3109	Grenoble
+T149	Adresse 3187 3228	, boulevard François Mitterrand, CS 60032
+T150	Cp 3230 3235	63001
+T151	Ville 3236 3252	Clermont-Ferrand
+T152	Adresse 3333 3355	7, route du Bois Sapin
+T153	Cp 3357 3362	71400
+T154	Ville 3363 3368	Autun
+T155	Adresse 3442 3486	Hôtel du département, place de la République
+T156	Cp 3488 3493	41020
+T157	Ville 3494 3499	Blois
+T158	Adresse 3570 3600	7 ter, boulevard André Malraux
+T159	Cp 3602 3607	63500
+T160	Ville 3608 3615	Issoire
+T161	Adresse 3667 3689	2, rue Eugène Gauttier
+T162	Cp 3691 3696	63500
+T163	Ville 3697 3704	Issoire
+T164	Adresse 3748 3793	ZAE Les Terres d'Or, route de Saint-Philibert
+T165	Cp 3795 3800	21220
+T166	Ville 3801 3818	Gevrey-Chambertin
+T167	Adresse 3862 3880	route de Compiègne
+T168	Cp 3882 3887	60410
+T169	Ville 3888 3896	Verberie
+T170	Adresse 3929 3950	2, avenue de Marbotte
+T171	Cp 3952 3957	21000
+T172	Ville 3958 3963	Dijon
+T173	Adresse 4015 4061	6, rue Robert d'Arbrissel, quartier Beauregard
+T174	Cp 4063 4068	35052
+T175	Ville 4069 4075	Rennes
+T176	Adresse 4124 4141	32, route de Caen
+T177	Cp 4143 4148	14400
+T178	Ville 4149 4155	Bayeux
+T179	Adresse 4252 4276	4, avenue Reine Victoria
+T180	Cp 4278 4283	06003
+T181	Adresse 4337 4353	112, rue Réaumur
+T182	Cp 4355 4360	75002
+T183	Ville 4361 4366	Paris
+T184	Adresse 4412 4448	37, chemin de Puissanton, bâtiment A
+T185	Cp 4450 4455	06220
+T186	Ville 4456 4465	Vallauris
+T187	Adresse 4529 4571	1, esplanade François Mitterrand, CS 20033
+T188	Cp 4573 4578	69269
+T189	Ville 4579 4583	Lyon
+T190	Adresse 4671 4709	14, boulevard de la Trémouille, BP 310
+T191	Cp 4711 4716	21008
+T192	Ville 4717 4722	Dijon
+T193	Adresse 4779 4803	60, rue Marcelin Jourdan
+T194	Cp 4805 4810	33200
+T195	Ville 4811 4819	Bordeaux
+T196	Adresse 4864 4883	50, rue Victor Hugo
+T197	Cp 4885 4890	92400
+T198	Ville 4891 4907	Levallois-Perret
+T199	Adresse 4964 4989	place François Mitterrand
+T200	Cp 4991 4996	14460
+T201	Ville 4997 5008	Colombelles
+T202	Adresse 5048 5089	13, avenue Morane-Saulnier, bâtiment Ader
+T203	Cp 5091 5096	78140
+T204	Ville 5097 5116	Vélizy-Villacoublay
+T205	Adresse 5176 5197	18, rue Louis Blériot
+T206	Cp 5199 5204	91550
+T207	Ville 5205 5224	Paray-Vieille-Poste
+T208	Adresse 5276 5299	parc Jehan Ango, BP 226
+T209	Cp 5301 5306	76203
+T210	Ville 5307 5313	Dieppe
+T211	Adresse 5376 5394	70, rue du Chanoit
+T212	Cp 5396 5401	25600
+T213	Ville 5402 5410	Brognard
+T214	Adresse 5459 5480	11-13, rue de Monceau
+T215	Cp 5482 5487	75008
+T216	Ville 5488 5493	Paris
+T217	Adresse 5594 5625	161, avenue du Brézet, CS 70501
+T218	Cp 5627 5632	63028
+T219	Ville 5633 5649	Clermont-Ferrand
+T220	Adresse 5705 5726	14, allée Alan Turing
+T221	Cp 5728 5733	63170
+T222	Ville 5734 5741	Aubière
+T223	Adresse 5782 5807	RD 62, La Croix de Biolet
+T224	Cp 5809 5814	63780
+T225	Ville 5815 5836	Saint-Georges-de-Mons
+T226	Adresse 5903 5928	place de l'Hôtel de ville
+T227	Cp 5930 5935	03160
+T228	Ville 5936 5957	Bourbon-l'Archambault
+T229	Adresse 6028 6069	5, rue Joseph de Carayon-Latour, CS 81499
+T230	Cp 6071 6076	33060
+T231	Ville 6077 6085	Bordeaux
+T232	Adresse 6150 6171	2, place de la Bourse
+T233	Cp 6173 6178	33050
+T234	Ville 6179 6187	Bordeaux
+T235	URL 123 196	https://www.legifrance.gouv.fr/eli/arrete/2019/12/3/ARMM1935086A/jo/texte

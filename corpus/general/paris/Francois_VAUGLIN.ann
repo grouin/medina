@@ -1,0 +1,26 @@
+T1	Date 453 468	11 juillet 2020
+T2	Date 119 131	28 juin 2020
+T3	Date 212 224	28 juin 2020
+T4	Date 357 369	30 mars 2014
+T5	Ville 84 89	Paris
+T6	Ville 110 115	Paris
+T7	Ville 141 146	Paris
+T8	Ville 171 176	Paris
+T9	Ville 326 331	Paris
+T11	Date 534 547	13 avril 2014
+T12	Date 290 306	15 décembre 2015
+T16	Date 335 346	9 mars 2008
+T17	Personne 3 19	François VAUGLIN
+A1	role T17 autre
+T18	Date 692 708	22 décembre 1969
+T19	Ville 712 727	Lons-le-Saunier
+T20	Lieu 729 733	Jura
+T21	Date 860 868	mai 2011
+T22	Date 960 969	juin 2011
+T23	Organisation 831 857	École des Ponts Paris Tech
+T24	Organisation 951 958	EDF R&D
+T25	Mail 1199 1224	francois.vauglin@paris.fr
+T10	Lieu 1160 1178	11e arrondissement
+T13	Lieu 512 530	11e arrondissement
+T14	Lieu 431 449	11e arrondissement
+T15	Lieu 30 48	11e arrondissement

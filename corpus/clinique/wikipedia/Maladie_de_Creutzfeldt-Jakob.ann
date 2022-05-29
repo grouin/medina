@@ -1,0 +1,30 @@
+T1	Pathologie 14 31	Creutzfeldt-Jakob
+T3	Date 437 441	1913
+T4	Personne 443 467	Hans Gerhard Creutzfeldt
+T5	Personne 489 504	Aloïs Alzheimer
+T6	Ville 569 576	Breslau
+T7	Date 750 754	1920
+T8	Profession 769 779	neurologue
+T9	Personne 793 811	Alfons Maria Jakob
+T10	Date 871 875	1922
+T11	Personne 959 983	Daniel Carleton Gajdusek
+T14	Personne 1438 1457	Stanley B. Prusiner
+T15	Date 1570 1574	1997
+T16	Lieu 1937 1953	Amérique du Nord
+A1	role T4 soignant
+A2	role T5 soignant
+T2	Personne 695 706	Creutzfeldt
+A3	role T2 soignant
+A4	role T9 soignant
+T19	Pathologie 848 865	Creutzfeldt-Jakob
+T20	Lieu 939 954	Nouvelle-Guinée
+A5	type T20 pays
+A6	role T11 soignant
+T21	Date 1023 1027	1976
+T22	Pathologie 1064 1081	Creutzfeldt-Jakob
+T12	Pathologie 892 896	Kuru
+T23	Pathologie 1086 1090	kuru
+A7	role T14 soignant
+T17	Substance 2419 2429	tacrolimus
+T18	Substance 2435 2445	astémizole
+T13	Date 1314 1318	1970

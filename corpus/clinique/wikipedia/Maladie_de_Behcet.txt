@@ -1,0 +1,65 @@
+La maladie de Behçet est une vascularite systémique, maladie liée à l'inflammation des vaisseaux sanguins de l'organisme.
+
+Elle se déclare essentiellement chez l'adulte jeune, et se manifeste le plus souvent par des symptômes cutanéo-muqueux (aphtose), articulaires (douleur) et ophtalmiques (uvéite). Plus rarement les lésions peuvent atteindre le système nerveux (méningite, thrombose veineuse cérébrale), digestif (douleur, saignement) et cardio-vasculaire (thrombose, anévrisme).
+
+C'est une maladie chronique qui évolue par poussées d'intensités variables. À terme le pronostic est principalement lié au risque de séquelles en cas de poussées sévères, notamment oculaires et neurologiques.
+
+Plus fréquente au Moyen-Orient et en Asie de l'Est, c'est une maladie rare en Europe et en Amérique du Nord.
+
+Comme la plupart des vascularites, le traitement, non curateur, repose essentiellement sur les immunosuppresseurs et a pour but de réduire la fréquence et la sévérité des poussées et prévenir leurs complications.
+
+Historique
+Initialement, la maladie de Behçet a été décrite sous forme d'une triade : aphtose buccale, aphtose génitale et uvéite. Le dermatologue turc Hulusi Behçet a décrit cette maladie en 1937, mais on trouve dans le traité Épidémies III d'Hippocrate une description compatible.
+
+Cause
+Elle est inconnue. Elle associe probablement un phénomène inflammatoire avec une autoimmunité, faisant intervenir l'interleukine 21 et différents types de lymphocytes. Il existe également une activation des polynucléaires neutrophiles.
+
+Épidémiologie
+La maladie de Behçet s'observe essentiellement dans les pays du bassin méditerranéen, au Moyen et en Extrême-Orient. En France, on ne compte pas plus de 100 cas en 2012, soit une prévalence inférieure à 6 par 100 000, ce qui la rend extrêmement rare. En Turquie, sa prévalence est de 80 à 300 par 100 000 personnes selon les régions. Au Japon, 10 personnes sur 100 000 en sont atteintes.
+
+La connotation génétique est probable du fait d'un lien fort avec l'antigène HLA B5101 (antigène associé à la maladie de Behçet dans 50 à 70 % des cas), mais les cas familiaux sont rares, ce qui est contradictoire. La prédominance masculine qui paraissait nette est aujourd'hui controversée. Elle débute chez l'adulte jeune (18 à 40 ans), rarement chez l'enfant et exceptionnellement après 50 ans.
+
+Signes cliniques
+Les signes sont souvent non spécifiques, ce qui explique que le diagnostic peut être retardé de plusieurs années de manière courante6. L'atteinte peut différer suivant la population ou le sexe.
+
+Signes cutanés
+- Aphtes buccaux : ulcérations à bords nets érythémateux (rouges), surélevés (1-3 cm de diamètre), douloureux, isolées ou en groupes (grappes), évoluant par poussées d'intensité variable. Cette atteinte est quasi constante dans la maladie. Le caractère récidivant est un indice en faveur d'un Behçet.
+- Aphtes génitaux, inconstants (dans 50 % des cas à 80 % des cas), très évocateurs du Behçet, pouvant laisser des cicatrices qu'il faut savoir interpréter; de même pour de rares affections du scrotum.
+- Pseudo-folliculites cutanées : elles sont fréquentes (60 % des cas). Elles siègent au dos, au visage, aux membres inférieurs, aux fesses et aux bourses. Ce sont des papules qui se recouvrent en deux ou trois jours d’une vésicule qui devient une pustule, puis d’une croûte qui se détache sans laisser de trace. Le contenu des vésicules est stérile. Cette lésion est non centrée par un poil.
+- Hyper-réactivité aux traumatismes, voire authentique érythème noueux dans un peu moins d'un cas sur deux.
+- Phénomène pathergique cutané : il s’agit d’une hypersensibilité aux points cutanés. La piqûre se fait avec une aiguille stérile G20 à la face antérieure de l’avant bras en sous cutané et/ou en intraveineux et la lecture se fait après 48 heures. Ce test reproduit la pseudo-folliculite nécrotique qui apparaît spontanément. La papule n’a de valeur que si le diamètre est supérieur à 2 mm. Ce test n'est cependant positif que dans certaines populations.
+
+Signes oculaires
+Les atteintes oculaires conditionnent le pronostic fonctionnel par le risque de cécité qu'elles impliquent. L'uvéite antérieure à hypopion est caractéristique. L'uvéite postérieure est plus dissimulée, mais de pronostic parfois sévère. Toutes les parties de l'œil peuvent être atteintes. En cas d'atteinte oculaire, le pronostic visuel est médiocre malgré le traitement, avec l'évolution vers une cécité dans un quart des cas. Ce pronostic est cependant bien amélioré avec l'administration d'un anticorps chimérique anti TNF-Alpha : l'infliximab.
+
+Signes vasculaires : vascularites
+Il s'agit essentiellement de thrombose de gros vaisseaux (veines ou artères) survenant sur une inflammation de leur paroi.
+- Atteintes veineuses avec thrombophlébites superficielles, profondes, ou viscérales.
+- Atteintes artérielles avec thromboses, anévrismes, de n'importe quelle artère.
+- Manifestations cardiaques touchant l'endocarde, le myocarde, le péricarde ou les coronaires.
+
+Signes articulaires
+Ils sont fréquents, entre 50 et 60 %. Les principales caractéristiques sont :
+- la prédilection pour les grosses articulations des membres inférieurs notamment les genoux et les hanches ;
+- la guérison sans séquelles ;
+- leur caractère récidivant ;
+- l’absence de déformation et de destruction.
+L'atteinte articulaire revêt plusieurs aspects :
+- mono ou oligoarthrite aiguë ;
+- monoarthrite chronique ;
+- polyarthrite bilatérale plus ou moins symétrique simulant une polyarthrite rhumatoïde ;
+- l’atteinte érosive est rare.
+
+Signes neurologiques
+Des manifestations neurologiques sporadiques (neuro-Behçet) sont fréquentes (plus de 20 %), elles apparaissent souvent entre 1 et 10 ans après les manifestations initiales : céphalées, signes pyramidaux avec hémiparésie, changements de comportement (symptômes schizophréniformes, apparition de troubles addictifs...) et dysfonctionnements sphinctériens. Elles peuvent être graves, dominées par la méningo-encéphalite. Peuvent être présentes des myélites inflammatoires qui peuvent déboucher sur un diagnostic différentiel d'une poussée de sclérose en plaques (SEP). Des symptômes psychiatriques ont été décrits dans la moitié des cas de neuro-Behçet. Le délai moyen d'apparition des troubles psychiques est de 26,2 mois. Les troubles psychiatriques sont traités par des neuroleptiques, des anxiolytiques et des antidépresseurs. L'évolution de l'atteinte psychique est favorable dans 62 % des cas. Les troubles psychiques au cours de la maladie de Behçet sont d'un grand polymorphisme clinique et surviennent surtout chez les patients avec atteinte neurologique, nécessitant une prise en charge multidisciplinaire.
+
+Signes gastro-intestinaux
+Ils sont plus rares et peu spécifiques. Quelques cas de pancréatite ont été décrits. Un diagnostic erroné de maladie de Crohn est fort probable en raison des lésions intestinales très semblables dans la maladie de Behçet. Plusieurs cas de diagnostic erroné prouvent qu'il faut user de vigilance lors du diagnostic différentiel.
+
+Des lésions aphtoïdes ou ulcéreuses peuvent affecter le tube digestif, surtout la jonction iléo-cæcale et le côlon ascendant, entraînant potentiellement hémorragies et perforations.
+
+Signes respiratoires
+Des infiltrats pulmonaires et des pleurésies sont possibles. Les possibilités à éliminer sont l'embolie pulmonaire et la vascularite des artères pulmonaires, voire des anévrismes des artères pulmonaires.
+
+Signes rénaux
+Il est parfois relevé un taux élevé de protéines dans les urines, associé à des phénomènes de lithiases urinaires (calculs urinaires entraînant des crises de coliques néphrétiques). La glomérulopathie subaiguë reste rare.

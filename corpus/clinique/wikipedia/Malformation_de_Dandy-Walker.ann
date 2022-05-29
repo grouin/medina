@@ -1,0 +1,8 @@
+T1	Pathologie 19 31	Dandy-Walker
+T2	Personne 396 408	Walter Dandy
+T3	Personne 412 430	Arthur Earl Walker
+A1	role T2 soignant
+A2	role T3 soignant
+T4	Pathologie 554 566	Dandy-Walker
+T5	Pathologie 582 594	Dandy-Walker
+T6	Pathologie 1154 1166	Dandy-Walker

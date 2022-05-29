@@ -1,0 +1,14 @@
+T1	Date 71 86	27 février 2020
+T3	Telephone 182 196	02 47 47 37 37
+T4	Telephone 204 218	02 47 47 38 26
+T5	Mail 232 249	crpv@chu-tours.fr
+T6	Organisation 409 413	CHRU
+T7	Adresse 414 434	2 boulevard Tonnellé
+T8	Cp 435 440	37044
+T9	Ville 441 446	Tours
+T10	Personne 492 518	Annie-Pierre JONVILLE-BERA
+A1	role T10 soignant
+T11	URL 262 299	http://www.pharmacovigilance-tours.fr
+T12	URL 312 390	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T2	Organisation 0 44	Centre régional de pharmacovigilance - Tours
+T13	Cedex 447 454	Cedex 9

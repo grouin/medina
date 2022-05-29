@@ -1,0 +1,20 @@
+A2	role T1 soignant
+T1	Personne 1090 1099	Schlatter
+T5	Profession 182 189	médecin
+T6	Date 615 619	1950
+T8	Pathologie 1160 1165	Sever
+T2	Pathologie 14 38	Sinding-Larsen-Johansson
+T4	Date 292 296	1921
+T9	Personne 200 238	Christian Magnus Falsen Sinding-Larsen
+A1	role T9 soignant
+T10	Profession 245 255	chirurgien
+T11	Personne 264 288	Sven Christian Johansson
+A3	role T11 soignant
+T12	Pathologie 400 424	Sinding-Larsen-Johansson
+T13	Anatomie 1214 1221	Achille
+T14	Pathologie 2080 2107	Sinding-Larsen et Johansson
+T15	Anatomie 3450 3455	Hoffa
+T18	Pathologie 454 481	Sinding-Larsen et Johansson
+T19	Pathologie 1890 1917	Sinding-Larsen et Johansson
+T20	Pathologie 3750 3777	Sinding-Larsen et Johansson
+T3	Pathologie 3598 3614	Osgood-Schlatter

@@ -1,0 +1,24 @@
+T1	Date 469 484	11 juillet 2020
+T10	Ville 798 803	Paris
+T2	Date 116 128	28 juin 2020
+T3	Date 208 220	28 juin 2020
+T4	Date 373 385	30 mars 2014
+T5	Ville 81 86	Paris
+T6	Ville 107 112	Paris
+T7	Ville 137 142	Paris
+T8	Ville 167 172	Paris
+T9	Ville 322 327	Paris
+T11	Date 598 611	13 avril 2014
+T12	Date 286 302	15 décembre 2015
+T15	Date 354 366	16 mars 2008
+T16	Date 331 343	18 mars 2001
+T20	Date 579 591	29 mars 2008
+T21	Personne 3 16	Jérôme COUMET
+A1	role T21 autre
+T22	Date 780 795	22 janvier 1967
+T23	Mail 830 860	cabma13-courriermaire@paris.fr
+T24	Date 553 568	12 juillet 2007
+T13	Lieu 531 549	13e arrondissement
+T14	Lieu 447 465	13e arrondissement
+T17	Lieu 27 45	13e arrondissement
+T18	Lieu 805 808	13e

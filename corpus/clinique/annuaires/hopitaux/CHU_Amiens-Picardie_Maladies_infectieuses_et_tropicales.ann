@@ -1,0 +1,10 @@
+T1	Organisation 80 99	CHU Amiens-Picardie
+T2	Cp 135 140	80054
+T4	Ville 141 147	Amiens
+T5	Adresse 112 132	Place Victor Pauchet
+T6	Personne 58 78	Jean-Philippe LANOIX
+A1	role T6 soignant
+T7	Telephone 206 220	03 22 66 88 13
+T8	Telephone 241 255	03 22 66 82 38
+T9	Telephone 264 278	03 22 66 88 14
+T3	Cedex 148 155	cedex 1

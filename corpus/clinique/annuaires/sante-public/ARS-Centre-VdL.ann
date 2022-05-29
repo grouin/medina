@@ -1,0 +1,18 @@
+T1	Date 80 92	09 juin 2021
+T2	Lieu 34 53	Centre-Val de Loire
+T3	Telephone 188 202	02 38 77 32 32
+T4	Mail 216 247	ars-centre-contact@ars.sante.fr
+T5	URL 260 305	https://www.centre-val-de-loire.ars.sante.fr/
+T6	Adresse 324 354	Cité administrative de Coligny
+T7	Adresse 355 382	131 rue du Faubourg-Bannier
+T8	Cp 383 391	BP 74409
+T9	Cp 392 397	45044
+T10	Ville 398 405	Orléans
+T11	Personne 458 472	Laurent HABERT
+A1	role T11 inconnu
+T12	Personne 509 524	Olivier OBRECHT
+A2	role T12 inconnu
+T13	Personne 567 584	Christophe LUGNOT
+A3	role T13 inconnu
+T14	Organisation 0 31	Agence régionale de santé (ARS)
+T15	Cedex 406 413	Cedex 1

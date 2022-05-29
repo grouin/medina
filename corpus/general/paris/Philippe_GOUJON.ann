@@ -1,0 +1,27 @@
+T1	Date 512 527	11 juillet 2020
+T10	Ville 883 888	Paris
+T2	Date 118 130	28 juin 2020
+T3	Date 201 213	28 juin 2020
+T4	Date 366 378	30 mars 2014
+T5	Ville 83 88	Paris
+T6	Ville 109 114	Paris
+T7	Ville 160 165	Paris
+T8	Ville 265 270	Paris
+T9	Ville 853 858	Paris
+T11	Date 619 632	13 avril 2014
+T12	Date 412 428	15 décembre 2015
+T15	Date 347 359	16 mars 2008
+T16	Date 330 342	18 mars 2001
+T20	Date 313 325	11 juin 1995
+T21	Date 596 608	29 mars 2008
+T22	Personne 3 18	Philippe GOUJON
+A1	role T22 autre
+T23	Date 274 285	6 mars 1983
+T24	Date 296 308	12 mars 1989
+T25	Date 867 880	30 avril 1954
+T26	Mail 933 957	philippe.goujon@paris.fr
+T27	Profession 907 912	Cadre
+T13	Lieu 29 47	15e arrondissement
+T14	Lieu 574 592	15e arrondissement
+T17	Lieu 490 508	15e arrondissement
+T18	Lieu 890 892	9e

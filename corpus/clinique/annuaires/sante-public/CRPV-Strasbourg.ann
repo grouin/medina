@@ -1,0 +1,15 @@
+T1	Date 76 91	27 février 2020
+T3	Telephone 187 201	03 88 11 64 80
+T4	Telephone 209 223	03 88 11 67 26
+T5	Mail 237 273	pharmacovigilance@chru-strasbourg.fr
+T6	Organisation 426 439	Hôpital Civil
+T7	Adresse 440 460	1 place de l'Hôpital
+T8	Cp 461 467	BP 426
+T9	Cp 468 473	67091
+T10	Ville 474 484	Strasbourg
+T11	Personne 528 548	Martine TEBACHER-ALT
+A1	role T11 soignant
+T12	URL 286 316	http://www.chru-strasbourg.fr/
+T13	URL 329 407	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T2	Organisation 0 49	Centre régional de pharmacovigilance - Strasbourg
+T14	Cedex 485 490	Cedex

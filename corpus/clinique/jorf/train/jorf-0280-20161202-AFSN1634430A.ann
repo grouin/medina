@@ -1,0 +1,14 @@
+T1	Date 10 26	24 novembre 2016
+T2	Date 210 226	24 novembre 2016
+T3	Id 102 114	AFSN1634430A
+T4	Organisation 472 556	Assistance publique-Hôpitaux de Paris, centre hospitalier universitaire Henri Mondor
+T6	Date 762 777	2 novembre 2016
+T7	Personne 231 245	Theodor ZAMFIR
+A1	role T7 soignant
+T8	Date 253 267	7 juillet 1987
+T9	Ville 270 281	Cluj-Napoca
+T10	Lieu 283 291	Roumanie
+T5	Lieu 88 94	France
+A2	type T5 pays
+A3	date T8 naissance
+A4	type T10 pays

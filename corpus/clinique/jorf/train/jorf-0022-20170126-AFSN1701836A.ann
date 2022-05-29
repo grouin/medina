@@ -1,0 +1,14 @@
+T1	Date 680 694	2 janvier 2017
+T2	Lieu 278 293	Arabie Saoudite
+T3	Date 10 25	17 janvier 2017
+T4	Id 101 113	AFSN1701836A
+T5	Date 209 224	17 janvier 2017
+T6	Personne 229 248	Maximilien DELKAREZ
+A1	role T6 soignant
+T7	Date 256 268	30 juin 1981
+T8	Ville 271 276	Jizan
+T9	Organisation 430 474	centre hospitalier universitaire de Bordeaux
+A2	date T7 naissance
+A3	type T2 pays
+T10	Lieu 87 93	France
+A4	type T10 pays

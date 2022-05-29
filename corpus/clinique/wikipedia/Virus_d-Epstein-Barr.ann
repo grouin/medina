@@ -1,0 +1,14 @@
+A12	role T11 soignant
+A7	role T6 soignant
+A9	role T8 soignant
+T1	Date 325 329	1964
+T10	Pathologie 278 285	Burkitt
+T11	Personne 446 464	Michael A. Epstein
+T13	Organisme 105 118	Herpesviridae
+T6	Personne 485 496	Yvonne Barr
+T8	Personne 513 518	Henle
+T14	Date 501 505	1968
+T3	Organisme 11 23	Epstein-Barr
+T5	Organisme 189 201	Epstein-Barr
+T7	Organisme 613 625	Epstein-Barr
+T9	Organisme 158 176	Gammaherpesvirinae

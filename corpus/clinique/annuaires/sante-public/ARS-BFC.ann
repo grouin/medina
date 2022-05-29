@@ -1,0 +1,21 @@
+T1	Lieu 34 57	Bourgogne-Franche-Comté
+T2	Date 84 96	02 août 2021
+T3	Telephone 192 206	0 808 80 71 07
+T4	Mail 220 259	ars-bfc-direction-generale@ars.sante.fr
+T5	URL 272 321	https://www.bourgogne-franche-comte.ars.sante.fr/
+T6	Adresse 340 360	Immeuble Le Diapason
+T7	Adresse 361 380	2 place des Savoirs
+T8	Cp 381 389	CS 73535
+T9	Cp 390 395	21035
+T10	Ville 396 401	Dijon
+T11	Personne 452 466	Pierre PRIBILE
+A1	role T11 inconnu
+T12	Personne 532 551	Mohamed SI ABDALLAH
+A2	role T12 inconnu
+T13	Personne 593 618	Fabienne CHEVALET-BAULARD
+A3	role T13 inconnu
+T14	Personne 667 682	Frédéric PASCAL
+A4	role T14 inconnu
+T15	Personne 713 726	Danièle SEKRI
+A5	role T15 inconnu
+T16	Organisation 0 31	Agence régionale de santé (ARS)

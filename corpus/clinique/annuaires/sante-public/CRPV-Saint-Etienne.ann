@@ -1,0 +1,14 @@
+T1	Date 79 94	27 février 2020
+T3	Telephone 190 204	04 77 12 77 37
+T4	Telephone 212 226	04 77 12 77 74
+T5	Mail 240 275	pharmacovigilance@chu-st-etienne.fr
+T6	Organisation 427 445	CHU - Hôpital Nord
+T7	Adresse 446 467	Avenue Albert Raimond
+T8	Cp 468 473	42055
+T9	Ville 474 487	Saint-Étienne
+T10	Personne 533 552	Marie-Noëlle BEYENS
+A1	role T10 soignant
+T11	URL 288 317	http://www.chu-st-etienne.fr/
+T12	URL 330 408	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T13	Cedex 488 495	Cedex 2
+T2	Organisation 0 52	Centre régional de pharmacovigilance - Saint-Etienne

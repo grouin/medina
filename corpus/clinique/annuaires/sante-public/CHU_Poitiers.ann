@@ -1,0 +1,18 @@
+T1	Cp 326 331	86021
+T3	Ville 332 340	Poitiers
+T4	Date 76 91	21 juillet 2021
+T5	Telephone 187 201	05 49 44 44 44
+T6	Mail 215 239	miletrie@chu-poitiers.fr
+T7	Adresse 298 318	2 rue de la Milétrie
+T8	Cp 319 325	BP 577
+T9	Personne 393 403	Anne COSTA
+A1	role T9 soignant
+T10	Personne 465 480	Séverine MASSON
+A2	role T10 soignant
+T11	Personne 521 534	Stéphan MARET
+A3	role T11 soignant
+T12	Mail 551 580	communication@chu-poitiers.fr
+T13	Telephone 598 612	05 49 44 47 47
+T14	URL 252 279	http://www.chu-poitiers.fr/
+T15	Cedex 341 346	Cedex
+T2	Organisation 0 49	Centre hospitalier universitaire (CHU) - Poitiers

@@ -1,0 +1,11 @@
+T1	Lieu 644 661	Seine-Saint-Denis
+T2	Ville 477 482	Paris
+T3	Ville 630 642	Livry-Gargan
+T4	Id 144 156	MESH9823114S
+T5	Date 284 299	29 juillet 1998
+T6	Adresse 445 473	14, rue Pierre-Ier-de-Serbie
+T7	Cp 484 487	16e
+T8	Organisation 436 443	INVEPAR
+T9	Organisation 580 603	clinique de Livry-Sully
+T10	Adresse 610 626	64, avenue Sully
+A1	type T1 region

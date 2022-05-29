@@ -1,0 +1,10 @@
+T1	Lieu 304 330	Provence-Alpes-Côte d'Azur
+T2	Id 145 157	SANH9402365S
+T3	Date 233 243	3 mai 1994
+T4	Date 265 280	10 juillet 1993
+T6	Adresse 357 384	52, avenue Frédéric-Mistral
+T7	Ville 388 394	Orange
+T8	Lieu 396 404	Vaucluse
+T9	Organisation 335 355	clinique de Provence
+A1	type T1 region
+A2	type T8 region

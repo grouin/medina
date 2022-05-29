@@ -1,0 +1,16 @@
+T1	Cp 284 289	06003
+T2	Adresse 252 275	4 avenue Reine Victoria
+T4	Ville 290 294	Nice
+T5	Date 72 87	21 juillet 2021
+T6	Telephone 183 197	04 92 03 77 77
+T7	Cp 276 283	BP 1179
+T8	Personne 347 364	Charles GUÉPRATTE
+A1	role T8 soignant
+T9	Personne 401 414	Thierry ARRII
+A2	role T9 soignant
+T10	Personne 456 478	Emilie CHAPU-MAZABRAUD
+A3	role T10 soignant
+T11	Telephone 496 510	04 92 03 41 08
+T12	URL 210 233	http://www.chu-nice.fr/
+T3	Organisation 0 45	Centre hospitalier universitaire (CHU) - Nice
+T13	Cedex 295 302	Cedex 1

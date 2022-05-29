@@ -1,0 +1,21 @@
+T1	Lieu 34 39	Corse
+T2	Date 66 81	15 octobre 2021
+T3	Telephone 177 191	04 95 51 98 98
+T4	Mail 205 241	ars-corse-communication@ars.sante.fr
+T5	URL 254 284	https://www.corse.ars.sante.fr
+T6	Adresse 303 324	Quartier Saint-Joseph
+T7	Cp 325 333	CS 13003
+T8	Cp 334 339	20700
+T9	Ville 340 347	Ajaccio
+T10	Personne 402 422	Marie-Hélène LECENNE
+A1	role T10 inconnu
+T11	Mail 475 508	marie-helene.lecenne@ars.sante.fr
+T12	Personne 548 566	Marie-Pia ANDREANI
+A2	role T12 inconnu
+T13	Personne 597 614	Delphine BESSIÈRE
+A3	role T13 inconnu
+T14	Telephone 632 646	04 95 51 99 07
+T15	Personne 689 703	Corinne ORSONI
+A4	role T15 inconnu
+T16	Organisation 0 31	Agence régionale de santé (ARS)
+T17	Cedex 348 355	Cedex 9

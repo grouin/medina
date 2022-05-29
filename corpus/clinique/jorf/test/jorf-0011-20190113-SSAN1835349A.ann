@@ -1,0 +1,14 @@
+T1	Date 10 26	19 décembre 2018
+T2	Date 204 220	19 décembre 2018
+T3	Date 753 765	19 mars 2018
+T4	Personne 225 240	Habil EL TABRIZ
+A1	role T4 soignant
+T5	Date 248 262	7 février 1967
+T6	Ville 265 270	Karaj
+T7	Lieu 272 276	Iran
+T9	Id 102 114	SSAN1835349A
+T8	Organisation 413 444	centre hospitalier de Perpignan
+T10	Lieu 88 94	France
+A2	type T10 pays
+A3	date T5 naissance
+A4	type T7 pays

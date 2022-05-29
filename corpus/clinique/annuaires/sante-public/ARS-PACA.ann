@@ -1,0 +1,22 @@
+T1	Date 87 99	09 juin 2021
+T2	Lieu 34 60	Provence-Alpes-Côte d'Azur
+T3	Telephone 226 238	0800 130 000
+T4	Pathologie 215 223	Covid-19
+T5	Telephone 246 260	04 13 55 80 10
+T6	Telephone 268 282	04 13 55 80 40
+T7	URL 295 325	https://www.paca.ars.sante.fr/
+T8	Adresse 336 358	132 Boulevard de Paris
+T9	Cp 359 364	13003
+T10	Ville 365 374	Marseille
+T11	Adresse 393 415	132 Boulevard de Paris
+T12	Cp 416 424	CS 50039
+T13	Cp 425 430	13331
+T14	Ville 431 440	Marseille
+T15	Personne 493 511	Philippe DE MESTER
+A1	role T15 autre
+T16	Personne 556 576	Sébastien DEBEAUMONT
+A2	role T16 inconnu
+T17	Personne 616 628	Louise MOROT
+A3	role T17 inconnu
+T18	Organisation 0 31	Agence régionale de santé (ARS)
+T19	Cedex 441 448	Cedex 3

@@ -1,0 +1,44 @@
+T1	Organisation 10 26	Armand-Trousseau
+T2	Adresse 101 136	26, avenue du Docteur-Arnold-Netter
+T3	Adresse 140 150	rue Lasson
+T4	Ville 203 208	Paris
+T5	Organisation 233 288	Groupe Hospitalier Hôpitaux Universitaires Est Parisien
+T6	Adresse 319 348	rue du Faubourg-Saint-Antoine
+T7	Date 353 357	1674
+T8	Adresse 399 428	rue du Faubourg-Saint-Antoine
+T9	Adresse 593 622	rue du Faubourg-Saint-Antoine
+T10	Adresse 659 675	rue de Charenton
+T11	Adresse 934 953	89 rue de Charenton
+T12	Cp 955 960	75012
+T13	Date 877 881	1801
+T14	Date 882 886	1867
+T15	Personne 859 875	Armand Trousseau
+T16	Organisation 701 718	Sainte-Marguerite
+T17	Date 722 726	1839
+T18	Date 754 758	1854
+T19	Organisation 911 921	Hôtel-Dieu
+T20	Ville 925 930	Paris
+T21	Organisation 972 985	Saint-Antoine
+T22	Organisation 805 819	Sainte-Eugénie
+T23	Date 839 843	1880
+T24	Ville 81 86	Paris
+T29	Cp 181 184	12e
+T30	Organisation 1037 1047	Hôtel-Dieu
+T31	Date 1097 1101	1901
+T32	Adresse 1171 1190	rues Antoine-Vollon
+T33	Adresse 1192 1210	Charles-Baudelaire
+T34	Adresse 1212 1229	Théophile-Roussel
+T35	Adresse 1234 1240	Prague
+T36	Adresse 1242 1256	Émilo-Castelar
+T37	Adresse 1271 1287	square Trousseau
+T38	Adresse 1306 1337	avenue du Docteur-Arnold-Netter
+T39	Date 1375 1379	1901
+T40	Personne 1410 1430	Alexandre Maistrasse
+T41	Personne 1434 1447	Marcel Berger
+T42	Date 1550 1562	janvier 2006
+T43	Ville 1621 1635	La Roche-Guyon
+T44	Lieu 1650 1660	Val-d'Oise
+T46	Organisation 88 93	AP-HP
+A1	role T15 soignant
+A2	role T40 autre
+A3	role T41 autre

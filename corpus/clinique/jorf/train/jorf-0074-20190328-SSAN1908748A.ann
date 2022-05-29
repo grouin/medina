@@ -1,0 +1,14 @@
+T1	Date 819 831	19 mars 2018
+T2	Lieu 271 286	Arabie Saoudite
+T3	Date 10 22	19 mars 2019
+T4	Date 200 212	19 mars 2019
+T5	Id 98 110	SSAN1908748A
+T6	Personne 218 234	Marjorie LATANIE
+A1	role T6 soignant
+T7	Date 243 259	22 décembre 1978
+T8	Ville 262 269	Diriyah
+T9	Organisation 448 509	Centre hospitalier national d'ophtalmologie des Quinze-Vingts
+T10	Lieu 84 90	France
+A2	type T10 pays
+A3	date T7 naissance
+A4	type T2 pays

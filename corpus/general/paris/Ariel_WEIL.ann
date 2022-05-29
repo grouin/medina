@@ -1,0 +1,18 @@
+T1	Date 289 304	11 juillet 2020
+T2	Date 107 119	28 juin 2020
+T3	Date 201 213	28 juin 2020
+T4	Ville 24 29	Paris
+T5	Ville 72 77	Paris
+T6	Ville 98 103	Paris
+T7	Ville 129 134	Paris
+T8	Ville 159 164	Paris
+T9	Ville 273 278	Paris
+T10	Personne 3 13	Ariel WEIL
+A1	role T10 autre
+T11	Date 369 385	23 novembre 2017
+T12	Date 542 552	6 mai 1973
+T13	Ville 555 564	Jérusalem
+T14	Lieu 566 572	Israël
+A2	type T14 pays
+T15	Mail 594 613	ariel.weil@paris.fr
+T16	Telephone 626 640	01 44 54 75 04

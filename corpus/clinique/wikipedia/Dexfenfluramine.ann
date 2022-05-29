@@ -1,0 +1,152 @@
+T18	Substance 961 969	Mediator
+T19	Organisation 56 63	Servier
+T20	Organisation 2135 2142	Servier
+T21	Organisation 2293 2300	Servier
+T32	Substance 920 930	benfluorex
+T3	Substance 3 18	dexfenfluramine
+T5	Substance 78 87	Isoméride
+T7	Substance 94 99	Redux
+T9	Date 603 607	1990
+T11	Date 548 552	1980
+T33	Date 1962 1966	1980
+T40	Substance 814 829	dexfenfluramine
+T41	Substance 1802 1817	dexfenfluramine
+T42	Substance 2229 2244	dexfenfluramine
+T43	Substance 2461 2476	dexfenfluramine
+T13	Date 1024 1028	1918
+T15	Personne 1030 1046	Thomas B. Osborn
+T17	Personne 1050 1066	Lafayette Mendel
+A1	role T15 inconnu
+A2	role T17 inconnu
+T48	Date 1287 1291	1939
+T49	Date 1315 1319	1960
+T50	Personne 1634 1648	Judith Wurtman
+A4	role T50 inconnu
+T51	Personne 1494 1509	Richard Wurtman
+A6	role T51 inconnu
+T52	Organisation 1665 1693	National Institute of Health
+T53	Organisation 1768 1771	MIT
+T54	Organisation 1975 1978	MIT
+T55	Date 1845 1849	1970
+T56	Organisation 2082 2085	MIT
+T57	Organisation 2348 2351	MIT
+T58	Lieu 2333 2343	États-Unis
+A8	type T58 pays
+T59	Date 2073 2077	1981
+T60	Date 2386 2390	1988
+T61	Date 2394 2398	1989
+T62	Personne 2365 2372	Wurtman
+A10	role T62 inconnu
+A107	type T106 pays
+A66	type T65 pays
+A68	type T67 pays
+A70	type T69 pays
+A72	type T71 pays
+A74	type T73 pays
+A76	type T75 pays
+A78	type T77 pays
+A80	type T79 pays
+T102	Substance 2724 2739	dexfenfluramine
+T103	Substance 3021 3036	dexfenfluramine
+T104	Substance 4030 4045	dexfenfluramine
+T105	Substance 5891 5906	dexfenfluramine
+T106	Lieu 3159 3169	États-Unis
+T63	Date 3200 3204	1989
+T65	Lieu 3011 3017	France
+T67	Lieu 3092 3098	France
+T69	Lieu 4561 4567	France
+T71	Lieu 5719 5725	France
+T73	Lieu 5787 5793	France
+T75	Lieu 6158 6164	France
+T77	Lieu 6332 6338	France
+T79	Lieu 7546 7552	France
+T81	Substance 3129 3138	Isoméride
+T82	Substance 5908 5917	Isoméride
+T83	Substance 6785 6794	Isoméride
+T84	Substance 6916 6925	Isoméride
+T85	Substance 7044 7053	Isoméride
+T86	Substance 2492 2497	Redux
+T87	Substance 3193 3198	Redux
+T88	Organisation 2634 2641	Servier
+T89	Organisation 3570 3577	Servier
+T90	Organisation 5776 5783	Servier
+T91	Organisation 6167 6174	Servier
+T92	Organisation 6470 6477	Servier
+T93	Organisation 6629 6636	Servier
+T94	Organisation 6813 6820	Servier
+T95	Organisation 7797 7804	Servier
+T96	Organisation 8082 8089	Servier
+T97	Organisation 8250 8257	Servier
+T1	Ville 7179 7189	Versailles
+T2	Ville 8038 8046	Nanterre
+T4	Date 7629 7645	15 novembre 2007
+T6	Date 7973 7990	17 septembre 2010
+T8	Date 8127 8142	20 janvier 2011
+T10	Date 8206 8210	2006
+T12	Date 8320 8324	1995
+T14	Date 7752 7767	25 juillet 1985
+T16	Id 7742 7748	85/374
+T108	Date 3285 3289	1995
+T115	Ville 6591 6599	Nanterre
+T116	Ville 8230 8238	Nanterre
+T117	Ville 6514 6524	Versailles
+T118	Ville 6995 7005	Versailles
+T119	Ville 7666 7676	Versailles
+T120	Ville 8163 8173	Versailles
+T22	Organisation 2410 2440	Interneuron Pharmaceutical Inc
+T23	Date 3173 3177	1996
+T24	Date 3102 3106	1985
+T25	Lieu 3208 3219	Royaume-Uni
+A3	type T25 pays
+T26	Date 3223 3227	1993
+T27	Lieu 3231 3247	Nouvelle-Zélande
+A5	type T27 pays
+T28	Date 3280 3284	1991
+T29	Organisation 3351 3366	Antoine-Béclère
+T30	Ville 3370 3377	Clamart
+T31	Personne 3594 3609	Lucien Abenhaim
+A7	role T31 soignant
+T34	Date 3334 3338	1991
+T35	Organisation 3705 3711	McGill
+T36	Ville 3715 3723	Montréal
+T37	Date 3858 3867	juin 1992
+A124	type T123 pays
+T123	Lieu 3824 3835	Royaume-Uni
+T38	Date 4394 4405	7 mars 1995
+T39	Date 4579 4590	10 mai 1995
+T44	Date 4697 4708	17 mai 1995
+T45	Personne 4758 4773	Didier Tabuteau
+A9	role T45 autre
+T46	Personne 4930 4951	Jean-Michel Alexandre
+A11	role T46 soignant
+T47	Personne 4996 5016	Jean-François Girard
+A12	role T47 autre
+T66	Date 4907 4922	25 octobre 1995
+T68	Date 5481 5492	7 mars 1995
+T70	Date 5676 5690	Septembre 1997
+T72	Date 5798 5815	15 septembre 1997
+T74	Substance 5942 5950	Ponderal
+T76	Substance 5952 5960	Pondéral
+T125	Substance 884 892	Ponderal
+T126	Substance 6310 6318	Ponderal
+T127	Substance 4534 4542	Pondéral
+T78	Date 6866 6881	24 janvier 2006
+T80	Date 6558 6571	décembre 2000
+T99	Date 6343 6347	1998
+T101	Substance 6423 6432	Isoméride
+T107	Substance 6211 6220	Isoméride
+T124	Substance 4453 4462	Isoméride
+T128	Substance 894 902	Ponderax
+T129	Substance 840 852	fenfluramine
+T130	Substance 387 399	fenfluramine
+T131	Substance 359 371	fenfluramine
+T132	Substance 317 329	fenfluramine
+T133	Date 5191 5206	17 juillet 1996
+T134	Date 6482 6493	10 mai 2002
+T135	Date 7897 7911	9 juillet 2009
+T136	Substance 8361 8370	Isoméride
+T137	Substance 4006 4014	Ponderax
+T138	Substance 2188 2200	fenfluramine
+T139	Substance 2550 2562	fenfluramine
+T140	Substance 3992 4004	fenfluramine
+T141	Substance 5928 5940	fenfluramine

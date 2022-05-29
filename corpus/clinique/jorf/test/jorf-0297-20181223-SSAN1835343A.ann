@@ -1,0 +1,14 @@
+T1	Date 10 26	19 décembre 2018
+T2	Date 204 220	19 décembre 2018
+T7	Id 102 114	SSAN1835343A
+T3	Organisation 506 568	hôpital de Hautepierre - hôpitaux universitaires de Strasbourg
+T5	Ville 271 279	Bucarest
+T6	Lieu 281 289	Roumanie
+T8	Date 774 788	2 janvier 2019
+T9	Date 252 268	16 décembre 1989
+T10	Personne 225 244	Nicolae STANCULESCU
+A1	role T10 soignant
+T4	Lieu 88 94	France
+A2	type T4 pays
+A3	date T9 naissance
+A4	type T6 pays

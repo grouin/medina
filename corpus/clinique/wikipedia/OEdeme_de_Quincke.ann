@@ -1,0 +1,16 @@
+T1	Pathologie 64 71	Quincke
+T3	Pathologie 3951 3958	Quincke
+T4	Personne 943 959	Heinrich Quincke
+A1	role T4 soignant
+T5	Personne 1041 1054	William Osler
+T6	Date 1031 1035	1882
+T7	Date 1069 1073	1888
+T10	Substance 4761 4769	Bénadryl
+T11	Substance 3807 3818	paracétamol
+T12	Substance 3702 3712	ibuprofène
+T13	Substance 3718 3726	aspirine
+A2	role T5 inconnu
+T2	Substance 4744 4759	diphénhydramine
+T8	Substance 5059 5067	Reactine
+T9	Substance 5049 5055	Zyrtec
+T14	Substance 5007 5017	cétirizine

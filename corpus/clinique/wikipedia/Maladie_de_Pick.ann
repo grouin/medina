@@ -1,0 +1,23 @@
+A2	type T1 pays
+T1	Lieu 1982 1988	France
+T2	Pathologie 1175 1184	Alzheimer
+T3	Pathologie 14 18	Pick
+T4	Age 1206 1208	45
+T5	Age 1212 1218	65 ans
+T6	Date 1236 1240	1892
+T7	Personne 1278 1289	Arnold Pick
+A1	role T7 soignant
+T8	Pathologie 1067 1076	Alzheimer
+T9	Organisation 2106 2123	de la Salpêtrière
+T10	Ville 2126 2131	Paris
+T11	Date 1879 1891	juillet 2007
+T12	Pathologie 834 838	Pick
+T13	Pathologie 1135 1139	Pick
+T15	Pathologie 1398 1402	Pick
+T16	Pathologie 1465 1469	Pick
+T17	Pathologie 1652 1656	Pick
+T18	Pathologie 1773 1777	Pick
+T19	Pathologie 2054 2058	Pick
+T20	Pathologie 735 744	Alzheimer
+T21	Profession 1259 1269	psychiatre
+T22	Profession 1245 1255	neurologue

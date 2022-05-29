@@ -1,0 +1,20 @@
+T1	Lieu 34 40	Guyane
+T2	Date 67 82	08 février 2022
+T3	Telephone 178 196	+594 5 94 25 49 89
+T4	Telephone 204 222	+594 5 94 35 49 81
+T5	Mail 236 267	ars-guyane-contact@ars.sante.fr
+T6	URL 280 311	https://www.guyane.ars.sante.fr
+T7	Adresse 330 355	66 avenue des Flamboyants
+T8	Cp 356 362	BP 696
+T9	Cp 363 368	97336
+T10	Ville 369 376	Cayenne
+T11	Personne 429 442	Clara DE BORT
+A1	role T11 inconnu
+T12	Mail 459 484	clara.debort@ars.sante.fr
+T13	Personne 521 547	Alexandre DE LA VOLPILIÈRE
+A2	role T13 soignant
+T14	Personne 624 645	Amandine DESFONTAINES
+A3	role T14 inconnu
+A4	type T1 pays
+T15	Organisation 0 31	Agence régionale de santé (ARS)
+T16	Cedex 377 382	Cedex

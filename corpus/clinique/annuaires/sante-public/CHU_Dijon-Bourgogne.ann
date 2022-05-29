@@ -1,0 +1,16 @@
+T1	Cp 300 305	21079
+T2	Cp 291 299	BP 77908
+T4	Ville 306 311	Dijon
+T6	Date 83 98	19 juillet 2021
+T7	Telephone 194 208	03 80 29 30 31
+T8	Adresse 266 290	1 boulevard Jeanne-d'Arc
+T9	Personne 358 372	Nadiège BAILLE
+A1	role T9 soignant
+T10	Telephone 424 438	03 80 29 35 73
+T11	Personne 492 504	Lucie LIGIER
+A2	role T11 soignant
+T12	Personne 594 610	Nathalie MOULENE
+A3	role T12 soignant
+T13	Telephone 628 642	03 80 29 36 28
+T14	URL 221 247	http://www.chu-dijon.fr/fr
+T3	Organisation 0 56	Centre hospitalier universitaire (CHU) - Dijon-Bourgogne

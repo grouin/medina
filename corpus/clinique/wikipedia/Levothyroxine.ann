@@ -1,0 +1,25 @@
+A2	type T1 pays
+A4	type T3 pays
+A6	type T5 pays
+A8	type T7 pays
+T1	Lieu 393 401	Belgique
+T3	Lieu 452 458	Canada
+T5	Lieu 217 223	France
+T7	Lieu 911 917	France
+T2	Substance 3 16	lévothyroxine
+T4	Substance 46 57	L-thyroxine
+T6	Substance 269 279	Lévothyrox
+T8	Lieu 344 350	Suisse
+A1	type T8 pays
+T9	Substance 356 364	Euthyrox
+T10	Substance 366 374	Tirosint
+T11	Substance 378 387	Eltroxine
+T12	Substance 284 295	L-Thyroxine
+T13	Substance 323 328	Tcaps
+T14	Substance 407 415	Euthyrox
+T15	Substance 419 430	L-Thyroxine
+T16	Substance 463 472	Synthroid
+T17	Organisation 1020 1037	Hoffmann-La Roche
+T18	Ville 1040 1044	Bâle
+T19	Substance 1132 1143	L-thyroxine
+T20	Substance 478 491	lévothyroxine

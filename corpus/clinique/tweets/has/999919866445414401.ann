@@ -1,0 +1,5 @@
+T4	Pathologie 17 26	Alzheimer
+T5	Personne 182 203	Jean-Philippe Flouzat
+T3	Profession 206 214	gériatre
+T2	Organisation 68 77	HAS_sante
+A1	role T5 soignant

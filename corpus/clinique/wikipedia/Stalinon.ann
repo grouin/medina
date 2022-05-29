@@ -1,0 +1,18 @@
+T1	Substance 3 11	Stalinon
+T2	Date 243 247	1950
+T3	Date 1067 1071	1953
+T4	Date 1484 1492	mai 1954
+T5	Substance 204 212	Stalinon
+T6	Substance 803 811	Stalinon
+T7	Substance 2213 2221	Stalinon
+T8	Substance 2316 2324	Stalinon
+T9	Substance 291 304	Stannomaltine
+T10	Personne 535 551	Georges Feuillet
+A1	role T10 soignant
+T11	Personne 1525 1533	Feuillet
+A2	role T11 soignant
+T16	Substance 984 997	Stannomaltine
+T12	Date 2299 2311	juillet 1954
+T17	Substance 2791 2804	Stannomaltine
+T13	Date 3521 3534	décembre 1957
+T19	Date 2246 2255	juin 1954

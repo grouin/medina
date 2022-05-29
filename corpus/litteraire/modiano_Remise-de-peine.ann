@@ -1,0 +1,75 @@
+A11	role T10 inconnu
+A13	role T12 inconnu
+A15	role T14 inconnu
+A20	role T19 autre
+A22	classe T21 titre
+A24	role T23 inconnu
+A26	role T25 inconnu
+A7	role T6 inconnu
+A9	role T8 inconnu
+T1	Date 262 266	1952
+T10	Personne 2455 2460	Annie
+T12	Personne 804 810	Hélène
+T14	Personne 2162 2173	Hélène Toch
+T16	Ville 274 287	Jouy-en-Josas
+T19	Personne 63 78	Patrick Modiano
+T2	Date 267 271	1953
+T21	Autre 0 15	Remise de peine
+T23	Personne 1413 1426	Roger Vincent
+T25	Personne 2380 2393	Roger Vincent
+T29	Adresse 2494 2507	rue Lauriston
+T30	Organisation 108 125	éditions du Seuil
+T5	Lieu 562 577	Amérique du Sud
+T6	Personne 845 850	Annie
+T8	Personne 1986 1991	Annie
+T7	Ville 583 594	Brazzaville
+T9	Personne 610 617	Patrick
+A1	role T9 inconnu
+T11	Personne 867 875	Mathilde
+A2	role T11 inconnu
+T13	Personne 1101 1106	Frede
+A3	role T13 inconnu
+T15	Personne 1428 1435	Jean D.
+A4	role T15 inconnu
+T18	Personne 2408 2413	Annie
+A5	role T18 inconnu
+T20	Personne 2298 2303	Annie
+A6	role T20 inconnu
+T22	Personne 2463 2472	Andrée K.
+A8	role T22 inconnu
+T24	Personne 1439 1449	Buck Danny
+A10	role T24 inconnu
+T26	Age 170 184	vingt-cinq ans
+T32	Profession 443 450	actrice
+T33	Profession 825 833	acrobate
+A35	role T34 inconnu
+A37	role T36 inconnu
+A39	role T38 inconnu
+A43	role T42 inconnu
+A45	role T44 inconnu
+A47	role T46 inconnu
+A49	role T48 inconnu
+A51	role T50 inconnu
+T34	Personne 2283 2288	Frede
+T36	Personne 2436 2443	Jean D.
+T38	Personne 2078 2086	Mathilde
+T42	Personne 135 142	Patrick
+T44	Personne 1197 1204	Patrick
+T46	Personne 1787 1794	Patrick
+T48	Personne 1949 1956	Patrick
+T50	Personne 2521 2528	Patrick
+T35	Personne 2096 2101	Annie
+A12	role T35 inconnu
+T37	Profession 2185 2192	écuyère
+T39	Profession 2367 2377	babysitter
+T41	Personne 2348 2361	Blanche-Neige
+A14	role T41 inconnu
+T43	Date 87 103	1er janvier 1988
+T45	Personne 882 895	Blanche-Neige
+A16	role T45 inconnu
+T47	Profession 1175 1195	directrice de cirque
+T3	Personne 304 313	Guillotin
+A17	role T3 autre
+T4	Personne 2553 2564	de Caussade
+A18	role T4 inconnu
+T17	Adresse 716 739	rue du Docteur-Dordaine

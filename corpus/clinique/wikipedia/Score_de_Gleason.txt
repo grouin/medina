@@ -1,0 +1,12 @@
+Le score de Gleason ou système de grading de Gleason, est un score histopronostique de grande valeur, utilisé dans le cancer de la prostate.
+
+Description
+Le Dr Donald F. Gleason a élaboré le score de Gleason dans les années 1960 à travers ses études de l'architecture cellulaire de la prostate.
+
+La structure tissulaire du cancer de la prostate varie des formes différenciées (cellules cancéreuses ressemblant aux cellules saines), dite de grade 1, aux formes les moins différenciées (cellules cancéreuses présentant beaucoup de caractères atypiques par rapport aux cellules saines), dite de grade 5. Plusieurs grades peuvent se rencontrer au sein d'un même tissu.
+
+Mode de calcul
+Le score de Gleason est calculé de la façon suivante : on additionne les deux grades les plus représentés de la tumeur. Le premier chiffre représentant le score du contingent le plus représenté. Ainsi 4+3 est plus péjoratif que 3+4. Si la somme est de 6 ou moins, le cancer est dit bien différencié, donc de meilleur pronostic ; 7 : le cancer est moyennement différencié ; 8 ou plus : le cancer est peu différencié, donc de moins bon pronostic.
+
+Pronostic
+Aux stades T1 ou T2,N0,M0, le score de Gleason est bien corrélé à la probabilité de survie sans traitement.

@@ -1,0 +1,11 @@
+T1	Date 644 654	6 mai 1996
+T2	Id 198 210	MESP9822795A
+T3	Date 300 312	22 juin 1998
+T4	Adresse 795 821	11, avenue du Rose-Poirier
+T5	Cp 823 828	88051
+T6	Ville 829 835	Epinal
+T7	Organisation 736 762	clinique de la Ligne Bleue
+T8	Organisation 763 788	Clinique de l'Arc-en-Ciel
+T9	Organisation 617 631	Galand-Ledrene
+T11	Personne 706 713	Ledrene
+A1	role T11 soignant

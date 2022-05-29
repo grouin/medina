@@ -1,0 +1,14 @@
+T1	Date 696 710	2 janvier 2017
+T2	Date 10 25	17 janvier 2017
+T3	Date 209 224	17 janvier 2017
+T4	Id 101 113	AFSN1701851A
+T5	Personne 229 242	Pawel JOHNSON
+A1	role T5 soignant
+T6	Date 250 261	6 mars 1978
+T7	Ville 264 271	Cardiff
+T8	Lieu 273 284	Royaume-Uni
+T9	Organisation 449 490	centre hospitalier universitaire de Lille
+A2	date T6 naissance
+A3	type T8 pays
+T10	Lieu 87 93	France
+A4	type T10 pays

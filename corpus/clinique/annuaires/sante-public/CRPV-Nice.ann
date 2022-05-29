@@ -1,0 +1,16 @@
+T2	Date 70 82	09 mars 2022
+T3	Telephone 178 192	04 92 03 47 08
+T4	Telephone 200 214	04 92 03 47 09
+T5	Mail 228 257	pharmacovigilance@chu-nice.fr
+T6	Organisation 501 518	Hôpital de Cimiez
+T7	Adresse 519 542	4 avenue Reine Victoria
+T8	Cp 543 551	CS 91179
+T9	Cp 552 557	06003
+T10	Ville 558 562	Nice
+T11	Personne 607 625	Milou-Daniel DRICI
+A1	role T11 soignant
+T12	URL 270 309	http://centre-pharmacovigilance-nice.fr
+T13	URL 322 400	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T14	URL 413 482	https://www.pharmacie-degarde.com/pharmacie/6088/alpes-maritimes/nice
+T1	Organisation 0 43	Centre régional de pharmacovigilance - Nice
+T15	Cedex 563 570	Cedex 1

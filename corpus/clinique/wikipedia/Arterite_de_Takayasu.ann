@@ -1,0 +1,17 @@
+T1	Pathologie 14 22	Takayasu
+T2	Pathologie 38 46	Takayasu
+T3	Personne 409 424	Mikito Takayasu
+A1	role T3 soignant
+T4	Date 481 485	1908
+T5	Lieu 624 630	Europe
+T6	Age 744 750	35 ans
+T7	Lieu 788 792	Asie
+T8	Pathologie 1368 1373	Crohn
+T9	Pathologie 2143 2151	Takayasu
+T10	Pathologie 3660 3668	Takayasu
+T11	Pathologie 4544 4550	Behçet
+T12	Pathologie 4184 4190	Horton
+T13	Pathologie 4493 4499	Horton
+T15	Pathologie 1518 1526	Takayasu
+T16	Pathologie 4619 4634	Erdheim Chester
+T14	Age 738 740	20

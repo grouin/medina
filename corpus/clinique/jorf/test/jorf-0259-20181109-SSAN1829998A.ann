@@ -1,0 +1,14 @@
+T1	Date 914 926	19 mars 2018
+T2	Lieu 275 290	Arabie saoudite
+T3	Date 10 25	31 octobre 2018
+T4	Id 101 113	SSAN1829998A
+T5	Date 203 218	31 octobre 2018
+T6	Personne 223 242	Amir Habib ALYAMANI
+A1	role T6 soignant
+T7	Date 250 262	27 juin 1967
+T8	Ville 265 273	Buraydah
+T9	Organisation 579 604	Hospices Civils de Colmar
+T10	Lieu 87 93	France
+A2	type T10 pays
+A3	type T2 pays
+A4	date T7 naissance

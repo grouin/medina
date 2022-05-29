@@ -1,0 +1,10 @@
+T1	Lieu 308 334	Provence-Alpes-Côte d'Azur
+T2	Date 272 284	21 juin 1993
+T3	Id 145 157	SANH9403631S
+T4	Date 233 250	19 septembre 1994
+T5	Organisation 339 362	clinique de l'Espérance
+T6	Adresse 364 387	14 bis, avenue Victoria
+T7	Ville 391 397	Hyères
+T8	Lieu 399 402	Var
+A1	type T1 region
+A2	type T8 region

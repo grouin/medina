@@ -1,0 +1,20 @@
+T1	Adresse 33 58	boulevard des Batignolles
+T2	Personne 62 69	Langdon
+A1	role T2 autre
+T3	Adresse 181 206	boulevard des Batignolles
+T4	Adresse 236 255	avenue de Friedland
+T5	Adresse 303 322	boulevard Haussmann
+T6	Adresse 467 479	rue de Rohan
+T7	Adresse 414 431	avenue de l'Opéra
+T8	Adresse 352 366	place du Havre
+T9	Personne 324 330	Sophie
+A2	role T9 inconnu
+A11	role T10 inconnu
+T10	Personne 801 807	Sophie
+T11	Adresse 788 799	rue de Rome
+T12	Adresse 507 520	rue de Rivoli
+T13	Adresse 728 739	rue de Rome
+T14	Lieu 548 554	Louvre
+T15	Lieu 129 139	Sacré-Cœur
+T16	Profession 145 154	chauffeur
+T17	Profession 753 762	chauffeur

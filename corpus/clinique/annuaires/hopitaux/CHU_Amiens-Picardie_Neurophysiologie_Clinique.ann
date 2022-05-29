@@ -1,0 +1,110 @@
+T1	Organisation 29 48	CHU Amiens-Picardie
+T10	Organisation 7608 7627	CHU Amiens-Picardie
+T2	Organisation 160 179	CHU Amiens-Picardie
+T3	Organisation 527 546	CHU Amiens-Picardie
+T4	Organisation 1205 1224	CHU Amiens-Picardie
+T5	Organisation 2089 2108	CHU Amiens-Picardie
+T6	Organisation 2766 2785	CHU Amiens-Picardie
+T7	Organisation 4437 4456	CHU Amiens-Picardie
+T8	Organisation 5328 5347	CHU Amiens-Picardie
+T9	Organisation 6499 6518	CHU Amiens-Picardie
+T11	Adresse 1256 1299	1 rond-point du Professeur Christian Cabrol
+T12	Adresse 2493 2536	1 rond-point du Professeur Christian Cabrol
+T13	Adresse 2857 2900	1 rond-point du Professeur Christian Cabrol
+T14	Adresse 5189 5232	1 rond-point du Professeur Christian Cabrol
+T15	Adresse 5410 5453	1 rond-point du Professeur Christian Cabrol
+T16	Adresse 7728 7771	1 rond-point du Professeur Christian Cabrol
+T17	Cp 1300 1305	80054
+T18	Cp 2537 2542	80054
+T19	Cp 2901 2906	80054
+T20	Cp 5233 5238	80054
+T21	Cp 5454 5459	80054
+T22	Cp 7772 7777	80054
+T27	Ville 1306 1312	Amiens
+T30	Ville 2543 2549	Amiens
+T32	Ville 2907 2913	Amiens
+T35	Ville 5239 5245	Amiens
+T37	Ville 5460 5466	Amiens
+T39	Ville 6774 6780	Amiens
+T41	Ville 7778 7784	Amiens
+T42	Organisation 5388 5409	Saint-Vincent de Paul
+T43	Personne 100 115	William SZURHAJ
+A1	role T43 soignant
+T44	Personne 775 800	Aurélie BASILLE-FANTINATO
+A2	role T44 soignant
+T45	Personne 806 817	Simone CHEN
+A3	role T45 soignant
+T46	Personne 823 839	Mathilde FLAMAND
+A4	role T46 soignant
+T47	Personne 845 863	Jean-Michel MACRON
+A5	role T47 soignant
+T48	Personne 869 893	Mélodie MERCIER-BRYCZMAN
+A6	role T48 soignant
+T49	Personne 899 921	Philippe-Edouard MERLE
+A7	role T49 soignant
+T50	Personne 927 941	Bertille PÉRIN
+A8	role T50 soignant
+T51	Personne 947 962	William SZURHAJ
+A9	role T51 soignant
+A53	role T52 soignant
+A55	role T54 soignant
+A57	role T56 soignant
+A59	role T58 soignant
+A61	role T60 soignant
+A63	role T62 soignant
+A65	role T64 soignant
+A67	role T66 soignant
+A69	role T68 soignant
+A71	role T70 soignant
+A73	role T72 soignant
+A75	role T74 soignant
+A77	role T76 soignant
+A79	role T78 soignant
+A81	role T80 soignant
+A83	role T82 soignant
+T52	Personne 4600 4625	Aurélie BASILLE-FANTINATO
+T54	Personne 1925 1939	Bertille PÉRIN
+T56	Personne 7439 7453	Bertille PÉRIN
+T58	Personne 1843 1861	Jean-Michel MACRON
+T60	Personne 4631 4647	Mathilde FLAMAND
+T62	Personne 1867 1891	Mélodie MERCIER-BRYCZMAN
+T64	Personne 7409 7433	Mélodie MERCIER-BRYCZMAN
+T66	Personne 1897 1919	Philippe-Edouard MERLE
+T68	Personne 1826 1837	Simone CHEN
+T70	Personne 5570 5581	Simone CHEN
+T72	Personne 6166 6177	Simone CHEN
+T74	Personne 7372 7383	Simone CHEN
+T76	Personne 1463 1478	William SZURHAJ
+T78	Personne 1945 1960	William SZURHAJ
+T80	Personne 3026 3041	William SZURHAJ
+T82	Personne 7459 7474	William SZURHAJ
+T53	Mail 2349 2379	EFSN.secretariat@chu-amiens.fr
+T55	Telephone 2716 2730	03 22 08 77 76
+T57	Telephone 2737 2751	03 22 66 86 25
+T59	Personne 3048 3065	Vincent JOUNIEAUX
+A10	role T59 soignant
+T61	Personne 3096 3123	Aurélie BASILLE – FANTINATO
+A11	role T61 soignant
+T63	Personne 4653 4670	Vincent JOUNIEAUX
+A12	role T63 soignant
+T65	Mail 5024 5061	EFSNSommeil.Secretariat@chu-amiens.fr
+T67	Telephone 5278 5292	03 22 45 59 60
+T69	Telephone 5299 5313	03 22 45 56 65
+T71	Personne 5588 5602	Sylvain CHAMOT
+A13	role T71 soignant
+A86	role T85 soignant
+T84	Telephone 6290 6304	03 22 08 77 76
+T85	Personne 6195 6209	Sylvain CHAMOT
+T73	Mail 6313 6331	cppe@chu-amiens.fr
+T75	Mail 6396 6431	chamot.sylvain@medical.apicrypt.org
+T77	Mail 6448 6484	chamot.sylvain@chu-amiens.mssante.fr
+T79	Personne 6852 6866	Michel LEFRANC
+A14	role T79 soignant
+T81	Personne 7389 7403	Michel LEFRANC
+A15	role T81 soignant
+T83	Telephone 7529 7543	03 22 08 77 74
+T86	Mail 7552 7593	efsn.techniciennesepilepsie@chu-amiens.fr
+T23	Organisation 2473 2492	CHU Amiens Picardie
+T24	Organisation 5169 5188	CHU Amiens Picardie
+T25	Cedex 2550 2557	cedex 1
+T26	Cedex 5246 5253	cedex 1

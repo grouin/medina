@@ -1,0 +1,13 @@
+T1	Lieu 266 281	Arabie Saoudite
+T2	Date 10 24	5 février 2019
+T3	Id 100 112	SSAN1903849A
+T4	Date 202 216	5 février 2019
+T5	Personne 221 232	Eric ZHAONG
+A1	role T5 soignant
+T6	Date 706 716	2 mai 2018
+T7	Date 240 255	13 octobre 1985
+T8	Ville 258 264	Tihama
+A2	type T1 pays
+T9	Lieu 86 92	France
+A3	type T9 pays
+A4	date T7 naissance

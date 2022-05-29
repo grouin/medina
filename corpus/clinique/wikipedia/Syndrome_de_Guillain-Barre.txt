@@ -1,0 +1,37 @@
+Le syndrome de Guillain-Barré (SGB) ou de Guillain-Barré-Strohl est une maladie auto-immune inflammatoire aiguë du système nerveux périphérique. Elle se manifeste brutalement par une faiblesse musculaire qui prédomine dans les régions proximales des membres, pouvant s'accroître jusqu’à la paralysie. Elle s'accompagne d'une absence ou réduction des réflexes (paralysie flasque), et de troubles sensitifs. Dans la plupart des cas, les personnes atteintes récupèrent en quelques mois, mais il existe des formes graves. Depuis la quasi-disparition de la poliomyélite, le SGB est devenu la première cause de paralysie flasque aiguë dans le monde. De nos jours, il est considéré comme une des principales urgences en neurologie. Le SGB est aussi connu sous les noms suivants :
+- polyneuropathie aiguë inflammatoire démyélinisante ;
+- polyradiculonévrite aiguë idiopathique ;
+- polynévrite aiguë idiopathique ;
+- paralysie ascendante de Landry.
+
+Historique
+Plusieurs descriptions de cas au xixe siècle pourraient correspondre à des SGB. En 1828, Chomel décrit une épidémie de polynévrites aiguës. Un peu plus tard, Wardrop en 1834 et Ollivier en 1837 signalent quelques autres observations isolées. En 1859, Octave Landry et Adolf Kussmaul décrivent, indépendamment l'un de l'autre, une maladie grave paralysant les jambes, les bras, le cou et les muscles respiratoires (paralysie ascendante de Landry, maladie ou syndrome de Landry). Des observations du même genre se retrouvent dans d'autres pays. En 1891, Quincke découvre la possibilité de prélever et d'analyser le liquide cérébrospinal par ponction lombaire. C'est la première approche biologique directe de ces maladies neurologiques.
+
+En 1916, Georges Guillain, Jean Alexandre Barré et André Strohl présentent deux cas de paralysie généralisée transitoire avec une anomalie caractéristique du liquide cérébrospinal : élévation anormale des protéines, et un compte normal de cellules (dissociation albumino-cytologique). Dans les années 1930-1950, la recherche d'un virus causal spécifique ne donne rien. Dans les années 1960, la nature immunologique de la maladie est affirmée. Dans les années 1980, les premiers auto-anticorps liés à la maladie sont identifiés.
+
+À l'origine, et jusqu'à la fin des années 1930, Guillain et Barré ont insisté sur l'évolution favorable de l'affection, pour en faire le deuxième critère déterminant du diagnostic, d'où une réputation historique de bénignité qui, à tort, peut encore persister aujourd'hui.
+
+Depuis le milieu du xxe siècle, l'évolution favorable n'est plus un critère de diagnostic. Après 1976, à la suite d'une série de cas liés à une vaccination contre une menace de grippe porcine aux États-Unis, les critères de diagnostic ont fait l'objet d'une normalisation internationale, périodiquement réévaluée. Ce qui permet, sous le terme simplifié de « syndrome de Guillain-Barré », de regrouper de nombreuses formes de paralysies extensives aiguës, anciennement ou nouvellement décrites, y compris les formes graves.
+
+Épidémiologie
+Facteurs infectieux
+- Campylobacter et Cytomégalovirus
+Dans 2/3 des cas, la maladie survient 1 à 3 semaines après une infection bactérienne à Campylobacter jejuni (gastroentérite et diarrhées) ou virale à Cytomégalovirus (fièvre). Le SGB survient 1 à 2 fois sur 1000 infections à cytomégalovirus, et un peu moins de 1 fois sur 1000 infections à Campylobacter. Cette rareté pourrait s'expliquer par une susceptibilité particulière de certains individus, mais la prédisposition génétique unique est peu probable, car le SGB ne se manifeste pas au sein d'une même famille. En revanche, des petites épidémies ont été notées en Chine lors de gastro-entérites liées à la contamination de l'eau par Campylobacter jejuni.
+
+- Virus Zika
+L'incidence du SGB associé au virus Zika est de l'ordre de 2 à 3 cas pour dix mille infections à virus Zika, risque similaire à celui associé à une infection à Campylobacter. Cette complication, survenant 5 à 10 jours après l'infection, a fait invoquer d'autres processus infectieux, tels qu'une co-infection avec d'autres arboviroses (dengue, chikungunya...) circulant dans la même région.
+
+Le SGB associé au Zika a un pronostic identique aux autres SGB, mais il se distingue cliniquement par une atteinte plus fréquente des nerfs crâniens.
+
+- Autres
+Les autres infections en cause sont celles à VIH, Epstein-Barr, Mycoplasma pneumonia, Haemophilus influenza, varicelle, etc.
+
+Le premier cas de SGB associé à l'infection à SARS-CoV-2 est signalé en janvier 2020 en Chine. Quelques études suggèrent un risque accru par rapport aux patients non-COVID-19, mais l'association entre SGB et COVID-19 reste discutée en raison de la rareté du SGB et de la présence ou pas d'un confinement (lorsqu'on compare des périodes différentes).
+
+
+Physiopathologie
+Les nerfs du patient sont attaqués par son propre système immunitaire (auto-immunité). Par exemple, certaines structures de la membrane externe de la bactérie Campylobacter jejuni peuvent ressembler à des structures présentes sur les nerfs, c'est le mimétisme moléculaire.
+
+En se défendant contre la bactérie, l'organisme attaque ses propres nerfs périphériques par des auto-anticorps (anticorps dirigés contre le soi). Si l'on assimile une fibre nerveuse à un câble électrique, l'attaque peut se porter sur la gaine (en l'occurrence la gaine de myéline), c'est la forme la plus fréquente des pays occidentaux. Plus rarement l'axone (le « fil conducteur ») est lui-même atteint, cette forme étant plus fréquente en Asie. Selon les cas, la conduction nerveuse est ralentie, modifiée, voire interrompue.
+
+Les SGB sont ainsi divisés en plusieurs sous-types, selon les structures moléculaires ciblées, et la localisation des lésions.

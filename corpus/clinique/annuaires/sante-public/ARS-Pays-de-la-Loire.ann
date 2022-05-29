@@ -1,0 +1,22 @@
+T1	Lieu 34 50	Pays de la Loire
+T2	Date 77 89	08 juin 2021
+T3	Telephone 185 199	02 49 10 40 00
+T4	Mail 213 241	ars-pdl-contact@ars.sante.fr
+T5	URL 254 296	https://www.pays-de-la-loire.ars.sante.fr/
+T6	Adresse 315 344	17 boulevard Gaston-Doumergue
+T7	Cp 345 353	CS 56233
+T8	Cp 354 359	44262
+T9	Ville 360 366	Nantes
+T10	Personne 419 439	Jean-Jacques COIPLET
+A1	role T10 inconnu
+T11	Mail 513 552	ars-pdl-direction-generale@ars.sante.fr
+T12	Personne 589 603	Nicolas DURAND
+A2	role T12 inconnu
+T13	Personne 646 660	Séverine BLANC
+A3	role T13 inconnu
+T14	Personne 716 732	Sébastien JARROT
+A4	role T14 inconnu
+T15	Personne 807 821	Benjamin MEYER
+A5	role T15 inconnu
+T16	Organisation 0 31	Agence régionale de santé (ARS)
+T17	Cedex 367 374	Cedex 2

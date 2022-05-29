@@ -1,0 +1,78 @@
+T1	Adresse 946 968	rue Monsieur-le-Prince
+T2	Adresse 2132 2145	rue de Rivoli
+T3	Ville 3059 3064	Paris
+T4	Ville 3265 3270	Paris
+T5	Ville 3714 3719	Paris
+A7	type T6 pays
+T6	Lieu 646 652	France
+T9	Adresse 763 772	rue Lepic
+T11	Adresse 2092 2103	rue Pigalle
+T7	Adresse 40 58	rue du 4 Septembre
+T12	Lieu 72 82	les Halles
+T13	Personne 137 151	Pepito Moretto
+A1	role T13 inconnu
+T14	Organisation 153 169	Hôtel Beauséjour
+T15	Adresse 171 193	3, rue des Batignolles
+T16	Adresse 206 219	Place Blanche
+T17	Adresse 355 369	rue La Fayette
+T18	Adresse 437 450	rue de Clichy
+T19	Adresse 474 486	rue Fontaine
+T20	Organisation 499 513	Pickwick’s-Bar
+T21	Profession 515 522	Portier
+T22	Adresse 677 703	rue de l’Ecole-de-Médecine
+T23	Personne 706 719	José Latourie
+A2	role T23 inconnu
+T24	Adresse 721 734	71, rue Lepic
+T25	Personne 936 944	Lecourbe
+A3	role T25 soignant
+T26	Profession 1144 1155	commissaire
+T27	Adresse 1223 1248	rue Notre-Dame-de-Lorette
+T28	Adresse 1364 1381	quai des Orfèvres
+T29	Personne 1346 1353	Maigret
+A4	role T29 autre
+T30	Personne 1640 1646	Dufour
+A5	role T30 autre
+T31	Personne 1695 1699	Jean
+A6	role T31 autre
+T32	Organisation 1800 1808	Majestic
+T33	Adresse 1923 1940	Quai des Orfèvres
+T34	Adresse 2152 2169	rue Saint-Antoine
+T35	Organisation 2511 2527	Au Roi-de-Sicile
+T36	Adresse 2275 2295	rue du Roi-de-Sicile
+T37	Adresse 2857 2877	Rue du Roi-de-Sicile
+T38	Adresse 2913 2933	rue du Roi-de-Sicile
+T39	Personne 2962 2970	Mortimer
+A8	role T39 inconnu
+A41	role T40 autre
+A43	role T42 autre
+A45	role T44 autre
+A47	role T46 inconnu
+T40	Personne 1750 1757	Maigret
+T42	Personne 1971 1978	Maigret
+T44	Personne 3539 3546	Maigret
+T46	Personne 3645 3653	Mortimer
+T48	Profession 1522 1533	commissaire
+T49	Profession 3527 3538	commissaire
+T50	Adresse 1597 1614	quai des Orfèvres
+T51	Adresse 3078 3098	rue du Roi-de-Sicile
+T52	Adresse 3272 3292	rue du Roi-de-Sicile
+T53	Adresse 3596 3616	rue du Roi-de-Sicile
+T41	Personne 3183 3198	Flans Johannson
+A9	role T41 inconnu
+T43	Ville 3205 3210	Pskov
+T45	Lieu 3212 3218	Russie
+A10	type T45 pays
+T47	Date 3135 3146	novembre 19
+T54	Personne 3348 3363	Pietr Johannson
+A11	role T54 inconnu
+T55	Date 3415 3423	novembre
+T56	Ville 3512 3518	Fécamp
+T57	Adresse 3756 3771	rue des Rosiers
+T58	Personne 1884 1892	Torrence
+A12	role T58 inconnu
+T8	Gentile 3226 3234	estonien
+T10	Profession 276 292	sergent de ville
+T59	Gentile 1189 1199	Américains
+T64	Lieu 399 409	la Trinité
+T60	Autre 3392 3406	Etoile-du-Nord
+A13	classe T60 surnom

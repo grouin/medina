@@ -1,0 +1,14 @@
+T1	Date 10 26	19 décembre 2018
+T2	Date 204 220	19 décembre 2018
+T3	Date 853 865	19 mars 2018
+T4	Id 102 114	SSAN1835375A
+T5	Personne 225 244	Vangelis DE CHIRICO
+A1	role T5 soignant
+T6	Date 252 266	8 janvier 1981
+T7	Ville 269 274	Volos
+T8	Lieu 276 281	Grèce
+T9	Organisation 476 544	hôpital Saint-Eloi - centre hospitalier universitaire de Montpellier
+T10	Lieu 88 94	France
+A2	type T10 pays
+A3	date T6 naissance
+A4	type T8 pays

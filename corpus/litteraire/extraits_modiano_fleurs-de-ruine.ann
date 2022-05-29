@@ -1,0 +1,711 @@
+T1	Lieu 30609 30627	VIe arrondissement
+T10	Lieu 23505 23511	Louvre
+T11	Lieu 23620 23626	Louvre
+T12	Lieu 32399 32405	Louvre
+T13	Lieu 32511 32517	Louvre
+T14	Adresse 23432 23445	rue de Rivoli
+T15	Adresse 23466 23479	rue de Rivoli
+T16	Adresse 32439 32452	rue de Rivoli
+T17	Adresse 32472 32485	rue de Rivoli
+T3	Lieu 5954 5960	Louvre
+T4	Lieu 22196 22202	Louvre
+T5	Lieu 22694 22700	Louvre
+T6	Lieu 22821 22827	Louvre
+T7	Lieu 22881 22887	Louvre
+T8	Lieu 23206 23212	Louvre
+T9	Lieu 23392 23398	Louvre
+T18	Adresse 5599 5622	boulevard des Capucines
+T19	Adresse 24115 24138	boulevard des Capucines
+T22	Lieu 24207 24217	Montmartre
+T23	Lieu 24380 24390	Montmartre
+T24	Lieu 24393 24403	Montmartre
+T29	Ville 260 265	Paris
+T30	Ville 413 418	Paris
+T31	Ville 1237 1242	Paris
+T33	Ville 2677 2682	Paris
+T34	Ville 3304 3309	Paris
+T36	Ville 10962 10967	Paris
+T37	Ville 12484 12489	Paris
+T38	Ville 16150 16155	Paris
+T40	Ville 23743 23748	Paris
+T41	Ville 23985 23990	Paris
+T42	Ville 27431 27436	Paris
+T43	Ville 32810 32815	Paris
+T44	Ville 36403 36408	Paris
+T45	Ville 36863 36868	Paris
+T46	Ville 36992 36997	Paris
+T47	Adresse 15739 15764	avenue de la Grande-Armée
+T49	Adresse 1115 1132	quai d'Austerlitz
+T50	Adresse 1496 1513	quai d'Austerlitz
+T51	Adresse 1540 1557	quai d'Austerlitz
+T52	Adresse 1807 1824	quai d'Austerlitz
+T53	Adresse 1999 2016	quai d'Austerlitz
+T54	Adresse 2096 2113	quai d'Austerlitz
+T55	Adresse 2629 2646	quai d'Austerlitz
+T56	Adresse 3997 4014	quai d'Austerlitz
+T57	Adresse 20437 20454	quai d'Austerlitz
+T58	Lieu 779 793	Champs-Elysées
+T60	Lieu 6339 6353	Champs-Elysées
+T61	Lieu 6459 6473	Champs-Elysées
+T63	Lieu 6646 6660	Champs-Elysées
+T64	Lieu 6740 6754	Champs-Elysées
+T65	Lieu 6805 6819	Champs-Elysées
+T66	Lieu 7178 7192	Champs-Elysées
+T67	Lieu 9424 9438	Champs-Elysées
+T68	Lieu 29898 29912	Champs-Elysées
+T69	Profession 13681 13698	chauffeur de taxi
+T70	Adresse 9639 9658	boulevard de Clichy
+T71	Adresse 29935 29954	boulevard de Clichy
+T72	Adresse 10011 10031	place de la Concorde
+T73	Lieu 292 296	XVIe
+T75	Lieu 20104 20108	XVIe
+T76	Profession 3405 3414	concierge
+T77	Profession 9854 9863	concierge
+T100	Lieu 2424 2429	Seine
+T101	Lieu 4409 4414	Seine
+T102	Lieu 10126 10131	Seine
+T103	Lieu 10214 10219	Seine
+T104	Lieu 11405 11410	Seine
+T105	Adresse 20398 20411	rue La Boétie
+T26	Profession 0 7	Serveur
+T28	Date 13 17	1933
+T79	Date 20 24	1939
+T81	Organisation 38 47	La Flotte
+T83	Adresse 49 70	118, quai de l'Artois
+T85	Ville 72 82	Le Perreux
+T87	Date 87 91	1940
+T89	Date 107 116	juin 1942
+T91	Organisation 124 135	Les Tamaris
+T93	Adresse 137 154	122, rue d'Alésia
+T95	Lieu 156 160	XIVe
+T97	Adresse 267 290	2, square des Aliscamps
+T99	Personne 163 183	Yevremovitch Miodraf
+A1	role T99 inconnu
+T106	Date 206 218	23 mars 1911
+T107	Ville 221 228	Valdejo
+T108	Lieu 230 241	Yougoslavie
+A2	type T108 pays
+T110	Date 24949 24959	avril 1933
+T112	Lieu 36999 37003	XIVe
+T113	Adresse 563 578	Boulevard Arago
+T114	Personne 801 815	Claude Bernard
+A3	role T114 inconnu
+T115	Personne 1152 1163	Eddy Pagnon
+A4	role T115 inconnu
+T116	Ville 1226 1234	Bordeaux
+A119	role T118 inconnu
+A121	role T120 inconnu
+A123	role T122 inconnu
+A125	role T124 inconnu
+A127	role T126 inconnu
+A129	role T128 inconnu
+A131	role T130 inconnu
+T117	Ville 32799 32807	Bordeaux
+T118	Personne 6762 6776	Claude Bernard
+T120	Personne 9462 9476	Claude Bernard
+T122	Personne 14932 14946	Claude Bernard
+T124	Personne 21708 21722	Claude Bernard
+T126	Personne 35911 35925	Claude Bernard
+T128	Personne 36005 36019	Claude Bernard
+T130	Personne 20654 20665	Eddy Pagnon
+T119	Date 863 867	1970
+T121	Adresse 741 760	rue Arsène-Houssaye
+T123	Date 1072 1076	1944
+T125	Adresse 459 482	rue de l'Amiral-Mouchez
+T127	Lieu 506 514	Charléty
+T133	Lieu 7328 7336	Charléty
+T134	Lieu 17700 17708	Charléty
+T135	Lieu 26529 26537	Charléty
+T136	Adresse 891 910	rue Arsène-Houssaye
+T137	Adresse 6702 6721	rue Arsène-Houssaye
+T131	Lieu 1575 1580	Bercy
+T138	Lieu 1661 1671	Austerlitz
+T139	Organisation 1775 1789	Armée du Salut
+T140	Personne 1874 1889	Charles Lombard
+A5	role T140 inconnu
+T141	Profession 1898 1912	garçon de café
+T142	Organisation 1947 1961	Armée du Salut
+T143	Personne 2127 2134	Lombard
+A6	role T143 inconnu
+T144	Lieu 2508 2518	Austerlitz
+T145	Personne 2520 2527	Pacheco
+A7	role T145 inconnu
+T146	Lieu 2211 2221	Austerlitz
+A154	role T153 inconnu
+A156	role T155 inconnu
+A158	role T157 inconnu
+A160	role T159 inconnu
+A162	role T161 inconnu
+A164	role T163 inconnu
+A166	role T165 inconnu
+A168	role T167 inconnu
+A170	role T169 inconnu
+A172	role T171 inconnu
+A174	role T173 inconnu
+A176	role T175 inconnu
+A178	role T177 inconnu
+T147	Lieu 3928 3933	Bercy
+T148	Lieu 4032 4037	Bercy
+T149	Lieu 4168 4173	Bercy
+T150	Lieu 20472 20477	Bercy
+T153	Personne 2545 2552	Lombard
+T155	Personne 3196 3215	Philippe de Pacheco
+T157	Personne 3486 3493	Pacheco
+T159	Personne 7666 7673	Pacheco
+T161	Personne 8409 8416	Pacheco
+T163	Personne 8799 8806	Pacheco
+T165	Personne 9935 9942	Pacheco
+T167	Personne 11556 11563	Pacheco
+T169	Personne 11773 11780	Pacheco
+T171	Personne 16562 16569	Pacheco
+T173	Personne 26919 26926	Pacheco
+T175	Personne 31683 31690	Pacheco
+T177	Personne 31916 31923	Pacheco
+T152	Date 3223 3238	22 janvier 1918
+T154	Adresse 3341 3363	183 de la rue Belliard
+T156	Adresse 3376 3397	porte de Clignancourt
+T158	Lieu 2800 2808	Bastille
+T160	Ville 2836 2845	Vincennes
+T162	Ville 2855 2871	Verneuil-L'Étang
+T164	Ville 2685 2701	Nogent-sur-Marne
+T166	Ville 2708 2715	Perreux
+T168	Lieu 2734 2742	Bastille
+T170	Adresse 3285 3302	183, rue Belliard
+T172	Adresse 3553 3570	183, rue Belliard
+T174	Personne 3702 3716	Simone Cordier
+A8	role T174 inconnu
+T176	Adresse 3866 3879	rue de Belloy
+T179	Adresse 9790 9812	183 de la rue Belliard
+T180	Date 16132 16147	22 janvier 1918
+T181	Lieu 3007 3015	Bastille
+T183	Ville 13788 13795	Perreux
+T184	Ville 13883 13890	Perreux
+T185	Ville 14495 14502	Perreux
+T186	Ville 25923 25930	Perreux
+T187	Ville 26286 26293	Perreux
+T190	Adresse 9825 9846	porte de Clignancourt
+T178	Lieu 4121 4132	Rive gauche
+T189	Lieu 4267 4284	gare d'Austerlitz
+T192	Lieu 5185 5207	Saint-Germain-des-Prés
+T193	Adresse 5223 5236	rue Bonaparte
+T194	Adresse 5136 5151	porte d'Orléans
+T195	Ville 5814 5826	Saint-Tropez
+T196	Adresse 4969 4995	place de la Halle aux vins
+T197	Adresse 4576 4594	quai Saint-Bernard
+T198	Organisation 5317 5331	Chez Malafosse
+T199	Adresse 5362 5375	rue Bonaparte
+T200	Organisation 5572 5580	Fantasio
+T201	Adresse 5706 5719	rue Cardinale
+T202	Lieu 5882 5893	Rive droite
+T203	Lieu 5925 5934	Carrousel
+T204	Lieu 23025 23034	Carrousel
+T205	Lieu 23591 23600	Carrousel
+T206	Organisation 28390 28404	Chez Malafosse
+T207	Organisation 35129 35143	Chez Malafosse
+T208	Organisation 24088 24096	Fantasio
+T209	Lieu 10168 10179	Rive droite
+T210	Lieu 23548 23559	Rive droite
+T211	Lieu 28631 28642	Rive droite
+T212	Lieu 28614 28625	Rive gauche
+T213	Lieu 30089 30100	Rive gauche
+T214	Lieu 34762 34773	Rive gauche
+T215	Lieu 5738 5760	Saint-Germain-des-Prés
+T216	Lieu 28258 28280	Saint-Germain-des-Prés
+T217	Lieu 30127 30149	Saint-Germain-des-Prés
+T218	Lieu 34800 34822	Saint-Germain-des-Prés
+T219	Lieu 34859 34881	Saint-Germain-des-Prés
+T220	Lieu 34997 35019	Saint-Germain-des-Prés
+T221	Lieu 35260 35282	Saint-Germain-des-Prés
+T222	Lieu 35570 35592	Saint-Germain-des-Prés
+T223	Lieu 35822 35844	Saint-Germain-des-Prés
+T224	Lieu 35887 35909	Saint-Germain-des-Prés
+T225	Ville 35336 35348	Saint-Tropez
+T226	Adresse 8141 8156	porte d'Orléans
+T227	Adresse 28209 28224	porte d'Orléans
+T228	Adresse 28495 28510	porte d'Orléans
+T229	Adresse 28831 28846	porte d'Orléans
+T230	Adresse 32882 32900	quai Saint-Bernard
+T231	Adresse 33044 33062	quai Saint-Bernard
+T232	Adresse 33178 33196	quai Saint-Bernard
+T233	Adresse 28296 28309	rue Bonaparte
+T234	Adresse 35035 35048	rue Bonaparte
+T235	Adresse 35228 35241	rue Cardinale
+T236	Adresse 6049 6065	rue Caulaincourt
+T237	Personne 6234 6252	Watchmann Johannès
+A9	role T237 inconnu
+T238	Adresse 6254 6283	76, avenue des Champs-Elysées
+T239	Adresse 6541 6566	avenue des Champs-Elysées
+T240	Lieu 6634 6641	Pigalle
+T241	Lieu 7245 7263	Cité-Universitaire
+T242	Adresse 7301 7318	boulevard Jourdan
+T243	Lieu 7341 7359	Cité-Universitaire
+T244	Lieu 7381 7391	Montsouris
+T245	Lieu 7505 7523	Cité-Universitaire
+T246	Lieu 7635 7653	Cité-Universitaire
+T247	Lieu 7679 7697	Cité-Universitaire
+T248	Lieu 7754 7772	Cité-Universitaire
+T249	Lieu 8005 8023	Cité-Universitaire
+T250	Lieu 8071 8089	Cité-Universitaire
+T251	Lieu 8237 8255	Cité-Universitaire
+T252	Lieu 8350 8368	Cité-Universitaire
+T253	Lieu 8544 8562	Cité-Universitaire
+T254	Lieu 8649 8667	Cité-Universitaire
+T255	Lieu 8825 8843	Cité-Universitaire
+T256	Lieu 18284 18302	Cité-Universitaire
+T257	Lieu 26542 26560	Cité-Universitaire
+T258	Lieu 26875 26893	Cité-Universitaire
+T259	Lieu 28425 28443	Cité-Universitaire
+T260	Lieu 7420 7430	Montsouris
+T261	Lieu 26510 26520	Montsouris
+T262	Lieu 26582 26592	Montsouris
+T263	Lieu 26751 26761	Montsouris
+T264	Lieu 26790 26800	Montsouris
+T265	Lieu 27002 27012	Montsouris
+T266	Lieu 27173 27183	Montsouris
+T267	Lieu 27259 27269	Montsouris
+T268	Lieu 31999 32009	Montsouris
+T269	Lieu 9412 9419	Pigalle
+T271	Lieu 29886 29893	Pigalle
+T273	Lieu 30047 30054	Pigalle
+T275	Adresse 17979 17996	boulevard Jourdan
+T276	Adresse 18052 18069	boulevard Jourdan
+T277	Adresse 18340 18357	boulevard Jourdan
+T278	Adresse 18441 18458	boulevard Jourdan
+T279	Adresse 18692 18709	boulevard Jourdan
+T280	Adresse 18897 18914	boulevard Jourdan
+T281	Adresse 18972 18989	boulevard Jourdan
+T282	Adresse 19447 19464	boulevard Jourdan
+T283	Adresse 6216 6232	rue Caulaincourt
+T284	Organisation 7968 7977	Air Maroc
+T285	Date 8294 8303	septembre
+T286	Ville 8475 8485	Casablanca
+T287	Lieu 8738 8756	Cité universitaire
+T288	Ville 8905 8915	Saint-Ouen
+T289	Adresse 9045 9061	avenue de Clichy
+T290	Adresse 8961 8977	avenue de Clichy
+T291	Adresse 9139 9155	avenue de Clichy
+T292	Personne 9231 9237	Balzac
+A10	role T292 autre
+T293	Organisation 9248 9263	Veuve Houssiaux
+T294	Adresse 9500 9516	avenue de Clichy
+T295	Adresse 9687 9700	place Pigalle
+T296	Lieu 10151 10159	Concorde
+T297	Adresse 10288 10297	rue Cujas
+T298	Personne 10482 10492	Léger Yves
+A11	role T298 inconnu
+T299	Adresse 10494 10517	14, rue des Dardanelles
+T300	Adresse 10578 10594	avenue Daumesnil
+T301	Adresse 10836 10848	rue Delambre
+T302	Age 10766 10775	vingt ans
+T303	Date 11048 11052	1965
+T304	Personne 11089 11099	Jacqueline
+A12	role T304 inconnu
+T305	Ville 11129 11135	Vienne
+T306	Lieu 11140 11148	Autriche
+A13	type T306 pays
+T307	Lieu 10851 10863	Montparnasse
+T308	Adresse 11028 11040	rue Delambre
+A313	role T312 inconnu
+A315	role T314 inconnu
+A317	role T316 inconnu
+A319	role T318 inconnu
+A321	role T320 inconnu
+A323	role T322 inconnu
+T309	Date 31271 31275	1965
+T310	Organisation 27303 27312	Air Maroc
+T312	Personne 19483 19493	Jacqueline
+T314	Personne 19659 19669	Jacqueline
+T316	Personne 29613 29623	Jacqueline
+T318	Personne 31173 31183	Jacqueline
+T320	Personne 32660 32670	Jacqueline
+T322	Personne 32735 32745	Jacqueline
+T324	Lieu 11987 11999	Montparnasse
+T325	Lieu 12251 12263	Montparnasse
+T326	Lieu 14479 14491	Montparnasse
+T327	Lieu 24783 24795	Montparnasse
+T328	Lieu 24834 24846	Montparnasse
+T329	Lieu 25024 25036	Montparnasse
+T330	Lieu 25069 25081	Montparnasse
+T332	Lieu 25384 25396	Montparnasse
+T333	Lieu 25483 25495	Montparnasse
+T334	Lieu 25764 25776	Montparnasse
+T335	Lieu 25872 25884	Montparnasse
+T336	Lieu 25998 26010	Montparnasse
+T337	Lieu 26121 26133	Montparnasse
+T338	Lieu 26270 26282	Montparnasse
+T339	Lieu 26429 26441	Montparnasse
+T340	Lieu 30439 30451	Montparnasse
+T341	Ville 32723 32729	Vienne
+T342	Adresse 29983 29996	place Pigalle
+T343	Adresse 34024 34033	rue Cujas
+T344	Adresse 11277 11289	rue Delambre
+T345	Age 32693 32702	vingt ans
+T313	Personne 11269 11275	Duvelz
+A14	role T313 inconnu
+T315	Adresse 11316 11335	boulevard Delessert
+T317	Lieu 11355 11360	Passy
+T319	Adresse 11467 11481	4, rue du Dôme
+T321	Date 11415 11419	1953
+T323	Personne 11449 11465	de Hults-Bellune
+A15	role T323 inconnu
+T346	Adresse 11631 11642	rue du Dôme
+T347	Profession 11849 11858	policiers
+T348	Adresse 12086 12108	boulevard Edgar-Quinet
+T349	Adresse 12342 12362	place de l'Estrapade
+T350	Personne 12364 12399	de Reith Hildegarde-Jeanne-Caroline
+A16	role T350 inconnu
+T351	Personne 12407 12422	von Seckendorff
+A17	role T351 inconnu
+T352	Date 12431 12446	18 février 1907
+T353	Ville 12449 12454	Mayen
+T354	Lieu 12456 12465	Allemagne
+A18	type T354 pays
+T355	Adresse 12491 12506	41, avenue Foch
+T356	Adresse 12587 12607	place de l'Estrapade
+T357	Adresse 12632 12669	26 de la rue des Fossés-Saint-Jacques
+T358	Adresse 12897 12929	26, rue des Fossés-Saint-Jacques
+T359	Lieu 12941 12949	Panthéon
+T360	Adresse 13038 13070	26, rue des Fossés-Saint-Jacques
+T361	Date 13000 13007	juillet
+T362	Adresse 13139 13167	rue des Fossés-Saint-Jacques
+T363	Adresse 13547 13575	rue des Fossés-Saint-Jacques
+T364	Lieu 13646 13651	Marne
+T365	Profession 13739 13749	enquêteurs
+T366	Adresse 13894 13931	26 de la rue des Fossés-Saint-Jacques
+T367	Adresse 14020 14048	rue des Fossés-Saint-Jacques
+T368	Adresse 14232 14260	rue des Fossés-Saint-Jacques
+A372	role T371 inconnu
+A374	role T373 inconnu
+T369	Date 11597 11601	1953
+T370	Adresse 14748 14780	26, rue des Fossés-Saint-Jacques
+T371	Personne 25509 25515	Duvelz
+T373	Personne 31144 31150	Duvelz
+T376	Lieu 25812 25817	Marne
+T377	Lieu 17188 17196	Panthéon
+T378	Adresse 25310 25332	boulevard Edgar-Quinet
+T379	Date 24329 24336	juillet
+T380	Profession 21591 21600	policiers
+T384	Adresse 13417 13445	rue des Fossés-Saint-Jacques
+T386	Adresse 14522 14550	rue des Fossés-Saint-Jacques
+T389	Adresse 11713 11724	rue du Dôme
+T372	Date 14411 14421	avril 1933
+T374	Personne 14443 14449	Urbain
+A19	role T374 inconnu
+T390	Personne 14453 14462	Gisèle T.
+A20	role T390 inconnu
+T391	Ville 14713 14720	Perreux
+T392	Personne 14914 14926	Jean Terrail
+A21	role T392 inconnu
+T393	Adresse 15045 15061	rue François-Ier
+T394	Adresse 15259 15273	Rue Gay-Lussac
+T395	Organisation 15490 15507	Hôtel de l'Avenir
+T396	Lieu 15557 15565	Gobelins
+T397	Adresse 15827 15845	rue Pierre-Charron
+T398	Organisation 15924 15931	Le Polo
+T399	Adresse 15933 15962	72, avenue de la Grande-Armée
+T400	Date 15967 15971	1919
+T401	Adresse 16042 16055	4, rue Greuze
+A405	role T404 inconnu
+A407	role T406 inconnu
+A409	role T408 inconnu
+A411	role T410 inconnu
+A413	role T412 inconnu
+T402	Adresse 16214 16227	4, rue Greuze
+T403	Adresse 16303 16316	4, rue Greuze
+T404	Personne 24726 24735	Gisèle T.
+T406	Personne 25954 25963	Gisèle T.
+T408	Personne 26244 26253	Gisèle T.
+T410	Personne 26234 26240	Urbain
+T412	Personne 26356 26365	Urbain T.
+T414	Adresse 29414 29432	rue Pierre-Charron
+T405	Adresse 16571 16581	rue Greuze
+T407	Adresse 16770 16782	rue Guynemer
+T409	Adresse 17020 17039	avenue Henri-Martin
+T411	Organisation 17240 17247	Jimmy's
+T418	Adresse 16670 16680	rue Greuze
+T419	Adresse 16981 16993	rue Guynemer
+T413	Adresse 17276 17288	rue Huyghens
+T420	Adresse 17426 17446	boulevard Kellermann
+T421	Lieu 17479 17500	poterne des Peupliers
+T422	Adresse 17847 17861	porte d'Italie
+T423	Adresse 17908 17923	avenue d'Italie
+T424	Adresse 17952 17972	boulevard Kellermann
+T425	Personne 18529 18548	Philippe de Bellune
+A22	role T425 inconnu
+T426	Adresse 19205 19217	avenue Junot
+T427	Lieu 19369 19390	poterne des Peupliers
+T428	Adresse 19316 19336	boulevard Kellermann
+T429	Personne 20045 20053	Delbarre
+A23	role T429 inconnu
+T430	Personne 20057 20062	Etève
+A24	role T430 inconnu
+T431	Organisation 20064 20079	Hôtel Baltimore
+T432	Adresse 20081 20102	88 bis, avenue Kléber
+T433	Personne 20177 20182	Henri
+A25	role T433 inconnu
+T434	Personne 20245 20255	de Cadaval
+A27	role T434 inconnu
+T435	Personne 20260 20266	Pagnon
+A29	role T435 inconnu
+T436	Profession 20289 20297	écrivain
+T437	Personne 20307 20327	Erich Maria Remarque
+A30	role T437 autre
+T438	Lieu 20353 20361	Amérique
+T439	Profession 20382 20391	garagiste
+T440	Date 20543 20547	1943
+T441	Ville 20605 20611	Drancy
+T442	Date 20763 20776	novembre 1941
+T443	Personne 20895 20905	Chamberlin
+A31	role T443 inconnu
+T444	Personne 20914 20919	Henri
+A32	role T444 inconnu
+T445	Adresse 20981 20994	rue Lauriston
+A450	role T449 inconnu
+A454	role T453 inconnu
+A458	role T457 inconnu
+A460	role T459 inconnu
+T449	Personne 21511 21516	Henri
+T453	Personne 3064 3070	Pagnon
+T457	Personne 21433 21439	Pagnon
+T459	Personne 32765 32771	Pagnon
+T461	Adresse 19420 19440	boulevard Kellermann
+T462	Adresse 19557 19577	boulevard Kellermann
+T463	Adresse 19692 19712	boulevard Kellermann
+T464	Adresse 19759 19779	boulevard Kellermann
+T465	Adresse 19912 19932	boulevard Kellermann
+T466	Adresse 17373 17387	porte d'Italie
+T467	Adresse 20736 20749	rue Lauriston
+T468	Adresse 20944 20957	rue Lauriston
+T469	Adresse 21050 21063	rue Lauriston
+T470	Adresse 21220 21233	rue Lauriston
+T471	Adresse 21303 21316	rue Lauriston
+T472	Adresse 21404 21417	rue Lauriston
+T473	Adresse 21545 21558	rue Lauriston
+T474	Adresse 21691 21704	rue Lauriston
+T475	Adresse 21959 21972	rue Lauriston
+T448	Personne 21197 21203	Pàgnon
+A33	role T448 inconnu
+T450	Profession 21332 21357	portier de boîtes de nuit
+T452	Profession 21394 21402	plantons
+T454	Date 21480 21484	1941
+T456	Organisation 21471 21476	Santé
+T458	Age 21852 21864	dix-neuf ans
+T460	Personne 21980 21987	Fercrou
+A34	role T460 inconnu
+T476	Adresse 21989 22006	1, rue Lord-Byron
+T477	Adresse 22113 22130	1, rue Lord-Byron
+T478	Organisation 23091 23096	Flore
+T479	Organisation 23826 23842	Cercle Haussmann
+T480	Adresse 23844 23864	rue de la Michodière
+T481	Adresse 23750 23762	rue Magellan
+T482	Adresse 23777 23797	rue de la Michodière
+T483	Adresse 23992 24004	rue Magellan
+T484	Adresse 24019 24039	rue de la Michodière
+T485	Personne 23664 23674	Rudy Hiden
+A35	role T485 inconnu
+T486	Adresse 24064 24083	faubourg Montmartre
+T487	Adresse 24609 24624	rue de l'Orient
+T488	Ville 24670 24683	Sidi-Bou-Saïd
+T489	Organisation 24808 24817	Ursulines
+A493	role T492 inconnu
+T491	Organisation 30714 30727	Café de Flore
+T492	Personne 23906 23916	Rudy Hiden
+T495	Organisation 20878 20883	Santé
+T496	Organisation 17152 17161	Ursulines
+T497	Adresse 5548 5567	faubourg Montmartre
+T498	Profession 21288 21296	plantons
+T493	Personne 25521 25526	Devez
+A36	role T493 inconnu
+T499	Lieu 25604 25616	Val-de-Grâce
+T500	Adresse 26055 26075	carrefour de l'Odéon
+T501	Date 26202 26212	avril 1933
+T502	Personne 26346 26352	Gisèle
+A37	role T502 inconnu
+T503	Date 26377 26382	avril
+T504	Profession 26694 26702	aviateur
+T505	Personne 26703 26714	Jean Mermoz
+A38	role T505 autre
+T506	Adresse 27070 27083	avenue Reille
+T507	Organisation 27145 27151	snecma
+T508	Organisation 27228 27238	Café Babel
+T509	Organisation 27334 27351	Hôtel de Belgique
+T510	Adresse 27353 27370	boulevard Magenta
+T511	Lieu 27391 27403	gare du Nord
+T512	Organisation 27656 27667	Chez Alexis
+T513	Date 27617 27630	novembre 1943
+T514	Date 27633 27642	août 1944
+T515	Adresse 27669 27698	47, rue Notre-Dame-de-Lorette
+T516	Lieu 27700 27703	IXe
+T517	Date 27709 27713	1949
+T518	Date 27716 27720	1951
+T519	Profession 27723 27739	veilleur de nuit
+T520	Organisation 27745 27760	pension Keppler
+T521	Adresse 27762 27776	9, rue Keppler
+T522	Lieu 27778 27781	XVe
+T523	Lieu 27847 27864	Denfert-Rochereau
+T524	Organisation 27905 27926	Saint-Vincent-de-Paul
+T525	Adresse 27990 28002	rue d'Odessa
+T526	Adresse 28006 28019	rue du Départ
+T527	Ville 28148 28153	Brest
+T528	Ville 28160 28167	Lorient
+T529	Date 28738 28750	janvier 1960
+T530	Age 28754 28774	quatorze ans et demi
+T531	Lieu 28805 28819	Croix-de-Berny
+T532	Organisation 28866 28876	la Rotonde
+T533	Adresse 28950 28971	place du Palais-Royal
+T534	Adresse 29240 29258	avenue Paul-Doumer
+T535	Adresse 29301 29319	avenue Paul-Doumer
+T536	Adresse 29548 29565	rue Pierre-Nicole
+T537	Organisation 29759 29774	collège Sévigné
+T538	Adresse 30190 30209	rue du Pont-de-Lodi
+T540	Personne 30247 30254	Pachaud
+A39	role T540 inconnu
+T541	Adresse 30256 30271	rue de l'Abbaye
+T542	Adresse 30275 30292	place Furstenberg
+T543	Adresse 30373 30393	carrefour de l'Odéon
+T544	Adresse 30578 30597	rue du Pont-de-Lodi
+T545	Lieu 30752 30768	Bois de Boulogne
+T546	Organisation 30833 30850	Café de la Marine
+T547	Adresse 30864 30886	243, boulevard Raspail
+T548	Organisation 30901 30918	cabaret des Isles
+T549	Adresse 30920 30929	rue Vavin
+T550	Lieu 31089 31106	Denfert-Rochereau
+T551	Adresse 31212 31229	boulevard Raspail
+T552	Adresse 31243 31266	19 du boulevard Raspail
+T553	Adresse 31406 31419	avenue Reille
+T554	Adresse 31623 31636	avenue Reille
+T555	Adresse 31756 31769	avenue Reille
+T556	Ville 31886 31890	Orly
+T557	Adresse 32067 32080	avenue Reille
+T558	Adresse 32161 32174	avenue Reille
+T559	Adresse 32228 32241	rue de Rennes
+T560	Adresse 32321 32344	carrefour Saint-Placide
+T561	Adresse 32597 32609	avenue Rodin
+T562	Adresse 32676 32688	avenue Rodin
+T563	Adresse 32751 32763	avenue Rodin
+T564	Organisation 33263 33276	Café de Cluny
+T565	Organisation 33519 33530	MacDonald's
+T566	Personne 33357 33366	Churchill
+A40	role T566 autre
+T567	Adresse 33433 33455	boulevard Saint-Michel
+T568	Date 33377 33381	1966
+T569	Organisation 33538 33547	le Mahieu
+T571	Organisation 31046 31063	Café de la Marine
+T572	Organisation 35685 35695	la Rotonde
+T582	Organisation 27593 27610	Hôtel de Belgique
+T584	Adresse 31065 31082	boulevard Raspail
+T586	Adresse 33682 33704	boulevard Saint-Michel
+T587	Adresse 34263 34285	boulevard Saint-Michel
+T588	Adresse 34705 34727	boulevard Saint-Michel
+T589	Adresse 36774 36796	boulevard Saint-Michel
+T590	Lieu 27460 27472	gare du Nord
+T591	Lieu 27538 27550	gare du Nord
+T593	Date 35626 35641	18 janvier 1960
+T594	Age 34924 34944	quatorze ans et demi
+T595	Organisation 17531 17537	snecma
+T575	Lieu 33824 33838	quartier Latin
+T577	Lieu 34302 34312	Port-Royal
+T579	Personne 34576 34592	Violette Nozière
+A41	role T579 inconnu
+T581	Adresse 34643 34660	rue Victor-Cousin
+T596	Lieu 34673 34681	Sorbonne
+T597	Organisation 34689 34703	Palais du Café
+T598	Ville 34396 34401	Cluny
+T599	Ville 35772 35781	Montrouge
+T600	Ville 35785 35793	Malakoff
+T601	Adresse 35988 36002	rue de la Tour
+T602	Adresse 36223 36232	rue d'Ulm
+T603	Adresse 36448 36464	boulevard Victor
+T604	Adresse 36488 36507	porte de Versailles
+T605	Ville 36835 36843	Mulhouse
+T606	Lieu 36886 36903	canal Saint-Denis
+T607	Lieu 36942 36953	la Villette
+T608	Personne 36955 36967	Lebobe André
+A42	role T608 inconnu
+T609	Date 36975 36989	6 octobre 1917
+T610	Profession 37005 37013	Courtier
+T611	Adresse 37015 37033	22, rue Washington
+T612	Date 34899 34914	18 janvier 1960
+T614	Lieu 36758 36772	Palais du Café
+T615	Lieu 36742 36750	Sorbonne
+T617	Adresse 36568 36587	porte de Versailles
+T618	Adresse 36712 36729	rue Victor-Cousin
+T619	Adresse 36064 36078	rue de la Tour
+T620	Adresse 36191 36205	rue de la Tour
+T20	Organisation 13208 13215	le Dôme
+T59	Organisation 13219 13229	la Rotonde
+T48	Lieu 18765 18769	Cité
+T21	Personne 191 196	Draga
+A26	role T21 inconnu
+T25	Profession 995 1002	Planton
+T27	Date 1187 1190	mai
+T62	Lieu 2753 2766	gare de l'Est
+T78	Adresse 3106 3142	48 bis de la rue des Belles-Feuilles
+T80	Organisation 4440 4469	Magasins du port d'Austerlitz
+T82	Adresse 5476 5489	rue Cantagrel
+T84	Organisation 5455 5469	Cité du refuge
+T86	Organisation 6158 6171	San Cristobal
+T88	Personne 11743 11759	de Hults Bellune
+A28	role T88 inconnu
+T90	Organisation 12158 12168	la Coupole
+T92	Personne 12966 12968	T.
+A43	role T92 inconnu
+T94	Personne 13381 13383	T.
+A44	role T94 inconnu
+T96	Personne 14171 14173	T.
+A45	role T96 inconnu
+T98	Organisation 15807 15820	mont-de-piété
+T109	Age 18086 18107	cinquantaine d'années
+T111	Date 19104 19108	août
+T132	Lieu 19244 19267	château des Brouillards
+T151	Lieu 22153 22166	pont des Arts
+T182	Personne 24716 24722	Urbain
+A46	role T182 inconnu
+T188	Organisation 27930 27942	Observatoire
+T191	Organisation 27809 27821	Observatoire
+T270	Personne 30979 30981	T.
+A47	role T270 inconnu
+T272	Lieu 31590 31594	Cité
+T274	Date 33321 33328	janvier
+T311	Date 33751 33759	décembre
+T714	Lieu 16064 16083	XVIe arrondissement
+T729	Gentile 16847 16855	japonais
+T732	Organisation 29394 29407	mont-de-piété
+T375	Lieu 3310 3311	X
+T381	Lieu 3572 3576	xvme
+T752	Lieu 1366 1376	Austerlitz
+T74	Organisation 1586 1612	Magasins généraux de Paris
+T382	Organisation 4043 4069	Magasins généraux de Paris
+T383	Lieu 4807 4821	Halle aux vins
+T385	Lieu 4682 4700	Jardin des Plantes
+T387	Lieu 4195 4213	Jardin des Plantes
+T388	Gentile 20298 20306	allemand
+T755	Lieu 7876 7890	Halle aux vins
+T756	Lieu 32907 32921	Halle aux vins
+T757	Lieu 32965 32979	Halle aux vins
+T758	Lieu 2253 2271	Jardin des Plantes
+T761	Organisation 20483 20509	Magasins généraux de Paris
+T762	Lieu 25211 25223	Montparnasse
+T763	Gentile 21601 21609	français
+T415	Autre 34189 34193	Lola
+T416	Autre 34197 34213	Adieu Philippine
+A48	classe T415 titre
+A49	classe T416 titre
+A772	classe T771 titre
+A774	classe T773 titre
+A776	classe T775 titre
+A778	classe T777 titre
+T771	Autre 9564 9580	Adieu Philippine
+T773	Autre 10461 10477	Adieu Philippine
+T775	Autre 9556 9560	Lola
+T777	Autre 10453 10457	Lola
+T779	Age 15243 15257	vingt-cinq ans
+T32	Lieu 8885 8901	marché aux Puces
+T35	Lieu 9018 9023	Puces
+T129	Adresse 15597 15612	rue de la Santé
+T2	Gentile 20785 20794	Allemands
+T39	Autre 21153 21163	Occupation
+T417	Adresse 21180 21195	quai de la Gare
+A50	classe T39 epoque
+T331	Organisation 16347 16364	Église chaldéenne
+T446	Organisation 27949 27970	Bureau des Longitudes

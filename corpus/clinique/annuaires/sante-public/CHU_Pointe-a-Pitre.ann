@@ -1,0 +1,16 @@
+T2	Date 82 97	29 juillet 2021
+T3	Telephone 193 207	05 90 89 10 10
+T4	Telephone 215 229	05 90 89 10 79
+T5	Adresse 319 335	Route de Chauvel
+T6	Cp 336 342	BP 465
+T7	Cp 343 348	97159
+T8	Ville 349 363	Pointe-à-Pitre
+T9	Personne 414 429	Gérard COTELLON
+A1	role T9 soignant
+T10	Personne 505 527	Marie-Christine BELTAN
+A2	role T10 soignant
+T11	Mail 544 584	marie-christine.beltan@chu-guadeloupe.fr
+T12	Telephone 602 616	05 90 89 16 63
+T13	URL 242 272	https://www.chu-guadeloupe.fr/
+T14	Cedex 364 369	Cedex
+T1	Organisation 0 55	Centre hospitalier universitaire (CHU) - Pointe-à-Pitre

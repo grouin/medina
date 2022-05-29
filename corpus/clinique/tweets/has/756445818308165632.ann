@@ -1,0 +1,5 @@
+T2	Personne 0 12	Daniel Ludet
+T3	Profession 15 24	magistrat
+T4	Profession 33 44	déontologue
+T1	Organisation 51 54	HAS
+A1	role T2 autre

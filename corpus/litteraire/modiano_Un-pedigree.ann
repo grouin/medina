@@ -1,0 +1,59 @@
+A3	role T2 autre
+A5	role T4 autre
+A7	role T6 autre
+A9	role T8 autre
+T1	Organisation 86 95	Gallimard
+T2	Personne 46 61	Patrick Modiano
+T4	Personne 132 147	Patrick Modiano
+T6	Personne 642 657	Patrick Modiano
+T8	Personne 948 963	Patrick Modiano
+A15	role T14 autre
+A23	role T22 autre
+T14	Personne 337 344	Modiano
+T22	Personne 1414 1428	Albert Modiano
+T26	Date 217 221	1948
+T27	Personne 1058 1072	Albert Modiano
+A29	role T28 inconnu
+A31	role T30 inconnu
+T28	Personne 1187 1194	Jacques
+T30	Personne 1296 1308	Jean Normand
+T32	Adresse 1144 1157	rue Lauriston
+T3	Age 499 505	22 ans
+T5	Personne 1094 1107	Luisa Colpeyn
+A1	role T5 inconnu
+T7	Ville 938 946	Saint-Lô
+T9	Lieu 828 834	Manche
+T11	Ville 1279 1285	Thônes
+T13	Lieu 1287 1293	Savoie
+T15	Personne 1309 1319	Jean Duval
+A2	role T15 inconnu
+T17	Profession 1235 1257	professeur de français
+T19	Personne 1219 1233	Abbé Accambray
+A4	role T19 inconnu
+T21	Organisation 1261 1275	collège Joseph
+T35	Ville 811 819	Saint-Lô
+T23	Personne 190 205	Georges Simenon
+A6	role T23 autre
+T25	Date 330 334	1977
+T29	Age 754 760	14 ans
+T31	Personne 1382 1398	Mylène Demongeot
+A8	role T31 inconnu
+T34	Personne 1160 1166	Stella
+A10	role T34 inconnu
+T37	Personne 1431 1438	Stioppa
+A12	role T37 inconnu
+T38	Personne 1441 1453	Paulo Guérin
+A14	role T38 inconnu
+T39	Personne 1322 1335	Kiki Daragane
+A16	role T39 inconnu
+A42	role T41 inconnu
+T40	Date 223 227	1952
+T41	Personne 1210 1216	Stella
+T42	Autre 207 215	Pedigree
+A18	classe T42 titre
+T44	Autre 0 11	Un pedigree
+A20	classe T44 titre
+T45	Date 99 103	2005
+T46	Autre 311 328	Livret de famille
+A22	classe T46 titre
+A11	role T27 autre

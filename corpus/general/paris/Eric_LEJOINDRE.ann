@@ -1,0 +1,20 @@
+T1	Date 429 444	11 juillet 2020
+T2	Date 117 129	28 juin 2020
+T3	Date 209 221	28 juin 2020
+T4	Ville 82 87	Paris
+T5	Ville 108 113	Paris
+T6	Ville 138 143	Paris
+T7	Ville 168 173	Paris
+T8	Ville 273 278	Paris
+T10	Date 513 526	13 avril 2014
+T11	Date 329 345	15 décembre 2015
+T9	Date 282 295	13 avril 2014
+T14	Personne 3 17	Eric LEJOINDRE
+A1	role T14 autre
+T15	Date 671 682	17 mai 1980
+T16	Ville 686 693	Provins
+T17	Lieu 695 709	Seine-et-Marne
+T18	Mail 731 754	eric.lejoindre@paris.fr
+T12	Lieu 28 46	18e arrondissement
+T13	Lieu 407 425	18e arrondissement
+T19	Lieu 491 509	18e arrondissement

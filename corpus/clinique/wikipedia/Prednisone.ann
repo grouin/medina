@@ -1,0 +1,17 @@
+T2	Substance 3 13	prednisone
+A4	type T3 pays
+A6	type T5 pays
+T3	Lieu 1720 1728	Belgique
+T5	Lieu 1917 1923	France
+T7	Substance 172 182	prednisone
+T8	Substance 339 349	prednisone
+T1	Substance 1971 1980	Cortancyl
+T4	Substance 2020 2030	Prednisone
+T6	Substance 1825 1835	Pred Forte
+T9	Lieu 1840 1847	Espagne
+A1	type T9 pays
+T10	Substance 1895 1912	Prednisona Alonga
+T11	Pathologie 731 737	Horton
+T12	Pathologie 989 994	Crohn
+T13	Pathologie 1130 1137	Quincke
+T14	Pathologie 593 601	Takayasu

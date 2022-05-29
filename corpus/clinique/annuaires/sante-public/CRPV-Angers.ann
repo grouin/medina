@@ -1,0 +1,12 @@
+T2	Date 72 83	10 mai 2021
+T3	Telephone 179 193	02 41 35 45 54
+T4	Telephone 201 215	02 41 35 55 02
+T5	Mail 229 260	pharmacovigilance@chu-angers.fr
+T6	Adresse 370 382	4 rue Larrey
+T7	Cp 383 388	49933
+T8	Ville 389 395	Angers
+T9	Personne 441 452	Marie BRIET
+A1	role T9 soignant
+T10	URL 273 351	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T1	Organisation 0 45	Centre régional de pharmacovigilance - Angers
+T11	Cedex 396 403	Cedex 9

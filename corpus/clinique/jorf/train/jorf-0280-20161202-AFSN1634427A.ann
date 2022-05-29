@@ -1,0 +1,14 @@
+T2	Date 10 26	24 novembre 2016
+T3	Date 210 226	24 novembre 2016
+T8	Id 102 114	AFSN1634427A
+T1	Organisation 423 484	Assistance publique - Hôpitaux de Paris - Hôpital Saint-Louis
+T4	Personne 231 247	Zsigmond BARCSAY
+A1	role T4 soignant
+T5	Date 255 266	2 juin 1990
+T6	Ville 269 285	Hodmezovasarhely
+T7	Lieu 287 294	Hongrie
+T10	Date 690 705	2 novembre 2016
+T9	Lieu 88 94	France
+A2	type T9 pays
+A3	date T5 naissance
+A4	type T7 pays

@@ -1,0 +1,20 @@
+Mycoplasma pneumoniae est une bactérie parasite, le seul mycoplasme dont la pathogénicité pour l'homme soit bien établie. Trouvé dès 1944 par le microbiologiste Monroe Davis Eaton chez des sujets atteints de « pneumonie atypique primitive » ou « pneumonie à virus », il fut longtemps dénommé « agent d'Eaton » et reconnu comme n'étant pas un vrai virus en raison de sa sensibilité aux tétracyclines. C'est en 1962 que Robert M. Chanock réussit à le cultiver sur milieu non vivant et à prouver son appartenance aux mycoplasmes.
+
+Écologie, pathogénie et épidémiologie
+Le germe se trouve essentiellement dans les voies respiratoires, où il peut provoquer une véritable pneumonie avec hépatisation : entre 30 et 50 % des pneumonies primaires atypiques, les autres étant dues aux adénovirus et aux rickettsies. Il est apparu dans les expériences sur volontaires et lors d'enquêtes épidémiologiques que seule une minorité d'individus développe des lésions pulmonaires (3 à 15 %).
+
+Dans la majorité des cas, l'infection est bénigne et se manifeste par un épisode de bronchite aiguë ou de pharyngite, parfois de myringite. Des formes plus aigües ont été rapportées, principalement des bronchiolites aiguës hypoxémiantes et des syndromes de détresse respiratoire aiguë.
+
+La maladie touche de préférence les adolescents et les jeunes adultes. L'incubation est longue (jusqu'à 3 semaines) et le portage pharyngé peut se prolonger pendant plusieurs semaines ou plusieurs mois chez le convalescent.
+
+Caractères bactériologiques
+La culture des expectorations ou d'un frottis pharyngé est laborieuse et lente. Le germe exige un milieu spécial enrichi d'extrait de levure et de sérum. La primo-infection peut exiger 15 jours et plus. Mycoplasma pneumoniae hémolyse les globules rouges de cobaye, fermente le glucose et réduit le phényl tétrazolium.
+
+Sérodiagnostic
+C'est le procédé le plus souvent employé pour le diagnostic clinique, mais il exige l'examen d'un sérum précoce et d'un autre plus tardif (différence de titres).
+
+Il peut se faire par :
+- Déviation du complément.
+- Inhibition de l'hémagglutination.
+- Immunofluorescence indirecte sur coupes d'embryons de poulets infectés.
+- Inhibition métabolique : les anticorps provoquent l'inhibition de la croissance (peu sensible) mais aussi, par conséquent, l'inhibition d'une activité métabolique, par ex. la fermentation du glucose (méthode très sensible).

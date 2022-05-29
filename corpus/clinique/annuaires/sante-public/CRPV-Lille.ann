@@ -1,0 +1,14 @@
+T1	Date 71 86	27 février 2020
+T3	Telephone 182 196	03 20 96 18 18
+T4	Telephone 204 218	03 20 44 56 87
+T5	Mail 232 263	pharmacovigilance@chru-lille.fr
+T6	Organisation 411 415	CHRU
+T7	Adresse 416 433	1 place de Verdun
+T8	Cp 434 439	59045
+T9	Ville 440 445	Lille
+T10	Personne 488 500	Régis BORDET
+A1	role T10 soignant
+T11	URL 276 301	http://www.chru-lille.fr/
+T12	URL 314 392	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T13	Cedex 446 451	Cedex
+T2	Organisation 0 44	Centre régional de pharmacovigilance - Lille

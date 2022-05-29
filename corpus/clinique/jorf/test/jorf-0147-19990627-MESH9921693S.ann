@@ -1,0 +1,31 @@
+T1	Id 0 12	MESH9921692S
+T2	Organisation 228 257	maternité régionale A.-Pinard
+T3	Adresse 259 287	10, rue Heydenreich, BP 4213
+T4	Cp 289 294	54012
+T5	Ville 295 300	Nancy
+T6	Date 142 155	20 avril 1999
+T7	Personne 685 705	C. Cartounni-Cellier
+A1	role T7 soignant
+T8	Personne 707 720	D.-E. Deuilly
+A2	role T8 soignant
+T9	Personne 722 730	F. Fouin
+A3	role T9 soignant
+T10	Personne 732 745	G. Grinzspueh
+A4	role T10 soignant
+T11	Personne 782 788	Didier
+A5	role T11 soignant
+T12	Personne 790 800	H. Hagayer
+A6	role T12 soignant
+T13	Personne 833 844	I. Illienon
+A7	role T13 soignant
+T14	Personne 881 889	J. Jodon
+A8	role T14 soignant
+T15	Personne 891 899	K. Krian
+A9	role T15 soignant
+T16	Personne 901 914	L.-M. Larmine
+A10	role T16 soignant
+T17	Personne 916 935	N. Nourie-Oulmallie
+A11	role T17 soignant
+T18	Personne 937 944	P. Pani
+A12	role T18 soignant
+T19	Cedex 301 306	Cedex

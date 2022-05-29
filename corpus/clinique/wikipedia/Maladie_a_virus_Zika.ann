@@ -1,0 +1,109 @@
+T1	Lieu 425 432	Afrique
+T2	Date 539 543	2007
+T3	Lieu 564 574	Micronésie
+T4	Date 579 583	2013
+T5	Lieu 587 606	Polynésie française
+T6	Date 611 615	2014
+T7	Lieu 619 637	Nouvelle-Calédonie
+T8	Date 646 650	2015
+T9	Date 1429 1441	février 2016
+T10	Date 1737 1747	avril 1947
+T11	Ville 1973 1980	Entebbe
+T12	Date 2038 2042	1948
+T13	Date 2120 2124	1952
+T14	Date 2247 2251	1956
+T15	Date 2290 2294	1954
+T16	Date 2299 2303	1968
+T17	Date 2326 2330	1971
+T18	Date 2334 2338	1975
+T19	Date 2390 2394	1951
+T20	Date 2398 2402	1981
+T22	Lieu 2663 2671	Malaisie
+T23	Date 2778 2782	2006
+T24	Lieu 2800 2806	Europe
+T25	Lieu 2810 2816	Europe
+T26	Date 2841 2853	janvier 2016
+T27	Lieu 2857 2868	Royaume-Uni
+T28	Lieu 2885 2893	Pays-Bas
+T29	Lieu 2898 2906	Portugal
+T30	Lieu 2911 2917	Suisse
+T31	Lieu 2990 2998	Danemark
+T32	Lieu 3029 3035	France
+T33	Organisme 3093 3098	Aedes
+T34	Organisme 3100 3116	Aedes albopictus
+T35	Date 3215 3218	mai
+T36	Date 3221 3229	novembre
+T37	Date 3283 3291	mai 2016
+T39	Lieu 3337 3344	Espagne
+T41	Lieu 3434 3442	Amérique
+T42	Lieu 3578 3584	Europe
+T43	Date 3590 3602	octobre 2016
+T44	Lieu 3664 3670	France
+T45	Lieu 3702 3713	Rhône-Alpes
+T46	Date 3730 3741	2 mars 2016
+T48	Pathologie 19 23	Zika
+T49	Pathologie 61 65	Zika
+T50	Pathologie 74 78	Zika
+T51	Pathologie 97 101	Zika
+T52	Organisme 154 158	Zika
+T53	Organisme 229 234	Aedes
+T54	Lieu 415 419	Asie
+T55	Lieu 557 560	Yap
+A1	type T3 pays
+A2	type T5 pays
+A3	type T7 pays
+T56	Lieu 744 750	Brésil
+A4	type T56 pays
+T57	Pathologie 827 831	Zika
+T58	Pathologie 1181 1195	Guillain-Barré
+T59	Organisme 1540 1544	Zika
+T60	Lieu 1923 1927	Zika
+T61	Lieu 1944 1952	Victoria
+T62	Lieu 1984 1991	Ouganda
+A5	type T62 pays
+T63	Organisme 2061 2076	Aedes africanus
+T64	Organisme 2180 2185	Aedes
+T65	Lieu 2375 2382	Nigeria
+A6	type T65 pays
+T66	Lieu 2556 2563	Ouganda
+A7	type T66 pays
+T67	Lieu 2565 2573	Tanzanie
+A8	type T67 pays
+T68	Lieu 2575 2581	Égypte
+A9	type T68 pays
+T69	Lieu 2583 2608	République centrafricaine
+A10	type T69 pays
+T21	Lieu 2610 2622	Sierra Leone
+A11	type T21 pays
+T70	Lieu 2624 2629	Gabon
+A12	type T70 pays
+T71	Lieu 2633 2640	Sénégal
+A13	type T71 pays
+T72	Lieu 2657 2661	Inde
+A14	type T72 pays
+A15	type T22 pays
+T73	Lieu 2673 2684	Philippines
+A16	type T73 pays
+T74	Lieu 2686 2695	Thaïlande
+A17	type T74 pays
+T75	Lieu 2697 2705	Viêt Nam
+A18	type T75 pays
+T76	Lieu 2709 2718	Indonésie
+A19	type T76 pays
+A20	type T27 pays
+T77	Lieu 2873 2879	Italie
+A21	type T77 pays
+A22	type T28 pays
+A23	type T29 pays
+A24	type T30 pays
+T78	Lieu 2967 2982	Amérique latine
+A25	type T31 pays
+A26	type T32 pays
+T79	Lieu 3317 3326	Catalogne
+A27	type T39 pays
+T38	Organisme 3404 3408	Zika
+T40	Lieu 3540 3548	Amérique
+A28	type T44 pays
+T80	Organisation 3745 3748	OMS
+T81	Organisme 3824 3828	zika
+T47	Ville 4309 4318	Sao Paulo

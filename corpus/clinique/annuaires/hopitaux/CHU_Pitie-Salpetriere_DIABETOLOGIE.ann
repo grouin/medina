@@ -1,0 +1,63 @@
+T1	Personne 28 42	Agnès HARTEMAN
+A1	role T1 soignant
+T2	Telephone 49 63	01 42 17 81 18
+T3	Mail 71 103	catherine.barrailler@psl.aphp.fr
+T4	Personne 126 141	AGNES HARTEMANN
+A2	role T4 soignant
+T5	Personne 153 173	Catherine BARRAILLER
+A3	role T5 autre
+T6	Telephone 174 188	01 42 17 82 37
+T7	Telephone 190 204	01 42 17 78 32
+T8	Telephone 206 220	01 42 17 81 18
+T9	Personne 263 278	AGNES HARTEMANN
+A4	role T9 soignant
+T10	Personne 335 347	YASMINE AKLE
+A5	role T10 soignant
+T11	Personne 362 382	CHLOE AMOUYAL GALAND
+A6	role T11 soignant
+T12	Personne 392 410	FABRIZIO ANDREELLI
+A7	role T12 soignant
+T13	Personne 421 436	Roland BERNHEIM
+A8	role T13 soignant
+T14	Personne 443 458	OLIVIER BOURRON
+A9	role T14 soignant
+T15	Personne 468 483	CECILE CIANGURA
+A10	role T15 soignant
+T16	Personne 555 567	ANNE DIERICK
+A11	role T16 soignant
+T17	Personne 602 614	HUGO FRANCON
+A12	role T17 soignant
+T18	Personne 628 642	GEORGES HA VAN
+A13	role T18 soignant
+T19	Personne 653 667	MARINE HALBRON
+A14	role T19 soignant
+T20	Personne 738 753	AGNES HARTEMANN
+A15	role T20 soignant
+T21	Personne 764 789	SOPHIE JACQUEMINET NEVANT
+A16	role T21 soignant
+T22	Personne 823 844	ANNE CAROLINE JEANNIN
+A17	role T22 soignant
+T23	Personne 858 880	TRUONG DUY FRANCK PHAN
+A18	role T23 soignant
+T24	Personne 894 907	MARC POPELIER
+A19	role T24 soignant
+T25	Personne 977 990	CLAUDE SACHON
+A20	role T25 soignant
+T26	Personne 1028 1046	CHARLOTTE TORDJMAN
+A21	role T26 soignant
+T27	Personne 1057 1070	PAULINE TRECA
+A22	role T27 soignant
+T28	Personne 1084 1095	LYDIA VESCO
+A23	role T28 soignant
+T29	Personne 1131 1145	GEORGES HA VAN
+A24	role T29 soignant
+T30	Personne 1205 1221	DOMINIQUE BIDOLI
+A25	role T30 soignant
+T31	Telephone 1369 1383	01.42.17.78.32
+T32	Adresse 1589 1618	47/83, boulevard de l’Hôpital
+T33	Organisation 1525 1550	Hôpital Pitié Salpêtrière
+T34	Cp 1619 1624	75013
+T35	Ville 1625 1630	Paris
+T36	Telephone 1638 1652	01 42 17 80 53
+T37	Telephone 2028 2042	01 42 17 82 37
+T38	Organisation 1552 1564	Institut E3M

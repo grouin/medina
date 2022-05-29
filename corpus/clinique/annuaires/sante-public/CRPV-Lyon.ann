@@ -1,0 +1,15 @@
+T1	Date 70 85	27 février 2020
+T3	Telephone 181 195	04 72 11 69 97
+T4	Telephone 203 217	04 72 11 69 85
+T5	Mail 231 267	centre.pharmacovigilance@chu-lyon.fr
+T6	Organisation 377 400	Hospices civils de Lyon
+T7	Adresse 410 431	162 avenue Lacassagne
+T8	Cp 432 437	69424
+T9	Ville 438 442	Lyon
+T10	Personne 488 500	Thierry VIAL
+A1	role T10 soignant
+T11	URL 280 358	https://solidarites-sante.gouv.fr/soins-et-maladies/signalement-sante-gouv-fr/
+T12	Autre 403 409	Bât. A
+A2	classe T12 lieu
+T13	Cedex 443 451	Cedex 03
+T2	Organisation 0 43	Centre régional de pharmacovigilance - Lyon

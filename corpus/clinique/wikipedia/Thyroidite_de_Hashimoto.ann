@@ -1,0 +1,11 @@
+T1	Pathologie 17 26	Hashimoto
+T2	Personne 701 717	Hakaru Hashimoto
+T3	Date 753 757	1912
+T5	Date 1060 1064	1957
+T6	Pathologie 1083 1092	Hashimoto
+T8	Profession 684 691	médecin
+A1	role T2 soignant
+T9	Date 719 723	1881
+T10	Date 724 728	1934
+T4	Pathologie 1257 1266	Hashimoto
+T7	Anatomie 2331 2338	Hürthle
