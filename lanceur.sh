@@ -57,7 +57,8 @@ perl scripts/conlleval.pl -d '\t' <sortie-zero
 # Single annotated files production from output (files *sgml in test/)
 perl scripts/crf-output-splitter.pl sortie-zero output
 mkdir brat/
-cp corpus/clinique/jorf/test/*{txt,sgml} brat/
+cp corpus/clinique/jorf/test/*txt brat/
+cp output/*sgml brat/
 perl scripts/conversion-brat.pl brat/
 #cp brat/*{ann,txt} path/to/brat/data/
 
@@ -71,7 +72,7 @@ perl scripts/post_pseudonymization.pl -r output/ -e dat
 
 
 rm corpus/clinique/jorf/{train,test}/*tag
-rm corpus/clinique/jorf/test/*{dat,dat.log}
+rm output/*{dat,dat.log}
 
 
 
@@ -84,7 +85,7 @@ rm corpus/clinique/jorf/test/*{dat,dat.log}
 perl scripts/zero_alignement.pl corpus/clinique/jorf/train/
 perl scripts/zero_tabulaire.pl corpus/clinique/jorf/train/ tag tab_train.zero BWEMO+ Personne
 perl scripts/zero_supprimeO.pl tab_train.zero 40 >tab_reduc.zero
-time wapiti train -t 2 -a sgd-l1 -2 0.1 --eta0 0.05 -c -p config/config_zero.tpl tab_reduc.zero modele-Pers
+time wapiti train -t 2 -a rprop- -1 1 -c -p config/config_zero.tpl tab_reduc.zero modele-Pers
 wapiti label -p -m modele-Pers tab_test.zero | perl -ne "s/O$/NUL/; print $_" >temp
 wapiti label --force -p -m modele-deid temp >temp2
 cat temp2 | cut -f 1,2,3,4,5,6,7,8,9,10,11,12,13,14,16 >sortie-zero
@@ -111,5 +112,6 @@ perl scripts/poursuiteEntrainement.pl tab_reduc.zero
 wapiti train -t 2 -a rprop- -1 1 -c tab_reduc.zero -m modele-deid modele-inhouse
 wapiti label -p -m modele-inhouse tab_test.zero >sortie-zero
 perl scripts/crf-output-splitter.pl sortie-zero output
+perl scripts/conlleval.pl -d '\t' <sortie-zero
 
 rm tab_train.zero tab_reduc.zero
