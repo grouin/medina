@@ -1,0 +1,52 @@
+T1	Personne 3 10	Mérovée
+A1	role T1 autre
+T2	Personne 127 134	Mérovée
+A2	role T2 autre
+T3	Age 355 370	trente-cinq ans
+T4	Personne 425 432	Bosmans
+A3	role T4 autre
+A10	role T9 autre
+A12	role T11 autre
+A14	role T13 autre
+A16	role T15 autre
+A18	role T17 autre
+A20	role T19 autre
+A6	role T5 autre
+A8	role T7 autre
+T11	Personne 3121 3128	Bosmans
+T13	Personne 3340 3347	Bosmans
+T15	Personne 5317 5324	Bosmans
+T17	Personne 446 453	Mérovée
+T19	Personne 630 637	Mérovée
+T5	Personne 703 710	Bosmans
+T7	Personne 2505 2512	Bosmans
+T9	Personne 2793 2800	Bosmans
+T6	Adresse 1235 1254	rue du Cherche-Midi
+T8	Adresse 1256 1271	rue de l'Alboni
+T10	Adresse 1273 1286	rue Corvisart
+T12	Adresse 1519 1536	rue des Perchamps
+T14	Personne 1769 1777	Margaret
+A4	role T14 autre
+T16	Age 3084 3105	cinquantaine d'années
+T18	Personne 5375 5389	Yvonne Gaucher
+A5	role T18 autre
+T20	Personne 5351 5364	André Poutrel
+A7	role T20 autre
+T21	Organisation 6543 6557	agence Stewart
+T22	Adresse 6559 6580	faubourg Saint-Honoré
+T23	Age 6644 6665	cinquantaine d'années
+T24	Age 6377 6390	cinquante ans
+T25	Adresse 6223 6238	8 rue de Belloy
+T26	Personne 7110 7119	Bagherian
+A9	role T26 autre
+A28	role T27 autre
+T27	Personne 5305 5313	Margaret
+T28	Lieu 1034 1049	Porte-d'Orléans
+T29	Lieu 1052 1072	Port-de-Clignancourt
+T30	Profession 1151 1160	mannequin
+T31	Age 1708 1726	trentaine d'années
+T32	Age 1933 1951	trentaine d'années
+T33	Personne 2139 2146	Boyaval
+A11	role T33 autre
+T35	Adresse 3406 3418	rue de Seine
+T36	Lieu 3829 3855	quatorzième arrondissement
