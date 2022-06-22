@@ -23,9 +23,11 @@ foreach my $fichier (@rep) {
   my $offset=0;
   my $i=$id."1";
   my $sortie=$fichier; $sortie=~s/sgml$/ann/;
-  
+  my $texte=$fichier; $texte=~s/sgml$/txt/;
+
   open(E,'<:utf8',$fichier);
   open(S,'>:utf8',$sortie);
+  open(T,'>:utf8',$texte);
   while (my $ligne=<E>) {
     # Balise ouvrante non fermée sur la même ligne et balise fermante
     # non ouverte sur la même ligne : ajout d'une balise fermante en
@@ -52,9 +54,11 @@ foreach my $fichier (@rep) {
     }
     
     if ($ligne eq "") { $offset++; } else { $offset+=length($ligne); }
+    print T "$ligne";
   }
   close(E);
   close(S);
+  close(T);
 }
 
 

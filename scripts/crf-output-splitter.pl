@@ -2,7 +2,8 @@
 
 # Segmente le fichier de prédictions CRF en autant de fichiers
 # individuels qu'à l'origine (extension *sgml) dans le répertoire des
-# fichiers traités
+# fichiers traités, convertit les noms de fichier en ASCII (seul
+# encodage possible pour BRAT qui repose sur Python 2.7)
 
 # Usage : perl crf-output-splitter.pl tabulairePrédictions repertoireSortie
 
@@ -11,6 +12,7 @@
 
 use strict;
 use utf8;
+use Encode;
 
 my $tabulaire=$ARGV[0];
 my $repSortie=$ARGV[1];
@@ -33,6 +35,7 @@ while (my $ligne=<E>) {
     if ($repSortie ne "") { $fichier=~s/^.*\///; $fichier="$repSortie\/".$fichier; }
     $numLigneFichier=0;
     $numTokenLigne=0;
+    Encode::from_to($fichier, 'utf8', 'ascii'); $fichier=~s/\?/\-/g;
   }
   else {
     # Ligne non vide, on récupère le token et l'annotation
