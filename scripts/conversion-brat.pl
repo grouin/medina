@@ -4,11 +4,13 @@
 # d'annotation au format BRAT d'extension *.ann. S'il existe déjà des
 # fichiers *.ann dans le répertoire (annotations de référence
 # pré-existantes pour évaluer les performances), ils seront écrasés ;
-# prévoir des sauvegardes.
+# prévoir des sauvegardes. Les annotations sur plusieurs lignes sont
+# converties en une annotation par ligne (erreur dans le calcul des
+# offsets et problème d'affichage sous BRAT).
 
 # Usage : perl conversion-brat.pl répertoire/
 
-# Auteur : Cyril Grouin, décembre 2019.
+# Auteur : Cyril Grouin, décembre 2019, juin 2022.
 
 
 use strict;
@@ -25,6 +27,13 @@ foreach my $fichier (@rep) {
   open(E,'<:utf8',$fichier);
   open(S,'>:utf8',$sortie);
   while (my $ligne=<E>) {
+    # Balise ouvrante non fermée sur la même ligne et balise fermante
+    # non ouverte sur la même ligne : ajout d'une balise fermante en
+    # fin de ligne et d'une balise ouvrante en début de ligne. Si des
+    # espaces figuraient dans ces portions, elles en sont sorties
+    if ($ligne=~/<([^\/][^>]+)>([^<]+)$/) { chomp $ligne; $ligne.="<\/$1>\n"; $ligne=~s/(\s+)(<\/[^>]+>)/$2$1/; }
+    if ($ligne=~/^[^<]+<\/([^>]+)>/) { $ligne="<$1>".$ligne; $ligne=~s/^(<[^>]+>)(\s+)/$2$1/; }
+
     # Tant qu'il y a des portions encadrées de balises ouvrantes et
     # fermantes, on supprime ces balises et on produit une ligne de
     # sortie dans le fichier d'annotation BRAT
