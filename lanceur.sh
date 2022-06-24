@@ -44,18 +44,28 @@ perl scripts/zero_supprimeO.pl tab_train.zero 17 >tab_reduc.zero
 wapiti train -t 2 -a rprop- -1 1 -c -p config/config_zero.tpl tab_reduc.zero modele-zero
 
 # Model application on test data
-wapiti label -p -m modele-zero tab_test.zero >sortie-zero
+wapiti label -p -m modele-zero tab_test.zero >sortie-zero.wap
 
-# Prediction output evaluation (script from the conll challenge)
-#perl -CSDA scripts/post_propagation.pl sortie-zero >sortie-zero.prop
-perl scripts/post_conversion.pl sortie-zero
-perl scripts/conlleval.pl -d '\t' <sortie-zero
+# If a lexicon file is provided with mandatory annotations to be made
+# (especially in case of regular sensitive data), the previous
+# prediction file will be completed with annotations from the lexicon
+perl scripts/post_lexique.pl -r ./ -e wap -s out
+
+# A propagation of annotations already made can be done, but this
+# process does not take into account the context (perhaps dangerous)
+#perl -CSDA scripts/post_propagation.pl sortie-zero.out >sortie-zero.prop
+
+# Prediction output evaluation (script from the conll challenge); a
+# conversion step from BWEMO annotation schema to a more classical
+# BIO2 one is mandatory
+perl scripts/post_conversion.pl sortie-zero.out
+perl scripts/conlleval.pl -d '\t' <sortie-zero.out
 
 # False positive and false negative analysis
 #perl scripts/post_differences.pl sortie-zero
 
 # Single annotated files production from output (files *sgml in test/)
-perl scripts/crf-output-splitter.pl sortie-zero output
+perl scripts/crf-output-splitter.pl sortie-zero.out output
 mkdir brat/
 cp corpus/clinique/jorf/test/*txt brat/
 cp output/*sgml brat/

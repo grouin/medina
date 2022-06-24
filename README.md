@@ -18,9 +18,6 @@ Files:
   existing annotated data in corpus/appr/ and corpus/test/ files
   containing both *{ann,txt} files)
 
-* desidentification.sh: all usef commands to de-identify *txt files
-  (no evaluation will be made, assuming there is no gold standard)
-
 * scripts/pre_creeDictionnaire.bash: produces forme-lemme-pos.tab file
   in the data directory (list of forms, lemmas, and POS for French,
   from CNAM data); to be done only once
@@ -160,7 +157,7 @@ information, and then to perform the two last stages.
 
 This toolbox is licenced under the term of the two-clause BSD Licence:
 
-    Copyright (c) 2020 CNRS
+    Copyright (c) 2020, 2021, 2022 CNRS
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without

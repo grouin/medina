@@ -4,7 +4,12 @@
 # .wap), complète la dernière colonne par l'annotation des séquences
 # de 1 à 6 tokens présentes dans le lexique (deux colonnes séparées
 # par une tabulation : classe et expression mono/poly-lexicale) et
-# dans le tabulaire
+# dans le tabulaire, ssi la séquence n'a pas déjà été partiellement
+# annotée par Wapiti (évite d'annoter "Orsay" dans "Hôpital d'Orsay"
+# avec "Hôpital d'" comme Organisation et "Orsay" comme Ville). Dans
+# certains cas, il peut être préféré de corriger des prédictions en
+# les remplaçant (prévoir un deuxième lexique pour remplacements
+# imposés ?).
 
 # - lexique.tab (prévoir la tokénisation, pas pratique...) :
 # Ville   Orsay
@@ -90,7 +95,8 @@ foreach my $fichier (@rep) {
 
 	# Six tokens
 	my $token=quotemeta($global[$numToken-5][$colToken])."_".quotemeta($global[$numToken-4][$colToken])."_".quotemeta($global[$numToken-3][$colToken])."_".quotemeta($global[$numToken-2][$colToken])."_".quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
-	if (grep/^$token$/i,@LEX) {
+	my $sequenceTag=$global[$numToken-5][$lastCol].$global[$numToken-4][$lastCol].$global[$numToken-3][$lastCol].$global[$numToken-2][$lastCol].$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
+	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-5][$lastCol]="B-".$claff;
@@ -103,7 +109,8 @@ foreach my $fichier (@rep) {
 
 	# Cinq tokens
 	my $token=quotemeta($global[$numToken-4][$colToken])."_".quotemeta($global[$numToken-3][$colToken])."_".quotemeta($global[$numToken-2][$colToken])."_".quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
-	if (grep/^$token$/i,@LEX) {
+	my $sequenceTag=$global[$numToken-4][$lastCol].$global[$numToken-3][$lastCol].$global[$numToken-2][$lastCol].$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
+	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-4][$lastCol]="B-".$claff;
@@ -115,7 +122,8 @@ foreach my $fichier (@rep) {
 
 	# Quatre tokens
 	my $token=quotemeta($global[$numToken-3][$colToken])."_".quotemeta($global[$numToken-2][$colToken])."_".quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
-	if (grep/^$token$/i,@LEX) {
+	my $sequenceTag=$global[$numToken-3][$lastCol].$global[$numToken-2][$lastCol].$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
+	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-3][$lastCol]=$claff;
@@ -126,7 +134,8 @@ foreach my $fichier (@rep) {
 
 	# Trois tokens
 	my $token=quotemeta($global[$numToken-2][$colToken])."_".quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
-	if (grep/^$token$/i,@LEX) {
+	my $sequenceTag=$global[$numToken-2][$lastCol].$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
+	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-2][$lastCol]="B-".$claff;
@@ -136,7 +145,8 @@ foreach my $fichier (@rep) {
 
 	# Deux tokens
 	my $token=quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
-	if (grep/^$token$/i,@LEX) {
+	my $sequenceTag=$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
+	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-1][$lastCol]="B-".$claff;
@@ -145,7 +155,8 @@ foreach my $fichier (@rep) {
 
 	# Un seul token
 	my $token=quotemeta($global[$numToken][$colToken]);
-	if (grep/^$token$/i,@LEX) {
+	my $sequenceTag=$global[$numToken][$lastCol];
+	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken][$lastCol]="W-".$claff;
