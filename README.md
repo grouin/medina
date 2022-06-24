@@ -51,6 +51,12 @@ Files:
   two other configuration files are given: config_lex.tpl and
   config_semi-lex.tpl)
 
+* scripts/post_lexique.pl: applies the content of lexique.tab file
+  (two columns: class and phrase) on the prediction files in order to
+  complete the annotations (BWEMO annotation schema). Three arguments:
+  -r (repository to prediction file: ./), -e (file extension of the
+  input file: wap), -s (file extension of the output file: out)
+
 * scripts/post_conversion.pl: converts the prediction file from BWEMO+
   annotation schema to BIO2 annotation schema in order to perform an
   evaluation using the conneval.pl evaluation script
@@ -118,12 +124,13 @@ These are end-to-end commands:
 	perl scripts/pre_verification-tabulaire.pl tab_test.zero
 	
 	wapiti train -t 2 -a rprop- -1 1 -p config_zero.tpl tab_train.zero modele-zero
-	wapiti label -p -m modele-zero tab_test.zero >sortie-zero
+	wapiti label -p -m modele-zero tab_test.zero >sortie-zero.wap
 
-	perl scripts/post_conversion.pl sortie-zero
-	perl scripts/conlleval.pl -d '\t' <sortie-zero
+	perl scripts/post_lexique.pl -r ./ -e wap -s out
+	perl scripts/post_conversion.pl sortie-zero.out
+	perl scripts/conlleval.pl -d '\t' <sortie-zero.out
 	
-	perl scripts/crf-output-splitter.pl sortie-zero output
+	perl scripts/crf-output-splitter.pl sortie-zero.out output
 	perl scripts/post_antidatation.pl -r output/ -e sgml
 	perl scripts/post_pseudonymization.pl -r output/ -e dat
 
@@ -138,8 +145,8 @@ folder (e.g., a "input" folder) and perform the following stages:
 
 	tar -xvzf modele-deid.tar.gz
 	perl scripts/zero_tabulaire.pl input/ txt tab_test.zero BWEMO+
-	wapiti label -p -m modele-deid tab_test.zero >sortie-zero
-	perl scripts/crf-output-splitter.pl sortie-zero output
+	wapiti label -p -m modele-deid tab_test.zero >sortie-zero.wap
+	perl scripts/crf-output-splitter.pl sortie-zero.wap output
 	perl scripts/post_antidatation.pl -r output/ -e sgml
 	perl scripts/post_pseudonymization.pl -r output/ -e dat
 
