@@ -126,10 +126,10 @@ foreach my $fichier (@rep) {
 	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
-	    $global[$numToken-3][$lastCol]=$claff;
-	    $global[$numToken-2][$lastCol]=$claff;
-	    $global[$numToken-1][$lastCol]=$claff;
-	    $global[$numToken][$lastCol]=$claff;
+	    $global[$numToken-3][$lastCol]="B-".$claff;
+	    $global[$numToken-2][$lastCol]="M-".$claff;
+	    $global[$numToken-1][$lastCol]="M-".$claff;
+	    $global[$numToken][$lastCol]="E-".$claff;
 	}
 
 	# Trois tokens
