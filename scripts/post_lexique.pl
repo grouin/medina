@@ -16,19 +16,19 @@
 # Examen  séquences pulmonaires et cérébrales
 # Titre   Compte - rendu d' imagerie nucléaire
 
-# perl post_lexique.pl -r ./ -e wap -s out
+# perl post_lexique.pl -l lexique.tab -r ./ -e wap -s out
 
 
 use strict;
-use vars qw($opt_r $opt_e $opt_s);
+use vars qw($opt_r $opt_e $opt_s $opt_l);
 use Getopt::Std;
-&getopts("r:e:s:");
+&getopts("r:e:s:l:");
 
 my @rep=<$opt_r/*$opt_e>;
 my $colToken=1;
 
 my ($numToken,$numCol,$lastCol)=(0,0,0);
-my $lexique="lexique.tab";
+my $lexique=$opt_l; #"lexique.tab";
 my @LEX=();
 my %LEXcorr=();
 

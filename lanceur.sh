@@ -48,8 +48,11 @@ wapiti label -p -m modele-zero tab_test.zero >sortie-zero.wap
 
 # If a lexicon file is provided with mandatory annotations to be made
 # (especially in case of regular sensitive data), the previous
-# prediction file will be completed with annotations from the lexicon
-perl scripts/post_lexique.pl -r ./ -e wap -s out
+# prediction file will be completed with annotations from the lexicon;
+# a lexicon may be infered from file names if those names are composed
+# of first names and last names of patients
+#perl scripts/creeLexiqueDepuisFichiers.pl input/ >lexique.tab
+perl scripts/post_lexique.pl -l lexique.tab -r ./ -e wap -s out
 
 # A propagation of annotations already made can be done, but this
 # process does not take into account the context (perhaps dangerous)
