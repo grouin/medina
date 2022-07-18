@@ -93,10 +93,11 @@ foreach my $fichier (@rep) {
     foreach my $ligne (@global) {
 	my $texte="";
 
-	# Six tokens
+	# Six tokens, quelle que soit l'annotation existante
 	my $token=quotemeta($global[$numToken-5][$colToken])."_".quotemeta($global[$numToken-4][$colToken])."_".quotemeta($global[$numToken-3][$colToken])."_".quotemeta($global[$numToken-2][$colToken])."_".quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
 	my $sequenceTag=$global[$numToken-5][$lastCol].$global[$numToken-4][$lastCol].$global[$numToken-3][$lastCol].$global[$numToken-2][$lastCol].$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
-	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
+	#if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
+	if (grep/^$token$/i,@LEX) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-5][$lastCol]="B-".$claff;
@@ -107,10 +108,11 @@ foreach my $fichier (@rep) {
 	    $global[$numToken][$lastCol]="E-".$claff;
 	}
 
-	# Cinq tokens
+	# Cinq tokens, quelle que soit l'annotation existante
 	my $token=quotemeta($global[$numToken-4][$colToken])."_".quotemeta($global[$numToken-3][$colToken])."_".quotemeta($global[$numToken-2][$colToken])."_".quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
 	my $sequenceTag=$global[$numToken-4][$lastCol].$global[$numToken-3][$lastCol].$global[$numToken-2][$lastCol].$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
-	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
+	#if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
+	if (grep/^$token$/i,@LEX) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-4][$lastCol]="B-".$claff;
@@ -120,10 +122,11 @@ foreach my $fichier (@rep) {
 	    $global[$numToken][$lastCol]="E-".$claff;
 	}
 
-	# Quatre tokens
+	# Quatre tokens, quelle que soit l'annotation existante
 	my $token=quotemeta($global[$numToken-3][$colToken])."_".quotemeta($global[$numToken-2][$colToken])."_".quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
 	my $sequenceTag=$global[$numToken-3][$lastCol].$global[$numToken-2][$lastCol].$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
-	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
+	#if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
+	if (grep/^$token$/i,@LEX) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-3][$lastCol]="B-".$claff;
@@ -132,10 +135,11 @@ foreach my $fichier (@rep) {
 	    $global[$numToken][$lastCol]="E-".$claff;
 	}
 
-	# Trois tokens
+	# Trois tokens, quelle que soit l'annotation existante
 	my $token=quotemeta($global[$numToken-2][$colToken])."_".quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
 	my $sequenceTag=$global[$numToken-2][$lastCol].$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
-	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
+	#if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
+	if (grep/^$token$/i,@LEX) {
 	    $token=lc($token);
 	    my $claff=""; if (exists $LEXcorr{$token}) { $claff=uc(substr($LEXcorr{$token},0,1)).substr($LEXcorr{$token},1); }
 	    $global[$numToken-2][$lastCol]="B-".$claff;
@@ -143,7 +147,7 @@ foreach my $fichier (@rep) {
 	    $global[$numToken][$lastCol]="E-".$claff;
 	}
 
-	# Deux tokens
+	# Deux tokens ; peut-être dangereux de ne pas contrôler les annotations existantes, ici limité à des annotations O
 	my $token=quotemeta($global[$numToken-1][$colToken])."_".quotemeta($global[$numToken][$colToken]);
 	my $sequenceTag=$global[$numToken-1][$lastCol].$global[$numToken][$lastCol];
 	if ((grep/^$token$/i,@LEX) && ($sequenceTag=~/(^O+$|^O+\-EOS$)/)) {
