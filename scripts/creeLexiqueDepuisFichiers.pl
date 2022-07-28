@@ -8,12 +8,12 @@
 
 use strict;
 my $chemin=$ARGV[0];
-my @rep=<$chemin/*txt>;
+my @rep=<$chemin/*>;
 my %lexique=();
 
 foreach my $fichier (@rep) {
     my ($nom,$prenom)=("","");
-    if ($fichier=~/\d+\_(.*)\_\d+/) {
+    if ($fichier=~/\d+\_(.*)\_\d+\_\d+/) {
 	my $schema=$1; $schema=~s/\_?\(.*\)//;
 	my @tokens=split(/\_/,$schema);
 	# Valable tant que le(s) nom(s) sont en capitales et le(s)
