@@ -77,16 +77,6 @@ Files:
 * scripts/post_combineColonnes.pl: merges several columns of
   predictions when mono-category models are used
 
-* scripts/post_description.pl: based on the tagged files (*sgml),
-  transforms all tokens in basic POS+case information but keeps some
-  digit (not in dates) and trigger words; allows to highlight basic
-  linguistic structures in processed files, either to improve scripts
-  or to describe how a clinical document is made (tentative)
-
-* scripts/transformeCaracteres.pl: transforms all characters from *txt
-  files into another characters from the same type (a vowel by another
-  vowel, a consonnant by another consonnant)
-
 
 ## Commands ##
 

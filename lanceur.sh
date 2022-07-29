@@ -51,7 +51,6 @@ wapiti label -p -m modele-zero tab_test.zero >sortie-zero.wap
 # prediction file will be completed with annotations from the lexicon;
 # a lexicon may be infered from file names if those names are composed
 # of first names and last names of patients
-#perl scripts/creeLexiqueDepuisFichiers.pl input/ >lexique.tab
 perl scripts/post_lexique.pl -l lexique.tab -r ./ -e wap -s out
 
 # A propagation of annotations already made can be done, but this
